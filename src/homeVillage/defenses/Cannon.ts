@@ -506,7 +506,7 @@ const cannon: Cannon = {
     if (level >= 1 && level <= this.levels.length) {
       return this.levels[level - 1]
     } else {
-      console.error(`Invalid cannon level: ${level}`)
+      console.error(`Invalid ${this.name} level: ${level}`)
       return undefined
     }
   },

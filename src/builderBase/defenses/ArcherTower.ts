@@ -202,7 +202,7 @@ const cannon: BuilderBaseDefense = {
     if (level >= 1 && level <= this.levels.length) {
       return this.levels[level - 1]
     } else {
-      console.error(`Invalid Archer Tower level: ${level}`)
+      console.error(`Invalid ${this.name} level: ${level}`)
       return undefined
     }
   },
