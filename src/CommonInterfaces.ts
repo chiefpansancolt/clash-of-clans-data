@@ -72,9 +72,11 @@ export interface Defense {
   maxCount: number
   width: number
   height: number
-  range: number
+  minRange: number
+  maxRange: number
   attackSpeed: number
   damageType: string
+  tiles: number
   unitTypeTarget: string
   maxLevel: number
 

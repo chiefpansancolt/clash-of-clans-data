@@ -11,7 +11,9 @@ const cannon: BuilderBaseDefense = {
   description:
     "No foe can escape the Archer's arrows. This tower has a special switch - choose long range or fast attack!",
   maxCount: 3,
-  range: 10,
+  minRange: 10,
+  maxRange: 10,
+  tiles: 0,
   attackSpeed: 1,
   width: 3,
   height: 3,
