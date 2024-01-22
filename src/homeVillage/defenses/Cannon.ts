@@ -7,7 +7,7 @@ import {
   HomeVillageDefense,
 } from '../../CommonInterfaces'
 
-export interface CannonLevel extends HomeVillageLevel {
+interface CannonLevel extends HomeVillageLevel {
   gearImgUrl: string
   burstImgUrl: string
 }
@@ -37,8 +37,8 @@ const cannon: Cannon = {
     buildTimeMin: 0,
     buildTimeHour: 0,
     buildTimeDay: 2,
-    homeVillageCannonLevelRequired: 7,
-    doubleCannonLevelRequired: 4,
+    homeVillageLevelRequired: 7,
+    builderBaseDefenseLevelRequired: 4,
   },
   townHallDetails: [
     { townHall: 1, availableCount: 2, maxLevel: 2 },

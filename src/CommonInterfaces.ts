@@ -37,8 +37,8 @@ export interface GearUp {
   buildTimeMin: number
   buildTimeHour: number
   buildTimeDay: number
-  homeVillageCannonLevelRequired: number
-  doubleCannonLevelRequired: number
+  homeVillageLevelRequired: number
+  builderBaseDefenseLevelRequired: number
 }
 
 export interface TownHallDefense {
