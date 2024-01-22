@@ -1,5 +1,6 @@
 export const singleTarget: string = 'Single Target'
 export const ground: string = 'Ground'
+export const groundAndAir: string = 'Ground & Air'
 export const gold: string = 'Gold'
 export const builderGold: string = 'Builder Gold'
 export const capitalGold: string = 'Capital Gold'
