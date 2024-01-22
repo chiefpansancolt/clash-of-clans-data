@@ -431,7 +431,7 @@ const cannon: Mortor = {
     if (level >= 1 && level <= this.levels.length) {
       return this.levels[level - 1]
     } else {
-      console.error(`Invalid cannon level: ${level}`)
+      console.error(`Invalid Mortor level: ${level}`)
       return undefined
     }
   },
