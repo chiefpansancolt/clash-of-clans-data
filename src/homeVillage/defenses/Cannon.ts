@@ -1,18 +1,18 @@
 import * as Constants from '../../Constats'
 import {
-  Level,
-  Defense,
   TownHallDefense,
   AchievementLevel,
   GearUp,
+  HomeVillageLevel,
+  HomeVillageDefense,
 } from '../../CommonInterfaces'
 
-export interface CannonLevel extends Level {
+export interface CannonLevel extends HomeVillageLevel {
   gearImgUrl: string
   burstImgUrl: string
 }
 
-interface Cannon extends Defense {
+interface Cannon extends HomeVillageDefense {
   levels: CannonLevel[]
   gearUp: GearUp
 
@@ -41,86 +41,22 @@ const cannon: Cannon = {
     doubleCannonLevelRequired: 4,
   },
   townHallDetails: [
-    {
-      townHall: 1,
-      availableCount: 2,
-      maxLevel: 2,
-    },
-    {
-      townHall: 2,
-      availableCount: 2,
-      maxLevel: 3,
-    },
-    {
-      townHall: 3,
-      availableCount: 2,
-      maxLevel: 4,
-    },
-    {
-      townHall: 4,
-      availableCount: 2,
-      maxLevel: 5,
-    },
-    {
-      townHall: 5,
-      availableCount: 3,
-      maxLevel: 6,
-    },
-    {
-      townHall: 6,
-      availableCount: 3,
-      maxLevel: 7,
-    },
-    {
-      townHall: 7,
-      availableCount: 5,
-      maxLevel: 8,
-    },
-    {
-      townHall: 8,
-      availableCount: 5,
-      maxLevel: 10,
-    },
-    {
-      townHall: 9,
-      availableCount: 5,
-      maxLevel: 11,
-    },
-    {
-      townHall: 10,
-      availableCount: 6,
-      maxLevel: 13,
-    },
-    {
-      townHall: 11,
-      availableCount: 7,
-      maxLevel: 15,
-    },
-    {
-      townHall: 12,
-      availableCount: 7,
-      maxLevel: 17,
-    },
-    {
-      townHall: 13,
-      availableCount: 7,
-      maxLevel: 19,
-    },
-    {
-      townHall: 14,
-      availableCount: 7,
-      maxLevel: 20,
-    },
-    {
-      townHall: 15,
-      availableCount: 7,
-      maxLevel: 21,
-    },
-    {
-      townHall: 16,
-      availableCount: 7,
-      maxLevel: 21,
-    },
+    { townHall: 1, availableCount: 2, maxLevel: 2 },
+    { townHall: 2, availableCount: 2, maxLevel: 3 },
+    { townHall: 3, availableCount: 2, maxLevel: 4 },
+    { townHall: 4, availableCount: 2, maxLevel: 5 },
+    { townHall: 5, availableCount: 3, maxLevel: 6 },
+    { townHall: 6, availableCount: 3, maxLevel: 7 },
+    { townHall: 7, availableCount: 5, maxLevel: 8 },
+    { townHall: 8, availableCount: 5, maxLevel: 10 },
+    { townHall: 9, availableCount: 5, maxLevel: 11 },
+    { townHall: 10, availableCount: 6, maxLevel: 13 },
+    { townHall: 11, availableCount: 7, maxLevel: 15 },
+    { townHall: 12, availableCount: 7, maxLevel: 17 },
+    { townHall: 13, availableCount: 7, maxLevel: 19 },
+    { townHall: 14, availableCount: 7, maxLevel: 20 },
+    { townHall: 15, availableCount: 7, maxLevel: 21 },
+    { townHall: 16, availableCount: 7, maxLevel: 21 },
   ],
   achievements: [
     {
