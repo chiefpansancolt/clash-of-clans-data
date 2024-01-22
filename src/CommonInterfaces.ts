@@ -97,6 +97,7 @@ export interface HomeVillageDefense extends Defense {
 }
 
 export interface BuilderBaseDefense extends Defense {
+  shots: number
   levels: BuilderBaseLevel[]
   townHallDetails: TownHallDefense[]
   achievements: Achievement[]

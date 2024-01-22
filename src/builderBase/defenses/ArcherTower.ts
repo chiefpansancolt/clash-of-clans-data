@@ -14,6 +14,7 @@ const cannon: BuilderBaseDefense = {
   minRange: 10,
   maxRange: 10,
   tiles: 0,
+  shots: 0,
   attackSpeed: 1,
   width: 3,
   height: 3,
