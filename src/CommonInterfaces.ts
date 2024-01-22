@@ -5,13 +5,30 @@ export interface Level {
   hitpoints: number
   buildCost: number
   buildCostResource: string
+  baseImgUrl: string
+}
+
+export interface HomeVillageLevel extends Level {
   buildTimeSec: number
   buildTimeMin: number
   buildTimeHour: number
   buildTimeDay: number
   exp: number
   townHallLevelRequired: number
-  baseImgUrl: string
+}
+
+export interface BuilderBaseLevel extends Level {
+  buildTimeSec: number
+  buildTimeMin: number
+  buildTimeHour: number
+  buildTimeDay: number
+  exp: number
+  townHallLevelRequired: number
+}
+
+export interface ClanCapitalLevel extends Level {
+  clanCapitalLevel: number
+  districtHallLevel: number
 }
 
 export interface GearUp {
@@ -28,6 +45,11 @@ export interface TownHallDefense {
   townHall: number
   availableCount: number
   maxLevel: number
+}
+
+export interface CapitalHallDefense {
+  name: string
+  levels: TownHallDefense[]
 }
 
 export interface Achievement {
@@ -55,15 +77,40 @@ export interface Defense {
   damageType: string
   unitTypeTarget: string
   maxLevel: number
-  townHallDetails: TownHallDefense[]
-  levels: Level[]
-  achievements: Achievement[]
 
   getSize(): string
-  getLevel(levelr: number): Level | undefined
+}
+
+export interface HomeVillageDefense extends Defense {
+  levels: HomeVillageLevel[]
+  townHallDetails: TownHallDefense[]
+  achievements: Achievement[]
+
+  getLevel(levelr: number): HomeVillageLevel | undefined
   getTownHallLevel(level: number): TownHallDefense | undefined
   getAchievementLevel(
     level: number,
     count: number
   ): AchievementLevel | undefined
+}
+
+export interface BuilderBaseDefense extends Defense {
+  levels: BuilderBaseLevel[]
+  townHallDetails: TownHallDefense[]
+  achievements: Achievement[]
+
+  getLevel(levelr: number): BuilderBaseLevel | undefined
+  getTownHallLevel(level: number): TownHallDefense | undefined
+  getAchievementLevel(
+    level: number,
+    count: number
+  ): AchievementLevel | undefined
+}
+
+export interface ClanCapitalDefense extends Defense {
+  levels: ClanCapitalLevel[]
+  capitalHallDetails: CapitalHallDefense[]
+
+  getLevel(levelr: number): ClanCapitalLevel | undefined
+  getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined
 }
