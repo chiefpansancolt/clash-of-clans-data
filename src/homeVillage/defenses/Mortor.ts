@@ -19,7 +19,7 @@ interface Mortor extends HomeVillageDefense {
   getLevel(levelNumber: number): MortorLevel | undefined
 }
 
-const cannon: Mortor = {
+const mortor: Mortor = {
   name: 'Mortor',
   description:
     "The Mortar can mow down hordes of enemies by the splash damage from its shell. Don't let enemies get too close to it!",
@@ -466,4 +466,4 @@ const cannon: Mortor = {
   },
 }
 
-export default cannon
+export default mortor

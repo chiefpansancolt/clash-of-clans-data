@@ -6,7 +6,7 @@ import {
   AchievementLevel,
 } from '../../CommonInterfaces'
 
-const cannon: BuilderBaseDefense = {
+const archerTower: BuilderBaseDefense = {
   name: 'Archer Tower',
   description:
     "No foe can escape the Archer's arrows. This tower has a special switch - choose long range or fast attack!",
@@ -238,4 +238,4 @@ const cannon: BuilderBaseDefense = {
   },
 }
 
-export default cannon
+export default archerTower
