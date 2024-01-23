@@ -4,7 +4,6 @@ import { ClanCapitalLevel, TownHallDefense, ClanCapitalDefense } from '../../Com
 const cannon: ClanCapitalDefense = {
 	name: '',
 	description: '',
-	maxCount: 0,
 	minRange: 0,
 	maxRange: 0,
 	tiles: 0,
