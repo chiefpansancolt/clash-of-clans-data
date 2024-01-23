@@ -11,16 +11,20 @@ const archerTower: BuilderBaseDefense = {
 	description:
 		"No foe can escape the Archer's arrows. This tower has a special switch - choose long range or fast attack!",
 	maxCount: 3,
-	minRange: 0,
-	maxRange: 10,
-	tiles: 0,
-	shots: 0,
-	attackSpeed: 1,
 	width: 3,
 	height: 3,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.groundAndAir,
 	maxLevel: 10,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.groundAndAir,
+			minRange: 0,
+			maxRange: 10,
+			tiles: 0,
+			attackSpeed: 1,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 1, maxLevel: 1 },

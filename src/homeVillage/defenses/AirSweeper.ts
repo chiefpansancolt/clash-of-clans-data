@@ -11,15 +11,20 @@ const airSweeper: HomeVillagePushDefense = {
 	description:
 		'Air Sweepers control the sky with strong blasts of air that push back flying enemies. Air Sweepers can only face one direction, so rotate them to maximize their effectiveness.',
 	maxCount: 2,
-	minRange: 1,
-	maxRange: 15,
-	tiles: 0,
-	attackSpeed: 5,
 	width: 2,
 	height: 2,
-	damageType: Constants.noneKnockback,
-	unitTypeTarget: Constants.air,
 	maxLevel: 7,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.noneKnockback,
+			unitTypeTarget: Constants.air,
+			minRange: 1,
+			maxRange: 15,
+			tiles: 0,
+			attackSpeed: 5,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },

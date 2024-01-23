@@ -11,15 +11,20 @@ const wizardTower: HomeVillageDefense = {
 	description:
 		'The Ultimate Arcane Defense! Tower Wizards cast powerful area effect spells that target both flying and ground troops.',
 	maxCount: 5,
-	minRange: 0,
-	maxRange: 7,
-	tiles: 1,
-	attackSpeed: 1.3,
 	width: 3,
 	height: 3,
-	damageType: Constants.splash,
-	unitTypeTarget: Constants.groundAndAir,
 	maxLevel: 16,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.splash,
+			unitTypeTarget: Constants.groundAndAir,
+			minRange: 0,
+			maxRange: 7,
+			tiles: 1,
+			attackSpeed: 1.3,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },

@@ -4,15 +4,20 @@ import { ClanCapitalLevel, TownHallDefense, ClanCapitalDefense } from '../../Com
 const cannon: ClanCapitalDefense = {
 	name: '',
 	description: '',
-	minRange: 0,
-	maxRange: 0,
-	tiles: 0,
-	attackSpeed: 0,
 	width: 0,
 	height: 0,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.ground,
 	maxLevel: 0,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.air,
+			minRange: 0,
+			maxRange: 0,
+			tiles: 0,
+			attackSpeed: 0,
+		},
+	],
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,

@@ -24,14 +24,8 @@ const cannon: Cannon = {
 	description:
 		'Cannons are great for point defense. Upgrade cannons to increase their firepower, but beware that your defensive turrets cannot shoot while being upgraded!',
 	maxCount: 7,
-	minRange: 0,
-	maxRange: 9,
-	tiles: 0,
-	attackSpeed: 0.8,
 	width: 3,
 	height: 3,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.ground,
 	maxLevel: 21,
 	gearUp: {
 		buildCost: 1500000,
@@ -42,6 +36,17 @@ const cannon: Cannon = {
 		homeVillageLevelRequired: 7,
 		builderBaseDefenseLevelRequired: 4,
 	},
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.ground,
+			minRange: 0,
+			maxRange: 9,
+			tiles: 0,
+			attackSpeed: 0.8,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 2, maxLevel: 2 },
 		{ townHall: 2, availableCount: 2, maxLevel: 3 },

@@ -11,15 +11,20 @@ const airDefense: HomeVillageDefense = {
 	description:
 		"This anti-air tower is deadly against flying enemies, but can't target foes on the ground. Place it wisely to cover as much airspace as possible.",
 	maxCount: 4,
-	minRange: 0,
-	maxRange: 10,
-	tiles: 0,
-	attackSpeed: 1,
 	width: 3,
 	height: 3,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.air,
 	maxLevel: 14,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.air,
+			minRange: 0,
+			maxRange: 10,
+			tiles: 0,
+			attackSpeed: 1,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },

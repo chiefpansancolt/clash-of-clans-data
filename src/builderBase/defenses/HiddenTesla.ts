@@ -4,10 +4,15 @@ import {
 	BuilderBaseLevel,
 	BuilderBaseDefense,
 	AchievementLevel,
+	DefenseMode,
 } from '../../CommonInterfaces'
 
-interface HiddenTesla extends BuilderBaseDefense {
+interface HiddenTeslaMode extends DefenseMode {
 	triggerRange: number
+}
+
+interface HiddenTesla extends BuilderBaseDefense {
+	modes: HiddenTeslaMode[]
 }
 
 const hiddenTesla: HiddenTesla = {
@@ -15,17 +20,21 @@ const hiddenTesla: HiddenTesla = {
 	description:
 		'Part tower, part trap, completely shocking! Zap air and ground foes alike with the power of science!',
 	maxCount: 3,
-	minRange: 0,
-	maxRange: 7,
-	triggerRange: 6,
-	tiles: 0,
-	shots: 0,
-	attackSpeed: 0.6,
 	width: 2,
 	height: 2,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.groundAndAir,
 	maxLevel: 10,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.groundAndAir,
+			minRange: 0,
+			maxRange: 7,
+			triggerRange: 6,
+			tiles: 0,
+			attackSpeed: 0.6,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },

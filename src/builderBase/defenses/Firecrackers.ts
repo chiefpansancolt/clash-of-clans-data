@@ -4,23 +4,37 @@ import {
 	BuilderBaseLevel,
 	BuilderBaseDefense,
 	AchievementLevel,
+	DefenseMode,
 } from '../../CommonInterfaces'
 
-const firecrackers: BuilderBaseDefense = {
+interface FirecrackerMode extends DefenseMode {
+	shots: number
+}
+
+interface Firecrackers extends BuilderBaseDefense {
+	modes: FirecrackerMode[]
+}
+
+const firecrackers: Firecrackers = {
 	name: 'Firecrackers',
 	description:
 		"Keep flying pests away with flurries of small rockets! It's like a bug zapper, but prettier.",
 	maxCount: 5,
-	minRange: 0,
-	maxRange: 9,
-	tiles: 0,
-	shots: 3,
-	attackSpeed: 0.8,
 	width: 2,
 	height: 2,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.air,
 	maxLevel: 10,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.air,
+			minRange: 0,
+			maxRange: 9,
+			shots: 3,
+			tiles: 0,
+			attackSpeed: 0.8,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },

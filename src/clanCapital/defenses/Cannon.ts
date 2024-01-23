@@ -5,15 +5,20 @@ const cannon: ClanCapitalDefense = {
 	name: 'Cannon',
 	description:
 		"This cannon might be slow firing, but it makes up for it in punch. Additional drawback is that it doesn't tilt high enough to reach air targets.",
-	minRange: 0,
-	maxRange: 8.5,
-	tiles: 0,
-	attackSpeed: 0.8,
 	width: 2,
 	height: 2,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.ground,
 	maxLevel: 10,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.ground,
+			minRange: 0,
+			maxRange: 8.5,
+			tiles: 0,
+			attackSpeed: 0.8,
+		},
+	],
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,

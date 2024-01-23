@@ -24,14 +24,8 @@ const archerTower: ArcherTower = {
 	description:
 		'Archer Towers have longer range than Cannons, and unlike Cannons they can attack flying enemies.',
 	maxCount: 8,
-	minRange: 0,
-	maxRange: 10,
-	tiles: 0,
-	attackSpeed: 0.5,
 	width: 3,
 	height: 3,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.groundAndAir,
 	maxLevel: 21,
 	gearUp: {
 		buildCost: 4000000,
@@ -42,6 +36,17 @@ const archerTower: ArcherTower = {
 		homeVillageLevelRequired: 10,
 		builderBaseDefenseLevelRequired: 6,
 	},
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.groundAndAir,
+			minRange: 0,
+			maxRange: 10,
+			tiles: 0,
+			attackSpeed: 0.5,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 1, maxLevel: 2 },

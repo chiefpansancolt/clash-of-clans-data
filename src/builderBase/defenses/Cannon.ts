@@ -11,16 +11,20 @@ const cannon: BuilderBaseDefense = {
 	description:
 		'The iconic ground defense, built to last! This classic makes the Master Builder a bit sentimental.',
 	maxCount: 3,
-	minRange: 0,
-	maxRange: 8.5,
-	tiles: 0,
-	shots: 0,
-	attackSpeed: 0.8,
 	width: 3,
 	height: 3,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.ground,
 	maxLevel: 10,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.ground,
+			minRange: 0,
+			maxRange: 8.5,
+			tiles: 0,
+			attackSpeed: 0.8,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 1, maxLevel: 1 },
 		{ townHall: 2, availableCount: 1, maxLevel: 1 },

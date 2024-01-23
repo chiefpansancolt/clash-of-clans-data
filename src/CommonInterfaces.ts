@@ -66,12 +66,6 @@ export interface CapitalHallDefense {
 	levels: TownHallDefense[]
 }
 
-export interface Achievement {
-	name: string
-	village: string
-	levels: AchievementLevel[]
-}
-
 export interface AchievementLevel {
 	info: string
 	exp: number
@@ -80,18 +74,29 @@ export interface AchievementLevel {
 	target: number
 }
 
-export interface Defense {
+export interface Achievement {
 	name: string
-	description: string
-	width: number
-	height: number
+	village: string
+	levels: AchievementLevel[]
+}
+
+export interface DefenseMode {
+	name: string
 	minRange: number
 	maxRange: number
 	attackSpeed: number
 	damageType: string
 	tiles: number
 	unitTypeTarget: string
+}
+
+export interface Defense {
+	name: string
+	description: string
+	width: number
+	height: number
 	maxLevel: number
+	modes: DefenseMode[]
 
 	getSize(): string
 }
@@ -120,7 +125,6 @@ export interface HomeVillageDefense extends Defense {
 
 export interface BuilderBaseDefense extends Defense {
 	maxCount: number
-	shots: number
 	levels: BuilderBaseLevel[]
 	townHallDetails: TownHallDefense[]
 	achievements: Achievement[]

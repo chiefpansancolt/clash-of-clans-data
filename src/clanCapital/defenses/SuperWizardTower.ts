@@ -5,15 +5,20 @@ const cannon: ClanCapitalDefense = {
 	name: 'Super Wizard Tower',
 	description:
 		"Super Wizards' electrickery is shockingly powerful against swarms of attackers, as it bounces to everyone too close to the initial target.",
-	minRange: 0,
-	maxRange: 5.5,
-	tiles: 0,
-	attackSpeed: 2,
 	width: 2,
 	height: 2,
-	damageType: Constants.singleTargetChainLighting,
-	unitTypeTarget: Constants.groundAndAir,
 	maxLevel: 5,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTargetChainLighting,
+			unitTypeTarget: Constants.groundAndAir,
+			minRange: 0,
+			maxRange: 5.5,
+			tiles: 0,
+			attackSpeed: 2,
+		},
+	],
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,

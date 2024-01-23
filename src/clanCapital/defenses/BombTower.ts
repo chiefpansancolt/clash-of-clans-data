@@ -15,15 +15,20 @@ const bombTower: BombTower = {
 	name: 'Bomb Tower',
 	description:
 		'Bomb Towers bombard nearby ground troops and go up in a big BOOM when destroyed! Melee units best stand clear!',
-	minRange: 0,
-	maxRange: 5,
-	tiles: 0,
-	attackSpeed: 1.1,
 	width: 2,
 	height: 2,
-	damageType: Constants.areaSplash,
-	unitTypeTarget: Constants.ground,
 	maxLevel: 5,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.areaSplash,
+			unitTypeTarget: Constants.ground,
+			minRange: 0,
+			maxRange: 5,
+			tiles: 0,
+			attackSpeed: 1.1,
+		},
+	],
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,

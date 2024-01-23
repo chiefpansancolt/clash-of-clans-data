@@ -1,13 +1,22 @@
 import * as Constants from '../../Constats'
-import { ClanCapitalLevel, TownHallDefense, ClanCapitalDefense } from '../../CommonInterfaces'
+import {
+	ClanCapitalLevel,
+	TownHallDefense,
+	ClanCapitalDefense,
+	DefenseMode,
+} from '../../CommonInterfaces'
 
 interface HiddenMegaTeslaLevel extends ClanCapitalLevel {
 	secondaryChainDamage: number
 }
 
+interface HiddenTeslaMode extends DefenseMode {
+	triggerRange: number
+}
+
 interface HiddenMegaTesla extends ClanCapitalDefense {
 	levels: HiddenMegaTeslaLevel[]
-	triggerRange: number
+	modes: HiddenTeslaMode[]
 
 	getLevel(level: number): HiddenMegaTeslaLevel | undefined
 }
@@ -16,16 +25,21 @@ const hiddenMegaTesla: HiddenMegaTesla = {
 	name: 'Hidden Mega Tesla',
 	description:
 		"What happens when a Hidden Tesla goes Mega? It's powerful jolt deals heavy damage to even the toughest units!'",
-	minRange: 0,
-	maxRange: 6,
-	triggerRange: 6,
-	tiles: 0,
-	attackSpeed: 0,
 	width: 2,
 	height: 2,
-	damageType: Constants.singleTargetChainLighting,
-	unitTypeTarget: Constants.groundAndAir,
 	maxLevel: 0,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTargetChainLighting,
+			unitTypeTarget: Constants.groundAndAir,
+			minRange: 0,
+			maxRange: 6,
+			triggerRange: 6,
+			tiles: 0,
+			attackSpeed: 4,
+		},
+	],
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,

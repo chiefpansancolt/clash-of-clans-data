@@ -24,14 +24,8 @@ const mortor: Mortor = {
 	description:
 		"The Mortar can mow down hordes of enemies by the splash damage from its shell. Don't let enemies get too close to it!",
 	maxCount: 4,
-	minRange: 4,
-	maxRange: 11,
-	attackSpeed: 5,
 	width: 3,
 	height: 3,
-	damageType: Constants.splash,
-	tiles: 1.5,
-	unitTypeTarget: Constants.ground,
 	maxLevel: 16,
 	gearUp: {
 		buildCost: 8000000,
@@ -42,6 +36,17 @@ const mortor: Mortor = {
 		homeVillageLevelRequired: 8,
 		builderBaseDefenseLevelRequired: 8,
 	},
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.splash,
+			unitTypeTarget: Constants.ground,
+			minRange: 4,
+			maxRange: 11,
+			tiles: 1.5,
+			attackSpeed: 5,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },

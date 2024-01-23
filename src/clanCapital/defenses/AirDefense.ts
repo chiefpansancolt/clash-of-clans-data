@@ -5,15 +5,20 @@ const airDefense: ClanCapitalDefense = {
 	name: 'Air Defense',
 	description:
 		"This anti-air tower is deadly against flying enemies, but can't target foes on the ground. Place it wisely to cover as much airspace as possible.",
-	minRange: 0,
-	maxRange: 10,
-	tiles: 0,
-	attackSpeed: 1.5,
 	width: 2,
 	height: 2,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.air,
 	maxLevel: 5,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.air,
+			minRange: 0,
+			maxRange: 10,
+			tiles: 0,
+			attackSpeed: 1.5,
+		},
+	],
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,

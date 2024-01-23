@@ -4,10 +4,15 @@ import {
 	AchievementLevel,
 	HomeVillageLevel,
 	HomeVillageDefense,
+	DefenseMode,
 } from '../../CommonInterfaces'
 
-interface HiddenTesla extends HomeVillageDefense {
+interface HiddenTeslaMode extends DefenseMode {
 	triggerRange: number
+}
+
+interface HiddenTesla extends HomeVillageDefense {
+	modes: HiddenTeslaMode[]
 }
 
 const hiddenTesla: HiddenTesla = {
@@ -15,16 +20,21 @@ const hiddenTesla: HiddenTesla = {
 	description:
 		'Lay a deadly trap with the Hidden Tesla! Our Wizards have trapped a storm cloud into each of these sneaky towers. When an enemy walks or flies close enough, the tower springs up and fries it using the power of Electrickery!',
 	maxCount: 5,
-	minRange: 0,
-	maxRange: 7,
-	triggerRange: 6,
-	tiles: 0,
-	attackSpeed: 0.6,
 	width: 2,
 	height: 2,
-	damageType: Constants.singleTarget,
-	unitTypeTarget: Constants.groundAndAir,
 	maxLevel: 14,
+	modes: [
+		{
+			name: Constants.mainMode,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.groundAndAir,
+			minRange: 0,
+			maxRange: 7,
+			triggerRange: 6,
+			tiles: 0,
+			attackSpeed: 0.6,
+		},
+	],
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },
