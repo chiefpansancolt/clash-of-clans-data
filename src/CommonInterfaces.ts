@@ -83,7 +83,6 @@ export interface AchievementLevel {
 export interface Defense {
 	name: string
 	description: string
-	maxCount: number
 	width: number
 	height: number
 	minRange: number
@@ -98,6 +97,7 @@ export interface Defense {
 }
 
 export interface HomeVillagePushDefense extends Defense {
+	maxCount: number
 	levels: HomeVillagePushLevel[]
 	townHallDetails: TownHallDefense[]
 	achievements: Achievement[]
@@ -108,6 +108,7 @@ export interface HomeVillagePushDefense extends Defense {
 }
 
 export interface HomeVillageDefense extends Defense {
+	maxCount: number
 	levels: HomeVillageLevel[]
 	townHallDetails: TownHallDefense[]
 	achievements: Achievement[]
@@ -118,6 +119,7 @@ export interface HomeVillageDefense extends Defense {
 }
 
 export interface BuilderBaseDefense extends Defense {
+	maxCount: number
 	shots: number
 	levels: BuilderBaseLevel[]
 	townHallDetails: TownHallDefense[]

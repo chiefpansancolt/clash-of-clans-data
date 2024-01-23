@@ -5,7 +5,6 @@ const cannon: ClanCapitalDefense = {
 	name: 'Super Wizard Tower',
 	description:
 		"Super Wizards' electrickery is shockingly powerful against swarms of attackers, as it bounces to everyone too close to the initial target.",
-	maxCount: 2,
 	minRange: 0,
 	maxRange: 5.5,
 	tiles: 0,

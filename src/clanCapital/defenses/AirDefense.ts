@@ -5,7 +5,6 @@ const airDefense: ClanCapitalDefense = {
 	name: 'Air Defense',
 	description:
 		"This anti-air tower is deadly against flying enemies, but can't target foes on the ground. Place it wisely to cover as much airspace as possible.",
-	maxCount: 4,
 	minRange: 0,
 	maxRange: 10,
 	tiles: 0,

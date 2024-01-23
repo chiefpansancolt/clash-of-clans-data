@@ -5,7 +5,6 @@ const cannon: ClanCapitalDefense = {
 	name: 'Cannon',
 	description:
 		"This cannon might be slow firing, but it makes up for it in punch. Additional drawback is that it doesn't tilt high enough to reach air targets.",
-	maxCount: 3,
 	minRange: 0,
 	maxRange: 8.5,
 	tiles: 0,
