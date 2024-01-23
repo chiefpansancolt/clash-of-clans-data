@@ -102,7 +102,7 @@ export interface HomeVillagePushDefense extends Defense {
 	townHallDetails: TownHallDefense[]
 	achievements: Achievement[]
 
-	getLevel(levelr: number): HomeVillagePushLevel | undefined
+	getLevel(level: number): HomeVillagePushLevel | undefined
 	getTownHallLevel(level: number): TownHallDefense | undefined
 	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
 }
@@ -112,7 +112,7 @@ export interface HomeVillageDefense extends Defense {
 	townHallDetails: TownHallDefense[]
 	achievements: Achievement[]
 
-	getLevel(levelr: number): HomeVillageLevel | undefined
+	getLevel(level: number): HomeVillageLevel | undefined
 	getTownHallLevel(level: number): TownHallDefense | undefined
 	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
 }
@@ -123,7 +123,7 @@ export interface BuilderBaseDefense extends Defense {
 	townHallDetails: TownHallDefense[]
 	achievements: Achievement[]
 
-	getLevel(levelr: number): BuilderBaseLevel | undefined
+	getLevel(level: number): BuilderBaseLevel | undefined
 	getTownHallLevel(level: number): TownHallDefense | undefined
 	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
 }
