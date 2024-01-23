@@ -1,4 +1,5 @@
 export const singleTarget: string = 'Single Target'
+export const singleTargetChainLighting: string = 'Single Target (Chain Lightning)'
 export const splash: string = 'Splash'
 export const ground: string = 'Ground'
 export const groundAndAir: string = 'Ground & Air'

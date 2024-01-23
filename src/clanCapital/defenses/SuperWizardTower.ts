@@ -6,18 +6,19 @@ import {
 } from '../../CommonInterfaces'
 
 const cannon: ClanCapitalDefense = {
-  name: '',
-  description: '',
-  maxCount: 0,
+  name: 'Super Wizard Tower',
+  description:
+    "Super Wizards' electrickery is shockingly powerful against swarms of attackers, as it bounces to everyone too close to the initial target.",
+  maxCount: 2,
   minRange: 0,
-  maxRange: 0,
+  maxRange: 5.5,
   tiles: 0,
-  attackSpeed: 0,
-  width: 0,
-  height: 0,
-  damageType: Constants.singleTarget,
-  unitTypeTarget: Constants.ground,
-  maxLevel: 0,
+  attackSpeed: 2,
+  width: 2,
+  height: 2,
+  damageType: Constants.singleTargetChainLighting,
+  unitTypeTarget: Constants.groundAndAir,
+  maxLevel: 5,
   capitalHallDetails: [
     {
       name: Constants.capitalHall,
@@ -93,7 +94,7 @@ const cannon: ClanCapitalDefense = {
       buildCostResource: Constants.capitalGold,
       clanCapitalLevel: 6500,
       districtHallLevel: 3,
-      baseImgUrl: '',
+      baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/6/68/Super_Wizard_Tower1.png/revision/latest/scale-to-width-down/100?cb=20221225050441',
     },
     {
       level: 2,
@@ -104,7 +105,7 @@ const cannon: ClanCapitalDefense = {
       buildCostResource: Constants.capitalGold,
       clanCapitalLevel: 13000,
       districtHallLevel: 4,
-      baseImgUrl: '',
+      baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/9/98/Super_Wizard_Tower2.png/revision/latest/scale-to-width-down/100?cb=20221225050448',
     },
     {
       level: 3,
@@ -115,7 +116,7 @@ const cannon: ClanCapitalDefense = {
       buildCostResource: Constants.capitalGold,
       clanCapitalLevel: 26000,
       districtHallLevel: 6,
-      baseImgUrl: '',
+      baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/e/e5/Super_Wizard_Tower3.png/revision/latest/scale-to-width-down/100?cb=20221225050455',
     },
     {
       level: 4,
@@ -126,7 +127,7 @@ const cannon: ClanCapitalDefense = {
       buildCostResource: Constants.capitalGold,
       clanCapitalLevel: 42000,
       districtHallLevel: 8,
-      baseImgUrl: '',
+      baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/d/dc/Super_Wizard_Tower4.png/revision/latest/scale-to-width-down/100?cb=20221225050501',
     },
     {
       level: 5,
@@ -137,7 +138,7 @@ const cannon: ClanCapitalDefense = {
       buildCostResource: Constants.capitalGold,
       clanCapitalLevel: 70000,
       districtHallLevel: 10,
-      baseImgUrl: '',
+      baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/e/e6/Super_Wizard_Tower5.png/revision/latest/scale-to-width-down/100?cb=20221225050508',
     },
   ],
   getSize(): string {
