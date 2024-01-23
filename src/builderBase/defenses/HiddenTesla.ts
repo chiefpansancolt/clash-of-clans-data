@@ -12,7 +12,8 @@ interface HiddenTesla extends BuilderBaseDefense {
 
 const hiddenTesla: HiddenTesla = {
 	name: 'Hidden Tesla',
-	description: 'Part tower, part trap, completely shocking! Zap air and ground foes alike with the power of science!',
+	description:
+		'Part tower, part trap, completely shocking! Zap air and ground foes alike with the power of science!',
 	maxCount: 3,
 	minRange: 0,
 	maxRange: 7,
@@ -52,7 +53,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 0,
 			exp: 42,
 			townHallLevelRequired: 3,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest/scale-to-width-down/80?cb=20180606190107'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest/scale-to-width-down/80?cb=20180606190107',
 		},
 		{
 			level: 2,
@@ -67,7 +69,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 0,
 			exp: 103,
 			townHallLevelRequired: 3,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/e/e4/Hidden_Tesla2.png/revision/latest/scale-to-width-down/80?cb=20180606190121'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/e/e4/Hidden_Tesla2.png/revision/latest/scale-to-width-down/80?cb=20180606190121',
 		},
 		{
 			level: 3,
@@ -82,7 +85,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 0,
 			exp: 134,
 			townHallLevelRequired: 3,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/f/fb/Hidden_Tesla3.png/revision/latest/scale-to-width-down/80?cb=20180606190137'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/f/fb/Hidden_Tesla3.png/revision/latest/scale-to-width-down/80?cb=20180606190137',
 		},
 		{
 			level: 4,
@@ -97,7 +101,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 0,
 			exp: 189,
 			townHallLevelRequired: 4,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/5/54/Hidden_Tesla4.png/revision/latest/scale-to-width-down/80?cb=20180606190150'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/5/54/Hidden_Tesla4.png/revision/latest/scale-to-width-down/80?cb=20180606190150',
 		},
 		{
 			level: 5,
@@ -112,7 +117,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 1,
 			exp: 293,
 			townHallLevelRequired: 5,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/e/e9/Hidden_Tesla5.png/revision/latest/scale-to-width-down/80?cb=20180606190204'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/e/e9/Hidden_Tesla5.png/revision/latest/scale-to-width-down/80?cb=20180606190204',
 		},
 		{
 			level: 6,
@@ -127,7 +133,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 2,
 			exp: 415,
 			townHallLevelRequired: 6,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/d/d7/Hidden_Tesla6.png/revision/latest/scale-to-width-down/80?cb=20180606190216'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/d/d7/Hidden_Tesla6.png/revision/latest/scale-to-width-down/80?cb=20180606190216',
 		},
 		{
 			level: 7,
@@ -142,7 +149,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 4,
 			exp: 587,
 			townHallLevelRequired: 7,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/7/79/Hidden_Tesla7.png/revision/latest/scale-to-width-down/80?cb=20180606190230'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/7/79/Hidden_Tesla7.png/revision/latest/scale-to-width-down/80?cb=20180606190230',
 		},
 		{
 			level: 8,
@@ -157,7 +165,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 6,
 			exp: 720,
 			townHallLevelRequired: 8,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/4/4f/Hidden_Tesla8.png/revision/latest/scale-to-width-down/80?cb=20180606190243'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/4/4f/Hidden_Tesla8.png/revision/latest/scale-to-width-down/80?cb=20180606190243',
 		},
 		{
 			level: 9,
@@ -172,7 +181,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 8,
 			exp: 831,
 			townHallLevelRequired: 9,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/e/e3/Hidden_Tesla9.png/revision/latest/scale-to-width-down/80?cb=20180606190256'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/e/e3/Hidden_Tesla9.png/revision/latest/scale-to-width-down/80?cb=20180606190256',
 		},
 		{
 			level: 10,
@@ -187,8 +197,9 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 10,
 			exp: 929,
 			townHallLevelRequired: 10,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/3/37/Hidden_Tesla10.png/revision/latest/scale-to-width-down/80?cb=20180604161808'
-		}
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/3/37/Hidden_Tesla10.png/revision/latest/scale-to-width-down/80?cb=20180604161808',
+		},
 	],
 	getSize(): string {
 		return `${this.width}x${this.height}`

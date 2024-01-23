@@ -58,7 +58,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 0,
 			exp: 84,
 			townHallLevelRequired: 7,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest/scale-to-width-down/80?cb=20180606190107'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest/scale-to-width-down/80?cb=20180606190107',
 		},
 		{
 			level: 2,
@@ -73,7 +74,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 0,
 			exp: 103,
 			townHallLevelRequired: 7,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/e/e4/Hidden_Tesla2.png/revision/latest/scale-to-width-down/80?cb=20180606190121'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/e/e4/Hidden_Tesla2.png/revision/latest/scale-to-width-down/80?cb=20180606190121',
 		},
 		{
 			level: 3,
@@ -88,7 +90,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 0,
 			exp: 134,
 			townHallLevelRequired: 7,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/f/fb/Hidden_Tesla3.png/revision/latest/scale-to-width-down/80?cb=20180606190137'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/f/fb/Hidden_Tesla3.png/revision/latest/scale-to-width-down/80?cb=20180606190137',
 		},
 		{
 			level: 4,
@@ -103,7 +106,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 0,
 			exp: 207,
 			townHallLevelRequired: 8,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/5/54/Hidden_Tesla4.png/revision/latest/scale-to-width-down/80?cb=20180606190150'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/5/54/Hidden_Tesla4.png/revision/latest/scale-to-width-down/80?cb=20180606190150',
 		},
 		{
 			level: 5,
@@ -118,7 +122,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 0,
 			exp: 254,
 			townHallLevelRequired: 8,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/e/e9/Hidden_Tesla5.png/revision/latest/scale-to-width-down/80?cb=20180606190204'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/e/e9/Hidden_Tesla5.png/revision/latest/scale-to-width-down/80?cb=20180606190204',
 		},
 		{
 			level: 6,
@@ -133,7 +138,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 1,
 			exp: 293,
 			townHallLevelRequired: 8,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/d/d7/Hidden_Tesla6.png/revision/latest/scale-to-width-down/80?cb=20180606190216'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/d/d7/Hidden_Tesla6.png/revision/latest/scale-to-width-down/80?cb=20180606190216',
 		},
 		{
 			level: 7,
@@ -148,7 +154,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 2,
 			exp: 415,
 			townHallLevelRequired: 9,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/7/79/Hidden_Tesla7.png/revision/latest/scale-to-width-down/80?cb=20180606190230'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/7/79/Hidden_Tesla7.png/revision/latest/scale-to-width-down/80?cb=20180606190230',
 		},
 		{
 			level: 8,
@@ -163,7 +170,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 2,
 			exp: 464,
 			townHallLevelRequired: 10,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/4/4f/Hidden_Tesla8.png/revision/latest/scale-to-width-down/80?cb=20180606190243'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/4/4f/Hidden_Tesla8.png/revision/latest/scale-to-width-down/80?cb=20180606190243',
 		},
 		{
 			level: 9,
@@ -178,7 +186,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 3,
 			exp: 509,
 			townHallLevelRequired: 11,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/e/e3/Hidden_Tesla9.png/revision/latest/scale-to-width-down/80?cb=20180606190256'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/e/e3/Hidden_Tesla9.png/revision/latest/scale-to-width-down/80?cb=20180606190256',
 		},
 		{
 			level: 10,
@@ -193,7 +202,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 7,
 			exp: 818,
 			townHallLevelRequired: 12,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/3/37/Hidden_Tesla10.png/revision/latest/scale-to-width-down/80?cb=20180604161808'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/3/37/Hidden_Tesla10.png/revision/latest/scale-to-width-down/80?cb=20180604161808',
 		},
 		{
 			level: 11,
@@ -208,7 +218,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 8,
 			exp: 831,
 			townHallLevelRequired: 13,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/b/b9/Hidden_Tesla11.png/revision/latest/scale-to-width-down/80?cb=20191210175655'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/b/b9/Hidden_Tesla11.png/revision/latest/scale-to-width-down/80?cb=20191210175655',
 		},
 		{
 			level: 12,
@@ -223,7 +234,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 8,
 			exp: 831,
 			townHallLevelRequired: 13,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/0/05/Hidden_Tesla12.png/revision/latest/scale-to-width-down/80?cb=20201013041040'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/0/05/Hidden_Tesla12.png/revision/latest/scale-to-width-down/80?cb=20201013041040',
 		},
 		{
 			level: 13,
@@ -238,7 +250,8 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 13,
 			exp: 1059,
 			townHallLevelRequired: 14,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/7/78/Hidden_Tesla13.png/revision/latest/scale-to-width-down/80?cb=20210412214948'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/7/78/Hidden_Tesla13.png/revision/latest/scale-to-width-down/80?cb=20210412214948',
 		},
 		{
 			level: 14,
@@ -253,8 +266,9 @@ const hiddenTesla: HiddenTesla = {
 			buildTimeDay: 13,
 			exp: 1080,
 			townHallLevelRequired: 15,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/f/f1/Hidden_Tesla14.png/revision/latest/scale-to-width-down/80?cb=20230613002325'
-		}
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/f/f1/Hidden_Tesla14.png/revision/latest/scale-to-width-down/80?cb=20230613002325',
+		},
 	],
 	getSize(): string {
 		return `${this.width}x${this.height}`

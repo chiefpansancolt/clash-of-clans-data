@@ -184,7 +184,7 @@ const airDefense: ClanCapitalDefense = {
 	},
 	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
 		const hallDetails = this.capitalHallDetails.find(
-			(detail: { name: string }) => detail.name === name,
+			(detail: { name: string }) => detail.name === name
 		)
 
 		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {

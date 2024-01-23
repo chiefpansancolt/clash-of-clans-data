@@ -52,7 +52,8 @@ const airSweeper: HomeVillagePushDefense = {
 			buildTimeDay: 0,
 			exp: 146,
 			townHallLevelRequired: 6,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/e/ec/Air_Sweeper1.png/revision/latest/scale-to-width-down/100?cb=20180115153131'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/e/ec/Air_Sweeper1.png/revision/latest/scale-to-width-down/100?cb=20180115153131',
 		},
 		{
 			level: 2,
@@ -66,7 +67,8 @@ const airSweeper: HomeVillagePushDefense = {
 			buildTimeDay: 0,
 			exp: 169,
 			townHallLevelRequired: 6,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/b/be/Air_Sweeper2.png/revision/latest/scale-to-width-down/100?cb=20180115153146'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/b/be/Air_Sweeper2.png/revision/latest/scale-to-width-down/100?cb=20180115153146',
 		},
 		{
 			level: 3,
@@ -80,7 +82,8 @@ const airSweeper: HomeVillagePushDefense = {
 			buildTimeDay: 0,
 			exp: 207,
 			townHallLevelRequired: 7,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/0/0d/Air_Sweeper3.png/revision/latest/scale-to-width-down/100?cb=20180115153200'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/0/0d/Air_Sweeper3.png/revision/latest/scale-to-width-down/100?cb=20180115153200',
 		},
 		{
 			level: 4,
@@ -94,7 +97,8 @@ const airSweeper: HomeVillagePushDefense = {
 			buildTimeDay: 0,
 			exp: 254,
 			townHallLevelRequired: 8,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/b/b6/Air_Sweeper4.png/revision/latest/scale-to-width-down/100?cb=20180115153214'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/b/b6/Air_Sweeper4.png/revision/latest/scale-to-width-down/100?cb=20180115153214',
 		},
 		{
 			level: 5,
@@ -108,7 +112,8 @@ const airSweeper: HomeVillagePushDefense = {
 			buildTimeDay: 1,
 			exp: 293,
 			townHallLevelRequired: 9,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/c/c3/Air_Sweeper5.png/revision/latest/scale-to-width-down/100?cb=20180115153229'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/c/c3/Air_Sweeper5.png/revision/latest/scale-to-width-down/100?cb=20180115153229',
 		},
 		{
 			level: 6,
@@ -122,7 +127,8 @@ const airSweeper: HomeVillagePushDefense = {
 			buildTimeDay: 2,
 			exp: 415,
 			townHallLevelRequired: 10,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/b/b2/Air_Sweeper6.png/revision/latest/scale-to-width-down/100?cb=20180115153243'
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/b/b2/Air_Sweeper6.png/revision/latest/scale-to-width-down/100?cb=20180115153243',
 		},
 		{
 			level: 7,
@@ -136,8 +142,9 @@ const airSweeper: HomeVillagePushDefense = {
 			buildTimeDay: 3,
 			exp: 509,
 			townHallLevelRequired: 11,
-			baseImgUrl: 'https://static.wikia.nocookie.net/clashofclans/images/9/9c/Air_Sweeper7.png/revision/latest/scale-to-width-down/100?cb=20180115153257'
-		}
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/9/9c/Air_Sweeper7.png/revision/latest/scale-to-width-down/100?cb=20180115153257',
+		},
 	],
 	getSize(): string {
 		return `${this.width}x${this.height}`
