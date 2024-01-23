@@ -83,6 +83,10 @@ const hiddenMegaTesla: HiddenMegaTesla = {
 			],
 		},
 		{
+			name: Constants.dragonCliffs,
+			levels: [],
+		},
+		{
 			name: Constants.golemQuarry,
 			levels: [
 				{ townHall: 1, availableCount: 1, maxLevel: 1 },

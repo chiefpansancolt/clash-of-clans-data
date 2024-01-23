@@ -31,6 +31,10 @@ const cannon: ClanCapitalDefense = {
 			],
 		},
 		{
+			name: Constants.barbarianCamp,
+			levels: [],
+		},
+		{
 			name: Constants.wizardValley,
 			levels: [
 				{ townHall: 1, availableCount: 4, maxLevel: 1 },
@@ -39,6 +43,10 @@ const cannon: ClanCapitalDefense = {
 				{ townHall: 4, availableCount: 6, maxLevel: 4 },
 				{ townHall: 5, availableCount: 6, maxLevel: 5 },
 			],
+		},
+		{
+			name: Constants.ballonLagoon,
+			levels: [],
 		},
 		{
 			name: Constants.builderWorkshop,
@@ -59,6 +67,10 @@ const cannon: ClanCapitalDefense = {
 				{ townHall: 4, availableCount: 4, maxLevel: 4 },
 				{ townHall: 5, availableCount: 4, maxLevel: 5 },
 			],
+		},
+		{
+			name: Constants.golemQuarry,
+			levels: [],
 		},
 		{
 			name: Constants.skeletonPark,
