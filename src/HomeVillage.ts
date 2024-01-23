@@ -6,5 +6,16 @@ import WizardTower from './homeVillage/defenses/WizardTower'
 import AirSweeper from './homeVillage/defenses/AirSweeper'
 import HiddenTesla from './homeVillage/defenses/HiddenTesla'
 import BombTower from './homeVillage/defenses/BombTower'
+import XBow from './homeVillage/defenses/XBow'
 
-export { Cannon, ArcherTower, Mortor, AirDefense, WizardTower, AirSweeper, HiddenTesla, BombTower }
+export {
+	Cannon,
+	ArcherTower,
+	Mortor,
+	AirDefense,
+	WizardTower,
+	AirSweeper,
+	HiddenTesla,
+	BombTower,
+	XBow,
+}
