@@ -119,3 +119,4 @@ dist
 data/
 ClanCapitalBuilder.js
 HomeVillageBuilder.js
+BuilderBaseBuilder.js
