@@ -1,119 +1,113 @@
 export interface Level {
-  level: number
-  damagePerSecond: number
-  damagePerShot: number
-  hitpoints: number
-  buildCost: number
-  buildCostResource: string
-  baseImgUrl: string
+	level: number
+	damagePerSecond: number
+	damagePerShot: number
+	hitpoints: number
+	buildCost: number
+	buildCostResource: string
+	baseImgUrl: string
 }
 
 export interface HomeVillageLevel extends Level {
-  buildTimeSec: number
-  buildTimeMin: number
-  buildTimeHour: number
-  buildTimeDay: number
-  exp: number
-  townHallLevelRequired: number
+	buildTimeSec: number
+	buildTimeMin: number
+	buildTimeHour: number
+	buildTimeDay: number
+	exp: number
+	townHallLevelRequired: number
 }
 
 export interface BuilderBaseLevel extends Level {
-  buildTimeSec: number
-  buildTimeMin: number
-  buildTimeHour: number
-  buildTimeDay: number
-  exp: number
-  townHallLevelRequired: number
+	buildTimeSec: number
+	buildTimeMin: number
+	buildTimeHour: number
+	buildTimeDay: number
+	exp: number
+	townHallLevelRequired: number
 }
 
 export interface ClanCapitalLevel extends Level {
-  clanCapitalLevel: number
-  districtHallLevel: number
+	clanCapitalLevel: number
+	districtHallLevel: number
 }
 
 export interface GearUp {
-  buildCost: number
-  buildTimeSec: number
-  buildTimeMin: number
-  buildTimeHour: number
-  buildTimeDay: number
-  homeVillageLevelRequired: number
-  builderBaseDefenseLevelRequired: number
+	buildCost: number
+	buildTimeSec: number
+	buildTimeMin: number
+	buildTimeHour: number
+	buildTimeDay: number
+	homeVillageLevelRequired: number
+	builderBaseDefenseLevelRequired: number
 }
 
 export interface TownHallDefense {
-  townHall: number
-  availableCount: number
-  maxLevel: number
+	townHall: number
+	availableCount: number
+	maxLevel: number
 }
 
 export interface CapitalHallDefense {
-  name: string
-  levels: TownHallDefense[]
+	name: string
+	levels: TownHallDefense[]
 }
 
 export interface Achievement {
-  name: string
-  village: string
-  levels: AchievementLevel[]
+	name: string
+	village: string
+	levels: AchievementLevel[]
 }
 
 export interface AchievementLevel {
-  info: string
-  exp: number
-  gems: number
-  stars: number
-  target: number
+	info: string
+	exp: number
+	gems: number
+	stars: number
+	target: number
 }
 
 export interface Defense {
-  name: string
-  description: string
-  maxCount: number
-  width: number
-  height: number
-  minRange: number
-  maxRange: number
-  attackSpeed: number
-  damageType: string
-  tiles: number
-  unitTypeTarget: string
-  maxLevel: number
+	name: string
+	description: string
+	maxCount: number
+	width: number
+	height: number
+	minRange: number
+	maxRange: number
+	attackSpeed: number
+	damageType: string
+	tiles: number
+	unitTypeTarget: string
+	maxLevel: number
 
-  getSize(): string
+	getSize(): string
 }
 
 export interface HomeVillageDefense extends Defense {
-  levels: HomeVillageLevel[]
-  townHallDetails: TownHallDefense[]
-  achievements: Achievement[]
+	levels: HomeVillageLevel[]
+	townHallDetails: TownHallDefense[]
+	achievements: Achievement[]
 
-  getLevel(levelr: number): HomeVillageLevel | undefined
-  getTownHallLevel(level: number): TownHallDefense | undefined
-  getAchievementLevel(
-    level: number,
-    count: number
-  ): AchievementLevel | undefined
+	getLevel(levelr: number): HomeVillageLevel | undefined
+	getTownHallLevel(level: number): TownHallDefense | undefined
+	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
 }
 
 export interface BuilderBaseDefense extends Defense {
-  shots: number
-  levels: BuilderBaseLevel[]
-  townHallDetails: TownHallDefense[]
-  achievements: Achievement[]
+	shots: number
+	levels: BuilderBaseLevel[]
+	townHallDetails: TownHallDefense[]
+	achievements: Achievement[]
 
-  getLevel(levelr: number): BuilderBaseLevel | undefined
-  getTownHallLevel(level: number): TownHallDefense | undefined
-  getAchievementLevel(
-    level: number,
-    count: number
-  ): AchievementLevel | undefined
+	getLevel(levelr: number): BuilderBaseLevel | undefined
+	getTownHallLevel(level: number): TownHallDefense | undefined
+	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
 }
 
 export interface ClanCapitalDefense extends Defense {
-  levels: ClanCapitalLevel[]
-  capitalHallDetails: CapitalHallDefense[]
+	levels: ClanCapitalLevel[]
+	capitalHallDetails: CapitalHallDefense[]
 
-  getLevel(levelr: number): ClanCapitalLevel | undefined
-  getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined
+	getLevel(levelr: number): ClanCapitalLevel | undefined
+	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined
 }
