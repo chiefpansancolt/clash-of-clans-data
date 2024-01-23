@@ -1,14 +1,24 @@
 export interface Level {
 	level: number
-	damagePerSecond: number
-	damagePerShot: number
 	hitpoints: number
 	buildCost: number
 	buildCostResource: string
 	baseImgUrl: string
 }
 
+export interface HomeVillagePushLevel extends Level {
+	pushStrength: number
+	buildTimeSec: number
+	buildTimeMin: number
+	buildTimeHour: number
+	buildTimeDay: number
+	exp: number
+	townHallLevelRequired: number
+}
+
 export interface HomeVillageLevel extends Level {
+	damagePerSecond: number
+	damagePerShot: number
 	buildTimeSec: number
 	buildTimeMin: number
 	buildTimeHour: number
@@ -18,6 +28,8 @@ export interface HomeVillageLevel extends Level {
 }
 
 export interface BuilderBaseLevel extends Level {
+	damagePerSecond: number
+	damagePerShot: number
 	buildTimeSec: number
 	buildTimeMin: number
 	buildTimeHour: number
@@ -27,6 +39,8 @@ export interface BuilderBaseLevel extends Level {
 }
 
 export interface ClanCapitalLevel extends Level {
+	damagePerSecond: number
+	damagePerShot: number
 	clanCapitalLevel: number
 	districtHallLevel: number
 }
@@ -81,6 +95,16 @@ export interface Defense {
 	maxLevel: number
 
 	getSize(): string
+}
+
+export interface HomeVillagePushDefense extends Defense {
+	levels: HomeVillagePushLevel[]
+	townHallDetails: TownHallDefense[]
+	achievements: Achievement[]
+
+	getLevel(levelr: number): HomeVillagePushLevel | undefined
+	getTownHallLevel(level: number): TownHallDefense | undefined
+	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
 }
 
 export interface HomeVillageDefense extends Defense {
