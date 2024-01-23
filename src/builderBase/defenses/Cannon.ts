@@ -11,7 +11,7 @@ const cannon: BuilderBaseDefense = {
 	description:
 		'The iconic ground defense, built to last! This classic makes the Master Builder a bit sentimental.',
 	maxCount: 3,
-	minRange: 8.5,
+	minRange: 0,
 	maxRange: 8.5,
 	tiles: 0,
 	shots: 0,

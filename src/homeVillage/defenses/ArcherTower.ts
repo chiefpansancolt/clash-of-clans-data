@@ -24,7 +24,7 @@ const archerTower: ArcherTower = {
 	description:
 		'Archer Towers have longer range than Cannons, and unlike Cannons they can attack flying enemies.',
 	maxCount: 8,
-	minRange: 10,
+	minRange: 0,
 	maxRange: 10,
 	tiles: 0,
 	attackSpeed: 0.5,

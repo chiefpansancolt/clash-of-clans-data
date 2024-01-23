@@ -24,7 +24,7 @@ const cannon: Cannon = {
 	description:
 		'Cannons are great for point defense. Upgrade cannons to increase their firepower, but beware that your defensive turrets cannot shoot while being upgraded!',
 	maxCount: 7,
-	minRange: 9,
+	minRange: 0,
 	maxRange: 9,
 	tiles: 0,
 	attackSpeed: 0.8,
