@@ -21,7 +21,6 @@ const archerTower: BuilderBaseDefense = {
 			unitTypeTarget: Constants.groundAndAir,
 			minRange: 0,
 			maxRange: 10,
-			tiles: 0,
 			attackSpeed: 1,
 		},
 	],

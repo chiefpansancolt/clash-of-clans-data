@@ -31,7 +31,6 @@ const xBow: Xbow = {
 			unitTypeTarget: Constants.air,
 			minRange: 0,
 			maxRange: 12,
-			tiles: 0,
 			attackSpeed: 0.192,
 		},
 		{
@@ -40,7 +39,6 @@ const xBow: Xbow = {
 			unitTypeTarget: Constants.air,
 			minRange: 0,
 			maxRange: 12,
-			tiles: 0,
 			attackSpeed: 0.192,
 		},
 	],

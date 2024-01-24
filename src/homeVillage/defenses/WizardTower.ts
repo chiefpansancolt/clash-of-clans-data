@@ -4,9 +4,18 @@ import {
 	AchievementLevel,
 	HomeVillageLevel,
 	HomeVillageDefense,
+	DefenseMode,
 } from '../../CommonInterfaces'
 
-const wizardTower: HomeVillageDefense = {
+interface WizardTowerMode extends DefenseMode {
+	tiles: number
+}
+
+interface WizardTower extends HomeVillageDefense {
+	modes: WizardTowerMode[]
+}
+
+const wizardTower: WizardTower = {
 	name: 'Wizard Tower',
 	description:
 		'The Ultimate Arcane Defense! Tower Wizards cast powerful area effect spells that target both flying and ground troops.',

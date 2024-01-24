@@ -21,7 +21,6 @@ const cannon: BuilderBaseDefense = {
 			unitTypeTarget: Constants.ground,
 			minRange: 0,
 			maxRange: 8.5,
-			tiles: 0,
 			attackSpeed: 0.8,
 		},
 	],

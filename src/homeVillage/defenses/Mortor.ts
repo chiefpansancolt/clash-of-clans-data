@@ -5,7 +5,12 @@ import {
 	HomeVillageLevel,
 	HomeVillageDefense,
 	GearUp,
+	DefenseMode,
 } from '../../CommonInterfaces'
+
+interface MortorMode extends DefenseMode {
+	tiles: number
+}
 
 interface MortorLevel extends HomeVillageLevel {
 	gearImgUrl: string
@@ -15,6 +20,7 @@ interface MortorLevel extends HomeVillageLevel {
 interface Mortor extends HomeVillageDefense {
 	levels: MortorLevel[]
 	gearUp: GearUp
+	modes: MortorMode[]
 
 	getLevel(levelNumber: number): MortorLevel | undefined
 }

@@ -43,7 +43,6 @@ const archerTower: ArcherTower = {
 			unitTypeTarget: Constants.groundAndAir,
 			minRange: 0,
 			maxRange: 10,
-			tiles: 0,
 			attackSpeed: 0.5,
 		},
 	],

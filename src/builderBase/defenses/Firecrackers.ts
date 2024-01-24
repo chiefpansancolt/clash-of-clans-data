@@ -31,7 +31,6 @@ const firecrackers: Firecrackers = {
 			minRange: 0,
 			maxRange: 9,
 			shots: 3,
-			tiles: 0,
 			attackSpeed: 0.8,
 		},
 	],

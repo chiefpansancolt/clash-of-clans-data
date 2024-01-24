@@ -86,7 +86,6 @@ export interface DefenseMode {
 	maxRange: number
 	attackSpeed: number
 	damageType: string
-	tiles: number
 	unitTypeTarget: string
 }
 

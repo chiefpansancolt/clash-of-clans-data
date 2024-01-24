@@ -31,7 +31,6 @@ const hiddenTesla: HiddenTesla = {
 			minRange: 0,
 			maxRange: 7,
 			triggerRange: 6,
-			tiles: 0,
 			attackSpeed: 0.6,
 		},
 	],

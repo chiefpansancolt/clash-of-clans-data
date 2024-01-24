@@ -15,7 +15,6 @@ const airDefense: ClanCapitalDefense = {
 			unitTypeTarget: Constants.air,
 			minRange: 0,
 			maxRange: 10,
-			tiles: 0,
 			attackSpeed: 1.5,
 		},
 	],

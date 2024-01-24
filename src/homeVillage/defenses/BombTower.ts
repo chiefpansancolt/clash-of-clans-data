@@ -4,7 +4,12 @@ import {
 	AchievementLevel,
 	HomeVillageLevel,
 	HomeVillageDefense,
+	DefenseMode,
 } from '../../CommonInterfaces'
+
+interface BombTowerMode extends DefenseMode {
+	tiles: number
+}
 
 interface BombTowerLevel extends HomeVillageLevel {
 	damageWhenDestroyed: number
@@ -12,6 +17,7 @@ interface BombTowerLevel extends HomeVillageLevel {
 
 interface BombTower extends HomeVillageDefense {
 	levels: BombTowerLevel[]
+	modes: BombTowerMode[]
 
 	getLevel(level: number): BombTowerLevel | undefined
 }

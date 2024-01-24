@@ -15,7 +15,6 @@ const cannon: ClanCapitalDefense = {
 			unitTypeTarget: Constants.groundAndAir,
 			minRange: 0,
 			maxRange: 5.5,
-			tiles: 0,
 			attackSpeed: 2,
 		},
 	],

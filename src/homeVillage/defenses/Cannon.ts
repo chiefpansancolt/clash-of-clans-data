@@ -43,7 +43,6 @@ const cannon: Cannon = {
 			unitTypeTarget: Constants.ground,
 			minRange: 0,
 			maxRange: 9,
-			tiles: 0,
 			attackSpeed: 0.8,
 		},
 	],

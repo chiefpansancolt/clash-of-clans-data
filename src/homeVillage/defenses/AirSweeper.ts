@@ -21,7 +21,6 @@ const airSweeper: HomeVillagePushDefense = {
 			unitTypeTarget: Constants.air,
 			minRange: 1,
 			maxRange: 15,
-			tiles: 0,
 			attackSpeed: 5,
 		},
 	],

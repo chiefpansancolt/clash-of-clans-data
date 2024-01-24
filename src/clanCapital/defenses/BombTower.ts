@@ -25,7 +25,6 @@ const bombTower: BombTower = {
 			unitTypeTarget: Constants.ground,
 			minRange: 0,
 			maxRange: 5,
-			tiles: 0,
 			attackSpeed: 1.1,
 		},
 	],
