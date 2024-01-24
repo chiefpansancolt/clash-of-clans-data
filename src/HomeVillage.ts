@@ -8,6 +8,7 @@ import HiddenTesla from './homeVillage/defenses/HiddenTesla'
 import BombTower from './homeVillage/defenses/BombTower'
 import XBow from './homeVillage/defenses/XBow'
 import InfernoTower from './homeVillage/defenses/InfernoTower'
+import EagleArtillery from './homeVillage/defenses/EagleArtillery'
 
 export {
 	Cannon,
@@ -20,4 +21,5 @@ export {
 	BombTower,
 	XBow,
 	InfernoTower,
+	EagleArtillery,
 }
