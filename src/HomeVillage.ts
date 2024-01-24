@@ -9,6 +9,7 @@ import BombTower from './homeVillage/defenses/BombTower'
 import XBow from './homeVillage/defenses/XBow'
 import InfernoTower from './homeVillage/defenses/InfernoTower'
 import EagleArtillery from './homeVillage/defenses/EagleArtillery'
+import Scattershot from './homeVillage/defenses/Scattershot'
 
 export {
 	Cannon,
@@ -22,4 +23,5 @@ export {
 	XBow,
 	InfernoTower,
 	EagleArtillery,
+	Scattershot,
 }
