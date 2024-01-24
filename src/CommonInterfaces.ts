@@ -45,6 +45,11 @@ export interface ClanCapitalLevel extends Level {
 	districtHallLevel: number
 }
 
+export interface HomeVillageModeLevel {
+	name: string
+	levels: HomeVillageLevel[]
+}
+
 export interface GearUp {
 	buildCost: number
 	buildTimeSec: number
@@ -107,6 +112,17 @@ export interface HomeVillagePushDefense extends Defense {
 	achievements: Achievement[]
 
 	getLevel(level: number): HomeVillagePushLevel | undefined
+	getTownHallLevel(level: number): TownHallDefense | undefined
+	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
+}
+
+export interface HomeVillageModeDefense extends Defense {
+	maxCount: number
+	levels: HomeVillageModeLevel[]
+	townHallDetails: TownHallDefense[]
+	achievements: Achievement[]
+
+	getLevel(mode: string, level: number): HomeVillageLevel | undefined
 	getTownHallLevel(level: number): TownHallDefense | undefined
 	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
 }
