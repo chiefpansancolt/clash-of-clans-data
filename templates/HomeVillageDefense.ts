@@ -20,7 +20,6 @@ const cannon: HomeVillageDefense = {
 			unitTypeTarget: Constants.air,
 			minRange: 0,
 			maxRange: 0,
-			tiles: 0,
 			attackSpeed: 0,
 		},
 	],
