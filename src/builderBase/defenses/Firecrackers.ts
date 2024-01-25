@@ -1,21 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	BuilderBaseLevel,
-	BuilderBaseDefense,
-	AchievementLevel,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Defense from '@IBuilderBase/defenses/firecrackers/defense.interface'
+import Level from '@IBuilderBase/level.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface FirecrackerMode extends DefenseMode {
-	shots: number
-}
-
-interface Firecrackers extends BuilderBaseDefense {
-	modes: FirecrackerMode[]
-}
-
-const firecrackers: Firecrackers = {
+const firecrackers: Defense = {
 	name: 'Firecrackers',
 	description:
 		"Keep flying pests away with flurries of small rockets! It's like a bug zapper, but prettier.",
@@ -212,7 +201,7 @@ const firecrackers: Firecrackers = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): BuilderBaseLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

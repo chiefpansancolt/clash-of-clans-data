@@ -1,21 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	BuilderBaseLevel,
-	BuilderBaseDefense,
-	AchievementLevel,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Level from '@IBuilderBase/level.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Defense from '@IBuilderBase/defenses/hiddenTesla/defense.interface'
 
-interface HiddenTeslaMode extends DefenseMode {
-	triggerRange: number
-}
-
-interface HiddenTesla extends BuilderBaseDefense {
-	modes: HiddenTeslaMode[]
-}
-
-const hiddenTesla: HiddenTesla = {
+const hiddenTesla: Defense = {
 	name: 'Hidden Tesla',
 	description:
 		'Part tower, part trap, completely shocking! Zap air and ground foes alike with the power of science!',
@@ -212,7 +201,7 @@ const hiddenTesla: HiddenTesla = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): BuilderBaseLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

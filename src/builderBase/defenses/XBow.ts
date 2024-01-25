@@ -1,8 +1,8 @@
-import * as Constants from '../../Constats'
-import Defense from '../../interfaces/builderBase/defenses/xbow/defense.interface'
-import Level from '../../interfaces/builderBase/defenses/xbow/level.interface'
-import AchievementLevel from '../../interfaces/common/achievementLevel.interface'
-import TownHallDefense from '../../interfaces/common/townHallDefense.interface'
+import * as Constants from '@/Constats'
+import Defense from '@IBuilderBase/defenses/xbow/defense.interface'
+import Level from '@IBuilderBase/defenses/xbow/level.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
 
 const xBow: Defense = {
 	name: 'X-Bow',

@@ -1,12 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	BuilderBaseLevel,
-	BuilderBaseDefense,
-	AchievementLevel,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Defense from '@IBuilderBase/defense.interface'
+import Level from '@IBuilderBase/level.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-const archerTower: BuilderBaseDefense = {
+const archerTower: Defense = {
 	name: 'Archer Tower',
 	description:
 		"No foe can escape the Archer's arrows. This tower has a special switch - choose long range or fast attack!",
@@ -202,7 +200,7 @@ const archerTower: BuilderBaseDefense = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): BuilderBaseLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

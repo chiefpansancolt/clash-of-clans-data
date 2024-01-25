@@ -1,10 +1,8 @@
 import BuilderBaseDefense from '@IBuilderBase/defense.interface'
-import Level from '@IBuilderBase/defenses/xbow/level.interface'
+import Mode from '@IBuilderBase/defenses/hiddenTesla/mode.interface'
 
 interface Defense extends BuilderBaseDefense {
-	levels: Level[]
-
-	getLevel(level: number): Level | undefined
+	modes: Mode[]
 }
 
 export default Defense
