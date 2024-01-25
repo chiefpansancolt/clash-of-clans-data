@@ -1,21 +1,10 @@
 import * as Constants from '../Constats'
-import { TownHallDefense, Wall, WallLevel, AchievementLevel } from '../CommonInterfaces'
+import WallLevel from '../interfaces/homeVillage/wallLevel.interface'
+import Wall from '../interfaces/homeVillage/wall.interface'
+import TownHallDefense from '../interfaces/common/townHallDefense.interface'
+import AchievementLevel from '../interfaces/common/achievementLevel.interface'
 
-interface HomeWallLevel extends WallLevel {
-	goldBuildCost: number
-	goldCumulativeCost: number
-	elixirBuildCost: number
-	elixirCumulativeCost: number
-	wallRingCost: number
-}
-
-interface HomeWall extends Wall {
-	levels: HomeWallLevel[]
-
-	getLevel(level: number): HomeWallLevel | undefined
-}
-
-const wall: HomeWall = {
+const wall: Wall = {
 	name: 'Walls',
 	description:
 		'Walls are great for keeping your village safe and your enemies in the line of fire.',
@@ -279,7 +268,7 @@ const wall: HomeWall = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): HomeWallLevel | undefined {
+	getLevel(level: number): WallLevel | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {
