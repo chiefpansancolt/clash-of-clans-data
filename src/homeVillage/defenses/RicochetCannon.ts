@@ -6,10 +6,10 @@ import {
 	HomeVillageDefense,
 } from '../../CommonInterfaces'
 
-const multiArcherTower: HomeVillageDefense = {
-	name: 'Multi Archer Tower',
+const ricochetCannon: HomeVillageDefense = {
+	name: 'Ricochet Cannon',
 	description:
-		'These Archers have teamed up to take out attackers faster and more furiously than ever. Teamwork makes the dream work!',
+		'Builder has used one weird trick to develop a devastating cannonball that will ricochet and hit a second target.',
 	maxCount: 2,
 	width: 3,
 	height: 3,
@@ -17,11 +17,11 @@ const multiArcherTower: HomeVillageDefense = {
 	modes: [
 		{
 			name: Constants.mainMode,
-			damageType: Constants.multipleTargets,
-			unitTypeTarget: Constants.groundAndAir,
+			damageType: Constants.singleTarget,
+			unitTypeTarget: Constants.ground,
 			minRange: 0,
-			maxRange: 10,
-			attackSpeed: 0.5,
+			maxRange: 9,
+			attackSpeed: 0.8,
 		},
 	],
 	townHallDetails: [
@@ -58,13 +58,13 @@ const multiArcherTower: HomeVillageDefense = {
 			exp: 0,
 			townHallLevelRequired: 16,
 			baseImgUrl:
-				'https://static.wikia.nocookie.net/clashofclans/images/8/85/Multi-Archer_Tower_Ruin.png/revision/latest/scale-to-width-down/120?cb=20231213213550',
+				'https://static.wikia.nocookie.net/clashofclans/images/4/4a/Ricochet_Cannon_Ruin.png/revision/latest/scale-to-width-down/120?cb=20231213205827',
 		},
 		{
 			level: 1,
-			damagePerSecond: 110,
-			damagePerShot: 55,
-			hitpoints: 5000,
+			damagePerSecond: 360,
+			damagePerShot: 288,
+			hitpoints: 5400,
 			buildCost: 20000000,
 			buildCostResource: Constants.gold,
 			buildTimeSec: 0,
@@ -74,13 +74,13 @@ const multiArcherTower: HomeVillageDefense = {
 			exp: 1099,
 			townHallLevelRequired: 16,
 			baseImgUrl:
-				'https://static.wikia.nocookie.net/clashofclans/images/3/31/Multi-Archer_Tower1.png/revision/latest/scale-to-width-down/120?cb=20231213213611',
+				'https://static.wikia.nocookie.net/clashofclans/images/9/9e/Ricochet_Cannon2.png/revision/latest/scale-to-width-down/120?cb=20231213205828',
 		},
 		{
 			level: 2,
-			damagePerSecond: 120,
-			damagePerShot: 60,
-			hitpoints: 5200,
+			damagePerSecond: 390,
+			damagePerShot: 312,
+			hitpoints: 5700,
 			buildCost: 22000000,
 			buildCostResource: Constants.gold,
 			buildTimeSec: 0,
@@ -130,4 +130,4 @@ const multiArcherTower: HomeVillageDefense = {
 	},
 }
 
-export default multiArcherTower
+export default ricochetCannon
