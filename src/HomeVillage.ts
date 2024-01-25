@@ -13,6 +13,7 @@ import Scattershot from './homeVillage/defenses/Scattershot'
 import BuilderHut from './homeVillage/defenses/BuilderHut'
 import SpellTower from './homeVillage/defenses/SpellTower'
 import Monolith from './homeVillage/defenses/Monolith'
+import MultiArcherTower from './homeVillage/defenses/MultiArcherTower'
 
 export {
 	Cannon,
@@ -30,4 +31,5 @@ export {
 	BuilderHut,
 	SpellTower,
 	Monolith,
+	MultiArcherTower,
 }
