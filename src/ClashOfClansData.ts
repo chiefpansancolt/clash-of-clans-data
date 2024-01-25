@@ -1,5 +1,5 @@
-import * as HomeVillage from './HomeVillage'
-import * as BuilderBase from './BuilderBase'
-import * as ClanCapital from './ClanCapital'
+import * as HomeVillage from '@HomeVillage/HomeVillage'
+import * as BuilderBase from '@BuilderBase/BuilderBase'
+import * as ClanCapital from '@ClanCapital/ClanCapital'
 
 export { HomeVillage, BuilderBase, ClanCapital }

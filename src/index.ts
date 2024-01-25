@@ -1,3 +1,3 @@
-import * as ClashOfClansData from './ClashOfClansData'
+import * as ClashOfClansData from '@/ClashOfClansData'
 
 export { ClashOfClansData }
