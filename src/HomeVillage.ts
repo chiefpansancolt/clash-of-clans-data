@@ -12,6 +12,7 @@ import EagleArtillery from './homeVillage/defenses/EagleArtillery'
 import Scattershot from './homeVillage/defenses/Scattershot'
 import BuilderHut from './homeVillage/defenses/BuilderHut'
 import SpellTower from './homeVillage/defenses/SpellTower'
+import Monolith from './homeVillage/defenses/Monolith'
 
 export {
 	Cannon,
@@ -28,4 +29,5 @@ export {
 	Scattershot,
 	BuilderHut,
 	SpellTower,
+	Monolith,
 }
