@@ -1,12 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Defense from '@IHomeVillage/defense.interface'
+import Level from '@IHomeVillage/level.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-const cannon: HomeVillageDefense = {
+const nameHere: Defense = {
 	name: '',
 	description: '',
 	maxCount: 0,
@@ -74,7 +72,7 @@ const cannon: HomeVillageDefense = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): HomeVillageLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {
@@ -108,4 +106,4 @@ const cannon: HomeVillageDefense = {
 	},
 }
 
-export default cannon
+export default nameHere
