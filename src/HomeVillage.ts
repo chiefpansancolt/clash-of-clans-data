@@ -15,6 +15,7 @@ import SpellTower from './homeVillage/defenses/SpellTower'
 import Monolith from './homeVillage/defenses/Monolith'
 import MultiArcherTower from './homeVillage/defenses/MultiArcherTower'
 import RicochetCannon from './homeVillage/defenses/RicochetCannon'
+import Wall from './homeVillage/Wall'
 
 export {
 	Cannon,
@@ -34,4 +35,5 @@ export {
 	Monolith,
 	MultiArcherTower,
 	RicochetCannon,
+	Wall,
 }

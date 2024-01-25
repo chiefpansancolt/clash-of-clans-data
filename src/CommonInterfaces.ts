@@ -85,6 +85,30 @@ export interface Achievement {
 	levels: AchievementLevel[]
 }
 
+export interface WallLevel {
+	level: number
+	hitpoints: number
+	townHallLevelRequired: number
+	baseImgUrl: string
+}
+
+export interface Wall {
+	name: string
+	description: string
+	width: number
+	height: number
+	maxLevel: number
+	maxCount: number
+	townHallDetails: TownHallDefense[]
+	levels: WallLevel[]
+	achievements: Achievement[]
+
+	getSize(): string
+	getLevel(level: number): WallLevel | undefined
+	getTownHallLevel(level: number): TownHallDefense | undefined
+	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
+}
+
 export interface DefenseMode {
 	name: string
 	minRange: number
