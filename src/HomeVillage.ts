@@ -11,6 +11,7 @@ import InfernoTower from './homeVillage/defenses/InfernoTower'
 import EagleArtillery from './homeVillage/defenses/EagleArtillery'
 import Scattershot from './homeVillage/defenses/Scattershot'
 import BuilderHut from './homeVillage/defenses/BuilderHut'
+import SpellTower from './homeVillage/defenses/SpellTower'
 
 export {
 	Cannon,
@@ -26,4 +27,5 @@ export {
 	EagleArtillery,
 	Scattershot,
 	BuilderHut,
+	SpellTower,
 }
