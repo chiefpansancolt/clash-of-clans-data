@@ -1,22 +1,10 @@
 import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	BuilderBaseLevel,
-	BuilderBaseDefense,
-	AchievementLevel,
-} from '../../CommonInterfaces'
+import Defense from '../../interfaces/builderBase/defenses/xbow/defense.interface'
+import Level from '../../interfaces/builderBase/defenses/xbow/level.interface'
+import AchievementLevel from '../../interfaces/common/achievementLevel.interface'
+import TownHallDefense from '../../interfaces/common/townHallDefense.interface'
 
-interface XBowLevel extends BuilderBaseLevel {
-	airImgUrl: string
-}
-
-interface Xbow extends BuilderBaseDefense {
-	levels: XBowLevel[]
-
-	getLevel(level: number): XBowLevel | undefined
-}
-
-const xBow: Xbow = {
+const xBow: Defense = {
 	name: 'X-Bow',
 	description:
 		'The X-Bow shoots powerful bolts with terrifying power. You can set it to target ground units or air units.',
@@ -150,7 +138,7 @@ const xBow: Xbow = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): XBowLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {
