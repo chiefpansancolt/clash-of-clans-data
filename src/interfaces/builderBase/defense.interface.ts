@@ -1,5 +1,5 @@
 import Defense from '@ICommon/defense.interface'
-import BuilderBaseLevel from '../builderBase/level.interface'
+import BuilderBaseLevel from '@IBuilderBase/level.interface'
 import TownHallDefense from '@ICommon/townHallDefense.interface'
 import Achievement from '@ICommon/achievement.interface'
 import AchievementLevel from '@ICommon/achievementLevel.interface'

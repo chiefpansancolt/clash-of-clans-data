@@ -1,8 +1,8 @@
-import Defense from '../common/defense.interface'
-import HomeVillageLevel from '../homeVillage/level.interface'
-import TownHallDefense from '../common/townHallDefense.interface'
-import Achievement from '../common/achievement.interface'
-import AchievementLevel from '../common/achievementLevel.interface'
+import Defense from '@ICommon/defense.interface'
+import HomeVillageLevel from '@IHomeVillage/level.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Achievement from '@ICommon/achievement.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
 interface HomeVillageDefense extends Defense {
 	maxCount: number

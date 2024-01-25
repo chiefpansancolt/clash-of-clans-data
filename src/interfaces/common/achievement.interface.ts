@@ -1,4 +1,4 @@
-import AchievementLevel from '../common/achievementLevel.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
 interface Achievement {
 	name: string

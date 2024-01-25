@@ -1,4 +1,4 @@
-import Level from '../homeVillage/level.interface'
+import Level from '@IHomeVillage/level.interface'
 
 interface HomeVillageModeLevel {
 	name: string

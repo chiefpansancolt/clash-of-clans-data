@@ -1,4 +1,4 @@
-import DefenseMode from '../common/defenseMode.interface'
+import DefenseMode from '@ICommon/defenseMode.interface'
 
 interface Defense {
 	name: string

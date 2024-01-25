@@ -1,5 +1,5 @@
-import Wall from '../common/wall.interface'
-import WallLevel from './wallLevel.interface'
+import Wall from '@ICommon/wall.interface'
+import WallLevel from '@IHomeVillage/wallLevel.interface'
 
 interface HomeWall extends Wall {
 	levels: WallLevel[]

@@ -1,7 +1,7 @@
-import ClanCapitalLevel from '../clanCapital/level.interface'
-import Defense from '../common/defense.interface'
-import CapitalHallDefense from '../clanCapital/capitalHallDefense.interface'
-import TownHallDefense from '../common/townHallDefense.interface'
+import ClanCapitalLevel from '@IClanCapital/level.interface'
+import Defense from '@ICommon/defense.interface'
+import CapitalHallDefense from '@IClanCapital/capitalHallDefense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
 
 interface ClanCapitalDefense extends Defense {
 	levels: ClanCapitalLevel[]

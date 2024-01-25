@@ -1,4 +1,4 @@
-import Level from '../common/level.interface'
+import Level from '@ICommon/level.interface'
 
 interface HomeVillageLevel extends Level {
 	damagePerSecond: number

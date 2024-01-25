@@ -1,4 +1,4 @@
-import WallLevel from '../common/wallLevel.interface'
+import WallLevel from '@ICommon/wallLevel.interface'
 
 interface HomeVillageWallLevel extends WallLevel {
 	goldBuildCost: number

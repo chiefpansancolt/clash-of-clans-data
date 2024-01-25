@@ -1,7 +1,7 @@
-import Achievement from './achievement.interface'
-import WallLevel from './wallLevel.interface'
-import TownHallDefense from './townHallDefense.interface'
-import AchievementLevel from './achievementLevel.interface'
+import Achievement from '@ICommon/achievement.interface'
+import WallLevel from '@ICommon/wallLevel.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
 interface Wall {
 	name: string
