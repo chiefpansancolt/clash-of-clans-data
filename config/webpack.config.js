@@ -1,4 +1,5 @@
 const path = require('path')
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
 
 module.exports = {
 	mode: 'production',
@@ -37,16 +38,7 @@ module.exports = {
 		],
 	},
 	resolve: {
-		alias: {
-			'@': path.resolve(__dirname, 'src'),
-			'@IBuilderBase': path.resolve(__dirname, 'src/interfaces/builderBase'),
-			'@IClanCapital': path.resolve(__dirname, 'src/interfaces/clanCapital'),
-			'@IHomeVillage': path.resolve(__dirname, 'src/interfaces/homeVillage'),
-			'@ICommon': path.resolve(__dirname, 'src/interfaces/common'),
-			'@BuilderBase': path.resolve(__dirname, 'src/builderBase'),
-			'@ClanCapital': path.resolve(__dirname, 'src/clanCapital'),
-			'@HomeVillage': path.resolve(__dirname, 'src/homeVillage'),
-		},
 		extensions: ['.ts', '.js', '.tsx', '.jsx'],
+		plugins: [new TsconfigPathsPlugin()],
 	},
 }
