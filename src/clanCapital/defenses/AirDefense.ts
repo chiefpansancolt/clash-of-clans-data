@@ -1,7 +1,9 @@
-import * as Constants from '../../Constats'
-import { ClanCapitalLevel, TownHallDefense, ClanCapitalDefense } from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IClanCapital/level.interface'
+import Defense from '@IClanCapital/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
 
-const airDefense: ClanCapitalDefense = {
+const airDefense: Defense = {
 	name: 'Air Defense',
 	description:
 		"This anti-air tower is deadly against flying enemies, but can't target foes on the ground. Place it wisely to cover as much airspace as possible.",
@@ -178,7 +180,7 @@ const airDefense: ClanCapitalDefense = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): ClanCapitalLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

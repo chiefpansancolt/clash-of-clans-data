@@ -1,17 +1,9 @@
 import * as Constants from '../../Constats'
-import { ClanCapitalLevel, TownHallDefense, ClanCapitalDefense } from '../../CommonInterfaces'
+import Level from '@IClanCapital/defenses/bombTower/level.interface'
+import Defense from '@IClanCapital/defenses/bombTower/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
 
-interface BombTowerLevel extends ClanCapitalLevel {
-	damageWhenDestroyed: number
-}
-
-interface BombTower extends ClanCapitalDefense {
-	levels: BombTowerLevel[]
-
-	getLevel(level: number): BombTowerLevel | undefined
-}
-
-const bombTower: BombTower = {
+const bombTower: Defense = {
 	name: 'Bomb Tower',
 	description:
 		'Bomb Towers bombard nearby ground troops and go up in a big BOOM when destroyed! Melee units best stand clear!',
@@ -175,7 +167,7 @@ const bombTower: BombTower = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): BombTowerLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

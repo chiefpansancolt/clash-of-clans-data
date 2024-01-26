@@ -1,18 +1,9 @@
-import * as Constants from '../../Constats'
-import { ClanCapitalLevel, TownHallDefense, ClanCapitalDefense } from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IClanCapital/defenses/infernoTower/level.interface'
+import Defense from '@IClanCapital/defenses/infernoTower/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
 
-interface InfernoTowerLevel extends ClanCapitalLevel {
-	damagePerSecondAfter25: number
-	damagePerSecondAfter75: number
-}
-
-interface InfernoTower extends ClanCapitalDefense {
-	levels: InfernoTowerLevel[]
-
-	getLevel(level: number): InfernoTowerLevel | undefined
-}
-
-const infernoTower: InfernoTower = {
+const infernoTower: Defense = {
 	name: 'Inferno Tower',
 	description:
 		'Bane of all big troops, the Inferno Tower can deal devastating damage to units it stays focused on.',
@@ -176,7 +167,7 @@ const infernoTower: InfernoTower = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): InfernoTowerLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

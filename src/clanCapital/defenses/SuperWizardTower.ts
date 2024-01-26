@@ -1,7 +1,9 @@
-import * as Constants from '../../Constats'
-import { ClanCapitalLevel, TownHallDefense, ClanCapitalDefense } from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IClanCapital/level.interface'
+import Defense from '@IClanCapital/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
 
-const cannon: ClanCapitalDefense = {
+const superWizardTower: Defense = {
 	name: 'Super Wizard Tower',
 	description:
 		"Super Wizards' electrickery is shockingly powerful against swarms of attackers, as it bounces to everyone too close to the initial target.",
@@ -160,7 +162,7 @@ const cannon: ClanCapitalDefense = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): ClanCapitalLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {
@@ -182,4 +184,4 @@ const cannon: ClanCapitalDefense = {
 	},
 }
 
-export default cannon
+export default superWizardTower

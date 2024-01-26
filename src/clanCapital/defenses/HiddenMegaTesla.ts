@@ -1,27 +1,9 @@
 import * as Constants from '../../Constats'
-import {
-	ClanCapitalLevel,
-	TownHallDefense,
-	ClanCapitalDefense,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import Level from '@IClanCapital/defenses/hiddenMegaTesla/level.interface'
+import Defense from '@IClanCapital/defenses/hiddenMegaTesla/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
 
-interface HiddenMegaTeslaLevel extends ClanCapitalLevel {
-	secondaryChainDamage: number
-}
-
-interface HiddenTeslaMode extends DefenseMode {
-	triggerRange: number
-}
-
-interface HiddenMegaTesla extends ClanCapitalDefense {
-	levels: HiddenMegaTeslaLevel[]
-	modes: HiddenTeslaMode[]
-
-	getLevel(level: number): HiddenMegaTeslaLevel | undefined
-}
-
-const hiddenMegaTesla: HiddenMegaTesla = {
+const hiddenMegaTesla: Defense = {
 	name: 'Hidden Mega Tesla',
 	description:
 		"What happens when a Hidden Tesla goes Mega? It's powerful jolt deals heavy damage to even the toughest units!'",
@@ -198,7 +180,7 @@ const hiddenMegaTesla: HiddenMegaTesla = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): HiddenMegaTeslaLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {
