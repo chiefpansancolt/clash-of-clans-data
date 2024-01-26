@@ -1,8 +1,8 @@
 import * as Constants from '@/Constats'
 import Level from '@IHomeVillage/wall/level.interface'
 import Wall from '@IHomeVillage/wall/wall.interface'
-import TownHallDefense from '../interfaces/common/townHallDefense.interface'
-import AchievementLevel from '../interfaces/common/achievementLevel.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
 const wall: Wall = {
 	name: 'Walls',
