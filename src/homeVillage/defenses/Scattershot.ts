@@ -1,31 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/scattershots/level.interface'
+import Defense from '@IHomeVillage/defenses/scattershots/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface ScattershotMode extends DefenseMode {
-	numberOfRounds: number
-}
-
-interface ScattershotLevel extends HomeVillageLevel {
-	damagePerShotMax: number
-	splashDamageMin: number
-	splashDamageMax: number
-	depletedImgUrl: string
-}
-
-interface Scattershot extends HomeVillageDefense {
-	modes: ScattershotMode[]
-	levels: ScattershotLevel[]
-
-	getLevel(level: number): ScattershotLevel | undefined
-}
-
-const scattershot: Scattershot = {
+const scattershot: Defense = {
 	name: 'Scattershot',
 	description:
 		'The Scattershot heaves very heavy bundles of poorly tied together rocks at whoever happens to be closest. The bundles break apart on impact and deal additional damage to the troops behind.',
@@ -180,7 +159,7 @@ const scattershot: Scattershot = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): ScattershotLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

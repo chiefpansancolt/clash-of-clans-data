@@ -1,25 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	GearUp,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/archerTower/level.interface'
+import Defense from '@IHomeVillage/defenses/archerTower/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface ArcherTowerLevel extends HomeVillageLevel {
-	gearImgUrl: string
-	burstImgUrl: string
-}
-
-interface ArcherTower extends HomeVillageDefense {
-	levels: ArcherTowerLevel[]
-	gearUp: GearUp
-
-	getLevel(levelNumber: number): ArcherTowerLevel | undefined
-}
-
-const archerTower: ArcherTower = {
+const archerTower: Defense = {
 	name: 'Archer Tower',
 	description:
 		'Archer Towers have longer range than Cannons, and unlike Cannons they can attack flying enemies.',
@@ -500,7 +485,7 @@ const archerTower: ArcherTower = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): ArcherTowerLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

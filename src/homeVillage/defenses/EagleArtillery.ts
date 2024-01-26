@@ -1,35 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/eagleArtillery/level.interface'
+import Defense from '@IHomeVillage/defenses/eagleArtillery/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface EagleArtilleryMode extends DefenseMode {
-	tiles: number
-	activationHousingSpace: number
-	shotsPerBurst: number
-	tilesShockwave: number
-	favoriteTarget: string
-	numberOfRounds: number
-}
-
-interface EagleArtilleryLevel extends HomeVillageLevel {
-	shockwaveDamage: number
-	activeImgUrl: string
-	depletedImgUrl: string
-}
-
-interface EagleArtillery extends HomeVillageDefense {
-	modes: EagleArtilleryMode[]
-	levels: EagleArtilleryLevel[]
-
-	getLevel(level: number): EagleArtilleryLevel | undefined
-}
-
-const eagleArtillery: EagleArtillery = {
+const eagleArtillery: Defense = {
 	name: 'Eagle Artillery',
 	description:
 		"The Eagle Artillery has nearly unlimited range and targets tough enemies with exploding shells. However, it won't activate until a large amount of troops have been deployed.",
@@ -231,7 +206,7 @@ const eagleArtillery: EagleArtillery = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): EagleArtilleryLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

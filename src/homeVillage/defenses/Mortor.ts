@@ -1,31 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	GearUp,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/mortor/level.interface'
+import Defense from '@IHomeVillage/defenses/mortor/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface MortorMode extends DefenseMode {
-	tiles: number
-}
-
-interface MortorLevel extends HomeVillageLevel {
-	gearImgUrl: string
-	burstImgUrl: string
-}
-
-interface Mortor extends HomeVillageDefense {
-	levels: MortorLevel[]
-	gearUp: GearUp
-	modes: MortorMode[]
-
-	getLevel(levelNumber: number): MortorLevel | undefined
-}
-
-const mortor: Mortor = {
+const mortor: Defense = {
 	name: 'Mortor',
 	description:
 		"The Mortar can mow down hordes of enemies by the splash damage from its shell. Don't let enemies get too close to it!",
@@ -438,7 +417,7 @@ const mortor: Mortor = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): MortorLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

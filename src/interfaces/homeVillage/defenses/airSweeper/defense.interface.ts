@@ -1,5 +1,5 @@
 import Defense from '@ICommon/defense.interface'
-import HomeVillagePushLevel from '@IHomeVillage/pushLevel.interface'
+import HomeVillagePushLevel from '@/interfaces/homeVillage/defenses/airSweeper/level.interface'
 import TownHallDefense from '@ICommon/townHallDefense.interface'
 import Achievement from '@ICommon/achievement.interface'
 import AchievementLevel from '@ICommon/achievementLevel.interface'

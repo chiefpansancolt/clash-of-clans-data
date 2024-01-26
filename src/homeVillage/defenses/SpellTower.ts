@@ -1,38 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/spellTower/level.interface'
+import Defense from '@IHomeVillage/defenses/spellTower/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface SpellTowerMode extends DefenseMode {
-	spellRadius: number
-	spellDurationInSec: number
-	damageIncrease: number
-	rechargeTimeInSec: number
-	trigger: string
-	deployPosition: string
-	maxDamagePerSecond: number
-	speedIncrease: number
-	attackRateDecrease: number
-}
-
-interface SpellTowerLevel extends HomeVillageLevel {
-	unlocks: string
-	poisonSpellImgUrl: string
-	invisibilitySpellImgUrl: string
-}
-
-interface SpellTower extends HomeVillageDefense {
-	levels: SpellTowerLevel[]
-	modes: SpellTowerMode[]
-
-	getLevel(level: number): SpellTowerLevel | undefined
-}
-
-const spellTower: SpellTower = {
+const spellTower: Defense = {
 	name: 'Spell Tower',
 	description:
 		"For years, Wizards alone brought magic to the battlefield one fireball at a time. Now they've developed a fully automated way to give your village more ways to mess up attackers with magic!",
@@ -205,7 +177,7 @@ const spellTower: SpellTower = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): SpellTowerLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

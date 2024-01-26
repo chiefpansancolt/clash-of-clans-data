@@ -1,39 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageModeLevel,
-	HomeVillageModeDefense,
-	DefenseMode,
-	HomeVillageLevel,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/infernoTower/level.interface'
+import Defense from '@IHomeVillage/defenses/infernoTower/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface InfernoTowerMode extends DefenseMode {
-	numberOfTargets: number
-	numberOfRounds: number
-}
-
-interface InfernoTowerLevel extends HomeVillageLevel {
-	numberOfTargets: number
-	damagePerSecondAfter15: number
-	damagePerSecondAfter525: number
-	damagePerHitAfter15: number
-	damagePerHitAfter525: number
-	depletedImgUrl: string
-}
-
-interface InfernoTowerModeLevel extends HomeVillageModeLevel {
-	levels: InfernoTowerLevel[]
-}
-
-interface InfernoTower extends HomeVillageModeDefense {
-	modes: InfernoTowerMode[]
-	levels: InfernoTowerModeLevel[]
-
-	getLevel(number: string, level: number): InfernoTowerLevel | undefined
-}
-
-const infernoTower: InfernoTower = {
+const infernoTower: Defense = {
 	name: 'Inferno Tower',
 	description:
 		"Set the Inferno Tower's Dark Elixir fueled flame to build up unbelievable damage to single targets, or to constantly roast multiple targets at once.",
@@ -539,7 +510,7 @@ const infernoTower: InfernoTower = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(name: string, level: number): InfernoTowerLevel | undefined {
+	getLevel(name: string, level: number): Level | undefined {
 		const mode = this.levels.find((detail: { name: string }) => detail.name === name)
 
 		if (mode && level >= 1 && level <= mode.levels.length) {

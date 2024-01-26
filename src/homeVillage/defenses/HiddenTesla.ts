@@ -1,21 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/level.interface'
+import Defense from '@IHomeVillage/defenses/hiddenTesla/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface HiddenTeslaMode extends DefenseMode {
-	triggerRange: number
-}
-
-interface HiddenTesla extends HomeVillageDefense {
-	modes: HiddenTeslaMode[]
-}
-
-const hiddenTesla: HiddenTesla = {
+const hiddenTesla: Defense = {
 	name: 'Hidden Tesla',
 	description:
 		'Lay a deadly trap with the Hidden Tesla! Our Wizards have trapped a storm cloud into each of these sneaky towers. When an enemy walks or flies close enough, the tower springs up and fries it using the power of Electrickery!',
@@ -282,7 +271,7 @@ const hiddenTesla: HiddenTesla = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): HomeVillageLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

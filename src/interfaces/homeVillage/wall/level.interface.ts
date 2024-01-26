@@ -1,6 +1,6 @@
 import WallLevel from '@ICommon/wallLevel.interface'
 
-interface HomeVillageWallLevel extends WallLevel {
+interface Level extends WallLevel {
 	goldBuildCost: number
 	goldCumulativeCost: number
 	elixirBuildCost: number
@@ -8,4 +8,4 @@ interface HomeVillageWallLevel extends WallLevel {
 	wallRingCost: number
 }
 
-export default HomeVillageWallLevel
+export default Level

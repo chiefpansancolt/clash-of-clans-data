@@ -1,25 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	GearUp,
-	HomeVillageLevel,
-	HomeVillageDefense,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/cannon/level.interface'
+import Defense from '@IHomeVillage/defenses/cannon/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface CannonLevel extends HomeVillageLevel {
-	gearImgUrl: string
-	burstImgUrl: string
-}
-
-interface Cannon extends HomeVillageDefense {
-	levels: CannonLevel[]
-	gearUp: GearUp
-
-	getLevel(levelNumber: number): CannonLevel | undefined
-}
-
-const cannon: Cannon = {
+const cannon: Defense = {
 	name: 'Cannon',
 	description:
 		'Cannons are great for point defense. Upgrade cannons to increase their firepower, but beware that your defensive turrets cannot shoot while being upgraded!',
@@ -506,7 +491,7 @@ const cannon: Cannon = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): CannonLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

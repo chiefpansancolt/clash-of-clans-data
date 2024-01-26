@@ -1,12 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillagePushLevel,
-	HomeVillagePushDefense,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@/interfaces/homeVillage/defenses/airSweeper/level.interface'
+import Defense from '@/interfaces/homeVillage/defenses/airSweeper/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-const airSweeper: HomeVillagePushDefense = {
+const airSweeper: Defense = {
 	name: 'Air Sweeper',
 	description:
 		'Air Sweepers control the sky with strong blasts of air that push back flying enemies. Air Sweepers can only face one direction, so rotate them to maximize their effectiveness.',
@@ -153,7 +151,7 @@ const airSweeper: HomeVillagePushDefense = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): HomeVillagePushLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

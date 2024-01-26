@@ -1,28 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/bombTower/level.interface'
+import Defense from '@IHomeVillage/defenses/bombTower/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface BombTowerMode extends DefenseMode {
-	tiles: number
-}
-
-interface BombTowerLevel extends HomeVillageLevel {
-	damageWhenDestroyed: number
-}
-
-interface BombTower extends HomeVillageDefense {
-	levels: BombTowerLevel[]
-	modes: BombTowerMode[]
-
-	getLevel(level: number): BombTowerLevel | undefined
-}
-
-const bombTower: BombTower = {
+const bombTower: Defense = {
 	name: 'Bomb Tower',
 	description:
 		'Bomb Towers bombard nearby ground troops and go up in a big BOOM when destroyed! Melee units best stand clear!',
@@ -252,7 +234,7 @@ const bombTower: BombTower = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): BombTowerLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

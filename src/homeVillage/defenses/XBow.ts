@@ -1,28 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/xbow/level.interface'
+import Defense from '@IHomeVillage/defenses/xbow/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface XBowLevel extends HomeVillageLevel {
-	groundDepletedImgUrl: string
-	airGroundImgUrl: string
-	airGroundDepletedImgUrl: string
-}
-
-interface XBowMode extends DefenseMode {
-	numberOfRounds: number
-}
-
-interface XBow extends HomeVillageDefense {
-	modes: XBowMode[]
-	levels: XBowLevel[]
-}
-
-const xBow: XBow = {
+const xBow: Defense = {
 	name: 'X-Bow',
 	description:
 		'The X-Bow shoots mystical bolts with terrifying power. Load it with Elixir and the X-Bow works automagically. You can set it to target ground units at long ranges, or all targets at reduced range.',
@@ -344,7 +326,7 @@ const xBow: XBow = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): XBowLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

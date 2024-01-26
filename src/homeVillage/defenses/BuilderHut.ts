@@ -1,37 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/builderHut/level.interface'
+import Defense from '@IHomeVillage/defenses/builderHut/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface BuilderCost {
-	name: string
-	cost: number
-	resourceType: string
-}
-
-interface BuilderLevel extends HomeVillageLevel {
-	repairPerSecond: number
-	repairPerHit: number
-	attackingImgUrl: string
-}
-
-interface BuilderHutMode extends DefenseMode {
-	movementSpeed: number
-}
-
-interface BuilderHut extends HomeVillageDefense {
-	modes: BuilderHutMode[]
-	costs: BuilderCost[]
-	levels: BuilderLevel[]
-
-	getLevel(level: number): BuilderLevel | undefined
-}
-
-const builderHut: BuilderHut = {
+const builderHut: Defense = {
 	name: "Builder's Hut",
 	description:
 		'Nothing gets done around here without Builders! You can hire more Builders to start multiple construction projects, or speed up their work by using green gems.',
@@ -264,7 +237,7 @@ const builderHut: BuilderHut = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): BuilderLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

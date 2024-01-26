@@ -1,21 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-	DefenseMode,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/level.interface'
+import Defense from '@IHomeVillage/defenses/wizardTower/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface WizardTowerMode extends DefenseMode {
-	tiles: number
-}
-
-interface WizardTower extends HomeVillageDefense {
-	modes: WizardTowerMode[]
-}
-
-const wizardTower: WizardTower = {
+const wizardTower: Defense = {
 	name: 'Wizard Tower',
 	description:
 		'The Ultimate Arcane Defense! Tower Wizards cast powerful area effect spells that target both flying and ground troops.',
@@ -314,7 +303,7 @@ const wizardTower: WizardTower = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): HomeVillageLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

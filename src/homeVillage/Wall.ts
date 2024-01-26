@@ -1,6 +1,6 @@
-import * as Constants from '../Constats'
-import WallLevel from '../interfaces/homeVillage/wallLevel.interface'
-import Wall from '../interfaces/homeVillage/wall.interface'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/wall/level.interface'
+import Wall from '@IHomeVillage/wall/wall.interface'
 import TownHallDefense from '../interfaces/common/townHallDefense.interface'
 import AchievementLevel from '../interfaces/common/achievementLevel.interface'
 
@@ -268,7 +268,7 @@ const wall: Wall = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): WallLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {

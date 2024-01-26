@@ -1,22 +1,10 @@
-import * as Constants from '../../Constats'
-import {
-	TownHallDefense,
-	AchievementLevel,
-	HomeVillageLevel,
-	HomeVillageDefense,
-} from '../../CommonInterfaces'
+import * as Constants from '@/Constats'
+import Level from '@IHomeVillage/defenses/monolith/level.interface'
+import Defense from '@IHomeVillage/defenses/monolith/defense.interface'
+import TownHallDefense from '@ICommon/townHallDefense.interface'
+import AchievementLevel from '@ICommon/achievementLevel.interface'
 
-interface MonolithLevel extends HomeVillageLevel {
-	bonusDamagePerShot: number
-}
-
-interface Monolith extends HomeVillageDefense {
-	levels: MonolithLevel[]
-
-	getLevel(level: number): MonolithLevel | undefined
-}
-
-const monolith: Monolith = {
+const monolith: Defense = {
 	name: 'Monolith',
 	description:
 		"The Builder's first experiment in using Dark Elixir for a building resulted in something truly frightful. The stronger the Monolith's target, the more damage it does. Great to have defending your Village, but a little scary to attack against.",
@@ -120,7 +108,7 @@ const monolith: Monolith = {
 	getSize(): string {
 		return `${this.width}x${this.height}`
 	},
-	getLevel(level: number): MonolithLevel | undefined {
+	getLevel(level: number): Level | undefined {
 		if (level >= 1 && level <= this.levels.length) {
 			return this.levels[level - 1]
 		} else {
