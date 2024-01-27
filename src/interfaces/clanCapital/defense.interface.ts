@@ -7,7 +7,7 @@ interface ClanCapitalDefense extends Defense {
 	levels: ClanCapitalLevel[]
 	capitalHallDetails: CapitalHallDefense[]
 
-	getLevel(levelr: number): ClanCapitalLevel | undefined
+	getLevel(level: number): ClanCapitalLevel | undefined
 	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined
 }
 

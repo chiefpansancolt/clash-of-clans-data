@@ -3,5 +3,6 @@ import ArcherTower from '@BuilderBase/defenses/archerTower'
 import Firecrackers from '@BuilderBase/defenses/firecrackers'
 import HiddenTesla from '@BuilderBase/defenses/hiddenTesla'
 import XBow from '@BuilderBase/defenses/xbow'
+import Wall from '@BuilderBase/wall'
 
-export { Cannon, ArcherTower, Firecrackers, HiddenTesla, XBow }
+export { Cannon, ArcherTower, Firecrackers, HiddenTesla, XBow, Wall }
