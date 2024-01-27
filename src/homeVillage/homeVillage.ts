@@ -16,6 +16,7 @@ import Monolith from '@HomeVillage/defenses/monolith'
 import MultiArcherTower from '@HomeVillage/defenses/multiArcherTower'
 import RicochetCannon from '@HomeVillage/defenses/ricochetCannon'
 import Wall from '@HomeVillage/wall'
+import TownHall from '@HomeVillage/townHall'
 
 export {
 	Cannon,
@@ -35,5 +36,6 @@ export {
 	Monolith,
 	MultiArcherTower,
 	RicochetCannon,
+	TownHall,
 	Wall,
 }
