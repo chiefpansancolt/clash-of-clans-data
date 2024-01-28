@@ -1,4 +1,4 @@
-import * as Constants from '@/Constats'
+import * as Constants from '@/constants'
 import Level from '@IClanCapital/level.interface'
 import Defense from '@IClanCapital/defense.interface'
 import TownHallDefense from '@ICommon/townHallDefense.interface'
