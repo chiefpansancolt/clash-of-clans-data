@@ -21,6 +21,7 @@ import RapidRockets from '@ClanCapital/defenses/rapidRockets'
 import Reflector from '@ClanCapital/defenses/reflector'
 import RocketArtillery from '@ClanCapital/defenses/rocketArtillery'
 import SpearThrower from '@ClanCapital/defenses/spearThrower'
+import SuperDragonPost from '@ClanCapital/defenses/superDragonPost'
 import SuperGiantPost from '@ClanCapital/defenses/superGiantPost'
 import SuperWizardTower from '@ClanCapital/defenses/superWizardTower'
 
@@ -48,6 +49,7 @@ export {
 	Reflector,
 	RocketArtillery,
 	SpearThrower,
+	SuperDragonPost,
 	SuperGiantPost,
 	SuperWizardTower,
 	Wall,
