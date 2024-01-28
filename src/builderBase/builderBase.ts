@@ -1,37 +1,42 @@
+/* Builder Hall */
+import BuilderHall from '@BuilderBase/builderHall'
+
+/* Defenses */
+import AirBombs from '@BuilderBase/defenses/airBombs'
+import ArcherTower from '@BuilderBase/defenses/archerTower'
 import Cannon from '@BuilderBase/defenses/cannon'
 import Crusher from '@BuilderBase/defenses/crusher'
 import DoubleCannon from '@BuilderBase/defenses/doubleCannon'
-import ArcherTower from '@BuilderBase/defenses/archerTower'
 import Firecrackers from '@BuilderBase/defenses/firecrackers'
-import HiddenTesla from '@BuilderBase/defenses/hiddenTesla'
-import XBow from '@BuilderBase/defenses/xbow'
+import GiantCannon from '@BuilderBase/defenses/giantCannon'
 import GuardTower from '@BuilderBase/defenses/guardTower'
-import AirBombs from '@BuilderBase/defenses/airBombs'
+import HiddenTesla from '@BuilderBase/defenses/hiddenTesla'
+import LavaLauncher from '@BuilderBase/defenses/lavaLauncher'
+import MegaTesla from '@BuilderBase/defenses/megaTesla'
 import MultiMortor from '@BuilderBase/defenses/multiMortor'
 import OttosOutpost from '@BuilderBase/defenses/ottosOutpost'
 import Roaster from '@BuilderBase/defenses/roaster'
-import GiantCannon from '@BuilderBase/defenses/giantCannon'
-import MegaTesla from '@BuilderBase/defenses/megaTesla'
-import LavaLauncher from '@BuilderBase/defenses/lavaLauncher'
+import XBow from '@BuilderBase/defenses/xbow'
+
+/* Walls */
 import Wall from '@BuilderBase/wall'
-import BuilderHall from '@BuilderBase/builderHall'
 
 export {
+	BuilderHall,
+	AirBombs,
+	ArcherTower,
 	Cannon,
 	Crusher,
 	DoubleCannon,
-	ArcherTower,
 	Firecrackers,
-	HiddenTesla,
-	XBow,
-	Wall,
-	BuilderHall,
+	GiantCannon,
 	GuardTower,
-	AirBombs,
+	HiddenTesla,
+	LavaLauncher,
+	MegaTesla,
 	MultiMortor,
 	OttosOutpost,
 	Roaster,
-	GiantCannon,
-	MegaTesla,
-	LavaLauncher,
+	XBow,
+	Wall,
 }
