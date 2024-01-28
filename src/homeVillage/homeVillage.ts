@@ -1,41 +1,46 @@
-import Cannon from '@HomeVillage/defenses/cannon'
-import ArcherTower from '@HomeVillage/defenses/archerTower'
-import Mortor from '@HomeVillage/defenses/mortor'
-import AirDefense from '@HomeVillage/defenses/airDefense'
-import WizardTower from '@HomeVillage/defenses/wizardTower'
-import AirSweeper from '@HomeVillage/defenses/airSweeper'
-import HiddenTesla from '@HomeVillage/defenses/hiddenTesla'
-import BombTower from '@HomeVillage/defenses/bombTower'
-import XBow from '@HomeVillage/defenses/xbow'
-import InfernoTower from '@HomeVillage/defenses/infernoTower'
-import EagleArtillery from '@HomeVillage/defenses/eagleArtillery'
-import Scattershot from '@HomeVillage/defenses/scattershot'
-import BuilderHut from '@HomeVillage/defenses/builderHut'
-import SpellTower from '@HomeVillage/defenses/spellTower'
-import Monolith from '@HomeVillage/defenses/monolith'
-import MultiArcherTower from '@HomeVillage/defenses/multiArcherTower'
-import RicochetCannon from '@HomeVillage/defenses/ricochetCannon'
-import Wall from '@HomeVillage/wall'
+/* Town Hall */
 import TownHall from '@HomeVillage/townHall'
 
+/* Defenses */
+import AirDefense from '@HomeVillage/defenses/airDefense'
+import AirSweeper from '@HomeVillage/defenses/airSweeper'
+import ArcherTower from '@HomeVillage/defenses/archerTower'
+import BombTower from '@HomeVillage/defenses/bombTower'
+import BuilderHut from '@HomeVillage/defenses/builderHut'
+import Cannon from '@HomeVillage/defenses/cannon'
+import EagleArtillery from '@HomeVillage/defenses/eagleArtillery'
+import HiddenTesla from '@HomeVillage/defenses/hiddenTesla'
+import InfernoTower from '@HomeVillage/defenses/infernoTower'
+import Monolith from '@HomeVillage/defenses/monolith'
+import Mortor from '@HomeVillage/defenses/mortor'
+import MultiArcherTower from '@HomeVillage/defenses/multiArcherTower'
+import RicochetCannon from '@HomeVillage/defenses/ricochetCannon'
+import Scattershot from '@HomeVillage/defenses/scattershot'
+import SpellTower from '@HomeVillage/defenses/spellTower'
+import WizardTower from '@HomeVillage/defenses/wizardTower'
+import XBow from '@HomeVillage/defenses/xbow'
+
+/* Walls */
+import Wall from '@HomeVillage/wall'
+
 export {
-	Cannon,
-	ArcherTower,
-	Mortor,
+	TownHall,
 	AirDefense,
-	WizardTower,
 	AirSweeper,
-	HiddenTesla,
+	ArcherTower,
 	BombTower,
-	XBow,
-	InfernoTower,
-	EagleArtillery,
-	Scattershot,
 	BuilderHut,
-	SpellTower,
+	Cannon,
+	EagleArtillery,
+	HiddenTesla,
+	InfernoTower,
 	Monolith,
+	Mortor,
 	MultiArcherTower,
 	RicochetCannon,
-	TownHall,
+	Scattershot,
+	SpellTower,
+	WizardTower,
+	XBow,
 	Wall,
 }
