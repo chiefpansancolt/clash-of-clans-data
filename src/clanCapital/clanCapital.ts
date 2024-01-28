@@ -10,6 +10,7 @@ import BombTower from '@ClanCapital/defenses/bombTower'
 import Cannon from '@ClanCapital/defenses/cannon'
 import Crusher from '@ClanCapital/defenses/crusher'
 import GiantCannon from '@ClanCapital/defenses/giantCannon'
+import GoblinThrower from '@ClanCapital/defenses/goblinThrower'
 import HiddenMegaTesla from '@ClanCapital/defenses/hiddenMegaTesla'
 import InfernoTower from '@ClanCapital/defenses/infernoTower'
 import MiniMinionHive from '@ClanCapital/defenses/miniMinionHive'
@@ -34,6 +35,7 @@ export {
 	Cannon,
 	Crusher,
 	GiantCannon,
+	GoblinThrower,
 	HiddenMegaTesla,
 	InfernoTower,
 	MiniMinionHive,
