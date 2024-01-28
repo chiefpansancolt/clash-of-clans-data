@@ -7,6 +7,7 @@ import AirBombs from '@ClanCapital/defenses/airBombs'
 import AirDefense from '@ClanCapital/defenses/airDefense'
 import BombTower from '@ClanCapital/defenses/bombTower'
 import Cannon from '@ClanCapital/defenses/cannon'
+import Crusher from '@ClanCapital/defenses/crusher'
 import HiddenMegaTesla from '@ClanCapital/defenses/hiddenMegaTesla'
 import InfernoTower from '@ClanCapital/defenses/infernoTower'
 import MultiCannon from '@ClanCapital/defenses/multiCannon'
@@ -25,6 +26,7 @@ export {
 	AirDefense,
 	BombTower,
 	Cannon,
+	Crusher,
 	HiddenMegaTesla,
 	InfernoTower,
 	MultiCannon,
