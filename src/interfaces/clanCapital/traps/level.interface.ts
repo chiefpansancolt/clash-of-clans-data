@@ -1,4 +1,4 @@
-import Level from '@/interfaces/common/traps/level.interface'
+import Level from '@ICommon/traps/level.interface'
 
 interface ClanCapitalLevel extends Level {
 	damage: number

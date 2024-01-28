@@ -1,4 +1,4 @@
-import Wall from '@ICommon/wall.interface'
+import Wall from '@ICommon/walls/wall.interface'
 import Achievement from '@ICommon/achievement.interface'
 import TownHallDefense from '@ICommon/townHallDefense.interface'
 import AchievementLevel from '@ICommon/achievementLevel.interface'

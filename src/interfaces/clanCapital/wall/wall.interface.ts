@@ -1,4 +1,4 @@
-import Wall from '@ICommon/wall.interface'
+import Wall from '@ICommon/walls/wall.interface'
 import Level from '@IClanCapital/wall/level.interface'
 import CapitalHallDefense from '@IClanCapital/capitalHallDefense.interface'
 import TownHallDefense from '@ICommon/townHallDefense.interface'
