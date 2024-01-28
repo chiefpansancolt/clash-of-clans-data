@@ -8,6 +8,7 @@ import BombTower from '@ClanCapital/defenses/bombTower'
 import Cannon from '@ClanCapital/defenses/cannon'
 import HiddenMegaTesla from '@ClanCapital/defenses/hiddenMegaTesla'
 import InfernoTower from '@ClanCapital/defenses/infernoTower'
+import MultiCannon from '@ClanCapital/defenses/multiCannon'
 import SpearThrower from '@ClanCapital/defenses/spearThrower'
 import SuperWizardTower from '@ClanCapital/defenses/superWizardTower'
 
@@ -22,6 +23,7 @@ export {
 	Cannon,
 	HiddenMegaTesla,
 	InfernoTower,
+	MultiCannon,
 	SpearThrower,
 	SuperWizardTower,
 	Wall,
