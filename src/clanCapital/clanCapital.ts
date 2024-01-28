@@ -5,6 +5,7 @@ import DistrictHall from '@ClanCapital/districtHall'
 /* Defenses */
 import AirBombs from '@ClanCapital/defenses/airBombs'
 import AirDefense from '@ClanCapital/defenses/airDefense'
+import BlastBow from '@ClanCapital/defenses/blastBow'
 import BombTower from '@ClanCapital/defenses/bombTower'
 import Cannon from '@ClanCapital/defenses/cannon'
 import Crusher from '@ClanCapital/defenses/crusher'
@@ -14,6 +15,7 @@ import InfernoTower from '@ClanCapital/defenses/infernoTower'
 import MultiCannon from '@ClanCapital/defenses/multiCannon'
 import MultiMortor from '@ClanCapital/defenses/multiMortor'
 import RapidRockets from '@ClanCapital/defenses/rapidRockets'
+import RocketArtillery from '@ClanCapital/defenses/rocketArtillery'
 import SpearThrower from '@ClanCapital/defenses/spearThrower'
 import SuperWizardTower from '@ClanCapital/defenses/superWizardTower'
 
@@ -25,6 +27,7 @@ export {
 	DistrictHall,
 	AirBombs,
 	AirDefense,
+	BlastBow,
 	BombTower,
 	Cannon,
 	Crusher,
@@ -34,6 +37,7 @@ export {
 	MultiCannon,
 	MultiMortor,
 	RapidRockets,
+	RocketArtillery,
 	SpearThrower,
 	SuperWizardTower,
 	Wall,
