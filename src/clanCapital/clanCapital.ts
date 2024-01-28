@@ -3,6 +3,7 @@ import CapitalHall from '@ClanCapital/capitalHall'
 import DistrictHall from '@ClanCapital/districtHall'
 
 /* Defenses */
+import AirBombs from '@ClanCapital/defenses/airBombs'
 import AirDefense from '@ClanCapital/defenses/airDefense'
 import BombTower from '@ClanCapital/defenses/bombTower'
 import Cannon from '@ClanCapital/defenses/cannon'
@@ -19,6 +20,7 @@ import Wall from '@ClanCapital/wall'
 export {
 	CapitalHall,
 	DistrictHall,
+	AirBombs,
 	AirDefense,
 	BombTower,
 	Cannon,
