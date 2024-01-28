@@ -8,9 +8,9 @@ const nameHere: Defense = {
 	name: '',
 	description: '',
 	maxCount: 0,
-	width: 0,
-	height: 0,
-	maxLevel: 0,
+	width: 3,
+	height: 3,
+	maxLevel: 10,
 	modes: [
 		{
 			name: Constants.mainMode,

@@ -6,9 +6,10 @@ import TownHallDefense from '@ICommon/townHallDefense.interface'
 const nameHere: Defense = {
 	name: '',
 	description: '',
-	width: 0,
-	height: 0,
-	maxLevel: 0,
+	width: 2,
+	height: 2,
+	maxLevel: 5,
+	ruinImgUrl: '',
 	modes: [
 		{
 			name: Constants.mainMode,
