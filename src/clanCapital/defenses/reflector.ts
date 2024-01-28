@@ -25,18 +25,7 @@ const reflector: Defense = {
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,
-			levels: [
-				{ townHall: 1, availableCount: 0, maxLevel: 0 },
-				{ townHall: 2, availableCount: 0, maxLevel: 0 },
-				{ townHall: 3, availableCount: 0, maxLevel: 0 },
-				{ townHall: 4, availableCount: 0, maxLevel: 0 },
-				{ townHall: 5, availableCount: 0, maxLevel: 0 },
-				{ townHall: 6, availableCount: 0, maxLevel: 0 },
-				{ townHall: 7, availableCount: 0, maxLevel: 0 },
-				{ townHall: 8, availableCount: 0, maxLevel: 0 },
-				{ townHall: 9, availableCount: 0, maxLevel: 0 },
-				{ townHall: 10, availableCount: 0, maxLevel: 0 },
-			],
+			levels: [],
 		},
 		{
 			name: Constants.barbarianCamp,
