@@ -12,6 +12,7 @@ import OttosOutpost from '@BuilderBase/defenses/ottosOutpost'
 import Roaster from '@BuilderBase/defenses/roaster'
 import GiantCannon from '@BuilderBase/defenses/giantCannon'
 import MegaTesla from '@BuilderBase/defenses/megaTesla'
+import LavaLauncher from '@BuilderBase/defenses/lavaLauncher'
 import Wall from '@BuilderBase/wall'
 import BuilderHall from '@BuilderBase/builderHall'
 
@@ -32,4 +33,5 @@ export {
 	Roaster,
 	GiantCannon,
 	MegaTesla,
+	LavaLauncher,
 }
