@@ -8,6 +8,7 @@ import XBow from '@BuilderBase/defenses/xbow'
 import GuardTower from '@BuilderBase/defenses/guardTower'
 import AirBombs from '@BuilderBase/defenses/airBombs'
 import MultiMortor from '@BuilderBase/defenses/multiMortor'
+import OttosOutpost from '@BuilderBase/defenses/ottosOutpost'
 import Wall from '@BuilderBase/wall'
 import BuilderHall from '@BuilderBase/builderHall'
 
@@ -24,4 +25,5 @@ export {
 	GuardTower,
 	AirBombs,
 	MultiMortor,
+	OttosOutpost,
 }
