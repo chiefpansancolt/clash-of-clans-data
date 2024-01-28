@@ -12,6 +12,7 @@ import Crusher from '@ClanCapital/defenses/crusher'
 import GiantCannon from '@ClanCapital/defenses/giantCannon'
 import HiddenMegaTesla from '@ClanCapital/defenses/hiddenMegaTesla'
 import InfernoTower from '@ClanCapital/defenses/infernoTower'
+import MiniMinionHive from '@ClanCapital/defenses/miniMinionHive'
 import MultiCannon from '@ClanCapital/defenses/multiCannon'
 import MultiMortor from '@ClanCapital/defenses/multiMortor'
 import RapidRockets from '@ClanCapital/defenses/rapidRockets'
@@ -34,6 +35,7 @@ export {
 	GiantCannon,
 	HiddenMegaTesla,
 	InfernoTower,
+	MiniMinionHive,
 	MultiCannon,
 	MultiMortor,
 	RapidRockets,
