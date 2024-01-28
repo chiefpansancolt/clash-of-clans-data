@@ -10,6 +10,7 @@ import AirBombs from '@BuilderBase/defenses/airBombs'
 import MultiMortor from '@BuilderBase/defenses/multiMortor'
 import OttosOutpost from '@BuilderBase/defenses/ottosOutpost'
 import Roaster from '@BuilderBase/defenses/roaster'
+import GiantCannon from '@BuilderBase/defenses/giantCannon'
 import Wall from '@BuilderBase/wall'
 import BuilderHall from '@BuilderBase/builderHall'
 
@@ -28,4 +29,5 @@ export {
 	MultiMortor,
 	OttosOutpost,
 	Roaster,
+	GiantCannon,
 }
