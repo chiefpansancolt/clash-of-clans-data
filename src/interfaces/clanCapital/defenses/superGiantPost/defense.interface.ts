@@ -2,7 +2,7 @@ import Level from '@IClanCapital/defenses/superGiantPost/level.interface'
 import Defense from '@ICommon/defense.interface'
 import CapitalHallDefense from '@IClanCapital/capitalHallDefense.interface'
 import TownHallDefense from '@ICommon/townHallDefense.interface'
-import Troop from '@IClanCapital/defenses/superGiantPost/troop.interface'
+import Troop from '@ICommon/troop.interface'
 
 interface ClanCapitalDefense extends Defense {
 	ruinImgUrl: string

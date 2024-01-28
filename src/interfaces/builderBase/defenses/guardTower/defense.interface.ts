@@ -1,6 +1,6 @@
 import Defense from '@ICommon/defense.interface'
 import Level from '@IBuilderBase/defenses/guardTower/level.interface'
-import Troop from '@IBuilderBase/defenses/guardTower/troop.interface'
+import Troop from '@ICommon/troop.interface'
 import TownHallDefense from '@ICommon/townHallDefense.interface'
 import Achievement from '@ICommon/achievement.interface'
 import AchievementLevel from '@ICommon/achievementLevel.interface'
