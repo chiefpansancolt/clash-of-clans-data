@@ -121,7 +121,8 @@ const multiCannon: Defense = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 2,
 			districtHallLevel: 1,
-			baseImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/0/05/Multi_Cannon1.png/revision/latest/scale-to-width-down/100?cb=20221203044740',
 		},
 		{
 			level: 2,
@@ -132,7 +133,8 @@ const multiCannon: Defense = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 3,
 			districtHallLevel: 2,
-			baseImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/0/05/Multi_Cannon1.png/revision/latest/scale-to-width-down/100?cb=20221203044740',
 		},
 		{
 			level: 3,
@@ -143,7 +145,8 @@ const multiCannon: Defense = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 5,
 			districtHallLevel: 3,
-			baseImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/c/c7/Multi_Cannon3.png/revision/latest/scale-to-width-down/100?cb=20221203044758',
 		},
 		{
 			level: 4,
@@ -154,7 +157,8 @@ const multiCannon: Defense = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 7,
 			districtHallLevel: 4,
-			baseImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/b/b6/Multi_Cannon4.png/revision/latest/scale-to-width-down/100?cb=20221203044807',
 		},
 		{
 			level: 5,
@@ -165,7 +169,8 @@ const multiCannon: Defense = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 9,
 			districtHallLevel: 5,
-			baseImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/2/22/Multi_Cannon5.png/revision/latest/scale-to-width-down/100?cb=20221203044815',
 		},
 	],
 	getSize(): string {
