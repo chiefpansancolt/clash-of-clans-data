@@ -4,6 +4,7 @@ import CapitalHallDefense from '@IClanCapital/capitalHallDefense.interface'
 import TownHallDefense from '@ICommon/townHallDefense.interface'
 
 interface ClanCapitalDefense extends Defense {
+	ruinImgUrl: string
 	levels: ClanCapitalLevel[]
 	capitalHallDetails: CapitalHallDefense[]
 
