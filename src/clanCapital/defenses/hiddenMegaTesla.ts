@@ -10,6 +10,8 @@ const hiddenMegaTesla: Defense = {
 	width: 2,
 	height: 2,
 	maxLevel: 0,
+	ruinImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/8/84/Hidden_Mega_Tesla_Ruin.png/revision/latest/scale-to-width-down/100?cb=20231217065720',
 	modes: [
 		{
 			name: Constants.mainMode,

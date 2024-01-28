@@ -10,6 +10,8 @@ const bombTower: Defense = {
 	width: 2,
 	height: 2,
 	maxLevel: 5,
+	ruinImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/8/86/Bomb_Tower_Ruin.png/revision/latest/scale-to-width-down/100?cb=20221225050354',
 	modes: [
 		{
 			name: Constants.mainMode,

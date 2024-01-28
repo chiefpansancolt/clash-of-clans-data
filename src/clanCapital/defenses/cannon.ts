@@ -10,6 +10,8 @@ const cannon: Defense = {
 	width: 2,
 	height: 2,
 	maxLevel: 10,
+	ruinImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/2/29/Cannon_Ruin.png/revision/latest/scale-to-width-down/100?cb=20231217071924',
 	modes: [
 		{
 			name: Constants.mainMode,

@@ -10,6 +10,8 @@ const superWizardTower: Defense = {
 	width: 2,
 	height: 2,
 	maxLevel: 5,
+	ruinImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/3/3e/Super_Wizard_Tower_Ruin.png/revision/latest/scale-to-width-down/100?cb=20221225050434',
 	modes: [
 		{
 			name: Constants.mainMode,

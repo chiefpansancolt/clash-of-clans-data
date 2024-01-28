@@ -10,6 +10,8 @@ const airDefense: Defense = {
 	width: 2,
 	height: 2,
 	maxLevel: 5,
+	ruinImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/f/f0/Air_Defense_Ruin.png/revision/latest/scale-to-width-down/100?cb=20221225050413',
 	modes: [
 		{
 			name: Constants.mainMode,

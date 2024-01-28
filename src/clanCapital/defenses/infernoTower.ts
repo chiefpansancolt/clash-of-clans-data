@@ -10,6 +10,8 @@ const infernoTower: Defense = {
 	width: 3,
 	height: 3,
 	maxLevel: 5,
+	ruinImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/c/c0/Inferno_Tower_Ruin.png/revision/latest/scale-to-width-down/100?cb=20220507090709',
 	modes: [
 		{
 			name: Constants.mainMode,
