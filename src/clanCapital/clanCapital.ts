@@ -16,6 +16,7 @@ import MiniMinionHive from '@ClanCapital/defenses/miniMinionHive'
 import MultiCannon from '@ClanCapital/defenses/multiCannon'
 import MultiMortor from '@ClanCapital/defenses/multiMortor'
 import RapidRockets from '@ClanCapital/defenses/rapidRockets'
+import Reflector from '@ClanCapital/defenses/reflector'
 import RocketArtillery from '@ClanCapital/defenses/rocketArtillery'
 import SpearThrower from '@ClanCapital/defenses/spearThrower'
 import SuperWizardTower from '@ClanCapital/defenses/superWizardTower'
@@ -39,6 +40,7 @@ export {
 	MultiCannon,
 	MultiMortor,
 	RapidRockets,
+	Reflector,
 	RocketArtillery,
 	SpearThrower,
 	SuperWizardTower,

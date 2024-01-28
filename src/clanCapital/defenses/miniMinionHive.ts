@@ -9,7 +9,7 @@ const miniMinionHive: Defense = {
 		'Built over an underground hive, this defense opens to release a swarm of extremely territorial and extremely dangerous Mini-Minions to take down any attacker.',
 	width: 3,
 	height: 3,
-	maxLevel: 5,
+	maxLevel: 4,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/7/72/Mini-Minion_Hive_Ruin.png/revision/latest/scale-to-width-down/100?cb=20221213031340',
 	modes: [
