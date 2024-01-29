@@ -29,6 +29,7 @@ import SuperWizardTower from '@ClanCapital/defenses/superWizardTower'
 import LogTrap from '@ClanCapital/traps/logTrap'
 import MegaMine from '@ClanCapital/traps/megaMine'
 import Mine from '@ClanCapital/traps/mine'
+import ZapTrap from '@ClanCapital/traps/zapTrap'
 
 /* Walls */
 import Wall from '@ClanCapital/wall'
@@ -60,5 +61,6 @@ export {
 	LogTrap,
 	MegaMine,
 	Mine,
+	ZapTrap,
 	Wall,
 }
