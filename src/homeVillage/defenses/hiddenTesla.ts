@@ -1,8 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IHomeVillage/level.interface'
 import Defense from '@IHomeVillage/defenses/hiddenTesla/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Level from '@IHomeVillage/defenses/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const hiddenTesla: Defense = {
 	name: 'Hidden Tesla',
@@ -12,17 +11,15 @@ const hiddenTesla: Defense = {
 	width: 2,
 	height: 2,
 	maxLevel: 14,
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.singleTarget,
-			unitTypeTarget: Constants.groundAndAir,
-			minRange: 0,
-			maxRange: 7,
-			triggerRange: 6,
-			attackSpeed: 0.6,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.singleTarget,
+		unitTypeTarget: Constants.groundAndAir,
+		minRange: 0,
+		maxRange: 7,
+		triggerRange: 6,
+		attackSpeed: 0.6,
+	},
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },
@@ -41,7 +38,7 @@ const hiddenTesla: Defense = {
 		{ townHall: 15, availableCount: 5, maxLevel: 14 },
 		{ townHall: 16, availableCount: 5, maxLevel: 14 },
 	],
-	achievements: [],
+	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -279,27 +276,11 @@ const hiddenTesla: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
 			return undefined
 		}
 	},

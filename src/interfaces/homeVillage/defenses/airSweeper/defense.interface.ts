@@ -1,18 +1,16 @@
-import Defense from '@ICommon/defense.interface'
-import HomeVillagePushLevel from '@/interfaces/homeVillage/defenses/airSweeper/level.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import Achievement from '@ICommon/achievement.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Defense from '@ICommon/defenses/defense.interface'
+import Level from '@IHomeVillage/defenses/airSweeper/level.interface'
+import TownHallDefense from '@ICommon/townHall/details.interface'
+import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface HomeVillagePushDefense extends Defense {
 	maxCount: number
-	levels: HomeVillagePushLevel[]
+	levels: Level[]
 	townHallDetails: TownHallDefense[]
-	achievements: Achievement[]
+	achievement: Achievement | Achievement[]
 
-	getLevel(level: number): HomeVillagePushLevel | undefined
+	getLevel(level: number): Level | undefined
 	getTownHallLevel(level: number): TownHallDefense | undefined
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
 }
 
 export default HomeVillagePushDefense

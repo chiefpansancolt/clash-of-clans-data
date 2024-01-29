@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/level.interface'
-import Defense from '@IClanCapital/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Level from '@IClanCapital/defenses/level.interface'
+import Defense from '@IClanCapital/defenses/defense.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const superWizardTower: Defense = {
 	name: 'Super Wizard Tower',
@@ -12,16 +12,14 @@ const superWizardTower: Defense = {
 	maxLevel: 5,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/3/3e/Super_Wizard_Tower_Ruin.png/revision/latest/scale-to-width-down/100?cb=20221225050434',
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.singleTargetChainLighting,
-			unitTypeTarget: Constants.groundAndAir,
-			minRange: 0,
-			maxRange: 5.5,
-			attackSpeed: 2,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.singleTargetChainLighting,
+		unitTypeTarget: Constants.groundAndAir,
+		minRange: 0,
+		maxRange: 5.5,
+		attackSpeed: 2,
+	},
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,
@@ -172,7 +170,7 @@ const superWizardTower: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

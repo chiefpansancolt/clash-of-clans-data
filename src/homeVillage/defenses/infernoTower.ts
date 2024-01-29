@@ -1,8 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IHomeVillage/defenses/infernoTower/level.interface'
 import Defense from '@IHomeVillage/defenses/infernoTower/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Level from '@IHomeVillage/defenses/infernoTower/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const infernoTower: Defense = {
 	name: 'Inferno Tower',
@@ -12,7 +11,7 @@ const infernoTower: Defense = {
 	width: 2,
 	height: 2,
 	maxLevel: 9,
-	modes: [
+	mode: [
 		{
 			name: Constants.singleTargetMode,
 			damageType: Constants.singleTarget,
@@ -52,35 +51,33 @@ const infernoTower: Defense = {
 		{ townHall: 15, availableCount: 3, maxLevel: 9 },
 		{ townHall: 16, availableCount: 3, maxLevel: 9 },
 	],
-	achievements: [
-		{
-			name: 'Firefigher',
-			village: Constants.homeVillage,
-			levels: [
-				{
-					info: 'Destroy 10 Inferno Towers',
-					exp: 50,
-					gems: 100,
-					stars: 1,
-					target: 10,
-				},
-				{
-					info: 'Destroy 250 Inferno Towers',
-					exp: 500,
-					gems: 200,
-					stars: 2,
-					target: 250,
-				},
-				{
-					info: 'Destroy 5,000 Inferno Towers',
-					exp: 5000,
-					gems: 1000,
-					stars: 3,
-					target: 5000,
-				},
-			],
-		},
-	],
+	achievement: {
+		name: 'Firefigher',
+		village: Constants.homeVillage,
+		levels: [
+			{
+				info: 'Destroy 10 Inferno Towers',
+				exp: 50,
+				gems: 100,
+				stars: 1,
+				target: 10,
+			},
+			{
+				info: 'Destroy 250 Inferno Towers',
+				exp: 500,
+				gems: 200,
+				stars: 2,
+				target: 250,
+			},
+			{
+				info: 'Destroy 5,000 Inferno Towers',
+				exp: 5000,
+				gems: 1000,
+				stars: 3,
+				target: 5000,
+			},
+		],
+	},
 	levels: [
 		{
 			name: Constants.singleTargetMode,
@@ -520,27 +517,11 @@ const infernoTower: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
 			return undefined
 		}
 	},

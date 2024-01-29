@@ -1,4 +1,4 @@
-import HomeVillageLevel from '@IHomeVillage/level.interface'
+import HomeVillageLevel from '@IHomeVillage/defenses/level.interface'
 
 interface Level extends HomeVillageLevel {
 	numberOfTargets: number

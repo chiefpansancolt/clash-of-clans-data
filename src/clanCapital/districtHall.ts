@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
+import DistrictHall from '@IClanCapital/districtHall/districtHall.interface'
 import Level from '@ICommon/level.interface'
 import DetailLevel from '@IClanCapital/districtHall/detailLevel.interface'
-import DistrictHall from '@IClanCapital/districtHall/districtHall.interface'
 
 const districtHall: DistrictHall = {
 	name: 'District Hall',

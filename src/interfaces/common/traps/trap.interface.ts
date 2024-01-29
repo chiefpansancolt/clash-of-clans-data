@@ -1,14 +1,14 @@
 import Mode from '@ICommon/traps/mode.interface'
 
-interface Defense {
+interface Trap {
 	name: string
 	description: string
 	width: number
 	height: number
 	maxLevel: number
-	modes: Mode[]
+	mode: Mode | Mode[]
 
 	getSize(): string
 }
 
-export default Defense
+export default Trap

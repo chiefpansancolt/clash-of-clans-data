@@ -4,7 +4,6 @@ interface Wall {
 	width: number
 	height: number
 	maxLevel: number
-	maxCount: number
 
 	getSize(): string
 }

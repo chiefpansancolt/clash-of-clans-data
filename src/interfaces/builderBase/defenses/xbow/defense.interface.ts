@@ -1,4 +1,4 @@
-import BuilderBaseDefense from '@IBuilderBase/defense.interface'
+import BuilderBaseDefense from '@IBuilderBase/defenses/defense.interface'
 import Level from '@IBuilderBase/defenses/xbow/level.interface'
 
 interface Defense extends BuilderBaseDefense {

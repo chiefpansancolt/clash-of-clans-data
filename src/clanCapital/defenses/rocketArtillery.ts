@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/level.interface'
 import Defense from '@IClanCapital/defenses/rocketArtillery/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Level from '@IClanCapital/defenses/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const rocketArtillery: Defense = {
 	name: 'Rocket Artillery',
@@ -12,17 +12,15 @@ const rocketArtillery: Defense = {
 	maxLevel: 5,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/9/95/Rocket_Artillery_Ruin.png/revision/latest/scale-to-width-down/100?cb=20221211225721',
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.splash,
-			unitTypeTarget: Constants.groundAndAir,
-			tiles: 1.5,
-			minRange: 3,
-			maxRange: 12,
-			attackSpeed: 4,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.splash,
+		unitTypeTarget: Constants.groundAndAir,
+		tiles: 1.5,
+		minRange: 3,
+		maxRange: 12,
+		attackSpeed: 4,
+	},
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,
@@ -168,7 +166,7 @@ const rocketArtillery: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

@@ -1,8 +1,8 @@
-import ClanCapitalDefense from '@IClanCapital/defense.interface'
+import ClanCapitalDefense from '@IClanCapital/defenses/defense.interface'
 import Mode from '@IClanCapital/defenses/multiCannon/mode.interface'
 
 interface Defense extends ClanCapitalDefense {
-	modes: Mode[]
+	mode: Mode | Mode[]
 }
 
 export default Defense

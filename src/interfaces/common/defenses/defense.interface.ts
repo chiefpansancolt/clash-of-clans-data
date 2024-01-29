@@ -1,4 +1,4 @@
-import DefenseMode from '@ICommon/defenseMode.interface'
+import Mode from '@ICommon/defenses/mode.interface'
 
 interface Defense {
 	name: string
@@ -6,7 +6,7 @@ interface Defense {
 	width: number
 	height: number
 	maxLevel: number
-	modes: DefenseMode[]
+	mode: Mode[] | Mode
 
 	getSize(): string
 }

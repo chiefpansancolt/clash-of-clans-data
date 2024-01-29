@@ -1,8 +1,8 @@
-import DetailLevel from '@IClanCapital/districtHall/detailLevel.interface'
+import Level from '@IClanCapital/districtHall/detailLevel.interface'
 
 interface Details {
 	name: string
-	levels: DetailLevel[]
+	levels: Level[]
 }
 
 export default Details

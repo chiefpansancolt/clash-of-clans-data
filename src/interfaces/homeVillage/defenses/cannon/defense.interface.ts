@@ -1,5 +1,5 @@
-import HomeVillageDefense from '@IHomeVillage/defense.interface'
-import GearUp from '@ICommon/gearUp.interface'
+import HomeVillageDefense from '@IHomeVillage/defenses/defense.interface'
+import GearUp from '@ICommon/defenses/gearUp.interface'
 import Level from '@IHomeVillage/defenses/cannon/level.interface'
 
 interface Defense extends HomeVillageDefense {

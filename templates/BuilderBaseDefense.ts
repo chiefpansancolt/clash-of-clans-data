@@ -54,22 +54,6 @@ const nameHere: Defense = {
 			return undefined
 		}
 	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
-			return undefined
-		}
-	},
 }
 
 export default nameHere

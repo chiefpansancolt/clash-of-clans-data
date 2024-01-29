@@ -1,8 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IHomeVillage/defenses/builderHut/level.interface'
 import Defense from '@IHomeVillage/defenses/builderHut/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Level from '@IHomeVillage/defenses/builderHut/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const builderHut: Defense = {
 	name: "Builder's Hut",
@@ -39,7 +38,7 @@ const builderHut: Defense = {
 			resourceType: Constants.gems,
 		},
 	],
-	modes: [
+	mode: [
 		{
 			name: Constants.mainMode,
 			damageType: Constants.singleTarget,
@@ -77,7 +76,7 @@ const builderHut: Defense = {
 		{ townHall: 15, availableCount: 5, maxLevel: 5 },
 		{ townHall: 16, availableCount: 5, maxLevel: 5 },
 	],
-	achievements: [
+	achievement: [
 		{
 			name: 'Union Buster',
 			village: Constants.homeVillage,
@@ -245,27 +244,11 @@ const builderHut: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
 			return undefined
 		}
 	},

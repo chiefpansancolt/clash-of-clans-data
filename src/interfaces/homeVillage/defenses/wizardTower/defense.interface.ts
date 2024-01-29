@@ -1,8 +1,8 @@
-import HomeVillageDefense from '@IHomeVillage/defense.interface'
+import HomeVillageDefense from '@IHomeVillage/defenses/defense.interface'
 import Mode from '@IHomeVillage/defenses/wizardTower/mode.interface'
 
 interface Defense extends HomeVillageDefense {
-	modes: Mode[]
+	mode: Mode | Mode[]
 }
 
 export default Defense

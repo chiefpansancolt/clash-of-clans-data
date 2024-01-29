@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/level.interface'
-import Defense from '@IClanCapital/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Defense from '@IClanCapital/defenses/defense.interface'
+import Level from '@IClanCapital/defenses/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const crusher: Defense = {
 	name: 'Crusher',
@@ -12,16 +12,14 @@ const crusher: Defense = {
 	maxLevel: 5,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/b/b1/Crusher_Ruin.png/revision/latest/scale-to-width-down/110?cb=20221211230930',
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.areaSplash,
-			unitTypeTarget: Constants.ground,
-			minRange: 0,
-			maxRange: 1.7,
-			attackSpeed: 3.5,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.areaSplash,
+		unitTypeTarget: Constants.ground,
+		minRange: 0,
+		maxRange: 1.7,
+		attackSpeed: 3.5,
+	},
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,
@@ -167,7 +165,7 @@ const crusher: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

@@ -1,4 +1,4 @@
-import ClanCapitalDefense from '@IClanCapital/defense.interface'
+import ClanCapitalDefense from '@IClanCapital/defenses/defense.interface'
 import Level from '@IClanCapital/defenses/infernoTower/level.interface'
 
 interface Defense extends ClanCapitalDefense {

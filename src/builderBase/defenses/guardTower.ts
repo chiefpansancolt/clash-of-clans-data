@@ -1,17 +1,17 @@
 import * as Constants from '@/constants'
 import Defense from '@IBuilderBase/defenses/guardTower/defense.interface'
 import Level from '@IBuilderBase/defenses/guardTower/level.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const guardTower: Defense = {
 	name: 'Guard Tower',
-	description: '',
+	description:
+		'Houses troops to aid in defense! These rabble rousers are sure to slow down the enemy.',
 	maxCount: 1,
 	width: 2,
 	height: 2,
 	maxLevel: 10,
-	modes: [],
+	mode: [],
 	troops: [
 		{
 			name: 'Raged Barbarian',
@@ -34,7 +34,7 @@ const guardTower: Defense = {
 		{ townHall: 9, availableCount: 1, maxLevel: 9 },
 		{ townHall: 10, availableCount: 1, maxLevel: 10 },
 	],
-	achievements: [],
+	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -198,27 +198,11 @@ const guardTower: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
 			return undefined
 		}
 	},

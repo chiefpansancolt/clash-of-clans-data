@@ -1,8 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IHomeVillage/defenses/scattershots/level.interface'
 import Defense from '@IHomeVillage/defenses/scattershots/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Level from '@IHomeVillage/defenses/scattershots/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const scattershot: Defense = {
 	name: 'Scattershot',
@@ -12,17 +11,15 @@ const scattershot: Defense = {
 	width: 3,
 	height: 3,
 	maxLevel: 4,
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.areaSplash,
-			unitTypeTarget: Constants.groundAndAir,
-			minRange: 3,
-			maxRange: 10,
-			attackSpeed: 3.228,
-			numberOfRounds: 90,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.areaSplash,
+		unitTypeTarget: Constants.groundAndAir,
+		minRange: 3,
+		maxRange: 10,
+		attackSpeed: 3.228,
+		numberOfRounds: 90,
+	},
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },
@@ -41,35 +38,33 @@ const scattershot: Defense = {
 		{ townHall: 15, availableCount: 2, maxLevel: 4 },
 		{ townHall: 16, availableCount: 2, maxLevel: 4 },
 	],
-	achievements: [
-		{
-			name: 'Shattered and Scattered',
-			village: Constants.homeVillage,
-			levels: [
-				{
-					info: 'Destroy 40 Scattershots',
-					exp: 100,
-					gems: 150,
-					stars: 1,
-					target: 40,
-				},
-				{
-					info: 'Destroy 400 Scattershots',
-					exp: 800,
-					gems: 300,
-					stars: 2,
-					target: 400,
-				},
-				{
-					info: 'Destroy 4000 Scattershots',
-					exp: 5000,
-					gems: 1000,
-					stars: 3,
-					target: 4000,
-				},
-			],
-		},
-	],
+	achievement: {
+		name: 'Shattered and Scattered',
+		village: Constants.homeVillage,
+		levels: [
+			{
+				info: 'Destroy 40 Scattershots',
+				exp: 100,
+				gems: 150,
+				stars: 1,
+				target: 40,
+			},
+			{
+				info: 'Destroy 400 Scattershots',
+				exp: 800,
+				gems: 300,
+				stars: 2,
+				target: 400,
+			},
+			{
+				info: 'Destroy 4000 Scattershots',
+				exp: 5000,
+				gems: 1000,
+				stars: 3,
+				target: 4000,
+			},
+		],
+	},
 	levels: [
 		{
 			level: 1,
@@ -167,27 +162,11 @@ const scattershot: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
 			return undefined
 		}
 	},

@@ -1,4 +1,4 @@
-import HomeVillageDefense from '@IHomeVillage/defense.interface'
+import HomeVillageDefense from '@IHomeVillage/defenses/defense.interface'
 import Level from '@IHomeVillage/defenses/monolith/level.interface'
 
 interface Defense extends HomeVillageDefense {

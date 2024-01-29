@@ -1,4 +1,4 @@
-import TownHallLevel from '@ICommon/townHallLevel.interface'
+import TownHallLevel from '@ICommon/townHall/level.interface'
 import Mode from '@IHomeVillage/townHall/mode.interface'
 import SubLevel from '@IHomeVillage/townHall/subLevel.interface'
 

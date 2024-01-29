@@ -1,6 +1,6 @@
-import HomeVillageDefense from '@IHomeVillage/defense.interface'
+import HomeVillageDefense from '@IHomeVillage/defenses/defense.interface'
 import Level from '@IHomeVillage/defenses/archerTower/level.interface'
-import GearUp from '@ICommon/gearUp.interface'
+import GearUp from '@ICommon/defenses/gearUp.interface'
 
 interface Defense extends HomeVillageDefense {
 	levels: Level[]

@@ -1,7 +1,7 @@
 import * as Constants from '../../constants'
-import Level from '@IClanCapital/defenses/hiddenMegaTesla/level.interface'
 import Defense from '@IClanCapital/defenses/hiddenMegaTesla/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Level from '@IClanCapital/defenses/hiddenMegaTesla/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const hiddenMegaTesla: Defense = {
 	name: 'Hidden Mega Tesla',
@@ -12,17 +12,15 @@ const hiddenMegaTesla: Defense = {
 	maxLevel: 0,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/8/84/Hidden_Mega_Tesla_Ruin.png/revision/latest/scale-to-width-down/100?cb=20231217065720',
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.singleTargetChainLighting,
-			unitTypeTarget: Constants.groundAndAir,
-			minRange: 0,
-			maxRange: 6,
-			triggerRange: 6,
-			attackSpeed: 4,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.singleTargetChainLighting,
+		unitTypeTarget: Constants.groundAndAir,
+		minRange: 0,
+		maxRange: 6,
+		triggerRange: 6,
+		attackSpeed: 4,
+	},
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,
@@ -190,7 +188,7 @@ const hiddenMegaTesla: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

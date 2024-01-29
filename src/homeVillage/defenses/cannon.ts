@@ -1,8 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IHomeVillage/defenses/cannon/level.interface'
 import Defense from '@IHomeVillage/defenses/cannon/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Level from '@IHomeVillage/defenses/cannon/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const cannon: Defense = {
 	name: 'Cannon',
@@ -21,16 +20,14 @@ const cannon: Defense = {
 		homeVillageLevelRequired: 7,
 		builderBaseDefenseLevelRequired: 4,
 	},
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.singleTarget,
-			unitTypeTarget: Constants.ground,
-			minRange: 0,
-			maxRange: 9,
-			attackSpeed: 0.8,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.singleTarget,
+		unitTypeTarget: Constants.ground,
+		minRange: 0,
+		maxRange: 9,
+		attackSpeed: 0.8,
+	},
 	townHallDetails: [
 		{ townHall: 1, availableCount: 2, maxLevel: 2 },
 		{ townHall: 2, availableCount: 2, maxLevel: 3 },
@@ -49,35 +46,33 @@ const cannon: Defense = {
 		{ townHall: 15, availableCount: 7, maxLevel: 21 },
 		{ townHall: 16, availableCount: 7, maxLevel: 21 },
 	],
-	achievements: [
-		{
-			name: 'High Gear',
-			village: Constants.builderBase,
-			levels: [
-				{
-					info: 'Gear up 1 building using the Master Builder',
-					exp: 20,
-					gems: 10,
-					stars: 1,
-					target: 1,
-				},
-				{
-					info: 'Gear up 2 building using the Master Builder',
-					exp: 200,
-					gems: 30,
-					stars: 2,
-					target: 2,
-				},
-				{
-					info: 'Gear up 3 building using the Master Builder',
-					exp: 2000,
-					gems: 50,
-					stars: 3,
-					target: 3,
-				},
-			],
-		},
-	],
+	achievement: {
+		name: 'High Gear',
+		village: Constants.builderBase,
+		levels: [
+			{
+				info: 'Gear up 1 building using the Master Builder',
+				exp: 20,
+				gems: 10,
+				stars: 1,
+				target: 1,
+			},
+			{
+				info: 'Gear up 2 building using the Master Builder',
+				exp: 200,
+				gems: 30,
+				stars: 2,
+				target: 2,
+			},
+			{
+				info: 'Gear up 3 building using the Master Builder',
+				exp: 2000,
+				gems: 50,
+				stars: 3,
+				target: 3,
+			},
+		],
+	},
 	levels: [
 		{
 			level: 1,
@@ -499,27 +494,11 @@ const cannon: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
 			return undefined
 		}
 	},

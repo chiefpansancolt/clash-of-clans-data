@@ -1,4 +1,4 @@
-interface AchievementLevel {
+interface Level {
 	info: string
 	exp: number
 	gems: number
@@ -6,4 +6,4 @@ interface AchievementLevel {
 	target: number
 }
 
-export default AchievementLevel
+export default Level

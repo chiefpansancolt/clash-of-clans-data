@@ -1,17 +1,17 @@
 import Level from '@IClanCapital/defenses/raidCartPost/level.interface'
-import Defense from '@ICommon/defense.interface'
-import CapitalHallDefense from '@IClanCapital/capitalHallDefense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import Troop from '@ICommon/troop.interface'
+import Defense from '@ICommon/defenses/defense.interface'
+import CapitalHallDetails from '@IClanCapital/defenses/capitalHallDetails.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
+import Troop from '@ICommon/defenses/troop.interface'
 
 interface ClanCapitalDefense extends Defense {
 	ruinImgUrl: string
 	levels: Level[]
 	troops: Troop[]
-	capitalHallDetails: CapitalHallDefense[]
+	capitalHallDetails: CapitalHallDetails[]
 
 	getLevel(level: number): Level | undefined
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined
 }
 
 export default ClanCapitalDefense

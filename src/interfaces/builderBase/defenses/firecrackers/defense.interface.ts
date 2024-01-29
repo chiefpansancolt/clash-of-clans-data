@@ -1,8 +1,8 @@
-import BuilderBaseDefense from '@IBuilderBase/defense.interface'
+import BuilderBaseDefense from '@IBuilderBase/defenses/defense.interface'
 import Mode from '@IBuilderBase/defenses/firecrackers/mode.interface'
 
 interface Defense extends BuilderBaseDefense {
-	modes: Mode[]
+	mode: Mode | Mode[]
 }
 
 export default Defense

@@ -1,4 +1,4 @@
-import DefenseMode from '@ICommon/defenseMode.interface'
+import DefenseMode from '@ICommon/defenses/mode.interface'
 
 interface Mode extends DefenseMode {
 	shots: number

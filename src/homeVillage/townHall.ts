@@ -10,6 +10,7 @@ const nameHere: TownHall = {
 	width: 4,
 	height: 4,
 	maxLevel: 16,
+	achievement: [],
 	levels: [
 		{
 			level: 1,

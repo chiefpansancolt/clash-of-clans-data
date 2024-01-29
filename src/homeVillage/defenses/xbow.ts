@@ -1,8 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IHomeVillage/defenses/xbow/level.interface'
 import Defense from '@IHomeVillage/defenses/xbow/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Level from '@IHomeVillage/defenses/xbow/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const xBow: Defense = {
 	name: 'X-Bow',
@@ -12,7 +11,7 @@ const xBow: Defense = {
 	width: 3,
 	height: 3,
 	maxLevel: 11,
-	modes: [
+	mode: [
 		{
 			name: Constants.groundMode,
 			damageType: Constants.singleTarget,
@@ -50,35 +49,33 @@ const xBow: Defense = {
 		{ townHall: 15, availableCount: 4, maxLevel: 10 },
 		{ townHall: 16, availableCount: 4, maxLevel: 11 },
 	],
-	achievements: [
-		{
-			name: 'X-Bow Exterminator',
-			village: Constants.homeVillage,
-			levels: [
-				{
-					info: 'Destroy one X-Bow',
-					exp: 50,
-					gems: 50,
-					stars: 1,
-					target: 1,
-				},
-				{
-					info: 'Destroy 250 X-Bows',
-					exp: 100,
-					gems: 100,
-					stars: 2,
-					target: 250,
-				},
-				{
-					info: 'Destroy 2,500 X-Bows',
-					exp: 1000,
-					gems: 200,
-					stars: 3,
-					target: 2500,
-				},
-			],
-		},
-	],
+	achievement: {
+		name: 'X-Bow Exterminator',
+		village: Constants.homeVillage,
+		levels: [
+			{
+				info: 'Destroy one X-Bow',
+				exp: 50,
+				gems: 50,
+				stars: 1,
+				target: 1,
+			},
+			{
+				info: 'Destroy 250 X-Bows',
+				exp: 100,
+				gems: 100,
+				stars: 2,
+				target: 250,
+			},
+			{
+				info: 'Destroy 2,500 X-Bows',
+				exp: 1000,
+				gems: 200,
+				stars: 3,
+				target: 2500,
+			},
+		],
+	},
 	levels: [
 		{
 			level: 1,
@@ -334,27 +331,11 @@ const xBow: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
 			return undefined
 		}
 	},

@@ -1,4 +1,4 @@
-import Level from '@IBuilderBase/level.interface'
+import Level from '@IBuilderBase/defenses/level.interface'
 
 interface BuilderBaseLevel extends Level {
 	burstFireShots: number

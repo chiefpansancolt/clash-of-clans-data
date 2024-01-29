@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Level from '@IClanCapital/wall/level.interface'
 import Wall from '@IClanCapital/wall/wall.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const wall: Wall = {
 	name: 'Walls',
@@ -178,7 +178,7 @@ const wall: Wall = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

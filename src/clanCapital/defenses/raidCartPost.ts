@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/defenses/raidCartPost/level.interface'
 import Defense from '@IClanCapital/defenses/raidCartPost/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Level from '@IClanCapital/defenses/raidCartPost/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const raidCartPost: Defense = {
 	name: 'Raid Cart Post',
@@ -11,7 +11,7 @@ const raidCartPost: Defense = {
 	maxLevel: 5,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/8/86/Guard_Post_Ruin.png/revision/latest/scale-to-width-down/100?cb=20231217070455',
-	modes: [],
+	mode: [],
 	troops: [
 		{
 			name: 'Seige Cart',
@@ -141,7 +141,7 @@ const raidCartPost: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

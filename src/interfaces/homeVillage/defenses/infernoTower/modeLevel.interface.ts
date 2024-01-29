@@ -1,4 +1,4 @@
-import HomeVillageModeLevel from '@IHomeVillage/modeLevel.interface'
+import HomeVillageModeLevel from '@IHomeVillage/defenses/modeLevel.interface'
 import Level from '@IHomeVillage/defenses/infernoTower/level.interface'
 
 interface ModeLevel extends HomeVillageModeLevel {

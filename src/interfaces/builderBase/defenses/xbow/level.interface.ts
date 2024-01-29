@@ -1,4 +1,4 @@
-import BuilderBaseLevel from '@IBuilderBase/level.interface'
+import BuilderBaseLevel from '@IBuilderBase/defenses/level.interface'
 
 interface Level extends BuilderBaseLevel {
 	airImgUrl: string

@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/defenses/superGiantPost/level.interface'
 import Defense from '@IClanCapital/defenses/superGiantPost/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Level from '@IClanCapital/defenses/superGiantPost/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const superGiantPost: Defense = {
 	name: 'Super Giant Post',
@@ -11,7 +11,7 @@ const superGiantPost: Defense = {
 	maxLevel: 5,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/8/86/Guard_Post_Ruin.png/revision/latest/scale-to-width-down/100?cb=20231217070455',
-	modes: [],
+	mode: [],
 	troops: [
 		{
 			name: 'Super Giant',
@@ -141,7 +141,7 @@ const superGiantPost: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

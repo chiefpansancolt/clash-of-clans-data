@@ -1,4 +1,4 @@
-import ClanCapitalLevel from '@IClanCapital/level.interface'
+import ClanCapitalLevel from '@IClanCapital/defenses/level.interface'
 
 interface Level extends ClanCapitalLevel {
 	damageWhenDestroyed: number

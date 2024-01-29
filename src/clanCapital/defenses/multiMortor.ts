@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/level.interface'
-import Defense from '@IClanCapital/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Defense from '@IClanCapital/defenses/defense.interface'
+import Level from '@IClanCapital/defenses/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const multiMortor: Defense = {
 	name: 'Multi Mortor',
@@ -12,16 +12,14 @@ const multiMortor: Defense = {
 	maxLevel: 5,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/0/06/Multi_Mortar_Ruin.png/revision/latest/scale-to-width-down/100?cb=20221128085808',
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.splash,
-			unitTypeTarget: Constants.ground,
-			minRange: 0,
-			maxRange: 0,
-			attackSpeed: 0,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.splash,
+		unitTypeTarget: Constants.ground,
+		minRange: 0,
+		maxRange: 0,
+		attackSpeed: 0,
+	},
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,
@@ -172,7 +170,7 @@ const multiMortor: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

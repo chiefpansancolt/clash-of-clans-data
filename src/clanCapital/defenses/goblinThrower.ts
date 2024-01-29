@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/level.interface'
 import Defense from '@IClanCapital/defenses/goblinThrower/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Level from '@IClanCapital/defenses/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const goblinThrower: Defense = {
 	name: 'Goblin Thrower',
@@ -12,17 +12,15 @@ const goblinThrower: Defense = {
 	maxLevel: 5,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/2/2c/Goblin_Thrower_Ruin.png/revision/latest/scale-to-width-down/100?cb=20231217044546',
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.areaSplash,
-			unitTypeTarget: Constants.ground,
-			minRange: 0,
-			maxRange: 9,
-			ammoCapacity: 4,
-			attackSpeed: 4,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.areaSplash,
+		unitTypeTarget: Constants.ground,
+		minRange: 0,
+		maxRange: 9,
+		ammoCapacity: 4,
+		attackSpeed: 4,
+	},
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,
@@ -127,7 +125,7 @@ const goblinThrower: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

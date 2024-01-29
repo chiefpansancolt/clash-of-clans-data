@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/level.interface'
 import Defense from '@IClanCapital/defenses/miniMinionHive/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Level from '@IClanCapital/defenses/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const miniMinionHive: Defense = {
 	name: 'Mini-Minion Hive',
@@ -12,17 +12,15 @@ const miniMinionHive: Defense = {
 	maxLevel: 4,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/7/72/Mini-Minion_Hive_Ruin.png/revision/latest/scale-to-width-down/100?cb=20221213031340',
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.singleTarget,
-			unitTypeTarget: Constants.groundAndAir,
-			minRange: 0,
-			maxRange: 14,
-			miniMinionsPerBurst: 12,
-			attackSpeed: 1.5,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.singleTarget,
+		unitTypeTarget: Constants.groundAndAir,
+		minRange: 0,
+		maxRange: 14,
+		miniMinionsPerBurst: 12,
+		attackSpeed: 1.5,
+	},
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,
@@ -132,7 +130,7 @@ const miniMinionHive: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

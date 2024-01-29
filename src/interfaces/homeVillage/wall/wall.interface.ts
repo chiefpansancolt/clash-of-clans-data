@@ -1,17 +1,16 @@
 import Wall from '@ICommon/walls/wall.interface'
-import Achievement from '@ICommon/achievement.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Achievement from '@ICommon/achievement/achievement.interface'
+import TownHallDefense from '@ICommon/townHall/details.interface'
 import Level from '@IHomeVillage/wall/level.interface'
 
 interface HomeWall extends Wall {
+	maxCount: number
 	levels: Level[]
 	townHallDetails: TownHallDefense[]
-	achievements: Achievement[]
+	achievement: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
 	getTownHallLevel(level: number): TownHallDefense | undefined
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined
 }
 
 export default HomeWall

@@ -1,8 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IBuilderBase/defenses/xbow/defense.interface'
 import Level from '@IBuilderBase/defenses/xbow/level.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const xBow: Defense = {
 	name: 'X-Bow',
@@ -12,7 +11,7 @@ const xBow: Defense = {
 	width: 3,
 	height: 3,
 	maxLevel: 5,
-	modes: [
+	mode: [
 		{
 			name: Constants.groundMode,
 			damageType: Constants.singleTarget,
@@ -42,7 +41,7 @@ const xBow: Defense = {
 		{ townHall: 9, availableCount: 0, maxLevel: 0 },
 		{ townHall: 10, availableCount: 1, maxLevel: 5 },
 	],
-	achievements: [],
+	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -146,27 +145,11 @@ const xBow: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
 			return undefined
 		}
 	},

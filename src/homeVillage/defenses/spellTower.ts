@@ -1,8 +1,7 @@
 import * as Constants from '@/constants'
-import Level from '@IHomeVillage/defenses/spellTower/level.interface'
 import Defense from '@IHomeVillage/defenses/spellTower/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Level from '@IHomeVillage/defenses/spellTower/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const spellTower: Defense = {
 	name: 'Spell Tower',
@@ -12,7 +11,7 @@ const spellTower: Defense = {
 	width: 2,
 	height: 2,
 	maxLevel: 3,
-	modes: [
+	mode: [
 		{
 			name: 'Rage Spell Tower',
 			damageType: '',
@@ -83,35 +82,33 @@ const spellTower: Defense = {
 		{ townHall: 15, availableCount: 2, maxLevel: 3 },
 		{ townHall: 16, availableCount: 2, maxLevel: 3 },
 	],
-	achievements: [
-		{
-			name: 'Counterspell',
-			village: Constants.homeVillage,
-			levels: [
-				{
-					info: 'Destroy 40 Spell Towers',
-					exp: 100,
-					gems: 100,
-					stars: 1,
-					target: 40,
-				},
-				{
-					info: 'Destroy 400 Spell Towers',
-					exp: 800,
-					gems: 250,
-					stars: 2,
-					target: 400,
-				},
-				{
-					info: 'Destroy 4,000 Spell Towers',
-					exp: 5000,
-					gems: 500,
-					stars: 3,
-					target: 4000,
-				},
-			],
-		},
-	],
+	achievement: {
+		name: 'Counterspell',
+		village: Constants.homeVillage,
+		levels: [
+			{
+				info: 'Destroy 40 Spell Towers',
+				exp: 100,
+				gems: 100,
+				stars: 1,
+				target: 40,
+			},
+			{
+				info: 'Destroy 400 Spell Towers',
+				exp: 800,
+				gems: 250,
+				stars: 2,
+				target: 400,
+			},
+			{
+				info: 'Destroy 4,000 Spell Towers',
+				exp: 5000,
+				gems: 500,
+				stars: 3,
+				target: 4000,
+			},
+		],
+	},
 	levels: [
 		{
 			level: 1,
@@ -185,27 +182,11 @@ const spellTower: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getAchievementLevel(level: number, count: number): AchievementLevel | undefined {
-		if (level && level >= 1 && level <= this.achievements[0].levels.length) {
-			return this.achievements[0].levels[level - 1]
-		} else if (count) {
-			for (const achievementLevel of this.achievements[0].levels) {
-				if (count < achievementLevel.target) {
-					return achievementLevel
-				}
-			}
-
-			return this.achievements[0].levels[this.achievements[0].levels.length - 1]
-		} else {
-			console.error(`Invalid Achievement level: ${level} or Invalid Count used: ${count}`)
 			return undefined
 		}
 	},
