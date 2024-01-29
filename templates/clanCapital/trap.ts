@@ -1,25 +1,23 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/level.interface'
-import Defense from '@IClanCapital/defense.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
+import Trap from '@IClanCapital/traps/trap.interface'
+import Level from '@IClanCapital/defenses/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
-const nameHere: Defense = {
+const nameHere: Trap = {
 	name: '',
 	description: '',
 	width: 2,
 	height: 2,
 	maxLevel: 5,
 	ruinImgUrl: '',
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.singleTarget,
-			unitTypeTarget: Constants.air,
-			minRange: 0,
-			maxRange: 0,
-			attackSpeed: 0,
-		},
-	],
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.singleTarget,
+		unitTypeTarget: Constants.air,
+		minRange: 0,
+		maxRange: 0,
+		attackSpeed: 0,
+	},
 	capitalHallDetails: [
 		{
 			name: Constants.capitalHall,
@@ -127,7 +125,7 @@ const nameHere: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDefense | undefined {
+	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
 		const hallDetails = this.capitalHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)

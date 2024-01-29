@@ -1,8 +1,7 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defense.interface'
-import Level from '@IHomeVillage/level.interface'
-import TownHallDefense from '@ICommon/townHallDefense.interface'
-import AchievementLevel from '@ICommon/achievementLevel.interface'
+import Defense from '@IBuilderBase/defenses/defense.interface'
+import Level from '@IBuilderBase/defenses/level.interface'
+import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const nameHere: Defense = {
 	name: '',
@@ -10,17 +9,15 @@ const nameHere: Defense = {
 	maxCount: 0,
 	width: 3,
 	height: 3,
-	maxLevel: 0,
-	modes: [
-		{
-			name: Constants.mainMode,
-			damageType: Constants.singleTarget,
-			unitTypeTarget: Constants.air,
-			minRange: 0,
-			maxRange: 0,
-			attackSpeed: 0,
-		},
-	],
+	maxLevel: 10,
+	mode: {
+		name: Constants.mainMode,
+		damageType: Constants.singleTarget,
+		unitTypeTarget: Constants.air,
+		minRange: 0,
+		maxRange: 0,
+		attackSpeed: 0,
+	},
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
 		{ townHall: 2, availableCount: 0, maxLevel: 0 },
@@ -32,42 +29,8 @@ const nameHere: Defense = {
 		{ townHall: 8, availableCount: 0, maxLevel: 0 },
 		{ townHall: 9, availableCount: 0, maxLevel: 0 },
 		{ townHall: 10, availableCount: 0, maxLevel: 0 },
-		{ townHall: 11, availableCount: 0, maxLevel: 0 },
-		{ townHall: 12, availableCount: 0, maxLevel: 0 },
-		{ townHall: 13, availableCount: 0, maxLevel: 0 },
-		{ townHall: 14, availableCount: 0, maxLevel: 0 },
-		{ townHall: 15, availableCount: 0, maxLevel: 0 },
-		{ townHall: 16, availableCount: 0, maxLevel: 0 },
 	],
-	achievements: [
-		{
-			name: '',
-			village: Constants.builderBase,
-			levels: [
-				{
-					info: '',
-					exp: 0,
-					gems: 0,
-					stars: 1,
-					target: 0,
-				},
-				{
-					info: '',
-					exp: 0,
-					gems: 0,
-					stars: 2,
-					target: 0,
-				},
-				{
-					info: '',
-					exp: 0,
-					gems: 0,
-					stars: 3,
-					target: 0,
-				},
-			],
-		},
-	],
+	achievement: [],
 	levels: [],
 	getSize(): string {
 		return `${this.width}x${this.height}`
@@ -80,7 +43,7 @@ const nameHere: Defense = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDefense | undefined {
+	getTownHallLevel(level: number): TownHallDetails | undefined {
 		if (level >= 1 && level <= this.townHallDetails.length) {
 			return this.townHallDetails[level - 1]
 		} else {
