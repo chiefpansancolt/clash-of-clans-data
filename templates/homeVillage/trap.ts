@@ -11,12 +11,11 @@ const nameHere: Trap = {
 	height: 3,
 	maxLevel: 0,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.air,
-		minRange: 0,
-		maxRange: 0,
-		attackSpeed: 0,
+		minTriggerRange: 0,
+		maxTriggerRange: 0,
+		favoriteTarget: Constants.none,
 	},
 	townHallDetails: [
 		{ townHall: 1, availableCount: 0, maxLevel: 0 },
@@ -36,33 +35,6 @@ const nameHere: Trap = {
 		{ townHall: 15, availableCount: 0, maxLevel: 0 },
 		{ townHall: 16, availableCount: 0, maxLevel: 0 },
 	],
-	achievement: {
-		name: '',
-		village: Constants.builderBase,
-		levels: [
-			{
-				info: '',
-				exp: 0,
-				gems: 0,
-				stars: 1,
-				target: 0,
-			},
-			{
-				info: '',
-				exp: 0,
-				gems: 0,
-				stars: 2,
-				target: 0,
-			},
-			{
-				info: '',
-				exp: 0,
-				gems: 0,
-				stars: 3,
-				target: 0,
-			},
-		],
-	},
 	levels: [],
 	getSize(): string {
 		return `${this.width}x${this.height}`
