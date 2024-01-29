@@ -26,7 +26,9 @@ import SuperGiantPost from '@ClanCapital/defenses/superGiantPost'
 import SuperWizardTower from '@ClanCapital/defenses/superWizardTower'
 
 /* Traps */
+import LogTrap from '@ClanCapital/traps/logTrap'
 import MegaMine from '@ClanCapital/traps/megaMine'
+import Mine from '@ClanCapital/traps/mine'
 
 /* Walls */
 import Wall from '@ClanCapital/wall'
@@ -55,6 +57,8 @@ export {
 	SuperDragonPost,
 	SuperGiantPost,
 	SuperWizardTower,
+	LogTrap,
 	MegaMine,
+	Mine,
 	Wall,
 }
