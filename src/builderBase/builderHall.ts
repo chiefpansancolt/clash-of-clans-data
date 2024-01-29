@@ -9,6 +9,7 @@ const builderHall: TownHall = {
 	width: 3,
 	height: 3,
 	maxLevel: 10,
+	achievement: [],
 	levels: [
 		{
 			level: 1,

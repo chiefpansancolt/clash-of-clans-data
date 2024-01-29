@@ -12,7 +12,7 @@ const airBombs: Defense = {
 	maxLevel: 5,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/c/cf/Air_Bombs_Ruin.png/revision/latest/scale-to-width-down/100?cb=20231217073744',
-	mode:{
+	mode: {
 		name: Constants.mainMode,
 		damageType: Constants.areaSplash,
 		unitTypeTarget: Constants.air,
