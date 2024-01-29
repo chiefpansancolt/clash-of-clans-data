@@ -17,7 +17,6 @@ const nameHere: Trap = {
 		unitTypeTarget: Constants.groundAndAir,
 		minTriggerRange: 0,
 		maxTriggerRange: 10,
-		damageRadius: 0,
 		favoriteTarget: Constants.any,
 	},
 	capitalHallDetails: [

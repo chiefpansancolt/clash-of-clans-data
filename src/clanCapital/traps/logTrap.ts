@@ -16,7 +16,6 @@ const logTrap: Trap = {
 		unitTypeTarget: Constants.ground,
 		minTriggerRange: 0,
 		maxTriggerRange: 9,
-		damageRadius: 0,
 		favoriteTarget: Constants.any,
 	},
 	capitalHallDetails: [

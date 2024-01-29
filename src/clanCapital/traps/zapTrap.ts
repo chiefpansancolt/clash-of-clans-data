@@ -16,7 +16,6 @@ const zapTrap: Trap = {
 		unitTypeTarget: Constants.groundAndAir,
 		minTriggerRange: 0,
 		maxTriggerRange: 5,
-		damageRadius: 0,
 		favoriteTarget: Constants.none,
 	},
 	capitalHallDetails: [
