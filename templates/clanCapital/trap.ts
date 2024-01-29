@@ -1,6 +1,6 @@
 import * as Constants from '@/constants'
 import Trap from '@IClanCapital/traps/trap.interface'
-import Level from '@IClanCapital/defenses/level.interface'
+import Level from '@IClanCapital/traps/level.interface'
 import TownHallDetails from '@ICommon/townHall/details.interface'
 
 const nameHere: Trap = {
@@ -11,12 +11,12 @@ const nameHere: Trap = {
 	maxLevel: 5,
 	ruinImgUrl: '',
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.air,
-		minRange: 0,
-		maxRange: 0,
-		attackSpeed: 0,
+		minTriggerRange: 0,
+		maxTriggerRange: 0,
+		damageRadius: 0,
+		favoriteTarget: Constants.any,
 	},
 	capitalHallDetails: [
 		{
