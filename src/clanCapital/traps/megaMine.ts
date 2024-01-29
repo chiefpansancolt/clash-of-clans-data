@@ -110,8 +110,10 @@ const megaMine: Trap = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 2,
 			districtHallLevel: 1,
-			baseImgUrl: '',
-			airImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/5/51/Mega_Mine1_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180338',
+			airImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/6/64/Mega_Mine1_Air.png/revision/latest/scale-to-width-down/80?cb=20171130180410',
 		},
 		{
 			level: 2,
@@ -120,8 +122,10 @@ const megaMine: Trap = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 3,
 			districtHallLevel: 2,
-			baseImgUrl: '',
-			airImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/2/29/Mega_Mine2_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180339',
+			airImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/2/29/Mega_Mine2_Air.png/revision/latest/scale-to-width-down/80?cb=20171130180410',
 		},
 		{
 			level: 3,
@@ -130,8 +134,10 @@ const megaMine: Trap = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 5,
 			districtHallLevel: 3,
-			baseImgUrl: '',
-			airImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/b/b9/Mega_Mine3_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180339',
+			airImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/2/2e/Mega_Mine3_Air.png/revision/latest/scale-to-width-down/80?cb=20171130180411',
 		},
 		{
 			level: 4,
@@ -140,8 +146,10 @@ const megaMine: Trap = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 7,
 			districtHallLevel: 4,
-			baseImgUrl: '',
-			airImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/c/c4/Mega_Mine4_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180339',
+			airImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/d/d6/Mega_Mine4_Air.png/revision/latest/scale-to-width-down/80?cb=20171130180411',
 		},
 		{
 			level: 5,
@@ -150,8 +158,10 @@ const megaMine: Trap = {
 			buildCostResource: Constants.capitalGold,
 			clanCapitalLevel: 9,
 			districtHallLevel: 5,
-			baseImgUrl: '',
-			airImgUrl: '',
+			baseImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/7/76/Mega_Mine5_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180340',
+			airImgUrl:
+				'https://static.wikia.nocookie.net/clashofclans/images/c/cf/Mega_Mine5_Air.png/revision/latest/scale-to-width-down/80?cb=20171130180411',
 		},
 	],
 	getSize(): string {
