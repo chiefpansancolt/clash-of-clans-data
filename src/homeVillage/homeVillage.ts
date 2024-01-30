@@ -13,4 +13,7 @@ import * as Resources from '@HomeVillage/resources'
 /* Walls */
 import Wall from '@HomeVillage/wall'
 
-export { TownHall, Defenses, Traps, Resources, Wall }
+/* Utilities */
+import * as TrophyLeague from '@HomeVillage/trophyLeagues'
+
+export { TownHall, Defenses, Traps, Resources, TrophyLeague, Wall }
