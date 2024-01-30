@@ -1,19 +1,5 @@
-/* Town Hall */
-import TownHall from '@HomeVillage/townHall'
+import * as DefensiveBuildings from '@HomeVillage/defensiveBuildings/defensiveBuildings'
+import * as ResourceBuildings from '@HomeVillage/resourceBuildings/resourceBuildings'
+import * as Utilities from '@HomeVillage/utilities/utilities'
 
-/* Defenses */
-import * as Defenses from '@HomeVillage/defenses'
-
-/* Traps */
-import * as Traps from '@HomeVillage/traps'
-
-/* Resources */
-import * as Resources from '@HomeVillage/resources'
-
-/* Walls */
-import Wall from '@HomeVillage/wall'
-
-/* Utilities */
-import * as TrophyLeague from '@HomeVillage/trophyLeagues'
-
-export { TownHall, Defenses, Traps, Resources, TrophyLeague, Wall }
+export { DefensiveBuildings, ResourceBuildings, Utilities }
