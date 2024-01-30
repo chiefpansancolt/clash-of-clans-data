@@ -1,14 +1,8 @@
+import Building from '@ICommon/building.interface'
 import Mode from '@ICommon/defenses/mode.interface'
 
-interface Defense {
-	name: string
-	description: string
-	width: number
-	height: number
-	maxLevel: number
+interface Defense extends Building {
 	mode: Mode[] | Mode
-
-	getSize(): string
 }
 
 export default Defense

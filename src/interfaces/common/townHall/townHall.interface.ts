@@ -1,11 +1,5 @@
-interface TownHall {
-	name: string
-	description: string
-	width: number
-	height: number
-	maxLevel: number
+import Building from '@ICommon/building.interface'
 
-	getSize(): string
-}
+interface TownHall extends Building {}
 
 export default TownHall

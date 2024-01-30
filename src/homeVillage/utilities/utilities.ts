@@ -1,4 +1,4 @@
 /* Utilities */
-import * as TrophyLeague from '@/homeVillage/utilities/trophyLeagues'
+import * as TrophyLeague from '@HomeVillage/utilities/trophyLeagues'
 
 export { TrophyLeague }
