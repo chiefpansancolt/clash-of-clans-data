@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Trap from '@IHomeVillage/traps/tornadoTrap/trap.interface'
 import Level from '@IHomeVillage/traps/tornadoTrap/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const tornadoTrap: Trap = {
 	name: 'Tornado Trap',

@@ -1,4 +1,4 @@
-import TownHall from '@ICommon/townHall/townHall.interface'
+import TownHall from '@ICommon/hall/hall.interface'
 import Details from '@IClanCapital/districtHall/details.interface'
 import DetailLevel from '@IClanCapital/districtHall/detailLevel.interface'
 import Level from '@ICommon/level.interface'

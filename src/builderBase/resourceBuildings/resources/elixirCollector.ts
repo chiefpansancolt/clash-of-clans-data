@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Resource from '@IBuilderBase/resources/elixirCollector/resource.interface'
 import Level from '@IBuilderBase/resources/elixirCollector/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const elixirCollector: Resource = {
 	name: 'Elixir Collector',

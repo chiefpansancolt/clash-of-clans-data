@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IBuilderBase/defenses/hiddenTesla/defense.interface'
 import Level from '@IBuilderBase/defenses/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const hiddenTesla: Defense = {
 	name: 'Hidden Tesla',

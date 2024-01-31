@@ -1,6 +1,6 @@
 import * as Constants from '@/constants'
-import TownHall from '@IBuilderBase/townHall/townHall.interface'
-import Level from '@IBuilderBase/townHall/level.interface'
+import TownHall from '@IBuilderBase/builderHall/builderHall.interface'
+import Level from '@IBuilderBase/builderHall/level.interface'
 
 const builderHall: TownHall = {
 	name: 'Archer Tower',

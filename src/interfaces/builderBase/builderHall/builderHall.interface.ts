@@ -1,12 +1,12 @@
-import TownHall from '@ICommon/townHall/townHall.interface'
-import Level from '@IBuilderBase/townHall/level.interface'
+import Hall from '@ICommon/hall/hall.interface'
+import Level from '@IBuilderBase/builderHall/level.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
-interface TH extends TownHall {
+interface BuilderHall extends Hall {
 	levels: Level[]
 	achievement: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
 }
 
-export default TH
+export default BuilderHall

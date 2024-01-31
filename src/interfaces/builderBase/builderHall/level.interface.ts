@@ -1,4 +1,4 @@
-import TownHallLevel from '@ICommon/townHall/level.interface'
+import TownHallLevel from '@ICommon/hall/level.interface'
 
 interface Level extends TownHallLevel {
 	builderGoldCapacity: number

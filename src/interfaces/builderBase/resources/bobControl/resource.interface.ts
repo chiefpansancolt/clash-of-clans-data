@@ -1,5 +1,5 @@
 import Level from '@IBuilderBase/resources/bobControl/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface Resource {

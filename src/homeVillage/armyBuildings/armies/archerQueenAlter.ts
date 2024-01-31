@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Building from '@IHomeVillage/army/alter/army.interface'
 import Level from '@IHomeVillage/army/alter/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const archerQueenAlter: Building = {
 	name: 'Archer Queen Alter',

@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Building from '@IHomeVillage/army/barracks/army.interface'
 import Level from '@IHomeVillage/army/barracks/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const barracks: Building = {
 	name: 'Barracks',

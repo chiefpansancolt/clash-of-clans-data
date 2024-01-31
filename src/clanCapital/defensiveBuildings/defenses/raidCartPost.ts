@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IClanCapital/defenses/raidCartPost/defense.interface'
 import Level from '@IClanCapital/defenses/raidCartPost/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const raidCartPost: Defense = {
 	name: 'Raid Cart Post',

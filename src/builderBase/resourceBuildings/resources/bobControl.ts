@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Resource from '@IBuilderBase/resources/bobControl/resource.interface'
 import Level from '@IBuilderBase/resources/bobControl/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const bobControl: Resource = {
 	name: 'B.O.B Control',

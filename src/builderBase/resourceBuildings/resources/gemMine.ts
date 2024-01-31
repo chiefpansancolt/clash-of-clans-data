@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Resource from '@IBuilderBase/resources/gemMine/resource.interface'
 import Level from '@IBuilderBase/resources/gemMine/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const gemMine: Resource = {
 	name: 'gemMine',

@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IClanCapital/defenses/goblinThrower/defense.interface'
 import Level from '@IClanCapital/defenses/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const goblinThrower: Defense = {
 	name: 'Goblin Thrower',

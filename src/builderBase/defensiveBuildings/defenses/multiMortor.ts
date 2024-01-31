@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IBuilderBase/defenses/multiMortor/defense.interface'
 import Level from '@IBuilderBase/defenses/multiMortor/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const multiMortor: Defense = {
 	name: 'Multi Mortor',

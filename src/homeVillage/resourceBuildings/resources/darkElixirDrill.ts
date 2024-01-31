@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Resource from '@IHomeVillage/resources/darkElixirDrill/resource.interface'
 import Level from '@IHomeVillage/resources/darkElixirDrill/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const darkElixirDrill: Resource = {
 	name: 'Dark Elixir Drill',

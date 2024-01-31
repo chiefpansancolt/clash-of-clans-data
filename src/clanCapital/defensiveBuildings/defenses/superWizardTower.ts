@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Level from '@IClanCapital/defenses/level.interface'
 import Defense from '@IClanCapital/defenses/defense.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const superWizardTower: Defense = {
 	name: 'Super Wizard Tower',

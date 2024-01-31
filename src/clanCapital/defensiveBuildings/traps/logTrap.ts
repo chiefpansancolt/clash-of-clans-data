@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Trap from '@IClanCapital/traps/trap.interface'
 import Level from '@IClanCapital/traps/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const logTrap: Trap = {
 	name: 'Log Trap',

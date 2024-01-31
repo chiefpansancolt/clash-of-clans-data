@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Building from '@IBuilderBase/army/healingHut/army.interface'
 import Level from '@IBuilderBase/army/healingHut/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const healingHut: Building = {
 	name: 'Healing Hut',

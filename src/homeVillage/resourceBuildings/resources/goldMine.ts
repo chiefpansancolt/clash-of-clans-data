@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Resource from '@IHomeVillage/resources/goldMine/resource.interface'
 import Level from '@IHomeVillage/resources/goldMine/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const goldMine: Resource = {
 	name: 'Gold Mine',

@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IBuilderBase/defenses/lavaLauncher/defense.interface'
 import Level from '@IBuilderBase/defenses/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const lavaLauncher: Defense = {
 	name: 'Lava Launcher',

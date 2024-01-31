@@ -1,7 +1,7 @@
 import Level from '@ICommon/level.interface'
 
-interface TownHallLevel extends Level {
+interface HallLevel extends Level {
 	maximumNumberOfBuildingsAvailable: number
 }
 
-export default TownHallLevel
+export default HallLevel

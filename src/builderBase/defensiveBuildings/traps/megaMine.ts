@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Trap from '@IBuilderBase/traps/megaMine/trap.interface'
 import Level from '@IBuilderBase/traps/megaMine/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const nameHere: Trap = {
 	name: 'Mega Mine',

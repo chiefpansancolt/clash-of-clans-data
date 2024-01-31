@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Level from '@IClanCapital/wall/level.interface'
 import Wall from '@IClanCapital/wall/wall.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const wall: Wall = {
 	name: 'Walls',

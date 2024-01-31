@@ -1,7 +1,7 @@
 import Defense from '@ICommon/defenses/defense.interface'
 import Level from '@IBuilderBase/defenses/guardTower/level.interface'
 import Troop from '@ICommon/defenses/troop.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface BuilderBaseDefense extends Defense {

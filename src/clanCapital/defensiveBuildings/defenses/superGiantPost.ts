@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IClanCapital/defenses/superGiantPost/defense.interface'
 import Level from '@IClanCapital/defenses/superGiantPost/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const superGiantPost: Defense = {
 	name: 'Super Giant Post',

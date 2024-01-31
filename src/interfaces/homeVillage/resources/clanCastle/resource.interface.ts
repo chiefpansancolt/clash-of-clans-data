@@ -2,7 +2,7 @@ import Level from '@IHomeVillage/resources/clanCastle/level.interface'
 import Mode from '@IHomeVillage/resources/clanCastle/mode.interface'
 import Treasury from '@IHomeVillage/resources/clanCastle/treasury.interface'
 import TreasuryCapacity from '@IHomeVillage/resources/clanCastle/treasuryCapacity.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface Resource {

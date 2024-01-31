@@ -1,6 +1,6 @@
 import Building from '@ICommon/building.interface'
 import Level from '@ICommon/resources/level.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface Resource extends Building {

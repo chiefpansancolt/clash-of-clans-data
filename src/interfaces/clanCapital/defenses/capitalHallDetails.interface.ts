@@ -1,4 +1,4 @@
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 interface CapitalHallDefense {
 	name: string

@@ -1,6 +1,6 @@
 import Level from '@IBuilderBase/wall/level.interface'
 import Wall from '@IBuilderBase/wall/wall.interface'
-import TownHallDetails from '@ICommon/townHall/details.interface'
+import TownHallDetails from '@ICommon/hall/details.interface'
 
 const wall: Wall = {
 	name: 'Walls',

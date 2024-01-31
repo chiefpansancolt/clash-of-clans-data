@@ -1,7 +1,7 @@
-interface TownHallDefense {
+interface HallDetails {
 	townHall: number
 	availableCount: number
 	maxLevel: number
 }
 
-export default TownHallDefense
+export default HallDetails

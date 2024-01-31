@@ -1,6 +1,6 @@
 import Defense from '@ICommon/defenses/defense.interface'
 import Level from '@IHomeVillage/defenses/airSweeper/level.interface'
-import TownHallDefense from '@ICommon/townHall/details.interface'
+import TownHallDefense from '@ICommon/hall/details.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface HomeVillagePushDefense extends Defense {
