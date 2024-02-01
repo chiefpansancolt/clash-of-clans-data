@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IBuilderBase/defenses/ottosOutpost/defense.interface'
-import Level from '@IBuilderBase/defenses/ottosOutpost/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import DefenseBuilding from '@IBuilderBase/defenses/ottosOutpost/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const nameHere: Defense = {
+const building: DefenseBuilding = {
 	name: "O.T.T.O's Outpost",
 	description:
 		"O.T.T.O's home and the main building of the second stage. May contain additional feisty robots. Destroying O.T.T.O's Outpost awards an extra star in attacks.",
@@ -11,7 +10,6 @@ const nameHere: Defense = {
 	width: 4,
 	height: 4,
 	maxLevel: 10,
-	mode: [],
 	builderHallDetails: [
 		{
 			builderHallLevel: 1,
@@ -84,7 +82,6 @@ const nameHere: Defense = {
 			stage2MaxCount: 1,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -237,25 +234,10 @@ const nameHere: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7f/O.T.T.O%27s_Outpost10.png/revision/latest/scale-to-width-down/100?cb=20230516082352',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default nameHere
+export default building

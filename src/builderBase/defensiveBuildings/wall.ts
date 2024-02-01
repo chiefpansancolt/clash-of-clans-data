@@ -1,8 +1,7 @@
-import Level from '@IBuilderBase/wall/level.interface'
-import Wall from '@IBuilderBase/wall/wall.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import WallBuilding from '@IBuilderBase/wall/wall.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const wall: Wall = {
+const building: WallBuilding = {
 	name: 'Walls',
 	description:
 		'Walls are great for keeping your village safe and your enemies in the line of fire.',
@@ -82,7 +81,6 @@ const wall: Wall = {
 			stage2MaxCount: 0,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -205,25 +203,10 @@ const wall: Wall = {
 				'https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall10B.png/revision/latest/scale-to-width-down/55?cb=20230517053328',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default wall
+export default building

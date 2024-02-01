@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IBuilderBase/defenses/crusher/defense.interface'
-import Level from '@IBuilderBase/defenses/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import DefenseBuilding from '@IBuilderBase/defenses/crusher/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const crusher: Defense = {
+const building: DefenseBuilding = {
 	name: 'Crusher',
 	description:
 		'The Crusher REALLY likes its personal space. This hulking stone slams ground units with a mighty wallop!',
@@ -12,7 +11,6 @@ const crusher: Defense = {
 	height: 3,
 	maxLevel: 10,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.areaSplash,
 		unitTypeTarget: Constants.ground,
 		tiles: 2.8,
@@ -92,7 +90,6 @@ const crusher: Defense = {
 			stage2MaxCount: 2,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -255,25 +252,10 @@ const crusher: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c7/Crusher10.png/revision/latest/scale-to-width-down/100?cb=20230516085136',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default crusher
+export default building

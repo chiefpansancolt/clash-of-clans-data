@@ -1,14 +1,13 @@
 import * as Constants from '@/constants'
-import BuilderHall from '@IBuilderBase/builderHall/builderHall.interface'
-import Level from '@IBuilderBase/builderHall/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import BuilderHallBuilding from '@IBuilderBase/builderHall/builderHall.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const builderHall: BuilderHall = {
-	name: 'Archer Tower',
+const building: BuilderHallBuilding = {
+	name: 'Builder Hall',
 	description:
-		"No foe can escape the Archer's arrows. This tower has a special switch - choose long range or fast attack!",
-	width: 3,
-	height: 3,
+		'Home of the Master Builder and the main objective in battle. Destroying a Builder Hall awards a Star in attacks. Destroying 50% of buildings in a stage gains you a second Star, while 100% destruction awards three Stars for the stage. Upgrade the Builder Hall to unlock advanced buildings and troops!',
+	width: 4,
+	height: 4,
 	maxLevel: 10,
 	builderHallDetails: [
 		{
@@ -82,7 +81,6 @@ const builderHall: BuilderHall = {
 			stage2MaxCount: 0,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -255,25 +253,10 @@ const builderHall: BuilderHall = {
 				'https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest/scale-to-width-down/100?cb=20230516070454',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default builderHall
+export default building

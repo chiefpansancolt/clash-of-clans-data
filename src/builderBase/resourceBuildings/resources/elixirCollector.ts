@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Resource from '@IBuilderBase/resources/elixirCollector/resource.interface'
-import Level from '@IBuilderBase/resources/elixirCollector/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import ResourceBuilding from '@IBuilderBase/resources/elixirCollector/resource.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const elixirCollector: Resource = {
+const building: ResourceBuilding = {
 	name: 'Elixir Collector',
 	description:
 		'Elixir is pumped from Ley Lines coursing underneath your village. Upgrade your Elixir Collectors to maximize elixir production.',
@@ -288,25 +287,10 @@ const elixirCollector: Resource = {
 				'https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest/scale-to-width-down/100?cb=20230518051323',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default elixirCollector
+export default building

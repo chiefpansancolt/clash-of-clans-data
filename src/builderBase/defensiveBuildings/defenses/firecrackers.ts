@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IBuilderBase/defenses/firecrackers/defense.interface'
-import Level from '@IBuilderBase/defenses/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import DefenseBuilding from '@IBuilderBase/defenses/firecrackers/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const firecrackers: Defense = {
+const building: DefenseBuilding = {
 	name: 'Firecrackers',
 	description:
 		"Keep flying pests away with flurries of small rockets! It's like a bug zapper, but prettier.",
@@ -12,7 +11,6 @@ const firecrackers: Defense = {
 	height: 2,
 	maxLevel: 10,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.air,
 		minRange: 0,
@@ -92,7 +90,6 @@ const firecrackers: Defense = {
 			stage2MaxCount: 5,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -255,25 +252,10 @@ const firecrackers: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/5/54/Firecrackers10.png/revision/latest/scale-to-width-down/100?cb=20230516073609',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default firecrackers
+export default building

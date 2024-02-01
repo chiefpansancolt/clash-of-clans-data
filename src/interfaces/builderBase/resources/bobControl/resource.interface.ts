@@ -11,7 +11,7 @@ interface Resource {
 	maxCount: number
 	levels: Level[]
 	builderHallDetails: BuilderHallDetails[]
-	achievement: Achievement | Achievement[]
+	achievement?: Achievement | Achievement[]
 
 	getSize(): string
 	getLevel(level: number): Level | undefined

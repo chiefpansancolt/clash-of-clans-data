@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IBuilderBase/defenses/multiMortor/defense.interface'
-import Level from '@IBuilderBase/defenses/multiMortor/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import DefenseBuilding from '@IBuilderBase/defenses/multiMortor/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const multiMortor: Defense = {
+const building: DefenseBuilding = {
 	name: 'Multi Mortor',
 	description:
 		'Fires long range splash damage multiple times to maximize chances of hitting its target!',
@@ -12,7 +11,6 @@ const multiMortor: Defense = {
 	height: 3,
 	maxLevel: 10,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.splash,
 		unitTypeTarget: Constants.ground,
 		tiles: 3,
@@ -92,7 +90,6 @@ const multiMortor: Defense = {
 			stage2MaxCount: 1,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -265,25 +262,10 @@ const multiMortor: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1b/Multi_Mortar10.png/revision/latest/scale-to-width-down/100?cb=20230517035445',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default multiMortor
+export default building

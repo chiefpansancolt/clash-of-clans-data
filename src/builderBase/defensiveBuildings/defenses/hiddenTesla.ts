@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IBuilderBase/defenses/hiddenTesla/defense.interface'
-import Level from '@IBuilderBase/defenses/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import DefenseBuilding from '@IBuilderBase/defenses/hiddenTesla/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const hiddenTesla: Defense = {
+const building: DefenseBuilding = {
 	name: 'Hidden Tesla',
 	description:
 		'Part tower, part trap, completely shocking! Zap air and ground foes alike with the power of science!',
@@ -12,7 +11,6 @@ const hiddenTesla: Defense = {
 	height: 2,
 	maxLevel: 10,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 0,
@@ -92,7 +90,6 @@ const hiddenTesla: Defense = {
 			stage2MaxCount: 3,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -255,25 +252,10 @@ const hiddenTesla: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/3/37/Hidden_Tesla10.png/revision/latest/scale-to-width-down/80?cb=20180604161808',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default hiddenTesla
+export default building

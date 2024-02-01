@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Resource from '@IBuilderBase/resources/goldMine/resource.interface'
-import Level from '@IBuilderBase/resources/goldMine/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import ResourceBuilding from '@IBuilderBase/resources/goldMine/resource.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const goldMine: Resource = {
+const building: ResourceBuilding = {
 	name: 'Gold Mine',
 	description:
 		'The Gold Mine produces gold. Upgrade it to boost its production and gold storage capacity.',
@@ -85,7 +84,6 @@ const goldMine: Resource = {
 			stage2MaxCount: 2,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -288,25 +286,10 @@ const goldMine: Resource = {
 				'https://static.wikia.nocookie.net/clashofclans/images/e/eb/Gold_Mine10.png/revision/latest/scale-to-width-down/100?cb=20180110120703',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default goldMine
+export default building

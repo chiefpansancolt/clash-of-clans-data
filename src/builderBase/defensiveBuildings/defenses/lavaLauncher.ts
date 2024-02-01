@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IBuilderBase/defenses/lavaLauncher/defense.interface'
-import Level from '@IBuilderBase/defenses/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import DefenseBuilding from '@IBuilderBase/defenses/lavaLauncher/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const lavaLauncher: Defense = {
+const building: DefenseBuilding = {
 	name: 'Lava Launcher',
 	description:
 		'Hurls molten rock over great distances. Sets the ground on fire, which really turns up the heat for enemy ground troops!',
@@ -12,7 +11,6 @@ const lavaLauncher: Defense = {
 	height: 3,
 	maxLevel: 10,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.splash,
 		unitTypeTarget: Constants.ground,
 		tiles: 3,
@@ -92,7 +90,6 @@ const lavaLauncher: Defense = {
 			stage2MaxCount: 1,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -255,25 +252,10 @@ const lavaLauncher: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/2/2c/Lava_Launcher10.png/revision/latest/scale-to-width-down/100?cb=20230517051511',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default lavaLauncher
+export default building

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Trap from '@IBuilderBase/traps/mine/trap.interface'
-import Level from '@IBuilderBase/traps/mine/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import TrapBuilding from '@IBuilderBase/traps/mine/trap.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const mine: Trap = {
+const building: TrapBuilding = {
 	name: 'Mine',
 	description: 'Plan an explosive surprise for troops that get too close. Choose air or ground!',
 	maxCount: 6,
@@ -252,25 +251,10 @@ const mine: Trap = {
 				'https://static.wikia.nocookie.net/clashofclans/images/0/04/Mine10_Air.png/revision/latest/scale-to-width-down/80?cb=20230520053508',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default mine
+export default building

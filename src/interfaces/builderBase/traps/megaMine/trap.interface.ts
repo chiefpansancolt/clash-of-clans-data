@@ -3,7 +3,7 @@ import Level from '@IBuilderBase/traps/megaMine/level.interface'
 import Mode from '@IBuilderBase/traps/megaMine/mode.interface'
 
 interface Trap extends BuilderBaseTrap {
-	mode: Mode | Mode[]
+	mode?: Mode | Mode[]
 	levels: Level[]
 
 	getLevel(level: number): Level | undefined

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IBuilderBase/defenses/defense.interface'
-import Level from '@IBuilderBase/defenses/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import DefenseBuilding from '@IBuilderBase/defenses/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const giantCannon: Defense = {
+const building: DefenseBuilding = {
 	name: 'Giant Cannon',
 	description:
 		'Nothing gets in the way of the Giant Cannon. Its mammoth-sized cannon balls push past anything and keeps going and going and going...',
@@ -12,7 +11,6 @@ const giantCannon: Defense = {
 	height: 3,
 	maxLevel: 10,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.areaSplash,
 		unitTypeTarget: Constants.ground,
 		minRange: 0,
@@ -91,7 +89,6 @@ const giantCannon: Defense = {
 			stage2MaxCount: 1,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -254,25 +251,10 @@ const giantCannon: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/6/65/Giant_Cannon10.png/revision/latest/scale-to-width-down/100?cb=20230517045117',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default giantCannon
+export default building

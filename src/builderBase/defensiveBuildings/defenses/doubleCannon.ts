@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IBuilderBase/defenses/doubleCannon/defense.interface'
-import Level from '@IBuilderBase/defenses/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import DefenseBuilding from '@IBuilderBase/defenses/doubleCannon/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const doubleCannon: Defense = {
+const building: DefenseBuilding = {
 	name: 'Double Cannon',
 	description:
 		'The iconic ground defense, built to last! This classic makes the Master Builder a bit sentimental.',
@@ -12,7 +11,6 @@ const doubleCannon: Defense = {
 	height: 3,
 	maxLevel: 10,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.ground,
 		shotsPerBurst: 4,
@@ -92,7 +90,6 @@ const doubleCannon: Defense = {
 			stage2MaxCount: 3,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -255,25 +252,10 @@ const doubleCannon: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/d/df/Double_Cannon10.png/revision/latest/scale-to-width-down/90?cb=20230516071432',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default doubleCannon
+export default building

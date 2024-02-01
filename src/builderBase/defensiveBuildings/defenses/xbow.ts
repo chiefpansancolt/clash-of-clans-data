@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IBuilderBase/defenses/xbow/defense.interface'
-import Level from '@IBuilderBase/defenses/xbow/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import DefenseBuilding from '@IBuilderBase/defenses/xbow/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const xBow: Defense = {
+const building: DefenseBuilding = {
 	name: 'X-Bow',
 	description:
 		'The X-Bow shoots powerful bolts with terrifying power. You can set it to target ground units or air units.',
@@ -101,7 +100,6 @@ const xBow: Defense = {
 			stage2MaxCount: 1,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -194,25 +192,10 @@ const xBow: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7a/X-Bow5B_Air.png/revision/latest/scale-to-width-down/100?cb=20230516212132',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default xBow
+export default building

@@ -1,10 +1,9 @@
 import * as Constants from '@/constants'
-import Resource from '@IBuilderBase/resources/gemMine/resource.interface'
-import Level from '@IBuilderBase/resources/gemMine/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import ResourceBuilding from '@IBuilderBase/resources/gemMine/resource.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const gemMine: Resource = {
-	name: 'gemMine',
+const building: ResourceBuilding = {
+	name: 'Gem Mine',
 	description:
 		'Gem Mines access a rare deposit of this highly valuable resource! Mining gems is slow and hard work.',
 	maxCount: 1,
@@ -85,7 +84,6 @@ const gemMine: Resource = {
 			stage2MaxCount: 0,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -328,25 +326,10 @@ const gemMine: Resource = {
 				'https://static.wikia.nocookie.net/clashofclans/images/0/0f/Gem_Mine10.png/revision/latest/scale-to-width-down/100?cb=20230518054357',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default gemMine
+export default building

@@ -7,7 +7,7 @@ interface BuilderBaseDefense extends Defense {
 	maxCount: number
 	levels: Level[]
 	builderHallDetails: BuilderHallDetails[]
-	achievement: Achievement | Achievement[]
+	achievement?: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
 	getBuilderHallLevel(level: number): BuilderHallDetails | undefined

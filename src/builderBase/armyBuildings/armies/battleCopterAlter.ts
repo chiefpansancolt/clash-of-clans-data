@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IBuilderBase/army/alter/army.interface'
-import Level from '@IBuilderBase/army/alter/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import ArmyBuilding from '@IBuilderBase/army/alter/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const battleCopterAlter: Building = {
+const building: ArmyBuilding = {
 	name: 'Battle Copter Alter',
 	description:
 		"Get to the Copter! Tired of hammering through Walls, Master Builder's next-generation flying machine lets him soar over them. The Battle Copter attacks from afar with its powerful cannons; or can get up close and personal when using its Bomb Rush ability.",
@@ -83,7 +82,6 @@ const battleCopterAlter: Building = {
 			stage2MaxCount: 1,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -101,25 +99,10 @@ const battleCopterAlter: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/7/71/Battle_Copter_Altar.png/revision/latest/scale-to-width-down/200?cb=20230518081135',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Builder Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default battleCopterAlter
+export default building

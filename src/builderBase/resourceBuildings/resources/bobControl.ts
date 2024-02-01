@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Resource from '@IBuilderBase/resources/bobControl/resource.interface'
-import Level from '@IBuilderBase/resources/bobControl/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import ResourceBuilding from '@IBuilderBase/resources/bobControl/resource.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const bobControl: Resource = {
+const building: ResourceBuilding = {
 	name: 'B.O.B Control',
 	description:
 		"Control center for Master Builder's latest invention! Once fully upgraded, B.O.B becomes an additional builder in the Home Village!",
@@ -83,7 +82,6 @@ const bobControl: Resource = {
 			stage2MaxCount: 1,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -131,25 +129,10 @@ const bobControl: Resource = {
 				'https://static.wikia.nocookie.net/clashofclans/images/8/80/O.T.T.O_Hut5.png/revision/latest/scale-to-width-down/100?cb=20190621205327',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default bobControl
+export default building

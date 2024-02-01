@@ -52,6 +52,7 @@
 			"@BuilderBase/*": ["src/builderBase/*"],
 			"@ClanCapital/*": ["src/clanCapital/*"],
 			"@HomeVillage/*": ["src/homeVillage/*"],
+			"@Utils/*": ["src/utilities/*"],
 		} /* A series of entries which re-map imports to lookup locations relative to the 'baseUrl'. */,
 		"plugins": [
 			{

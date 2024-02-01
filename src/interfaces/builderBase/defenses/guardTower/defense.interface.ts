@@ -9,7 +9,7 @@ interface BuilderBaseDefense extends Defense {
 	troops: Troop[]
 	levels: Level[]
 	builderHallDetails: BuilderHallDetails[]
-	achievement: Achievement | Achievement[]
+	achievement?: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
 	getBuilderHallLevel(level: number): BuilderHallDetails | undefined

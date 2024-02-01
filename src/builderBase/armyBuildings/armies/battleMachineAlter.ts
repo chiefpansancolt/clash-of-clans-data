@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IBuilderBase/army/alter/army.interface'
-import Level from '@IBuilderBase/army/alter/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import ArmyBuilding from '@IBuilderBase/army/alter/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const battleMachineAlter: Building = {
+const building: ArmyBuilding = {
 	name: 'Battle Machine Alter',
 	description:
 		"The Master Builder's prize invention smashes enemy buildings to bits. What better way is there to show who's the best builder around? Unlock the Electric Hammer ability to give opponents a real pounding!",
@@ -83,7 +82,6 @@ const battleMachineAlter: Building = {
 			stage2MaxCount: 0,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -101,25 +99,10 @@ const battleMachineAlter: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a6/BattleMachineAltar1.png/revision/latest/scale-to-width-down/120?cb=20170603193138',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default battleMachineAlter
+export default building

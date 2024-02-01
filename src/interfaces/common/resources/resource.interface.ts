@@ -5,7 +5,7 @@ import Achievement from '@ICommon/achievement/achievement.interface'
 interface Resource extends Building {
 	maxCount: number
 	levels: Level[]
-	achievement: Achievement | Achievement[]
+	achievement?: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
 }

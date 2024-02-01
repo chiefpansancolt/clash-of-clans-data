@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IBuilderBase/army/armyCamp/army.interface'
-import Level from '@IBuilderBase/army/armyCamp/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import ArmyBuilding from '@IBuilderBase/army/armyCamp/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const reinforcementCamp: Building = {
+const building: ArmyBuilding = {
 	name: 'Reinforcement Camp',
 	description:
 		'Reinforcement Camps provide helpful reinforcements during battles when reaching the corresponding stage.',
@@ -11,7 +10,6 @@ const reinforcementCamp: Building = {
 	width: 3,
 	height: 3,
 	maxLevel: 1,
-	ruinImgUrl: '',
 	builderHallDetails: [
 		{
 			builderHallLevel: 1,
@@ -84,7 +82,6 @@ const reinforcementCamp: Building = {
 			stage2MaxCount: 2,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -117,25 +114,10 @@ const reinforcementCamp: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7c/Reinforcement_Camp.png/revision/latest?cb=20230518074638',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default reinforcementCamp
+export default building

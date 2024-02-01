@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IBuilderBase/army/healingHut/army.interface'
-import Level from '@IBuilderBase/army/healingHut/level.interface'
-import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
+import ArmyBuilding from '@IBuilderBase/army/healingHut/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const healingHut: Building = {
+const building: ArmyBuilding = {
 	name: 'Healing Hut',
 	description:
 		"Brews up a hearty and nourishing cauldron of soup following Master Builder's grandma's recipe. Troops eat some on their way to the next stage of an attack, recovering some of their health.",
@@ -83,7 +82,6 @@ const healingHut: Building = {
 			stage2MaxCount: 1,
 		},
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -176,25 +174,10 @@ const healingHut: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b2/Healing_Hut6.png/revision/latest/scale-to-width-down/100?cb=20230517101255',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
-		if (level >= 1 && level <= this.builderHallDetails.length) {
-			return this.builderHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) =>
+		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
-export default healingHut
+export default building

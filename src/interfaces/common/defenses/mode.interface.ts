@@ -1,5 +1,5 @@
 interface DefenseMode {
-	name: string
+	name?: string
 	minRange: number
 	maxRange: number
 	attackSpeed: number
