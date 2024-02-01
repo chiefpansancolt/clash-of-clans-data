@@ -1,6 +1,6 @@
 import Building from '@ICommon/building.interface'
 import Level from '@IHomeVillage/army/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import TownHallDetails from '@IHomeVillage/townHall/details.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface Army extends Building {

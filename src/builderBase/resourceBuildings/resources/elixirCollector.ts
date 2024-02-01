@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Resource from '@IBuilderBase/resources/elixirCollector/resource.interface'
 import Level from '@IBuilderBase/resources/elixirCollector/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
 
 const elixirCollector: Resource = {
 	name: 'Elixir Collector',
@@ -13,17 +13,77 @@ const elixirCollector: Resource = {
 	maxLevel: 10,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/3/30/Elixir_Collector_Ruin.png/revision/latest/scale-to-width-down/70?cb=20170609150452',
-	townHallDetails: [
-		{ townHall: 1, availableCount: 1, maxLevel: 1 },
-		{ townHall: 2, availableCount: 1, maxLevel: 3 },
-		{ townHall: 3, availableCount: 1, maxLevel: 3 },
-		{ townHall: 4, availableCount: 1, maxLevel: 4 },
-		{ townHall: 5, availableCount: 1, maxLevel: 5 },
-		{ townHall: 6, availableCount: 2, maxLevel: 6 },
-		{ townHall: 7, availableCount: 2, maxLevel: 7 },
-		{ townHall: 8, availableCount: 3, maxLevel: 8 },
-		{ townHall: 9, availableCount: 3, maxLevel: 9 },
-		{ townHall: 10, availableCount: 3, maxLevel: 10 },
+	builderHallDetails: [
+		{
+			builderHallLevel: 1,
+			availableCount: 1,
+			maxLevel: 1,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 2,
+			availableCount: 1,
+			maxLevel: 3,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 3,
+			availableCount: 1,
+			maxLevel: 3,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 4,
+			availableCount: 1,
+			maxLevel: 4,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 5,
+			availableCount: 1,
+			maxLevel: 5,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 6,
+			availableCount: 2,
+			maxLevel: 6,
+			stage1MaxCount: 1,
+			stage2MaxCount: 1,
+		},
+		{
+			builderHallLevel: 7,
+			availableCount: 2,
+			maxLevel: 7,
+			stage1MaxCount: 1,
+			stage2MaxCount: 1,
+		},
+		{
+			builderHallLevel: 8,
+			availableCount: 3,
+			maxLevel: 8,
+			stage1MaxCount: 1,
+			stage2MaxCount: 2,
+		},
+		{
+			builderHallLevel: 9,
+			availableCount: 3,
+			maxLevel: 9,
+			stage1MaxCount: 1,
+			stage2MaxCount: 2,
+		},
+		{
+			builderHallLevel: 10,
+			availableCount: 3,
+			maxLevel: 10,
+			stage1MaxCount: 1,
+			stage2MaxCount: 2,
+		},
 	],
 	achievement: [],
 	levels: [
@@ -239,9 +299,9 @@ const elixirCollector: Resource = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
+	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
+		if (level >= 1 && level <= this.builderHallDetails.length) {
+			return this.builderHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
 			return undefined

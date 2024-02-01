@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Building from '@IBuilderBase/army/armyCamp/army.interface'
 import Level from '@IBuilderBase/army/armyCamp/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
 
 const reinforcementCamp: Building = {
 	name: 'Reinforcement Camp',
@@ -12,17 +12,77 @@ const reinforcementCamp: Building = {
 	height: 3,
 	maxLevel: 1,
 	ruinImgUrl: '',
-	townHallDetails: [
-		{ townHall: 1, availableCount: 0, maxLevel: 0 },
-		{ townHall: 2, availableCount: 0, maxLevel: 0 },
-		{ townHall: 3, availableCount: 0, maxLevel: 0 },
-		{ townHall: 4, availableCount: 0, maxLevel: 0 },
-		{ townHall: 5, availableCount: 0, maxLevel: 0 },
-		{ townHall: 6, availableCount: 1, maxLevel: 1 },
-		{ townHall: 7, availableCount: 1, maxLevel: 1 },
-		{ townHall: 8, availableCount: 1, maxLevel: 1 },
-		{ townHall: 9, availableCount: 2, maxLevel: 1 },
-		{ townHall: 10, availableCount: 2, maxLevel: 1 },
+	builderHallDetails: [
+		{
+			builderHallLevel: 1,
+			availableCount: 0,
+			maxLevel: 0,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 2,
+			availableCount: 0,
+			maxLevel: 0,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 3,
+			availableCount: 0,
+			maxLevel: 0,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 4,
+			availableCount: 0,
+			maxLevel: 0,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 5,
+			availableCount: 0,
+			maxLevel: 0,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 6,
+			availableCount: 1,
+			maxLevel: 1,
+			stage1MaxCount: 0,
+			stage2MaxCount: 1,
+		},
+		{
+			builderHallLevel: 7,
+			availableCount: 1,
+			maxLevel: 1,
+			stage1MaxCount: 0,
+			stage2MaxCount: 1,
+		},
+		{
+			builderHallLevel: 8,
+			availableCount: 1,
+			maxLevel: 1,
+			stage1MaxCount: 0,
+			stage2MaxCount: 1,
+		},
+		{
+			builderHallLevel: 9,
+			availableCount: 2,
+			maxLevel: 1,
+			stage1MaxCount: 0,
+			stage2MaxCount: 2,
+		},
+		{
+			builderHallLevel: 10,
+			availableCount: 2,
+			maxLevel: 1,
+			stage1MaxCount: 0,
+			stage2MaxCount: 2,
+		},
 	],
 	achievement: [],
 	levels: [
@@ -68,9 +128,9 @@ const reinforcementCamp: Building = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
+	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
+		if (level >= 1 && level <= this.builderHallDetails.length) {
+			return this.builderHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
 			return undefined

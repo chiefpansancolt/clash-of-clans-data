@@ -1,16 +1,16 @@
 import Defense from '@ICommon/defenses/defense.interface'
 import Level from '@IBuilderBase/defenses/ottosOutpost/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface BuilderBaseDefense extends Defense {
 	maxCount: number
 	levels: Level[]
-	townHallDetails: TownHallDetails[]
+	builderHallDetails: BuilderHallDetails[]
 	achievement: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
-	getTownHallLevel(level: number): TownHallDetails | undefined
+	getBuilderHallLevel(level: number): BuilderHallDetails | undefined
 }
 
 export default BuilderBaseDefense

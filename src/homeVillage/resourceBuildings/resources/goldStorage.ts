@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
-import Resource from '@ICommon/resources/resource.interface'
+import Resource from '@IHomeVillage/resources/resource.interface'
 import Level from '@ICommon/resources/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import TownHallDetails from '@IHomeVillage/townHall/details.interface'
 
 const goldStorage: Resource = {
 	name: 'Gold Storage',
@@ -12,22 +12,22 @@ const goldStorage: Resource = {
 	height: 3,
 	maxLevel: 17,
 	townHallDetails: [
-		{ townHall: 1, availableCount: 1, maxLevel: 1 },
-		{ townHall: 2, availableCount: 1, maxLevel: 3 },
-		{ townHall: 3, availableCount: 2, maxLevel: 6 },
-		{ townHall: 4, availableCount: 2, maxLevel: 8 },
-		{ townHall: 5, availableCount: 2, maxLevel: 9 },
-		{ townHall: 6, availableCount: 2, maxLevel: 10 },
-		{ townHall: 7, availableCount: 2, maxLevel: 11 },
-		{ townHall: 8, availableCount: 3, maxLevel: 11 },
-		{ townHall: 9, availableCount: 4, maxLevel: 11 },
-		{ townHall: 10, availableCount: 4, maxLevel: 11 },
-		{ townHall: 11, availableCount: 4, maxLevel: 12 },
-		{ townHall: 12, availableCount: 4, maxLevel: 13 },
-		{ townHall: 13, availableCount: 4, maxLevel: 14 },
-		{ townHall: 14, availableCount: 4, maxLevel: 15 },
-		{ townHall: 15, availableCount: 4, maxLevel: 16 },
-		{ townHall: 16, availableCount: 4, maxLevel: 17 },
+		{ townHallLevel: 1, availableCount: 1, maxLevel: 1 },
+		{ townHallLevel: 2, availableCount: 1, maxLevel: 3 },
+		{ townHallLevel: 3, availableCount: 2, maxLevel: 6 },
+		{ townHallLevel: 4, availableCount: 2, maxLevel: 8 },
+		{ townHallLevel: 5, availableCount: 2, maxLevel: 9 },
+		{ townHallLevel: 6, availableCount: 2, maxLevel: 10 },
+		{ townHallLevel: 7, availableCount: 2, maxLevel: 11 },
+		{ townHallLevel: 8, availableCount: 3, maxLevel: 11 },
+		{ townHallLevel: 9, availableCount: 4, maxLevel: 11 },
+		{ townHallLevel: 10, availableCount: 4, maxLevel: 11 },
+		{ townHallLevel: 11, availableCount: 4, maxLevel: 12 },
+		{ townHallLevel: 12, availableCount: 4, maxLevel: 13 },
+		{ townHallLevel: 13, availableCount: 4, maxLevel: 14 },
+		{ townHallLevel: 14, availableCount: 4, maxLevel: 15 },
+		{ townHallLevel: 15, availableCount: 4, maxLevel: 16 },
+		{ townHallLevel: 16, availableCount: 4, maxLevel: 17 },
 	],
 	achievement: {
 		name: 'Bigger Coffers',

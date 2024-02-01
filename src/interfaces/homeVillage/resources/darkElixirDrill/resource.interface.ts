@@ -1,4 +1,4 @@
-import BaseResource from '@ICommon/resources/resource.interface'
+import BaseResource from '@IHomeVillage/resources/resource.interface'
 import Level from '@IHomeVillage/resources/darkElixirDrill/level.interface'
 
 interface Resource extends BaseResource {

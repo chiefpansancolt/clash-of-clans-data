@@ -1,5 +1,5 @@
 import Level from '@IBuilderBase/resources/bobControl/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface Resource {
@@ -10,12 +10,12 @@ interface Resource {
 	maxLevel: number
 	maxCount: number
 	levels: Level[]
-	townHallDetails: TownHallDetails[]
+	builderHallDetails: BuilderHallDetails[]
 	achievement: Achievement | Achievement[]
 
 	getSize(): string
 	getLevel(level: number): Level | undefined
-	getTownHallLevel(level: number): TownHallDetails | undefined
+	getBuilderHallLevel(level: number): BuilderHallDetails | undefined
 }
 
 export default Resource

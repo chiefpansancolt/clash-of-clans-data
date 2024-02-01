@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Trap from '@IBuilderBase/traps/springTrap/trap.interface'
 import Level from '@IBuilderBase/traps/springTrap/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
 
 const springTrap: Trap = {
 	name: 'Spring Trap',
@@ -17,17 +17,77 @@ const springTrap: Trap = {
 		maxTriggerRange: 0.7,
 		favoriteTarget: Constants.none,
 	},
-	townHallDetails: [
-		{ townHall: 1, availableCount: 0, maxLevel: 0 },
-		{ townHall: 2, availableCount: 0, maxLevel: 0 },
-		{ townHall: 3, availableCount: 2, maxLevel: 1 },
-		{ townHall: 4, availableCount: 2, maxLevel: 2 },
-		{ townHall: 5, availableCount: 3, maxLevel: 2 },
-		{ townHall: 6, availableCount: 3, maxLevel: 3 },
-		{ townHall: 7, availableCount: 4, maxLevel: 3 },
-		{ townHall: 8, availableCount: 5, maxLevel: 4 },
-		{ townHall: 9, availableCount: 6, maxLevel: 4 },
-		{ townHall: 10, availableCount: 6, maxLevel: 4 },
+	builderHallDetails: [
+		{
+			builderHallLevel: 1,
+			availableCount: 0,
+			maxLevel: 0,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 2,
+			availableCount: 0,
+			maxLevel: 0,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 3,
+			availableCount: 2,
+			maxLevel: 1,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 4,
+			availableCount: 2,
+			maxLevel: 2,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 5,
+			availableCount: 3,
+			maxLevel: 2,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 6,
+			availableCount: 3,
+			maxLevel: 3,
+			stage1MaxCount: 6,
+			stage2MaxCount: 6,
+		},
+		{
+			builderHallLevel: 7,
+			availableCount: 4,
+			maxLevel: 3,
+			stage1MaxCount: 6,
+			stage2MaxCount: 6,
+		},
+		{
+			builderHallLevel: 8,
+			availableCount: 5,
+			maxLevel: 4,
+			stage1MaxCount: 6,
+			stage2MaxCount: 6,
+		},
+		{
+			builderHallLevel: 9,
+			availableCount: 6,
+			maxLevel: 4,
+			stage1MaxCount: 6,
+			stage2MaxCount: 6,
+		},
+		{
+			builderHallLevel: 10,
+			availableCount: 6,
+			maxLevel: 4,
+			stage1MaxCount: 6,
+			stage2MaxCount: 6,
+		},
 	],
 	levels: [
 		{
@@ -98,9 +158,9 @@ const springTrap: Trap = {
 			return undefined
 		}
 	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
+	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
+		if (level >= 1 && level <= this.builderHallDetails.length) {
+			return this.builderHallDetails[level - 1]
 		} else {
 			console.error(`Invalid Town Hall level: ${level}`)
 			return undefined

@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IClanCapital/defenses/raidCartPost/defense.interface'
 import Level from '@IClanCapital/defenses/raidCartPost/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import HallDetails from '@IClanCapital/hall/hallDetails.interface'
 
 const raidCartPost: Defense = {
 	name: 'Raid Cart Post',
@@ -18,20 +18,20 @@ const raidCartPost: Defense = {
 			availableCount: 1,
 		},
 	],
-	capitalHallDetails: [
+	clanCapitalDetails: [
 		{
 			name: Constants.capitalHall,
 			levels: [
-				{ townHall: 1, availableCount: 0, maxLevel: 0 },
-				{ townHall: 2, availableCount: 0, maxLevel: 0 },
-				{ townHall: 3, availableCount: 0, maxLevel: 0 },
-				{ townHall: 4, availableCount: 0, maxLevel: 0 },
-				{ townHall: 5, availableCount: 0, maxLevel: 0 },
-				{ townHall: 6, availableCount: 0, maxLevel: 0 },
-				{ townHall: 7, availableCount: 0, maxLevel: 0 },
-				{ townHall: 8, availableCount: 0, maxLevel: 0 },
-				{ townHall: 9, availableCount: 1, maxLevel: 4 },
-				{ townHall: 10, availableCount: 1, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 2, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 3, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 4, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 5, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 6, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 7, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 8, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 9, availableCount: 1, maxLevel: 4 },
+				{ hallLevel: 10, availableCount: 1, maxLevel: 5 },
 			],
 		},
 		{
@@ -41,11 +41,11 @@ const raidCartPost: Defense = {
 		{
 			name: Constants.wizardValley,
 			levels: [
-				{ townHall: 1, availableCount: 2, maxLevel: 1 },
-				{ townHall: 2, availableCount: 2, maxLevel: 2 },
-				{ townHall: 3, availableCount: 2, maxLevel: 3 },
-				{ townHall: 4, availableCount: 2, maxLevel: 4 },
-				{ townHall: 5, availableCount: 3, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 2, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 2, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 2, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 3, maxLevel: 5 },
 			],
 		},
 		{
@@ -141,8 +141,8 @@ const raidCartPost: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
-		const hallDetails = this.capitalHallDetails.find(
+	getHallLevel(name: string, level: number): HallDetails | undefined {
+		const hallDetails = this.clanCapitalDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)
 

@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IClanCapital/defenses/defense.interface'
 import Level from '@IClanCapital/defenses/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import HallDetails from '@IClanCapital/hall/hallDetails.interface'
 
 const spearThrower: Defense = {
 	name: 'Spear Thrower',
@@ -19,98 +19,98 @@ const spearThrower: Defense = {
 		maxRange: 9,
 		attackSpeed: 0.9,
 	},
-	capitalHallDetails: [
+	clanCapitalDetails: [
 		{
 			name: Constants.capitalHall,
 			levels: [
-				{ townHall: 1, availableCount: 4, maxLevel: 1 },
-				{ townHall: 2, availableCount: 4, maxLevel: 2 },
-				{ townHall: 3, availableCount: 4, maxLevel: 2 },
-				{ townHall: 4, availableCount: 4, maxLevel: 3 },
-				{ townHall: 5, availableCount: 4, maxLevel: 3 },
-				{ townHall: 6, availableCount: 5, maxLevel: 4 },
-				{ townHall: 7, availableCount: 6, maxLevel: 4 },
-				{ townHall: 8, availableCount: 6, maxLevel: 4 },
-				{ townHall: 9, availableCount: 6, maxLevel: 5 },
-				{ townHall: 10, availableCount: 6, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 4, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 4, maxLevel: 2 },
+				{ hallLevel: 4, availableCount: 4, maxLevel: 3 },
+				{ hallLevel: 5, availableCount: 4, maxLevel: 3 },
+				{ hallLevel: 6, availableCount: 5, maxLevel: 4 },
+				{ hallLevel: 7, availableCount: 6, maxLevel: 4 },
+				{ hallLevel: 8, availableCount: 6, maxLevel: 4 },
+				{ hallLevel: 9, availableCount: 6, maxLevel: 5 },
+				{ hallLevel: 10, availableCount: 6, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.barbarianCamp,
 			levels: [
-				{ townHall: 1, availableCount: 4, maxLevel: 1 },
-				{ townHall: 2, availableCount: 6, maxLevel: 2 },
-				{ townHall: 3, availableCount: 8, maxLevel: 3 },
-				{ townHall: 4, availableCount: 9, maxLevel: 4 },
-				{ townHall: 5, availableCount: 9, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 4, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 6, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 8, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 9, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 9, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.wizardValley,
 			levels: [
-				{ townHall: 1, availableCount: 11, maxLevel: 1 },
-				{ townHall: 2, availableCount: 12, maxLevel: 2 },
-				{ townHall: 3, availableCount: 13, maxLevel: 3 },
-				{ townHall: 4, availableCount: 14, maxLevel: 4 },
-				{ townHall: 5, availableCount: 14, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 11, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 12, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 13, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 14, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 14, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.ballonLagoon,
 			levels: [
-				{ townHall: 1, availableCount: 8, maxLevel: 1 },
-				{ townHall: 2, availableCount: 10, maxLevel: 2 },
-				{ townHall: 3, availableCount: 12, maxLevel: 3 },
-				{ townHall: 4, availableCount: 13, maxLevel: 4 },
-				{ townHall: 5, availableCount: 14, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 8, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 10, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 12, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 13, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 14, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.builderWorkshop,
 			levels: [
-				{ townHall: 1, availableCount: 8, maxLevel: 1 },
-				{ townHall: 2, availableCount: 10, maxLevel: 2 },
-				{ townHall: 3, availableCount: 11, maxLevel: 3 },
-				{ townHall: 4, availableCount: 12, maxLevel: 4 },
-				{ townHall: 5, availableCount: 13, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 8, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 10, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 11, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 12, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 13, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.dragonCliffs,
 			levels: [
-				{ townHall: 1, availableCount: 9, maxLevel: 1 },
-				{ townHall: 2, availableCount: 10, maxLevel: 2 },
-				{ townHall: 3, availableCount: 11, maxLevel: 3 },
-				{ townHall: 4, availableCount: 12, maxLevel: 4 },
-				{ townHall: 5, availableCount: 13, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 9, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 10, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 11, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 12, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 13, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.golemQuarry,
 			levels: [
-				{ townHall: 1, availableCount: 7, maxLevel: 1 },
-				{ townHall: 2, availableCount: 9, maxLevel: 2 },
-				{ townHall: 3, availableCount: 10, maxLevel: 3 },
-				{ townHall: 4, availableCount: 11, maxLevel: 4 },
-				{ townHall: 5, availableCount: 12, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 7, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 9, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 10, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 11, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 12, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.skeletonPark,
 			levels: [
-				{ townHall: 1, availableCount: 3, maxLevel: 1 },
-				{ townHall: 2, availableCount: 4, maxLevel: 2 },
-				{ townHall: 3, availableCount: 6, maxLevel: 3 },
-				{ townHall: 4, availableCount: 7, maxLevel: 4 },
+				{ hallLevel: 1, availableCount: 3, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 6, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 7, maxLevel: 4 },
 			],
 		},
 		{
 			name: Constants.goblinMines,
 			levels: [
-				{ townHall: 1, availableCount: 4, maxLevel: 1 },
-				{ townHall: 2, availableCount: 5, maxLevel: 2 },
-				{ townHall: 3, availableCount: 6, maxLevel: 3 },
-				{ townHall: 4, availableCount: 7, maxLevel: 4 },
+				{ hallLevel: 1, availableCount: 4, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 5, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 6, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 7, maxLevel: 4 },
 			],
 		},
 	],
@@ -187,8 +187,8 @@ const spearThrower: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
-		const hallDetails = this.capitalHallDetails.find(
+	getHallLevel(name: string, level: number): HallDetails | undefined {
+		const hallDetails = this.clanCapitalDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)
 

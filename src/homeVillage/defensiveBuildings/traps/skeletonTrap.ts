@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Trap from '@IHomeVillage/traps/skeletonTrap/trap.interface'
 import Level from '@IHomeVillage/traps/skeletonTrap/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import TownHallDetails from '@IHomeVillage/townHall/details.interface'
 
 const skeletonTrap: Trap = {
 	name: 'Skeleton Trap',
@@ -44,22 +44,22 @@ const skeletonTrap: Trap = {
 		},
 	],
 	townHallDetails: [
-		{ townHall: 1, availableCount: 0, maxLevel: 0 },
-		{ townHall: 2, availableCount: 0, maxLevel: 0 },
-		{ townHall: 3, availableCount: 0, maxLevel: 0 },
-		{ townHall: 4, availableCount: 0, maxLevel: 0 },
-		{ townHall: 5, availableCount: 0, maxLevel: 0 },
-		{ townHall: 6, availableCount: 0, maxLevel: 0 },
-		{ townHall: 7, availableCount: 0, maxLevel: 0 },
-		{ townHall: 8, availableCount: 2, maxLevel: 2 },
-		{ townHall: 9, availableCount: 2, maxLevel: 3 },
-		{ townHall: 10, availableCount: 3, maxLevel: 4 },
-		{ townHall: 11, availableCount: 3, maxLevel: 4 },
-		{ townHall: 12, availableCount: 3, maxLevel: 4 },
-		{ townHall: 13, availableCount: 3, maxLevel: 4 },
-		{ townHall: 14, availableCount: 4, maxLevel: 4 },
-		{ townHall: 15, availableCount: 4, maxLevel: 4 },
-		{ townHall: 16, availableCount: 4, maxLevel: 4 },
+		{ townHallLevel: 1, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 2, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 3, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 4, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 5, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 6, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 7, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 8, availableCount: 2, maxLevel: 2 },
+		{ townHallLevel: 9, availableCount: 2, maxLevel: 3 },
+		{ townHallLevel: 10, availableCount: 3, maxLevel: 4 },
+		{ townHallLevel: 11, availableCount: 3, maxLevel: 4 },
+		{ townHallLevel: 12, availableCount: 3, maxLevel: 4 },
+		{ townHallLevel: 13, availableCount: 3, maxLevel: 4 },
+		{ townHallLevel: 14, availableCount: 4, maxLevel: 4 },
+		{ townHallLevel: 15, availableCount: 4, maxLevel: 4 },
+		{ townHallLevel: 16, availableCount: 4, maxLevel: 4 },
 	],
 	levels: [
 		{

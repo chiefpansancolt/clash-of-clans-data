@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IHomeVillage/defenses/defense.interface'
 import Level from '@IHomeVillage/defenses/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import TownHallDetails from '@IHomeVillage/townHall/details.interface'
 
 const ricochetCannon: Defense = {
 	name: 'Ricochet Cannon',
@@ -20,22 +20,22 @@ const ricochetCannon: Defense = {
 		attackSpeed: 0.8,
 	},
 	townHallDetails: [
-		{ townHall: 1, availableCount: 0, maxLevel: 0 },
-		{ townHall: 2, availableCount: 0, maxLevel: 0 },
-		{ townHall: 3, availableCount: 0, maxLevel: 0 },
-		{ townHall: 4, availableCount: 0, maxLevel: 0 },
-		{ townHall: 5, availableCount: 0, maxLevel: 0 },
-		{ townHall: 6, availableCount: 0, maxLevel: 0 },
-		{ townHall: 7, availableCount: 0, maxLevel: 0 },
-		{ townHall: 8, availableCount: 0, maxLevel: 0 },
-		{ townHall: 9, availableCount: 0, maxLevel: 0 },
-		{ townHall: 10, availableCount: 0, maxLevel: 0 },
-		{ townHall: 11, availableCount: 0, maxLevel: 0 },
-		{ townHall: 12, availableCount: 0, maxLevel: 0 },
-		{ townHall: 13, availableCount: 0, maxLevel: 0 },
-		{ townHall: 14, availableCount: 0, maxLevel: 0 },
-		{ townHall: 15, availableCount: 0, maxLevel: 0 },
-		{ townHall: 16, availableCount: 2, maxLevel: 2 },
+		{ townHallLevel: 1, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 2, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 3, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 4, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 5, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 6, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 7, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 8, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 9, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 10, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 11, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 12, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 13, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 14, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 15, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 16, availableCount: 2, maxLevel: 2 },
 	],
 	achievement: [],
 	levels: [

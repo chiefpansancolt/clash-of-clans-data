@@ -1,16 +1,16 @@
 import Wall from '@ICommon/walls/wall.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
 import Level from '@IBuilderBase/wall/level.interface'
 
 interface BuilderWall extends Wall {
 	maxCount: number
 	levels: Level[]
-	townHallDetails: TownHallDetails[]
+	builderHallDetails: BuilderHallDetails[]
 	achievement: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
-	getTownHallLevel(level: number): TownHallDetails | undefined
+	getBuilderHallLevel(level: number): BuilderHallDetails | undefined
 }
 
 export default BuilderWall

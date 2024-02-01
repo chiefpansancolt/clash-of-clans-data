@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IClanCapital/defenses/superDragonPost/defense.interface'
 import Level from '@IClanCapital/defenses/superDragonPost/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import HallDetails from '@IClanCapital/hall/hallDetails.interface'
 
 const superDragonPost: Defense = {
 	name: 'Super Dragon Post',
@@ -18,20 +18,20 @@ const superDragonPost: Defense = {
 			availableCount: 1,
 		},
 	],
-	capitalHallDetails: [
+	clanCapitalDetails: [
 		{
 			name: Constants.capitalHall,
 			levels: [
-				{ townHall: 1, availableCount: 0, maxLevel: 0 },
-				{ townHall: 2, availableCount: 0, maxLevel: 0 },
-				{ townHall: 3, availableCount: 0, maxLevel: 0 },
-				{ townHall: 4, availableCount: 0, maxLevel: 0 },
-				{ townHall: 5, availableCount: 0, maxLevel: 0 },
-				{ townHall: 6, availableCount: 0, maxLevel: 0 },
-				{ townHall: 7, availableCount: 0, maxLevel: 0 },
-				{ townHall: 8, availableCount: 0, maxLevel: 0 },
-				{ townHall: 9, availableCount: 0, maxLevel: 0 },
-				{ townHall: 10, availableCount: 1, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 2, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 3, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 4, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 5, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 6, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 7, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 8, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 9, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 10, availableCount: 1, maxLevel: 5 },
 			],
 		},
 		{
@@ -53,11 +53,11 @@ const superDragonPost: Defense = {
 		{
 			name: Constants.dragonCliffs,
 			levels: [
-				{ townHall: 1, availableCount: 2, maxLevel: 1 },
-				{ townHall: 2, availableCount: 3, maxLevel: 2 },
-				{ townHall: 3, availableCount: 4, maxLevel: 3 },
-				{ townHall: 4, availableCount: 5, maxLevel: 4 },
-				{ townHall: 5, availableCount: 6, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 3, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 4, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 5, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 6, maxLevel: 5 },
 			],
 		},
 		{
@@ -141,8 +141,8 @@ const superDragonPost: Defense = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
-		const hallDetails = this.capitalHallDetails.find(
+	getHallLevel(name: string, level: number): HallDetails | undefined {
+		const hallDetails = this.clanCapitalDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)
 

@@ -1,5 +1,4 @@
 interface HallDetails {
-	townHall: number
 	availableCount: number
 	maxLevel: number
 }

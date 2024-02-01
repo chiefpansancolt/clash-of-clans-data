@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Resource from '@IHomeVillage/resources/goldMine/resource.interface'
 import Level from '@IHomeVillage/resources/goldMine/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import TownHallDetails from '@IHomeVillage/townHall/details.interface'
 
 const goldMine: Resource = {
 	name: 'Gold Mine',
@@ -12,22 +12,22 @@ const goldMine: Resource = {
 	height: 3,
 	maxLevel: 15,
 	townHallDetails: [
-		{ townHall: 1, availableCount: 1, maxLevel: 2 },
-		{ townHall: 2, availableCount: 2, maxLevel: 4 },
-		{ townHall: 3, availableCount: 3, maxLevel: 6 },
-		{ townHall: 4, availableCount: 4, maxLevel: 8 },
-		{ townHall: 5, availableCount: 5, maxLevel: 10 },
-		{ townHall: 6, availableCount: 6, maxLevel: 10 },
-		{ townHall: 7, availableCount: 6, maxLevel: 11 },
-		{ townHall: 8, availableCount: 6, maxLevel: 12 },
-		{ townHall: 9, availableCount: 7, maxLevel: 12 },
-		{ townHall: 10, availableCount: 7, maxLevel: 13 },
-		{ townHall: 11, availableCount: 7, maxLevel: 14 },
-		{ townHall: 12, availableCount: 7, maxLevel: 15 },
-		{ townHall: 13, availableCount: 7, maxLevel: 15 },
-		{ townHall: 14, availableCount: 7, maxLevel: 15 },
-		{ townHall: 15, availableCount: 7, maxLevel: 15 },
-		{ townHall: 16, availableCount: 7, maxLevel: 15 },
+		{ townHallLevel: 1, availableCount: 1, maxLevel: 2 },
+		{ townHallLevel: 2, availableCount: 2, maxLevel: 4 },
+		{ townHallLevel: 3, availableCount: 3, maxLevel: 6 },
+		{ townHallLevel: 4, availableCount: 4, maxLevel: 8 },
+		{ townHallLevel: 5, availableCount: 5, maxLevel: 10 },
+		{ townHallLevel: 6, availableCount: 6, maxLevel: 10 },
+		{ townHallLevel: 7, availableCount: 6, maxLevel: 11 },
+		{ townHallLevel: 8, availableCount: 6, maxLevel: 12 },
+		{ townHallLevel: 9, availableCount: 7, maxLevel: 12 },
+		{ townHallLevel: 10, availableCount: 7, maxLevel: 13 },
+		{ townHallLevel: 11, availableCount: 7, maxLevel: 14 },
+		{ townHallLevel: 12, availableCount: 7, maxLevel: 15 },
+		{ townHallLevel: 13, availableCount: 7, maxLevel: 15 },
+		{ townHallLevel: 14, availableCount: 7, maxLevel: 15 },
+		{ townHallLevel: 15, availableCount: 7, maxLevel: 15 },
+		{ townHallLevel: 16, availableCount: 7, maxLevel: 15 },
 	],
 	achievement: [],
 	levels: [

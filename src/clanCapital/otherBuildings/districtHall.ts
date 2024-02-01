@@ -10,7 +10,7 @@ const districtHall: DistrictHall = {
 	width: 4,
 	height: 4,
 	maxLevel: 5,
-	capitalHallDetails: [
+	districtHallDetails: [
 		{
 			name: Constants.barbarianCamp,
 			levels: [
@@ -143,8 +143,8 @@ const districtHall: DistrictHall = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): DetailLevel | undefined {
-		const hallDetails = this.capitalHallDetails.find(
+	getDistrictHallLevel(name: string, level: number): DetailLevel | undefined {
+		const hallDetails = this.districtHallDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)
 

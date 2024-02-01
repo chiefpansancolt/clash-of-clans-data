@@ -1,6 +1,6 @@
 import Wall from '@ICommon/walls/wall.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
-import TownHallDefense from '@ICommon/hall/details.interface'
+import TownHallDefense from '@IHomeVillage/townHall/details.interface'
 import Level from '@IHomeVillage/wall/level.interface'
 
 interface HomeWall extends Wall {

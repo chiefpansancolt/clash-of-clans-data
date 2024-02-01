@@ -1,14 +1,87 @@
 import * as Constants from '@/constants'
-import TownHall from '@IBuilderBase/builderHall/builderHall.interface'
+import BuilderHall from '@IBuilderBase/builderHall/builderHall.interface'
 import Level from '@IBuilderBase/builderHall/level.interface'
+import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
 
-const builderHall: TownHall = {
+const builderHall: BuilderHall = {
 	name: 'Archer Tower',
 	description:
 		"No foe can escape the Archer's arrows. This tower has a special switch - choose long range or fast attack!",
 	width: 3,
 	height: 3,
 	maxLevel: 10,
+	builderHallDetails: [
+		{
+			builderHallLevel: 1,
+			availableCount: 1,
+			maxLevel: 1,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 2,
+			availableCount: 1,
+			maxLevel: 2,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 3,
+			availableCount: 1,
+			maxLevel: 3,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 4,
+			availableCount: 1,
+			maxLevel: 4,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 5,
+			availableCount: 1,
+			maxLevel: 5,
+			stage1MaxCount: 0,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 6,
+			availableCount: 1,
+			maxLevel: 6,
+			stage1MaxCount: 1,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 7,
+			availableCount: 1,
+			maxLevel: 7,
+			stage1MaxCount: 1,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 8,
+			availableCount: 1,
+			maxLevel: 8,
+			stage1MaxCount: 1,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 9,
+			availableCount: 1,
+			maxLevel: 9,
+			stage1MaxCount: 1,
+			stage2MaxCount: 0,
+		},
+		{
+			builderHallLevel: 10,
+			availableCount: 1,
+			maxLevel: 10,
+			stage1MaxCount: 1,
+			stage2MaxCount: 0,
+		},
+	],
 	achievement: [],
 	levels: [
 		{
@@ -190,6 +263,14 @@ const builderHall: TownHall = {
 			return this.levels[level - 1]
 		} else {
 			console.error(`Invalid ${this.name} level: ${level}`)
+			return undefined
+		}
+	},
+	getBuilderHallLevel(level: number): BuilderHallDetails | undefined {
+		if (level >= 1 && level <= this.builderHallDetails.length) {
+			return this.builderHallDetails[level - 1]
+		} else {
+			console.error(`Invalid Town Hall level: ${level}`)
 			return undefined
 		}
 	},

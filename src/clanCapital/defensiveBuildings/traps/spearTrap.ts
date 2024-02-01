@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Trap from '@IClanCapital/traps/spearTrap/trap.interface'
 import Level from '@IClanCapital/traps/spearTrap/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import HallDetails from '@IClanCapital/hall/hallDetails.interface'
 
 const nameHere: Trap = {
 	name: 'Spear Trap',
@@ -19,7 +19,7 @@ const nameHere: Trap = {
 		maxTriggerRange: 10,
 		favoriteTarget: Constants.any,
 	},
-	capitalHallDetails: [
+	clanCapitalDetails: [
 		{
 			name: Constants.capitalHall,
 			levels: [],
@@ -55,10 +55,10 @@ const nameHere: Trap = {
 		{
 			name: Constants.goblinMines,
 			levels: [
-				{ townHall: 1, availableCount: 3, maxLevel: 1 },
-				{ townHall: 2, availableCount: 4, maxLevel: 2 },
-				{ townHall: 3, availableCount: 5, maxLevel: 3 },
-				{ townHall: 4, availableCount: 6, maxLevel: 4 },
+				{ hallLevel: 1, availableCount: 3, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 5, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 6, maxLevel: 4 },
 			],
 		},
 	],
@@ -115,8 +115,8 @@ const nameHere: Trap = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
-		const hallDetails = this.capitalHallDetails.find(
+	getHallLevel(name: string, level: number): HallDetails | undefined {
+		const hallDetails = this.clanCapitalDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)
 

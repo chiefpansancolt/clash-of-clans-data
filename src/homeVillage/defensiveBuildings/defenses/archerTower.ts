@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Defense from '@IHomeVillage/defenses/archerTower/defense.interface'
 import Level from '@IHomeVillage/defenses/archerTower/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import TownHallDetails from '@IHomeVillage/townHall/details.interface'
 
 const archerTower: Defense = {
 	name: 'Archer Tower',
@@ -29,22 +29,22 @@ const archerTower: Defense = {
 		attackSpeed: 0.5,
 	},
 	townHallDetails: [
-		{ townHall: 1, availableCount: 0, maxLevel: 0 },
-		{ townHall: 2, availableCount: 1, maxLevel: 2 },
-		{ townHall: 3, availableCount: 1, maxLevel: 3 },
-		{ townHall: 4, availableCount: 2, maxLevel: 4 },
-		{ townHall: 5, availableCount: 3, maxLevel: 6 },
-		{ townHall: 6, availableCount: 3, maxLevel: 7 },
-		{ townHall: 7, availableCount: 4, maxLevel: 8 },
-		{ townHall: 8, availableCount: 5, maxLevel: 10 },
-		{ townHall: 9, availableCount: 6, maxLevel: 11 },
-		{ townHall: 10, availableCount: 7, maxLevel: 13 },
-		{ townHall: 11, availableCount: 8, maxLevel: 15 },
-		{ townHall: 12, availableCount: 8, maxLevel: 17 },
-		{ townHall: 13, availableCount: 8, maxLevel: 19 },
-		{ townHall: 14, availableCount: 8, maxLevel: 20 },
-		{ townHall: 15, availableCount: 8, maxLevel: 21 },
-		{ townHall: 16, availableCount: 8, maxLevel: 21 },
+		{ townHallLevel: 1, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 2, availableCount: 1, maxLevel: 2 },
+		{ townHallLevel: 3, availableCount: 1, maxLevel: 3 },
+		{ townHallLevel: 4, availableCount: 2, maxLevel: 4 },
+		{ townHallLevel: 5, availableCount: 3, maxLevel: 6 },
+		{ townHallLevel: 6, availableCount: 3, maxLevel: 7 },
+		{ townHallLevel: 7, availableCount: 4, maxLevel: 8 },
+		{ townHallLevel: 8, availableCount: 5, maxLevel: 10 },
+		{ townHallLevel: 9, availableCount: 6, maxLevel: 11 },
+		{ townHallLevel: 10, availableCount: 7, maxLevel: 13 },
+		{ townHallLevel: 11, availableCount: 8, maxLevel: 15 },
+		{ townHallLevel: 12, availableCount: 8, maxLevel: 17 },
+		{ townHallLevel: 13, availableCount: 8, maxLevel: 19 },
+		{ townHallLevel: 14, availableCount: 8, maxLevel: 20 },
+		{ townHallLevel: 15, availableCount: 8, maxLevel: 21 },
+		{ townHallLevel: 16, availableCount: 8, maxLevel: 21 },
 	],
 	achievement: {
 		name: 'High Gear',

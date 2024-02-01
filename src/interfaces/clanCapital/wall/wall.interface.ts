@@ -1,14 +1,14 @@
 import Wall from '@ICommon/walls/wall.interface'
 import Level from '@IClanCapital/wall/level.interface'
-import CapitalHallDetails from '@IClanCapital/defenses/capitalHallDetails.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import ClanCapitalDetails from '@IClanCapital/hall/details.interface'
+import Details from '@IClanCapital/hall/hallDetails.interface'
 
 interface CapitalWall extends Wall {
 	levels: Level[]
-	capitalHallDetails: CapitalHallDetails[]
+	clanCapitalDetails: ClanCapitalDetails[]
 
 	getLevel(level: number): Level | undefined
-	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined
+	getHallLevel(name: string, level: number): Details | undefined
 }
 
 export default CapitalWall

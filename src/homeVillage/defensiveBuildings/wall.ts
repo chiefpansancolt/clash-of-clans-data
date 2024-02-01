@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Wall from '@IHomeVillage/wall/wall.interface'
 import Level from '@IHomeVillage/wall/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import TownHallDetails from '@IHomeVillage/townHall/details.interface'
 
 const wall: Wall = {
 	name: 'Walls',
@@ -12,22 +12,22 @@ const wall: Wall = {
 	height: 1,
 	maxLevel: 17,
 	townHallDetails: [
-		{ townHall: 1, availableCount: 0, maxLevel: 0 },
-		{ townHall: 2, availableCount: 25, maxLevel: 2 },
-		{ townHall: 3, availableCount: 50, maxLevel: 3 },
-		{ townHall: 4, availableCount: 75, maxLevel: 4 },
-		{ townHall: 5, availableCount: 100, maxLevel: 5 },
-		{ townHall: 6, availableCount: 125, maxLevel: 6 },
-		{ townHall: 7, availableCount: 175, maxLevel: 7 },
-		{ townHall: 8, availableCount: 225, maxLevel: 8 },
-		{ townHall: 9, availableCount: 250, maxLevel: 10 },
-		{ townHall: 10, availableCount: 275, maxLevel: 11 },
-		{ townHall: 11, availableCount: 300, maxLevel: 12 },
-		{ townHall: 12, availableCount: 300, maxLevel: 13 },
-		{ townHall: 13, availableCount: 300, maxLevel: 14 },
-		{ townHall: 14, availableCount: 325, maxLevel: 15 },
-		{ townHall: 15, availableCount: 325, maxLevel: 16 },
-		{ townHall: 16, availableCount: 325, maxLevel: 17 },
+		{ townHallLevel: 1, availableCount: 0, maxLevel: 0 },
+		{ townHallLevel: 2, availableCount: 25, maxLevel: 2 },
+		{ townHallLevel: 3, availableCount: 50, maxLevel: 3 },
+		{ townHallLevel: 4, availableCount: 75, maxLevel: 4 },
+		{ townHallLevel: 5, availableCount: 100, maxLevel: 5 },
+		{ townHallLevel: 6, availableCount: 125, maxLevel: 6 },
+		{ townHallLevel: 7, availableCount: 175, maxLevel: 7 },
+		{ townHallLevel: 8, availableCount: 225, maxLevel: 8 },
+		{ townHallLevel: 9, availableCount: 250, maxLevel: 10 },
+		{ townHallLevel: 10, availableCount: 275, maxLevel: 11 },
+		{ townHallLevel: 11, availableCount: 300, maxLevel: 12 },
+		{ townHallLevel: 12, availableCount: 300, maxLevel: 13 },
+		{ townHallLevel: 13, availableCount: 300, maxLevel: 14 },
+		{ townHallLevel: 14, availableCount: 325, maxLevel: 15 },
+		{ townHallLevel: 15, availableCount: 325, maxLevel: 16 },
+		{ townHallLevel: 16, availableCount: 325, maxLevel: 17 },
 	],
 	achievement: {
 		name: 'Wall Buster',

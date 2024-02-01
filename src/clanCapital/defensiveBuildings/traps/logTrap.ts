@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Trap from '@IClanCapital/traps/trap.interface'
 import Level from '@IClanCapital/traps/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import HallDetails from '@IClanCapital/hall/hallDetails.interface'
 
 const logTrap: Trap = {
 	name: 'Log Trap',
@@ -18,20 +18,20 @@ const logTrap: Trap = {
 		maxTriggerRange: 9,
 		favoriteTarget: Constants.any,
 	},
-	capitalHallDetails: [
+	clanCapitalDetails: [
 		{
 			name: Constants.capitalHall,
 			levels: [
-				{ townHall: 1, availableCount: 0, maxLevel: 0 },
-				{ townHall: 2, availableCount: 0, maxLevel: 0 },
-				{ townHall: 3, availableCount: 0, maxLevel: 0 },
-				{ townHall: 4, availableCount: 1, maxLevel: 2 },
-				{ townHall: 5, availableCount: 2, maxLevel: 2 },
-				{ townHall: 6, availableCount: 3, maxLevel: 3 },
-				{ townHall: 7, availableCount: 4, maxLevel: 3 },
-				{ townHall: 8, availableCount: 4, maxLevel: 4 },
-				{ townHall: 9, availableCount: 4, maxLevel: 4 },
-				{ townHall: 10, availableCount: 4, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 2, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 3, availableCount: 0, maxLevel: 0 },
+				{ hallLevel: 4, availableCount: 1, maxLevel: 2 },
+				{ hallLevel: 5, availableCount: 2, maxLevel: 2 },
+				{ hallLevel: 6, availableCount: 3, maxLevel: 3 },
+				{ hallLevel: 7, availableCount: 4, maxLevel: 3 },
+				{ hallLevel: 8, availableCount: 4, maxLevel: 4 },
+				{ hallLevel: 9, availableCount: 4, maxLevel: 4 },
+				{ hallLevel: 10, availableCount: 4, maxLevel: 5 },
 			],
 		},
 		{
@@ -41,69 +41,69 @@ const logTrap: Trap = {
 		{
 			name: Constants.wizardValley,
 			levels: [
-				{ townHall: 1, availableCount: 0, maxLevel: 1 },
-				{ townHall: 2, availableCount: 1, maxLevel: 2 },
-				{ townHall: 3, availableCount: 1, maxLevel: 3 },
-				{ townHall: 4, availableCount: 1, maxLevel: 4 },
-				{ townHall: 5, availableCount: 1, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 0, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 1, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 1, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 1, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 1, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.ballonLagoon,
 			levels: [
-				{ townHall: 1, availableCount: 4, maxLevel: 1 },
-				{ townHall: 2, availableCount: 4, maxLevel: 2 },
-				{ townHall: 3, availableCount: 4, maxLevel: 3 },
-				{ townHall: 4, availableCount: 4, maxLevel: 4 },
-				{ townHall: 5, availableCount: 4, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 4, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 4, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 4, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 4, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.builderWorkshop,
 			levels: [
-				{ townHall: 1, availableCount: 5, maxLevel: 1 },
-				{ townHall: 2, availableCount: 6, maxLevel: 2 },
-				{ townHall: 3, availableCount: 7, maxLevel: 3 },
-				{ townHall: 4, availableCount: 8, maxLevel: 4 },
-				{ townHall: 5, availableCount: 8, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 5, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 6, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 7, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 8, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 8, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.dragonCliffs,
 			levels: [
-				{ townHall: 1, availableCount: 2, maxLevel: 1 },
-				{ townHall: 2, availableCount: 2, maxLevel: 2 },
-				{ townHall: 3, availableCount: 2, maxLevel: 3 },
-				{ townHall: 4, availableCount: 2, maxLevel: 4 },
-				{ townHall: 5, availableCount: 2, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 2, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 2, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 2, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 2, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.golemQuarry,
 			levels: [
-				{ townHall: 1, availableCount: 4, maxLevel: 1 },
-				{ townHall: 2, availableCount: 5, maxLevel: 2 },
-				{ townHall: 3, availableCount: 6, maxLevel: 3 },
-				{ townHall: 4, availableCount: 6, maxLevel: 4 },
-				{ townHall: 5, availableCount: 6, maxLevel: 5 },
+				{ hallLevel: 1, availableCount: 4, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 5, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 6, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 6, maxLevel: 4 },
+				{ hallLevel: 5, availableCount: 6, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.skeletonPark,
 			levels: [
-				{ townHall: 1, availableCount: 4, maxLevel: 1 },
-				{ townHall: 2, availableCount: 6, maxLevel: 2 },
-				{ townHall: 3, availableCount: 7, maxLevel: 3 },
-				{ townHall: 4, availableCount: 7, maxLevel: 4 },
+				{ hallLevel: 1, availableCount: 4, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 6, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 7, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 7, maxLevel: 4 },
 			],
 		},
 		{
 			name: Constants.goblinMines,
 			levels: [
-				{ townHall: 1, availableCount: 2, maxLevel: 1 },
-				{ townHall: 2, availableCount: 2, maxLevel: 2 },
-				{ townHall: 3, availableCount: 2, maxLevel: 3 },
-				{ townHall: 4, availableCount: 3, maxLevel: 4 },
+				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ hallLevel: 2, availableCount: 2, maxLevel: 2 },
+				{ hallLevel: 3, availableCount: 2, maxLevel: 3 },
+				{ hallLevel: 4, availableCount: 3, maxLevel: 4 },
 			],
 		},
 	],
@@ -170,8 +170,8 @@ const logTrap: Trap = {
 			return undefined
 		}
 	},
-	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
-		const hallDetails = this.capitalHallDetails.find(
+	getHallLevel(name: string, level: number): HallDetails | undefined {
+		const hallDetails = this.clanCapitalDetails.find(
 			(detail: { name: string }) => detail.name === name
 		)
 

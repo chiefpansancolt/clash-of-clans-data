@@ -1,7 +1,7 @@
 import * as Constants from '@/constants'
 import Building from '@IHomeVillage/army/barracks/army.interface'
 import Level from '@IHomeVillage/army/barracks/level.interface'
-import TownHallDetails from '@ICommon/hall/details.interface'
+import TownHallDetails from '@IHomeVillage/townHall/details.interface'
 
 const barracks: Building = {
 	name: 'Barracks',
@@ -12,22 +12,22 @@ const barracks: Building = {
 	height: 3,
 	maxLevel: 17,
 	townHallDetails: [
-		{ townHall: 1, availableCount: 1, maxLevel: 1 },
-		{ townHall: 2, availableCount: 1, maxLevel: 4 },
-		{ townHall: 3, availableCount: 1, maxLevel: 5 },
-		{ townHall: 4, availableCount: 1, maxLevel: 6 },
-		{ townHall: 5, availableCount: 1, maxLevel: 7 },
-		{ townHall: 6, availableCount: 1, maxLevel: 8 },
-		{ townHall: 7, availableCount: 1, maxLevel: 9 },
-		{ townHall: 8, availableCount: 1, maxLevel: 10 },
-		{ townHall: 9, availableCount: 1, maxLevel: 11 },
-		{ townHall: 10, availableCount: 1, maxLevel: 12 },
-		{ townHall: 11, availableCount: 1, maxLevel: 13 },
-		{ townHall: 12, availableCount: 1, maxLevel: 14 },
-		{ townHall: 13, availableCount: 1, maxLevel: 15 },
-		{ townHall: 14, availableCount: 1, maxLevel: 16 },
-		{ townHall: 15, availableCount: 1, maxLevel: 17 },
-		{ townHall: 16, availableCount: 1, maxLevel: 17 },
+		{ townHallLevel: 1, availableCount: 1, maxLevel: 1 },
+		{ townHallLevel: 2, availableCount: 1, maxLevel: 4 },
+		{ townHallLevel: 3, availableCount: 1, maxLevel: 5 },
+		{ townHallLevel: 4, availableCount: 1, maxLevel: 6 },
+		{ townHallLevel: 5, availableCount: 1, maxLevel: 7 },
+		{ townHallLevel: 6, availableCount: 1, maxLevel: 8 },
+		{ townHallLevel: 7, availableCount: 1, maxLevel: 9 },
+		{ townHallLevel: 8, availableCount: 1, maxLevel: 10 },
+		{ townHallLevel: 9, availableCount: 1, maxLevel: 11 },
+		{ townHallLevel: 10, availableCount: 1, maxLevel: 12 },
+		{ townHallLevel: 11, availableCount: 1, maxLevel: 13 },
+		{ townHallLevel: 12, availableCount: 1, maxLevel: 14 },
+		{ townHallLevel: 13, availableCount: 1, maxLevel: 15 },
+		{ townHallLevel: 14, availableCount: 1, maxLevel: 16 },
+		{ townHallLevel: 15, availableCount: 1, maxLevel: 17 },
+		{ townHallLevel: 16, availableCount: 1, maxLevel: 17 },
 	],
 	achievement: {
 		name: 'Discover New Troops',

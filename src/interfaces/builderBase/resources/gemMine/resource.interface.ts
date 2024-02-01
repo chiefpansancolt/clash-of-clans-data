@@ -1,4 +1,4 @@
-import BaseResource from '@ICommon/resources/resource.interface'
+import BaseResource from '@IBuilderBase/resources/resource.interface'
 import Level from '@IBuilderBase/resources/gemMine/level.interface'
 
 interface Resource extends BaseResource {
