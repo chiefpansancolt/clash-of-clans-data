@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Trap from '@IClanCapital/traps/spearTrap/trap.interface'
-import Level from '@IClanCapital/traps/spearTrap/level.interface'
-import HallDetails from '@IClanCapital/hall/hallDetails.interface'
+import TrapBuilding from '@IClanCapital/traps/spearTrap/trap.interface'
+import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const nameHere: Trap = {
+const building: TrapBuilding = {
 	name: 'Spear Trap',
 	description:
 		'Awaits a group of units to pass by and become the unwilling recipients of a flock of lethally spiky spears."',
@@ -19,9 +18,9 @@ const nameHere: Trap = {
 		maxTriggerRange: 10,
 		favoriteTarget: Constants.any,
 	},
-	clanCapitalDetails: [
+	districtHallDetails: [
 		{
-			name: Constants.capitalHall,
+			name: Constants.capitalPeak,
 			levels: [],
 		},
 		{
@@ -55,10 +54,10 @@ const nameHere: Trap = {
 		{
 			name: Constants.goblinMines,
 			levels: [
-				{ hallLevel: 1, availableCount: 3, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 5, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 6, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 3, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 5, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 6, maxLevel: 4 },
 			],
 		},
 	],
@@ -104,29 +103,10 @@ const nameHere: Trap = {
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b8/Spear_Trap4.png/revision/latest?cb=20231212023938',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getHallLevel(name: string, level: number): HallDetails | undefined {
-		const hallDetails = this.clanCapitalDetails.find(
-			(detail: { name: string }) => detail.name === name
-		)
-
-		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {
-			return hallDetails.levels[level - 1]
-		} else {
-			console.error(`Invalid Capital Hall level or name: ${level} or ${name}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getDistrictHallLevel: (name: string, level: number) =>
+		getDistrictHallLevel(building.districtHallDetails, name, level),
 }
 
-export default nameHere
+export default building

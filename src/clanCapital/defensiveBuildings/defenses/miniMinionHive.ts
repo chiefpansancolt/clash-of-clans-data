@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IClanCapital/defenses/miniMinionHive/defense.interface'
-import Level from '@IClanCapital/defenses/level.interface'
-import HallDetails from '@IClanCapital/hall/hallDetails.interface'
+import DefenseBuilding from '@IClanCapital/defenses/miniMinionHive/defense.interface'
+import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const miniMinionHive: Defense = {
+const building: DefenseBuilding = {
 	name: 'Mini-Minion Hive',
 	description:
 		'Built over an underground hive, this defense opens to release a swarm of extremely territorial and extremely dangerous Mini-Minions to take down any attacker.',
@@ -13,7 +12,6 @@ const miniMinionHive: Defense = {
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/7/72/Mini-Minion_Hive_Ruin.png/revision/latest/scale-to-width-down/100?cb=20221213031340',
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 0,
@@ -21,9 +19,9 @@ const miniMinionHive: Defense = {
 		miniMinionsPerBurst: 12,
 		attackSpeed: 1.5,
 	},
-	clanCapitalDetails: [
+	districtHallDetails: [
 		{
-			name: Constants.capitalHall,
+			name: Constants.capitalPeak,
 			levels: [],
 		},
 		{
@@ -53,19 +51,19 @@ const miniMinionHive: Defense = {
 		{
 			name: Constants.skeletonPark,
 			levels: [
-				{ hallLevel: 1, availableCount: 1, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 2, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 2, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 2, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 1, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 2, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 2, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 2, maxLevel: 4 },
 			],
 		},
 		{
 			name: Constants.goblinMines,
 			levels: [
-				{ hallLevel: 1, availableCount: 0, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 0, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 1, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 1, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 0, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 0, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 1, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 1, maxLevel: 4 },
 			],
 		},
 	],
@@ -119,29 +117,10 @@ const miniMinionHive: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a4/Mini-Minion_Hive4.png/revision/latest/scale-to-width-down/100?cb=20221213031534',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getHallLevel(name: string, level: number): HallDetails | undefined {
-		const hallDetails = this.clanCapitalDetails.find(
-			(detail: { name: string }) => detail.name === name
-		)
-
-		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {
-			return hallDetails.levels[level - 1]
-		} else {
-			console.error(`Invalid Capital Hall level or name: ${level} or ${name}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getDistrictHallLevel: (name: string, level: number) =>
+		getDistrictHallLevel(building.districtHallDetails, name, level),
 }
 
-export default miniMinionHive
+export default building

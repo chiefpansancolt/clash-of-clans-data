@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Trap from '@IClanCapital/traps/mine/trap.interface'
-import Level from '@IClanCapital/traps/mine/level.interface'
-import HallDetails from '@IClanCapital/hall/hallDetails.interface'
+import TrapBuilding from '@IClanCapital/traps/mine/trap.interface'
+import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const mine: Trap = {
+const building: TrapBuilding = {
 	name: 'Mine',
 	description: 'Plan an explosive surprise for troops that get too close. Choose air or ground!',
 	width: 2,
@@ -19,98 +18,98 @@ const mine: Trap = {
 		damageRadius: 3,
 		favoriteTarget: Constants.any,
 	},
-	clanCapitalDetails: [
+	districtHallDetails: [
 		{
-			name: Constants.capitalHall,
+			name: Constants.capitalPeak,
 			levels: [
-				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 6, maxLevel: 2 },
-				{ hallLevel: 4, availableCount: 8, maxLevel: 3 },
-				{ hallLevel: 5, availableCount: 8, maxLevel: 3 },
-				{ hallLevel: 6, availableCount: 8, maxLevel: 4 },
-				{ hallLevel: 7, availableCount: 8, maxLevel: 4 },
-				{ hallLevel: 8, availableCount: 8, maxLevel: 4 },
-				{ hallLevel: 9, availableCount: 8, maxLevel: 5 },
-				{ hallLevel: 10, availableCount: 8, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 6, maxLevel: 2 },
+				{ districtHallLevel: 4, availableCount: 8, maxLevel: 3 },
+				{ districtHallLevel: 5, availableCount: 8, maxLevel: 3 },
+				{ districtHallLevel: 6, availableCount: 8, maxLevel: 4 },
+				{ districtHallLevel: 7, availableCount: 8, maxLevel: 4 },
+				{ districtHallLevel: 8, availableCount: 8, maxLevel: 4 },
+				{ districtHallLevel: 9, availableCount: 8, maxLevel: 5 },
+				{ districtHallLevel: 10, availableCount: 8, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.barbarianCamp,
 			levels: [
-				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 6, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 7, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 8, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 6, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 7, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 8, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.wizardValley,
 			levels: [
-				{ hallLevel: 1, availableCount: 4, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 5, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 6, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 6, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 4, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 5, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 6, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 6, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.ballonLagoon,
 			levels: [
-				{ hallLevel: 1, availableCount: 6, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 8, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 9, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 10, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 10, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 6, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 8, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 9, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 10, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 10, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.builderWorkshop,
 			levels: [
-				{ hallLevel: 1, availableCount: 5, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 6, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 7, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 7, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 7, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 5, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 6, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 7, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 7, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 7, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.dragonCliffs,
 			levels: [
-				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 5, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 6, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 7, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 5, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 6, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 7, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.golemQuarry,
 			levels: [
-				{ hallLevel: 1, availableCount: 3, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 5, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 6, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 7, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 3, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 5, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 6, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 7, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.skeletonPark,
 			levels: [
-				{ hallLevel: 1, availableCount: 7, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 8, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 9, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 9, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 7, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 8, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 9, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 9, maxLevel: 4 },
 			],
 		},
 		{
 			name: Constants.goblinMines,
 			levels: [
-				{ hallLevel: 1, availableCount: 3, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 3, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 3, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 4, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 3, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 3, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 3, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 4, maxLevel: 4 },
 			],
 		},
 	],
@@ -176,29 +175,10 @@ const mine: Trap = {
 				'https://static.wikia.nocookie.net/clashofclans/images/2/26/Mine5_Air.png/revision/latest/scale-to-width-down/80?cb=20171130171510',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getHallLevel(name: string, level: number): HallDetails | undefined {
-		const hallDetails = this.clanCapitalDetails.find(
-			(detail: { name: string }) => detail.name === name
-		)
-
-		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {
-			return hallDetails.levels[level - 1]
-		} else {
-			console.error(`Invalid Capital Hall level or name: ${level} or ${name}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getDistrictHallLevel: (name: string, level: number) =>
+		getDistrictHallLevel(building.districtHallDetails, name, level),
 }
 
-export default mine
+export default building

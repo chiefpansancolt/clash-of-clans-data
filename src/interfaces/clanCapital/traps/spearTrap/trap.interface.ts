@@ -1,15 +1,15 @@
 import Level from '@IClanCapital/traps/spearTrap/level.interface'
 import Trap from '@ICommon/traps/trap.interface'
-import ClanCapitalDetails from '@IClanCapital/hall/details.interface'
+import DistrictHallDetails from '@IClanCapital/hall/details.interface'
 import Details from '@IClanCapital/hall/hallDetails.interface'
 
 interface ClanCapitalTrap extends Trap {
 	ruinImgUrl: string
 	levels: Level[]
-	clanCapitalDetails: ClanCapitalDetails[]
+	districtHallDetails: DistrictHallDetails[]
 
 	getLevel(level: number): Level | undefined
-	getHallLevel(name: string, level: number): Details | undefined
+	getDistrictHallLevel(name: string, level: number): Details | undefined
 }
 
 export default ClanCapitalTrap

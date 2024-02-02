@@ -1,8 +1,8 @@
 import * as Constants from '@/constants'
-import Level from '@IClanCapital/capitalHall/level.interface'
-import CapitalHall from '@IClanCapital/capitalHall/capitalHall.interface'
+import CapitalHallBuilding from '@IClanCapital/capitalHall/capitalHall.interface'
+import { getLevel, getSize } from '@Utils/buildings.utility'
 
-const capitalHall: CapitalHall = {
+const building: CapitalHallBuilding = {
 	name: 'Capital Hall',
 	description:
 		'The heart of the Capital! Upgrade to unlock new Districts and additional building upgrades in Capital Peak.',
@@ -10,7 +10,6 @@ const capitalHall: CapitalHall = {
 	height: 6,
 	maxLevel: 10,
 	mode: {
-		name: Constants.mainMode,
 		minRange: 0,
 		maxRange: 15,
 		attackSpeed: 8,
@@ -168,17 +167,8 @@ const capitalHall: CapitalHall = {
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1b/Capital_Hall10_Active.png/revision/latest/scale-to-width-down/120?cb=20221125041307',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
 }
 
-export default capitalHall
+export default building

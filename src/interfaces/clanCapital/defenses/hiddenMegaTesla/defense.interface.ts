@@ -4,7 +4,7 @@ import Mode from '@IClanCapital/defenses/hiddenMegaTesla/mode.interface'
 
 interface Defense extends ClanCapitalDefense {
 	levels: Level[]
-	mode: Mode | Mode[]
+	mode?: Mode | Mode[]
 
 	getLevel(level: number): Level | undefined
 }

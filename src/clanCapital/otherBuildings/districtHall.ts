@@ -1,9 +1,9 @@
 import * as Constants from '@/constants'
-import DistrictHall from '@IClanCapital/districtHall/districtHall.interface'
-import Level from '@ICommon/level.interface'
+import DistrictHallBuilding from '@IClanCapital/districtHall/districtHall.interface'
 import DetailLevel from '@IClanCapital/districtHall/detailLevel.interface'
+import { getLevel, getSize } from '@Utils/buildings.utility'
 
-const districtHall: DistrictHall = {
+const building: DistrictHallBuilding = {
 	name: 'District Hall',
 	description:
 		'Villagers and the Grand Builder take care of this district from here. Upgrade to unlock additional building upgrades in this district.',
@@ -132,17 +132,8 @@ const districtHall: DistrictHall = {
 				'https://static.wikia.nocookie.net/clashofclans/images/3/32/District_Hall5.png/revision/latest/scale-to-width-down/120?cb=20221125092032',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
 	getDistrictHallLevel(name: string, level: number): DetailLevel | undefined {
 		const hallDetails = this.districtHallDetails.find(
 			(detail: { name: string }) => detail.name === name
@@ -157,4 +148,4 @@ const districtHall: DistrictHall = {
 	},
 }
 
-export default districtHall
+export default building

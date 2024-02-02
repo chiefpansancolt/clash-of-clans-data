@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IClanCapital/defenses/infernoTower/defense.interface'
-import Level from '@IClanCapital/defenses/infernoTower/level.interface'
-import HallDetails from '@IClanCapital/hall/hallDetails.interface'
+import DefenseBuilding from '@IClanCapital/defenses/infernoTower/defense.interface'
+import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const infernoTower: Defense = {
+const building: DefenseBuilding = {
 	name: 'Inferno Tower',
 	description:
 		'Bane of all big troops, the Inferno Tower can deal devastating damage to units it stays focused on.',
@@ -13,27 +12,26 @@ const infernoTower: Defense = {
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/c/c0/Inferno_Tower_Ruin.png/revision/latest/scale-to-width-down/100?cb=20220507090709',
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 0,
 		maxRange: 9,
 		attackSpeed: 0.128,
 	},
-	clanCapitalDetails: [
+	districtHallDetails: [
 		{
-			name: Constants.capitalHall,
+			name: Constants.capitalPeak,
 			levels: [
-				{ hallLevel: 1, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 2, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 3, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 4, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 5, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 6, availableCount: 1, maxLevel: 1 },
-				{ hallLevel: 7, availableCount: 1, maxLevel: 2 },
-				{ hallLevel: 8, availableCount: 1, maxLevel: 3 },
-				{ hallLevel: 9, availableCount: 2, maxLevel: 4 },
-				{ hallLevel: 10, availableCount: 2, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 2, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 3, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 4, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 5, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 6, availableCount: 1, maxLevel: 1 },
+				{ districtHallLevel: 7, availableCount: 1, maxLevel: 2 },
+				{ districtHallLevel: 8, availableCount: 1, maxLevel: 3 },
+				{ districtHallLevel: 9, availableCount: 2, maxLevel: 4 },
+				{ districtHallLevel: 10, availableCount: 2, maxLevel: 5 },
 			],
 		},
 		{
@@ -43,21 +41,21 @@ const infernoTower: Defense = {
 		{
 			name: Constants.wizardValley,
 			levels: [
-				{ hallLevel: 1, availableCount: 0, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 0, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 2, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 2, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 3, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 0, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 0, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 2, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 2, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 3, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.ballonLagoon,
 			levels: [
-				{ hallLevel: 1, availableCount: 0, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 0, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 2, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 2, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 2, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 0, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 0, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 2, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 2, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 2, maxLevel: 5 },
 			],
 		},
 		{
@@ -67,11 +65,11 @@ const infernoTower: Defense = {
 		{
 			name: Constants.dragonCliffs,
 			levels: [
-				{ hallLevel: 1, availableCount: 1, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 2, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 2, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 2, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 2, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 1, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 2, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 2, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 2, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 2, maxLevel: 5 },
 			],
 		},
 		{
@@ -85,10 +83,10 @@ const infernoTower: Defense = {
 		{
 			name: Constants.goblinMines,
 			levels: [
-				{ hallLevel: 1, availableCount: 0, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 0, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 1, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 1, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 0, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 0, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 1, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 1, maxLevel: 4 },
 			],
 		},
 	],
@@ -164,29 +162,10 @@ const infernoTower: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/9/97/Inferno_Tower5C.png/revision/latest/scale-to-width-down/100?cb=20220507090714',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getHallLevel(name: string, level: number): HallDetails | undefined {
-		const hallDetails = this.clanCapitalDetails.find(
-			(detail: { name: string }) => detail.name === name
-		)
-
-		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {
-			return hallDetails.levels[level - 1]
-		} else {
-			console.error(`Invalid Capital Hall level or name: ${level} or ${name}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getDistrictHallLevel: (name: string, level: number) =>
+		getDistrictHallLevel(building.districtHallDetails, name, level),
 }
 
-export default infernoTower
+export default building

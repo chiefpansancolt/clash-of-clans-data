@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Trap from '@IClanCapital/traps/trap.interface'
-import Level from '@IClanCapital/traps/level.interface'
-import HallDetails from '@IClanCapital/hall/hallDetails.interface'
+import TrapBuilding from '@IClanCapital/traps/trap.interface'
+import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const zapTrap: Trap = {
+const building: TrapBuilding = {
 	name: 'Zap Trap',
 	description: "Passing troops are very shocked when there's a Zap Trap nearby.",
 	width: 1,
@@ -18,20 +17,20 @@ const zapTrap: Trap = {
 		maxTriggerRange: 5,
 		favoriteTarget: Constants.none,
 	},
-	clanCapitalDetails: [
+	districtHallDetails: [
 		{
-			name: Constants.capitalHall,
+			name: Constants.capitalPeak,
 			levels: [
-				{ hallLevel: 1, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 2, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 3, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 4, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 5, availableCount: 1, maxLevel: 2 },
-				{ hallLevel: 6, availableCount: 2, maxLevel: 3 },
-				{ hallLevel: 7, availableCount: 3, maxLevel: 3 },
-				{ hallLevel: 8, availableCount: 4, maxLevel: 4 },
-				{ hallLevel: 9, availableCount: 5, maxLevel: 4 },
-				{ hallLevel: 10, availableCount: 5, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 2, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 3, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 4, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 5, availableCount: 1, maxLevel: 2 },
+				{ districtHallLevel: 6, availableCount: 2, maxLevel: 3 },
+				{ districtHallLevel: 7, availableCount: 3, maxLevel: 3 },
+				{ districtHallLevel: 8, availableCount: 4, maxLevel: 4 },
+				{ districtHallLevel: 9, availableCount: 5, maxLevel: 4 },
+				{ districtHallLevel: 10, availableCount: 5, maxLevel: 5 },
 			],
 		},
 		{
@@ -49,49 +48,49 @@ const zapTrap: Trap = {
 		{
 			name: Constants.builderWorkshop,
 			levels: [
-				{ hallLevel: 1, availableCount: 4, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 5, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 6, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 6, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 6, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 4, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 5, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 6, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 6, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 6, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.dragonCliffs,
 			levels: [
-				{ hallLevel: 1, availableCount: 3, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 5, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 5, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 5, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 3, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 5, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 5, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 5, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.golemQuarry,
 			levels: [
-				{ hallLevel: 1, availableCount: 3, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 4, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 5, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 6, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 6, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 3, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 4, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 5, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 6, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 6, maxLevel: 5 },
 			],
 		},
 		{
 			name: Constants.skeletonPark,
 			levels: [
-				{ hallLevel: 1, availableCount: 1, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 1, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 3, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 4, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 1, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 1, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 3, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 4, maxLevel: 4 },
 			],
 		},
 		{
 			name: Constants.goblinMines,
 			levels: [
-				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 3, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 4, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 4, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 3, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 4, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 4, maxLevel: 4 },
 			],
 		},
 	],
@@ -147,29 +146,10 @@ const zapTrap: Trap = {
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b0/Zap_Trap5.png/revision/latest/scale-to-width-down/80?cb=20220510205302',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getHallLevel(name: string, level: number): HallDetails | undefined {
-		const hallDetails = this.clanCapitalDetails.find(
-			(detail: { name: string }) => detail.name === name
-		)
-
-		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {
-			return hallDetails.levels[level - 1]
-		} else {
-			console.error(`Invalid Capital Hall level or name: ${level} or ${name}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getDistrictHallLevel: (name: string, level: number) =>
+		getDistrictHallLevel(building.districtHallDetails, name, level),
 }
 
-export default zapTrap
+export default building

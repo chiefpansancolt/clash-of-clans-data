@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IClanCapital/defenses/defense.interface'
-import Level from '@IClanCapital/defenses/level.interface'
-import HallDetails from '@IClanCapital/hall/hallDetails.interface'
+import DefenseBuilding from '@IClanCapital/defenses/defense.interface'
+import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const reflector: Defense = {
+const building: DefenseBuilding = {
 	name: 'Reflector',
 	description:
 		"Nobody would expect a whirling contraption of shields to reflect any attack back at the attacker... But that's exactly what the Reflector does.",
@@ -13,16 +12,15 @@ const reflector: Defense = {
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/8/81/Reflector_Ruin.png/revision/latest/scale-to-width-down/130?cb=20221212223837',
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 0,
 		maxRange: 10,
 		attackSpeed: 0.575,
 	},
-	clanCapitalDetails: [
+	districtHallDetails: [
 		{
-			name: Constants.capitalHall,
+			name: Constants.capitalPeak,
 			levels: [],
 		},
 		{
@@ -52,19 +50,19 @@ const reflector: Defense = {
 		{
 			name: Constants.skeletonPark,
 			levels: [
-				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 3, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 5, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 6, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 3, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 5, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 6, maxLevel: 4 },
 			],
 		},
 		{
 			name: Constants.goblinMines,
 			levels: [
-				{ hallLevel: 1, availableCount: 0, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 1, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 2, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 4, maxLevel: 4 },
+				{ districtHallLevel: 1, availableCount: 0, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 1, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 2, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 4, maxLevel: 4 },
 			],
 		},
 	],
@@ -118,29 +116,10 @@ const reflector: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/2/26/Reflector4.png/revision/latest/scale-to-width-down/90?cb=20221212223911',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getHallLevel(name: string, level: number): HallDetails | undefined {
-		const hallDetails = this.clanCapitalDetails.find(
-			(detail: { name: string }) => detail.name === name
-		)
-
-		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {
-			return hallDetails.levels[level - 1]
-		} else {
-			console.error(`Invalid Capital Hall level or name: ${level} or ${name}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getDistrictHallLevel: (name: string, level: number) =>
+		getDistrictHallLevel(building.districtHallDetails, name, level),
 }
 
-export default reflector
+export default building

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IClanCapital/defenses/raidCartPost/defense.interface'
-import Level from '@IClanCapital/defenses/raidCartPost/level.interface'
-import HallDetails from '@IClanCapital/hall/hallDetails.interface'
+import DefenseBuilding from '@IClanCapital/defenses/raidCartPost/defense.interface'
+import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const raidCartPost: Defense = {
+const building: DefenseBuilding = {
 	name: 'Raid Cart Post',
 	description: 'If a Raid Cart could feel happy, blasting at attackers would make it happy',
 	width: 3,
@@ -11,27 +10,26 @@ const raidCartPost: Defense = {
 	maxLevel: 5,
 	ruinImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/8/86/Guard_Post_Ruin.png/revision/latest/scale-to-width-down/100?cb=20231217070455',
-	mode: [],
 	troops: [
 		{
 			name: 'Seige Cart',
 			availableCount: 1,
 		},
 	],
-	clanCapitalDetails: [
+	districtHallDetails: [
 		{
-			name: Constants.capitalHall,
+			name: Constants.capitalPeak,
 			levels: [
-				{ hallLevel: 1, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 2, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 3, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 4, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 5, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 6, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 7, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 8, availableCount: 0, maxLevel: 0 },
-				{ hallLevel: 9, availableCount: 1, maxLevel: 4 },
-				{ hallLevel: 10, availableCount: 1, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 2, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 3, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 4, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 5, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 6, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 7, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 8, availableCount: 0, maxLevel: 0 },
+				{ districtHallLevel: 9, availableCount: 1, maxLevel: 4 },
+				{ districtHallLevel: 10, availableCount: 1, maxLevel: 5 },
 			],
 		},
 		{
@@ -41,11 +39,11 @@ const raidCartPost: Defense = {
 		{
 			name: Constants.wizardValley,
 			levels: [
-				{ hallLevel: 1, availableCount: 2, maxLevel: 1 },
-				{ hallLevel: 2, availableCount: 2, maxLevel: 2 },
-				{ hallLevel: 3, availableCount: 2, maxLevel: 3 },
-				{ hallLevel: 4, availableCount: 2, maxLevel: 4 },
-				{ hallLevel: 5, availableCount: 3, maxLevel: 5 },
+				{ districtHallLevel: 1, availableCount: 2, maxLevel: 1 },
+				{ districtHallLevel: 2, availableCount: 2, maxLevel: 2 },
+				{ districtHallLevel: 3, availableCount: 2, maxLevel: 3 },
+				{ districtHallLevel: 4, availableCount: 2, maxLevel: 4 },
+				{ districtHallLevel: 5, availableCount: 3, maxLevel: 5 },
 			],
 		},
 		{
@@ -130,29 +128,10 @@ const raidCartPost: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/f/ff/Raid_Cart_Post5.png/revision/latest/scale-to-width-down/100?cb=20231217050827',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getHallLevel(name: string, level: number): HallDetails | undefined {
-		const hallDetails = this.clanCapitalDetails.find(
-			(detail: { name: string }) => detail.name === name
-		)
-
-		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {
-			return hallDetails.levels[level - 1]
-		} else {
-			console.error(`Invalid Capital Hall level or name: ${level} or ${name}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getDistrictHallLevel: (name: string, level: number) =>
+		getDistrictHallLevel(building.districtHallDetails, name, level),
 }
 
-export default raidCartPost
+export default building
