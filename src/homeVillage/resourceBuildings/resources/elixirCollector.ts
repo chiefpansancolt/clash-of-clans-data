@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Resource from '@IHomeVillage/resources/goldMine/resource.interface'
-import Level from '@IHomeVillage/resources/goldMine/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ResourceBuilding from '@IHomeVillage/resources/goldMine/resource.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const elixirCollector: Resource = {
+const building: ResourceBuilding = {
 	name: 'Elixir Collector',
 	description:
 		'Elixir is pumped from the Ley Lines coursing underneath your village. Upgrade your Elixir Collectors to maximize elixir production.',
@@ -29,7 +28,6 @@ const elixirCollector: Resource = {
 		{ townHallLevel: 15, availableCount: 7, maxLevel: 15 },
 		{ townHallLevel: 16, availableCount: 7, maxLevel: 15 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -347,25 +345,10 @@ const elixirCollector: Resource = {
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7f/Elixir_Collector15.png/revision/latest/scale-to-width-down/100?cb=20211209201554',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default elixirCollector
+export default building

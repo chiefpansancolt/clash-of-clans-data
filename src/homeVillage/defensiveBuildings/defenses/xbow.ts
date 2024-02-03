@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/xbow/defense.interface'
-import Level from '@IHomeVillage/defenses/xbow/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/xbow/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const xBow: Defense = {
+const building: DefenseBuilding = {
 	name: 'X-Bow',
 	description:
 		'The X-Bow shoots mystical bolts with terrifying power. Load it with Elixir and the X-Bow works automagically. You can set it to target ground units at long ranges, or all targets at reduced range.',
@@ -320,25 +319,10 @@ const xBow: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/1/19/X-Bow11_Air_Depleted.png/revision/latest/scale-to-width-down/90?cb=20231213084600',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default xBow
+export default building

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Wall from '@IHomeVillage/wall/wall.interface'
-import Level from '@IHomeVillage/wall/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import WallBuilding from '@IHomeVillage/wall/wall.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const wall: Wall = {
+const building: WallBuilding = {
 	name: 'Walls',
 	description:
 		'Walls are great for keeping your village safe and your enemies in the line of fire.',
@@ -262,25 +261,10 @@ const wall: Wall = {
 				'https://static.wikia.nocookie.net/clashofclans/images/6/6c/Wall17.png/revision/latest/scale-to-width-down/52?cb=20231211074305',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default wall
+export default building

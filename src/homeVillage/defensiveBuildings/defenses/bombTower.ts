@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/bombTower/defense.interface'
-import Level from '@IHomeVillage/defenses/bombTower/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/bombTower/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const bombTower: Defense = {
+const building: DefenseBuilding = {
 	name: 'Bomb Tower',
 	description:
 		'Bomb Towers bombard nearby ground troops and go up in a big BOOM when destroyed! Melee units best stand clear!',
@@ -12,7 +11,6 @@ const bombTower: Defense = {
 	height: 3,
 	maxLevel: 11,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.splash,
 		unitTypeTarget: Constants.ground,
 		minRange: 0,
@@ -38,7 +36,6 @@ const bombTower: Defense = {
 		{ townHallLevel: 15, availableCount: 2, maxLevel: 10 },
 		{ townHallLevel: 16, availableCount: 2, maxLevel: 11 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -228,25 +225,10 @@ const bombTower: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/7/70/Bomb_Tower11.png/revision/latest/scale-to-width-down/100?cb=20231213084415',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default bombTower
+export default building

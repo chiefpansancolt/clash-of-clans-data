@@ -13,7 +13,7 @@ interface Level extends TownHallLevel {
 	buildTimeDay: number
 	exp: number
 	townHallLevelRequired: number
-	mode: Mode | null
+	mode?: Mode | null
 	subLevels: SubLevel[]
 }
 

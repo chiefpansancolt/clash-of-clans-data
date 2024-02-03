@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/alter/army.interface'
-import Level from '@IHomeVillage/army/alter/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/alter/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const barbarianKingAlter: Building = {
+const building: ArmyBuilding = {
 	name: 'Barbarian King Alter',
 	description:
 		'This colossal menace soaks up huge amounts of damage and bashes everything in his path. He guards his territory fiercely when defending, and can launch into a devastating rage when attacking once his Iron Fist ability is unlocked!',
@@ -29,7 +28,6 @@ const barbarianKingAlter: Building = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 1 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 1 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -47,25 +45,10 @@ const barbarianKingAlter: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/8/86/BarbarianKing_Altar.png/revision/latest?cb=20171206125643',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default barbarianKingAlter
+export default building

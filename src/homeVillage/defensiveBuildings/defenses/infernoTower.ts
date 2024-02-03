@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/infernoTower/defense.interface'
-import Level from '@IHomeVillage/defenses/infernoTower/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/infernoTower/defense.interface'
+import { getHallLevel, getModeLevel, getSize } from '@Utils/buildings.utility'
 
-const infernoTower: Defense = {
+const building: DefenseBuilding = {
 	name: 'Inferno Tower',
 	description:
 		"Set the Inferno Tower's Dark Elixir fueled flame to build up unbelievable damage to single targets, or to constantly roast multiple targets at once.",
@@ -504,27 +503,10 @@ const infernoTower: Defense = {
 			],
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(name: string, level: number): Level | undefined {
-		const mode = this.levels.find((detail: { name: string }) => detail.name === name)
-
-		if (mode && level >= 1 && level <= mode.levels.length) {
-			return mode.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (name: string, level: number) => getModeLevel(building.levels, name, level),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default infernoTower
+export default building

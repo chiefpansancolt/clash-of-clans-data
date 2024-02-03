@@ -7,7 +7,7 @@ interface HomeVillagePushDefense extends Defense {
 	maxCount: number
 	levels: Level[]
 	townHallDetails: TownHallDefense[]
-	achievement: Achievement | Achievement[]
+	achievement?: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
 	getTownHallLevel(level: number): TownHallDefense | undefined

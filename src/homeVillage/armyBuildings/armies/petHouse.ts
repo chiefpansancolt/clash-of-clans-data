@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/petHouse/army.interface'
-import Level from '@IHomeVillage/army/petHouse/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/petHouse/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const petHouse: Building = {
+const building: ArmyBuilding = {
 	name: 'Pet House',
 	description:
 		'Every hero deserves a loyal companion. The Pet House allows you to unlock powerful Pets with various abilities to fight alongside your heroes.',
@@ -29,7 +28,6 @@ const petHouse: Building = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 8 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 9 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -167,25 +165,10 @@ const petHouse: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/6/6e/Pet_House9.png/revision/latest/scale-to-width-down/100?cb=20231213083040',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default petHouse
+export default building

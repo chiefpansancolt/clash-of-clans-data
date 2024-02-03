@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/builderHut/defense.interface'
-import Level from '@IHomeVillage/defenses/builderHut/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/builderHut/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const builderHut: Defense = {
+const building: DefenseBuilding = {
 	name: "Builder's Hut",
 	description:
 		'Nothing gets done around here without Builders! You can hire more Builders to start multiple construction projects, or speed up their work by using green gems.',
@@ -233,25 +232,10 @@ const builderHut: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/0/04/Builders_Hut5_Active.png/revision/latest/scale-to-width-down/100?cb=20230613001515',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default builderHut
+export default building

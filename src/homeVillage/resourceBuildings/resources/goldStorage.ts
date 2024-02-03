@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Resource from '@IHomeVillage/resources/resource.interface'
-import Level from '@ICommon/resources/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ResourceBuilding from '@IHomeVillage/resources/resource.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const goldStorage: Resource = {
+const building: ResourceBuilding = {
 	name: 'Gold Storage',
 	description:
 		"All your precious gold is stored here. Don't let sneaky goblins anywhere near! Upgrade the storage to increase its capacity and durability against attack.",
@@ -313,25 +312,10 @@ const goldStorage: Resource = {
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7c/Gold_Storage17.png/revision/latest/scale-to-width-down/100?cb=20231213084853',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default goldStorage
+export default building

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/spellTower/defense.interface'
-import Level from '@IHomeVillage/defenses/spellTower/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/spellTower/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const spellTower: Defense = {
+const building: DefenseBuilding = {
 	name: 'Spell Tower',
 	description:
 		"For years, Wizards alone brought magic to the battlefield one fireball at a time. Now they've developed a fully automated way to give your village more ways to mess up attackers with magic!",
@@ -18,16 +17,12 @@ const spellTower: Defense = {
 			unitTypeTarget: Constants.groundAndAir,
 			minRange: 0,
 			maxRange: 9,
-			attackSpeed: 0,
 			spellRadius: 5,
 			spellDurationInSec: 18,
 			damageIncrease: 60,
 			rechargeTimeInSec: 70,
 			trigger: Constants.targetInRange,
 			deployPosition: Constants.spellTower,
-			maxDamagePerSecond: 0,
-			speedIncrease: 0,
-			attackRateDecrease: 0,
 		},
 		{
 			name: 'Poison Spell Tower',
@@ -35,10 +30,8 @@ const spellTower: Defense = {
 			unitTypeTarget: Constants.groundAndAir,
 			minRange: 0,
 			maxRange: 9,
-			attackSpeed: 0,
 			spellRadius: 5,
 			spellDurationInSec: 12,
-			damageIncrease: 0,
 			rechargeTimeInSec: 70,
 			trigger: Constants.targetInRange,
 			deployPosition: Constants.target,
@@ -52,16 +45,11 @@ const spellTower: Defense = {
 			unitTypeTarget: Constants.groundAndAir,
 			minRange: 0,
 			maxRange: 4.5,
-			attackSpeed: 0,
 			spellRadius: 4.5,
 			spellDurationInSec: 4.5,
-			damageIncrease: 0,
 			rechargeTimeInSec: 50,
 			trigger: Constants.buildingInRange,
 			deployPosition: Constants.spellTower,
-			maxDamagePerSecond: 0,
-			speedIncrease: 0,
-			attackRateDecrease: 0,
 		},
 	],
 	townHallDetails: [
@@ -171,25 +159,10 @@ const spellTower: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/f/f0/Spell_Tower3_Invisibility.png/revision/latest/scale-to-width-down/100?cb=20221120080246',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default spellTower
+export default building

@@ -4,7 +4,7 @@ import Level from '@IHomeVillage/defenses/bombTower/level.interface'
 
 interface Defense extends HomeVillageDefense {
 	levels: Level[]
-	mode: Mode | Mode[]
+	mode?: Mode | Mode[]
 
 	getLevel(level: number): Level | undefined
 }

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/scattershots/defense.interface'
-import Level from '@IHomeVillage/defenses/scattershots/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/scattershots/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const scattershot: Defense = {
+const building: DefenseBuilding = {
 	name: 'Scattershot',
 	description:
 		'The Scattershot heaves very heavy bundles of poorly tied together rocks at whoever happens to be closest. The bundles break apart on impact and deal additional damage to the troops behind.',
@@ -12,7 +11,6 @@ const scattershot: Defense = {
 	height: 3,
 	maxLevel: 4,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.areaSplash,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 3,
@@ -151,25 +149,10 @@ const scattershot: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/0/08/Scattershot4_Depleted.png/revision/latest/scale-to-width-down/120?cb=20230613001158',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default scattershot
+export default building

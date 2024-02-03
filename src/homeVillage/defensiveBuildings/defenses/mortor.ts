@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/mortor/defense.interface'
-import Level from '@IHomeVillage/defenses/mortor/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/mortor/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const mortor: Defense = {
+const building: DefenseBuilding = {
 	name: 'Mortor',
 	description:
 		"The Mortar can mow down hordes of enemies by the splash damage from its shell. Don't let enemies get too close to it!",
@@ -21,7 +20,6 @@ const mortor: Defense = {
 		builderBaseDefenseLevelRequired: 8,
 	},
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.splash,
 		unitTypeTarget: Constants.ground,
 		minRange: 4,
@@ -411,25 +409,10 @@ const mortor: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/b/ba/Mortar16G.png/revision/latest/scale-to-width-down/100?cb=20231213083525',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default mortor
+export default building

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/army.interface'
-import Level from '@IHomeVillage/army/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const laboratory: Building = {
+const building: ArmyBuilding = {
 	name: 'Laboratory',
 	description:
 		'What dark secrets do these Wizards hide inside their Laboratory? Nobody has dared to look. All we know is that their research makes our spells and troops harder, better, faster and stronger!',
@@ -29,7 +28,6 @@ const laboratory: Building = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 13 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 14 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -228,25 +226,10 @@ const laboratory: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/9/9b/Laboratory14.png/revision/latest/scale-to-width-down/100?cb=20231213083349',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default laboratory
+export default building

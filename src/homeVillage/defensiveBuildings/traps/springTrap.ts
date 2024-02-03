@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Trap from '@IHomeVillage/traps/springTrap/trap.interface'
-import Level from '@IHomeVillage/traps/springTrap/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import TrapBuildingfrom '@IHomeVillage/traps/springTrap/trap.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const springTrap: Trap = {
+const building: TrapBuilding = {
 	name: 'Spring Trap',
 	description: 'This bouncy little number will toss unwanted visitors right off your property!',
 	maxCount: 9,
@@ -117,25 +116,10 @@ const springTrap: Trap = {
 				'https://static.wikia.nocookie.net/clashofclans/images/2/28/Spring_Trap3_unarmed.png/revision/latest?cb=20221218092334',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default springTrap
+export default building

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Trap from '@IHomeVillage/traps/tornadoTrap/trap.interface'
-import Level from '@IHomeVillage/traps/tornadoTrap/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import TrapBuildingfrom '@IHomeVillage/traps/tornadoTrap/trap.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const tornadoTrap: Trap = {
+const building: TrapBuilding = {
 	name: 'Tornado Trap',
 	description:
 		'Wind and stones may break some bones, but this trap will definitely confound you. Just place one of these traps down and the released vortex will draw the enemy troops in, hindering their progress.',
@@ -91,25 +90,10 @@ const tornadoTrap: Trap = {
 				'https://static.wikia.nocookie.net/clashofclans/images/a/ab/Tornado_Trap_Unarmed.png/revision/latest?cb=20200829091018',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default tornadoTrap
+export default building

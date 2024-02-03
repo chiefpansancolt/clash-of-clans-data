@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/darkBarracks/army.interface'
-import Level from '@IHomeVillage/army/darkBarracks/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/darkBarracks/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const darkBarracks: Building = {
+const building: ArmyBuilding = {
 	name: 'Dark Barracks',
 	description:
 		'The Dark Barracks will open doors for creatures born out of Dark Elixir. Upgrade the barracks to unlock more troops with unique battle skills.',
@@ -29,7 +28,6 @@ const darkBarracks: Building = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 10 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 10 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -182,25 +180,10 @@ const darkBarracks: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c9/Dark_Barracks10.png/revision/latest/scale-to-width-down/110?cb=20230613000755',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default darkBarracks
+export default building

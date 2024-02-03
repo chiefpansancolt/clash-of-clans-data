@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/alter/army.interface'
-import Level from '@IHomeVillage/army/alter/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/alter/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const royalChampionAlter: Building = {
+const building: ArmyBuilding = {
 	name: 'Royal Champion Alter',
 	description:
 		'The Royal Champion is a hardened veteran of many battles, armed with fast reflexes and a fast mind. That is, she often attacks before thinking and gets herself into a pickle.',
@@ -29,7 +28,7 @@ const royalChampionAlter: Building = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 1 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 1 },
 	],
-	achievement: [],
+
 	levels: [
 		{
 			level: 1,
@@ -47,25 +46,10 @@ const royalChampionAlter: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/3/39/RoyalChampion_Altar.png/revision/latest/scale-to-width-down/200?cb=20191211180135',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default royalChampionAlter
+export default building

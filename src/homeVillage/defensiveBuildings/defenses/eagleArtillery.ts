@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/eagleArtillery/defense.interface'
-import Level from '@IHomeVillage/defenses/eagleArtillery/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/eagleArtillery/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const eagleArtillery: Defense = {
+const building: DefenseBuilding = {
 	name: 'Eagle Artillery',
 	description:
 		"The Eagle Artillery has nearly unlimited range and targets tough enemies with exploding shells. However, it won't activate until a large amount of troops have been deployed.",
@@ -12,7 +11,6 @@ const eagleArtillery: Defense = {
 	height: 4,
 	maxLevel: 6,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.splash,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 7,
@@ -198,25 +196,10 @@ const eagleArtillery: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/5/56/Eagle_Artillery6_Unloaded.png/revision/latest/scale-to-width-down/85?cb=20230613000943',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default eagleArtillery
+export default building

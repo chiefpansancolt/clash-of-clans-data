@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/defense.interface'
-import Level from '@IHomeVillage/defenses/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const ricochetCannon: Defense = {
+const building: DefenseBuilding = {
 	name: 'Ricochet Cannon',
 	description:
 		'Builder has used one weird trick to develop a devastating cannonball that will ricochet and hit a second target.',
@@ -12,7 +11,6 @@ const ricochetCannon: Defense = {
 	height: 3,
 	maxLevel: 2,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.ground,
 		minRange: 0,
@@ -37,7 +35,6 @@ const ricochetCannon: Defense = {
 		{ townHallLevel: 15, availableCount: 0, maxLevel: 0 },
 		{ townHallLevel: 16, availableCount: 2, maxLevel: 2 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 0,
@@ -88,25 +85,10 @@ const ricochetCannon: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/2/29/Multi-Archer_Tower2.png/revision/latest/scale-to-width-down/120?cb=20231213213624',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default ricochetCannon
+export default building

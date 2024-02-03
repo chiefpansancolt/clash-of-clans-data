@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/airSweeper/defense.interface'
-import Level from '@IHomeVillage/defenses/airSweeper/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/airSweeper/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const airSweeper: Defense = {
+const building: DefenseBuilding = {
 	name: 'Air Sweeper',
 	description:
 		'Air Sweepers control the sky with strong blasts of air that push back flying enemies. Air Sweepers can only face one direction, so rotate them to maximize their effectiveness.',
@@ -12,7 +11,6 @@ const airSweeper: Defense = {
 	height: 2,
 	maxLevel: 7,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.noneKnockback,
 		unitTypeTarget: Constants.air,
 		minRange: 1,
@@ -37,7 +35,6 @@ const airSweeper: Defense = {
 		{ townHallLevel: 15, availableCount: 2, maxLevel: 7 },
 		{ townHallLevel: 16, availableCount: 2, maxLevel: 7 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -145,25 +142,10 @@ const airSweeper: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/9/9c/Air_Sweeper7.png/revision/latest/scale-to-width-down/100?cb=20180115153257',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default airSweeper
+export default building

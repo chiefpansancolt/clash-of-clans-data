@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/workshop/army.interface'
-import Level from '@IHomeVillage/army/workshop/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/workshop/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const workshop: Building = {
+const building: ArmyBuilding = {
 	name: 'Workshop',
 	description:
 		'The Workshop is where Siege Machines are built. Upgrade the Workshop to unlock different Siege Machines!',
@@ -29,7 +28,6 @@ const workshop: Building = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 7 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 7 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -144,25 +142,10 @@ const workshop: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4c/Workshop7.png/revision/latest/scale-to-width-down/120?cb=20221125080915',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default workshop
+export default building

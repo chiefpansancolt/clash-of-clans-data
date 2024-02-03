@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Trap from '@IHomeVillage/traps/airBomb/trap.interface'
-import Level from '@IHomeVillage/traps/airBomb/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import TrapBuildingfrom '@IHomeVillage/traps/airBomb/trap.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const airBomb: Trap = {
+const building: TrapBuilding = {
 	name: 'Air Bomb',
 	description:
 		'Latest invention in the field of flying pest control. This trap can blast multiple air units in a small area.',
@@ -215,25 +214,10 @@ const airBomb: Trap = {
 				'https://static.wikia.nocookie.net/clashofclans/images/e/ef/Air_Bomb_unarmed.png/revision/latest?cb=20171009072924',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default airBomb
+export default building

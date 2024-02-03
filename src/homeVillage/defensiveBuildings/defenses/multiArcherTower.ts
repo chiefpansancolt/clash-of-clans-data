@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/defense.interface'
-import Level from '@IHomeVillage/defenses/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const multiArcherTower: Defense = {
+const building: DefenseBuilding = {
 	name: 'Multi Archer Tower',
 	description:
 		'These Archers have teamed up to take out attackers faster and more furiously than ever. Teamwork makes the dream work!',
@@ -12,7 +11,6 @@ const multiArcherTower: Defense = {
 	height: 3,
 	maxLevel: 2,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.multipleTargets,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 0,
@@ -37,7 +35,6 @@ const multiArcherTower: Defense = {
 		{ townHallLevel: 15, availableCount: 0, maxLevel: 0 },
 		{ townHallLevel: 16, availableCount: 2, maxLevel: 2 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 0,
@@ -88,25 +85,10 @@ const multiArcherTower: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/2/29/Multi-Archer_Tower2.png/revision/latest/scale-to-width-down/120?cb=20231213213624',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default multiArcherTower
+export default building

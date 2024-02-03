@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/monolith/defense.interface'
-import Level from '@IHomeVillage/defenses/monolith/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/monolith/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const monolith: Defense = {
+const building: DefenseBuilding = {
 	name: 'Monolith',
 	description:
 		"The Builder's first experiment in using Dark Elixir for a building resulted in something truly frightful. The stronger the Monolith's target, the more damage it does. Great to have defending your Village, but a little scary to attack against.",
@@ -12,7 +11,6 @@ const monolith: Defense = {
 	height: 3,
 	maxLevel: 2,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 0,
@@ -100,25 +98,10 @@ const monolith: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/9/95/Monolith2.png/revision/latest/scale-to-width-down/100?cb=20221120072613',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default monolith
+export default building

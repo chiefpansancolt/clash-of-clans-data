@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Resource from '@IHomeVillage/resources/darkElixirDrill/resource.interface'
-import Level from '@IHomeVillage/resources/darkElixirDrill/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ResourceBuilding from '@IHomeVillage/resources/darkElixirDrill/resource.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const darkElixirDrill: Resource = {
+const building: ResourceBuilding = {
 	name: 'Dark Elixir Drill',
 	description:
 		'Our Builders have finally figured a way to extract pure Dark Elixir, the rarest form of the magical substance.',
@@ -29,7 +28,6 @@ const darkElixirDrill: Resource = {
 		{ townHallLevel: 15, availableCount: 3, maxLevel: 12 },
 		{ townHallLevel: 16, availableCount: 3, maxLevel: 12 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -221,25 +219,10 @@ const darkElixirDrill: Resource = {
 				'https://static.wikia.nocookie.net/clashofclans/images/5/58/Dark_Elixir_Drill9.png/revision/latest/scale-to-width-down/100?cb=20211209102821',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default darkElixirDrill
+export default building

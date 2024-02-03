@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/archerTower/defense.interface'
-import Level from '@IHomeVillage/defenses/archerTower/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/archerTower/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const archerTower: Defense = {
+const building: DefenseBuilding = {
 	name: 'Archer Tower',
 	description:
 		'Archer Towers have longer range than Cannons, and unlike Cannons they can attack flying enemies.',
@@ -21,7 +20,6 @@ const archerTower: Defense = {
 		builderBaseDefenseLevelRequired: 6,
 	},
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 0,
@@ -89,8 +87,6 @@ const archerTower: Defense = {
 			townHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/6e/Archer_Tower1.png/revision/latest/scale-to-width-down/100?cb=20221223035901',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 2,
@@ -107,8 +103,6 @@ const archerTower: Defense = {
 			townHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e0/Archer_Tower2.png/revision/latest/scale-to-width-down/100?cb=20221223035914',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 3,
@@ -125,8 +119,6 @@ const archerTower: Defense = {
 			townHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/9e/Archer_Tower3.png/revision/latest/scale-to-width-down/100?cb=20221223035926',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 4,
@@ -143,8 +135,6 @@ const archerTower: Defense = {
 			townHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b8/Archer_Tower4.png/revision/latest/scale-to-width-down/100?cb=20221223035936',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 5,
@@ -161,8 +151,6 @@ const archerTower: Defense = {
 			townHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e8/Archer_Tower5.png/revision/latest/scale-to-width-down/100?cb=20221223035947',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 6,
@@ -179,8 +167,6 @@ const archerTower: Defense = {
 			townHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/70/Archer_Tower6.png/revision/latest/scale-to-width-down/100?cb=20221223035958',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 7,
@@ -197,8 +183,6 @@ const archerTower: Defense = {
 			townHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1f/Archer_Tower7.png/revision/latest/scale-to-width-down/100?cb=20221223040010',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 8,
@@ -215,8 +199,6 @@ const archerTower: Defense = {
 			townHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e2/Archer_Tower8.png/revision/latest/scale-to-width-down/100?cb=20221223040025',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 9,
@@ -233,8 +215,6 @@ const archerTower: Defense = {
 			townHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4a/Archer_Tower9.png/revision/latest/scale-to-width-down/100?cb=20221223040036',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 10,
@@ -477,25 +457,10 @@ const archerTower: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/2/29/Archer_Tower21G.png/revision/latest/scale-to-width-down/100?cb=20221223040437',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default archerTower
+export default building

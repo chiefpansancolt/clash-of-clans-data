@@ -5,7 +5,7 @@ import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface TownHall extends Hall {
 	levels: Level[]
-	achievement: Achievement | Achievement[]
+	achievement?: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
 	getSubLevel(level: number, subLevel: number): SubLevel | undefined

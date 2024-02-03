@@ -1,10 +1,8 @@
 import * as Constants from '@/constants'
-import Resource from '@IHomeVillage/resources/clanCastle/resource.interface'
-import Level from '@IHomeVillage/resources/clanCastle/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
-import TreasuryCapacity from '@IHomeVillage/resources/clanCastle/treasuryCapacity.interface'
+import ResourceBuilding from '@IHomeVillage/resources/clanCastle/resource.interface'
+import { getHallLevel, getTreasuryLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const clanCastle: Resource = {
+const building: ResourceBuilding = {
 	name: 'Clan Castle',
 	description:
 		'The Clan Castle houses your Treasury and any reinforcement troops or spells sent by your clanmates.',
@@ -950,54 +948,12 @@ const clanCastle: Resource = {
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4a/Clan_Castle11.png/revision/latest/scale-to-width-down/110?cb=20221011064716',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
-	getTreasuryLevel(clanLevel: number, townHallLevel: number): TreasuryCapacity | undefined {
-		let effectiveClanLevel = 1
-		if (clanLevel >= 2 && clanLevel <= 3) {
-			effectiveClanLevel = 2
-		} else if (clanLevel >= 4 && clanLevel <= 5) {
-			effectiveClanLevel = 4
-		} else if (clanLevel >= 6 && clanLevel <= 7) {
-			effectiveClanLevel = 6
-		} else if (clanLevel >= 8 && clanLevel <= 9) {
-			effectiveClanLevel = 8
-		} else if (clanLevel >= 10) {
-			effectiveClanLevel = 10
-		}
-
-		const capacityDetail = this.treasuryCapacities.find(
-			(capacity) => capacity.level === effectiveClanLevel
-		)
-
-		const levelDetails = capacityDetail?.capacityLevels.find(
-			(level) => level.townHallLevel === townHallLevel
-		)
-
-		if (levelDetails) {
-			return levelDetails
-		} else {
-			console.error('Treasury capacity details not found for the given levels.')
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
+	getTreasuryLevel: (clanLevel: number, townHallLevel: number) =>
+		getTreasuryLevel(building.treasuryCapacities, clanLevel, townHallLevel),
 }
 
-export default clanCastle
+export default building

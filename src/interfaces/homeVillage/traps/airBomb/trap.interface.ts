@@ -3,7 +3,7 @@ import Level from '@IHomeVillage/traps/airBomb/level.interface'
 import Mode from '@IHomeVillage/traps/airBomb/mode.interface'
 
 interface Trap extends HomeVillageTrap {
-	mode: Mode | Mode[]
+	mode?: Mode | Mode[]
 	levels: Level[]
 
 	getLevel(level: number): Level | undefined

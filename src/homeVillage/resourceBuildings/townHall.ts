@@ -1,16 +1,14 @@
 import * as Constants from '@/constants'
 import TownHall from '@IHomeVillage/townHall/townHall.interface'
-import Level from '@IHomeVillage/townHall/level.interface'
-import SubLevel from '@IHomeVillage/townHall/subLevel.interface'
+import { getSize, getLevel, getSubLevel } from '@Utils/buildings.utility'
 
-const nameHere: TownHall = {
+const building: TownHall = {
 	name: 'Town Hall',
 	description:
 		'This is the heart of your village. Upgrading the Town Hall unlocks new defenses, buildings, traps and much more.',
 	width: 4,
 	height: 4,
 	maxLevel: 16,
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -858,27 +856,9 @@ const nameHere: TownHall = {
 				'https://static.wikia.nocookie.net/clashofclans/images/5/53/Town_Hall16.png/revision/latest/scale-to-width-down/105?cb=20231211062744',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getSubLevel(level: number, subLevel: number): SubLevel | undefined {
-		const foundLevel = this.getLevel(level)
-
-		if (foundLevel && subLevel >= 1 && subLevel <= foundLevel.subLevels.length) {
-			return foundLevel.subLevels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level} and subLevel: ${subLevel}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getSubLevel: (level: number, subLevel: number) => getSubLevel(building.levels, level, subLevel),
 }
 
-export default nameHere
+export default building

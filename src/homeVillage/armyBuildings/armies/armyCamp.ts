@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/armyCamp/army.interface'
-import Level from '@IHomeVillage/army/armyCamp/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/armyCamp/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const armyCamp: Building = {
+const building: ArmyBuilding = {
 	name: 'Army Camp',
 	description:
 		'Your troops are stationed in Army Camps. Build more camps and upgrade them to muster a powerful army.',
@@ -29,7 +28,6 @@ const armyCamp: Building = {
 		{ townHallLevel: 15, availableCount: 4, maxLevel: 12 },
 		{ townHallLevel: 16, availableCount: 4, maxLevel: 12 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -212,25 +210,10 @@ const armyCamp: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/1/19/Army_Camp12.png/revision/latest/scale-to-width-down/100?cb=20221011075437',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default armyCamp
+export default building

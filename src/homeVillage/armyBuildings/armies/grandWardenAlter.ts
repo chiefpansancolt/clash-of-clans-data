@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/alter/army.interface'
-import Level from '@IHomeVillage/army/alter/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/alter/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const granWardenAlter: Building = {
+const building: ArmyBuilding = {
 	name: 'Grand Warden Alter',
 	description:
 		'This veteran battle-scholar seeks out groups of friendly troops to fight behind and boost with his Life Aura and assumes the form of a tower on Building. Attacking, he can walk over walls or fly high, and can make nearby troops immune to damage once his Eternal Tome ability is unlocked!',
@@ -29,7 +28,6 @@ const granWardenAlter: Building = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 1 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 1 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -47,25 +45,10 @@ const granWardenAlter: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/e/eb/GrandWarden_Altar.png/revision/latest?cb=20201018085628',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default granWardenAlter
+export default building

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/spellFactory/army.interface'
-import Level from '@IHomeVillage/army/spellFactory/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/spellFactory/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const spellFactory: Building = {
+const building: ArmyBuilding = {
 	name: 'Spell Factory',
 	description:
 		'The Spell Factory is home to veteran Wizards who are better suited to creating magical weapons than front-line combat. Use their powerful Attack Spells to turn the tide of a battle in your favor!',
@@ -29,7 +28,6 @@ const spellFactory: Building = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 7 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 7 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -158,25 +156,10 @@ const spellFactory: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/a/aa/Spell_Factory7.png/revision/latest/scale-to-width-down/110?cb=20221125050011',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default spellFactory
+export default building

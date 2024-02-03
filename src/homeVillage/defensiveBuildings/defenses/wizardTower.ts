@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/wizardTower/defense.interface'
-import Level from '@IHomeVillage/defenses/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/wizardTower/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const wizardTower: Defense = {
+const building: DefenseBuilding = {
 	name: 'Wizard Tower',
 	description:
 		'The Ultimate Arcane Defense! Tower Wizards cast powerful area effect spells that target both flying and ground troops.',
@@ -12,7 +11,6 @@ const wizardTower: Defense = {
 	height: 3,
 	maxLevel: 16,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.splash,
 		unitTypeTarget: Constants.groundAndAir,
 		minRange: 0,
@@ -38,7 +36,6 @@ const wizardTower: Defense = {
 		{ townHallLevel: 15, availableCount: 5, maxLevel: 15 },
 		{ townHallLevel: 16, availableCount: 5, maxLevel: 16 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -297,25 +294,10 @@ const wizardTower: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7c/Wizard_Tower16.png/revision/latest/scale-to-width-down/100?cb=20231213084004',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default wizardTower
+export default building

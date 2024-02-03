@@ -4,7 +4,7 @@ import Mode from '@IHomeVillage/defenses/builderHut/mode.interface'
 import Level from '@IHomeVillage/defenses/builderHut/level.interface'
 
 interface Defense extends HomeVillageDefense {
-	mode: Mode | Mode[]
+	mode?: Mode | Mode[]
 	costs: Cost[]
 	levels: Level[]
 

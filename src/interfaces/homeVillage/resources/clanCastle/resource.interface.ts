@@ -13,11 +13,11 @@ interface Resource {
 	maxLevel: number
 	maxCount: number
 	ruinImgUrl: string
-	mode: Mode | Mode[]
+	mode?: Mode | Mode[]
 	townHallDetails: TownHallDetails[]
 	levels: Level[]
 	treasuryCapacities: Treasury[]
-	achievement: Achievement | Achievement[]
+	achievement?: Achievement | Achievement[]
 
 	getSize(): string
 	getLevel(level: number): Level | undefined

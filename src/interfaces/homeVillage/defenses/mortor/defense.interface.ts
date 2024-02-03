@@ -6,7 +6,7 @@ import Level from '@IHomeVillage/defenses/mortor/level.interface'
 interface Defense extends HomeVillageDefense {
 	levels: Level[]
 	gearUp: GearUp
-	mode: Mode | Mode[]
+	mode?: Mode | Mode[]
 
 	getLevel(levelNumber: number): Level | undefined
 }

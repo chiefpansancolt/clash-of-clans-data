@@ -2,7 +2,7 @@ import HomeVillageDefense from '@IHomeVillage/defenses/defense.interface'
 import Mode from '@IHomeVillage/defenses/hiddenTesla/mode.interface'
 
 interface Defense extends HomeVillageDefense {
-	mode: Mode | Mode[]
+	mode?: Mode | Mode[]
 }
 
 export default Defense

@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/defense.interface'
-import Level from '@IHomeVillage/defenses/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const airDefense: Defense = {
+const building: DefenseBuilding = {
 	name: 'Air Defense',
 	description:
 		"This anti-air tower is deadly against flying enemies, but can't target foes on the ground. Place it wisely to cover as much airspace as possible.",
@@ -12,7 +11,6 @@ const airDefense: Defense = {
 	height: 3,
 	maxLevel: 14,
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.air,
 		minRange: 0,
@@ -37,7 +35,6 @@ const airDefense: Defense = {
 		{ townHallLevel: 15, availableCount: 4, maxLevel: 13 },
 		{ townHallLevel: 16, availableCount: 4, maxLevel: 14 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -264,25 +261,10 @@ const airDefense: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/c/cf/Air_Defense14.png/revision/latest/scale-to-width-down/100?cb=20231213083904',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default airDefense
+export default building

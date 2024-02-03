@@ -8,7 +8,7 @@ interface HomeVillageModeDefense extends Defense {
 	maxCount: number
 	levels: HomeVillageModeLevel[]
 	townHallDetails: TownHallDetails[]
-	achievement: Achievement | Achievement[]
+	achievement?: Achievement | Achievement[]
 
 	getLevel(mode: string, level: number): HomeVillageLevel | undefined
 	getTownHallLevel(level: number): TownHallDetails | undefined

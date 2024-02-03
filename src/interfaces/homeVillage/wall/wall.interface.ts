@@ -7,7 +7,7 @@ interface HomeWall extends Wall {
 	maxCount: number
 	levels: Level[]
 	townHallDetails: TownHallDefense[]
-	achievement: Achievement | Achievement[]
+	achievement?: Achievement | Achievement[]
 
 	getLevel(level: number): Level | undefined
 	getTownHallLevel(level: number): TownHallDefense | undefined

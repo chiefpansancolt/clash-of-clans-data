@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Building from '@IHomeVillage/army/alter/army.interface'
-import Level from '@IHomeVillage/army/alter/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ArmyBuilding from '@IHomeVillage/army/alter/army.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const archerQueenAlter: Building = {
+const building: ArmyBuilding = {
 	name: 'Archer Queen Alter',
 	description:
 		'This graceful huntress is a master of destructive force, though modest in health. She snipes targets in her territory when defending, and can summon stealth and terrifying damage when attacking once her Royal Cloak ability is unlocked!',
@@ -29,7 +28,6 @@ const archerQueenAlter: Building = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 1 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 1 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -47,25 +45,10 @@ const archerQueenAlter: Building = {
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e8/ArcherQueen_Altar.png/revision/latest?cb=20171206125709',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default archerQueenAlter
+export default building

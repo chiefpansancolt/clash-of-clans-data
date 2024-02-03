@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Resource from '@IHomeVillage/resources/resource.interface'
-import Level from '@ICommon/resources/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import ResourceBuilding from '@IHomeVillage/resources/resource.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const darkElixirStorage: Resource = {
+const building: ResourceBuilding = {
 	name: 'Dark Elixir Storage',
 	description:
 		"The power of Dark Elixir could not be contained in a regularly shaped Elixir vat. As it's three times as powerful, we had to invent a cubical form of storage!",
@@ -29,7 +28,6 @@ const darkElixirStorage: Resource = {
 		{ townHallLevel: 15, availableCount: 1, maxLevel: 10 },
 		{ townHallLevel: 16, availableCount: 1, maxLevel: 11 },
 	],
-	achievement: [],
 	levels: [
 		{
 			level: 1,
@@ -197,25 +195,10 @@ const darkElixirStorage: Resource = {
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e2/Dark_Elixir_Storage11.png/revision/latest/scale-to-width-down/125?cb=20231213085310',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default darkElixirStorage
+export default building

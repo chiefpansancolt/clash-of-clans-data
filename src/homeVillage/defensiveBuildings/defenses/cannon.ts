@@ -1,9 +1,8 @@
 import * as Constants from '@/constants'
-import Defense from '@IHomeVillage/defenses/cannon/defense.interface'
-import Level from '@IHomeVillage/defenses/cannon/level.interface'
-import TownHallDetails from '@IHomeVillage/townHall/details.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/cannon/defense.interface'
+import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
-const cannon: Defense = {
+const building: DefenseBuilding = {
 	name: 'Cannon',
 	description:
 		'Cannons are great for point defense. Upgrade cannons to increase their firepower, but beware that your defensive turrets cannot shoot while being upgraded!',
@@ -21,7 +20,6 @@ const cannon: Defense = {
 		builderBaseDefenseLevelRequired: 4,
 	},
 	mode: {
-		name: Constants.mainMode,
 		damageType: Constants.singleTarget,
 		unitTypeTarget: Constants.ground,
 		minRange: 0,
@@ -89,8 +87,6 @@ const cannon: Defense = {
 			townHallLevelRequired: 1,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a1/Cannon1.png/revision/latest/scale-to-width-down/100?cb=20230521100552',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 2,
@@ -107,8 +103,6 @@ const cannon: Defense = {
 			townHallLevelRequired: 1,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/dc/Cannon2.png/revision/latest/scale-to-width-down/100?cb=20230521100606',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 3,
@@ -125,8 +119,6 @@ const cannon: Defense = {
 			townHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/10/Cannon3.png/revision/latest/scale-to-width-down/100?cb=20230521100615',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 4,
@@ -143,8 +135,6 @@ const cannon: Defense = {
 			townHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a5/Cannon4.png/revision/latest/scale-to-width-down/100?cb=20230521100624',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 5,
@@ -161,8 +151,6 @@ const cannon: Defense = {
 			townHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/ea/Cannon5.png/revision/latest/scale-to-width-down/100?cb=20230521100633',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 6,
@@ -179,8 +167,6 @@ const cannon: Defense = {
 			townHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/93/Cannon6.png/revision/latest/scale-to-width-down/100?cb=20230521100644',
-			gearImgUrl: '',
-			burstImgUrl: '',
 		},
 		{
 			level: 7,
@@ -483,25 +469,10 @@ const cannon: Defense = {
 				'https://static.wikia.nocookie.net/clashofclans/images/d/d8/Cannon21G.png/revision/latest/scale-to-width-down/100?cb=20230521101127',
 		},
 	],
-	getSize(): string {
-		return `${this.width}x${this.height}`
-	},
-	getLevel(level: number): Level | undefined {
-		if (level >= 1 && level <= this.levels.length) {
-			return this.levels[level - 1]
-		} else {
-			console.error(`Invalid ${this.name} level: ${level}`)
-			return undefined
-		}
-	},
-	getTownHallLevel(level: number): TownHallDetails | undefined {
-		if (level >= 1 && level <= this.townHallDetails.length) {
-			return this.townHallDetails[level - 1]
-		} else {
-			console.error(`Invalid Town Hall level: ${level}`)
-			return undefined
-		}
-	},
+	getSize: () => getSize(building.width, building.height),
+	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
+	getTownHallLevel: (level: number) =>
+		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
-export default cannon
+export default building
