@@ -94,7 +94,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 0,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7c/Reinforcement_Camp.png/revision/latest?cb=20230518074638',
 		},
@@ -109,7 +109,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7c/Reinforcement_Camp.png/revision/latest?cb=20230518074638',
 		},

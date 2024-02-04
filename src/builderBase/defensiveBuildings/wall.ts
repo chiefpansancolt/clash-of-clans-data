@@ -90,7 +90,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 0,
 			builderElixirCumulativeCost: 0,
 			wallRingCost: 0,
-			townHallLevelRequired: 1,
+			builderHallLevelRequired: 1,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/fb/Wall1B.png/revision/latest/scale-to-width-down/55?cb=20170927102315',
 		},
@@ -102,7 +102,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 0,
 			builderElixirCumulativeCost: 0,
 			wallRingCost: 1,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/99/Wall2B.png/revision/latest/scale-to-width-down/55?cb=20170927102333',
 		},
@@ -114,7 +114,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 0,
 			builderElixirCumulativeCost: 0,
 			wallRingCost: 1,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/91/Wall3B.png/revision/latest/scale-to-width-down/55?cb=20170927102352',
 		},
@@ -126,7 +126,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 0,
 			builderElixirCumulativeCost: 0,
 			wallRingCost: 1,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b6/Wall4B.png/revision/latest/scale-to-width-down/55?cb=20170927102413',
 		},
@@ -138,7 +138,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 0,
 			builderElixirCumulativeCost: 0,
 			wallRingCost: 1,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4f/Wall5B.png/revision/latest/scale-to-width-down/55?cb=20170927102434',
 		},
@@ -150,7 +150,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 0,
 			builderElixirCumulativeCost: 0,
 			wallRingCost: 1,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/f3/Wall6B.png/revision/latest/scale-to-width-down/55?cb=20170927102501',
 		},
@@ -162,7 +162,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 400000,
 			builderElixirCumulativeCost: 400000,
 			wallRingCost: 1,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a2/Wall7B.png/revision/latest/scale-to-width-down/55?cb=20170927102546',
 		},
@@ -174,7 +174,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 600000,
 			builderElixirCumulativeCost: 1000000,
 			wallRingCost: 2,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b7/Wall8B.png/revision/latest/scale-to-width-down/55?cb=20170927102606',
 		},
@@ -186,7 +186,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 800000,
 			builderElixirCumulativeCost: 1800000,
 			wallRingCost: 2,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall9B.png/revision/latest/scale-to-width-down/55?cb=20190616234919',
 		},
@@ -198,7 +198,7 @@ const building: WallBuilding = {
 			builderElixirBuildCost: 1000000,
 			builderElixirCumulativeCost: 2800000,
 			wallRingCost: 2,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/10/Wall10B.png/revision/latest/scale-to-width-down/55?cb=20230517053328',
 		},

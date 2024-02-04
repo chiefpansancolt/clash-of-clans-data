@@ -104,7 +104,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/30/Roaster1.png/revision/latest/scale-to-width-down/100?cb=20200902074125',
 		},
@@ -120,7 +120,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/f2/Roaster2.png/revision/latest/scale-to-width-down/100?cb=20200902074057',
 		},
@@ -136,7 +136,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/72/Roaster3.png/revision/latest/scale-to-width-down/100?cb=20200902074023',
 		},
@@ -152,7 +152,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4e/Roaster4.png/revision/latest/scale-to-width-down/100?cb=20200902073956',
 		},
@@ -168,7 +168,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/70/Roaster5.png/revision/latest/scale-to-width-down/100?cb=20200902073859',
 		},
@@ -184,7 +184,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c7/Roaster6.png/revision/latest/scale-to-width-down/100?cb=20200902073836',
 		},
@@ -200,7 +200,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/97/Roaster7.png/revision/latest/scale-to-width-down/100?cb=20200902073750',
 		},
@@ -216,7 +216,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/82/Roaster8.png/revision/latest/scale-to-width-down/100?cb=20200902073711',
 		},
@@ -232,7 +232,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 11,
 			exp: 974,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b6/Roaster9.png/revision/latest/scale-to-width-down/100?cb=20200902073520',
 		},
@@ -248,7 +248,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 12,
 			exp: 1018,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/69/Roaster10.png/revision/latest/scale-to-width-down/100?cb=20230517044108',
 		},

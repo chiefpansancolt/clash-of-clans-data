@@ -103,7 +103,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 42,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/81/Hidden_Tesla1.png/revision/latest/scale-to-width-down/80?cb=20180606190107',
 		},
@@ -119,7 +119,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 3,
 			buildTimeDay: 0,
 			exp: 103,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e4/Hidden_Tesla2.png/revision/latest/scale-to-width-down/80?cb=20180606190121',
 		},
@@ -135,7 +135,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 5,
 			buildTimeDay: 0,
 			exp: 134,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/fb/Hidden_Tesla3.png/revision/latest/scale-to-width-down/80?cb=20180606190137',
 		},
@@ -151,7 +151,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 10,
 			buildTimeDay: 0,
 			exp: 189,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/54/Hidden_Tesla4.png/revision/latest/scale-to-width-down/80?cb=20180606190150',
 		},
@@ -167,7 +167,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e9/Hidden_Tesla5.png/revision/latest/scale-to-width-down/80?cb=20180606190204',
 		},
@@ -183,7 +183,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/d7/Hidden_Tesla6.png/revision/latest/scale-to-width-down/80?cb=20180606190216',
 		},
@@ -199,7 +199,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/79/Hidden_Tesla7.png/revision/latest/scale-to-width-down/80?cb=20180606190230',
 		},
@@ -215,7 +215,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4f/Hidden_Tesla8.png/revision/latest/scale-to-width-down/80?cb=20180606190243',
 		},
@@ -231,7 +231,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e3/Hidden_Tesla9.png/revision/latest/scale-to-width-down/80?cb=20180606190256',
 		},
@@ -247,7 +247,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/37/Hidden_Tesla10.png/revision/latest/scale-to-width-down/80?cb=20180604161808',
 		},

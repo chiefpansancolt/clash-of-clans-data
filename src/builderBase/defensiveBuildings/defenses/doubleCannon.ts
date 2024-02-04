@@ -103,7 +103,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 24,
-			townHallLevelRequired: 2,
+			builderHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/cc/Double_Cannon1.png/revision/latest/scale-to-width-down/90?cb=20171108155759',
 		},
@@ -119,7 +119,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 1,
 			buildTimeDay: 0,
 			exp: 60,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/0c/Double_Cannon2.png/revision/latest/scale-to-width-down/90?cb=20171108155800',
 		},
@@ -135,7 +135,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 3,
 			buildTimeDay: 0,
 			exp: 103,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/98/Double_Cannon3.png/revision/latest/scale-to-width-down/90?cb=20171108155801',
 		},
@@ -151,7 +151,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 207,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/63/Double_Cannon4.png/revision/latest/scale-to-width-down/90?cb=20171108155801',
 		},
@@ -167,7 +167,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/de/Double_Cannon5.png/revision/latest/scale-to-width-down/90?cb=20171108155801',
 		},
@@ -183,7 +183,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/75/Double_Cannon6.png/revision/latest/scale-to-width-down/90?cb=20171108155802',
 		},
@@ -199,7 +199,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/bd/Double_Cannon7.png/revision/latest/scale-to-width-down/90?cb=20171108155802',
 		},
@@ -215,7 +215,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/6c/Double_Cannon8.png/revision/latest/scale-to-width-down/90?cb=20171108155802',
 		},
@@ -231,7 +231,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/ee/Double_Cannon9.png/revision/latest/scale-to-width-down/90?cb=20190616215121',
 		},
@@ -247,7 +247,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/df/Double_Cannon10.png/revision/latest/scale-to-width-down/90?cb=20230516071432',
 		},

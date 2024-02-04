@@ -100,7 +100,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 0,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/51/Mega_Mine1_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180338',
 			airImgUrl:
@@ -116,7 +116,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 1,
 			buildTimeDay: 0,
 			exp: 60,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/29/Mega_Mine2_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180339',
 			airImgUrl:
@@ -132,7 +132,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 3,
 			buildTimeDay: 0,
 			exp: 103,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b9/Mega_Mine3_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180339',
 			airImgUrl:
@@ -148,7 +148,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 6,
 			buildTimeDay: 0,
 			exp: 146,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c4/Mega_Mine4_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180339',
 			airImgUrl:
@@ -164,7 +164,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 169,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/76/Mega_Mine5_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180340',
 			airImgUrl:
@@ -180,7 +180,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1d/Mega_Mine6_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180340',
 			airImgUrl:
@@ -196,7 +196,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 1,
 			exp: 360,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/74/Mega_Mine7_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180341',
 			airImgUrl:
@@ -212,7 +212,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/43/Mega_Mine8_Ground.png/revision/latest/scale-to-width-down/80?cb=20171130180341',
 			airImgUrl:
@@ -228,7 +228,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/45/Mega_Mine9_Ground.png/revision/latest/scale-to-width-down/80?cb=20200905044808',
 			airImgUrl:
@@ -244,7 +244,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/70/Mega_Mine10_Ground.png/revision/latest/scale-to-width-down/90?cb=20230520053506',
 			airImgUrl:

@@ -95,7 +95,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 0,
-			townHallLevelRequired: 2,
+			builderHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1c/Star_Laboratory1.png/revision/latest/scale-to-width-down/100?cb=20180512123423',
 		},
@@ -109,7 +109,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 24,
-			townHallLevelRequired: 2,
+			builderHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b5/Star_Laboratory2.png/revision/latest/scale-to-width-down/100?cb=20180512123408',
 		},
@@ -123,7 +123,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 42,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/ac/Star_Laboratory3.png/revision/latest/scale-to-width-down/100?cb=20180512123343',
 		},
@@ -137,7 +137,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 8,
 			buildTimeDay: 0,
 			exp: 169,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/5e/Star_Laboratory4.png/revision/latest/scale-to-width-down/100?cb=20180512123308',
 		},
@@ -151,7 +151,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 207,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/bd/Star_Laboratory5.png/revision/latest/scale-to-width-down/100?cb=20180512123234',
 		},
@@ -165,7 +165,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/8b/Star_Laboratory6.png/revision/latest/scale-to-width-down/100?cb=20180512123219',
 		},
@@ -179,7 +179,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/8a/Star_Laboratory7.png/revision/latest/scale-to-width-down/100?cb=20180512123203',
 		},
@@ -193,7 +193,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/2d/Star_Laboratory8.png/revision/latest/scale-to-width-down/100?cb=20180512123147',
 		},
@@ -207,7 +207,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/98/Star_Laboratory9.png/revision/latest/scale-to-width-down/100?cb=20200901052740',
 		},
@@ -221,7 +221,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/32/Star_Laboratory10.png/revision/latest/scale-to-width-down/100?cb=20230518080618',
 		},

@@ -103,7 +103,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/dd/Lava_Launcher1.png/revision/latest/scale-to-width-down/100?cb=20190618174155',
 		},
@@ -119,7 +119,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/dd/Lava_Launcher1.png/revision/latest/scale-to-width-down/100?cb=20190618174155',
 		},
@@ -135,7 +135,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/47/Lava_Launcher3.png/revision/latest/scale-to-width-down/100?cb=20190618174156',
 		},
@@ -151,7 +151,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/47/Lava_Launcher3.png/revision/latest/scale-to-width-down/100?cb=20190618174156',
 		},
@@ -167,7 +167,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a5/Lava_Launcher5.png/revision/latest/scale-to-width-down/100?cb=20190618174156',
 		},
@@ -183,7 +183,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 7,
 			exp: 777,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/43/Lava_Launcher6.png/revision/latest/scale-to-width-down/100?cb=20190618174157',
 		},
@@ -199,7 +199,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4b/Lava_Launcher7.png/revision/latest/scale-to-width-down/100?cb=20190618174157',
 		},
@@ -215,7 +215,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4b/Lava_Launcher7.png/revision/latest/scale-to-width-down/100?cb=20190618174157',
 		},
@@ -231,7 +231,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 11,
 			exp: 974,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/96/Lava_Launcher9.png/revision/latest/scale-to-width-down/100?cb=20190618174157',
 		},
@@ -247,7 +247,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 12,
 			exp: 1018,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/2c/Lava_Launcher10.png/revision/latest/scale-to-width-down/100?cb=20230517051511',
 		},

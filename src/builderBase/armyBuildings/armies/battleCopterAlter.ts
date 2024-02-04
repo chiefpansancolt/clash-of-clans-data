@@ -94,7 +94,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 0,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/71/Battle_Copter_Altar.png/revision/latest/scale-to-width-down/200?cb=20230518081135',
 		},

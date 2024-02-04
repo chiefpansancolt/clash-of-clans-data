@@ -105,7 +105,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 1,
 			buildTimeDay: 0,
 			exp: 60,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/ae/Gem_Mine1.png/revision/latest/scale-to-width-down/100?cb=20170830100532',
 		},
@@ -129,7 +129,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 2,
 			buildTimeDay: 0,
 			exp: 84,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/96/Gem_Mine2.png/revision/latest/scale-to-width-down/100?cb=20170830100551',
 		},
@@ -153,7 +153,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 6,
 			buildTimeDay: 0,
 			exp: 146,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b0/Gem_Mine3.png/revision/latest/scale-to-width-down/100?cb=20170830100614',
 		},
@@ -177,7 +177,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 8,
 			buildTimeDay: 0,
 			exp: 169,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/25/Gem_Mine4.png/revision/latest/scale-to-width-down/100?cb=20170830100632',
 		},
@@ -201,7 +201,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 207,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/f9/Gem_Mine5.png/revision/latest/scale-to-width-down/100?cb=20170830100652',
 		},
@@ -225,7 +225,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/ff/Gem_Mine6.png/revision/latest/scale-to-width-down/100?cb=20170830100710',
 		},
@@ -249,7 +249,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/9f/Gem_Mine7.png/revision/latest/scale-to-width-down/100?cb=20170927112119',
 		},
@@ -273,7 +273,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a8/Gem_Mine8.png/revision/latest/scale-to-width-down/100?cb=20170927112823',
 		},
@@ -297,7 +297,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/be/Gem_Mine9.png/revision/latest/scale-to-width-down/100?cb=20200901052741',
 		},
@@ -321,7 +321,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/0f/Gem_Mine10.png/revision/latest/scale-to-width-down/100?cb=20230518054357',
 		},

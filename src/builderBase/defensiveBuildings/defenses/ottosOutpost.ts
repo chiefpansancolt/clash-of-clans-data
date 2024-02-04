@@ -94,7 +94,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 0,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/bf/O.T.T.O%27s_Outpost1.png/revision/latest/scale-to-width-down/100?cb=20230516082344',
 		},
@@ -109,7 +109,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/80/O.T.T.O%27s_Outpost2.png/revision/latest/scale-to-width-down/100?cb=20230516082345',
 		},
@@ -124,7 +124,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/62/O.T.T.O%27s_Outpost3.png/revision/latest/scale-to-width-down/100?cb=20230516082346',
 		},
@@ -139,7 +139,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/62/O.T.T.O%27s_Outpost4.png/revision/latest/scale-to-width-down/100?cb=20230516082347',
 		},
@@ -154,7 +154,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/d3/O.T.T.O%27s_Outpost5.png/revision/latest/scale-to-width-down/100?cb=20230516082348',
 		},
@@ -169,7 +169,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/97/O.T.T.O%27s_Outpost6.png/revision/latest/scale-to-width-down/100?cb=20230607054238',
 		},
@@ -184,7 +184,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 7,
 			exp: 777,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/32/O.T.T.O%27s_Outpost7.png/revision/latest/scale-to-width-down/100?cb=20230607054249',
 		},
@@ -199,7 +199,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 9,
 			exp: 881,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/20/O.T.T.O%27s_Outpost8.png/revision/latest/scale-to-width-down/100?cb=20230516082350',
 		},
@@ -214,7 +214,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/2e/O.T.T.O%27s_Outpost9.png/revision/latest/scale-to-width-down/100?cb=20230516082351',
 		},
@@ -229,7 +229,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 11,
 			exp: 974,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7f/O.T.T.O%27s_Outpost10.png/revision/latest/scale-to-width-down/100?cb=20230516082352',
 		},

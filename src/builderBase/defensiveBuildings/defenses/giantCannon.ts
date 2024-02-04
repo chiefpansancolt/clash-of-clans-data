@@ -102,7 +102,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/29/Giant_Cannon1.png/revision/latest/scale-to-width-down/100?cb=20190616233921',
 		},
@@ -118,7 +118,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/cf/Giant_Cannon2.png/revision/latest/scale-to-width-down/100?cb=20190616233937',
 		},
@@ -134,7 +134,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/72/Giant_Cannon3.png/revision/latest/scale-to-width-down/100?cb=20190616233954',
 		},
@@ -150,7 +150,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/09/Giant_Cannon4.png/revision/latest/scale-to-width-down/100?cb=20190616234009',
 		},
@@ -166,7 +166,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/8b/Giant_Cannon5.png/revision/latest/scale-to-width-down/100?cb=20190616234026',
 		},
@@ -182,7 +182,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/77/Giant_Cannon6.png/revision/latest/scale-to-width-down/100?cb=20190616234044',
 		},
@@ -198,7 +198,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/6a/Giant_Cannon7.png/revision/latest/scale-to-width-down/100?cb=20190616234105',
 		},
@@ -214,7 +214,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/9a/Giant_Cannon8.png/revision/latest/scale-to-width-down/100?cb=20190616234124',
 		},
@@ -230,7 +230,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 11,
 			exp: 974,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/63/Giant_Cannon9.png/revision/latest/scale-to-width-down/100?cb=20190621202618',
 		},
@@ -246,7 +246,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 12,
 			exp: 1018,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/65/Giant_Cannon10.png/revision/latest/scale-to-width-down/100?cb=20230517045117',
 		},

@@ -99,7 +99,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 0,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/74/Spring_Trap1.png/revision/latest/scale-to-width-down/90?cb=20221218092202',
 		},
@@ -113,7 +113,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 1,
 			buildTimeDay: 0,
 			exp: 60,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e2/Spring_Trap3.png/revision/latest/scale-to-width-down/90?cb=20221218092328',
 		},
@@ -127,7 +127,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e2/Spring_Trap3.png/revision/latest/scale-to-width-down/90?cb=20221218092328',
 		},
@@ -141,7 +141,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/d5/Spring_Trap5.png/revision/latest/scale-to-width-down/90?cb=20221218092228',
 		},

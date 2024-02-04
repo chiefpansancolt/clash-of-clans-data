@@ -8,7 +8,7 @@ interface BuilderBaseLevel extends Level {
 	buildTimeHour: number
 	buildTimeDay: number
 	exp: number
-	townHallLevelRequired: number
+	builderHallLevelRequired: number
 }
 
 export default BuilderBaseLevel

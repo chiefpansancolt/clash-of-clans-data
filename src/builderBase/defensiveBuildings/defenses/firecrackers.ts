@@ -103,7 +103,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 30,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b7/Firecrackers1.png/revision/latest/scale-to-width-down/100?cb=20230516073633',
 		},
@@ -119,7 +119,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 2,
 			buildTimeDay: 0,
 			exp: 84,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/40/Firecrackers2.png/revision/latest/scale-to-width-down/100?cb=20230516073642',
 		},
@@ -135,7 +135,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 4,
 			buildTimeDay: 0,
 			exp: 120,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c3/Firecrackers3.png/revision/latest/scale-to-width-down/100?cb=20230516073647',
 		},
@@ -151,7 +151,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 207,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/06/Firecrackers4.png/revision/latest/scale-to-width-down/100?cb=20230516073652',
 		},
@@ -167,7 +167,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c6/Firecrackers5.png/revision/latest/scale-to-width-down/100?cb=20230516073659',
 		},
@@ -183,7 +183,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/97/Firecrackers6.png/revision/latest/scale-to-width-down/100?cb=20230516073704',
 		},
@@ -199,7 +199,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/fa/Firecrackers7.png/revision/latest/scale-to-width-down/100?cb=20230516073710',
 		},
@@ -215,7 +215,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/94/Firecrackers8.png/revision/latest/scale-to-width-down/100?cb=20230516073718',
 		},
@@ -231,7 +231,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/88/Firecrackers9.png/revision/latest/scale-to-width-down/100?cb=20230516073723',
 		},
@@ -247,7 +247,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 9,
 			exp: 881,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/54/Firecrackers10.png/revision/latest/scale-to-width-down/100?cb=20230516073609',
 		},

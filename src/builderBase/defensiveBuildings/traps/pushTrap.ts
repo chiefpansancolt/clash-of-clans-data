@@ -101,7 +101,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 0,
-			townHallLevelRequired: 2,
+			builderHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/77/Push_Trap1.png/revision/latest/scale-to-width-down/100?cb=20171130154513',
 		},
@@ -115,7 +115,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 17,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/25/Push_Trap2.png/revision/latest/scale-to-width-down/100?cb=20171130154513',
 		},
@@ -129,7 +129,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 34,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1a/Push_Trap3.png/revision/latest/scale-to-width-down/100?cb=20171130154514',
 		},
@@ -143,7 +143,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 2,
 			buildTimeDay: 0,
 			exp: 84,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/33/Push_Trap4.png/revision/latest/scale-to-width-down/100?cb=20171130154514',
 		},
@@ -157,7 +157,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 4,
 			buildTimeDay: 0,
 			exp: 120,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/cb/Push_Trap5.png/revision/latest/scale-to-width-down/100?cb=20171130154515',
 		},
@@ -171,7 +171,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 207,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/8c/Push_Trap6.png/revision/latest/scale-to-width-down/100?cb=20171130154515',
 		},
@@ -185,7 +185,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 16,
 			buildTimeDay: 0,
 			exp: 240,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/29/Push_Trap7.png/revision/latest/scale-to-width-down/100?cb=20171130154515',
 		},
@@ -199,7 +199,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a1/Push_Trap8.png/revision/latest/scale-to-width-down/100?cb=20171130154516',
 		},
@@ -213,7 +213,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 1,
 			exp: 360,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/67/Push_Trap9.png/revision/latest/scale-to-width-down/100?cb=20190617033045',
 		},
@@ -227,7 +227,7 @@ const building: TrapBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1e/Push_Trap10.png/revision/latest/scale-to-width-down/100?cb=20230517082021',
 		},

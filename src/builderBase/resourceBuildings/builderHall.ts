@@ -95,7 +95,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 0,
 			exp: 0,
 			maximumNumberOfBuildingsAvailable: 0,
-			townHallLevelRequired: 1,
+			builderHallLevelRequired: 1,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/19/Builder_Hall1.png/revision/latest/scale-to-width-down/100?cb=20230516070448',
 		},
@@ -112,7 +112,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 0,
 			exp: 2,
 			maximumNumberOfBuildingsAvailable: 10,
-			townHallLevelRequired: 2,
+			builderHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/03/Builder_Hall2.png/revision/latest/scale-to-width-down/100?cb=20230516070504',
 		},
@@ -129,7 +129,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 0,
 			exp: 60,
 			maximumNumberOfBuildingsAvailable: 18,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/38/Builder_Hall3.png/revision/latest/scale-to-width-down/100?cb=20230516070513',
 		},
@@ -146,7 +146,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 1,
 			exp: 293,
 			maximumNumberOfBuildingsAvailable: 23,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/be/Builder_Hall4.png/revision/latest/scale-to-width-down/100?cb=20230516070524',
 		},
@@ -163,7 +163,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 2,
 			exp: 415,
 			maximumNumberOfBuildingsAvailable: 27,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/22/Builder_Hall5.png/revision/latest/scale-to-width-down/100?cb=20230516070530',
 		},
@@ -180,7 +180,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 3,
 			exp: 509,
 			maximumNumberOfBuildingsAvailable: 39,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/29/Builder_Hall6.png/revision/latest/scale-to-width-down/100?cb=20230516070542',
 		},
@@ -197,7 +197,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 4,
 			exp: 587,
 			maximumNumberOfBuildingsAvailable: 44,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/7f/Builder_Hall7.png/revision/latest/scale-to-width-down/100?cb=20230516070552',
 		},
@@ -214,7 +214,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 5,
 			exp: 657,
 			maximumNumberOfBuildingsAvailable: 50,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/0e/Builder_Hall8.png/revision/latest/scale-to-width-down/100?cb=20230516070604',
 		},
@@ -231,7 +231,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 6,
 			exp: 720,
 			maximumNumberOfBuildingsAvailable: 54,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/43/Builder_Hall9.png/revision/latest/scale-to-width-down/100?cb=20230516070619',
 		},
@@ -248,7 +248,7 @@ const building: BuilderHallBuilding = {
 			buildTimeDay: 7,
 			exp: 777,
 			maximumNumberOfBuildingsAvailable: 55,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/87/Builder_Hall10.png/revision/latest/scale-to-width-down/100?cb=20230516070454',
 		},

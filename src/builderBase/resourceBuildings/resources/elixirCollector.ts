@@ -102,7 +102,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 24,
-			townHallLevelRequired: 1,
+			builderHallLevelRequired: 1,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c4/Elixir_Collector1B.png/revision/latest/scale-to-width-down/100?cb=20180109122754',
 		},
@@ -122,7 +122,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 34,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/19/Elixir_Collector2B.png/revision/latest/scale-to-width-down/100?cb=20180109122754',
 		},
@@ -142,7 +142,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 48,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a7/Elixir_Collector3B.png/revision/latest/scale-to-width-down/100?cb=20180109122755',
 		},
@@ -162,7 +162,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 2,
 			buildTimeDay: 0,
 			exp: 84,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/54/Elixir_Collector4B.png/revision/latest/scale-to-width-down/100?cb=20180109122755',
 		},
@@ -182,7 +182,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 6,
 			buildTimeDay: 0,
 			exp: 134,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/ef/Elixir_Collector5B.png/revision/latest/scale-to-width-down/100?cb=20180109122756',
 		},
@@ -202,7 +202,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/d4/Elixir_Collector6B.png/revision/latest/scale-to-width-down/100?cb=20180109122756',
 		},
@@ -222,7 +222,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 1,
 			exp: 360,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/8e/Elixir_Collector7B.png/revision/latest/scale-to-width-down/100?cb=20180109122757',
 		},
@@ -242,7 +242,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/15/Elixir_Collector8B.png/revision/latest/scale-to-width-down/100?cb=20180109122757',
 		},
@@ -262,7 +262,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 2,
 			exp: 464,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/3b/Elixir_Collector9B.png/revision/latest/scale-to-width-down/100?cb=20190616211335',
 		},
@@ -282,7 +282,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/32/Elixir_Collector10B.png/revision/latest/scale-to-width-down/100?cb=20230518051323',
 		},

@@ -103,7 +103,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 6,
 			buildTimeDay: 0,
 			exp: 146,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/96/Air_Bombs1.png/revision/latest/scale-to-width-down/100?cb=20171109192339',
 		},
@@ -119,7 +119,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 207,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/f0/Air_Bombs2.png/revision/latest/scale-to-width-down/100?cb=20171109192340',
 		},
@@ -135,7 +135,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/01/Air_Bombs3.png/revision/latest/scale-to-width-down/100?cb=20171109192340',
 		},
@@ -151,7 +151,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/26/Air_Bombs4.png/revision/latest/scale-to-width-down/100?cb=20171109192340',
 		},
@@ -167,7 +167,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b4/Air_Bombs5.png/revision/latest/scale-to-width-down/100?cb=20171109192341',
 		},
@@ -183,7 +183,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/02/Air_Bombs6.png/revision/latest/scale-to-width-down/100?cb=20171109192341',
 		},
@@ -199,7 +199,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 7,
 			exp: 777,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/51/Air_Bombs7.png/revision/latest/scale-to-width-down/100?cb=20171109192342',
 		},
@@ -215,7 +215,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/ef/Air_Bombs8.png/revision/latest/scale-to-width-down/100?cb=20171109192342',
 		},
@@ -231,7 +231,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e4/Air_Bombs9.png/revision/latest/scale-to-width-down/100?cb=20190616223138',
 		},
@@ -247,7 +247,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 12,
 			exp: 1018,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/3c/Air_Bombs10.png/revision/latest/scale-to-width-down/115?cb=20230517042314',
 		},

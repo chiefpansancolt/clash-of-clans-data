@@ -102,7 +102,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/ed/Mega_Tesla1.png/revision/latest/scale-to-width-down/100?cb=20170527182000',
 		},
@@ -118,7 +118,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/fd/Mega_Tesla2.png/revision/latest/scale-to-width-down/100?cb=20180929013650',
 		},
@@ -134,7 +134,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/ed/Mega_Tesla3.png/revision/latest/scale-to-width-down/100?cb=20170527182001',
 		},
@@ -150,7 +150,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/43/Mega_Tesla4.png/revision/latest/scale-to-width-down/100?cb=20170527182001',
 		},
@@ -166,7 +166,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/71/Mega_Tesla5.png/revision/latest/scale-to-width-down/100?cb=20180929013702',
 		},
@@ -182,7 +182,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 7,
 			exp: 777,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/42/Mega_Tesla6.png/revision/latest/scale-to-width-down/100?cb=20170527182002',
 		},
@@ -198,7 +198,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c6/Mega_Tesla7.png/revision/latest/scale-to-width-down/100?cb=20180929013713',
 		},
@@ -214,7 +214,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/32/Mega_Tesla8.png/revision/latest/scale-to-width-down/100?cb=20180929013724',
 		},
@@ -230,7 +230,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 11,
 			exp: 974,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/39/Mega_Tesla9.png/revision/latest/scale-to-width-down/100?cb=20190616234612',
 		},
@@ -246,7 +246,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 12,
 			exp: 1018,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/42/Mega_Tesla10.png/revision/latest/scale-to-width-down/100?cb=20230517050242',
 		},

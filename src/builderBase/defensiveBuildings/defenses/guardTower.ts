@@ -104,7 +104,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 4,
 			buildTimeDay: 0,
 			exp: 120,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/63/Guard_Post1.png/revision/latest/scale-to-width-down/100?cb=20171109182016',
 		},
@@ -119,7 +119,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 8,
 			buildTimeDay: 0,
 			exp: 169,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/ba/Guard_Post2.png/revision/latest/scale-to-width-down/100?cb=20171109182017',
 		},
@@ -134,7 +134,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 207,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/cd/Guard_Post3.png/revision/latest/scale-to-width-down/100?cb=20171109182017',
 		},
@@ -149,7 +149,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c5/Guard_Post4.png/revision/latest/scale-to-width-down/100?cb=20171109182017',
 		},
@@ -164,7 +164,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4f/Guard_Post5.png/revision/latest/scale-to-width-down/100?cb=20171109182018',
 		},
@@ -179,7 +179,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/21/Guard_Post6.png/revision/latest/scale-to-width-down/100?cb=20171109182018',
 		},
@@ -194,7 +194,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/28/Guard_Post7.png/revision/latest/scale-to-width-down/100?cb=20171109182018',
 		},
@@ -209,7 +209,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/35/Guard_Post8.png/revision/latest/scale-to-width-down/100?cb=20171109182019',
 		},
@@ -224,7 +224,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 10,
 			exp: 929,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/ff/Guard_Post9.png/revision/latest/scale-to-width-down/100?cb=20190616222444',
 		},
@@ -239,7 +239,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 12,
 			exp: 1018,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/f7/Guard_Post10.png/revision/latest/scale-to-width-down/100?cb=20230517041059',
 		},

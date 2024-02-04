@@ -94,7 +94,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 42,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/16/Gold_Storage1B.png/revision/latest/scale-to-width-down/100?cb=20171031120205',
 		},
@@ -109,7 +109,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 1,
 			buildTimeDay: 0,
 			exp: 60,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/de/Gold_Storage2B.png/revision/latest/scale-to-width-down/100?cb=20171031120206',
 		},
@@ -124,7 +124,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 3,
 			buildTimeDay: 0,
 			exp: 103,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c8/Gold_Storage3B.png/revision/latest/scale-to-width-down/100?cb=20171031120207',
 		},
@@ -139,7 +139,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 6,
 			buildTimeDay: 0,
 			exp: 146,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/81/Gold_Storage4B.png/revision/latest/scale-to-width-down/100?cb=20171031120207',
 		},
@@ -154,7 +154,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 207,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/27/Gold_Storage5B.png/revision/latest/scale-to-width-down/100?cb=20171031120207',
 		},
@@ -169,7 +169,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/84/Gold_Storage6B.png/revision/latest/scale-to-width-down/100?cb=20171031120208',
 		},
@@ -184,7 +184,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/31/Gold_Storage7B.png/revision/latest/scale-to-width-down/100?cb=20171031120208',
 		},
@@ -199,7 +199,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/10/Gold_Storage8B.png/revision/latest/scale-to-width-down/100?cb=20180307123736',
 		},
@@ -214,7 +214,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/49/Gold_Storage9B.png/revision/latest/scale-to-width-down/100?cb=20190616213038',
 		},
@@ -229,7 +229,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e6/Gold_Storage10B.png/revision/latest/scale-to-width-down/100?cb=20230518052405',
 		},

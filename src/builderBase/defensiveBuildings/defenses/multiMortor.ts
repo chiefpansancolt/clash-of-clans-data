@@ -104,7 +104,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 8,
 			buildTimeDay: 0,
 			exp: 169,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/cc/Multi_Mortar1.png/revision/latest/scale-to-width-down/100?cb=20171109200531',
 		},
@@ -121,7 +121,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 0,
 			exp: 207,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/55/Multi_Mortar2.png/revision/latest/scale-to-width-down/100?cb=20171109200532',
 		},
@@ -138,7 +138,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/81/Multi_Mortar3.png/revision/latest/scale-to-width-down/100?cb=20171109200532',
 		},
@@ -155,7 +155,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/be/Multi_Mortar4.png/revision/latest/scale-to-width-down/100?cb=20171109200533',
 		},
@@ -172,7 +172,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/65/Multi_Mortar5.png/revision/latest/scale-to-width-down/100?cb=20171109200533',
 		},
@@ -189,7 +189,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/3/38/Multi_Mortar6.png/revision/latest/scale-to-width-down/100?cb=20171109200533',
 		},
@@ -206,7 +206,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 7,
 			exp: 777,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/60/Multi_Mortar7.png/revision/latest/scale-to-width-down/100?cb=20171109200534',
 		},
@@ -223,7 +223,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 9,
 			exp: 881,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/9b/Multi_Mortar8.png/revision/latest/scale-to-width-down/100?cb=20171109200534',
 		},
@@ -240,7 +240,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 11,
 			exp: 974,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/df/Multi_Mortar9.png/revision/latest/scale-to-width-down/100?cb=20190616223802',
 		},
@@ -257,7 +257,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 12,
 			exp: 1018,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1b/Multi_Mortar10.png/revision/latest/scale-to-width-down/100?cb=20230517035445',
 		},

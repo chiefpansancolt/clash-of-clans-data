@@ -6,7 +6,7 @@ interface Level extends WallLevel {
 	builderElixirBuildCost: number
 	builderElixirCumulativeCost: number
 	wallRingCost: number
-	townHallLevelRequired: number
+	builderHallLevelRequired: number
 }
 
 export default Level

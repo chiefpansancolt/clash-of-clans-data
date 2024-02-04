@@ -101,7 +101,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 24,
-			townHallLevelRequired: 1,
+			builderHallLevelRequired: 1,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine1.png/revision/latest/scale-to-width-down/100?cb=20180110120430',
 		},
@@ -121,7 +121,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 34,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/55/Gold_Mine2.png/revision/latest/scale-to-width-down/100?cb=20180110120444',
 		},
@@ -141,7 +141,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 48,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e4/Gold_Mine3.png/revision/latest/scale-to-width-down/100?cb=20180110120457',
 		},
@@ -161,7 +161,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 2,
 			buildTimeDay: 0,
 			exp: 84,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/97/Gold_Mine4.png/revision/latest/scale-to-width-down/100?cb=20180110120510',
 		},
@@ -181,7 +181,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 6,
 			buildTimeDay: 0,
 			exp: 134,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1a/Gold_Mine5.png/revision/latest/scale-to-width-down/100?cb=20180110120533',
 		},
@@ -201,7 +201,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/86/Gold_Mine6.png/revision/latest/scale-to-width-down/100?cb=20180110120552',
 		},
@@ -221,7 +221,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 1,
 			exp: 360,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/11/Gold_Mine7.png/revision/latest/scale-to-width-down/100?cb=20180110120611',
 		},
@@ -241,7 +241,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/52/Gold_Mine8.png/revision/latest/scale-to-width-down/100?cb=20180110120627',
 		},
@@ -261,7 +261,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 12,
 			buildTimeDay: 2,
 			exp: 464,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/bf/Gold_Mine9.png/revision/latest/scale-to-width-down/100?cb=20180110120642',
 		},
@@ -281,7 +281,7 @@ const building: ResourceBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/eb/Gold_Mine10.png/revision/latest/scale-to-width-down/100?cb=20180110120703',
 		},

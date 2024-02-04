@@ -94,7 +94,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 6,
 			buildTimeDay: 1,
 			exp: 328,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/fd/Healing_Hut1.png/revision/latest/scale-to-width-down/100?cb=20230517101251',
 		},
@@ -109,7 +109,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/2d/Healing_Hut2.png/revision/latest/scale-to-width-down/100?cb=20230517101251',
 		},
@@ -124,7 +124,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/d/da/Healing_Hut3.png/revision/latest/scale-to-width-down/100?cb=20230517101252',
 		},
@@ -139,7 +139,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e8/Healing_Hut4.png/revision/latest/scale-to-width-down/100?cb=20230517101253',
 		},
@@ -154,7 +154,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/f8/Healing_Hut5.png/revision/latest/scale-to-width-down/100?cb=20230517101254',
 		},
@@ -169,7 +169,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b2/Healing_Hut6.png/revision/latest/scale-to-width-down/100?cb=20230517101255',
 		},

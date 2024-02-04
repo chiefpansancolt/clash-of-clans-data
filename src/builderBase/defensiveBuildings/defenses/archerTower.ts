@@ -102,7 +102,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 17,
-			townHallLevelRequired: 2,
+			builderHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/cd/Archer_Tower1B.png/revision/latest/scale-to-width-down/100?cb=20171108194356',
 		},
@@ -118,7 +118,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 30,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e9/Archer_Tower2B.png/revision/latest/scale-to-width-down/100?cb=20171108194356',
 		},
@@ -134,7 +134,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 2,
 			buildTimeDay: 0,
 			exp: 84,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/5/51/Archer_Tower3B.png/revision/latest/scale-to-width-down/100?cb=20171108194357',
 		},
@@ -150,7 +150,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 8,
 			buildTimeDay: 0,
 			exp: 169,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/ed/Archer_Tower4B.png/revision/latest/scale-to-width-down/100?cb=20171108194357',
 		},
@@ -166,7 +166,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/8d/Archer_Tower5B.png/revision/latest/scale-to-width-down/100?cb=20171108194357',
 		},
@@ -182,7 +182,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1d/Archer_Tower6B.png/revision/latest/scale-to-width-down/100?cb=20171108194358',
 		},
@@ -198,7 +198,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/44/Archer_Tower7B.png/revision/latest/scale-to-width-down/100?cb=20171108194358',
 		},
@@ -214,7 +214,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 6,
 			exp: 720,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/28/Archer_Tower8B.png/revision/latest/scale-to-width-down/100?cb=20171108194359',
 		},
@@ -230,7 +230,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 8,
 			exp: 831,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/0c/Archer_Tower9B.png/revision/latest/scale-to-width-down/100?cb=20190616220059',
 		},
@@ -246,7 +246,7 @@ const building: DefenseBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 9,
 			exp: 881,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/4/4c/Archer_Tower10B.png/revision/latest/scale-to-width-down/100?cb=20230516045047',
 		},

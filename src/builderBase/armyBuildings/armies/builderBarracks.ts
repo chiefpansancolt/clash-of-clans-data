@@ -123,7 +123,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 0,
-			townHallLevelRequired: 2,
+			builderHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/ce/Builder_Barracks1.png/revision/latest/scale-to-width-down/100?cb=20180501142536',
 		},
@@ -138,7 +138,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 7,
-			townHallLevelRequired: 2,
+			builderHallLevelRequired: 2,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/c/c2/Builder_Barracks2.png/revision/latest/scale-to-width-down/100?cb=20180501142551',
 		},
@@ -153,7 +153,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 24,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/7/74/Builder_Barracks3.png/revision/latest/scale-to-width-down/100?cb=20180501142604',
 		},
@@ -168,7 +168,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 0,
 			exp: 42,
-			townHallLevelRequired: 3,
+			builderHallLevelRequired: 3,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/1/1e/Builder_Barracks4.png/revision/latest/scale-to-width-down/100?cb=20180501142619',
 		},
@@ -183,7 +183,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 3,
 			buildTimeDay: 0,
 			exp: 103,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e3/Builder_Barracks5.png/revision/latest/scale-to-width-down/100?cb=20180501142637',
 		},
@@ -198,7 +198,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 6,
 			buildTimeDay: 0,
 			exp: 146,
-			townHallLevelRequired: 4,
+			builderHallLevelRequired: 4,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/f/f4/Builder_Barracks6.png/revision/latest/scale-to-width-down/100?cb=20180501142650',
 		},
@@ -213,7 +213,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 9,
 			buildTimeDay: 0,
 			exp: 180,
-			townHallLevelRequired: 5,
+			builderHallLevelRequired: 5,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/91/Builder_Barracks7.png/revision/latest/scale-to-width-down/100?cb=20180501142704',
 		},
@@ -228,7 +228,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 1,
 			exp: 293,
-			townHallLevelRequired: 6,
+			builderHallLevelRequired: 6,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/03/Builder_Barracks8.png/revision/latest/scale-to-width-down/100?cb=20180501142720',
 		},
@@ -243,7 +243,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 2,
 			exp: 415,
-			townHallLevelRequired: 7,
+			builderHallLevelRequired: 7,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/e/e2/Builder_Barracks9.png/revision/latest/scale-to-width-down/100?cb=20180501142745',
 		},
@@ -258,7 +258,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 3,
 			exp: 509,
-			townHallLevelRequired: 8,
+			builderHallLevelRequired: 8,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/b/b9/Builder_Barracks10.png/revision/latest/scale-to-width-down/100?cb=20180501142759',
 		},
@@ -273,7 +273,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 4,
 			exp: 587,
-			townHallLevelRequired: 9,
+			builderHallLevelRequired: 9,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/0/05/Builder_Barracks11.png/revision/latest/scale-to-width-down/100?cb=20190617025509',
 		},
@@ -288,7 +288,7 @@ const building: ArmyBuilding = {
 			buildTimeHour: 0,
 			buildTimeDay: 5,
 			exp: 657,
-			townHallLevelRequired: 10,
+			builderHallLevelRequired: 10,
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/94/Builder_Barracks12.png/revision/latest/scale-to-width-down/100?cb=20230518075724',
 		},
