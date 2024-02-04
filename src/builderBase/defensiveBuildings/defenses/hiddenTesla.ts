@@ -4,8 +4,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
 	name: 'Hidden Tesla',
-	description:
-		'Part tower, part trap, completely shocking! Zap air and ground foes alike with the power of science!',
+	description: 'Part tower, part trap, completely shocking! Zap air and ground foes alike with the power of science!',
 	maxCount: 3,
 	width: 2,
 	height: 2,
@@ -254,8 +253,7 @@ const building: DefenseBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getBuilderHallLevel: (level: number) =>
-		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
+	getBuilderHallLevel: (level: number) => getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
 export default building

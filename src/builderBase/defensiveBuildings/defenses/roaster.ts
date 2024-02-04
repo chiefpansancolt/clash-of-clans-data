@@ -4,8 +4,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
 	name: 'Roaster',
-	description:
-		'Bathe foes in a fiery flood of scalding plasma! Both air and ground troops will feel the burn!',
+	description: 'Bathe foes in a fiery flood of scalding plasma! Both air and ground troops will feel the burn!',
 	maxCount: 1,
 	width: 3,
 	height: 3,
@@ -255,8 +254,7 @@ const building: DefenseBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getBuilderHallLevel: (level: number) =>
-		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
+	getBuilderHallLevel: (level: number) => getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
 export default building

@@ -505,8 +505,7 @@ const building: DefenseBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (name: string, level: number) => getModeLevel(building.levels, name, level),
-	getTownHallLevel: (level: number) =>
-		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
+	getTownHallLevel: (level: number) => getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
 export default building

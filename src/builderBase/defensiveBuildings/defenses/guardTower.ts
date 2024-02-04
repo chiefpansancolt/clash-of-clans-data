@@ -4,8 +4,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
 	name: 'Guard Tower',
-	description:
-		'Houses troops to aid in defense! These rabble rousers are sure to slow down the enemy.',
+	description: 'Houses troops to aid in defense! These rabble rousers are sure to slow down the enemy.',
 	maxCount: 1,
 	width: 2,
 	height: 2,
@@ -246,8 +245,7 @@ const building: DefenseBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getBuilderHallLevel: (level: number) =>
-		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
+	getBuilderHallLevel: (level: number) => getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
 export default building

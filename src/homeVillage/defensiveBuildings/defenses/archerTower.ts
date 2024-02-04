@@ -4,8 +4,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
 	name: 'Archer Tower',
-	description:
-		'Archer Towers have longer range than Cannons, and unlike Cannons they can attack flying enemies.',
+	description: 'Archer Towers have longer range than Cannons, and unlike Cannons they can attack flying enemies.',
 	maxCount: 8,
 	width: 3,
 	height: 3,
@@ -459,8 +458,7 @@ const building: DefenseBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getTownHallLevel: (level: number) =>
-		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
+	getTownHallLevel: (level: number) => getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
 export default building

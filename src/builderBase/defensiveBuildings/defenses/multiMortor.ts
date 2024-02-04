@@ -4,8 +4,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
 	name: 'Multi Mortor',
-	description:
-		'Fires long range splash damage multiple times to maximize chances of hitting its target!',
+	description: 'Fires long range splash damage multiple times to maximize chances of hitting its target!',
 	maxCount: 1,
 	width: 3,
 	height: 3,
@@ -264,8 +263,7 @@ const building: DefenseBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getBuilderHallLevel: (level: number) =>
-		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
+	getBuilderHallLevel: (level: number) => getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
 export default building

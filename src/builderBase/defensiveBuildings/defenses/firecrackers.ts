@@ -4,8 +4,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
 	name: 'Firecrackers',
-	description:
-		"Keep flying pests away with flurries of small rockets! It's like a bug zapper, but prettier.",
+	description: "Keep flying pests away with flurries of small rockets! It's like a bug zapper, but prettier.",
 	maxCount: 5,
 	width: 2,
 	height: 2,
@@ -254,8 +253,7 @@ const building: DefenseBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getBuilderHallLevel: (level: number) =>
-		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
+	getBuilderHallLevel: (level: number) => getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
 export default building

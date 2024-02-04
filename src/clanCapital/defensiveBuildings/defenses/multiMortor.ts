@@ -4,8 +4,7 @@ import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utilit
 
 const building: DefenseBuilding = {
 	name: 'Multi Mortor',
-	description:
-		'Fires long range splash damage multiple times to maximize chances of hitting its target!',
+	description: 'Fires long range splash damage multiple times to maximize chances of hitting its target!',
 	width: 2,
 	height: 2,
 	maxLevel: 5,

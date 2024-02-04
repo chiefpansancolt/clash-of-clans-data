@@ -4,8 +4,7 @@ import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utilit
 
 const building: DefenseBuilding = {
 	name: 'Rocket Artillery',
-	description:
-		'Hurls exploding rockets at both air and ground targets. Miraculously they never miss!',
+	description: 'Hurls exploding rockets at both air and ground targets. Miraculously they never miss!',
 	width: 3,
 	height: 3,
 	maxLevel: 5,

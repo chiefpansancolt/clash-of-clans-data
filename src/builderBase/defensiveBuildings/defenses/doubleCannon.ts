@@ -4,8 +4,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
 	name: 'Double Cannon',
-	description:
-		'The iconic ground defense, built to last! This classic makes the Master Builder a bit sentimental.',
+	description: 'The iconic ground defense, built to last! This classic makes the Master Builder a bit sentimental.',
 	maxCount: 3,
 	width: 3,
 	height: 3,
@@ -254,8 +253,7 @@ const building: DefenseBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getBuilderHallLevel: (level: number) =>
-		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
+	getBuilderHallLevel: (level: number) => getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
 export default building

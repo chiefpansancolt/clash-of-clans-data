@@ -7,12 +7,4 @@ import ElixirStorage from '@HomeVillage/resourceBuildings/resources/elixirStorag
 import GoldMine from '@HomeVillage/resourceBuildings/resources/goldMine'
 import GoldStorage from '@HomeVillage/resourceBuildings/resources/goldStorage'
 
-export {
-	ClanCastle,
-	DarkElixirDrill,
-	DarkElixirStorage,
-	ElixirCollector,
-	ElixirStorage,
-	GoldMine,
-	GoldStorage,
-}
+export { ClanCastle, DarkElixirDrill, DarkElixirStorage, ElixirCollector, ElixirStorage, GoldMine, GoldStorage }

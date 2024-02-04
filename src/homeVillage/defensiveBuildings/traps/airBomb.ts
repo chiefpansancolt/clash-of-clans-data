@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import TrapBuildingfrom '@IHomeVillage/traps/airBomb/trap.interface'
+import TrapBuilding from '@IHomeVillage/traps/airBomb/trap.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: TrapBuilding = {
@@ -216,8 +216,7 @@ const building: TrapBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getTownHallLevel: (level: number) =>
-		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
+	getTownHallLevel: (level: number) => getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
 export default building

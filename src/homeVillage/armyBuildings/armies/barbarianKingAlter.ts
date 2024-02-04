@@ -47,8 +47,7 @@ const building: ArmyBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getTownHallLevel: (level: number) =>
-		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
+	getTownHallLevel: (level: number) => getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
 export default building

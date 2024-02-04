@@ -135,9 +135,7 @@ const building: DistrictHallBuilding = {
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
 	getDistrictHallLevel(name: string, level: number): DetailLevel | undefined {
-		const hallDetails = this.districtHallDetails.find(
-			(detail: { name: string }) => detail.name === name
-		)
+		const hallDetails = this.districtHallDetails.find((detail: { name: string }) => detail.name === name)
 
 		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {
 			return hallDetails.levels[level - 1]

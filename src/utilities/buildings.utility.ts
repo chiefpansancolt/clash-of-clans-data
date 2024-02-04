@@ -11,11 +11,7 @@ export function getSize(width: number, height: number): string {
 	return `${width}x${height}`
 }
 
-export function getLevel<T>(
-	levelsArray: T[],
-	level: number,
-	levelProperty: keyof T
-): T | undefined {
+export function getLevel<T>(levelsArray: T[], level: number, levelProperty: keyof T): T | undefined {
 	const foundLevel = levelsArray.find((obj) => obj[levelProperty] === level)
 
 	if (foundLevel) {
@@ -26,11 +22,7 @@ export function getLevel<T>(
 	}
 }
 
-export function getModeLevel(
-	levelsArray: ModeLevel[],
-	modeName: string,
-	level: number
-): Level | undefined {
+export function getModeLevel(levelsArray: ModeLevel[], modeName: string, level: number): Level | undefined {
 	const foundMode = levelsArray.find((obj) => obj.name === modeName)
 
 	if (foundMode && level >= 1 && level <= foundMode.levels.length) {
@@ -41,11 +33,7 @@ export function getModeLevel(
 	}
 }
 
-export function getHallLevel<T>(
-	hallLevelArray: T[],
-	level: number,
-	levelProperty: keyof T
-): T | undefined {
+export function getHallLevel<T>(hallLevelArray: T[], level: number, levelProperty: keyof T): T | undefined {
 	const foundHallLevel = hallLevelArray.find((obj) => obj[levelProperty] === level)
 
 	if (foundHallLevel) {
@@ -89,13 +77,9 @@ export function getTreasuryLevel(
 		effectiveClanLevel = 10
 	}
 
-	const capacityDetails = treasuryDetailsArray.find(
-		(capacity) => capacity.level === effectiveClanLevel
-	)
+	const capacityDetails = treasuryDetailsArray.find((capacity) => capacity.level === effectiveClanLevel)
 
-	const levelDetails = capacityDetails?.capacityLevels.find(
-		(level) => level.townHallLevel === townHallLevel
-	)
+	const levelDetails = capacityDetails?.capacityLevels.find((level) => level.townHallLevel === townHallLevel)
 
 	if (levelDetails) {
 		return levelDetails

@@ -126,9 +126,7 @@ const nameHere: Trap = {
 		}
 	},
 	getCapitalHallLevel(name: string, level: number): TownHallDetails | undefined {
-		const hallDetails = this.capitalHallDetails.find(
-			(detail: { name: string }) => detail.name === name
-		)
+		const hallDetails = this.capitalHallDetails.find((detail: { name: string }) => detail.name === name)
 
 		if (hallDetails && level >= 1 && level <= hallDetails.levels.length) {
 			return hallDetails.levels[level - 1]

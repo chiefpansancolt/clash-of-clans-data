@@ -4,8 +4,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ResourceBuilding = {
 	name: 'Gold Mine',
-	description:
-		'The Gold Mine produces gold. Upgrade it to boost its production and gold storage capacity.',
+	description: 'The Gold Mine produces gold. Upgrade it to boost its production and gold storage capacity.',
 	maxCount: 7,
 	width: 3,
 	height: 3,
@@ -347,8 +346,7 @@ const building: ResourceBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getTownHallLevel: (level: number) =>
-		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
+	getTownHallLevel: (level: number) => getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 
 export default building

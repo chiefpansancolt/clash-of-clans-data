@@ -4,8 +4,7 @@ import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utilit
 
 const building: DefenseBuilding = {
 	name: 'Inferno Tower',
-	description:
-		'Bane of all big troops, the Inferno Tower can deal devastating damage to units it stays focused on.',
+	description: 'Bane of all big troops, the Inferno Tower can deal devastating damage to units it stays focused on.',
 	width: 3,
 	height: 3,
 	maxLevel: 5,

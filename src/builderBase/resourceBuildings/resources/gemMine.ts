@@ -4,8 +4,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ResourceBuilding = {
 	name: 'Gem Mine',
-	description:
-		'Gem Mines access a rare deposit of this highly valuable resource! Mining gems is slow and hard work.',
+	description: 'Gem Mines access a rare deposit of this highly valuable resource! Mining gems is slow and hard work.',
 	maxCount: 1,
 	width: 3,
 	height: 3,
@@ -328,8 +327,7 @@ const building: ResourceBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getBuilderHallLevel: (level: number) =>
-		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
+	getBuilderHallLevel: (level: number) => getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
 export default building

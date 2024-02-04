@@ -4,8 +4,7 @@ import { getHallLevel, getTreasuryLevel, getLevel, getSize } from '@Utils/buildi
 
 const building: ResourceBuilding = {
 	name: 'Clan Castle',
-	description:
-		'The Clan Castle houses your Treasury and any reinforcement troops or spells sent by your clanmates.',
+	description: 'The Clan Castle houses your Treasury and any reinforcement troops or spells sent by your clanmates.',
 	maxCount: 1,
 	width: 3,
 	height: 3,
@@ -950,8 +949,7 @@ const building: ResourceBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getTownHallLevel: (level: number) =>
-		getHallLevel(building.townHallDetails, level, 'townHallLevel'),
+	getTownHallLevel: (level: number) => getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 	getTreasuryLevel: (clanLevel: number, townHallLevel: number) =>
 		getTreasuryLevel(building.treasuryCapacities, clanLevel, townHallLevel),
 }

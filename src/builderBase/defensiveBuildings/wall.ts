@@ -3,8 +3,7 @@ import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: WallBuilding = {
 	name: 'Walls',
-	description:
-		'Walls are great for keeping your village safe and your enemies in the line of fire.',
+	description: 'Walls are great for keeping your village safe and your enemies in the line of fire.',
 	maxCount: 180,
 	width: 1,
 	height: 1,
@@ -205,8 +204,7 @@ const building: WallBuilding = {
 	],
 	getSize: () => getSize(building.width, building.height),
 	getLevel: (level: number) => getLevel(building.levels, level, 'level'),
-	getBuilderHallLevel: (level: number) =>
-		getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
+	getBuilderHallLevel: (level: number) => getHallLevel(building.builderHallDetails, level, 'builderHallLevel'),
 }
 
 export default building
