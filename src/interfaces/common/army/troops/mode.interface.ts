@@ -1,9 +1,13 @@
 interface Mode {
     preferredTarget: string
-    attackType: string
+    unitTypeTarget: string
+    attackType?: string
+    effectType?: string
     movementSpeed: number
-    attackSpeed: number
+    attackSpeed?: number
+    healSpeed?: number
     range: number
+    damageRadius?: number
 }
 
 export default Mode
