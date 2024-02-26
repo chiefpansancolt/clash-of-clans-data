@@ -1,8 +1,8 @@
 interface Training {
-    availableSec: number
-    availableMin: number
-    upgradingSec: number
-    upgradingMin: number
+	barracksAvailableSec: number
+	barracksAvailableMin: number
+	barracksUpgradingSec: number
+	barracksUpgradingMin: number
 }
 
 export default Training
