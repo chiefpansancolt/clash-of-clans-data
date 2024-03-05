@@ -7,6 +7,9 @@ interface BuilderBaseLevel extends Level {
 	buildTimeDay: number
 	exp: number
 	builderHallLevelRequired: number
+	damage?: number
+	springCapacity?: number
+	airImgUrl?: string
 }
 
 export default BuilderBaseLevel

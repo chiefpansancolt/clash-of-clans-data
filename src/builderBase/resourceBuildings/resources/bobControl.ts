@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ResourceBuilding from '@IBuilderBase/resources/bobControl/resource.interface'
+import ResourceBuilding from '@IBuilderBase/resources/resource.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ResourceBuilding = {
@@ -87,7 +87,7 @@ const building: ResourceBuilding = {
 			level: 1,
 			hitpoints: 250,
 			buildCost: 100000,
-			buildResource: Constants.builderGold,
+			buildCostResource: Constants.builderGold,
 			upgradeRequirement: 'N/A',
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/9/95/O.T.T.O_Hut1.png/revision/latest/scale-to-width-down/100?cb=20190621205325',
@@ -96,7 +96,7 @@ const building: ResourceBuilding = {
 			level: 2,
 			hitpoints: 250,
 			buildCost: 0,
-			buildResource: 'N/A',
+			buildCostResource: 'N/A',
 			upgradeRequirement: 'Gear Up all 3 buildings: Cannon, Archer Tower, Mortar',
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/a/a7/O.T.T.O_Hut2.png/revision/latest/scale-to-width-down/100?cb=20190621205325',
@@ -105,7 +105,7 @@ const building: ResourceBuilding = {
 			level: 3,
 			hitpoints: 250,
 			buildCost: 0,
-			buildResource: 'N/A',
+			buildCostResource: 'N/A',
 			upgradeRequirement: 'Upgrade any troop to level 18',
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/2/2e/O.T.T.O_Hut3.png/revision/latest/scale-to-width-down/100?cb=20190621205326',
@@ -114,7 +114,7 @@ const building: ResourceBuilding = {
 			level: 4,
 			hitpoints: 250,
 			buildCost: 0,
-			buildResource: 'N/A',
+			buildCostResource: 'N/A',
 			upgradeRequirement: 'Upgrade any defense to level 9',
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/6/6b/O.T.T.O_Hut4.png/revision/latest/scale-to-width-down/100?cb=20190621205326',
@@ -123,7 +123,7 @@ const building: ResourceBuilding = {
 			level: 5,
 			hitpoints: 250,
 			buildCost: 0,
-			buildResource: 'N/A',
+			buildCostResource: 'N/A',
 			upgradeRequirement: 'Upgrade Battle Machine and Battle Copter to a total level of 45',
 			baseImgUrl:
 				'https://static.wikia.nocookie.net/clashofclans/images/8/80/O.T.T.O_Hut5.png/revision/latest/scale-to-width-down/100?cb=20190621205327',

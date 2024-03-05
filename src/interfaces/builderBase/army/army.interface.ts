@@ -4,6 +4,7 @@ import BuilderHallDetails from '@IBuilderBase/builderHall/details.interface'
 import Achievement from '@ICommon/achievement/achievement.interface'
 
 interface Army extends Building {
+	ruinImgUrl?: string
 	maxCount: number
 	levels: Level[]
 	builderHallDetails: BuilderHallDetails[]

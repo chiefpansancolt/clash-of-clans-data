@@ -7,6 +7,9 @@ interface Level extends BaseLevel {
 	buildTimeDay: number
 	exp: number
 	builderHallLevelRequired: number
+	unlockedUnit?: string
+	numberOfArymCamps?: number
+	healthRecovery?: number
 }
 
 export default Level
