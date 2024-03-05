@@ -4,15 +4,15 @@ import Treasury from '@IHomeVillage/resources/clanCastle/treasury.interface'
 import TreasuryCapacity from '@IHomeVillage/resources/clanCastle/treasuryCapacity.interface'
 import TownHallLevel from '@IHomeVillage/townHall/level.interface'
 import TownHallSubLevel from '@IHomeVillage/townHall/subLevel.interface'
-import ModeLevel from '@IHomeVillage/defenses/infernoTower/modeLevel.interface'
-import Level from '@IHomeVillage/defenses/infernoTower/level.interface'
+import ModeLevel from '@IHomeVillage/defenses/modeLevel.interface'
+import Level from '@IHomeVillage/defenses/level.interface'
 
 export function getSize(width: number, height: number): string {
 	return `${width}x${height}`
 }
 
-export function getLevel<T>(levelsArray: T[], level: number, levelProperty: keyof T): T | undefined {
-	const foundLevel = levelsArray.find((obj) => obj[levelProperty] === level)
+export function getLevel<T>(levelsArray: T[] | undefined, level: number, levelProperty: keyof T): T | undefined {
+	const foundLevel = levelsArray?.find((obj) => obj[levelProperty] === level)
 
 	if (foundLevel) {
 		return foundLevel
@@ -22,8 +22,8 @@ export function getLevel<T>(levelsArray: T[], level: number, levelProperty: keyo
 	}
 }
 
-export function getModeLevel(levelsArray: ModeLevel[], modeName: string, level: number): Level | undefined {
-	const foundMode = levelsArray.find((obj) => obj.name === modeName)
+export function getModeLevel(levelsArray: ModeLevel[] | undefined, modeName: string, level: number): Level | undefined {
+	const foundMode = levelsArray?.find((obj) => obj.name === modeName)
 
 	if (foundMode && level >= 1 && level <= foundMode.levels.length) {
 		return foundMode.levels[level - 1]

@@ -1,8 +1,8 @@
 import Level from '@IHomeVillage/defenses/level.interface'
 
-interface HomeVillageModeLevel {
+interface ModeLevel {
 	name: string
 	levels: Level[]
 }
 
-export default HomeVillageModeLevel
+export default ModeLevel

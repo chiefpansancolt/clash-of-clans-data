@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import DefenseBuilding from '@IHomeVillage/defenses/infernoTower/defense.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/defense.interface'
 import { getHallLevel, getModeLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
@@ -77,7 +77,7 @@ const building: DefenseBuilding = {
 			},
 		],
 	},
-	levels: [
+	modeLevels: [
 		{
 			name: Constants.singleTargetMode,
 			levels: [
@@ -504,7 +504,7 @@ const building: DefenseBuilding = {
 		},
 	],
 	getSize: () => getSize(building.width, building.height),
-	getLevel: (name: string, level: number) => getModeLevel(building.levels, name, level),
+	getModeLevel: (name: string, level: number) => getModeLevel(building.modeLevels, name, level),
 	getTownHallLevel: (level: number) => getHallLevel(building.townHallDetails, level, 'townHallLevel'),
 }
 

@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import DefenseBuilding from '@IHomeVillage/defenses/cannon/defense.interface'
+import DefenseBuilding from '@IHomeVillage/defenses/defense.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
