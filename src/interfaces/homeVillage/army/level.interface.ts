@@ -7,6 +7,12 @@ interface Level extends BaseLevel {
 	buildTimeDay: number
 	exp: number
 	townHallLevelRequired: number
+	unlockedUnit?: string | string[]
+	capacity?: number
+	shinyOreCapacity?: number
+	glowyOreCapacity?: number
+	starryOreCapacity?: number
+	activeImgUrl?: string
 }
 
 export default Level

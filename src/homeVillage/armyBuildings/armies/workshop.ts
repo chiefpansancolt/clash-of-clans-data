@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ArmyBuilding from '@IHomeVillage/army/workshop/army.interface'
+import ArmyBuilding from '@IHomeVillage/army/army.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ArmyBuilding = {
@@ -31,8 +31,8 @@ const building: ArmyBuilding = {
 	levels: [
 		{
 			level: 1,
-			unlockedSiegeMachine: 'Wall Wrecker',
-			siegeMachineCapacity: 1,
+			unlockedUnit: 'Wall Wrecker',
+			capacity: 1,
 			hitpoints: 1000,
 			buildCost: 3000000,
 			buildCostResource: Constants.elixir,
@@ -47,8 +47,8 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 2,
-			unlockedSiegeMachine: 'Battle Blimp',
-			siegeMachineCapacity: 2,
+			unlockedUnit: 'Battle Blimp',
+			capacity: 2,
 			hitpoints: 1100,
 			buildCost: 5000000,
 			buildCostResource: Constants.elixir,
@@ -63,8 +63,8 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 3,
-			unlockedSiegeMachine: 'Stone Slammer',
-			siegeMachineCapacity: 3,
+			unlockedUnit: 'Stone Slammer',
+			capacity: 3,
 			hitpoints: 1200,
 			buildCost: 7000000,
 			buildCostResource: Constants.elixir,
@@ -79,8 +79,8 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 4,
-			unlockedSiegeMachine: 'Siege Barracks',
-			siegeMachineCapacity: 3,
+			unlockedUnit: 'Siege Barracks',
+			capacity: 3,
 			hitpoints: 1300,
 			buildCost: 9000000,
 			buildCostResource: Constants.elixir,
@@ -95,8 +95,8 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 5,
-			unlockedSiegeMachine: 'Log Launcher',
-			siegeMachineCapacity: 3,
+			unlockedUnit: 'Log Launcher',
+			capacity: 3,
 			hitpoints: 1400,
 			buildCost: 10000000,
 			buildCostResource: Constants.elixir,
@@ -111,8 +111,8 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 6,
-			unlockedSiegeMachine: 'Flame Flinger',
-			siegeMachineCapacity: 3,
+			unlockedUnit: 'Flame Flinger',
+			capacity: 3,
 			hitpoints: 1500,
 			buildCost: 14000000,
 			buildCostResource: Constants.elixir,
@@ -127,8 +127,8 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 7,
-			unlockedSiegeMachine: 'Battle Drill',
-			siegeMachineCapacity: 3,
+			unlockedUnit: 'Battle Drill',
+			capacity: 3,
 			hitpoints: 1600,
 			buildCost: 19000000,
 			buildCostResource: Constants.elixir,

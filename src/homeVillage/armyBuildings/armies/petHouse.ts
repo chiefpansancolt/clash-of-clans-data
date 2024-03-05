@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ArmyBuilding from '@IHomeVillage/army/petHouse/army.interface'
+import ArmyBuilding from '@IHomeVillage/army/army.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ArmyBuilding = {
@@ -31,7 +31,7 @@ const building: ArmyBuilding = {
 	levels: [
 		{
 			level: 1,
-			unlockedPet: 'L.A.S.S.I',
+			unlockedUnit: 'L.A.S.S.I',
 			hitpoints: 700,
 			buildCost: 10000000,
 			buildCostResource: Constants.elixir,
@@ -46,7 +46,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 2,
-			unlockedPet: 'Electro Owl',
+			unlockedUnit: 'Electro Owl',
 			hitpoints: 800,
 			buildCost: 12000000,
 			buildCostResource: Constants.elixir,
@@ -61,7 +61,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 3,
-			unlockedPet: 'Mighty Yak',
+			unlockedUnit: 'Mighty Yak',
 			hitpoints: 900,
 			buildCost: 14000000,
 			buildCostResource: Constants.elixir,
@@ -76,7 +76,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 4,
-			unlockedPet: 'Unicorn',
+			unlockedUnit: 'Unicorn',
 			hitpoints: 1000,
 			buildCost: 16000000,
 			buildCostResource: Constants.elixir,
@@ -91,7 +91,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 5,
-			unlockedPet: 'Frosty',
+			unlockedUnit: 'Frosty',
 			hitpoints: 1050,
 			buildCost: 19750000,
 			buildCostResource: Constants.elixir,
@@ -106,7 +106,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 6,
-			unlockedPet: 'Diggy',
+			unlockedUnit: 'Diggy',
 			hitpoints: 1100,
 			buildCost: 20000000,
 			buildCostResource: Constants.elixir,
@@ -121,7 +121,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 7,
-			unlockedPet: 'Poison Lizard',
+			unlockedUnit: 'Poison Lizard',
 			hitpoints: 1150,
 			buildCost: 20250000,
 			buildCostResource: Constants.elixir,
@@ -136,7 +136,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 8,
-			unlockedPet: 'Phoenix',
+			unlockedUnit: 'Phoenix',
 			hitpoints: 1200,
 			buildCost: 20500000,
 			buildCostResource: Constants.elixir,
@@ -151,7 +151,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 9,
-			unlockedPet: 'Spirit Fox',
+			unlockedUnit: 'Spirit Fox',
 			hitpoints: 1250,
 			buildCost: 21000000,
 			buildCostResource: Constants.elixir,

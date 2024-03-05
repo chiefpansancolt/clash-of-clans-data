@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ArmyBuilding from '@IHomeVillage/army/blacksmith/army.interface'
+import ArmyBuilding from '@IHomeVillage/army/army.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ArmyBuilding = {
@@ -31,7 +31,7 @@ const building: ArmyBuilding = {
 	levels: [
 		{
 			level: 1,
-			equipmentUnlocked: 'Earthquake Boots',
+			unlockedUnit: 'Earthquake Boots',
 			hitpoints: 700,
 			shinyOreCapacity: 10000,
 			glowyOreCapacity: 1000,
@@ -49,7 +49,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 2,
-			equipmentUnlocked: 'Giant Arrow',
+			unlockedUnit: 'Giant Arrow',
 			hitpoints: 800,
 			shinyOreCapacity: 15000,
 			glowyOreCapacity: 1500,
@@ -67,7 +67,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 3,
-			equipmentUnlocked: 'Vampstache',
+			unlockedUnit: 'Vampstache',
 			hitpoints: 900,
 			shinyOreCapacity: 20000,
 			glowyOreCapacity: 2000,
@@ -85,7 +85,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 4,
-			equipmentUnlocked: 'Rage Gem',
+			unlockedUnit: 'Rage Gem',
 			hitpoints: 1000,
 			shinyOreCapacity: 25000,
 			glowyOreCapacity: 2500,
@@ -103,7 +103,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 5,
-			equipmentUnlocked: 'Healer Puppet',
+			unlockedUnit: 'Healer Puppet',
 			hitpoints: 1100,
 			shinyOreCapacity: 30000,
 			glowyOreCapacity: 3000,
@@ -121,7 +121,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 6,
-			equipmentUnlocked: 'Healing Tome',
+			unlockedUnit: 'Healing Tome',
 			hitpoints: 1200,
 			shinyOreCapacity: 35000,
 			glowyOreCapacity: 3500,
@@ -139,7 +139,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 7,
-			equipmentUnlocked: 'N/A',
+			unlockedUnit: 'N/A',
 			hitpoints: 1300,
 			shinyOreCapacity: 40000,
 			glowyOreCapacity: 4000,
@@ -157,7 +157,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 8,
-			equipmentUnlocked: 'N/A',
+			unlockedUnit: 'N/A',
 			hitpoints: 1400,
 			shinyOreCapacity: 45000,
 			glowyOreCapacity: 4500,
@@ -175,7 +175,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 9,
-			equipmentUnlocked: 'N/A',
+			unlockedUnit: 'N/A',
 			hitpoints: 1500,
 			shinyOreCapacity: 50000,
 			glowyOreCapacity: 5000,

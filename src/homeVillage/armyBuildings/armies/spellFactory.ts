@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ArmyBuilding from '@IHomeVillage/army/spellFactory/army.interface'
+import ArmyBuilding from '@IHomeVillage/army/army.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ArmyBuilding = {
@@ -32,8 +32,8 @@ const building: ArmyBuilding = {
 		{
 			level: 1,
 			hitpoints: 425,
-			spellUnlocked: 'Lightning Spell',
-			spellStorageCapacity: 2,
+			unlockedUnit: 'Lightning Spell',
+			capacity: 2,
 			buildCost: 150000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -50,8 +50,8 @@ const building: ArmyBuilding = {
 		{
 			level: 2,
 			hitpoints: 470,
-			spellUnlocked: 'Healing Spell',
-			spellStorageCapacity: 4,
+			unlockedUnit: 'Healing Spell',
+			capacity: 4,
 			buildCost: 300000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -68,8 +68,8 @@ const building: ArmyBuilding = {
 		{
 			level: 3,
 			hitpoints: 520,
-			spellUnlocked: 'Rage Spell',
-			spellStorageCapacity: 6,
+			unlockedUnit: 'Rage Spell',
+			capacity: 6,
 			buildCost: 600000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -86,8 +86,8 @@ const building: ArmyBuilding = {
 		{
 			level: 4,
 			hitpoints: 600,
-			spellUnlocked: ['Jump Spell', 'Freeze Spell'],
-			spellStorageCapacity: 8,
+			unlockedUnit: ['Jump Spell', 'Freeze Spell'],
+			capacity: 8,
 			buildCost: 1200000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -104,8 +104,8 @@ const building: ArmyBuilding = {
 		{
 			level: 5,
 			hitpoints: 720,
-			spellUnlocked: 'Clone Spell',
-			spellStorageCapacity: 10,
+			unlockedUnit: 'Clone Spell',
+			capacity: 10,
 			buildCost: 2000000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -122,8 +122,8 @@ const building: ArmyBuilding = {
 		{
 			level: 6,
 			hitpoints: 840,
-			spellUnlocked: 'Invisibility Spell',
-			spellStorageCapacity: 10,
+			unlockedUnit: 'Invisibility Spell',
+			capacity: 10,
 			buildCost: 3500000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -140,8 +140,8 @@ const building: ArmyBuilding = {
 		{
 			level: 7,
 			hitpoints: 960,
-			spellUnlocked: 'Recall Spell',
-			spellStorageCapacity: 10,
+			unlockedUnit: 'Recall Spell',
+			capacity: 10,
 			buildCost: 9000000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,

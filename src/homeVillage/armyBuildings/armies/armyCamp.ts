@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ArmyBuilding from '@IHomeVillage/army/armyCamp/army.interface'
+import ArmyBuilding from '@IHomeVillage/army/army.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ArmyBuilding = {
@@ -31,7 +31,7 @@ const building: ArmyBuilding = {
 	levels: [
 		{
 			level: 1,
-			troopCapacity: 20,
+			capacity: 20,
 			hitpoints: 250,
 			buildCost: 200,
 			buildCostResource: Constants.elixir,
@@ -46,7 +46,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 2,
-			troopCapacity: 30,
+			capacity: 30,
 			hitpoints: 270,
 			buildCost: 2000,
 			buildCostResource: Constants.elixir,
@@ -61,7 +61,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 3,
-			troopCapacity: 35,
+			capacity: 35,
 			hitpoints: 290,
 			buildCost: 10000,
 			buildCostResource: Constants.elixir,
@@ -76,7 +76,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 4,
-			troopCapacity: 40,
+			capacity: 40,
 			hitpoints: 310,
 			buildCost: 100000,
 			buildCostResource: Constants.elixir,
@@ -91,7 +91,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 5,
-			troopCapacity: 45,
+			capacity: 45,
 			hitpoints: 330,
 			buildCost: 250000,
 			buildCostResource: Constants.elixir,
@@ -106,7 +106,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 6,
-			troopCapacity: 50,
+			capacity: 50,
 			hitpoints: 350,
 			buildCost: 750000,
 			buildCostResource: Constants.elixir,
@@ -121,7 +121,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 7,
-			troopCapacity: 55,
+			capacity: 55,
 			hitpoints: 400,
 			buildCost: 1500000,
 			buildCostResource: Constants.elixir,
@@ -136,7 +136,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 8,
-			troopCapacity: 60,
+			capacity: 60,
 			hitpoints: 500,
 			buildCost: 2500000,
 			buildCostResource: Constants.elixir,
@@ -151,7 +151,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 9,
-			troopCapacity: 65,
+			capacity: 65,
 			hitpoints: 600,
 			buildCost: 4200000,
 			buildCostResource: Constants.elixir,
@@ -166,7 +166,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 10,
-			troopCapacity: 70,
+			capacity: 70,
 			hitpoints: 700,
 			buildCost: 5700000,
 			buildCostResource: Constants.elixir,
@@ -181,7 +181,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 11,
-			troopCapacity: 75,
+			capacity: 75,
 			hitpoints: 800,
 			buildCost: 9600000,
 			buildCostResource: Constants.elixir,
@@ -196,7 +196,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 12,
-			troopCapacity: 80,
+			capacity: 80,
 			hitpoints: 850,
 			buildCost: 19000000,
 			buildCostResource: Constants.elixir,

@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ArmyBuilding from '@IHomeVillage/army/darkSpellFactory/army.interface'
+import ArmyBuilding from '@IHomeVillage/army/army.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ArmyBuilding = {
@@ -32,8 +32,8 @@ const building: ArmyBuilding = {
 		{
 			level: 1,
 			hitpoints: 600,
-			spellUnlocked: 'Poison Spell',
-			spellStorageCapacity: 1,
+			unlockedUnit: 'Poison Spell',
+			capacity: 1,
 			buildCost: 130000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -50,8 +50,8 @@ const building: ArmyBuilding = {
 		{
 			level: 2,
 			hitpoints: 660,
-			spellUnlocked: 'Earthquake Spell',
-			spellStorageCapacity: 1,
+			unlockedUnit: 'Earthquake Spell',
+			capacity: 1,
 			buildCost: 260000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -68,8 +68,8 @@ const building: ArmyBuilding = {
 		{
 			level: 3,
 			hitpoints: 720,
-			spellUnlocked: 'Haste Spell',
-			spellStorageCapacity: 1,
+			unlockedUnit: 'Haste Spell',
+			capacity: 1,
 			buildCost: 600000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -86,8 +86,8 @@ const building: ArmyBuilding = {
 		{
 			level: 4,
 			hitpoints: 780,
-			spellUnlocked: 'Skeleton Spell',
-			spellStorageCapacity: 1,
+			unlockedUnit: 'Skeleton Spell',
+			capacity: 1,
 			buildCost: 1200000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
@@ -104,8 +104,8 @@ const building: ArmyBuilding = {
 		{
 			level: 5,
 			hitpoints: 840,
-			spellUnlocked: 'Bat Spell',
-			spellStorageCapacity: 1,
+			unlockedUnit: 'Bat Spell',
+			capacity: 1,
 			buildCost: 2500000,
 			buildCostResource: Constants.elixir,
 			buildTimeSec: 0,
