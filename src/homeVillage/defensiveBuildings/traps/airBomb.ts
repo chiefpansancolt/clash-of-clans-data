@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import TrapBuilding from '@IHomeVillage/traps/airBomb/trap.interface'
+import TrapBuilding from '@IHomeVillage/traps/trap.interface'
 import { getHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: TrapBuilding = {

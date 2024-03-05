@@ -7,6 +7,14 @@ interface HomeVillageLevel extends Level {
 	buildTimeDay: number
 	exp: number
 	townHallLevelRequired: number
+	damage?: number
+	damageRadius?: number
+	spawnedUnits?: number
+	springCapacity?: number
+	duration?: number
+	totalDamage?: number
+	airImgUrl?: string
+	unarmedImgUrl?: string
 }
 
 export default HomeVillageLevel
