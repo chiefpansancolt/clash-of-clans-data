@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ResourceBuilding from '@IHomeVillage/resources/clanCastle/resource.interface'
+import ResourceBuilding from '@IHomeVillage/resources/resource.interface'
 import { getHallLevel, getTreasuryLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ResourceBuilding = {

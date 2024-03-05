@@ -1,4 +1,4 @@
-import Capacity from '@IHomeVillage/resources/clanCastle/treasuryCapacity.interface'
+import Capacity from '@IHomeVillage/resources/treasuryCapacity.interface'
 
 interface Treasury {
 	name: string
