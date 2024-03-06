@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		"These big guys may seem calm, but show them a turret or cannon and you'll see their fury unleashed! Slow yet durable, these warriors are best used to soak up hits.",
 	maxLevel: 12,
 	housingSpace: 5,
-	barracksLevelRequired: 3,
+	buildingLevelRequired: 3,
+	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Giant',
 	training: {
 		barracksAvailableSec: 30,

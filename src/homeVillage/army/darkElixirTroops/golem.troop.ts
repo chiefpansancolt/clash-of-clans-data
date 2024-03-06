@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/golem/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		"The mighty Golem loves to soak up damage! When destroyed, it explodes and splits into Golemites. The resulting Golemites have one-fifth the Golem's strength and hitpoints.",
 	maxLevel: 13,
 	housingSpace: 30,
-	barracksLevelRequired: 4,
+	buildingLevelRequired: 4,
+	buildingName: Constants.darkBarracks,
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 5,

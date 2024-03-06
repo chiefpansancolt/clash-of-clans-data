@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'This terror of the skies was born out of Dark Elixir. Undetectable by the Seeking Air Mine, Minions materialize with ease, but are fragile in our world.',
 	maxLevel: 11,
 	housingSpace: 2,
-	barracksLevelRequired: 1,
+	buildingLevelRequired: 1,
+	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Super Minion',
 	training: {
 		barracksAvailableSec: 18,

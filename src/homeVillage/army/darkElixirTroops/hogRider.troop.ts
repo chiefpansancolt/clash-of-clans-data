@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'Having tamed the fierce leaping hog, the Hog Rider punishes those who hide behind their puny walls! Fueled by Dark Elixir, these warriors have never known defeat!',
 	maxLevel: 12,
 	housingSpace: 5,
-	barracksLevelRequired: 2,
+	buildingLevelRequired: 2,
+	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Super Hog Rider',
 	training: {
 		barracksAvailableSec: 45,

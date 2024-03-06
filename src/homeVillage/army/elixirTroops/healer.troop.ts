@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/healer/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'This majestic creature lives to protect and aid her fellow troops. Any army is improved with her healing support, but make sure to protect her from air defenses!',
 	maxLevel: 9,
 	housingSpace: 14,
-	barracksLevelRequired: 8,
+	buildingLevelRequired: 8,
+	buildingName: Constants.barracks,
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 2,

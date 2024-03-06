@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/apprenticeWarden/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'Despite his grand ambitions, Apprentice Warden is still just a student. Supports troops with his magical Life Aura and less-magical slingshot.',
 	maxLevel: 4,
 	housingSpace: 20,
-	barracksLevelRequired: 10,
+	buildingLevelRequired: 10,
+	buildingName: Constants.darkBarracks,
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 4,

@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'The might of the dragons are known throughout the land. This scaly terror of the skies feels no mercy and nothing will escape the fiery splashes of his breath.',
 	maxLevel: 11,
 	housingSpace: 20,
-	barracksLevelRequired: 9,
+	buildingLevelRequired: 9,
+	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Dragon',
 	training: {
 		barracksAvailableSec: 0,

@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/wallBreaker/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		"Nothing warms a Wall Breaker's cold and undead heart like blowing up walls. A squad of them will make way for your ground units, and they will do it with a BANG!",
 	maxLevel: 12,
 	housingSpace: 2,
-	barracksLevelRequired: 5,
+	buildingLevelRequired: 5,
+	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Wallbreaker',
 	training: {
 		barracksAvailableSec: 15,
@@ -30,7 +31,7 @@ const troop: Army = {
 		{
 			level: 1,
 			damagePerSecond: 6,
-			damageWhenDestroyed: 6,
+			damageUponDeath: 6,
 			damageVsWalls: 240,
 			damageWhenDestroyedVsWalls: 240,
 			hitpoints: 20,
@@ -47,7 +48,7 @@ const troop: Army = {
 		{
 			level: 2,
 			damagePerSecond: 10,
-			damageWhenDestroyed: 9,
+			damageUponDeath: 9,
 			damageVsWalls: 400,
 			damageWhenDestroyedVsWalls: 360,
 			hitpoints: 24,
@@ -64,7 +65,7 @@ const troop: Army = {
 		{
 			level: 3,
 			damagePerSecond: 15,
-			damageWhenDestroyed: 13,
+			damageUponDeath: 13,
 			damageVsWalls: 600,
 			damageWhenDestroyedVsWalls: 520,
 			hitpoints: 29,
@@ -81,7 +82,7 @@ const troop: Army = {
 		{
 			level: 4,
 			damagePerSecond: 20,
-			damageWhenDestroyed: 16,
+			damageUponDeath: 16,
 			damageVsWalls: 800,
 			damageWhenDestroyedVsWalls: 640,
 			hitpoints: 35,
@@ -98,7 +99,7 @@ const troop: Army = {
 		{
 			level: 5,
 			damagePerSecond: 43,
-			damageWhenDestroyed: 23,
+			damageUponDeath: 23,
 			damageVsWalls: 1720,
 			damageWhenDestroyedVsWalls: 920,
 			hitpoints: 53,
@@ -115,7 +116,7 @@ const troop: Army = {
 		{
 			level: 6,
 			damagePerSecond: 55,
-			damageWhenDestroyed: 30,
+			damageUponDeath: 30,
 			damageVsWalls: 2200,
 			damageWhenDestroyedVsWalls: 1200,
 			hitpoints: 72,
@@ -132,7 +133,7 @@ const troop: Army = {
 		{
 			level: 7,
 			damagePerSecond: 66,
-			damageWhenDestroyed: 36,
+			damageUponDeath: 36,
 			damageVsWalls: 2640,
 			damageWhenDestroyedVsWalls: 1440,
 			hitpoints: 82,
@@ -149,7 +150,7 @@ const troop: Army = {
 		{
 			level: 8,
 			damagePerSecond: 75,
-			damageWhenDestroyed: 42,
+			damageUponDeath: 42,
 			damageVsWalls: 3000,
 			damageWhenDestroyedVsWalls: 1680,
 			hitpoints: 92,
@@ -166,7 +167,7 @@ const troop: Army = {
 		{
 			level: 9,
 			damagePerSecond: 86,
-			damageWhenDestroyed: 48,
+			damageUponDeath: 48,
 			damageVsWalls: 3440,
 			damageWhenDestroyedVsWalls: 1920,
 			hitpoints: 112,
@@ -183,7 +184,7 @@ const troop: Army = {
 		{
 			level: 10,
 			damagePerSecond: 94,
-			damageWhenDestroyed: 54,
+			damageUponDeath: 54,
 			damageVsWalls: 3760,
 			damageWhenDestroyedVsWalls: 2160,
 			hitpoints: 130,
@@ -200,7 +201,7 @@ const troop: Army = {
 		{
 			level: 11,
 			damagePerSecond: 102,
-			damageWhenDestroyed: 60,
+			damageUponDeath: 60,
 			damageVsWalls: 4080,
 			damageWhenDestroyedVsWalls: 2400,
 			hitpoints: 140,
@@ -217,7 +218,7 @@ const troop: Army = {
 		{
 			level: 12,
 			damagePerSecond: 110,
-			damageWhenDestroyed: 66,
+			damageUponDeath: 66,
 			damageVsWalls: 4400,
 			damageWhenDestroyedVsWalls: 2640,
 			hitpoints: 150,

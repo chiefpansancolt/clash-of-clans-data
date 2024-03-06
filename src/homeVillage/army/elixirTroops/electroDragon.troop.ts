@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/electroDragon/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		"Possessing iron-tough scales and a breath of devastating lightning, the Electro Dragon's favorite thing is raining destruction from above. When vanquished, the Electro Dragon even pummels the ground with lightning strikes!",
 	maxLevel: 7,
 	housingSpace: 30,
-	barracksLevelRequired: 13,
+	buildingLevelRequired: 13,
+	buildingName: Constants.barracks,
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 6,
@@ -31,7 +32,7 @@ const troop: Army = {
 			level: 1,
 			damagePerSecond: 240,
 			damagePerAttack: 840,
-			damageWhenDestroyed: 65,
+			damageUponDeath: 65,
 			hitpoints: 3200,
 			researchCost: 0,
 			researchCostResource: Constants.elixir,
@@ -47,7 +48,7 @@ const troop: Army = {
 			level: 2,
 			damagePerSecond: 270,
 			damagePerAttack: 945,
-			damageWhenDestroyed: 75,
+			damageUponDeath: 75,
 			hitpoints: 3700,
 			researchCost: 6300000,
 			researchCostResource: Constants.elixir,
@@ -63,7 +64,7 @@ const troop: Army = {
 			level: 3,
 			damagePerSecond: 300,
 			damagePerAttack: 1050,
-			damageWhenDestroyed: 85,
+			damageUponDeath: 85,
 			hitpoints: 4200,
 			researchCost: 7000000,
 			researchCostResource: Constants.elixir,
@@ -79,7 +80,7 @@ const troop: Army = {
 			level: 4,
 			damagePerSecond: 330,
 			damagePerAttack: 1155,
-			damageWhenDestroyed: 95,
+			damageUponDeath: 95,
 			hitpoints: 4500,
 			researchCost: 9600000,
 			researchCostResource: Constants.elixir,
@@ -95,7 +96,7 @@ const troop: Army = {
 			level: 5,
 			damagePerSecond: 360,
 			damagePerAttack: 1260,
-			damageWhenDestroyed: 105,
+			damageUponDeath: 105,
 			hitpoints: 4800,
 			researchCost: 18000000,
 			researchCostResource: Constants.elixir,
@@ -111,7 +112,7 @@ const troop: Army = {
 			level: 6,
 			damagePerSecond: 390,
 			damagePerAttack: 1365,
-			damageWhenDestroyed: 115,
+			damageUponDeath: 115,
 			hitpoints: 5100,
 			researchCost: 20000000,
 			researchCostResource: Constants.elixir,
@@ -127,7 +128,7 @@ const troop: Army = {
 			level: 7,
 			damagePerSecond: 420,
 			damagePerAttack: 1470,
-			damageWhenDestroyed: 125,
+			damageUponDeath: 125,
 			hitpoints: 5300,
 			researchCost: 22000000,
 			researchCostResource: Constants.elixir,

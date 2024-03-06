@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		"Is P.E.K.K.A a knight? A samurai? A robot? No one knows! P.E.K.K.A's armor absorbs even the mightiest of blows.",
 	maxLevel: 11,
 	housingSpace: 25,
-	barracksLevelRequired: 10,
+	buildingLevelRequired: 10,
+	buildingName: Constants.barracks,
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 3,

@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/balloon/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'These promoted skeletons have traded in their joy of destroying walls for a joy of destroying defenses. Deploy them to take out pesky mortars and cannons!',
 	maxLevel: 11,
 	housingSpace: 5,
-	barracksLevelRequired: 6,
+	buildingLevelRequired: 6,
+	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Rocket Balloon',
 	training: {
 		barracksAvailableSec: 30,

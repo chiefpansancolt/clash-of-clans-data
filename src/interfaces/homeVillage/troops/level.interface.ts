@@ -7,6 +7,32 @@ interface Level extends ArmyLevel {
 	researchTimeDay: number
 	laboratoryLevelRequired: number
 	baseImgUrl: string
+	auraHpIncrease?: number
+	abilityDamagePerSecond?: number
+	damageUponDeath?: number
+	auraDamagePerSecond?: number
+	auraDamagePerHit?: number
+	dpsOnResourceBuildings?: number
+	golemitesSpawned?: number
+	dpsOnHeroes?: number
+	speedDecrease?: number
+	attackRateDecrease?: number
+	healingPerSecond?: number
+	healingPerPulse?: number
+	healingPerSecondOnHeroes?: number
+	freezeTimeAfterDeathOnOffense?: number
+	freezeTimeAfterDeathOnDefense?: number
+	lavaPupsOnOffense?: number
+	lavaPupsOnDefense?: number
+	wallDamagePerSecond?: number
+	wallDamagePerHit?: number
+	damageVsWalls?: number
+	damageWhenDestroyedVsWalls?: number
+	skeletonsPerSummon?: number
+	maxSkeletonsSummoned?: number
+	yetimitesSpawned?: number
+	totalHealing?: number
+	totalHealingOnHeros?: number
 }
 
 export default Level

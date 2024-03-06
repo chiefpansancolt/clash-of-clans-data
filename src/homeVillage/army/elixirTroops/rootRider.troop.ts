@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/rootRider/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'This earth warrior is so in tune with nature she doesn’t need to walk herself. Riding into battle on top a tough tree root which can smash through walls and slam defenses into dust.',
 	maxLevel: 3,
 	housingSpace: 20,
-	barracksLevelRequired: 17,
+	buildingLevelRequired: 17,
+	buildingName: Constants.barracks,
 	training: {
 		barracksAvailableSec: 40,
 		barracksAvailableMin: 3,

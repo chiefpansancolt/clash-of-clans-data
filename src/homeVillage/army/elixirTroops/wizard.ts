@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'The Wizard is a terrifying presence on the battlefield. Pair him up with some of his fellows and cast concentrated blasts of destruction on anything, land or sky!',
 	maxLevel: 12,
 	housingSpace: 4,
-	barracksLevelRequired: 7,
+	buildingLevelRequired: 7,
+	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Wizard',
 	training: {
 		barracksAvailableSec: 30,

@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/babyDragon/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'This fire-breathing hatchling is shy around other air units, but leave it alone and it will throw a fit! When not around other air units, Baby Dragons become enraged and gain bonus damage and attack speed.',
 	maxLevel: 9,
 	housingSpace: 10,
-	barracksLevelRequired: 11,
+	buildingLevelRequired: 11,
+	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Inferno Dragon',
 	training: {
 		barracksAvailableSec: 30,

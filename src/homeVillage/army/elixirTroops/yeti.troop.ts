@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/yeti/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		"The heavy-hitting furry fellow digs cold weather and his Yetimite buddies. Hurt him, and you'll make the Yetimites real angry.",
 	maxLevel: 5,
 	housingSpace: 18,
-	barracksLevelRequired: 14,
+	buildingLevelRequired: 14,
+	buildingName: Constants.barracks,
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 3,

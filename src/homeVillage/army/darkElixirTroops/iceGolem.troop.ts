@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/iceGolem/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'The Ice Golem has a chilling personality and absolutely zero sense of humour. He frosts over everything he touches, freezes his surroundings when destroyed and ices up when talked to at a party. On defense his freeze effect is smaller and has a shorter duration.',
 	maxLevel: 7,
 	housingSpace: 15,
-	barracksLevelRequired: 8,
+	buildingLevelRequired: 8,
+	buildingName: Constants.darkBarracks,
 	training: {
 		barracksAvailableSec: 30,
 		barracksAvailableMin: 2,

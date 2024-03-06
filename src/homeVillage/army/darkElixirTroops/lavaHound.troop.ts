@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/lavaHound/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		"These fiery beasts can't resist chasing after Air Defenses, providing excellent protection for other troops. Once destroyed, they erupt into many smaller, weaker menaces.",
 	maxLevel: 6,
 	housingSpace: 30,
-	barracksLevelRequired: 6,
+	buildingLevelRequired: 6,
+	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Ice Hound',
 	training: {
 		barracksAvailableSec: 0,

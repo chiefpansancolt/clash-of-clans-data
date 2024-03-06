@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/electroTitan/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'Barely controlling her raw magical power, the Electro Titan is a formidable force on the battlefield. She channels some of her magic into a powerful electro whip while the rest spills out to damage everything around her.',
 	maxLevel: 3,
 	housingSpace: 32,
-	barracksLevelRequired: 16,
+	buildingLevelRequired: 16,
+	buildingName: Constants.barracks,
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 6,

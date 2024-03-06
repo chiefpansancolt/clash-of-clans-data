@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/dragonRider/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		"This aerial engine of destruction readily and frankly, quite excitedly lays waste to any defense it comes across. The skeleton onboard swears he's not touching the controls.",
 	maxLevel: 4,
 	housingSpace: 25,
-	barracksLevelRequired: 15,
+	buildingLevelRequired: 15,
+	buildingName: Constants.barracks,
 	training: {
 		barracksAvailableSec: 10,
 		barracksAvailableMin: 4,

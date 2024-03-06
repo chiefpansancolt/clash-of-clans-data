@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/witch/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'The Witch never fights alone, constantly raising dead warriors from past battles to lead her attacks. Upgraded Witches raise more skeletons at a time.',
 	maxLevel: 7,
 	housingSpace: 12,
-	barracksLevelRequired: 5,
+	buildingLevelRequired: 5,
+	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Super Witch',
 	training: {
 		barracksAvailableSec: 0,

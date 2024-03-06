@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders bounce off their targets and hit again behind it for a double strike!',
 	maxLevel: 7,
 	housingSpace: 6,
-	barracksLevelRequired: 7,
+	buildingLevelRequired: 7,
+	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Super Bowler',
 	training: {
 		barracksAvailableSec: 0,

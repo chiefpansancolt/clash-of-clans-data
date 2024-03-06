@@ -1,7 +1,7 @@
 interface Level {
 	level: number
-	hitpoints: number
-	damagePerSecond: number
+	hitpoints?: number
+	damagePerSecond?: number
 	damagePerAttack?: number
 	researchCost: number
 	researchCostResource: string

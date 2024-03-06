@@ -7,7 +7,7 @@ const troop: Army = {
 	description: '',
 	maxLevel: 0,
 	housingSpace: 0,
-	barracksLevelRequired: 0,
+	buildingLevelRequired: 0,
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 0,

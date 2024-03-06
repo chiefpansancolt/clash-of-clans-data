@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/goblin/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'These pesky little creatures only have eyes for one thing: LOOT! They are faster than a Spring Trap, and their hunger for resources is limitless.',
 	maxLevel: 9,
 	housingSpace: 1,
-	barracksLevelRequired: 4,
+	buildingLevelRequired: 4,
+	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Sneaky Goblin',
 	training: {
 		barracksAvailableSec: 7,

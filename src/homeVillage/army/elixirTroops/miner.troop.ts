@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		'These sneaky shovelers burrow underground, pass beneath walls, and pop up right next to their targets. While underground, Miners cannot be damaged and will not trigger traps, but still gain bonuses from Spells.',
 	maxLevel: 10,
 	housingSpace: 6,
-	barracksLevelRequired: 12,
+	buildingLevelRequired: 12,
+	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Miner',
 	training: {
 		barracksAvailableSec: 30,

@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import Army from '@IHomeVillage/troops/elixirTroops/headhunter/army.interface'
+import Army from '@IHomeVillage/troops/army.interface'
 import { getLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
@@ -8,7 +8,8 @@ const troop: Army = {
 		"Headhunter has just one job: taking out enemy heroes. As her other job, she works at the village apothecary. She's lightweight enough to jump over walls and her poisoned weapons make her targets move and attack slower.",
 	maxLevel: 3,
 	housingSpace: 6,
-	barracksLevelRequired: 9,
+	buildingLevelRequired: 9,
+	buildingName: Constants.darkBarracks,
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 1,
