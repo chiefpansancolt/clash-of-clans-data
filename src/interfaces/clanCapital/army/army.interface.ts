@@ -5,6 +5,8 @@ import Details from '@IClanCapital/hall/hallDetails.interface'
 
 interface ArmyBuilding extends Building {
 	ruinImgUrl: string
+	troopUnlocked?: string
+	spellUnlocked?: string
 	levels: Level[]
 	districtHallDetails: DistrictHallDetails[]
 

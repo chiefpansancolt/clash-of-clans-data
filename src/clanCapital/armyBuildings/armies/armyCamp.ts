@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ArmyBuilding from '@IClanCapital/army/armyCamp/army.interface'
+import ArmyBuilding from '@IClanCapital/army/army.interface'
 import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ArmyBuilding = {
@@ -70,7 +70,7 @@ const building: ArmyBuilding = {
 	levels: [
 		{
 			level: 1,
-			troopCapacity: 30,
+			capacity: 30,
 			hitpoints: 600,
 			buildCost: 10000,
 			buildCostResource: Constants.capitalGold,
@@ -80,7 +80,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 2,
-			troopCapacity: 35,
+			capacity: 35,
 			hitpoints: 750,
 			buildCost: 25000,
 			buildCostResource: Constants.capitalGold,
@@ -90,7 +90,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 3,
-			troopCapacity: 40,
+			capacity: 40,
 			hitpoints: 900,
 			buildCost: 50000,
 			buildCostResource: Constants.capitalGold,
@@ -100,7 +100,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 4,
-			troopCapacity: 45,
+			capacity: 45,
 			hitpoints: 1050,
 			buildCost: 75000,
 			buildCostResource: Constants.capitalGold,
@@ -110,7 +110,7 @@ const building: ArmyBuilding = {
 		},
 		{
 			level: 5,
-			troopCapacity: 50,
+			capacity: 50,
 			hitpoints: 1200,
 			buildCost: 150000,
 			buildCostResource: Constants.capitalGold,

@@ -1,5 +1,5 @@
 import * as Constants from '@/constants'
-import ArmyBuilding from '@IClanCapital/army/spellFactory/army.interface'
+import ArmyBuilding from '@IClanCapital/army/army.interface'
 import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: ArmyBuilding = {

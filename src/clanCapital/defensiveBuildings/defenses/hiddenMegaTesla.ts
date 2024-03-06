@@ -1,5 +1,5 @@
-import * as Constants from '../../../constants'
-import DefenseBuilding from '@IClanCapital/defenses/hiddenMegaTesla/defense.interface'
+import * as Constants from '@/constants'
+import DefenseBuilding from '@IClanCapital/defenses/defense.interface'
 import { getDistrictHallLevel, getLevel, getSize } from '@Utils/buildings.utility'
 
 const building: DefenseBuilding = {
