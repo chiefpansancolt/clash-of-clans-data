@@ -13,6 +13,13 @@ interface Mode extends ModeMain {
 	summonCooldown?: number
 	numberOfPulses?: number
 	timeBetweenPulses?: number
+	specialAbility?: string
+	rageMovementSpeedIncreased?: number
+	rageDamageIncrease?: number
+	deathDamageRadius?: number
+	timeBetweenShots?: number
+	timeBetweenBursts?: number
+	numberOfShotsPerBurst?: number
 }
 
 export default Mode

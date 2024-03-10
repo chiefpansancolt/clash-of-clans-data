@@ -3,8 +3,8 @@ interface Level {
 	hitpoints?: number
 	damagePerSecond?: number
 	damagePerAttack?: number
-	researchCost: number
-	researchCostResource: string
+	researchCost?: number
+	researchCostResource?: string
 }
 
 export default Level

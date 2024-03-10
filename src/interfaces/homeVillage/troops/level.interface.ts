@@ -1,11 +1,11 @@
 import ArmyLevel from '@ICommon/army/level.interface'
 
 interface Level extends ArmyLevel {
-	researchTimeSec: number
-	researchTimeMin: number
-	researchTimeHour: number
-	researchTimeDay: number
-	laboratoryLevelRequired: number
+	researchTimeSec?: number
+	researchTimeMin?: number
+	researchTimeHour?: number
+	researchTimeDay?: number
+	laboratoryLevelRequired?: number
 	baseImgUrl: string
 	auraHpIncrease?: number
 	abilityDamagePerSecond?: number
@@ -33,6 +33,16 @@ interface Level extends ArmyLevel {
 	yetimitesSpawned?: number
 	totalHealing?: number
 	totalHealingOnHeros?: number
+	secondaryChainDamage?: number
+	damagePerSecondStage1?: number
+	damagePerSecondStage2?: number
+	damagePerSecondStage3?: number
+	freezeTimeUponDeath?: number
+	icePupsSpawnedOnOffense?: number
+	icePupsSpawnedOnDefense?: number
+	damagePerSecondInitial?: number
+	damagePerSecondAfter1_5?: number
+	damagePerSecondAfter3?: number
 }
 
 export default Level

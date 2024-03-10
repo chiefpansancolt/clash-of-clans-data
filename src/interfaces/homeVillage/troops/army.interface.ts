@@ -6,13 +6,17 @@ import Effectiveness from '@IHomeVillage/troops/effectiveness.interface'
 
 interface Army extends BaseArmy {
 	housingSpace: number
-	buildingLevelRequired: number
+	buildingLevelRequired?: number
 	buildingName: string
 	training?: Training
 	superTroopUnlocked?: string
 	levels: Level[]
 	mode?: Mode | Mode[]
 	effectiveness?: Effectiveness[]
+	troopUnlockLevel?: number
+	boostCost: number
+	boostResource: string
+	boostDurationDays: number
 
 	getLevel(level: number): Level | undefined
 }
