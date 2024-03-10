@@ -20,6 +20,7 @@ interface Mode extends ModeMain {
 	timeBetweenShots?: number
 	timeBetweenBursts?: number
 	numberOfShotsPerBurst?: number
+	searchRadius?: number
 }
 
 export default Mode

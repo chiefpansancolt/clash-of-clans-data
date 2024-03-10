@@ -6,6 +6,7 @@ interface Level extends ArmyLevel {
 	researchTimeHour?: number
 	researchTimeDay?: number
 	laboratoryLevelRequired?: number
+	townHallLevelRequired?: number
 	baseImgUrl: string
 	auraHpIncrease?: number
 	abilityDamagePerSecond?: number
@@ -43,6 +44,9 @@ interface Level extends ArmyLevel {
 	damagePerSecondInitial?: number
 	damagePerSecondAfter1_5?: number
 	damagePerSecondAfter3?: number
+	healthRecovery?: number
+	regenTime?: number
+	airModeImgUrl?: string
 }
 
 export default Level

@@ -1,7 +1,7 @@
 import DistrictHallDetails from '@IClanCapital/hall/details.interface'
 import HallDetails from '@IClanCapital/hall/hallDetails.interface'
-import Treasury from '@IHomeVillage/resources/clanCastle/treasury.interface'
-import TreasuryCapacity from '@IHomeVillage/resources/clanCastle/treasuryCapacity.interface'
+import Treasury from '@IHomeVillage/resources/treasury.interface'
+import TreasuryCapacity from '@IHomeVillage/resources/treasuryCapacity.interface'
 import TownHallLevel from '@IHomeVillage/townHall/level.interface'
 import TownHallSubLevel from '@IHomeVillage/townHall/subLevel.interface'
 import ModeLevel from '@IHomeVillage/defenses/modeLevel.interface'
@@ -33,8 +33,8 @@ export function getModeLevel(levelsArray: ModeLevel[] | undefined, modeName: str
 	}
 }
 
-export function getHallLevel<T>(hallLevelArray: T[], level: number, levelProperty: keyof T): T | undefined {
-	const foundHallLevel = hallLevelArray.find((obj) => obj[levelProperty] === level)
+export function getHallLevel<T>(hallLevelArray: T[] | undefined, level: number, levelProperty: keyof T): T | undefined {
+	const foundHallLevel = hallLevelArray?.find((obj) => obj[levelProperty] === level)
 
 	if (foundHallLevel) {
 		return foundHallLevel
