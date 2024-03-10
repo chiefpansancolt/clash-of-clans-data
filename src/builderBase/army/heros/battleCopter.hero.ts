@@ -1,6 +1,6 @@
 import * as Constants from '@/constants'
 import Army from '@IBuilderBase/troops/army.interface'
-import { getLevel } from '@Utils/buildings.utility'
+import { getLevel, getHallLevel } from '@Utils/buildings.utility'
 
 const troop: Army = {
 	name: 'Battle Copter',
@@ -407,6 +407,7 @@ const troop: Army = {
 		},
 	],
 	getLevel: (level: number) => getLevel(troop.levels, level, 'level'),
+	getBuilderHallLevel: (level: number) => getHallLevel(troop.builderHallDetails, level, 'builderHallLevel'),
 }
 
 export default troop
