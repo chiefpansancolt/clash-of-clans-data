@@ -26,6 +26,8 @@ interface Mode extends ModeMain {
 	bonusDamage?: number
 	areaDamageRadius?: number
 	attackingRange?: number
+	lifetime?: number
+	hitpointDecayPerSecond?: number
 }
 
 export default Mode

@@ -55,6 +55,13 @@ interface Level extends ArmyLevel {
 	blacksmithLevelRequired?: number
 	abilityAttribute?: AbilityAttributes
 	heroBoost?: HeroBoosts
+	pointBlankDamage?: number
+	lifetime?: number
+	flameMaxiumDamagePerSecond?: number
+	troopsSpawned?: {
+		pekkaCount: number
+		wizardCount: number
+	}
 }
 
 export default Level
