@@ -21,6 +21,11 @@ interface Mode extends ModeMain {
 	timeBetweenBursts?: number
 	numberOfShotsPerBurst?: number
 	searchRadius?: number
+	abilityDuration?: number
+	abilityRadius?: number
+	bonusDamage?: number
+	areaDamageRadius?: number
+	attackingRange?: number
 }
 
 export default Mode

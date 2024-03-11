@@ -19,6 +19,10 @@ interface Army extends BaseArmy {
 	boostResource?: string
 	boostDurationDays?: number
 	townHallDetails?: TownHallDetails[]
+	hero?: string
+	abilityType?: string
+	rarity?: string
+	unlockRequirement?: string
 
 	getLevel(level: number): Level | undefined
 	getTownHallLevel?(level: number): TownHallDetails | undefined

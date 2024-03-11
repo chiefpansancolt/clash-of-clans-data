@@ -1,4 +1,6 @@
 import ArmyLevel from '@ICommon/army/level.interface'
+import AbilityAttributes from '@IHomeVillage/troops/abilityAttributes.interface'
+import HeroBoosts from '@IHomeVillage/troops/heroBoosts.interface'
 
 interface Level extends ArmyLevel {
 	researchTimeSec?: number
@@ -47,6 +49,12 @@ interface Level extends ArmyLevel {
 	healthRecovery?: number
 	regenTime?: number
 	airModeImgUrl?: string
+	shinyOreUpgradeCost?: number
+	glowyOreUpgradeCost?: number
+	starryOreUpgradeCost?: number
+	blacksmithLevelRequired?: number
+	abilityAttribute?: AbilityAttributes
+	heroBoost?: HeroBoosts
 }
 
 export default Level
