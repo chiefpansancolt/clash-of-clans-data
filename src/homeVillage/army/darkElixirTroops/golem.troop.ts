@@ -10,6 +10,8 @@ const troop: Army = {
 	housingSpace: 30,
 	buildingLevelRequired: 4,
 	buildingName: Constants.darkBarracks,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/4/44/Avatar_Golem.png/revision/latest/scale-to-width-down/120?cb=20170525070403',
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 5,

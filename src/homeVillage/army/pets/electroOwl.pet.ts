@@ -9,7 +9,7 @@ const troop: Army = {
 	maxLevel: 15,
 	buildingLevelRequired: 2,
 	buildingName: Constants.petHouse,
-	baseImgUrl:
+	avatarImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/6/6e/Avatar_Electro_Owl.png/revision/latest/scale-to-width-down/120?cb=20210413063517',
 	mode: {
 		attackType: Constants.chainLightning,

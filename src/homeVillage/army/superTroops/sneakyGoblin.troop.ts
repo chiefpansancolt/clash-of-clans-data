@@ -13,6 +13,8 @@ const troop: Army = {
 	boostCost: 25000,
 	boostResource: Constants.darkElixir,
 	boostDurationDays: 3,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/6/6e/Avatar_Sneaky_Goblin.png/revision/latest/scale-to-width-down/137?cb=20200913075807',
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 21,

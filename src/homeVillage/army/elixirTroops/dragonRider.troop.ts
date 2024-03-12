@@ -10,6 +10,8 @@ const troop: Army = {
 	housingSpace: 25,
 	buildingLevelRequired: 15,
 	buildingName: Constants.barracks,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/5/50/Avatar_Dragon_Rider.png/revision/latest/scale-to-width-down/120?cb=20210618061045',
 	training: {
 		barracksAvailableSec: 10,
 		barracksAvailableMin: 4,

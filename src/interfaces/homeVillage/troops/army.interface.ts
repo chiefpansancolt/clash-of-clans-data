@@ -23,7 +23,6 @@ interface Army extends BaseArmy {
 	abilityType?: string
 	rarity?: string
 	unlockRequirement?: string
-	baseImgUrl?: string
 	eggImgUrl?: string
 
 	getLevel(level: number): Level | undefined

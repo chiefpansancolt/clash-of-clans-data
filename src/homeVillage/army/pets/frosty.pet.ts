@@ -9,7 +9,7 @@ const troop: Army = {
 	maxLevel: 10,
 	buildingLevelRequired: 5,
 	buildingName: Constants.petHouse,
-	baseImgUrl:
+	avatarImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/e/e6/Avatar_Frosty.png/revision/latest/scale-to-width-down/120?cb=20221010075232',
 	mode: {
 		attackType: Constants.singleTarget,

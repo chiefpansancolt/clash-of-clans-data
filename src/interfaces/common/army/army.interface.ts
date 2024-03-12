@@ -7,6 +7,7 @@ interface Army {
 	maxLevel: number
 	mode?: Mode | Mode[]
 	levels: Level[]
+	avatarImgUrl: string
 
 	getLevel(level: number): Level | undefined
 }

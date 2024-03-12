@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 5,
 	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Super Witch',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/9/90/Avatar_Witch.png/revision/latest/scale-to-width-down/120?cb=20170525070544',
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 2,

@@ -10,7 +10,7 @@ const troop: Army = {
 	housingSpace: 1,
 	buildingLevelRequired: 4,
 	buildingName: Constants.workshop,
-	baseImgUrl:
+	avatarImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/f/fe/Avatar_Siege_Barracks.png/revision/latest/scale-to-width-down/120?cb=20200913200141',
 	training: {
 		barracksAvailableSec: 0,

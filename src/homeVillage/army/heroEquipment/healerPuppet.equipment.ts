@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.active,
 	rarity: Constants.common,
 	unlockRequirement: Constants.blacksmithLevel5,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/d/dd/Healer_Puppet.png/revision/latest/scale-to-width-down/200?cb=20231211154103',
 	levels: [
 		{
 			level: 1,

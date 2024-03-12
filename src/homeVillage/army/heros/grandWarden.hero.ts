@@ -7,6 +7,8 @@ const troop: Army = {
 	description:
 		'The Grand Warden is a powerful master of magic who supports your attacking troops with blasts from his magic staff. He can walk over walls or fly high with air troops so can help any attacking army. On defense he turns into a powerful tower.',
 	maxLevel: 70,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/1/1d/Avatar_Hero_Grand_Warden.png/revision/latest/scale-to-width-down/100?cb=20200913051658',
 	mode: {
 		attackType: Constants.ranged,
 		unitTypeTarget: Constants.groundAndAir,

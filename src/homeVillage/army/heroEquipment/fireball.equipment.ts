@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.active,
 	rarity: Constants.epic,
 	unlockRequirement: Constants.superDragonSpotlight,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/4/49/Fireball_Equipment.png/revision/latest/scale-to-width-down/199?cb=20240310155549',
 	levels: [
 		{
 			level: 1,

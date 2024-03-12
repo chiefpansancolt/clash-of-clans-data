@@ -10,6 +10,8 @@ const troop: Army = {
 	housingSpace: 20,
 	buildingLevelRequired: 17,
 	buildingName: Constants.barracks,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/0/0b/Avatar_Root_Rider.png/revision/latest/scale-to-width-down/120?cb=20231213214829',
 	training: {
 		barracksAvailableSec: 40,
 		barracksAvailableMin: 3,

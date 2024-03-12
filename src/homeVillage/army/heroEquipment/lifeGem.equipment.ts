@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.passive,
 	rarity: Constants.common,
 	unlockRequirement: Constants.availableByDefault,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/f/fe/Life_Gem.png/revision/latest/scale-to-width-down/200?cb=20231212145821',
 	levels: [
 		{
 			level: 1,

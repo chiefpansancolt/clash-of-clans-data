@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 7,
 	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Super Bowler',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/2/24/Avatar_Bowler.png/revision/latest/scale-to-width-down/120?cb=20170525070202',
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 1,

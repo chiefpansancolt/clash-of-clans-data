@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 7,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Wizard',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/9/97/Avatar_Wizard.png/revision/latest/scale-to-width-down/120?cb=20200913195243',
 	training: {
 		barracksAvailableSec: 30,
 		barracksAvailableMin: 0,

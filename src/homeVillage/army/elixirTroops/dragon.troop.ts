@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 9,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Dragon',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/9/9c/Avatar_Dragon.png/revision/latest/scale-to-width-down/120?cb=20200913195335',
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 3,

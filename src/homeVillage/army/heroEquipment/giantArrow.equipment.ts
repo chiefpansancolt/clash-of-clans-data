@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.active,
 	rarity: Constants.common,
 	unlockRequirement: Constants.blacksmithLevel2,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/b/bb/Giant_Arrow.png/revision/latest/scale-to-width-down/200?cb=20231211154034',
 	mode: {
 		damageRadius: 1,
 	},

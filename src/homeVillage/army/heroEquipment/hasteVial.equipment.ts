@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.active,
 	rarity: Constants.common,
 	unlockRequirement: Constants.blacksmithLevel8,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/3/32/Hog_Rider_Puppet.png/revision/latest/scale-to-width-down/200?cb=20240225143837',
 	levels: [
 		{
 			level: 1,

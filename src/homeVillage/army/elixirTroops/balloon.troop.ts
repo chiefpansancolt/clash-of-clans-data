@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 6,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Rocket Balloon',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/8/80/Avatar_Balloon.png/revision/latest/scale-to-width-down/120?cb=20170525070200',
 	training: {
 		barracksAvailableSec: 30,
 		barracksAvailableMin: 0,

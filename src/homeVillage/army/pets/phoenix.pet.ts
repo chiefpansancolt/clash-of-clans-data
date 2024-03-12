@@ -9,7 +9,7 @@ const troop: Army = {
 	maxLevel: 10,
 	buildingLevelRequired: 8,
 	buildingName: Constants.petHouse,
-	baseImgUrl:
+	avatarImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/4/4f/Avatar_Phoenix.png/revision/latest/scale-to-width-down/120?cb=20221010075232',
 	eggImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/7/7c/Phoenix_egg.png/revision/latest/scale-to-width-down/40?cb=20221012063802',

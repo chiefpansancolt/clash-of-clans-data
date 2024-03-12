@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.active,
 	rarity: Constants.common,
 	unlockRequirement: Constants.availableByDefault,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/2/29/Eternal_Tome.png/revision/latest/scale-to-width-down/200?cb=20231211154154',
 	levels: [
 		{
 			level: 1,

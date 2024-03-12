@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 3,
 	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Super Valkyrie',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/3/31/Avatar_Valkyrie.png/revision/latest/scale-to-width-down/120?cb=20170525070543',
 	training: {
 		barracksAvailableSec: 30,
 		barracksAvailableMin: 1,

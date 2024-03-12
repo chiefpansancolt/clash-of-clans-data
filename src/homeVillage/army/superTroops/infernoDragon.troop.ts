@@ -13,6 +13,8 @@ const troop: Army = {
 	boostCost: 25000,
 	boostResource: Constants.darkElixir,
 	boostDurationDays: 3,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/0/0b/Avatar_Inferno_Dragon.png/revision/latest/scale-to-width-down/137?cb=20200913075841',
 	training: {
 		barracksAvailableSec: 15,
 		barracksAvailableMin: 2,

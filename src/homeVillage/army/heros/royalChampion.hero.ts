@@ -7,6 +7,8 @@ const troop: Army = {
 	description:
 		"Over the wall and at them! The Royal Champion is only afraid of four things, and the enemy isn't one of them. Her short ranged is perfect for stabbing defenses up close and personal.",
 	maxLevel: 45,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/8/8e/Avatar_Hero_Royal_Champion.png/revision/latest/scale-to-width-down/100?cb=20200913051659',
 	mode: {
 		attackType: Constants.ranged,
 		unitTypeTarget: Constants.groundAndAir,

@@ -7,6 +7,8 @@ const troop: Army = {
 	description:
 		'Towering above all other archers, this graceful huntress is a master of destructive force, Alhough her health is modest, she snipes targets from afar with her powerful X-bow. As a defender she guards the village with a vengeance.',
 	maxLevel: 95,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/b/b6/Avatar_Hero_Archer_Queen.png/revision/latest/scale-to-width-down/100?cb=20200913051658',
 	mode: {
 		attackType: Constants.ranged,
 		unitTypeTarget: Constants.groundAndAir,

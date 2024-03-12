@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.passive,
 	rarity: Constants.common,
 	unlockRequirement: Constants.blacksmithLevel3,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/6/6d/Vampstache.png/revision/latest/scale-to-width-down/200?cb=20231211153806',
 	levels: [
 		{
 			level: 1,

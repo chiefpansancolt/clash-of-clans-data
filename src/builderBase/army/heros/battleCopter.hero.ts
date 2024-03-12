@@ -7,6 +7,8 @@ const troop: Army = {
 	description:
 		"Get to the Copter! Tired of hammering through Walls, Master Builder's next-generation flying machine lets him soar over them. The Battle Copter attacks from afar with its powerful cannons; or can get up close and personal when using its Bomb Rush ability.",
 	maxLevel: 35,
+	baseImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/a/ae/Avatar_Hero_Battle_Copter.png/revision/latest/scale-to-width-down/100?cb=20230518083246',
 	mode: {
 		attackType: Constants.ranged,
 		unitTypeTarget: Constants.groundAndAir,

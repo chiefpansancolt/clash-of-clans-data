@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 5,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Wallbreaker',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/3/36/Avatar_Wall_Breaker.png/revision/latest/scale-to-width-down/120?cb=20200913015114',
 	training: {
 		barracksAvailableSec: 15,
 		barracksAvailableMin: 0,

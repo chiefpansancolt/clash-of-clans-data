@@ -9,7 +9,7 @@ const troop: Army = {
 	maxLevel: 10,
 	buildingLevelRequired: 9,
 	buildingName: Constants.petHouse,
-	baseImgUrl:
+	avatarImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/5/52/Avatar_Spirit_Fox.png/revision/latest/scale-to-width-down/120?cb=20231213215131',
 	mode: {
 		attackType: Constants.singleTarget,

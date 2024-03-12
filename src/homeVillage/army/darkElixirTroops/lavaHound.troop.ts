@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 6,
 	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Ice Hound',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/1/1b/Avatar_Lava_Hound.png/revision/latest/scale-to-width-down/120?cb=20200913195616',
 	training: {
 		barracksAvailableSec: 0,
 		barracksAvailableMin: 5,

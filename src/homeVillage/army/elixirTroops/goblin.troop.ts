@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 4,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Sneaky Goblin',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/6/68/Avatar_Goblin.png/revision/latest/scale-to-width-down/120?cb=20200913195137',
 	training: {
 		barracksAvailableSec: 7,
 		barracksAvailableMin: 0,

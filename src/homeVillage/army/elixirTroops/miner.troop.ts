@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 12,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Miner',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/7/7a/Avatar_Miner.png/revision/latest/scale-to-width-down/120?cb=20170525070405',
 	training: {
 		barracksAvailableSec: 30,
 		barracksAvailableMin: 0,

@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.active,
 	rarity: Constants.epic,
 	unlockRequirement: Constants.cookieRumble,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/2/27/Giant_Gauntlet.png/revision/latest/scale-to-width-down/1000?cb=20231218115547',
 	mode: {
 		areaDamageRadius: 2.5,
 	},

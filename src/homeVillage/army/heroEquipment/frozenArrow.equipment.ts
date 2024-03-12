@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.passive,
 	rarity: Constants.epic,
 	unlockRequirement: Constants.dragonFestival,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/2/23/Frozen_Arrow.png/revision/latest?cb=20240207193559',
 	levels: [
 		{
 			level: 1,

@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 2,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Archer',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/6/68/Avatar_Archer.png/revision/latest/scale-to-width-down/120?cb=20200913014217',
 	training: {
 		barracksAvailableSec: 6,
 		barracksAvailableMin: 0,

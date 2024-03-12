@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.passive,
 	rarity: Constants.common,
 	unlockRequirement: Constants.blacksmithLevel4,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/8/8f/Rage_Gem.png/revision/latest/scale-to-width-down/200?cb=20231211154245',
 	levels: [
 		{
 			level: 1,

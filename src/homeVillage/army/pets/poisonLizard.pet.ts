@@ -9,7 +9,7 @@ const troop: Army = {
 	maxLevel: 10,
 	buildingLevelRequired: 7,
 	buildingName: Constants.petHouse,
-	baseImgUrl:
+	avatarImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/a/aa/Avatar_Poison_Lizard.png/revision/latest/scale-to-width-down/120?cb=20221010075234',
 	mode: {
 		attackType: Constants.singleTarget,

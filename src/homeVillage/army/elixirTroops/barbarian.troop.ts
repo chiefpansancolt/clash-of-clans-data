@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 1,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Barbarian',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/8/87/Avatar_Barbarian.png/revision/latest/scale-to-width-down/120?cb=20170525070200',
 	training: {
 		barracksAvailableSec: 5,
 		barracksAvailableMin: 0,

@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.active,
 	rarity: Constants.common,
 	unlockRequirement: Constants.availableByDefault,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/3/36/Seeking_Shield.png/revision/latest/scale-to-width-down/200?cb=20231211154339',
 	mode: {
 		numberOfTargets: 4,
 		unitTypeTarget: Constants.groundAndAir,

@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 1,
 	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Super Minion',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/3/3b/Avatar_Minion.png/revision/latest/scale-to-width-down/120?cb=20170525070405',
 	training: {
 		barracksAvailableSec: 18,
 		barracksAvailableMin: 0,

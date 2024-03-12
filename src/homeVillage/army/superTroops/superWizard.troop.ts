@@ -13,6 +13,8 @@ const troop: Army = {
 	boostCost: 25000,
 	boostResource: Constants.darkElixir,
 	boostDurationDays: 3,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/f/f9/Avatar_Super_Wizard.png/revision/latest/scale-to-width-down/137?cb=20201207184826',
 	training: {
 		barracksAvailableSec: 1,
 		barracksAvailableMin: 15,

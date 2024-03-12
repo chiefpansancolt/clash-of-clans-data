@@ -7,6 +7,8 @@ const troop: Army = {
 	description:
 		'Biggest and bravest of all barbarians, this colossal menace soaks up huge amounts of damage and smashes anything in his path with his sword. He guards his territory fiercely when defending.',
 	maxLevel: 95,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/2/26/Avatar_Hero_Barbarian_King.png/revision/latest/scale-to-width-down/100?cb=20200913051657',
 	mode: {
 		attackType: Constants.melee,
 		unitTypeTarget: Constants.ground,

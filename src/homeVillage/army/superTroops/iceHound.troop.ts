@@ -13,6 +13,8 @@ const troop: Army = {
 	boostCost: 25000,
 	boostResource: Constants.darkElixir,
 	boostDurationDays: 3,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/b/b0/Avatar_Ice_Hound.png/revision/latest/scale-to-width-down/137?cb=20201207184828',
 	training: {
 		barracksAvailableSec: 40,
 		barracksAvailableMin: 6,

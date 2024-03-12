@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 2,
 	buildingName: Constants.darkBarracks,
 	superTroopUnlocked: 'Super Hog Rider',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/e/e9/Avatar_Hog_Rider.png/revision/latest/scale-to-width-down/120?cb=20200913195505',
 	training: {
 		barracksAvailableSec: 45,
 		barracksAvailableMin: 0,

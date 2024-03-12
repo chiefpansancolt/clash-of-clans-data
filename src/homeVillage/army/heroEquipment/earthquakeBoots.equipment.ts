@@ -10,6 +10,8 @@ const troop: Army = {
 	abilityType: Constants.active,
 	rarity: Constants.common,
 	unlockRequirement: Constants.blacksmithLevel1,
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/4/4b/Earthquake_Boots.png/revision/latest/scale-to-width-down/200?cb=20231211153708',
 	mode: {
 		abilityRadius: 6,
 		bonusDamage: 100,

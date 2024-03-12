@@ -6,7 +6,9 @@ const troop: Army = {
 	name: 'Battle Machine',
 	description:
 		"The Master Builder's prize invention smashes enemy buildings to bits. What better way is there to show who's the best builder around? Unlock the Electric Hammer ability to give opponents a real pounding!",
-	maxLevel: 30,
+	maxLevel: 35,
+	baseImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/7/7a/Avatar_Hero_Battle_Machine.png/revision/latest/scale-to-width-down/100?cb=20230518083349',
 	mode: {
 		attackType: Constants.melee,
 		unitTypeTarget: Constants.ground,

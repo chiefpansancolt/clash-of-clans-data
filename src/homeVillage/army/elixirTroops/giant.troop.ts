@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 3,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Super Giant',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/7/7d/Avatar_Giant.png/revision/latest/scale-to-width-down/120?cb=20170525070402',
 	training: {
 		barracksAvailableSec: 30,
 		barracksAvailableMin: 0,

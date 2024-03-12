@@ -11,6 +11,8 @@ const troop: Army = {
 	buildingLevelRequired: 11,
 	buildingName: Constants.barracks,
 	superTroopUnlocked: 'Inferno Dragon',
+	avatarImgUrl:
+		'https://static.wikia.nocookie.net/clashofclans/images/7/7a/Avatar_Baby_Dragon.png/revision/latest/scale-to-width-down/120?cb=20200913014509',
 	training: {
 		barracksAvailableSec: 30,
 		barracksAvailableMin: 1,

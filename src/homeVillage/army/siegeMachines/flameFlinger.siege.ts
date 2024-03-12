@@ -10,7 +10,7 @@ const troop: Army = {
 	housingSpace: 1,
 	buildingLevelRequired: 6,
 	buildingName: Constants.workshop,
-	baseImgUrl:
+	avatarImgUrl:
 		'https://static.wikia.nocookie.net/clashofclans/images/e/e4/Avatar_Flame_Flinger.png/revision/latest/scale-to-width-down/120?cb=20211209130933',
 	training: {
 		barracksAvailableSec: 0,
