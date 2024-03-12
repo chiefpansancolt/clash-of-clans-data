@@ -24,6 +24,7 @@ interface Army extends BaseArmy {
 	rarity?: string
 	unlockRequirement?: string
 	baseImgUrl?: string
+	eggImgUrl?: string
 
 	getLevel(level: number): Level | undefined
 	getTownHallLevel?(level: number): TownHallDetails | undefined

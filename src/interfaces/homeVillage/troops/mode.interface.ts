@@ -28,6 +28,9 @@ interface Mode extends ModeMain {
 	attackingRange?: number
 	lifetime?: number
 	hitpointDecayPerSecond?: number
+	rageDuration?: number
+	rageSpeedIncrease?: number
+	healingSpeed?: number
 }
 
 export default Mode

@@ -58,6 +58,14 @@ interface Level extends ArmyLevel {
 	pointBlankDamage?: number
 	lifetime?: number
 	flameMaxiumDamagePerSecond?: number
+	frostmitesPerSummon?: number
+	maxFrostmitesSummoned?: number
+	stunDuration?: number
+	poisonMaxDamagePerSecond?: number
+	poisonSpeedDecrease?: number
+	poisonAttackRateDecrease?: number
+	reviveDuration?: number
+	invisibilityDuration?: number
 	troopsSpawned?: {
 		pekkaCount: number
 		wizardCount: number
