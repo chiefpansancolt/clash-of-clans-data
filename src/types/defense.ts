@@ -1,0 +1,105 @@
+import { Building, BuildingLevel } from './building';
+import { BuildTime, BuilderHallAvailability, DistrictHallAvailability, ResourceType, TownHallAvailability } from './common';
+
+export interface DefenseModeStats {
+  dps: number;
+  damagePerShot: number;
+}
+
+export interface DefenseMode {
+  range: number;
+  /** Seconds between shots (or between shots within a burst) */
+  attackSpeed: number;
+  damageType: 'single' | 'splash';
+}
+
+export interface BurstDefenseMode extends DefenseMode {
+  shotsPerBurst: number;
+  /** Seconds between last shot of one burst and first shot of the next */
+  timeBetweenBursts: number;
+  /** Building level at which this mode becomes available */
+  availableFromLevel: number;
+}
+
+export interface GearUp {
+  cost: number;
+  costResource: ResourceType;
+  time: BuildTime;
+  /** Minimum building level required to gear up */
+  requiresLevel: number;
+  /** Builder Base building needed to unlock gear up */
+  requiresBuilderBuilding?: string;
+  requiresBuilderBuildingLevel?: number;
+}
+
+// ── Home Village ──────────────────────────────────────────────────────────────
+
+export interface HomeDefenseLevel extends BuildingLevel {
+  townHallRequired: number;
+  stats: {
+    normal: DefenseModeStats;
+    /** Only present on levels where gear-up burst mode is available */
+    gearedUpBurst?: DefenseModeStats;
+  };
+  images: {
+    /** Ungeared appearance */
+    normal: string;
+    /** Geared-up appearance while firing in normal mode (available from gear-up level) */
+    gearedUpNormal?: string;
+    /** Geared-up appearance while firing in burst mode (available from gear-up level) */
+    gearedUpBurst?: string;
+  };
+}
+
+export interface HomeDefense extends Building<HomeDefenseLevel> {
+  targetType: 'ground' | 'air' | 'both';
+  modes: {
+    normal: DefenseMode;
+    /** Present only on buildings that support gear-up burst */
+    gearedUpBurst?: BurstDefenseMode;
+  };
+  /** Present only on buildings that can be geared up */
+  gearUp?: GearUp;
+  /** Number of this building available to place at each Town Hall level */
+  availablePerTownHall: TownHallAvailability[];
+}
+
+// ── Builder Base ──────────────────────────────────────────────────────────────
+
+export interface BuilderDefenseLevel extends BuildingLevel {
+  builderHallRequired: number;
+  stats: {
+    normal: DefenseModeStats;
+  };
+  images: {
+    normal: string;
+  };
+}
+
+export interface BuilderDefense extends Building<BuilderDefenseLevel> {
+  targetType: 'ground' | 'air' | 'both';
+  modes: {
+    normal: DefenseMode;
+  };
+  availablePerBuilderHall: BuilderHallAvailability[];
+}
+
+// ── Clan Capital ──────────────────────────────────────────────────────────────
+
+export interface ClanCapitalDefenseLevel extends BuildingLevel {
+  districtHallRequired: number;
+  stats: {
+    normal: DefenseModeStats;
+  };
+  images: {
+    normal: string;
+  };
+}
+
+export interface ClanCapitalDefense extends Building<ClanCapitalDefenseLevel> {
+  targetType: 'ground' | 'air' | 'both';
+  modes: {
+    normal: DefenseMode;
+  };
+  availablePerDistrictHall: DistrictHallAvailability[];
+}

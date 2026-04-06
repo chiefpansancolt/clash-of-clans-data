@@ -9,4 +9,5 @@ coverage/
 .claude/
 CLAUDE.md
 memory/
-sample/output/
+sample/**/output.txt
+building*.html
