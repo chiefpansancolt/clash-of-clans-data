@@ -1,0 +1,68 @@
+{
+  "id": "firespitter",
+  "name": "Firespitter",
+  "base": "home",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 16,
+      "attackSpeed": 0.064,
+      "damageType": "multiple",
+      "shotsPerBurst": 20,
+      "timeBetweenBursts": 1.0167
+    }
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 17, "count": 2 },
+    { "townHallLevel": 18, "count": 2 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 4500,
+      "buildCost": 17000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 974,
+      "townHallRequired": 17,
+      "stats": {
+        "normal": { "dps": 410, "damagePerShot": 46 }
+      },
+      "images": {
+        "normal": "images/home/defenses/firespitter/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 5000,
+      "buildCost": 18000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 11, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 996,
+      "townHallRequired": 17,
+      "stats": {
+        "normal": { "dps": 437, "damagePerShot": 49 }
+      },
+      "images": {
+        "normal": "images/home/defenses/firespitter/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 5300,
+      "buildCost": 29000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 15, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1138,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": { "dps": 455, "damagePerShot": 51 }
+      },
+      "images": {
+        "normal": "images/home/defenses/firespitter/normal/level-3.png"
+      }
+    }
+  ]
+}
