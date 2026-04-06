@@ -14,5 +14,6 @@ import './home-defenses';
 import './inferno-tower';
 import './mortar';
 import './scattershot';
+import './spell-tower';
 import './wizard-tower';
 import './x-bow';

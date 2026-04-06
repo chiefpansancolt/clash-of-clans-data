@@ -1,5 +1,5 @@
 import { QueryBase } from '@/common/query-base';
-import { HomeDefense } from '@/types';
+import { DefenseMode, HomeDefense } from '@/types';
 import { airDefenseData } from './air-defense';
 import { airSweeperData } from './air-sweeper';
 import { archerTowerData } from './archer-tower';
@@ -11,6 +11,7 @@ import { hiddenTeslaData } from './hidden-tesla';
 import { infernoTowerData } from './inferno-tower';
 import { mortarData } from './mortar';
 import { scattershotData } from './scattershot';
+import { spellTowerData } from './spell-tower';
 import { wizardTowerData } from './wizard-tower';
 import { xBowData } from './x-bow';
 
@@ -28,6 +29,7 @@ const allHomeDefenses: HomeDefense[] = [
   eagleArtilleryData,
   scattershotData,
   buildersHutData,
+  spellTowerData,
 ];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
@@ -51,9 +53,9 @@ export class HomeDefenseQuery extends QueryBase<HomeDefense> {
     );
   }
 
-  /** Filter by damage type of the normal mode (use 'none' for knockback-only buildings like Air Sweeper). */
-  byDamageType(type: HomeDefense['modes']['normal']['damageType']): HomeDefenseQuery {
-    return new HomeDefenseQuery(this.data.filter((d) => d.modes.normal.damageType === type));
+  /** Filter by damage type of the normal mode (use 'none' for knockback-only buildings like Air Sweeper). Buildings without a normal mode (e.g. Spell Tower) are excluded. */
+  byDamageType(type: DefenseMode['damageType']): HomeDefenseQuery {
+    return new HomeDefenseQuery(this.data.filter((d) => d.modes.normal?.damageType === type));
   }
 
   /** Filter to buildings that can be geared up (any gear-up mode). */
@@ -74,8 +76,9 @@ export * from './builders-hut';
 export * from './cannon';
 export * from './eagle-artillery';
 export * from './hidden-tesla';
-export * from './scattershot';
 export * from './inferno-tower';
 export * from './mortar';
+export * from './scattershot';
+export * from './spell-tower';
 export * from './wizard-tower';
 export * from './x-bow';

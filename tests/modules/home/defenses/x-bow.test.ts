@@ -34,7 +34,7 @@ describe('xBow()', () => {
   });
 
   it('has normal (ground) mode with range 14', () => {
-    expect(xBow().modes.normal.range).toBe(14);
+    expect(xBow().modes.normal!.range).toBe(14);
   });
 
   it('has airAndGround mode with range 11.5', () => {
@@ -42,7 +42,7 @@ describe('xBow()', () => {
   });
 
   it('normal mode attack speed is 0.128', () => {
-    expect(xBow().modes.normal.attackSpeed).toBe(0.128);
+    expect(xBow().modes.normal!.attackSpeed).toBe(0.128);
   });
 
   it('airAndGround mode attack speed is 0.128', () => {
@@ -50,7 +50,7 @@ describe('xBow()', () => {
   });
 
   it('normal mode is single target', () => {
-    expect(xBow().modes.normal.damageType).toBe('single');
+    expect(xBow().modes.normal!.damageType).toBe('single');
   });
 
   it('has no gear-up', () => {

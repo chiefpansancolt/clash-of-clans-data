@@ -30,15 +30,15 @@ describe('airSweeper()', () => {
   });
 
   it('normal mode damage type is none', () => {
-    expect(airSweeper().modes.normal.damageType).toBe('none');
+    expect(airSweeper().modes.normal!.damageType).toBe('none');
   });
 
   it('normal mode range is 15', () => {
-    expect(airSweeper().modes.normal.range).toBe(15);
+    expect(airSweeper().modes.normal!.range).toBe(15);
   });
 
   it('normal mode attack speed is 5', () => {
-    expect(airSweeper().modes.normal.attackSpeed).toBe(5);
+    expect(airSweeper().modes.normal!.attackSpeed).toBe(5);
   });
 
   it('has no gear-up', () => {

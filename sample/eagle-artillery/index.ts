@@ -31,7 +31,7 @@ log(`target:   ${ea.targetType}`);
 log('');
 
 log('--- Mode ---');
-const m = ea.modes.normal;
+const m = ea.modes.normal!;
 log(
   `normal: range ${m.minRange}-${m.range} tiles | attackSpeed ${m.attackSpeed}s | ${m.shotsPerBurst} shots/burst | ${m.timeBetweenBursts}s between bursts | activation: ${m.activationHousingSpace} housing space | splash ${m.splashRadius} tiles`,
 );

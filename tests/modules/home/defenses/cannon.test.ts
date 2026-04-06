@@ -30,7 +30,7 @@ describe('cannon()', () => {
   });
 
   it('has normal mode with range 9', () => {
-    expect(cannon().modes.normal.range).toBe(9);
+    expect(cannon().modes.normal!.range).toBe(9);
   });
 
   it('has gearedUpBurst mode with range 7', () => {

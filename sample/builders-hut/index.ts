@@ -31,7 +31,7 @@ log(`target:   ${bh.targetType}`);
 log('');
 
 log('--- Normal Mode (turret) ---');
-const m = bh.modes.normal;
+const m = bh.modes.normal!;
 log(`range ${m.range} tiles | attackSpeed ${m.attackSpeed}s | ${m.damageType}`);
 log('');
 

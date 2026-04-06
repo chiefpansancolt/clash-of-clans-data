@@ -32,15 +32,15 @@ describe('buildersHut()', () => {
   // ── normal mode ───────────────────────────────────────────────────────────
 
   it('normal mode has range 7', () => {
-    expect(buildersHut().modes.normal.range).toBe(7);
+    expect(buildersHut().modes.normal!.range).toBe(7);
   });
 
   it('normal mode attack speed is 0.4', () => {
-    expect(buildersHut().modes.normal.attackSpeed).toBe(0.4);
+    expect(buildersHut().modes.normal!.attackSpeed).toBe(0.4);
   });
 
   it('normal mode is single-target damage', () => {
-    expect(buildersHut().modes.normal.damageType).toBe('single');
+    expect(buildersHut().modes.normal!.damageType).toBe('single');
   });
 
   // ── builder mode ──────────────────────────────────────────────────────────

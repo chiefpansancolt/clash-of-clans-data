@@ -34,7 +34,7 @@ describe('archerTower()', () => {
   });
 
   it('has normal mode with range 10', () => {
-    expect(archerTower().modes.normal.range).toBe(10);
+    expect(archerTower().modes.normal!.range).toBe(10);
   });
 
   it('has gearedUpFastAttack mode with range 8', () => {

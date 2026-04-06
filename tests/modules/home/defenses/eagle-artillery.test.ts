@@ -30,35 +30,35 @@ describe('eagleArtillery()', () => {
   });
 
   it('normal mode has range 50', () => {
-    expect(eagleArtillery().modes.normal.range).toBe(50);
+    expect(eagleArtillery().modes.normal!.range).toBe(50);
   });
 
   it('normal mode has minimum range 7', () => {
-    expect(eagleArtillery().modes.normal.minRange).toBe(7);
+    expect(eagleArtillery().modes.normal!.minRange).toBe(7);
   });
 
   it('normal mode attack speed is 0.75', () => {
-    expect(eagleArtillery().modes.normal.attackSpeed).toBe(0.75);
+    expect(eagleArtillery().modes.normal!.attackSpeed).toBe(0.75);
   });
 
   it('normal mode fires 3 shots per burst', () => {
-    expect(eagleArtillery().modes.normal.shotsPerBurst).toBe(3);
+    expect(eagleArtillery().modes.normal!.shotsPerBurst).toBe(3);
   });
 
   it('normal mode has 10s between bursts', () => {
-    expect(eagleArtillery().modes.normal.timeBetweenBursts).toBe(10);
+    expect(eagleArtillery().modes.normal!.timeBetweenBursts).toBe(10);
   });
 
   it('normal mode requires 200 housing space to activate', () => {
-    expect(eagleArtillery().modes.normal.activationHousingSpace).toBe(200);
+    expect(eagleArtillery().modes.normal!.activationHousingSpace).toBe(200);
   });
 
   it('normal mode is splash damage', () => {
-    expect(eagleArtillery().modes.normal.damageType).toBe('splash');
+    expect(eagleArtillery().modes.normal!.damageType).toBe('splash');
   });
 
   it('normal mode splash radius is 0.75', () => {
-    expect(eagleArtillery().modes.normal.splashRadius).toBe(0.75);
+    expect(eagleArtillery().modes.normal!.splashRadius).toBe(0.75);
   });
 
   it('has no gear-up', () => {

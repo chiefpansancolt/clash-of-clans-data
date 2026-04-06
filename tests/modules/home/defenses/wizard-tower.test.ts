@@ -38,19 +38,19 @@ describe('wizardTower()', () => {
   });
 
   it('has normal mode with range 7', () => {
-    expect(wizardTower().modes.normal.range).toBe(7);
+    expect(wizardTower().modes.normal!.range).toBe(7);
   });
 
   it('normal mode attack speed is 1.3', () => {
-    expect(wizardTower().modes.normal.attackSpeed).toBe(1.3);
+    expect(wizardTower().modes.normal!.attackSpeed).toBe(1.3);
   });
 
   it('normal mode is splash damage', () => {
-    expect(wizardTower().modes.normal.damageType).toBe('splash');
+    expect(wizardTower().modes.normal!.damageType).toBe('splash');
   });
 
   it('normal mode has splash radius 1', () => {
-    expect(wizardTower().modes.normal.splashRadius).toBe(1);
+    expect(wizardTower().modes.normal!.splashRadius).toBe(1);
   });
 
   it('has no gear-up', () => {

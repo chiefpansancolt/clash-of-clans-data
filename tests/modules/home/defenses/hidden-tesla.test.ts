@@ -34,19 +34,19 @@ describe('hiddenTesla()', () => {
   });
 
   it('has normal mode with range 7', () => {
-    expect(hiddenTesla().modes.normal.range).toBe(7);
+    expect(hiddenTesla().modes.normal!.range).toBe(7);
   });
 
   it('normal mode attack speed is 0.6', () => {
-    expect(hiddenTesla().modes.normal.attackSpeed).toBe(0.6);
+    expect(hiddenTesla().modes.normal!.attackSpeed).toBe(0.6);
   });
 
   it('normal mode is single target', () => {
-    expect(hiddenTesla().modes.normal.damageType).toBe('single');
+    expect(hiddenTesla().modes.normal!.damageType).toBe('single');
   });
 
   it('normal mode trigger range is 6', () => {
-    expect(hiddenTesla().modes.normal.triggerRange).toBe(6);
+    expect(hiddenTesla().modes.normal!.triggerRange).toBe(6);
   });
 
   it('has no gear-up', () => {

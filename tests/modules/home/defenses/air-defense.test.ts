@@ -34,11 +34,11 @@ describe('airDefense()', () => {
   });
 
   it('has normal mode with range 10', () => {
-    expect(airDefense().modes.normal.range).toBe(10);
+    expect(airDefense().modes.normal!.range).toBe(10);
   });
 
   it('has normal mode with attack speed 1', () => {
-    expect(airDefense().modes.normal.attackSpeed).toBe(1);
+    expect(airDefense().modes.normal!.attackSpeed).toBe(1);
   });
 
   it('has no gear-up', () => {

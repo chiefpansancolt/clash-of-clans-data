@@ -30,23 +30,23 @@ describe('scattershot()', () => {
   });
 
   it('normal mode has range 10', () => {
-    expect(scattershot().modes.normal.range).toBe(10);
+    expect(scattershot().modes.normal!.range).toBe(10);
   });
 
   it('normal mode has minimum range 3', () => {
-    expect(scattershot().modes.normal.minRange).toBe(3);
+    expect(scattershot().modes.normal!.minRange).toBe(3);
   });
 
   it('normal mode attack speed is 3.2', () => {
-    expect(scattershot().modes.normal.attackSpeed).toBe(3.2);
+    expect(scattershot().modes.normal!.attackSpeed).toBe(3.2);
   });
 
   it('normal mode has 90 rounds', () => {
-    expect(scattershot().modes.normal.numberOfRounds).toBe(90);
+    expect(scattershot().modes.normal!.numberOfRounds).toBe(90);
   });
 
   it('normal mode is splash damage', () => {
-    expect(scattershot().modes.normal.damageType).toBe('splash');
+    expect(scattershot().modes.normal!.damageType).toBe('splash');
   });
 
   it('has no gear-up', () => {

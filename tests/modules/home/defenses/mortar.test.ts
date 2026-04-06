@@ -34,11 +34,11 @@ describe('mortar()', () => {
   });
 
   it('normal mode is splash damage', () => {
-    expect(mortar().modes.normal.damageType).toBe('splash');
+    expect(mortar().modes.normal!.damageType).toBe('splash');
   });
 
   it('normal mode has splash radius 1.5', () => {
-    expect(mortar().modes.normal.splashRadius).toBe(1.5);
+    expect(mortar().modes.normal!.splashRadius).toBe(1.5);
   });
 
   it('has gearedUpBurst mode with 3 shots per burst', () => {

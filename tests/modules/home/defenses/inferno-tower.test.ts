@@ -30,7 +30,7 @@ describe('infernoTower()', () => {
   });
 
   it('has normal (single target) mode with range 9', () => {
-    expect(infernoTower().modes.normal.range).toBe(9);
+    expect(infernoTower().modes.normal!.range).toBe(9);
   });
 
   it('has multiTarget mode with range 10', () => {
@@ -38,11 +38,11 @@ describe('infernoTower()', () => {
   });
 
   it('normal mode attack speed is 0.128', () => {
-    expect(infernoTower().modes.normal.attackSpeed).toBe(0.128);
+    expect(infernoTower().modes.normal!.attackSpeed).toBe(0.128);
   });
 
   it('normal mode is single target', () => {
-    expect(infernoTower().modes.normal.damageType).toBe('single');
+    expect(infernoTower().modes.normal!.damageType).toBe('single');
   });
 
   it('multiTarget mode is multiple damage type', () => {

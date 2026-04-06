@@ -78,6 +78,8 @@ export interface GearUp {
 export interface HomeDefenseLevel extends BuildingLevel {
   townHallRequired: number;
   deathDamage?: number;
+  /** Spell Tower only: the spell newly unlocked at this level. */
+  unlocksSpell?: string;
   stats: {
     normal: DefenseModeStats;
     gearedUpBurst?: DefenseModeStats;
@@ -105,19 +107,69 @@ export interface HomeDefenseLevel extends BuildingLevel {
     depleted?: string;
     /** Builder's Hut: appearance when the builder is out repairing or the turret is active. */
     active?: string;
+    /** Spell Tower: visual when casting Poison Spell (from level 2). */
+    poison?: string;
+    /** Spell Tower: visual when casting Invisibility Spell (from level 3). */
+    invisibility?: string;
+    /** Spell Tower: visual when casting Earthquake Spell (level 4 only). */
+    earthquake?: string;
   };
 }
+
+// ── Spell Tower modes ─────────────────────────────────────────────────────────
+
+export interface SpellTowerMode {
+  range: number;
+  spellRadius: number;
+  rechargeTime: number;
+}
+
+export interface RageSpellMode extends SpellTowerMode {
+  spellDuration: number;
+  /** Percentage damage boost applied to friendly defenses within the spell radius. */
+  damageIncrease: number;
+}
+
+export interface PoisonSpellMode extends SpellTowerMode {
+  spellDuration: number;
+  /** Maximum poison DPS applied to troops in the radius. */
+  maxDps: number;
+  /** Troop movement speed reduction (percentage). */
+  speedDecrease: number;
+  /** Troop attack rate reduction (percentage). */
+  attackRateDecrease: number;
+}
+
+export interface InvisibilitySpellMode extends SpellTowerMode {
+  spellDuration: number;
+}
+
+export interface EarthquakeSpellMode extends SpellTowerMode {
+  /** Percentage of max HP dealt as damage to troops in the spell radius. */
+  troopDamagePercent: number;
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
 
 export interface HomeDefense extends Building<HomeDefenseLevel> {
   targetType: 'ground' | 'air' | 'both';
   modes: {
-    normal: DefenseMode;
+    /** Traditional attack mode. Absent on the Spell Tower, which uses spell modes instead. */
+    normal?: DefenseMode;
     gearedUpBurst?: BurstDefenseMode;
     gearedUpFastAttack?: DefenseMode;
     airAndGround?: DefenseMode;
     multiTarget?: DefenseMode;
     /** Builder's Hut: the builder unit that exits to repair nearby buildings. */
     builder?: BuilderMode;
+    /** Spell Tower: Rage Spell mode (available from level 1). */
+    rage?: RageSpellMode;
+    /** Spell Tower: Poison Spell mode (available from level 2). */
+    poison?: PoisonSpellMode;
+    /** Spell Tower: Invisibility Spell mode (available from level 3). */
+    invisibility?: InvisibilitySpellMode;
+    /** Spell Tower: Earthquake Spell mode (available from level 4). */
+    earthquake?: EarthquakeSpellMode;
   };
   gearUp?: GearUp;
   availablePerTownHall: TownHallAvailability[];

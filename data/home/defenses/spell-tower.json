@@ -1,0 +1,108 @@
+{
+  "id": "spell-tower",
+  "name": "Spell Tower",
+  "base": "home",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "both",
+  "modes": {
+    "rage": {
+      "range": 9,
+      "spellRadius": 5,
+      "spellDuration": 18,
+      "damageIncrease": 60,
+      "rechargeTime": 70
+    },
+    "poison": {
+      "range": 9,
+      "spellRadius": 5,
+      "spellDuration": 12,
+      "maxDps": 60,
+      "speedDecrease": 35,
+      "attackRateDecrease": 25,
+      "rechargeTime": 70
+    },
+    "invisibility": {
+      "range": 4.5,
+      "spellRadius": 4.5,
+      "spellDuration": 4.5,
+      "rechargeTime": 50
+    },
+    "earthquake": {
+      "range": 9,
+      "spellRadius": 4.7,
+      "troopDamagePercent": 30,
+      "rechargeTime": 50
+    }
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 15, "count": 2 },
+    { "townHallLevel": 16, "count": 2 },
+    { "townHallLevel": 17, "count": 2 },
+    { "townHallLevel": 18, "count": 2 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "unlocksSpell": "Rage Spell",
+      "hitpoints": 2500,
+      "buildCost": 9000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 15,
+      "stats": { "normal": {} },
+      "images": {
+        "normal": "images/home/defenses/spell-tower/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "unlocksSpell": "Poison Spell",
+      "hitpoints": 2800,
+      "buildCost": 11000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "townHallRequired": 15,
+      "stats": { "normal": {} },
+      "images": {
+        "normal": "images/home/defenses/spell-tower/normal/level-2.png",
+        "poison": "images/home/defenses/spell-tower/poison/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "unlocksSpell": "Invisibility Spell",
+      "hitpoints": 3100,
+      "buildCost": 12000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 856,
+      "townHallRequired": 15,
+      "stats": { "normal": {} },
+      "images": {
+        "normal": "images/home/defenses/spell-tower/normal/level-3.png",
+        "poison": "images/home/defenses/spell-tower/poison/level-3.png",
+        "invisibility": "images/home/defenses/spell-tower/invisibility/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "unlocksSpell": "Earthquake Spell",
+      "hitpoints": 3200,
+      "buildCost": 27000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1099,
+      "townHallRequired": 17,
+      "stats": { "normal": {} },
+      "images": {
+        "normal": "images/home/defenses/spell-tower/normal/level-4.png",
+        "poison": "images/home/defenses/spell-tower/poison/level-4.png",
+        "invisibility": "images/home/defenses/spell-tower/invisibility/level-4.png",
+        "earthquake": "images/home/defenses/spell-tower/earthquake/level-4.png"
+      }
+    }
+  ]
+}

@@ -38,19 +38,19 @@ describe('bombTower()', () => {
   });
 
   it('has normal mode with range 6', () => {
-    expect(bombTower().modes.normal.range).toBe(6);
+    expect(bombTower().modes.normal!.range).toBe(6);
   });
 
   it('normal mode attack speed is 1.1', () => {
-    expect(bombTower().modes.normal.attackSpeed).toBe(1.1);
+    expect(bombTower().modes.normal!.attackSpeed).toBe(1.1);
   });
 
   it('normal mode is splash damage', () => {
-    expect(bombTower().modes.normal.damageType).toBe('splash');
+    expect(bombTower().modes.normal!.damageType).toBe('splash');
   });
 
   it('normal mode splash radius is 1.5', () => {
-    expect(bombTower().modes.normal.splashRadius).toBe(1.5);
+    expect(bombTower().modes.normal!.splashRadius).toBe(1.5);
   });
 
   it('has no gear-up', () => {

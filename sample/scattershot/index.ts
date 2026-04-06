@@ -31,7 +31,7 @@ log(`target:   ${ss.targetType}`);
 log('');
 
 log('--- Mode ---');
-const m = ss.modes.normal;
+const m = ss.modes.normal!;
 log(
   `normal: range ${m.minRange}-${m.range} tiles | attackSpeed ${m.attackSpeed}s | ${m.damageType} | ${m.numberOfRounds} rounds`,
 );
