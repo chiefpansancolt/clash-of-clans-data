@@ -11,6 +11,8 @@ export interface DefenseMode {
   /** Seconds between shots (or between shots within a burst) */
   attackSpeed: number;
   damageType: 'single' | 'splash';
+  /** Splash radius in tiles — only present for splash-damage buildings */
+  splashRadius?: number;
 }
 
 export interface BurstDefenseMode extends DefenseMode {

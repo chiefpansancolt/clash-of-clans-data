@@ -1,0 +1,315 @@
+{
+  "id": "mortar",
+  "name": "Mortar",
+  "base": "home",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "ground",
+  "modes": {
+    "normal": { "range": 11, "attackSpeed": 5, "damageType": "splash", "splashRadius": 1.5 },
+    "gearedUpBurst": { "range": 11, "attackSpeed": 0.5, "shotsPerBurst": 3, "timeBetweenBursts": 3.5, "damageType": "splash", "splashRadius": 1.5, "availableFromLevel": 8 }
+  },
+  "gearUp": {
+    "cost": 6000000,
+    "costResource": "Gold",
+    "time": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+    "requiresLevel": 8,
+    "requiresBuilderBuilding": "Multi Mortar",
+    "requiresBuilderBuildingLevel": 8
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 3, "count": 1 },
+    { "townHallLevel": 4, "count": 1 },
+    { "townHallLevel": 5, "count": 1 },
+    { "townHallLevel": 6, "count": 2 },
+    { "townHallLevel": 7, "count": 3 },
+    { "townHallLevel": 8, "count": 4 },
+    { "townHallLevel": 9, "count": 4 },
+    { "townHallLevel": 10, "count": 4 },
+    { "townHallLevel": 11, "count": 4 },
+    { "townHallLevel": 12, "count": 4 },
+    { "townHallLevel": 13, "count": 4 },
+    { "townHallLevel": 14, "count": 4 },
+    { "townHallLevel": 15, "count": 4 },
+    { "townHallLevel": 16, "count": 4 },
+    { "townHallLevel": 17, "count": 4 },
+    { "townHallLevel": 18, "count": 4 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 400,
+      "buildCost": 5000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "townHallRequired": 3,
+      "xpGained": 42,
+      "stats": { "normal": { "dps": 4, "damagePerShot": 20 } },
+      "images": { "normal": "images/home/defenses/mortar/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 450,
+      "buildCost": 25000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 4,
+      "xpGained": 60,
+      "stats": { "normal": { "dps": 5, "damagePerShot": 25 } },
+      "images": { "normal": "images/home/defenses/mortar/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 500,
+      "buildCost": 90000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 5,
+      "xpGained": 84,
+      "stats": { "normal": { "dps": 6, "damagePerShot": 30 } },
+      "images": { "normal": "images/home/defenses/mortar/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 550,
+      "buildCost": 180000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 6,
+      "xpGained": 103,
+      "stats": { "normal": { "dps": 7, "damagePerShot": 35 } },
+      "images": { "normal": "images/home/defenses/mortar/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 600,
+      "buildCost": 300000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 7,
+      "xpGained": 146,
+      "stats": { "normal": { "dps": 9, "damagePerShot": 45 } },
+      "images": { "normal": "images/home/defenses/mortar/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 650,
+      "buildCost": 500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 8,
+      "xpGained": 169,
+      "stats": { "normal": { "dps": 11, "damagePerShot": 55 } },
+      "images": { "normal": "images/home/defenses/mortar/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 700,
+      "buildCost": 900000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 9,
+      "xpGained": 207,
+      "stats": { "normal": { "dps": 15, "damagePerShot": 75 } },
+      "images": { "normal": "images/home/defenses/mortar/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 800,
+      "buildCost": 1200000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 10,
+      "xpGained": 254,
+      "stats": {
+        "normal": { "dps": 20, "damagePerShot": 100 },
+        "gearedUpBurst": { "dps": 24, "damagePerShot": 37.33 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-8.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-8.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-8.png"
+      }
+    },
+    {
+      "level": 9,
+      "hitpoints": 950,
+      "buildCost": 1600000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 11,
+      "xpGained": 268,
+      "stats": {
+        "normal": { "dps": 25, "damagePerShot": 125 },
+        "gearedUpBurst": { "dps": 30, "damagePerShot": 46.29 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-9.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-9.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-9.png"
+      }
+    },
+    {
+      "level": 10,
+      "hitpoints": 1100,
+      "buildCost": 1800000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 11,
+      "xpGained": 293,
+      "stats": {
+        "normal": { "dps": 30, "damagePerShot": 150 },
+        "gearedUpBurst": { "dps": 37, "damagePerShot": 56.74 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-10.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-10.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-10.png"
+      }
+    },
+    {
+      "level": 11,
+      "hitpoints": 1300,
+      "buildCost": 2300000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 12,
+      "xpGained": 328,
+      "stats": {
+        "normal": { "dps": 35, "damagePerShot": 175 },
+        "gearedUpBurst": { "dps": 42, "damagePerShot": 64.21 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-11.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-11.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-11.png"
+      }
+    },
+    {
+      "level": 12,
+      "hitpoints": 1500,
+      "buildCost": 2400000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 12,
+      "xpGained": 360,
+      "stats": {
+        "normal": { "dps": 38, "damagePerShot": 190 },
+        "gearedUpBurst": { "dps": 46, "damagePerShot": 70.18 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-12.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-12.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-12.png"
+      }
+    },
+    {
+      "level": 13,
+      "hitpoints": 1700,
+      "buildCost": 2800000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 13,
+      "xpGained": 415,
+      "stats": {
+        "normal": { "dps": 42, "damagePerShot": 210 },
+        "gearedUpBurst": { "dps": 51, "damagePerShot": 77.65 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-13.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-13.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-13.png"
+      }
+    },
+    {
+      "level": 14,
+      "hitpoints": 1950,
+      "buildCost": 4300000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 14,
+      "xpGained": 464,
+      "stats": {
+        "normal": { "dps": 48, "damagePerShot": 240 },
+        "gearedUpBurst": { "dps": 58, "damagePerShot": 88.1 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-14.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-14.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-14.png"
+      }
+    },
+    {
+      "level": 15,
+      "hitpoints": 2150,
+      "buildCost": 5000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 15,
+      "xpGained": 509,
+      "stats": {
+        "normal": { "dps": 54, "damagePerShot": 270 },
+        "gearedUpBurst": { "dps": 66, "damagePerShot": 98.56 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-15.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-15.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-15.png"
+      }
+    },
+    {
+      "level": 16,
+      "hitpoints": 2300,
+      "buildCost": 7000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 16,
+      "xpGained": 587,
+      "stats": {
+        "normal": { "dps": 60, "damagePerShot": 300 },
+        "gearedUpBurst": { "dps": 73, "damagePerShot": 110.5 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-16.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-16.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-16.png"
+      }
+    },
+    {
+      "level": 17,
+      "hitpoints": 2450,
+      "buildCost": 13000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 17,
+      "xpGained": 831,
+      "stats": {
+        "normal": { "dps": 66, "damagePerShot": 330 },
+        "gearedUpBurst": { "dps": 81, "damagePerShot": 120.96 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-17.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-17.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-17.png"
+      }
+    },
+    {
+      "level": 18,
+      "hitpoints": 2550,
+      "buildCost": 21000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 12, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 18,
+      "xpGained": 1039,
+      "stats": {
+        "normal": { "dps": 72, "damagePerShot": 360 },
+        "gearedUpBurst": { "dps": 85, "damagePerShot": 128.42 }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-18.png",
+        "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-18.png",
+        "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-18.png"
+      }
+    }
+  ]
+}

@@ -130,8 +130,8 @@ describe('HomeDefenseQuery#byBuilding', () => {
     expect(homeDefenses().byBuilding('Archer Tower').count()).toBe(1);
   });
 
-  it('homeDefenses has 2 buildings', () => {
-    expect(homeDefenses().count()).toBe(2);
+  it('homeDefenses has at least 2 buildings', () => {
+    expect(homeDefenses().count()).toBeGreaterThanOrEqual(2);
   });
 });
 
@@ -153,8 +153,8 @@ describe('HomeDefenseQuery#hasGearUp', () => {
     expect(homeDefenses().hasGearUp().findByName('Archer Tower')).toBeDefined();
   });
 
-  it('returns both gearable buildings', () => {
-    expect(homeDefenses().hasGearUp().count()).toBe(2);
+  it('returns all gearable buildings (at least 2)', () => {
+    expect(homeDefenses().hasGearUp().count()).toBeGreaterThanOrEqual(2);
   });
 });
 

@@ -5,4 +5,5 @@
 
 import './cannon';
 import './archer-tower';
+import './mortar';
 import './home-defenses';
