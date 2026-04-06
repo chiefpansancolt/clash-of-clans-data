@@ -7,6 +7,7 @@ import './air-sweeper';
 import './archer-tower';
 import './bomb-tower';
 import './cannon';
+import './eagle-artillery';
 import './hidden-tesla';
 import './home-defenses';
 import './inferno-tower';

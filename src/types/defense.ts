@@ -17,14 +17,24 @@ export interface DefenseModeStats {
   dpsAfter1p5s?: number;
   /** Inferno Tower multi-target mode: max number of targets hit simultaneously. */
   numberOfTargets?: number;
+  /** Eagle Artillery: damage dealt by the shockwave ring on impact (separate from main hit). */
+  shockwaveDamagePerHit?: number;
 }
 
 export interface DefenseMode {
   range: number;
+  /** Minimum attack range in tiles (e.g. Eagle Artillery has a blind spot within 7 tiles). */
+  minRange?: number;
   attackSpeed: number;
   damageType: 'single' | 'splash' | 'none' | 'multiple';
   splashRadius?: number;
   triggerRange?: number;
+  /** Number of shots fired per burst (e.g. Eagle Artillery fires 3 per burst). */
+  shotsPerBurst?: number;
+  /** Seconds between the end of one burst and the start of the next. */
+  timeBetweenBursts?: number;
+  /** Housing space of deployed troops required before this weapon activates (Eagle Artillery: 200). */
+  activationHousingSpace?: number;
 }
 
 export interface BurstDefenseMode extends DefenseMode {
@@ -64,6 +74,10 @@ export interface HomeDefenseLevel extends BuildingLevel {
     multiTarget?: string;
     singleTargetDepleted?: string;
     multiTargetDepleted?: string;
+    /** Eagle Artillery: head-down (active/firing) appearance. */
+    headDown?: string;
+    /** Eagle Artillery: depleted/unloaded appearance after consuming all rounds. */
+    unloaded?: string;
   };
 }
 

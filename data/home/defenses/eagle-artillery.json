@@ -1,0 +1,149 @@
+{
+  "id": "eagle-artillery",
+  "name": "Eagle Artillery",
+  "base": "home",
+  "category": "defense",
+  "size": "4x4",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 50,
+      "minRange": 7,
+      "attackSpeed": 0.75,
+      "damageType": "splash",
+      "splashRadius": 0.75,
+      "shotsPerBurst": 3,
+      "timeBetweenBursts": 10,
+      "activationHousingSpace": 200
+    }
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 11, "count": 1 },
+    { "townHallLevel": 12, "count": 1 },
+    { "townHallLevel": 13, "count": 1 },
+    { "townHallLevel": 14, "count": 1 },
+    { "townHallLevel": 15, "count": 1 },
+    { "townHallLevel": 16, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 4000,
+      "buildCost": 5000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 11,
+      "xpGained": 587,
+      "stats": {
+        "normal": { "dps": 67.5, "damagePerShot": 225, "shockwaveDamagePerHit": 20 }
+      },
+      "images": {
+        "normal": "images/home/defenses/eagle-artillery/normal/level-1.png",
+        "headDown": "images/home/defenses/eagle-artillery/head-down/level-1.png",
+        "unloaded": "images/home/defenses/eagle-artillery/unloaded/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 4400,
+      "buildCost": 6000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 11,
+      "xpGained": 657,
+      "stats": {
+        "normal": { "dps": 75, "damagePerShot": 250, "shockwaveDamagePerHit": 25 }
+      },
+      "images": {
+        "normal": "images/home/defenses/eagle-artillery/normal/level-2.png",
+        "headDown": "images/home/defenses/eagle-artillery/head-down/level-2.png",
+        "unloaded": "images/home/defenses/eagle-artillery/unloaded/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 4800,
+      "buildCost": 9000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 12,
+      "xpGained": 777,
+      "stats": {
+        "normal": { "dps": 82.5, "damagePerShot": 275, "shockwaveDamagePerHit": 30 }
+      },
+      "images": {
+        "normal": "images/home/defenses/eagle-artillery/normal/level-3.png",
+        "headDown": "images/home/defenses/eagle-artillery/head-down/level-3.png",
+        "unloaded": "images/home/defenses/eagle-artillery/unloaded/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 5200,
+      "buildCost": 10000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 13,
+      "xpGained": 804,
+      "stats": {
+        "normal": { "dps": 105, "damagePerShot": 350, "shockwaveDamagePerHit": 35 }
+      },
+      "images": {
+        "normal": "images/home/defenses/eagle-artillery/normal/level-4.png",
+        "headDown": "images/home/defenses/eagle-artillery/head-down/level-4.png",
+        "unloaded": "images/home/defenses/eagle-artillery/unloaded/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 5600,
+      "buildCost": 12000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 14,
+      "xpGained": 831,
+      "stats": {
+        "normal": { "dps": 127.5, "damagePerShot": 425, "shockwaveDamagePerHit": 40 }
+      },
+      "images": {
+        "normal": "images/home/defenses/eagle-artillery/normal/level-5.png",
+        "headDown": "images/home/defenses/eagle-artillery/head-down/level-5.png",
+        "unloaded": "images/home/defenses/eagle-artillery/unloaded/level-5.png"
+      }
+    },
+    {
+      "level": 6,
+      "hitpoints": 5900,
+      "buildCost": 13000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 15,
+      "xpGained": 881,
+      "stats": {
+        "normal": { "dps": 142.5, "damagePerShot": 475, "shockwaveDamagePerHit": 45 }
+      },
+      "images": {
+        "normal": "images/home/defenses/eagle-artillery/normal/level-6.png",
+        "headDown": "images/home/defenses/eagle-artillery/head-down/level-6.png",
+        "unloaded": "images/home/defenses/eagle-artillery/unloaded/level-6.png"
+      }
+    },
+    {
+      "level": 7,
+      "hitpoints": 6200,
+      "buildCost": 14000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 16,
+      "xpGained": 905,
+      "stats": {
+        "normal": { "dps": 157.5, "damagePerShot": 525, "shockwaveDamagePerHit": 50 }
+      },
+      "images": {
+        "normal": "images/home/defenses/eagle-artillery/normal/level-7.png",
+        "headDown": "images/home/defenses/eagle-artillery/head-down/level-7.png",
+        "unloaded": "images/home/defenses/eagle-artillery/unloaded/level-7.png"
+      }
+    }
+  ]
+}
