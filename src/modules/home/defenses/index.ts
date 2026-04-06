@@ -1,6 +1,7 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeDefense } from '@/types';
 import { airDefenseData } from './air-defense';
+import { airSweeperData } from './air-sweeper';
 import { archerTowerData } from './archer-tower';
 import { cannonData } from './cannon';
 import { mortarData } from './mortar';
@@ -12,6 +13,7 @@ const allHomeDefenses: HomeDefense[] = [
   mortarData,
   airDefenseData,
   wizardTowerData,
+  airSweeperData,
 ];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
@@ -35,7 +37,7 @@ export class HomeDefenseQuery extends QueryBase<HomeDefense> {
     );
   }
 
-  /** Filter by damage type of the normal mode. */
+  /** Filter by damage type of the normal mode (use 'none' for knockback-only buildings like Air Sweeper). */
   byDamageType(type: HomeDefense['modes']['normal']['damageType']): HomeDefenseQuery {
     return new HomeDefenseQuery(this.data.filter((d) => d.modes.normal.damageType === type));
   }
@@ -51,6 +53,7 @@ export function homeDefenses(source: HomeDefense[] = allHomeDefenses): HomeDefen
 }
 
 export * from './air-defense';
+export * from './air-sweeper';
 export * from './archer-tower';
 export * from './cannon';
 export * from './mortar';

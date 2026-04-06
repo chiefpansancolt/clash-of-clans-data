@@ -3,6 +3,7 @@
  * Run with: pnpm sample
  */
 import './air-defense';
+import './air-sweeper';
 import './archer-tower';
 import './cannon';
 import './home-defenses';

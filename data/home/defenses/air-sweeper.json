@@ -1,0 +1,105 @@
+{
+  "id": "air-sweeper",
+  "name": "Air Sweeper",
+  "base": "home",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "air",
+  "modes": {
+    "normal": { "range": 15, "attackSpeed": 5, "damageType": "none" }
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 6, "count": 1 },
+    { "townHallLevel": 7, "count": 1 },
+    { "townHallLevel": 8, "count": 1 },
+    { "townHallLevel": 9, "count": 2 },
+    { "townHallLevel": 10, "count": 2 },
+    { "townHallLevel": 11, "count": 2 },
+    { "townHallLevel": 12, "count": 2 },
+    { "townHallLevel": 13, "count": 2 },
+    { "townHallLevel": 14, "count": 2 },
+    { "townHallLevel": 15, "count": 2 },
+    { "townHallLevel": 16, "count": 2 },
+    { "townHallLevel": 17, "count": 2 },
+    { "townHallLevel": 18, "count": 2 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 750,
+      "buildCost": 200000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 6,
+      "xpGained": 120,
+      "stats": { "normal": { "pushStrength": 1.6 } },
+      "images": { "normal": "images/home/defenses/air-sweeper/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 800,
+      "buildCost": 300000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 6,
+      "xpGained": 146,
+      "stats": { "normal": { "pushStrength": 2.0 } },
+      "images": { "normal": "images/home/defenses/air-sweeper/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 850,
+      "buildCost": 450000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 7,
+      "xpGained": 169,
+      "stats": { "normal": { "pushStrength": 2.4 } },
+      "images": { "normal": "images/home/defenses/air-sweeper/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 900,
+      "buildCost": 800000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 8,
+      "xpGained": 207,
+      "stats": { "normal": { "pushStrength": 2.8 } },
+      "images": { "normal": "images/home/defenses/air-sweeper/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 950,
+      "buildCost": 1200000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 9,
+      "xpGained": 293,
+      "stats": { "normal": { "pushStrength": 3.2 } },
+      "images": { "normal": "images/home/defenses/air-sweeper/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1000,
+      "buildCost": 1900000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 10,
+      "xpGained": 415,
+      "stats": { "normal": { "pushStrength": 3.6 } },
+      "images": { "normal": "images/home/defenses/air-sweeper/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1050,
+      "buildCost": 3400000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 11,
+      "xpGained": 509,
+      "stats": { "normal": { "pushStrength": 4.0 } },
+      "images": { "normal": "images/home/defenses/air-sweeper/normal/level-7.png" }
+    }
+  ]
+}

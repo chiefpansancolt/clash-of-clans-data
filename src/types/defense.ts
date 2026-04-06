@@ -8,14 +8,15 @@ import {
 } from './common';
 
 export interface DefenseModeStats {
-  dps: number;
-  damagePerShot: number;
+  dps?: number;
+  damagePerShot?: number;
+  pushStrength?: number;
 }
 
 export interface DefenseMode {
   range: number;
   attackSpeed: number;
-  damageType: 'single' | 'splash';
+  damageType: 'single' | 'splash' | 'none';
   splashRadius?: number;
 }
 
