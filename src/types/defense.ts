@@ -18,6 +18,7 @@ export interface DefenseMode {
   attackSpeed: number;
   damageType: 'single' | 'splash' | 'none';
   splashRadius?: number;
+  triggerRange?: number;
 }
 
 export interface BurstDefenseMode extends DefenseMode {
