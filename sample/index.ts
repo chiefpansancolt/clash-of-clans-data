@@ -9,6 +9,7 @@ import './bomb-tower';
 import './cannon';
 import './hidden-tesla';
 import './home-defenses';
+import './inferno-tower';
 import './mortar';
 import './wizard-tower';
 import './x-bow';

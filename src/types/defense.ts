@@ -11,12 +11,18 @@ export interface DefenseModeStats {
   dps?: number;
   damagePerShot?: number;
   pushStrength?: number;
+  /** Inferno Tower single-target mode: DPS at start of beam before ramping. */
+  dpsInitial?: number;
+  /** Inferno Tower single-target mode: DPS after 1.5 seconds of continuous firing. */
+  dpsAfter1p5s?: number;
+  /** Inferno Tower multi-target mode: max number of targets hit simultaneously. */
+  numberOfTargets?: number;
 }
 
 export interface DefenseMode {
   range: number;
   attackSpeed: number;
-  damageType: 'single' | 'splash' | 'none';
+  damageType: 'single' | 'splash' | 'none' | 'multiple';
   splashRadius?: number;
   triggerRange?: number;
 }
@@ -45,6 +51,7 @@ export interface HomeDefenseLevel extends BuildingLevel {
     normal: DefenseModeStats;
     gearedUpBurst?: DefenseModeStats;
     gearedUpFastAttack?: DefenseModeStats;
+    multiTarget?: DefenseModeStats;
   };
   images: {
     normal: string;
@@ -54,6 +61,9 @@ export interface HomeDefenseLevel extends BuildingLevel {
     airAndGround?: string;
     groundDepleted?: string;
     airAndGroundDepleted?: string;
+    multiTarget?: string;
+    singleTargetDepleted?: string;
+    multiTargetDepleted?: string;
   };
 }
 
@@ -64,6 +74,7 @@ export interface HomeDefense extends Building<HomeDefenseLevel> {
     gearedUpBurst?: BurstDefenseMode;
     gearedUpFastAttack?: DefenseMode;
     airAndGround?: DefenseMode;
+    multiTarget?: DefenseMode;
   };
   gearUp?: GearUp;
   availablePerTownHall: TownHallAvailability[];
