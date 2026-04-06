@@ -6,7 +6,9 @@ const ROOT = path.resolve(__dirname, '../..');
 
 const lines: string[] = [];
 const log = (...args: unknown[]) => {
-  const line = args.map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a))).join(' ');
+  const line = args
+    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
+    .join(' ');
   lines.push(line);
   console.log(line);
 };
@@ -34,7 +36,8 @@ log('');
 
 log('--- Available Per Town Hall ---');
 for (const a of ad.availablePerTownHall) {
-  const count = a.countAfterMerges !== undefined ? `${a.count}/${a.countAfterMerges}` : `${a.count}`;
+  const count =
+    a.countAfterMerges !== undefined ? `${a.count}/${a.countAfterMerges}` : `${a.count}`;
   log(`  TH${a.townHallLevel}: ${count}`);
 }
 log('');

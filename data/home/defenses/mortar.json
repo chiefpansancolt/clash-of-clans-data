@@ -7,7 +7,15 @@
   "targetType": "ground",
   "modes": {
     "normal": { "range": 11, "attackSpeed": 5, "damageType": "splash", "splashRadius": 1.5 },
-    "gearedUpBurst": { "range": 11, "attackSpeed": 0.5, "shotsPerBurst": 3, "timeBetweenBursts": 3.5, "damageType": "splash", "splashRadius": 1.5, "availableFromLevel": 8 }
+    "gearedUpBurst": {
+      "range": 11,
+      "attackSpeed": 0.5,
+      "shotsPerBurst": 3,
+      "timeBetweenBursts": 3.5,
+      "damageType": "splash",
+      "splashRadius": 1.5,
+      "availableFromLevel": 8
+    }
   },
   "gearUp": {
     "cost": 6000000,

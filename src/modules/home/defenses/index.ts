@@ -6,7 +6,13 @@ import { cannonData } from './cannon';
 import { mortarData } from './mortar';
 import { wizardTowerData } from './wizard-tower';
 
-const allHomeDefenses: HomeDefense[] = [cannonData, archerTowerData, mortarData, airDefenseData, wizardTowerData];
+const allHomeDefenses: HomeDefense[] = [
+  cannonData,
+  archerTowerData,
+  mortarData,
+  airDefenseData,
+  wizardTowerData,
+];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
   constructor(data: HomeDefense[] = allHomeDefenses) {

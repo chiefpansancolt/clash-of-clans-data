@@ -1,7 +1,7 @@
-import { archerTower } from '@/modules/home/defenses/archer-tower';
 import { homeDefenses } from '@/modules/home/defenses';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 import { HomeDefenseQuery } from '@/modules/home/defenses';
+import { archerTower } from '@/modules/home/defenses/archer-tower';
+import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
 // ── archerTower() ─────────────────────────────────────────────────────────────
 
@@ -158,9 +158,13 @@ describe('HomeDefenseQuery#hasGearUp', () => {
   });
 });
 
-testFilterImmutability('byBuilding', () => homeDefenses(), (q) =>
-  (q as HomeDefenseQuery).byBuilding('Archer Tower'),
+testFilterImmutability(
+  'byBuilding',
+  () => homeDefenses(),
+  (q) => (q as HomeDefenseQuery).byBuilding('Archer Tower'),
 );
-testFilterImmutability('hasGearUp', () => homeDefenses(), (q) =>
-  (q as HomeDefenseQuery).hasGearUp(),
+testFilterImmutability(
+  'hasGearUp',
+  () => homeDefenses(),
+  (q) => (q as HomeDefenseQuery).hasGearUp(),
 );

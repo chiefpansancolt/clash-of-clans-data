@@ -24,5 +24,4 @@ export interface ClanCapitalResourceBuildingLevel extends ResourceBuildingLevel 
   districtHallRequired: number;
 }
 
-export interface ClanCapitalResourceBuilding
-  extends Building<ClanCapitalResourceBuildingLevel> {}
+export interface ClanCapitalResourceBuilding extends Building<ClanCapitalResourceBuildingLevel> {}

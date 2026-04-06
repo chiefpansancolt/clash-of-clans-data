@@ -1,7 +1,7 @@
-import { cannon } from '@/modules/home/defenses/cannon';
 import { homeDefenses } from '@/modules/home/defenses';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 import { HomeDefenseQuery } from '@/modules/home/defenses';
+import { cannon } from '@/modules/home/defenses/cannon';
+import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
 // ── cannon() ─────────────────────────────────────────────────────────────────
 
@@ -144,12 +144,18 @@ describe('HomeDefenseQuery#hasGearUp', () => {
   });
 });
 
-testFilterImmutability('byBuilding', () => homeDefenses(), (q) =>
-  (q as HomeDefenseQuery).byBuilding('Cannon'),
+testFilterImmutability(
+  'byBuilding',
+  () => homeDefenses(),
+  (q) => (q as HomeDefenseQuery).byBuilding('Cannon'),
 );
-testFilterImmutability('byTownHall', () => homeDefenses(), (q) =>
-  (q as HomeDefenseQuery).byTownHall(10),
+testFilterImmutability(
+  'byTownHall',
+  () => homeDefenses(),
+  (q) => (q as HomeDefenseQuery).byTownHall(10),
 );
-testFilterImmutability('hasGearUp', () => homeDefenses(), (q) =>
-  (q as HomeDefenseQuery).hasGearUp(),
+testFilterImmutability(
+  'hasGearUp',
+  () => homeDefenses(),
+  (q) => (q as HomeDefenseQuery).hasGearUp(),
 );

@@ -6,7 +6,9 @@ const ROOT = path.resolve(__dirname, '../..');
 
 const lines: string[] = [];
 const log = (...args: unknown[]) => {
-  const line = args.map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a))).join(' ');
+  const line = args
+    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
+    .join(' ');
   lines.push(line);
   console.log(line);
 };
@@ -38,13 +40,16 @@ if (m.gearUp) {
   log(`cost:          ${m.gearUp.cost.toLocaleString()} ${m.gearUp.costResource}`);
   log(`time:          ${m.gearUp.time.days}d ${m.gearUp.time.hours}h`);
   log(`requires lvl:  ${m.gearUp.requiresLevel}`);
-  log(`builder bldg:  ${m.gearUp.requiresBuilderBuilding} lv${m.gearUp.requiresBuilderBuildingLevel}`);
+  log(
+    `builder bldg:  ${m.gearUp.requiresBuilderBuilding} lv${m.gearUp.requiresBuilderBuildingLevel}`,
+  );
   log('');
 }
 
 log('--- Available Per Town Hall ---');
 for (const a of m.availablePerTownHall) {
-  const count = a.countAfterMerges !== undefined ? `${a.count}/${a.countAfterMerges}` : `${a.count}`;
+  const count =
+    a.countAfterMerges !== undefined ? `${a.count}/${a.countAfterMerges}` : `${a.count}`;
   log(`  TH${a.townHallLevel}: ${count}`);
 }
 log('');

@@ -1,7 +1,7 @@
-import { wizardTower } from '@/modules/home/defenses/wizard-tower';
 import { homeDefenses } from '@/modules/home/defenses';
-import { testFilterImmutability } from '../../../helpers';
 import { HomeDefenseQuery } from '@/modules/home/defenses';
+import { wizardTower } from '@/modules/home/defenses/wizard-tower';
+import { testFilterImmutability } from '../../../helpers';
 
 // ── wizardTower() ─────────────────────────────────────────────────────────────
 
@@ -147,6 +147,8 @@ describe('HomeDefenseQuery with wizard tower', () => {
   });
 });
 
-testFilterImmutability('byBuilding', () => homeDefenses(), (q) =>
-  (q as HomeDefenseQuery).byBuilding('Wizard Tower'),
+testFilterImmutability(
+  'byBuilding',
+  () => homeDefenses(),
+  (q) => (q as HomeDefenseQuery).byBuilding('Wizard Tower'),
 );

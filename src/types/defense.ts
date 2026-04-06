@@ -1,5 +1,11 @@
 import { Building, BuildingLevel } from './building';
-import { BuildTime, BuilderHallAvailability, DistrictHallAvailability, ResourceType, TownHallAvailability } from './common';
+import {
+  BuilderHallAvailability,
+  BuildTime,
+  DistrictHallAvailability,
+  ResourceType,
+  TownHallAvailability,
+} from './common';
 
 export interface DefenseModeStats {
   dps: number;

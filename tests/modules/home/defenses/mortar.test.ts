@@ -1,7 +1,7 @@
-import { mortar } from '@/modules/home/defenses/mortar';
 import { homeDefenses } from '@/modules/home/defenses';
-import { testFilterImmutability } from '../../../helpers';
 import { HomeDefenseQuery } from '@/modules/home/defenses';
+import { mortar } from '@/modules/home/defenses/mortar';
+import { testFilterImmutability } from '../../../helpers';
 
 // ── mortar() ──────────────────────────────────────────────────────────────────
 
@@ -50,11 +50,15 @@ describe('mortar()', () => {
   });
 
   it('levels 1-7 have no gearedUpBurst stats', () => {
-    mortar().levels.slice(0, 7).forEach((l) => expect(l.stats.gearedUpBurst).toBeUndefined());
+    mortar()
+      .levels.slice(0, 7)
+      .forEach((l) => expect(l.stats.gearedUpBurst).toBeUndefined());
   });
 
   it('levels 8+ have gearedUpBurst stats', () => {
-    mortar().levels.slice(7).forEach((l) => expect(l.stats.gearedUpBurst).toBeDefined());
+    mortar()
+      .levels.slice(7)
+      .forEach((l) => expect(l.stats.gearedUpBurst).toBeDefined());
   });
 
   it('level 8 gearedUpBurst dps is 24', () => {
@@ -62,19 +66,23 @@ describe('mortar()', () => {
   });
 
   it('levels 1-7 have only normal images', () => {
-    mortar().levels.slice(0, 7).forEach((l) => {
-      expect(l.images.normal).toBeDefined();
-      expect(l.images.gearedUpNormal).toBeUndefined();
-      expect(l.images.gearedUpBurst).toBeUndefined();
-    });
+    mortar()
+      .levels.slice(0, 7)
+      .forEach((l) => {
+        expect(l.images.normal).toBeDefined();
+        expect(l.images.gearedUpNormal).toBeUndefined();
+        expect(l.images.gearedUpBurst).toBeUndefined();
+      });
   });
 
   it('levels 8+ have all three image variants', () => {
-    mortar().levels.slice(7).forEach((l) => {
-      expect(l.images.normal).toBeDefined();
-      expect(l.images.gearedUpNormal).toBeDefined();
-      expect(l.images.gearedUpBurst).toBeDefined();
-    });
+    mortar()
+      .levels.slice(7)
+      .forEach((l) => {
+        expect(l.images.normal).toBeDefined();
+        expect(l.images.gearedUpNormal).toBeDefined();
+        expect(l.images.gearedUpBurst).toBeDefined();
+      });
   });
 
   it('has gearUp info requiring level 8', () => {
@@ -116,6 +124,8 @@ describe('HomeDefenseQuery with mortar', () => {
   });
 });
 
-testFilterImmutability('byDamageType', () => homeDefenses(), (q) =>
-  (q as HomeDefenseQuery).byDamageType('splash'),
+testFilterImmutability(
+  'byDamageType',
+  () => homeDefenses(),
+  (q) => (q as HomeDefenseQuery).byDamageType('splash'),
 );

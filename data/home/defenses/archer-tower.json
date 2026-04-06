@@ -7,7 +7,12 @@
   "targetType": "both",
   "modes": {
     "normal": { "range": 10, "attackSpeed": 0.5, "damageType": "single" },
-    "gearedUpFastAttack": { "range": 8, "attackSpeed": 0.25, "damageType": "single", "availableFromLevel": 10 }
+    "gearedUpFastAttack": {
+      "range": 8,
+      "attackSpeed": 0.25,
+      "damageType": "single",
+      "availableFromLevel": 10
+    }
   },
   "gearUp": {
     "cost": 3000000,

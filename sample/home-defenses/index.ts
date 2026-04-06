@@ -4,7 +4,9 @@ import { homeDefenses } from '../../src';
 
 const lines: string[] = [];
 const log = (...args: unknown[]) => {
-  const line = args.map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a))).join(' ');
+  const line = args
+    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
+    .join(' ');
   lines.push(line);
   console.log(line);
 };

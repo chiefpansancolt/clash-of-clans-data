@@ -6,7 +6,9 @@ const ROOT = path.resolve(__dirname, '../..');
 
 const lines: string[] = [];
 const log = (...args: unknown[]) => {
-  const line = args.map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a))).join(' ');
+  const line = args
+    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
+    .join(' ');
   lines.push(line);
   console.log(line);
 };
@@ -38,20 +40,25 @@ if (at.gearUp) {
   log(`cost:          ${at.gearUp.cost.toLocaleString()} ${at.gearUp.costResource}`);
   log(`time:          ${at.gearUp.time.days}d ${at.gearUp.time.hours}h`);
   log(`requires lvl:  ${at.gearUp.requiresLevel}`);
-  log(`builder bldg:  ${at.gearUp.requiresBuilderBuilding} lv${at.gearUp.requiresBuilderBuildingLevel}`);
+  log(
+    `builder bldg:  ${at.gearUp.requiresBuilderBuilding} lv${at.gearUp.requiresBuilderBuildingLevel}`,
+  );
   log('');
 }
 
 log('--- Available Per Town Hall ---');
 for (const a of at.availablePerTownHall) {
-  const count = a.countAfterMerges !== undefined ? `${a.count}/${a.countAfterMerges}` : `${a.count}`;
+  const count =
+    a.countAfterMerges !== undefined ? `${a.count}/${a.countAfterMerges}` : `${a.count}`;
   log(`  TH${a.townHallLevel}: ${count}`);
 }
 log('');
 
 log('--- All Levels ---');
 for (const lvl of at.levels) {
-  const fastAttack = lvl.stats.gearedUpFastAttack ? ` | fast dps: ${lvl.stats.gearedUpFastAttack.dps}` : '';
+  const fastAttack = lvl.stats.gearedUpFastAttack
+    ? ` | fast dps: ${lvl.stats.gearedUpFastAttack.dps}`
+    : '';
   log(
     `lv${String(lvl.level).padStart(2)} | hp: ${String(lvl.hitpoints).padStart(5)} | dps: ${String(lvl.stats.normal.dps).padStart(3)}${fastAttack} | xp: ${String(lvl.xpGained).padStart(3)} | th${lvl.townHallRequired} | cost: ${lvl.buildCost.toLocaleString()}`,
   );

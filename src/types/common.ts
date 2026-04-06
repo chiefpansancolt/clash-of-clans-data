@@ -1,13 +1,6 @@
 export type Base = 'home' | 'builder' | 'clan_capital';
 
-export type Category =
-  | 'defense'
-  | 'troop'
-  | 'spell'
-  | 'resource'
-  | 'army'
-  | 'research'
-  | 'other';
+export type Category = 'defense' | 'troop' | 'spell' | 'resource' | 'army' | 'research' | 'other';
 
 export type ResourceType =
   | 'Gold'

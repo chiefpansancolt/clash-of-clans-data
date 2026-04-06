@@ -1,7 +1,7 @@
-import { airDefense } from '@/modules/home/defenses/air-defense';
 import { homeDefenses } from '@/modules/home/defenses';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 import { HomeDefenseQuery } from '@/modules/home/defenses';
+import { airDefense } from '@/modules/home/defenses/air-defense';
+import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
 // ── airDefense() ──────────────────────────────────────────────────────────────
 
@@ -149,6 +149,8 @@ describe('HomeDefenseQuery with air defense', () => {
 
 testQueryBaseContract('homeDefenses', () => homeDefenses());
 
-testFilterImmutability('byBuilding', () => homeDefenses(), (q) =>
-  (q as HomeDefenseQuery).byBuilding('Air Defense'),
+testFilterImmutability(
+  'byBuilding',
+  () => homeDefenses(),
+  (q) => (q as HomeDefenseQuery).byBuilding('Air Defense'),
 );
