@@ -7,4 +7,5 @@ import './cannon';
 import './archer-tower';
 import './mortar';
 import './air-defense';
+import './wizard-tower';
 import './home-defenses';

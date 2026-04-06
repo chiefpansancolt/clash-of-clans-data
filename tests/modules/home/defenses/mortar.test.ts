@@ -101,9 +101,9 @@ describe('HomeDefenseQuery with mortar', () => {
     expect(homeDefenses().count()).toBeGreaterThanOrEqual(3);
   });
 
-  it('byDamageType("splash") returns mortar', () => {
+  it('byDamageType("splash") includes mortar', () => {
     const splash = homeDefenses().byDamageType('splash');
-    expect(splash.count()).toBe(1);
+    expect(splash.count()).toBeGreaterThanOrEqual(1);
     expect(splash.findByName('Mortar')).toBeDefined();
   });
 

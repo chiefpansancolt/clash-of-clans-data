@@ -29,7 +29,14 @@ log('');
 
 log('--- byTownHall(6) ---');
 for (const d of all.byTownHall(6).get()) {
-  log(`${d.name}`);
+  const avail = d.availablePerTownHall.find((a) => a.townHallLevel === 6);
+  const count = avail
+    ? avail.countAfterMerges !== undefined
+      ? `${avail.count}/${avail.countAfterMerges}`
+      : `${avail.count}`
+    : '?';
+  const maxLevel = Math.max(...d.levels.filter((l) => l.townHallRequired <= 6).map((l) => l.level));
+  log(`${d.name} | count: ${count} | max level: ${maxLevel}`);
 }
 log('');
 
