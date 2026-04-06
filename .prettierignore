@@ -1,11 +1,5 @@
 coverage/
 node_modules/
 dist/
-yarn.lock
-bin/
-_site
-dist
-vendor
-.rubocop.yml
-hint-report/
-pnpm-lock.yaml
+sample/output/
+tmp

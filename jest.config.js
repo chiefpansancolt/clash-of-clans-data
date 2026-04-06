@@ -1,14 +1,14 @@
+/** @type {import('jest').Config} */
 module.exports = {
-	roots: ['<rootDir>/test'],
-	testMatch: ['**/__tests__/**/*.+(ts|tsx|js)', '**/?(*.)+(spec|test).+(ts|tsx|js)'],
-	transform: {
-		'^.+\\.(ts|tsx)$': 'ts-jest',
-		'\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
-			'./config/fileTransformer.js',
-	},
-	globals: {
-		'ts-jest': {
-			tsconfig: 'tsconfig.json',
-		},
-	},
-}
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  roots: ['<rootDir>/tests'],
+  testMatch: ['**/*.test.ts'],
+  moduleNameMapper: {
+    '^@/types$': '<rootDir>/src/types/index.ts',
+    '^@/types/(.*)$': '<rootDir>/src/types/$1',
+    '^@/common/(.*)$': '<rootDir>/src/common/$1',
+    '^@/modules/(.*)$': '<rootDir>/src/modules/$1',
+    '^@/data/(.*)$': '<rootDir>/data/$1',
+  },
+};
