@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { cannon } from '@/modules/home/defenses/cannon';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ── cannon() ─────────────────────────────────────────────────────────────────
-
 describe('cannon()', () => {
   it('returns a HomeDefense object', () => {
     const result = cannon();
@@ -111,8 +109,6 @@ describe('cannon()', () => {
     expect(th11?.count).toBe(7);
   });
 });
-
-// ── homeDefenses() ────────────────────────────────────────────────────────────
 
 testQueryBaseContract('homeDefenses', () => homeDefenses());
 

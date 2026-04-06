@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { xBow } from '@/modules/home/defenses/x-bow';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── xBow() ────────────────────────────────────────────────────────────────────
-
 describe('xBow()', () => {
   it('returns a HomeDefense object', () => {
     const result = xBow();
@@ -111,8 +109,6 @@ describe('xBow()', () => {
     expect(xBow().availablePerTownHall.find((a) => a.townHallLevel <= 8)).toBeUndefined();
   });
 });
-
-// ── homeDefenses() with x-bow ─────────────────────────────────────────────────
 
 describe('HomeDefenseQuery with x-bow', () => {
   it('homeDefenses has 9 buildings', () => {

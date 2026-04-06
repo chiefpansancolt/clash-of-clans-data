@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { archerTower } from '@/modules/home/defenses/archer-tower';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ── archerTower() ─────────────────────────────────────────────────────────────
-
 describe('archerTower()', () => {
   it('returns a HomeDefense object', () => {
     const result = archerTower();
@@ -119,8 +117,6 @@ describe('archerTower()', () => {
     expect(th11?.count).toBe(8);
   });
 });
-
-// ── homeDefenses() ────────────────────────────────────────────────────────────
 
 testQueryBaseContract('homeDefenses', () => homeDefenses());
 

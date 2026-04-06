@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { scattershot } from '@/modules/home/defenses/scattershot';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── scattershot() ─────────────────────────────────────────────────────────────
-
 describe('scattershot()', () => {
   it('returns a HomeDefense object', () => {
     const result = scattershot();
@@ -126,8 +124,6 @@ describe('scattershot()', () => {
     expect(scattershot().levels[5].townHallRequired).toBe(17);
   });
 });
-
-// ── homeDefenses() with scattershot ──────────────────────────────────────────
 
 describe('HomeDefenseQuery with scattershot', () => {
   it('homeDefenses has at least 12 buildings', () => {

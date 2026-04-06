@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { buildersHut } from '@/modules/home/defenses/builders-hut';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── buildersHut() ─────────────────────────────────────────────────────────────
-
 describe('buildersHut()', () => {
   it('returns a HomeDefense object', () => {
     const result = buildersHut();
@@ -29,8 +27,6 @@ describe('buildersHut()', () => {
     expect(buildersHut().gearUp).toBeUndefined();
   });
 
-  // ── normal mode ───────────────────────────────────────────────────────────
-
   it('normal mode has range 7', () => {
     expect(buildersHut().modes.normal!.range).toBe(7);
   });
@@ -42,8 +38,6 @@ describe('buildersHut()', () => {
   it('normal mode is single-target damage', () => {
     expect(buildersHut().modes.normal!.damageType).toBe('single');
   });
-
-  // ── builder mode ──────────────────────────────────────────────────────────
 
   it('has a builder mode', () => {
     expect(buildersHut().modes.builder).toBeDefined();
@@ -60,8 +54,6 @@ describe('buildersHut()', () => {
   it('builder mode movement speed is 20', () => {
     expect(buildersHut().modes.builder?.movementSpeed).toBe(20);
   });
-
-  // ── placement costs ───────────────────────────────────────────────────────
 
   it('has placement costs for all 5 builder instances', () => {
     expect(buildersHut().placementCosts).toHaveLength(5);
@@ -101,8 +93,6 @@ describe('buildersHut()', () => {
     expect(fifth.costResource).toBe('Gems');
   });
 
-  // ── level 1 (no combat stats) ─────────────────────────────────────────────
-
   it('level 1 has correct hitpoints', () => {
     expect(buildersHut().levels[0].hitpoints).toBe(250);
   });
@@ -135,8 +125,6 @@ describe('buildersHut()', () => {
     expect(buildersHut().levels[0].images.active).toBeUndefined();
   });
 
-  // ── level 2 stats ─────────────────────────────────────────────────────────
-
   it('level 2 dps is 80', () => {
     expect(buildersHut().levels[1].stats.normal.dps).toBe(80);
   });
@@ -166,8 +154,6 @@ describe('buildersHut()', () => {
   it('level 2 requires TH 14', () => {
     expect(buildersHut().levels[1].townHallRequired).toBe(14);
   });
-
-  // ── level 7 stats ─────────────────────────────────────────────────────────
 
   it('level 7 dps is 165', () => {
     expect(buildersHut().levels[6].stats.normal.dps).toBe(165);
@@ -205,8 +191,6 @@ describe('buildersHut()', () => {
     expect(bt.seconds).toBe(0);
   });
 
-  // ── availablePerTownHall ──────────────────────────────────────────────────
-
   it('is available from TH1 with 5 per town hall', () => {
     const entry = buildersHut().availablePerTownHall.find((e) => e.townHallLevel === 1);
     expect(entry?.count).toBe(5);
@@ -221,8 +205,6 @@ describe('buildersHut()', () => {
     expect(buildersHut().availablePerTownHall).toHaveLength(18);
   });
 });
-
-// ── homeDefenses() ────────────────────────────────────────────────────────────
 
 describe("homeDefenses() — Builder's Hut integration", () => {
   it("includes Builder's Hut in all home defenses", () => {

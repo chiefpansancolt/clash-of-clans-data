@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { hiddenTesla } from '@/modules/home/defenses/hidden-tesla';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── hiddenTesla() ─────────────────────────────────────────────────────────────
-
 describe('hiddenTesla()', () => {
   it('returns a HomeDefense object', () => {
     const result = hiddenTesla();
@@ -105,8 +103,6 @@ describe('hiddenTesla()', () => {
     expect(hiddenTesla().availablePerTownHall.find((a) => a.townHallLevel <= 6)).toBeUndefined();
   });
 });
-
-// ── homeDefenses() with hidden tesla ─────────────────────────────────────────
 
 describe('HomeDefenseQuery with hidden tesla', () => {
   it('homeDefenses has 7 buildings', () => {

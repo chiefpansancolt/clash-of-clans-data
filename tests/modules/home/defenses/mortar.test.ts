@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { mortar } from '@/modules/home/defenses/mortar';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── mortar() ──────────────────────────────────────────────────────────────────
-
 describe('mortar()', () => {
   it('returns a HomeDefense object', () => {
     const result = mortar();
@@ -101,8 +99,6 @@ describe('mortar()', () => {
     expect(mortar().availablePerTownHall.find((a) => a.townHallLevel === 8)?.count).toBe(4);
   });
 });
-
-// ── homeDefenses() with mortar ────────────────────────────────────────────────
 
 describe('HomeDefenseQuery with mortar', () => {
   it('homeDefenses has at least 3 buildings', () => {

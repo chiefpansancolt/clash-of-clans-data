@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { infernoTower } from '@/modules/home/defenses/inferno-tower';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── infernoTower() ────────────────────────────────────────────────────────────
-
 describe('infernoTower()', () => {
   it('returns a HomeDefense object', () => {
     const result = infernoTower();
@@ -53,7 +51,6 @@ describe('infernoTower()', () => {
     expect(infernoTower().gearUp).toBeUndefined();
   });
 
-  // Single target stats
   it('level 1 single target max dps is 800', () => {
     expect(infernoTower().levels[0].stats.normal.dps).toBe(800);
   });
@@ -66,7 +63,6 @@ describe('infernoTower()', () => {
     expect(infernoTower().levels[0].stats.normal.dpsAfter1p5s).toBe(80);
   });
 
-  // Multi target stats
   it('level 1 multi target dps per target is 30', () => {
     expect(infernoTower().levels[0].stats.multiTarget?.dps).toBe(30);
   });
@@ -126,8 +122,6 @@ describe('infernoTower()', () => {
     expect(infernoTower().availablePerTownHall.find((a) => a.townHallLevel <= 9)).toBeUndefined();
   });
 });
-
-// ── homeDefenses() with inferno tower ────────────────────────────────────────
 
 describe('HomeDefenseQuery with inferno tower', () => {
   it('homeDefenses has 10 buildings', () => {

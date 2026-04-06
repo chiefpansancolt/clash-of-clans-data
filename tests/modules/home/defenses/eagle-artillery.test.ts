@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { eagleArtillery } from '@/modules/home/defenses/eagle-artillery';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── eagleArtillery() ──────────────────────────────────────────────────────────
-
 describe('eagleArtillery()', () => {
   it('returns a HomeDefense object', () => {
     const result = eagleArtillery();
@@ -143,8 +141,6 @@ describe('eagleArtillery()', () => {
     expect(eagleArtillery().levels[6].townHallRequired).toBe(16);
   });
 });
-
-// ── homeDefenses() with eagle artillery ──────────────────────────────────────
 
 describe('HomeDefenseQuery with eagle artillery', () => {
   it('homeDefenses has 11 buildings', () => {

@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { airSweeper } from '@/modules/home/defenses/air-sweeper';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── airSweeper() ──────────────────────────────────────────────────────────────
-
 describe('airSweeper()', () => {
   it('returns a HomeDefense object', () => {
     const result = airSweeper();
@@ -98,8 +96,6 @@ describe('airSweeper()', () => {
     expect(airSweeper().availablePerTownHall.find((a) => a.townHallLevel <= 5)).toBeUndefined();
   });
 });
-
-// ── homeDefenses() with air sweeper ──────────────────────────────────────────
 
 describe('HomeDefenseQuery with air sweeper', () => {
   it('homeDefenses has at least 6 buildings', () => {

@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { airDefense } from '@/modules/home/defenses/air-defense';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ── airDefense() ──────────────────────────────────────────────────────────────
-
 describe('airDefense()', () => {
   it('returns a HomeDefense object', () => {
     const result = airDefense();
@@ -117,8 +115,6 @@ describe('airDefense()', () => {
     expect(airDefense().availablePerTownHall.find((a) => a.townHallLevel <= 3)).toBeUndefined();
   });
 });
-
-// ── homeDefenses() with air defense ──────────────────────────────────────────
 
 describe('HomeDefenseQuery with air defense', () => {
   it('homeDefenses has at least 4 buildings', () => {

@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { wizardTower } from '@/modules/home/defenses/wizard-tower';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── wizardTower() ─────────────────────────────────────────────────────────────
-
 describe('wizardTower()', () => {
   it('returns a HomeDefense object', () => {
     const result = wizardTower();
@@ -115,8 +113,6 @@ describe('wizardTower()', () => {
     expect(wizardTower().availablePerTownHall.find((a) => a.townHallLevel <= 4)).toBeUndefined();
   });
 });
-
-// ── homeDefenses() with wizard tower ─────────────────────────────────────────
 
 describe('HomeDefenseQuery with wizard tower', () => {
   it('homeDefenses has at least 5 buildings', () => {

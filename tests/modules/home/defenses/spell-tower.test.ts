@@ -2,8 +2,6 @@ import { HomeDefenseQuery, homeDefenses } from '@/modules/home/defenses';
 import { spellTower } from '@/modules/home/defenses/spell-tower';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── spellTower() ──────────────────────────────────────────────────────────────
-
 describe('spellTower()', () => {
   it('returns a HomeDefense object', () => {
     const result = spellTower();
@@ -32,8 +30,6 @@ describe('spellTower()', () => {
     expect(spellTower().gearUp).toBeUndefined();
   });
 
-  // ── rage mode ────────────────────────────────────────────────────────────
-
   it('has a rage spell mode', () => {
     expect(spellTower().modes.rage).toBeDefined();
   });
@@ -57,8 +53,6 @@ describe('spellTower()', () => {
   it('rage mode recharge time is 70s', () => {
     expect(spellTower().modes.rage?.rechargeTime).toBe(70);
   });
-
-  // ── poison mode ──────────────────────────────────────────────────────────
 
   it('has a poison spell mode', () => {
     expect(spellTower().modes.poison).toBeDefined();
@@ -92,8 +86,6 @@ describe('spellTower()', () => {
     expect(spellTower().modes.poison?.rechargeTime).toBe(70);
   });
 
-  // ── invisibility mode ────────────────────────────────────────────────────
-
   it('has an invisibility spell mode', () => {
     expect(spellTower().modes.invisibility).toBeDefined();
   });
@@ -114,8 +106,6 @@ describe('spellTower()', () => {
     expect(spellTower().modes.invisibility?.rechargeTime).toBe(50);
   });
 
-  // ── earthquake mode ──────────────────────────────────────────────────────
-
   it('has an earthquake spell mode', () => {
     expect(spellTower().modes.earthquake).toBeDefined();
   });
@@ -135,8 +125,6 @@ describe('spellTower()', () => {
   it('earthquake mode recharge time is 50s', () => {
     expect(spellTower().modes.earthquake?.rechargeTime).toBe(50);
   });
-
-  // ── level data ───────────────────────────────────────────────────────────
 
   it('level 1 unlocks Rage Spell', () => {
     expect(spellTower().levels[0].unlocksSpell).toBe('Rage Spell');
@@ -190,8 +178,6 @@ describe('spellTower()', () => {
     expect(bt.hours).toBe(0);
   });
 
-  // ── images ───────────────────────────────────────────────────────────────
-
   it('level 1 has only a normal image', () => {
     expect(spellTower().levels[0].images.normal).toBeDefined();
     expect(spellTower().levels[0].images.poison).toBeUndefined();
@@ -217,8 +203,6 @@ describe('spellTower()', () => {
     expect(spellTower().levels[3].images.earthquake).toBeDefined();
   });
 
-  // ── availablePerTownHall ──────────────────────────────────────────────────
-
   it('is available from TH15 with count 2', () => {
     const entry = spellTower().availablePerTownHall.find((e) => e.townHallLevel === 15);
     expect(entry?.count).toBe(2);
@@ -228,8 +212,6 @@ describe('spellTower()', () => {
     expect(spellTower().availablePerTownHall).toHaveLength(4);
   });
 });
-
-// ── homeDefenses() ────────────────────────────────────────────────────────────
 
 describe('homeDefenses() — Spell Tower integration', () => {
   it('includes Spell Tower in all home defenses', () => {

@@ -3,8 +3,6 @@ import { HomeDefenseQuery } from '@/modules/home/defenses';
 import { bombTower } from '@/modules/home/defenses/bomb-tower';
 import { testFilterImmutability } from '../../../helpers';
 
-// ── bombTower() ───────────────────────────────────────────────────────────────
-
 describe('bombTower()', () => {
   it('returns a HomeDefense object', () => {
     const result = bombTower();
@@ -120,8 +118,6 @@ describe('bombTower()', () => {
     });
   });
 });
-
-// ── homeDefenses() with bomb tower ───────────────────────────────────────────
 
 describe('HomeDefenseQuery with bomb tower', () => {
   it('homeDefenses has 8 buildings', () => {
