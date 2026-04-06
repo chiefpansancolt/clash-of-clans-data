@@ -107,36 +107,38 @@ describe('monolith() levels', () => {
     expect(monolith().levels[3].supercharge).toBeFalsy();
   });
 
-  it('level 5 is the first supercharge', () => {
+  it('supercharge 1 is the first supercharge level', () => {
     expect(monolith().levels[4].supercharge).toBe(true);
+    expect(monolith().levels[4].level).toBe(1);
   });
 
-  it('level 5 has dps of 219', () => {
+  it('supercharge 1 has dps of 219', () => {
     expect(monolith().levels[4].stats.normal.dps).toBe(219);
   });
 
-  it('level 5 hitpoints equal level 4', () => {
+  it('supercharge 1 hitpoints equal regular level 4', () => {
     expect(monolith().levels[4].hitpoints).toBe(5656);
   });
 
-  it('level 5 buildCost is 150000 Dark Elixir', () => {
+  it('supercharge 1 buildCost is 150000 Dark Elixir', () => {
     expect(monolith().levels[4].buildCost).toBe(150000);
     expect(monolith().levels[4].buildCostResource).toBe('Dark Elixir');
   });
 
-  it('level 6 is the second supercharge', () => {
+  it('supercharge 2 is the second supercharge level', () => {
     expect(monolith().levels[5].supercharge).toBe(true);
+    expect(monolith().levels[5].level).toBe(2);
   });
 
-  it('level 6 hitpoints increased from level 5', () => {
+  it('supercharge 2 hitpoints increased from supercharge 1', () => {
     expect(monolith().levels[5].hitpoints).toBe(5858);
   });
 
-  it('level 6 dps matches level 5', () => {
+  it('supercharge 2 dps matches supercharge 1', () => {
     expect(monolith().levels[5].stats.normal.dps).toBe(219);
   });
 
-  it('levels 5 and 6 have same damagePerShot', () => {
+  it('supercharge 1 and 2 have same damagePerShot', () => {
     expect(monolith().levels[4].stats.normal.damagePerShot).toBe(328.5);
     expect(monolith().levels[5].stats.normal.damagePerShot).toBe(328.5);
   });

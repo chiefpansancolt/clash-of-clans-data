@@ -46,6 +46,15 @@ log('--- hasGearUp() ---');
 for (const d of all.hasGearUp().get()) {
   log(`${d.name} (gear up from level ${d.gearUp?.requiresLevel})`);
 }
+log('');
+
+log('--- hasSupercharge() ---');
+for (const d of all.get()) {
+  const scLevels = d.levels.filter((l) => l.supercharge);
+  if (scLevels.length === 0) continue;
+  const thReq = scLevels[0].townHallRequired;
+  log(`${d.name} | ${scLevels.length} supercharge level(s) | TH${thReq}`);
+}
 
 const outputPath = path.join(__dirname, 'output.txt');
 fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');

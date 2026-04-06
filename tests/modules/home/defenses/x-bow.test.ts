@@ -12,7 +12,7 @@ describe('xBow()', () => {
   });
 
   it('has 12 levels', () => {
-    expect(xBow().levels).toHaveLength(12);
+    expect(xBow().levels).toHaveLength(14);
   });
 
   it('level 1 has correct hitpoints', () => {
@@ -90,11 +90,33 @@ describe('xBow()', () => {
     expect(xBow().levels[0].xpGained).toBe(207);
   });
 
-  it('xpGained increases with level', () => {
-    const xp = xBow().levels.map((l) => l.xpGained);
+  it('xpGained increases with regular levels', () => {
+    const xp = xBow()
+      .levels.filter((l) => !l.supercharge)
+      .map((l) => l.xpGained);
     for (let i = 0; i < xp.length - 1; i++) {
       expect(xp[i + 1]).toBeGreaterThanOrEqual(xp[i]);
     }
+  });
+
+  it('supercharge 1 and 2 are supercharge levels', () => {
+    expect(xBow().levels[12].supercharge).toBe(true);
+    expect(xBow().levels[12].level).toBe(1);
+    expect(xBow().levels[13].supercharge).toBe(true);
+    expect(xBow().levels[13].level).toBe(2);
+  });
+
+  it('supercharge 1 dps is 245', () => {
+    expect(xBow().levels[12].stats.normal.dps).toBe(245);
+  });
+
+  it('supercharge 2 hp increased to 4900', () => {
+    expect(xBow().levels[13].hitpoints).toBe(4900);
+  });
+
+  it('supercharge levels require TH17', () => {
+    expect(xBow().levels[12].townHallRequired).toBe(17);
+    expect(xBow().levels[13].townHallRequired).toBe(17);
   });
 
   it('TH9 has 2 x-bows available', () => {

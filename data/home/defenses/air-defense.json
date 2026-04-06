@@ -201,6 +201,30 @@
       "xpGained": 1069,
       "stats": { "normal": { "dps": 700, "damagePerShot": 700 } },
       "images": { "normal": "images/home/defenses/air-defense/normal/level-16.png" }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 2000,
+      "buildCost": 6000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 18, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 18,
+      "xpGained": 487,
+      "stats": { "normal": { "dps": 720, "damagePerShot": 720 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-16.png" }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 2000,
+      "buildCost": 3000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 6, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 18,
+      "xpGained": 605,
+      "stats": { "normal": { "dps": 740, "damagePerShot": 740 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-16.png" }
     }
   ]
 }

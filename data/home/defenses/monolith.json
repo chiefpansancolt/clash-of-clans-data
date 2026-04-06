@@ -73,7 +73,7 @@
       "images": { "normal": "images/home/defenses/monolith/normal/level-4.png" }
     },
     {
-      "level": 5,
+      "level": 1,
       "supercharge": true,
       "hitpoints": 5656,
       "buildCost": 150000,
@@ -87,7 +87,7 @@
       "images": { "normal": "images/home/defenses/monolith/normal/level-4.png" }
     },
     {
-      "level": 6,
+      "level": 2,
       "supercharge": true,
       "hitpoints": 5858,
       "buildCost": 130000,

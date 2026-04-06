@@ -213,6 +213,40 @@
         "groundDepleted": "images/home/defenses/x-bow/ground-depleted/level-12.png",
         "airAndGroundDepleted": "images/home/defenses/x-bow/air-and-ground-depleted/level-12.png"
       }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 4800,
+      "buildCost": 7000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "townHallRequired": 17,
+      "stats": { "normal": { "dps": 245, "damagePerShot": 31.36 } },
+      "images": {
+        "normal": "images/home/defenses/x-bow/normal/level-12.png",
+        "airAndGround": "images/home/defenses/x-bow/air-and-ground/level-12.png",
+        "groundDepleted": "images/home/defenses/x-bow/ground-depleted/level-12.png",
+        "airAndGroundDepleted": "images/home/defenses/x-bow/air-and-ground-depleted/level-12.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 4900,
+      "buildCost": 4000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 623,
+      "townHallRequired": 17,
+      "stats": { "normal": { "dps": 245, "damagePerShot": 31.36 } },
+      "images": {
+        "normal": "images/home/defenses/x-bow/normal/level-12.png",
+        "airAndGround": "images/home/defenses/x-bow/air-and-ground/level-12.png",
+        "groundDepleted": "images/home/defenses/x-bow/ground-depleted/level-12.png",
+        "airAndGroundDepleted": "images/home/defenses/x-bow/air-and-ground-depleted/level-12.png"
+      }
     }
   ]
 }

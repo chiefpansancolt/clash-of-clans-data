@@ -11,8 +11,8 @@ describe('buildersHut()', () => {
     expect(result.name).toBe("Builder's Hut");
   });
 
-  it('has 7 levels', () => {
-    expect(buildersHut().levels).toHaveLength(7);
+  it('has 9 levels', () => {
+    expect(buildersHut().levels).toHaveLength(9);
   });
 
   it('targets both ground and air', () => {
@@ -259,4 +259,48 @@ describe("homeDefenses() — Builder's Hut integration", () => {
     () => homeDefenses() as HomeDefenseQuery,
     (q) => (q as HomeDefenseQuery).byBuilding("Builder's Hut"),
   );
+});
+
+describe("buildersHut() supercharge levels", () => {
+  it('supercharge 1 and 2 are supercharge levels', () => {
+    expect(buildersHut().levels[7].supercharge).toBe(true);
+    expect(buildersHut().levels[7].level).toBe(1);
+    expect(buildersHut().levels[8].supercharge).toBe(true);
+    expect(buildersHut().levels[8].level).toBe(2);
+  });
+
+  it('supercharge 1 turret dps is 172', () => {
+    expect(buildersHut().levels[7].stats.normal.dps).toBe(172);
+  });
+
+  it('supercharge 1 turret damagePerShot is 68.8', () => {
+    expect(buildersHut().levels[7].stats.normal.damagePerShot).toBe(68.8);
+  });
+
+  it('supercharge levels keep builder stats unchanged', () => {
+    expect(buildersHut().levels[7].stats.builder?.repairPerSecond).toBe(90);
+    expect(buildersHut().levels[7].stats.builder?.repairPerHit).toBe(67.5);
+    expect(buildersHut().levels[8].stats.builder?.repairPerSecond).toBe(90);
+    expect(buildersHut().levels[8].stats.builder?.repairPerHit).toBe(67.5);
+  });
+
+  it('supercharge 1 hp matches max regular level', () => {
+    expect(buildersHut().levels[7].hitpoints).toBe(2000);
+  });
+
+  it('supercharge 2 hp increased to 2050', () => {
+    expect(buildersHut().levels[8].hitpoints).toBe(2050);
+  });
+
+  it('supercharge levels require TH17', () => {
+    expect(buildersHut().levels[7].townHallRequired).toBe(17);
+    expect(buildersHut().levels[8].townHallRequired).toBe(17);
+  });
+
+  it('supercharge levels have normal and active images', () => {
+    expect(buildersHut().levels[7].images.normal).toBeTruthy();
+    expect(buildersHut().levels[7].images.active).toBeTruthy();
+    expect(buildersHut().levels[8].images.normal).toBeTruthy();
+    expect(buildersHut().levels[8].images.active).toBeTruthy();
+  });
 });

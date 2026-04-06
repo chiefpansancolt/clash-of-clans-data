@@ -12,7 +12,7 @@ describe('bombTower()', () => {
   });
 
   it('has 13 levels', () => {
-    expect(bombTower().levels).toHaveLength(13);
+    expect(bombTower().levels).toHaveLength(15);
   });
 
   it('level 1 has correct hitpoints', () => {
@@ -92,11 +92,33 @@ describe('bombTower()', () => {
     expect(bombTower().levels[0].xpGained).toBe(207);
   });
 
-  it('xpGained increases with level', () => {
-    const xp = bombTower().levels.map((l) => l.xpGained);
+  it('xpGained increases with regular levels', () => {
+    const xp = bombTower()
+      .levels.filter((l) => !l.supercharge)
+      .map((l) => l.xpGained);
     for (let i = 0; i < xp.length - 1; i++) {
       expect(xp[i + 1]).toBeGreaterThanOrEqual(xp[i]);
     }
+  });
+
+  it('supercharge 1 and 2 are supercharge levels', () => {
+    expect(bombTower().levels[13].supercharge).toBe(true);
+    expect(bombTower().levels[13].level).toBe(1);
+    expect(bombTower().levels[14].supercharge).toBe(true);
+    expect(bombTower().levels[14].level).toBe(2);
+  });
+
+  it('supercharge 1 dps is 127', () => {
+    expect(bombTower().levels[13].stats.normal.dps).toBe(127);
+  });
+
+  it('supercharge 2 hp increased to 3150', () => {
+    expect(bombTower().levels[14].hitpoints).toBe(3150);
+  });
+
+  it('supercharge levels require TH18', () => {
+    expect(bombTower().levels[13].townHallRequired).toBe(18);
+    expect(bombTower().levels[14].townHallRequired).toBe(18);
   });
 
   it('TH8 has 1 bomb tower available', () => {
@@ -111,11 +133,13 @@ describe('bombTower()', () => {
     expect(bombTower().availablePerTownHall.find((a) => a.townHallLevel <= 7)).toBeUndefined();
   });
 
-  it('every level has deathDamage', () => {
-    bombTower().levels.forEach((l) => {
-      expect(typeof l.deathDamage).toBe('number');
-      expect(l.deathDamage).toBeGreaterThan(0);
-    });
+  it('every regular level has deathDamage', () => {
+    bombTower()
+      .levels.filter((l) => !l.supercharge)
+      .forEach((l) => {
+        expect(typeof l.deathDamage).toBe('number');
+        expect(l.deathDamage).toBeGreaterThan(0);
+      });
   });
 });
 

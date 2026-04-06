@@ -161,6 +161,42 @@
         "normal": "images/home/defenses/builders-hut/normal/level-7.png",
         "active": "images/home/defenses/builders-hut/active/level-7.png"
       }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 2000,
+      "buildCost": 10000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "townHallRequired": 17,
+      "stats": {
+        "normal": { "dps": 172, "damagePerShot": 68.8 },
+        "builder": { "repairPerSecond": 90, "repairPerHit": 67.5 }
+      },
+      "images": {
+        "normal": "images/home/defenses/builders-hut/normal/level-7.png",
+        "active": "images/home/defenses/builders-hut/active/level-7.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 2050,
+      "buildCost": 5000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "townHallRequired": 17,
+      "stats": {
+        "normal": { "dps": 172, "damagePerShot": 68.8 },
+        "builder": { "repairPerSecond": 90, "repairPerHit": 67.5 }
+      },
+      "images": {
+        "normal": "images/home/defenses/builders-hut/normal/level-7.png",
+        "active": "images/home/defenses/builders-hut/active/level-7.png"
+      }
     }
   ]
 }

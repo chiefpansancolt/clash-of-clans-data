@@ -12,7 +12,7 @@ describe('scattershot()', () => {
   });
 
   it('has 6 levels', () => {
-    expect(scattershot().levels).toHaveLength(6);
+    expect(scattershot().levels).toHaveLength(8);
   });
 
   it('level 1 has correct hitpoints', () => {
@@ -90,11 +90,33 @@ describe('scattershot()', () => {
     expect(scattershot().levels[0].xpGained).toBe(720);
   });
 
-  it('xpGained increases with level', () => {
-    const xp = scattershot().levels.map((l) => l.xpGained);
+  it('xpGained increases with regular levels', () => {
+    const xp = scattershot()
+      .levels.filter((l) => !l.supercharge)
+      .map((l) => l.xpGained);
     for (let i = 0; i < xp.length - 1; i++) {
       expect(xp[i + 1]).toBeGreaterThanOrEqual(xp[i]);
     }
+  });
+
+  it('supercharge 1 and 2 are supercharge levels', () => {
+    expect(scattershot().levels[6].supercharge).toBe(true);
+    expect(scattershot().levels[6].level).toBe(1);
+    expect(scattershot().levels[7].supercharge).toBe(true);
+    expect(scattershot().levels[7].level).toBe(2);
+  });
+
+  it('supercharge 1 dps is 188', () => {
+    expect(scattershot().levels[6].stats.normal.dps).toBe(188);
+  });
+
+  it('supercharge 2 hp increased to 5750', () => {
+    expect(scattershot().levels[7].hitpoints).toBe(5750);
+  });
+
+  it('supercharge levels require TH17', () => {
+    expect(scattershot().levels[6].townHallRequired).toBe(17);
+    expect(scattershot().levels[7].townHallRequired).toBe(17);
   });
 
   it('all levels have normal and depleted image variants', () => {

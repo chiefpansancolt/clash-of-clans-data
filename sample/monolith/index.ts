@@ -44,7 +44,7 @@ log('');
 log('--- All Levels ---');
 for (const lvl of m.levels) {
   const st = lvl.stats.normal;
-  const tag = lvl.supercharge ? ' [SC]' : '     ';
+  const tag = lvl.supercharge ? `[SC${lvl.level}]` : '     ';
   log(
     `lv${String(lvl.level).padStart(2)}${tag} | hp: ${String(lvl.hitpoints).padStart(5)} | dps: ${String(st.dps).padStart(3)} | dmg/shot: ${String(st.damagePerShot).padStart(5)} | bonus: ${String(st.bonusDamagePercent).padStart(2)}% | xp: ${String(lvl.xpGained).padStart(4)} | th${lvl.townHallRequired}`,
   );

@@ -154,6 +154,52 @@
         "normal": "images/home/defenses/scattershot/normal/level-6.png",
         "depleted": "images/home/defenses/scattershot/depleted/level-6.png"
       }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 5600,
+      "buildCost": 6000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 17,
+      "xpGained": 464,
+      "stats": {
+        "normal": {
+          "dps": 188,
+          "damagePerShot": 601.6,
+          "damagePerShotMin": 440,
+          "splashDamageMax": 440,
+          "splashDamageMin": 155
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/scattershot/normal/level-6.png",
+        "depleted": "images/home/defenses/scattershot/depleted/level-6.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 5750,
+      "buildCost": 3500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 17,
+      "xpGained": 587,
+      "stats": {
+        "normal": {
+          "dps": 188,
+          "damagePerShot": 601.6,
+          "damagePerShotMin": 440,
+          "splashDamageMax": 440,
+          "splashDamageMin": 155
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/scattershot/normal/level-6.png",
+        "depleted": "images/home/defenses/scattershot/depleted/level-6.png"
+      }
     }
   ]
 }

@@ -11,8 +11,8 @@ describe('airDefense()', () => {
     expect(result.name).toBe('Air Defense');
   });
 
-  it('has 16 levels', () => {
-    expect(airDefense().levels).toHaveLength(16);
+  it('has 18 levels', () => {
+    expect(airDefense().levels).toHaveLength(18);
   });
 
   it('level 1 has correct hitpoints', () => {
@@ -83,11 +83,38 @@ describe('airDefense()', () => {
     expect(airDefense().levels[0].xpGained).toBe(60);
   });
 
-  it('xpGained increases with level', () => {
-    const xp = airDefense().levels.map((l) => l.xpGained);
+  it('xpGained increases with regular levels', () => {
+    const xp = airDefense()
+      .levels.filter((l) => !l.supercharge)
+      .map((l) => l.xpGained);
     for (let i = 0; i < xp.length - 1; i++) {
       expect(xp[i + 1]).toBeGreaterThanOrEqual(xp[i]);
     }
+  });
+
+  it('supercharge 1 and 2 are supercharge levels', () => {
+    expect(airDefense().levels[16].supercharge).toBe(true);
+    expect(airDefense().levels[16].level).toBe(1);
+    expect(airDefense().levels[17].supercharge).toBe(true);
+    expect(airDefense().levels[17].level).toBe(2);
+  });
+
+  it('supercharge 1 dps is 720', () => {
+    expect(airDefense().levels[16].stats.normal.dps).toBe(720);
+  });
+
+  it('supercharge 2 dps is 740', () => {
+    expect(airDefense().levels[17].stats.normal.dps).toBe(740);
+  });
+
+  it('supercharge levels require TH18', () => {
+    expect(airDefense().levels[16].townHallRequired).toBe(18);
+    expect(airDefense().levels[17].townHallRequired).toBe(18);
+  });
+
+  it('supercharge levels keep HP at 2000', () => {
+    expect(airDefense().levels[16].hitpoints).toBe(2000);
+    expect(airDefense().levels[17].hitpoints).toBe(2000);
   });
 
   it('has availablePerTownHall entries', () => {

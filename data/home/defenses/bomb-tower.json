@@ -177,6 +177,30 @@
       "deathDamage": 700,
       "stats": { "normal": { "dps": 122, "damagePerShot": 134.2 } },
       "images": { "normal": "images/home/defenses/bomb-tower/normal/level-13.png" }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 3050,
+      "buildCost": 6000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 464,
+      "townHallRequired": 18,
+      "stats": { "normal": { "dps": 127, "damagePerShot": 139.7 } },
+      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-13.png" }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 3150,
+      "buildCost": 3000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "townHallRequired": 18,
+      "stats": { "normal": { "dps": 127, "damagePerShot": 139.7 } },
+      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-13.png" }
     }
   ]
 }
