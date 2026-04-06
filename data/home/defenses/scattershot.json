@@ -1,6 +1,7 @@
 {
   "id": "scattershot",
   "name": "Scattershot",
+  "description": "The Scattershot heaves very heavy bundles of poorly tied together rocks at whoever happens to be closest. The bundles break apart on impact and deal additional damage to the troops behind.",
   "base": "home",
   "category": "defense",
   "size": "3x3",

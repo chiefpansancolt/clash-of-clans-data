@@ -1,6 +1,7 @@
 {
   "id": "builders-hut",
   "name": "Builder's Hut",
+  "description": "Nothing gets done around here without Builders! You can hire more Builders to start multiple construction projects, or speed up their work by using green gems.",
   "base": "home",
   "category": "defense",
   "size": "2x2",

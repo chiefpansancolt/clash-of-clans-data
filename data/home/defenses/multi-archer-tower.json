@@ -1,6 +1,7 @@
 {
   "id": "multi-archer-tower",
   "name": "Multi-Archer Tower",
+  "description": "These Archers have teamed up to take out attackers faster and more furiously than ever. Teamwork makes the dream work!",
   "base": "home",
   "category": "defense",
   "size": "3x3",

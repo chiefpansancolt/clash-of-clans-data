@@ -1,6 +1,7 @@
 {
   "id": "ricochet-cannon",
   "name": "Ricochet Cannon",
+  "description": "Builder has used one weird trick to develop a devastating cannonball that will ricochet and hit a second target.",
   "base": "home",
   "category": "defense",
   "size": "3x3",

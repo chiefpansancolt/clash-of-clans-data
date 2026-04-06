@@ -1,6 +1,7 @@
 {
   "id": "firespitter",
   "name": "Firespitter",
+  "description": "The Firespitter spews flames at a fire rate faster than the X-Bow! If it misses, the Firespitter will shoot past its target to deal damage to enemies behind. It can only face a single direction, so place carefully!",
   "base": "home",
   "category": "defense",
   "size": "3x3",

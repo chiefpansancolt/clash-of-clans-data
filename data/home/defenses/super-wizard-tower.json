@@ -1,6 +1,7 @@
 {
   "id": "super-wizard-tower",
   "name": "Super Wizard Tower",
+  "description": "Super Wizard's first strike can shock up to fifteen nearby enemies. Chained targets take less damage.",
   "base": "home",
   "category": "defense",
   "size": "3x3",

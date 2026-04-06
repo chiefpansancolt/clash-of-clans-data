@@ -1,6 +1,7 @@
 {
   "id": "inferno-tower",
   "name": "Inferno Tower",
+  "description": "Set the Inferno Tower's Dark Elixir fueled flame to build up unbelievable damage to single targets, or to constantly roast multiple targets at once.",
   "base": "home",
   "category": "defense",
   "size": "2x2",

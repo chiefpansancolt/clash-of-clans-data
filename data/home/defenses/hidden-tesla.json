@@ -1,6 +1,7 @@
 {
   "id": "hidden-tesla",
   "name": "Hidden Tesla",
+  "description": "Lay a deadly trap with the Hidden Tesla! Our Wizards have trapped a storm cloud into each of these sneaky towers. When an enemy walks or flies close enough, the tower springs up and fries it using the power of Electrickery!",
   "base": "home",
   "category": "defense",
   "size": "2x2",

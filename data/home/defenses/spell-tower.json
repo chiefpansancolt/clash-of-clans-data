@@ -1,6 +1,7 @@
 {
   "id": "spell-tower",
   "name": "Spell Tower",
+  "description": "For years, Wizards alone brought magic to the battlefield one fireball at a time. Now they've developed a fully automated way to give your village more ways to mess up attackers with magic!",
   "base": "home",
   "category": "defense",
   "size": "2x2",

@@ -1,6 +1,7 @@
 {
   "id": "cannon",
   "name": "Cannon",
+  "description": "Cannons are great for point defense. Upgrade Cannons to increase their firepower, but beware that your Defenses cannot shoot while being upgraded!",
   "base": "home",
   "category": "defense",
   "size": "3x3",

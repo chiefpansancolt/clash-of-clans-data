@@ -1,6 +1,7 @@
 {
   "id": "wizard-tower",
   "name": "Wizard Tower",
+  "description": "The Ultimate Arcane Defense! Tower Wizards cast powerful area effect spells that target both flying and ground troops.",
   "base": "home",
   "category": "defense",
   "size": "3x3",

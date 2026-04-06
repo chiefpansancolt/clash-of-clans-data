@@ -1,6 +1,7 @@
 {
   "id": "air-sweeper",
   "name": "Air Sweeper",
+  "description": "Air Sweepers control the sky with strong blasts of air that push back flying enemies. Air Sweepers can only face one direction, so rotate them to maximize their effectiveness.",
   "base": "home",
   "category": "defense",
   "size": "2x2",

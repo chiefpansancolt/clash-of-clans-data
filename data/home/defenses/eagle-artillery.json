@@ -1,6 +1,7 @@
 {
   "id": "eagle-artillery",
   "name": "Eagle Artillery",
+  "description": "The Eagle Artillery has nearly unlimited range and targets tough enemies with exploding shells. However, it won't activate until a large amount of troops have been deployed.",
   "base": "home",
   "category": "defense",
   "size": "4x4",

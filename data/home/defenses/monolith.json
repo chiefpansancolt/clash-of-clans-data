@@ -1,6 +1,7 @@
 {
   "id": "monolith",
   "name": "Monolith",
+  "description": "The Builder's first experiment in using Dark Elixir for a building resulted in something truly frightful. The stronger the Monolith's target, the more damage it does. Great to have defending your Village, but a little scary to attack against.",
   "base": "home",
   "category": "defense",
   "size": "3x3",

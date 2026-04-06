@@ -1,6 +1,7 @@
 {
   "id": "revenge-tower",
   "name": "Revenge Tower",
+  "description": "If you destroy its building friends, the Revenge Tower will look for you, it will find you, and it will smite you. As fellow buildings fall, it grows stronger and angrier!",
   "base": "home",
   "category": "defense",
   "size": "3x3",

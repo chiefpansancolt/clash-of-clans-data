@@ -1,6 +1,7 @@
 {
   "id": "multi-gear-tower",
   "name": "Multi-Gear Tower",
+  "description": "The Multi-Gear Tower is a powerful combination of two classic Defenses! Choose the attack mode that suits you and let the destruction begin! Targets air and ground units.",
   "base": "home",
   "category": "defense",
   "size": "3x3",

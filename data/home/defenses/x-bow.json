@@ -1,6 +1,7 @@
 {
   "id": "x-bow",
   "name": "X-Bow",
+  "description": "The X-Bow shoots mystical bolts with terrifying power. Load it with Elixir and the X-Bow works automagically. You can set it to target ground units at long ranges, or all targets at reduced range.",
   "base": "home",
   "category": "defense",
   "size": "4x4",

@@ -1,6 +1,7 @@
 {
   "id": "bomb-tower",
   "name": "Bomb Tower",
+  "description": "Bomb Towers bombard nearby ground troops and go up in a big BOOM when destroyed! Melee units best stand clear!",
   "base": "home",
   "category": "defense",
   "size": "3x3",

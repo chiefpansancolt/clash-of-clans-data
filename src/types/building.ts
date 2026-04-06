@@ -12,6 +12,7 @@ export interface BuildingLevel {
 export interface Building<L extends BuildingLevel = BuildingLevel> {
   id: string;
   name: string;
+  description?: string;
   base: Base;
   category: Category;
   size: string;

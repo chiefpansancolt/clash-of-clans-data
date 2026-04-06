@@ -1,6 +1,7 @@
 {
   "id": "air-defense",
   "name": "Air Defense",
+  "description": "This anti-air tower is deadly against flying enemies, but can't target foes on the ground. Place it wisely to cover as much airspace as possible.",
   "base": "home",
   "category": "defense",
   "size": "3x3",

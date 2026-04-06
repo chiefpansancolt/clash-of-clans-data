@@ -1,6 +1,7 @@
 {
   "id": "mortar",
   "name": "Mortar",
+  "description": "The Mortar can mow down hordes of enemies by the splash damage from its shell. Don't let enemies get too close to it!",
   "base": "home",
   "category": "defense",
   "size": "3x3",
