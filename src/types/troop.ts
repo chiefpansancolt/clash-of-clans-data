@@ -6,7 +6,6 @@ export interface TroopModeStats {
   damagePerShot: number;
   trainingCost: number;
   trainingCostResource: ResourceType;
-  /** Training time in seconds */
   trainingTime: number;
   movementSpeed: number;
 }
@@ -16,7 +15,6 @@ export interface HomeTroopLevel extends BuildingLevel {
   laboratoryRequired: number;
   researchCost: number;
   researchCostResource: ResourceType;
-  /** Research time in seconds */
   researchTime: number;
   stats: {
     normal: TroopModeStats;
@@ -27,12 +25,11 @@ export interface HomeTroopLevel extends BuildingLevel {
 }
 
 export interface HomeTroop extends Building<HomeTroopLevel> {
-  /** Attack range in tiles */
   range: number;
-  /** Seconds between attacks */
   attackSpeed: number;
   damageType: 'single' | 'splash' | 'area';
   targetType: 'ground' | 'air' | 'both';
+  troopType: 'regular' | 'dark';
   housingSpace: number;
 }
 

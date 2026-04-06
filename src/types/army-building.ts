@@ -1,7 +1,6 @@
 import { Building, BuildingLevel } from './building';
 
 export interface ArmyBuildingLevel extends BuildingLevel {
-  /** Total housing space provided at this level */
   housingSpace: number;
   images: {
     normal: string;

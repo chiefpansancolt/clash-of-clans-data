@@ -4,7 +4,6 @@ import { ResourceType } from './common';
 export interface SpellLevel extends BuildingLevel {
   brewingCost: number;
   brewingCostResource: ResourceType;
-  /** Brewing time in seconds */
   brewingTime: number;
   images: {
     normal: string;
@@ -16,13 +15,12 @@ export interface HomeSpellLevel extends SpellLevel {
   laboratoryRequired: number;
   researchCost: number;
   researchCostResource: ResourceType;
-  /** Research time in seconds */
   researchTime: number;
 }
 
 export interface HomeSpell extends Building<HomeSpellLevel> {
-  /** Effect radius in tiles */
   radius: number;
+  spellType: 'regular' | 'dark';
   housingSpace: number;
 }
 
