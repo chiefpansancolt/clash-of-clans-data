@@ -12,6 +12,7 @@ import { infernoTowerData } from './inferno-tower';
 import { monolithData } from './monolith';
 import { mortarData } from './mortar';
 import { multiArcherTowerData } from './multi-archer-tower';
+import { multiGearTowerData } from './multi-gear-tower';
 import { ricochetCannonData } from './ricochet-cannon';
 import { scattershotData } from './scattershot';
 import { spellTowerData } from './spell-tower';
@@ -35,6 +36,7 @@ const allHomeDefenses: HomeDefense[] = [
   spellTowerData,
   monolithData,
   multiArcherTowerData,
+  multiGearTowerData,
   ricochetCannonData,
 ];
 
@@ -86,6 +88,7 @@ export * from './inferno-tower';
 export * from './monolith';
 export * from './mortar';
 export * from './multi-archer-tower';
+export * from './multi-gear-tower';
 export * from './ricochet-cannon';
 export * from './scattershot';
 export * from './spell-tower';

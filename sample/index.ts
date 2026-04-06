@@ -15,6 +15,7 @@ import './inferno-tower';
 import './monolith';
 import './mortar';
 import './multi-archer-tower';
+import './multi-gear-tower';
 import './ricochet-cannon';
 import './scattershot';
 import './spell-tower';

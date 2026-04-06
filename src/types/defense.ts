@@ -73,6 +73,7 @@ export interface HomeDefenseLevel extends BuildingLevel {
     gearedUpBurst?: DefenseModeStats;
     gearedUpFastAttack?: DefenseModeStats;
     multiTarget?: DefenseModeStats;
+    fastAttack?: DefenseModeStats;
     builder?: BuilderStats;
   };
   images: {
@@ -84,6 +85,7 @@ export interface HomeDefenseLevel extends BuildingLevel {
     groundDepleted?: string;
     airAndGroundDepleted?: string;
     multiTarget?: string;
+    fastAttack?: string;
     singleTargetDepleted?: string;
     multiTargetDepleted?: string;
     headDown?: string;
@@ -130,6 +132,7 @@ export interface HomeDefense extends Building<HomeDefenseLevel> {
     gearedUpFastAttack?: DefenseMode;
     airAndGround?: DefenseMode;
     multiTarget?: DefenseMode;
+    fastAttack?: BurstDefenseMode;
     builder?: BuilderMode;
     rage?: RageSpellMode;
     poison?: PoisonSpellMode;
