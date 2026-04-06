@@ -1,0 +1,206 @@
+{
+  "id": "air-defense",
+  "name": "Air Defense",
+  "base": "home",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "air",
+  "modes": {
+    "normal": { "range": 10, "attackSpeed": 1, "damageType": "single" }
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 4, "count": 1 },
+    { "townHallLevel": 5, "count": 1 },
+    { "townHallLevel": 6, "count": 2 },
+    { "townHallLevel": 7, "count": 3 },
+    { "townHallLevel": 8, "count": 3 },
+    { "townHallLevel": 9, "count": 4 },
+    { "townHallLevel": 10, "count": 4 },
+    { "townHallLevel": 11, "count": 4 },
+    { "townHallLevel": 12, "count": 4 },
+    { "townHallLevel": 13, "count": 4 },
+    { "townHallLevel": 14, "count": 4 },
+    { "townHallLevel": 15, "count": 4 },
+    { "townHallLevel": 16, "count": 4 },
+    { "townHallLevel": 17, "count": 4 },
+    { "townHallLevel": 18, "count": 4 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 800,
+      "buildCost": 22000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 4,
+      "xpGained": 60,
+      "stats": { "normal": { "dps": 80, "damagePerShot": 80 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 850,
+      "buildCost": 90000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 4,
+      "xpGained": 84,
+      "stats": { "normal": { "dps": 110, "damagePerShot": 110 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 900,
+      "buildCost": 210000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 5,
+      "xpGained": 146,
+      "stats": { "normal": { "dps": 140, "damagePerShot": 140 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 950,
+      "buildCost": 500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 6,
+      "xpGained": 207,
+      "stats": { "normal": { "dps": 160, "damagePerShot": 160 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1000,
+      "buildCost": 800000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 7,
+      "xpGained": 254,
+      "stats": { "normal": { "dps": 190, "damagePerShot": 190 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1050,
+      "buildCost": 1000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 8,
+      "xpGained": 293,
+      "stats": { "normal": { "dps": 230, "damagePerShot": 230 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1100,
+      "buildCost": 1750000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 9,
+      "xpGained": 415,
+      "stats": { "normal": { "dps": 280, "damagePerShot": 280 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 1210,
+      "buildCost": 2300000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 10,
+      "xpGained": 464,
+      "stats": { "normal": { "dps": 320, "damagePerShot": 320 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 1300,
+      "buildCost": 3400000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 11,
+      "xpGained": 509,
+      "stats": { "normal": { "dps": 360, "damagePerShot": 360 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 1400,
+      "buildCost": 5000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 12,
+      "xpGained": 587,
+      "stats": { "normal": { "dps": 400, "damagePerShot": 400 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "hitpoints": 1500,
+      "buildCost": 5600000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 13,
+      "xpGained": 623,
+      "stats": { "normal": { "dps": 440, "damagePerShot": 440 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "hitpoints": 1650,
+      "buildCost": 6500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 14,
+      "xpGained": 657,
+      "stats": { "normal": { "dps": 500, "damagePerShot": 500 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-12.png" }
+    },
+    {
+      "level": 13,
+      "hitpoints": 1750,
+      "buildCost": 8000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 15,
+      "xpGained": 720,
+      "stats": { "normal": { "dps": 540, "damagePerShot": 540 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-13.png" }
+    },
+    {
+      "level": 14,
+      "hitpoints": 1850,
+      "buildCost": 9000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 16,
+      "xpGained": 749,
+      "stats": { "normal": { "dps": 600, "damagePerShot": 600 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-14.png" }
+    },
+    {
+      "level": 15,
+      "hitpoints": 1950,
+      "buildCost": 15000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 17,
+      "xpGained": 905,
+      "stats": { "normal": { "dps": 650, "damagePerShot": 650 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-15.png" }
+    },
+    {
+      "level": 16,
+      "hitpoints": 2000,
+      "buildCost": 26000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 13, "hours": 6, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 18,
+      "xpGained": 1069,
+      "stats": { "normal": { "dps": 700, "damagePerShot": 700 } },
+      "images": { "normal": "images/home/defenses/air-defense/normal/level-16.png" }
+    }
+  ]
+}

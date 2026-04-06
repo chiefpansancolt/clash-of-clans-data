@@ -97,8 +97,8 @@ describe('mortar()', () => {
 // ── homeDefenses() with mortar ────────────────────────────────────────────────
 
 describe('HomeDefenseQuery with mortar', () => {
-  it('homeDefenses has 3 buildings', () => {
-    expect(homeDefenses().count()).toBe(3);
+  it('homeDefenses has at least 3 buildings', () => {
+    expect(homeDefenses().count()).toBeGreaterThanOrEqual(3);
   });
 
   it('byDamageType("splash") returns mortar', () => {

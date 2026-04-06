@@ -1,10 +1,11 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeDefense } from '@/types';
+import { airDefenseData } from './air-defense';
 import { archerTowerData } from './archer-tower';
 import { cannonData } from './cannon';
 import { mortarData } from './mortar';
 
-const allHomeDefenses: HomeDefense[] = [cannonData, archerTowerData, mortarData];
+const allHomeDefenses: HomeDefense[] = [cannonData, archerTowerData, mortarData, airDefenseData];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
   constructor(data: HomeDefense[] = allHomeDefenses) {
@@ -42,6 +43,7 @@ export function homeDefenses(source: HomeDefense[] = allHomeDefenses): HomeDefen
   return new HomeDefenseQuery(source);
 }
 
+export * from './air-defense';
 export * from './archer-tower';
 export * from './cannon';
 export * from './mortar';
