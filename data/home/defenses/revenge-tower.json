@@ -1,0 +1,75 @@
+{
+  "id": "revenge-tower",
+  "name": "Revenge Tower",
+  "base": "home",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "specialAbility": "Tower Tantrum",
+  "modes": {
+    "stage1": {
+      "range": 11,
+      "attackSpeed": 1.2,
+      "damageType": "single"
+    },
+    "stage2": {
+      "range": 11,
+      "attackSpeed": 0.6,
+      "damageType": "ricochet",
+      "chainRange": 2
+    },
+    "stage3": {
+      "range": 11,
+      "attackSpeed": 0.35,
+      "damageType": "ricochet",
+      "chainRange": 2
+    }
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 18, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 5800,
+      "buildCost": 430000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": { "days": 13, "hours": 0, "minutes": 0, "seconds": 5 },
+      "xpGained": 1059,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {},
+        "stage1": { "dps": 375, "damagePerShot": 450 },
+        "stage2": { "dps": 375, "damagePerShot": 225, "secondaryChainDamagePerShot": 135 },
+        "stage3": { "dps": 642, "damagePerShot": 225, "secondaryChainDamagePerShot": 135, "tertiaryChainDamagePerShot": 81 }
+      },
+      "images": {
+        "normal": "images/home/defenses/revenge-tower/normal/level-1.png",
+        "stage1": "images/home/defenses/revenge-tower/stage-1/level-1.png",
+        "stage2": "images/home/defenses/revenge-tower/stage-2/level-1.png",
+        "stage3": "images/home/defenses/revenge-tower/stage-3/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 6200,
+      "buildCost": 460000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1099,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {},
+        "stage1": { "dps": 416, "damagePerShot": 500 },
+        "stage2": { "dps": 416, "damagePerShot": 250, "secondaryChainDamagePerShot": 150 },
+        "stage3": { "dps": 714, "damagePerShot": 250, "secondaryChainDamagePerShot": 150, "tertiaryChainDamagePerShot": 90 }
+      },
+      "images": {
+        "normal": "images/home/defenses/revenge-tower/normal/level-2.png",
+        "stage1": "images/home/defenses/revenge-tower/stage-1/level-2.png",
+        "stage2": "images/home/defenses/revenge-tower/stage-2/level-2.png",
+        "stage3": "images/home/defenses/revenge-tower/stage-3/level-2.png"
+      }
+    }
+  ]
+}

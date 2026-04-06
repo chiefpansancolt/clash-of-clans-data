@@ -23,6 +23,7 @@ export interface DefenseModeStats {
   damagePerShot?: number;
   bonusDamagePercent?: number;
   secondaryChainDamagePerShot?: number;
+  tertiaryChainDamagePerShot?: number;
   pushStrength?: number;
   dpsInitial?: number;
   dpsAfter1p5s?: number;
@@ -74,6 +75,9 @@ export interface HomeDefenseLevel extends BuildingLevel {
     gearedUpFastAttack?: DefenseModeStats;
     multiTarget?: DefenseModeStats;
     fastAttack?: DefenseModeStats;
+    stage1?: DefenseModeStats;
+    stage2?: DefenseModeStats;
+    stage3?: DefenseModeStats;
     builder?: BuilderStats;
   };
   images: {
@@ -86,6 +90,10 @@ export interface HomeDefenseLevel extends BuildingLevel {
     airAndGroundDepleted?: string;
     multiTarget?: string;
     fastAttack?: string;
+    dormant?: string;
+    stage1?: string;
+    stage2?: string;
+    stage3?: string;
     singleTargetDepleted?: string;
     multiTargetDepleted?: string;
     headDown?: string;
@@ -133,6 +141,9 @@ export interface HomeDefense extends Building<HomeDefenseLevel> {
     airAndGround?: DefenseMode;
     multiTarget?: DefenseMode;
     fastAttack?: BurstDefenseMode;
+    stage1?: DefenseMode;
+    stage2?: DefenseMode;
+    stage3?: DefenseMode;
     builder?: BuilderMode;
     rage?: RageSpellMode;
     poison?: PoisonSpellMode;
@@ -140,6 +151,7 @@ export interface HomeDefense extends Building<HomeDefenseLevel> {
     earthquake?: EarthquakeSpellMode;
   };
   gearUp?: GearUp;
+  specialAbility?: string;
   availablePerTownHall: TownHallAvailability[];
   placementCosts?: Array<{ instance: number; cost: number; costResource: ResourceType }>;
 }

@@ -17,6 +17,7 @@ import './mortar';
 import './multi-archer-tower';
 import './firespitter';
 import './multi-gear-tower';
+import './revenge-tower';
 import './ricochet-cannon';
 import './scattershot';
 import './spell-tower';

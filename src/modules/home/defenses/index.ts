@@ -14,6 +14,7 @@ import { mortarData } from './mortar';
 import { multiArcherTowerData } from './multi-archer-tower';
 import { firespitterData } from './firespitter';
 import { multiGearTowerData } from './multi-gear-tower';
+import { revengeTowerData } from './revenge-tower';
 import { ricochetCannonData } from './ricochet-cannon';
 import { scattershotData } from './scattershot';
 import { spellTowerData } from './spell-tower';
@@ -39,6 +40,7 @@ const allHomeDefenses: HomeDefense[] = [
   multiArcherTowerData,
   firespitterData,
   multiGearTowerData,
+  revengeTowerData,
   ricochetCannonData,
 ];
 
@@ -92,6 +94,7 @@ export * from './mortar';
 export * from './multi-archer-tower';
 export * from './firespitter';
 export * from './multi-gear-tower';
+export * from './revenge-tower';
 export * from './ricochet-cannon';
 export * from './scattershot';
 export * from './spell-tower';
