@@ -5,6 +5,7 @@
 import './air-defense';
 import './air-sweeper';
 import './archer-tower';
+import './bomb-tower';
 import './cannon';
 import './hidden-tesla';
 import './home-defenses';

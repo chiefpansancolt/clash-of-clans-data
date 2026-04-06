@@ -3,6 +3,7 @@ import { HomeDefense } from '@/types';
 import { airDefenseData } from './air-defense';
 import { airSweeperData } from './air-sweeper';
 import { archerTowerData } from './archer-tower';
+import { bombTowerData } from './bomb-tower';
 import { cannonData } from './cannon';
 import { hiddenTeslaData } from './hidden-tesla';
 import { mortarData } from './mortar';
@@ -16,6 +17,7 @@ const allHomeDefenses: HomeDefense[] = [
   wizardTowerData,
   airSweeperData,
   hiddenTeslaData,
+  bombTowerData,
 ];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
@@ -57,6 +59,7 @@ export function homeDefenses(source: HomeDefense[] = allHomeDefenses): HomeDefen
 export * from './air-defense';
 export * from './air-sweeper';
 export * from './archer-tower';
+export * from './bomb-tower';
 export * from './cannon';
 export * from './hidden-tesla';
 export * from './mortar';

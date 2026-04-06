@@ -40,6 +40,7 @@ export interface GearUp {
 
 export interface HomeDefenseLevel extends BuildingLevel {
   townHallRequired: number;
+  deathDamage?: number;
   stats: {
     normal: DefenseModeStats;
     gearedUpBurst?: DefenseModeStats;
