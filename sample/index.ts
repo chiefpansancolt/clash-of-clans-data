@@ -21,5 +21,6 @@ import './revenge-tower';
 import './ricochet-cannon';
 import './scattershot';
 import './spell-tower';
+import './super-wizard-tower';
 import './wizard-tower';
 import './x-bow';

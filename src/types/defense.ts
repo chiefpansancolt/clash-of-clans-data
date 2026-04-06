@@ -38,7 +38,8 @@ export interface DefenseMode {
   range: number;
   minRange?: number;
   attackSpeed: number;
-  damageType: 'single' | 'splash' | 'none' | 'multiple' | 'ricochet';
+  damageType: 'single' | 'splash' | 'none' | 'multiple' | 'ricochet' | 'chain';
+  maxChainTargets?: number;
   chainRange?: number;
   numberOfTargets?: number;
   splashRadius?: number;

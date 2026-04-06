@@ -16,6 +16,7 @@ import { firespitterData } from './firespitter';
 import { multiGearTowerData } from './multi-gear-tower';
 import { revengeTowerData } from './revenge-tower';
 import { ricochetCannonData } from './ricochet-cannon';
+import { superWizardTowerData } from './super-wizard-tower';
 import { scattershotData } from './scattershot';
 import { spellTowerData } from './spell-tower';
 import { wizardTowerData } from './wizard-tower';
@@ -42,6 +43,7 @@ const allHomeDefenses: HomeDefense[] = [
   multiGearTowerData,
   revengeTowerData,
   ricochetCannonData,
+  superWizardTowerData,
 ];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
@@ -96,6 +98,7 @@ export * from './firespitter';
 export * from './multi-gear-tower';
 export * from './revenge-tower';
 export * from './ricochet-cannon';
+export * from './super-wizard-tower';
 export * from './scattershot';
 export * from './spell-tower';
 export * from './wizard-tower';
