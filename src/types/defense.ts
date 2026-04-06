@@ -19,6 +19,12 @@ export interface DefenseModeStats {
   numberOfTargets?: number;
   /** Eagle Artillery: damage dealt by the shockwave ring on impact (separate from main hit). */
   shockwaveDamagePerHit?: number;
+  /** Scattershot: minimum primary-zone damage (dealt 1 tile behind the point of impact). */
+  damagePerShotMin?: number;
+  /** Scattershot: maximum secondary splash zone damage (dealt within 1 tile of impact). */
+  splashDamageMax?: number;
+  /** Scattershot: minimum secondary splash zone damage (dealt 5 tiles from impact). */
+  splashDamageMin?: number;
 }
 
 export interface DefenseMode {
@@ -35,6 +41,8 @@ export interface DefenseMode {
   timeBetweenBursts?: number;
   /** Housing space of deployed troops required before this weapon activates (Eagle Artillery: 200). */
   activationHousingSpace?: number;
+  /** Total rounds available before the weapon becomes depleted (Eagle Artillery/Scattershot). */
+  numberOfRounds?: number;
 }
 
 export interface BurstDefenseMode extends DefenseMode {
@@ -78,6 +86,8 @@ export interface HomeDefenseLevel extends BuildingLevel {
     headDown?: string;
     /** Eagle Artillery: depleted/unloaded appearance after consuming all rounds. */
     unloaded?: string;
+    /** Scattershot: depleted appearance after consuming all rounds. */
+    depleted?: string;
   };
 }
 

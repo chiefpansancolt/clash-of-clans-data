@@ -12,5 +12,6 @@ import './hidden-tesla';
 import './home-defenses';
 import './inferno-tower';
 import './mortar';
+import './scattershot';
 import './wizard-tower';
 import './x-bow';

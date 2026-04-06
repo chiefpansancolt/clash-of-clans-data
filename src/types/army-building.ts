@@ -11,10 +11,10 @@ export interface HomeArmyBuildingLevel extends ArmyBuildingLevel {
   townHallRequired: number;
 }
 
-export interface HomeArmyBuilding extends Building<HomeArmyBuildingLevel> {}
+export type HomeArmyBuilding = Building<HomeArmyBuildingLevel>;
 
 export interface BuilderArmyBuildingLevel extends ArmyBuildingLevel {
   builderHallRequired: number;
 }
 
-export interface BuilderArmyBuilding extends Building<BuilderArmyBuildingLevel> {}
+export type BuilderArmyBuilding = Building<BuilderArmyBuildingLevel>;

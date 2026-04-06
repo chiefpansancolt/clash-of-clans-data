@@ -9,4 +9,4 @@ export interface OtherBuildingLevel extends BuildingLevel {
   };
 }
 
-export interface OtherBuilding extends Building<OtherBuildingLevel> {}
+export type OtherBuilding = Building<OtherBuildingLevel>;

@@ -1,0 +1,159 @@
+{
+  "id": "scattershot",
+  "name": "Scattershot",
+  "base": "home",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 10,
+      "minRange": 3,
+      "attackSpeed": 3.2,
+      "damageType": "splash",
+      "numberOfRounds": 90
+    }
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 13, "count": 2 },
+    { "townHallLevel": 14, "count": 2 },
+    { "townHallLevel": 15, "count": 2 },
+    { "townHallLevel": 16, "count": 2 },
+    { "townHallLevel": 17, "count": 2 },
+    { "townHallLevel": 18, "count": 2 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 3600,
+      "buildCost": 8000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 13,
+      "xpGained": 720,
+      "stats": {
+        "normal": {
+          "dps": 125,
+          "damagePerShot": 400,
+          "damagePerShotMin": 300,
+          "splashDamageMax": 300,
+          "splashDamageMin": 100
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/scattershot/normal/level-1.png",
+        "depleted": "images/home/defenses/scattershot/depleted/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 4200,
+      "buildCost": 9000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 13,
+      "xpGained": 777,
+      "stats": {
+        "normal": {
+          "dps": 150,
+          "damagePerShot": 480,
+          "damagePerShotMin": 360,
+          "splashDamageMax": 360,
+          "splashDamageMin": 120
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/scattershot/normal/level-2.png",
+        "depleted": "images/home/defenses/scattershot/depleted/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 4800,
+      "buildCost": 11000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 14,
+      "xpGained": 804,
+      "stats": {
+        "normal": {
+          "dps": 170,
+          "damagePerShot": 544,
+          "damagePerShotMin": 380,
+          "splashDamageMax": 380,
+          "splashDamageMin": 130
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/scattershot/normal/level-3.png",
+        "depleted": "images/home/defenses/scattershot/depleted/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 5100,
+      "buildCost": 11500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 15,
+      "xpGained": 831,
+      "stats": {
+        "normal": {
+          "dps": 175,
+          "damagePerShot": 560,
+          "damagePerShotMin": 400,
+          "splashDamageMax": 400,
+          "splashDamageMin": 140
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/scattershot/normal/level-4.png",
+        "depleted": "images/home/defenses/scattershot/depleted/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 5410,
+      "buildCost": 12000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 16,
+      "xpGained": 856,
+      "stats": {
+        "normal": {
+          "dps": 180,
+          "damagePerShot": 576,
+          "damagePerShotMin": 420,
+          "splashDamageMax": 420,
+          "splashDamageMin": 150
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/scattershot/normal/level-5.png",
+        "depleted": "images/home/defenses/scattershot/depleted/level-5.png"
+      }
+    },
+    {
+      "level": 6,
+      "hitpoints": 5600,
+      "buildCost": 16500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 10, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 17,
+      "xpGained": 952,
+      "stats": {
+        "normal": {
+          "dps": 185,
+          "damagePerShot": 592,
+          "damagePerShotMin": 440,
+          "splashDamageMax": 440,
+          "splashDamageMin": 155
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/scattershot/normal/level-6.png",
+        "depleted": "images/home/defenses/scattershot/depleted/level-6.png"
+      }
+    }
+  ]
+}
