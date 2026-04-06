@@ -4,4 +4,5 @@
  */
 
 import './cannon';
+import './archer-tower';
 import './home-defenses';

@@ -34,8 +34,8 @@ for (const d of all.byTownHall(6).get()) {
 log('');
 
 log('--- hasGearUp() ---');
-for (const d of all.hasGearedUpBurst().get()) {
-  log(`${d.name} (burst from level ${d.modes.gearedUpBurst?.availableFromLevel})`);
+for (const d of all.hasGearUp().get()) {
+  log(`${d.name} (gear up from level ${d.gearUp?.requiresLevel})`);
 }
 
 const outputPath = path.join(__dirname, 'output.txt');

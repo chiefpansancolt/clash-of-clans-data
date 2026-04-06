@@ -38,16 +38,20 @@ export interface HomeDefenseLevel extends BuildingLevel {
   townHallRequired: number;
   stats: {
     normal: DefenseModeStats;
-    /** Only present on levels where gear-up burst mode is available */
+    /** Cannon: burst-fire mode stats (available from gear-up level) */
     gearedUpBurst?: DefenseModeStats;
+    /** Archer Tower: fast-attack mode stats (available from gear-up level) */
+    gearedUpFastAttack?: DefenseModeStats;
   };
   images: {
     /** Ungeared appearance */
     normal: string;
-    /** Geared-up appearance while firing in normal mode (available from gear-up level) */
+    /** Geared-up appearance while firing in normal/long-range mode */
     gearedUpNormal?: string;
-    /** Geared-up appearance while firing in burst mode (available from gear-up level) */
+    /** Geared-up appearance while firing in burst mode (Cannon) */
     gearedUpBurst?: string;
+    /** Geared-up appearance while firing in fast-attack mode (Archer Tower) */
+    gearedUpFastAttack?: string;
   };
 }
 
@@ -55,8 +59,10 @@ export interface HomeDefense extends Building<HomeDefenseLevel> {
   targetType: 'ground' | 'air' | 'both';
   modes: {
     normal: DefenseMode;
-    /** Present only on buildings that support gear-up burst */
+    /** Cannon: burst-fire alternate mode */
     gearedUpBurst?: BurstDefenseMode;
+    /** Archer Tower: fast-attack alternate mode */
+    gearedUpFastAttack?: DefenseMode;
   };
   /** Present only on buildings that can be geared up */
   gearUp?: GearUp;

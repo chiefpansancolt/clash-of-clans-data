@@ -1,0 +1,356 @@
+{
+  "id": "archer-tower",
+  "name": "Archer Tower",
+  "base": "home",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "modes": {
+    "normal": { "range": 10, "attackSpeed": 0.5, "damageType": "single" },
+    "gearedUpFastAttack": { "range": 8, "attackSpeed": 0.25, "damageType": "single", "availableFromLevel": 10 }
+  },
+  "gearUp": {
+    "cost": 3000000,
+    "costResource": "Gold",
+    "time": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+    "requiresLevel": 10,
+    "requiresBuilderBuilding": "Archer Tower",
+    "requiresBuilderBuildingLevel": 6
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 2, "count": 1 },
+    { "townHallLevel": 3, "count": 1 },
+    { "townHallLevel": 4, "count": 2 },
+    { "townHallLevel": 5, "count": 3 },
+    { "townHallLevel": 6, "count": 3 },
+    { "townHallLevel": 7, "count": 4 },
+    { "townHallLevel": 8, "count": 5 },
+    { "townHallLevel": 9, "count": 6 },
+    { "townHallLevel": 10, "count": 7 },
+    { "townHallLevel": 11, "count": 8 },
+    { "townHallLevel": 12, "count": 8 },
+    { "townHallLevel": 13, "count": 8 },
+    { "townHallLevel": 14, "count": 8 },
+    { "townHallLevel": 15, "count": 8 },
+    { "townHallLevel": 16, "count": 8, "countAfterMerges": 4 },
+    { "townHallLevel": 17, "count": 9, "countAfterMerges": 2 },
+    { "townHallLevel": 18, "count": 9, "countAfterMerges": 2 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 380,
+      "buildCost": 1000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 15 },
+      "townHallRequired": 2,
+      "xpGained": 3,
+      "stats": { "normal": { "dps": 11, "damagePerShot": 5.5 } },
+      "images": { "normal": "images/home/defenses/archer-tower/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 420,
+      "buildCost": 2000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 2, "seconds": 0 },
+      "townHallRequired": 2,
+      "xpGained": 10,
+      "stats": { "normal": { "dps": 15, "damagePerShot": 7.5 } },
+      "images": { "normal": "images/home/defenses/archer-tower/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 460,
+      "buildCost": 5000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 20, "seconds": 0 },
+      "townHallRequired": 3,
+      "xpGained": 34,
+      "stats": { "normal": { "dps": 19, "damagePerShot": 9.5 } },
+      "images": { "normal": "images/home/defenses/archer-tower/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 500,
+      "buildCost": 20000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 4,
+      "xpGained": 60,
+      "stats": { "normal": { "dps": 25, "damagePerShot": 12.5 } },
+      "images": { "normal": "images/home/defenses/archer-tower/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 540,
+      "buildCost": 70000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 1, "minutes": 30, "seconds": 0 },
+      "townHallRequired": 5,
+      "xpGained": 73,
+      "stats": { "normal": { "dps": 30, "damagePerShot": 15 } },
+      "images": { "normal": "images/home/defenses/archer-tower/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 580,
+      "buildCost": 80000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 5,
+      "xpGained": 84,
+      "stats": { "normal": { "dps": 35, "damagePerShot": 17.5 } },
+      "images": { "normal": "images/home/defenses/archer-tower/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 630,
+      "buildCost": 150000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 6,
+      "xpGained": 103,
+      "stats": { "normal": { "dps": 42, "damagePerShot": 21 } },
+      "images": { "normal": "images/home/defenses/archer-tower/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 690,
+      "buildCost": 200000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 7,
+      "xpGained": 120,
+      "stats": { "normal": { "dps": 48, "damagePerShot": 24 } },
+      "images": { "normal": "images/home/defenses/archer-tower/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 750,
+      "buildCost": 400000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 8,
+      "xpGained": 134,
+      "stats": { "normal": { "dps": 56, "damagePerShot": 28 } },
+      "images": { "normal": "images/home/defenses/archer-tower/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 810,
+      "buildCost": 460000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 8,
+      "xpGained": 146,
+      "stats": {
+        "normal": { "dps": 63, "damagePerShot": 31.5 },
+        "gearedUpFastAttack": { "dps": 126, "damagePerShot": 31.5 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-10.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-10.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-10.png"
+      }
+    },
+    {
+      "level": 11,
+      "hitpoints": 890,
+      "buildCost": 600000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 7, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 9,
+      "xpGained": 158,
+      "stats": {
+        "normal": { "dps": 70, "damagePerShot": 35 },
+        "gearedUpFastAttack": { "dps": 140, "damagePerShot": 35 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-11.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-11.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-11.png"
+      }
+    },
+    {
+      "level": 12,
+      "hitpoints": 970,
+      "buildCost": 700000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 10,
+      "xpGained": 169,
+      "stats": {
+        "normal": { "dps": 74, "damagePerShot": 37 },
+        "gearedUpFastAttack": { "dps": 150, "damagePerShot": 37.5 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-12.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-12.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-12.png"
+      }
+    },
+    {
+      "level": 13,
+      "hitpoints": 1050,
+      "buildCost": 1000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 10,
+      "xpGained": 189,
+      "stats": {
+        "normal": { "dps": 78, "damagePerShot": 39 },
+        "gearedUpFastAttack": { "dps": 160, "damagePerShot": 40 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-13.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-13.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-13.png"
+      }
+    },
+    {
+      "level": 14,
+      "hitpoints": 1130,
+      "buildCost": 1100000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 11, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 11,
+      "xpGained": 198,
+      "stats": {
+        "normal": { "dps": 82, "damagePerShot": 41 },
+        "gearedUpFastAttack": { "dps": 180, "damagePerShot": 45 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-14.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-14.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-14.png"
+      }
+    },
+    {
+      "level": 15,
+      "hitpoints": 1230,
+      "buildCost": 1300000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 11,
+      "xpGained": 207,
+      "stats": {
+        "normal": { "dps": 85, "damagePerShot": 42.5 },
+        "gearedUpFastAttack": { "dps": 200, "damagePerShot": 50 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-15.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-15.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-15.png"
+      }
+    },
+    {
+      "level": 16,
+      "hitpoints": 1310,
+      "buildCost": 1600000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 12,
+      "xpGained": 240,
+      "stats": {
+        "normal": { "dps": 90, "damagePerShot": 45 },
+        "gearedUpFastAttack": { "dps": 210, "damagePerShot": 52.5 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-16.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-16.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-16.png"
+      }
+    },
+    {
+      "level": 17,
+      "hitpoints": 1390,
+      "buildCost": 1800000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 12,
+      "xpGained": 268,
+      "stats": {
+        "normal": { "dps": 100, "damagePerShot": 50 },
+        "gearedUpFastAttack": { "dps": 220, "damagePerShot": 55 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-17.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-17.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-17.png"
+      }
+    },
+    {
+      "level": 18,
+      "hitpoints": 1510,
+      "buildCost": 2000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 13,
+      "xpGained": 293,
+      "stats": {
+        "normal": { "dps": 110, "damagePerShot": 55 },
+        "gearedUpFastAttack": { "dps": 240, "damagePerShot": 60 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-18.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-18.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-18.png"
+      }
+    },
+    {
+      "level": 19,
+      "hitpoints": 1600,
+      "buildCost": 2200000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 13,
+      "xpGained": 328,
+      "stats": {
+        "normal": { "dps": 120, "damagePerShot": 60 },
+        "gearedUpFastAttack": { "dps": 260, "damagePerShot": 65 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-19.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-19.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-19.png"
+      }
+    },
+    {
+      "level": 20,
+      "hitpoints": 1700,
+      "buildCost": 3000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 14,
+      "xpGained": 360,
+      "stats": {
+        "normal": { "dps": 135, "damagePerShot": 67.5 },
+        "gearedUpFastAttack": { "dps": 276, "damagePerShot": 69 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-20.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-20.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-20.png"
+      }
+    },
+    {
+      "level": 21,
+      "hitpoints": 1800,
+      "buildCost": 4000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "townHallRequired": 15,
+      "xpGained": 415,
+      "stats": {
+        "normal": { "dps": 145, "damagePerShot": 72.5 },
+        "gearedUpFastAttack": { "dps": 290, "damagePerShot": 72.5 }
+      },
+      "images": {
+        "normal": "images/home/defenses/archer-tower/normal/level-21.png",
+        "gearedUpNormal": "images/home/defenses/archer-tower/geared-up-normal/level-21.png",
+        "gearedUpFastAttack": "images/home/defenses/archer-tower/geared-up-fast-attack/level-21.png"
+      }
+    }
+  ]
+}

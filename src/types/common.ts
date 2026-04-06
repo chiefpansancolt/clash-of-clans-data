@@ -28,6 +28,11 @@ export interface TownHallAvailability {
   townHallLevel: number;
   /** Number of this building that can be placed at this Town Hall level */
   count: number;
+  /**
+   * Count remaining after all possible merges (e.g. Multi-Archer Tower, Multi-Gear Tower)
+   * have been built. Only present when merging reduces the count at this TH level.
+   */
+  countAfterMerges?: number;
 }
 
 export interface BuilderHallAvailability {

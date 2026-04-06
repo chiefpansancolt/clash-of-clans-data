@@ -44,9 +44,9 @@
     { "townHallLevel": 13, "count": 7 },
     { "townHallLevel": 14, "count": 7 },
     { "townHallLevel": 15, "count": 7 },
-    { "townHallLevel": 16, "count": 7 },
-    { "townHallLevel": 17, "count": 7 },
-    { "townHallLevel": 18, "count": 7 }
+    { "townHallLevel": 16, "count": 7, "countAfterMerges": 3 },
+    { "townHallLevel": 17, "count": 7, "countAfterMerges": 0 },
+    { "townHallLevel": 18, "count": 7, "countAfterMerges": 0 }
   ],
   "levels": [
     {

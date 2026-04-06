@@ -1,8 +1,9 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeDefense } from '@/types';
+import { archerTowerData } from './archer-tower';
 import { cannonData } from './cannon';
 
-const allHomeDefenses: HomeDefense[] = [cannonData];
+const allHomeDefenses: HomeDefense[] = [cannonData, archerTowerData];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
   constructor(data: HomeDefense[] = allHomeDefenses) {
@@ -30,9 +31,9 @@ export class HomeDefenseQuery extends QueryBase<HomeDefense> {
     return new HomeDefenseQuery(this.data.filter((d) => d.modes.normal.damageType === type));
   }
 
-  /** Filter to buildings that support the geared-up burst mode. */
-  hasGearedUpBurst(): HomeDefenseQuery {
-    return new HomeDefenseQuery(this.data.filter((d) => d.modes.gearedUpBurst !== undefined));
+  /** Filter to buildings that can be geared up (any gear-up mode). */
+  hasGearUp(): HomeDefenseQuery {
+    return new HomeDefenseQuery(this.data.filter((d) => d.gearUp !== undefined));
   }
 }
 
@@ -40,4 +41,5 @@ export function homeDefenses(source: HomeDefense[] = allHomeDefenses): HomeDefen
   return new HomeDefenseQuery(source);
 }
 
+export * from './archer-tower';
 export * from './cannon';

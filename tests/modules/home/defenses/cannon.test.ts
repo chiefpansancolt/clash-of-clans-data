@@ -138,9 +138,9 @@ describe('HomeDefenseQuery#byTownHall', () => {
   });
 });
 
-describe('HomeDefenseQuery#hasGearedUpBurst', () => {
-  it('includes cannon (has gearedUpBurst mode)', () => {
-    expect(homeDefenses().hasGearedUpBurst().count()).toBe(1);
+describe('HomeDefenseQuery#hasGearUp', () => {
+  it('includes cannon', () => {
+    expect(homeDefenses().hasGearUp().findByName('Cannon')).toBeDefined();
   });
 });
 
@@ -150,6 +150,6 @@ testFilterImmutability('byBuilding', () => homeDefenses(), (q) =>
 testFilterImmutability('byTownHall', () => homeDefenses(), (q) =>
   (q as HomeDefenseQuery).byTownHall(10),
 );
-testFilterImmutability('hasGearedUpBurst', () => homeDefenses(), (q) =>
-  (q as HomeDefenseQuery).hasGearedUpBurst(),
+testFilterImmutability('hasGearUp', () => homeDefenses(), (q) =>
+  (q as HomeDefenseQuery).hasGearUp(),
 );
