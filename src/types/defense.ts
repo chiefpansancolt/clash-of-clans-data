@@ -51,6 +51,9 @@ export interface HomeDefenseLevel extends BuildingLevel {
     gearedUpNormal?: string;
     gearedUpBurst?: string;
     gearedUpFastAttack?: string;
+    airAndGround?: string;
+    groundDepleted?: string;
+    airAndGroundDepleted?: string;
   };
 }
 
@@ -60,6 +63,7 @@ export interface HomeDefense extends Building<HomeDefenseLevel> {
     normal: DefenseMode;
     gearedUpBurst?: BurstDefenseMode;
     gearedUpFastAttack?: DefenseMode;
+    airAndGround?: DefenseMode;
   };
   gearUp?: GearUp;
   availablePerTownHall: TownHallAvailability[];

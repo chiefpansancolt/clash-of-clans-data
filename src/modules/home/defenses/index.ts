@@ -8,6 +8,7 @@ import { cannonData } from './cannon';
 import { hiddenTeslaData } from './hidden-tesla';
 import { mortarData } from './mortar';
 import { wizardTowerData } from './wizard-tower';
+import { xBowData } from './x-bow';
 
 const allHomeDefenses: HomeDefense[] = [
   cannonData,
@@ -18,6 +19,7 @@ const allHomeDefenses: HomeDefense[] = [
   airSweeperData,
   hiddenTeslaData,
   bombTowerData,
+  xBowData,
 ];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
@@ -64,3 +66,4 @@ export * from './cannon';
 export * from './hidden-tesla';
 export * from './mortar';
 export * from './wizard-tower';
+export * from './x-bow';

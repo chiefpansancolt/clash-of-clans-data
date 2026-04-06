@@ -11,3 +11,4 @@ import './hidden-tesla';
 import './home-defenses';
 import './mortar';
 import './wizard-tower';
+import './x-bow';
