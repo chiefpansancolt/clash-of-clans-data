@@ -7,6 +7,19 @@ import {
   TownHallAvailability,
 } from './common';
 
+/** Builder's Hut: per-level stats for the builder unit's repair action. */
+export interface BuilderStats {
+  repairPerSecond: number;
+  repairPerHit: number;
+}
+
+/** Builder's Hut: fixed properties of the builder unit that exits to repair nearby buildings. */
+export interface BuilderMode {
+  range: number;
+  repairSpeed: number;
+  movementSpeed: number;
+}
+
 export interface DefenseModeStats {
   dps?: number;
   damagePerShot?: number;
@@ -70,6 +83,8 @@ export interface HomeDefenseLevel extends BuildingLevel {
     gearedUpBurst?: DefenseModeStats;
     gearedUpFastAttack?: DefenseModeStats;
     multiTarget?: DefenseModeStats;
+    /** Builder's Hut: per-level repair stats for the builder unit. */
+    builder?: BuilderStats;
   };
   images: {
     normal: string;
@@ -88,6 +103,8 @@ export interface HomeDefenseLevel extends BuildingLevel {
     unloaded?: string;
     /** Scattershot: depleted appearance after consuming all rounds. */
     depleted?: string;
+    /** Builder's Hut: appearance when the builder is out repairing or the turret is active. */
+    active?: string;
   };
 }
 
@@ -99,9 +116,16 @@ export interface HomeDefense extends Building<HomeDefenseLevel> {
     gearedUpFastAttack?: DefenseMode;
     airAndGround?: DefenseMode;
     multiTarget?: DefenseMode;
+    /** Builder's Hut: the builder unit that exits to repair nearby buildings. */
+    builder?: BuilderMode;
   };
   gearUp?: GearUp;
   availablePerTownHall: TownHallAvailability[];
+  /**
+   * Builder's Hut only: the cost to place each of the 5 builder instances.
+   * The 1st is free; the 2nd–5th cost increasing amounts of Gems.
+   */
+  placementCosts?: Array<{ instance: number; cost: number; costResource: ResourceType }>;
 }
 
 // ── Builder Base ──────────────────────────────────────────────────────────────

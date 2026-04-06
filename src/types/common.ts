@@ -8,7 +8,8 @@ export type ResourceType =
   | 'Dark Elixir'
   | 'Builder Gold'
   | 'Builder Elixir'
-  | 'Capital Gold';
+  | 'Capital Gold'
+  | 'Gems';
 
 export interface BuildTime {
   days: number;

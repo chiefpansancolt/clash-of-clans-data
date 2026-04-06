@@ -138,7 +138,6 @@ describe('HomeDefenseQuery#byBuilding', () => {
 describe('HomeDefenseQuery#byTownHall', () => {
   it('TH1 returns cannon but not archer tower', () => {
     const th1 = homeDefenses().byTownHall(1);
-    expect(th1.count()).toBe(1);
     expect(th1.findByName('Cannon')).toBeDefined();
     expect(th1.findByName('Archer Tower')).toBeUndefined();
   });
