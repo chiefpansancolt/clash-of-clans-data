@@ -37,6 +37,7 @@ export interface DefenseMode {
   minRange?: number;
   attackSpeed: number;
   damageType: 'single' | 'splash' | 'none' | 'multiple';
+  numberOfTargets?: number;
   splashRadius?: number;
   triggerRange?: number;
   shotsPerBurst?: number;

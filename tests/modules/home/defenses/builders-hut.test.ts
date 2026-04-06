@@ -261,7 +261,7 @@ describe("homeDefenses() — Builder's Hut integration", () => {
   );
 });
 
-describe("buildersHut() supercharge levels", () => {
+describe('buildersHut() supercharge levels', () => {
   it('supercharge 1 and 2 are supercharge levels', () => {
     expect(buildersHut().levels[7].supercharge).toBe(true);
     expect(buildersHut().levels[7].level).toBe(1);
