@@ -9,6 +9,7 @@ import { cannonData } from './cannon';
 import { eagleArtilleryData } from './eagle-artillery';
 import { hiddenTeslaData } from './hidden-tesla';
 import { infernoTowerData } from './inferno-tower';
+import { monolithData } from './monolith';
 import { mortarData } from './mortar';
 import { scattershotData } from './scattershot';
 import { spellTowerData } from './spell-tower';
@@ -30,6 +31,7 @@ const allHomeDefenses: HomeDefense[] = [
   scattershotData,
   buildersHutData,
   spellTowerData,
+  monolithData,
 ];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
@@ -77,6 +79,7 @@ export * from './cannon';
 export * from './eagle-artillery';
 export * from './hidden-tesla';
 export * from './inferno-tower';
+export * from './monolith';
 export * from './mortar';
 export * from './scattershot';
 export * from './spell-tower';

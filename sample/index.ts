@@ -12,6 +12,7 @@ import './eagle-artillery';
 import './hidden-tesla';
 import './home-defenses';
 import './inferno-tower';
+import './monolith';
 import './mortar';
 import './scattershot';
 import './spell-tower';

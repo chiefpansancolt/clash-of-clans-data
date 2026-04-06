@@ -21,6 +21,7 @@ export interface BuilderMode {
 export interface DefenseModeStats {
   dps?: number;
   damagePerShot?: number;
+  bonusDamagePercent?: number;
   pushStrength?: number;
   dpsInitial?: number;
   dpsAfter1p5s?: number;
@@ -61,6 +62,7 @@ export interface GearUp {
 
 export interface HomeDefenseLevel extends BuildingLevel {
   townHallRequired: number;
+  supercharge?: boolean;
   deathDamage?: number;
   unlocksSpell?: string;
   stats: {

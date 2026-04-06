@@ -1,0 +1,104 @@
+{
+  "id": "monolith",
+  "name": "Monolith",
+  "base": "home",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 11,
+      "attackSpeed": 1.5,
+      "damageType": "single"
+    }
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 14, "count": 1 },
+    { "townHallLevel": 15, "count": 1 },
+    { "townHallLevel": 16, "count": 1 },
+    { "townHallLevel": 17, "count": 1 },
+    { "townHallLevel": 18, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 4747,
+      "buildCost": 200000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 15,
+      "stats": {
+        "normal": { "dps": 150, "damagePerShot": 225, "bonusDamagePercent": 11 }
+      },
+      "images": { "normal": "images/home/defenses/monolith/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 5050,
+      "buildCost": 250000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "townHallRequired": 15,
+      "stats": {
+        "normal": { "dps": 175, "damagePerShot": 262.5, "bonusDamagePercent": 12 }
+      },
+      "images": { "normal": "images/home/defenses/monolith/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 5353,
+      "buildCost": 260000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 881,
+      "townHallRequired": 16,
+      "stats": {
+        "normal": { "dps": 193, "damagePerShot": 289.5, "bonusDamagePercent": 13 }
+      },
+      "images": { "normal": "images/home/defenses/monolith/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 5656,
+      "buildCost": 300000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1018,
+      "townHallRequired": 17,
+      "stats": {
+        "normal": { "dps": 209, "damagePerShot": 313.5, "bonusDamagePercent": 14 }
+      },
+      "images": { "normal": "images/home/defenses/monolith/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "supercharge": true,
+      "hitpoints": 5656,
+      "buildCost": 150000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 657,
+      "townHallRequired": 17,
+      "stats": {
+        "normal": { "dps": 219, "damagePerShot": 328.5, "bonusDamagePercent": 14 }
+      },
+      "images": { "normal": "images/home/defenses/monolith/normal/level-4.png" }
+    },
+    {
+      "level": 6,
+      "supercharge": true,
+      "hitpoints": 5858,
+      "buildCost": 130000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 17,
+      "stats": {
+        "normal": { "dps": 219, "damagePerShot": 328.5, "bonusDamagePercent": 14 }
+      },
+      "images": { "normal": "images/home/defenses/monolith/normal/level-4.png" }
+    }
+  ]
+}
