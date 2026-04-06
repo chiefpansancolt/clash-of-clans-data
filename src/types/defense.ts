@@ -22,6 +22,7 @@ export interface DefenseModeStats {
   dps?: number;
   damagePerShot?: number;
   bonusDamagePercent?: number;
+  secondaryChainDamagePerShot?: number;
   pushStrength?: number;
   dpsInitial?: number;
   dpsAfter1p5s?: number;
@@ -36,7 +37,8 @@ export interface DefenseMode {
   range: number;
   minRange?: number;
   attackSpeed: number;
-  damageType: 'single' | 'splash' | 'none' | 'multiple';
+  damageType: 'single' | 'splash' | 'none' | 'multiple' | 'ricochet';
+  chainRange?: number;
   numberOfTargets?: number;
   splashRadius?: number;
   triggerRange?: number;

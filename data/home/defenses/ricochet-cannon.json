@@ -1,0 +1,139 @@
+{
+  "id": "ricochet-cannon",
+  "name": "Ricochet Cannon",
+  "base": "home",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "ground",
+  "modes": {
+    "normal": {
+      "range": 9,
+      "attackSpeed": 0.8,
+      "damageType": "ricochet",
+      "chainRange": 3.5
+    }
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 16, "count": 2 },
+    { "townHallLevel": 17, "count": 3 },
+    { "townHallLevel": 18, "count": 3 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 5400,
+      "buildCost": 12000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 16,
+      "stats": {
+        "normal": {
+          "dps": 360,
+          "damagePerShot": 288,
+          "secondaryChainDamagePerShot": 201.6
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/ricochet-cannon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 5700,
+      "buildCost": 13000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "townHallRequired": 16,
+      "stats": {
+        "normal": {
+          "dps": 390,
+          "damagePerShot": 312,
+          "secondaryChainDamagePerShot": 218.4
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/ricochet-cannon/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 6000,
+      "buildCost": 17500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 10, "hours": 18, "minutes": 0, "seconds": 0 },
+      "xpGained": 963,
+      "townHallRequired": 17,
+      "stats": {
+        "normal": {
+          "dps": 405,
+          "damagePerShot": 324,
+          "secondaryChainDamagePerShot": 226.8
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/ricochet-cannon/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 6100,
+      "buildCost": 26500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 13, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 1080,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 412,
+          "damagePerShot": 329.6,
+          "secondaryChainDamagePerShot": 230.72
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/ricochet-cannon/normal/level-4.png"
+      }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 6100,
+      "buildCost": 12000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 420,
+          "damagePerShot": 336,
+          "secondaryChainDamagePerShot": 235.2
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/ricochet-cannon/normal/level-4.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 6250,
+      "buildCost": 10000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 420,
+          "damagePerShot": 336,
+          "secondaryChainDamagePerShot": 235.2
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/ricochet-cannon/normal/level-4.png"
+      }
+    }
+  ]
+}

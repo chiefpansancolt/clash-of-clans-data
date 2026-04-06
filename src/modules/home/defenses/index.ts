@@ -12,6 +12,7 @@ import { infernoTowerData } from './inferno-tower';
 import { monolithData } from './monolith';
 import { mortarData } from './mortar';
 import { multiArcherTowerData } from './multi-archer-tower';
+import { ricochetCannonData } from './ricochet-cannon';
 import { scattershotData } from './scattershot';
 import { spellTowerData } from './spell-tower';
 import { wizardTowerData } from './wizard-tower';
@@ -34,6 +35,7 @@ const allHomeDefenses: HomeDefense[] = [
   spellTowerData,
   monolithData,
   multiArcherTowerData,
+  ricochetCannonData,
 ];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
@@ -84,6 +86,7 @@ export * from './inferno-tower';
 export * from './monolith';
 export * from './mortar';
 export * from './multi-archer-tower';
+export * from './ricochet-cannon';
 export * from './scattershot';
 export * from './spell-tower';
 export * from './wizard-tower';
