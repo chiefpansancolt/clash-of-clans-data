@@ -2,6 +2,7 @@ import { HomeVillageArmyBuildings } from './army-buildings';
 import { HomeVillageCraftedDefenses } from './crafted-defenses';
 import { HomeVillageDefenses } from './defenses';
 import { HomeVillageGuardians } from './guardians';
+import { HomeVillageOtherBuildings } from './other';
 import { HomeVillageResourceBuildings } from './resource-buildings';
 import { HomeVillageTownHall } from './town-hall';
 import { HomeVillageTraps } from './traps';
@@ -26,6 +27,7 @@ export { HomeVillageGuardians } from './guardians';
 export { HomeVillageClanCastle, HomeVillageResourceBuildings } from './resource-buildings';
 export { HomeVillageTownHall } from './town-hall';
 export { HomeVillageTraps } from './traps';
+export { HomeVillageOtherBuildings } from './other';
 export { HomeVillageWalls } from './walls';
 
 export class HomeVillage {
@@ -59,6 +61,10 @@ export class HomeVillage {
 
   resourceBuildings(): HomeVillageResourceBuildings {
     return new HomeVillageResourceBuildings();
+  }
+
+  otherBuildings(): HomeVillageOtherBuildings {
+    return new HomeVillageOtherBuildings();
   }
 }
 
