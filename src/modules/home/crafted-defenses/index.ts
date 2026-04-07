@@ -10,16 +10,6 @@ import { lavaLauncherData } from './lava-launcher';
 import { lightBeamData } from './light-beam';
 import { roasterData } from './roaster';
 
-export * from './air-bombs';
-export * from './bomb-hive';
-export * from './crusher-mortar';
-export * from './flame-spinner';
-export * from './hero-bell';
-export * from './hook-tower';
-export * from './lava-launcher';
-export * from './light-beam';
-export * from './roaster';
-
 /**
  * All crafted defenses across all phases, registered here as they are implemented.
  *
@@ -39,34 +29,58 @@ const allCraftedDefenses: CraftedDefense[] = [
   lavaLauncherData,
 ];
 
-export class HomeCraftedDefenseQuery extends QueryBase<CraftedDefense> {
+export class HomeVillageCraftedDefenses extends QueryBase<CraftedDefense> {
   constructor(data: CraftedDefense[] = allCraftedDefenses) {
     super(data);
   }
 
+  // Per-building accessors
+  hookTower(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([hookTowerData]);
+  }
+  flameSpinner(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([flameSpinnerData]);
+  }
+  crusherMortar(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([crusherMortarData]);
+  }
+  heroBell(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([heroBellData]);
+  }
+  bombHive(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([bombHiveData]);
+  }
+  lightBeam(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([lightBeamData]);
+  }
+  roaster(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([roasterData]);
+  }
+  airBombs(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([airBombsData]);
+  }
+  lavaLauncher(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([lavaLauncherData]);
+  }
+
+  // Category filters
   /** Filter to a specific crafting phase (1, 2, 3, …). */
-  byPhase(phase: number): HomeCraftedDefenseQuery {
-    return new HomeCraftedDefenseQuery(this.data.filter((d) => d.craftingPhase === phase));
+  byPhase(phase: number): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses(this.data.filter((d) => d.craftingPhase === phase));
   }
 
   /** Filter to defenses in the currently active crafting phase. */
-  current(): HomeCraftedDefenseQuery {
-    return new HomeCraftedDefenseQuery(this.data.filter((d) => d.isCurrent));
+  current(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses(this.data.filter((d) => d.isCurrent));
   }
 
   /** Filter to defenses from previous (retired) crafting phases. */
-  former(): HomeCraftedDefenseQuery {
-    return new HomeCraftedDefenseQuery(this.data.filter((d) => !d.isCurrent));
+  former(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses(this.data.filter((d) => !d.isCurrent));
   }
 
   /** Filter by target type. */
-  byTargetType(type: CraftedDefense['targetType']): HomeCraftedDefenseQuery {
-    return new HomeCraftedDefenseQuery(this.data.filter((d) => d.targetType === type));
+  byTargetType(type: CraftedDefense['targetType']): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses(this.data.filter((d) => d.targetType === type));
   }
-}
-
-export function homeCraftedDefenses(
-  source: CraftedDefense[] = allCraftedDefenses,
-): HomeCraftedDefenseQuery {
-  return new HomeCraftedDefenseQuery(source);
 }

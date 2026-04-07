@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { craftingStation, homeCraftedDefenses } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const cs = craftingStation();
+const cs = home().defenses().craftingStation().first()!;
 
 log('=== craftingStation() ===');
 log(`id:       ${cs.id}`);
@@ -32,10 +32,10 @@ log(`HP (unselected): ${cs.levels[0].hitpoints}`);
 log(`Build cost: ${cs.levels[0].buildCost} (free)`);
 log('');
 
-log('=== homeCraftedDefenses() ===');
-log(`Total crafted defenses registered: ${homeCraftedDefenses().count()}`);
-log(`Current phase: ${homeCraftedDefenses().current().count()}`);
-log(`Former phases: ${homeCraftedDefenses().former().count()}`);
+log('=== home().craftedDefenses() ===');
+log(`Total crafted defenses registered: ${home().craftedDefenses().count()}`);
+log(`Current phase: ${home().craftedDefenses().current().count()}`);
+log(`Former phases: ${home().craftedDefenses().former().count()}`);
 log('');
 log('Phase 1 (former): Hook Tower, Flame Spinner, Crusher Mortar');
 log('Phase 2 (former): Hero Bell, Bomb Hive, Light Beam');

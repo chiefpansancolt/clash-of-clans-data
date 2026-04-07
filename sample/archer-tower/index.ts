@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { archerTower } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const at = archerTower();
+const at = home().defenses().archerTower().first()!;
 
 log('=== archerTower() ===');
 log(`id:       ${at.id}`);

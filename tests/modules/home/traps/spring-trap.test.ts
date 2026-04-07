@@ -1,28 +1,28 @@
-import { springTrap } from '@/modules/home/traps/spring-trap';
+import { home } from '@/modules/home';
 
 describe('springTrap()', () => {
   it('returns a HomeTrap object', () => {
-    const result = springTrap();
+    const result = home().traps().springTrap().first()!;
     expect(result).toBeDefined();
     expect(result.id).toBe('spring-trap');
     expect(result.name).toBe('Spring Trap');
   });
 
   it('base is home, category is trap', () => {
-    expect(springTrap().base).toBe('home');
-    expect(springTrap().category).toBe('trap');
+    expect(home().traps().springTrap().first()!.base).toBe('home');
+    expect(home().traps().springTrap().first()!.category).toBe('trap');
   });
 
   it('size is 1x1', () => {
-    expect(springTrap().size).toBe('1x1');
+    expect(home().traps().springTrap().first()!.size).toBe('1x1');
   });
 
   it('has 13 levels', () => {
-    expect(springTrap().levels).toHaveLength(13);
+    expect(home().traps().springTrap().first()!.levels).toHaveLength(13);
   });
 
   it('constants: triggerRadius 1, single target, ground, has specialAbility', () => {
-    const st = springTrap();
+    const st = home().traps().springTrap().first()!;
     expect(st.triggerRadius).toBe(1);
     expect(st.damageRadius).toBeUndefined();
     expect(st.damageType).toBe('single');
@@ -32,7 +32,7 @@ describe('springTrap()', () => {
   });
 
   it('level 1 stats', () => {
-    const l1 = springTrap().levels[0];
+    const l1 = home().traps().springTrap().first()!.levels[0];
     expect(l1.level).toBe(1);
     expect(l1.springCapacity).toBe(10);
     expect(l1.damage).toBe(0);
@@ -44,18 +44,21 @@ describe('springTrap()', () => {
   });
 
   it('level 5 reaches max spring capacity of 18', () => {
-    const l5 = springTrap().levels[4];
+    const l5 = home().traps().springTrap().first()!.levels[4];
     expect(l5.springCapacity).toBe(18);
   });
 
   it('levels 5-13 all have spring capacity 18', () => {
-    springTrap()
+    home()
+      .traps()
+      .springTrap()
+      .first()!
       .levels.slice(4)
       .forEach((l) => expect(l.springCapacity).toBe(18));
   });
 
   it('level 13 stats', () => {
-    const l13 = springTrap().levels[12];
+    const l13 = home().traps().springTrap().first()!.levels[12];
     expect(l13.level).toBe(13);
     expect(l13.springCapacity).toBe(18);
     expect(l13.damage).toBe(1400);
@@ -66,21 +69,29 @@ describe('springTrap()', () => {
   });
 
   it('all levels use Gold', () => {
-    springTrap().levels.forEach((l) => expect(l.buildCostResource).toBe('Gold'));
+    home()
+      .traps()
+      .springTrap()
+      .first()!
+      .levels.forEach((l) => expect(l.buildCostResource).toBe('Gold'));
   });
 
   it('each level has a normal image', () => {
-    springTrap().levels.forEach((l, i) => {
-      expect(l.images.normal).toBe(`images/home/traps/spring-trap/normal/level-${i + 1}.png`);
-    });
+    home()
+      .traps()
+      .springTrap()
+      .first()!
+      .levels.forEach((l, i) => {
+        expect(l.images.normal).toBe(`images/home/traps/spring-trap/normal/level-${i + 1}.png`);
+      });
   });
 
   it('availablePerTownHall has 18 entries', () => {
-    expect(springTrap().availablePerTownHall).toHaveLength(18);
+    expect(home().traps().springTrap().first()!.availablePerTownHall).toHaveLength(18);
   });
 
   it('TH1-3 have 0, TH4 has 2, TH8 has 6, TH12 has 8, TH13 has 9', () => {
-    const apt = springTrap().availablePerTownHall;
+    const apt = home().traps().springTrap().first()!.availablePerTownHall;
     expect(apt.find((e) => e.townHallLevel === 1)?.count).toBe(0);
     expect(apt.find((e) => e.townHallLevel === 4)?.count).toBe(2);
     expect(apt.find((e) => e.townHallLevel === 8)?.count).toBe(6);

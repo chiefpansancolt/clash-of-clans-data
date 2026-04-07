@@ -11,154 +11,284 @@
       "hitpoints": 400,
       "buildCost": 0,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "maxBuildings": 13,
       "maxTraps": 0,
-      "storageCapacity": { "gold": 1000, "elixir": 1000, "darkElixir": 0 },
+      "storageCapacity": {
+        "gold": 1000,
+        "elixir": 1000,
+        "darkElixir": 0
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 800,
       "buildCost": 1000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 10 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 10
+      },
       "xpGained": 3,
       "maxBuildings": 17,
       "maxTraps": 0,
-      "storageCapacity": { "gold": 2500, "elixir": 2500, "darkElixir": 0 },
+      "storageCapacity": {
+        "gold": 2500,
+        "elixir": 2500,
+        "darkElixir": 0
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 1600,
       "buildCost": 4000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "xpGained": 42,
       "maxBuildings": 25,
       "maxTraps": 2,
-      "storageCapacity": { "gold": 10000, "elixir": 10000, "darkElixir": 0 },
+      "storageCapacity": {
+        "gold": 10000,
+        "elixir": 10000,
+        "darkElixir": 0
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 2000,
       "buildCost": 25000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 103,
       "maxBuildings": 29,
       "maxTraps": 4,
-      "storageCapacity": { "gold": 50000, "elixir": 50000, "darkElixir": 0 },
+      "storageCapacity": {
+        "gold": 50000,
+        "elixir": 50000,
+        "darkElixir": 0
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-4.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 2400,
       "buildCost": 150000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 146,
       "maxBuildings": 36,
       "maxTraps": 8,
-      "storageCapacity": { "gold": 100000, "elixir": 100000, "darkElixir": 0 },
+      "storageCapacity": {
+        "gold": 100000,
+        "elixir": 100000,
+        "darkElixir": 0
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-5.png"
+      }
     },
     {
       "level": 6,
       "hitpoints": 2800,
       "buildCost": 500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "maxBuildings": 42,
       "maxTraps": 11,
-      "storageCapacity": { "gold": 300000, "elixir": 300000, "darkElixir": 0 },
+      "storageCapacity": {
+        "gold": 300000,
+        "elixir": 300000,
+        "darkElixir": 0
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-6.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-6.png"
+      }
     },
     {
       "level": 7,
       "hitpoints": 3300,
       "buildCost": 1000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 254,
       "maxBuildings": 54,
       "maxTraps": 15,
-      "storageCapacity": { "gold": 500000, "elixir": 500000, "darkElixir": 2500 },
+      "storageCapacity": {
+        "gold": 500000,
+        "elixir": 500000,
+        "darkElixir": 2500
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-7.png"
+      }
     },
     {
       "level": 8,
       "hitpoints": 3900,
       "buildCost": 2000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "maxBuildings": 64,
       "maxTraps": 23,
-      "storageCapacity": { "gold": 750000, "elixir": 750000, "darkElixir": 5000 },
+      "storageCapacity": {
+        "gold": 750000,
+        "elixir": 750000,
+        "darkElixir": 5000
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-8.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-8.png"
+      }
     },
     {
       "level": 9,
       "hitpoints": 4600,
       "buildCost": 2500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "maxBuildings": 77,
       "maxTraps": 26,
-      "storageCapacity": { "gold": 1000000, "elixir": 1000000, "darkElixir": 10000 },
+      "storageCapacity": {
+        "gold": 1000000,
+        "elixir": 1000000,
+        "darkElixir": 10000
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-9.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-9.png"
+      }
     },
     {
       "level": 10,
       "hitpoints": 5500,
       "buildCost": 3500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "maxBuildings": 84,
       "maxTraps": 30,
-      "storageCapacity": { "gold": 1500000, "elixir": 1500000, "darkElixir": 20000 },
+      "storageCapacity": {
+        "gold": 1500000,
+        "elixir": 1500000,
+        "darkElixir": 20000
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-10.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-10.png"
+      }
     },
     {
       "level": 11,
       "hitpoints": 6800,
       "buildCost": 4000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "maxBuildings": 89,
       "maxTraps": 31,
-      "storageCapacity": { "gold": 2000000, "elixir": 2000000, "darkElixir": 20000 },
+      "storageCapacity": {
+        "gold": 2000000,
+        "elixir": 2000000,
+        "darkElixir": 20000
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-11.png"
+      }
     },
     {
       "level": 12,
       "hitpoints": 7500,
       "buildCost": 6000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "maxBuildings": 92,
       "maxTraps": 36,
-      "storageCapacity": { "gold": 2000000, "elixir": 2000000, "darkElixir": 20000 },
+      "storageCapacity": {
+        "gold": 2000000,
+        "elixir": 2000000,
+        "darkElixir": 20000
+      },
       "weapon": {
         "name": "Giga Tesla",
         "hitpoints": 7500,
@@ -176,24 +306,42 @@
             "damagePerHit": 70,
             "buildCost": 0,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 0,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 0,
-            "images": { "normal": "images/home/town-hall/weapons/giga-tesla/level-1.png" }
+            "images": {
+              "normal": "images/home/town-hall/weapons/giga-tesla/level-1.png"
+            }
           }
         ]
       },
-      "images": { "normal": "images/home/town-hall/normal/level-12.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-12.png"
+      }
     },
     {
       "level": 13,
       "hitpoints": 8200,
       "buildCost": 9000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "maxBuildings": 94,
       "maxTraps": 39,
-      "storageCapacity": { "gold": 2000000, "elixir": 2000000, "darkElixir": 20000 },
+      "storageCapacity": {
+        "gold": 2000000,
+        "elixir": 2000000,
+        "darkElixir": 20000
+      },
       "weapon": {
         "name": "Giga Inferno",
         "hitpoints": 8200,
@@ -213,24 +361,42 @@
             "damagePerHit": 25.6,
             "buildCost": 0,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 0,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 0,
-            "images": { "normal": "images/home/town-hall/weapons/giga-inferno-th13/level-1.png" }
+            "images": {
+              "normal": "images/home/town-hall/weapons/giga-inferno-th13/level-1.png"
+            }
           }
         ]
       },
-      "images": { "normal": "images/home/town-hall/normal/level-13.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-13.png"
+      }
     },
     {
       "level": 14,
       "hitpoints": 8900,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 804,
       "maxBuildings": 95,
       "maxTraps": 44,
-      "storageCapacity": { "gold": 3000000, "elixir": 3000000, "darkElixir": 30000 },
+      "storageCapacity": {
+        "gold": 3000000,
+        "elixir": 3000000,
+        "darkElixir": 30000
+      },
       "weapon": {
         "name": "Giga Inferno",
         "hitpoints": 8900,
@@ -252,24 +418,42 @@
             "damagePerHit": 35.84,
             "buildCost": 0,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 0,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 0,
-            "images": { "normal": "images/home/town-hall/weapons/giga-inferno-th14/level-1.png" }
+            "images": {
+              "normal": "images/home/town-hall/weapons/giga-inferno-th14/level-1.png"
+            }
           }
         ]
       },
-      "images": { "normal": "images/home/town-hall/normal/level-14.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-14.png"
+      }
     },
     {
       "level": 15,
       "hitpoints": 9600,
       "buildCost": 13000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "maxBuildings": 98,
       "maxTraps": 44,
-      "storageCapacity": { "gold": 3000000, "elixir": 3000000, "darkElixir": 30000 },
+      "storageCapacity": {
+        "gold": 3000000,
+        "elixir": 3000000,
+        "darkElixir": 30000
+      },
       "weapon": {
         "name": "Giga Inferno",
         "hitpoints": 9600,
@@ -291,24 +475,42 @@
             "damagePerHit": 38.4,
             "buildCost": 0,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 0,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 0,
-            "images": { "normal": "images/home/town-hall/weapons/giga-inferno-th15/level-1.png" }
+            "images": {
+              "normal": "images/home/town-hall/weapons/giga-inferno-th15/level-1.png"
+            }
           }
         ]
       },
-      "images": { "normal": "images/home/town-hall/normal/level-15.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-15.png"
+      }
     },
     {
       "level": 16,
       "hitpoints": 10000,
       "buildCost": 15000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 881,
       "maxBuildings": 94,
       "maxTraps": 44,
-      "storageCapacity": { "gold": 4000000, "elixir": 4000000, "darkElixir": 40000 },
+      "storageCapacity": {
+        "gold": 4000000,
+        "elixir": 4000000,
+        "darkElixir": 40000
+      },
       "weapon": {
         "name": "Giga Inferno",
         "hitpoints": 10000,
@@ -330,24 +532,42 @@
             "damagePerHit": 38.4,
             "buildCost": 0,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 0,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 0,
-            "images": { "normal": "images/home/town-hall/weapons/giga-inferno-th16/level-1.png" }
+            "images": {
+              "normal": "images/home/town-hall/weapons/giga-inferno-th16/level-1.png"
+            }
           }
         ]
       },
-      "images": { "normal": "images/home/town-hall/normal/level-16.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-16.png"
+      }
     },
     {
       "level": 17,
       "hitpoints": 10400,
       "buildCost": 16000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 929,
       "maxBuildings": 93,
       "maxTraps": 47,
-      "storageCapacity": { "gold": 4000000, "elixir": 4000000, "darkElixir": 40000 },
+      "storageCapacity": {
+        "gold": 4000000,
+        "elixir": 4000000,
+        "darkElixir": 40000
+      },
       "weapon": {
         "name": "Inferno Artillery",
         "hitpoints": 10400,
@@ -365,11 +585,16 @@
             "damagePerHit": 140,
             "buildCost": 0,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 0,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 0,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-1.png",
-              "townHall": "images/home/town-hall/normal/level-17.png"
+              "townHall": "images/home/town-hall/normal/level-17-1.png"
             }
           },
           {
@@ -378,11 +603,16 @@
             "damagePerHit": 157.5,
             "buildCost": 10000000,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 6,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 720,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-2.png",
-              "townHall": "images/home/town-hall/normal/level-17.png"
+              "townHall": "images/home/town-hall/normal/level-17-2.png"
             }
           },
           {
@@ -391,11 +621,16 @@
             "damagePerHit": 175,
             "buildCost": 12000000,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 7,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 777,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-3.png",
-              "townHall": "images/home/town-hall/normal/level-17.png"
+              "townHall": "images/home/town-hall/normal/level-17-3.png"
             }
           },
           {
@@ -404,11 +639,16 @@
             "damagePerHit": 192.5,
             "buildCost": 14000000,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 8,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 831,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-4.png",
-              "townHall": "images/home/town-hall/normal/level-17.png"
+              "townHall": "images/home/town-hall/normal/level-17-4.png"
             }
           },
           {
@@ -417,29 +657,47 @@
             "damagePerHit": 210,
             "buildCost": 18000000,
             "buildCostResource": "Gold",
-            "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+            "buildTime": {
+              "days": 10,
+              "hours": 0,
+              "minutes": 0,
+              "seconds": 0
+            },
             "xpGained": 929,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-5.png",
-              "townHall": "images/home/town-hall/normal/level-17.png"
+              "townHall": "images/home/town-hall/normal/level-17-5.png"
             }
           }
         ]
       },
-      "images": { "normal": "images/home/town-hall/normal/level-17.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-17.png"
+      }
     },
     {
       "level": 18,
       "hitpoints": 10800,
       "buildCost": 25000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1099,
       "maxBuildings": 94,
       "maxTraps": 47,
-      "storageCapacity": { "gold": 5000000, "elixir": 5000000, "darkElixir": 50000 },
+      "storageCapacity": {
+        "gold": 5000000,
+        "elixir": 5000000,
+        "darkElixir": 50000
+      },
       "weapon": null,
-      "images": { "normal": "images/home/town-hall/normal/level-18.png" }
+      "images": {
+        "normal": "images/home/town-hall/normal/level-18.png"
+      }
     }
   ]
 }

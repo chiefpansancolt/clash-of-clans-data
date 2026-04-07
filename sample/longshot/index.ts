@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { longshot } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const ls = longshot();
+const ls = home().guardians().longshot().first()!;
 
 log('=== longshot() ===');
 log(`id:             ${ls.id}`);

@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { smasher } from '../../src';
+import { home } from '../../src';
+import type { SmasherGuardian } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +20,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const sm = smasher();
+const sm = home().guardians().smasher().first()! as SmasherGuardian;
 
 log('=== smasher() ===');
 log(`id:                ${sm.id}`);

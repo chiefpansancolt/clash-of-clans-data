@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { monolith } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const m = monolith();
+const m = home().defenses().monolith().first()!;
 
 log('=== monolith() ===');
 log(`id:       ${m.id}`);

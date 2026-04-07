@@ -1,28 +1,28 @@
-import { seekingAirMine } from '@/modules/home/traps/seeking-air-mine';
+import { home } from '@/modules/home';
 
 describe('seekingAirMine()', () => {
   it('returns a HomeTrap object', () => {
-    const result = seekingAirMine();
+    const result = home().traps().seekingAirMine().first()!;
     expect(result).toBeDefined();
     expect(result.id).toBe('seeking-air-mine');
     expect(result.name).toBe('Seeking Air Mine');
   });
 
   it('base is home, category is trap', () => {
-    expect(seekingAirMine().base).toBe('home');
-    expect(seekingAirMine().category).toBe('trap');
+    expect(home().traps().seekingAirMine().first()!.base).toBe('home');
+    expect(home().traps().seekingAirMine().first()!.category).toBe('trap');
   });
 
   it('size is 1x1', () => {
-    expect(seekingAirMine().size).toBe('1x1');
+    expect(home().traps().seekingAirMine().first()!.size).toBe('1x1');
   });
 
   it('has 8 levels', () => {
-    expect(seekingAirMine().levels).toHaveLength(8);
+    expect(home().traps().seekingAirMine().first()!.levels).toHaveLength(8);
   });
 
   it('constants: triggerRadius 4, single, air, no damageRadius', () => {
-    const sam = seekingAirMine();
+    const sam = home().traps().seekingAirMine().first()!;
     expect(sam.triggerRadius).toBe(4);
     expect(sam.damageType).toBe('single');
     expect(sam.targetType).toBe('air');
@@ -30,7 +30,7 @@ describe('seekingAirMine()', () => {
   });
 
   it('level 1 stats', () => {
-    const l1 = seekingAirMine().levels[0];
+    const l1 = home().traps().seekingAirMine().first()!.levels[0];
     expect(l1.level).toBe(1);
     expect(l1.damage).toBe(1500);
     expect(l1.buildCost).toBe(12000);
@@ -41,7 +41,7 @@ describe('seekingAirMine()', () => {
   });
 
   it('level 8 stats', () => {
-    const l8 = seekingAirMine().levels[7];
+    const l8 = home().traps().seekingAirMine().first()!.levels[7];
     expect(l8.level).toBe(8);
     expect(l8.damage).toBe(3350);
     expect(l8.buildCost).toBe(19000000);
@@ -51,21 +51,31 @@ describe('seekingAirMine()', () => {
   });
 
   it('all levels use Gold', () => {
-    seekingAirMine().levels.forEach((l) => expect(l.buildCostResource).toBe('Gold'));
+    home()
+      .traps()
+      .seekingAirMine()
+      .first()!
+      .levels.forEach((l) => expect(l.buildCostResource).toBe('Gold'));
   });
 
   it('each level has a normal image', () => {
-    seekingAirMine().levels.forEach((l, i) => {
-      expect(l.images.normal).toBe(`images/home/traps/seeking-air-mine/normal/level-${i + 1}.png`);
-    });
+    home()
+      .traps()
+      .seekingAirMine()
+      .first()!
+      .levels.forEach((l, i) => {
+        expect(l.images.normal).toBe(
+          `images/home/traps/seeking-air-mine/normal/level-${i + 1}.png`,
+        );
+      });
   });
 
   it('availablePerTownHall has 18 entries', () => {
-    expect(seekingAirMine().availablePerTownHall).toHaveLength(18);
+    expect(home().traps().seekingAirMine().first()!.availablePerTownHall).toHaveLength(18);
   });
 
   it('TH1-6 have 0, TH7 has 1, TH8 has 2, TH9 has 4, TH14 has 8, TH17 has 9', () => {
-    const apt = seekingAirMine().availablePerTownHall;
+    const apt = home().traps().seekingAirMine().first()!.availablePerTownHall;
     expect(apt.find((e) => e.townHallLevel === 6)?.count).toBe(0);
     expect(apt.find((e) => e.townHallLevel === 7)?.count).toBe(1);
     expect(apt.find((e) => e.townHallLevel === 8)?.count).toBe(2);

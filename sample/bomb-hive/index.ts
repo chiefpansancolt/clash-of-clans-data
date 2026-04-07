@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { bombHive } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const bh = bombHive();
+const bh = home().craftedDefenses().bombHive().first()!;
 
 log('=== bombHive() ===');
 log(`id:            ${bh.id}`);

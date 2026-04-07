@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { eagleArtillery } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const ea = eagleArtillery();
+const ea = home().defenses().eagleArtillery().first()!;
 
 log('=== eagleArtillery() ===');
 log(`id:       ${ea.id}`);

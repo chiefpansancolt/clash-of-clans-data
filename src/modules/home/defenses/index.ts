@@ -23,7 +23,7 @@ import { superWizardTowerData } from './super-wizard-tower';
 import { wizardTowerData } from './wizard-tower';
 import { xBowData } from './x-bow';
 
-const allHomeDefenses: HomeDefense[] = [
+const allDefenses: HomeDefense[] = [
   cannonData,
   archerTowerData,
   mortarData,
@@ -48,61 +48,103 @@ const allHomeDefenses: HomeDefense[] = [
   craftingStationData,
 ];
 
-export class HomeDefenseQuery extends QueryBase<HomeDefense> {
-  constructor(data: HomeDefense[] = allHomeDefenses) {
+export class HomeVillageDefenses extends QueryBase<HomeDefense> {
+  constructor(data: HomeDefense[] = allDefenses) {
     super(data);
   }
 
+  // Per-building accessors
+  cannon(): HomeVillageDefenses {
+    return new HomeVillageDefenses([cannonData]);
+  }
+  archerTower(): HomeVillageDefenses {
+    return new HomeVillageDefenses([archerTowerData]);
+  }
+  mortar(): HomeVillageDefenses {
+    return new HomeVillageDefenses([mortarData]);
+  }
+  airDefense(): HomeVillageDefenses {
+    return new HomeVillageDefenses([airDefenseData]);
+  }
+  wizardTower(): HomeVillageDefenses {
+    return new HomeVillageDefenses([wizardTowerData]);
+  }
+  airSweeper(): HomeVillageDefenses {
+    return new HomeVillageDefenses([airSweeperData]);
+  }
+  hiddenTesla(): HomeVillageDefenses {
+    return new HomeVillageDefenses([hiddenTeslaData]);
+  }
+  bombTower(): HomeVillageDefenses {
+    return new HomeVillageDefenses([bombTowerData]);
+  }
+  xBow(): HomeVillageDefenses {
+    return new HomeVillageDefenses([xBowData]);
+  }
+  infernoTower(): HomeVillageDefenses {
+    return new HomeVillageDefenses([infernoTowerData]);
+  }
+  eagleArtillery(): HomeVillageDefenses {
+    return new HomeVillageDefenses([eagleArtilleryData]);
+  }
+  scattershot(): HomeVillageDefenses {
+    return new HomeVillageDefenses([scattershotData]);
+  }
+  buildersHut(): HomeVillageDefenses {
+    return new HomeVillageDefenses([buildersHutData]);
+  }
+  spellTower(): HomeVillageDefenses {
+    return new HomeVillageDefenses([spellTowerData]);
+  }
+  monolith(): HomeVillageDefenses {
+    return new HomeVillageDefenses([monolithData]);
+  }
+  multiArcherTower(): HomeVillageDefenses {
+    return new HomeVillageDefenses([multiArcherTowerData]);
+  }
+  firespitter(): HomeVillageDefenses {
+    return new HomeVillageDefenses([firespitterData]);
+  }
+  multiGearTower(): HomeVillageDefenses {
+    return new HomeVillageDefenses([multiGearTowerData]);
+  }
+  revengeTower(): HomeVillageDefenses {
+    return new HomeVillageDefenses([revengeTowerData]);
+  }
+  ricochetCannon(): HomeVillageDefenses {
+    return new HomeVillageDefenses([ricochetCannonData]);
+  }
+  superWizardTower(): HomeVillageDefenses {
+    return new HomeVillageDefenses([superWizardTowerData]);
+  }
+  craftingStation(): HomeVillageDefenses {
+    return new HomeVillageDefenses([craftingStationData]);
+  }
+
+  // Category filters
   /** Filter to a specific building by name (case-insensitive). */
-  byBuilding(name: string): HomeDefenseQuery {
+  byBuilding(name: string): HomeVillageDefenses {
     const q = name.toLowerCase();
-    return new HomeDefenseQuery(this.data.filter((d) => d.name.toLowerCase() === q));
+    return new HomeVillageDefenses(this.data.filter((d) => d.name.toLowerCase() === q));
   }
 
   /**
    * Filter to buildings that have at least one level available at or before
    * the given Town Hall level.
    */
-  byTownHall(level: number): HomeDefenseQuery {
-    return new HomeDefenseQuery(
+  byTownHall(level: number): HomeVillageDefenses {
+    return new HomeVillageDefenses(
       this.data.filter((d) => d.levels.some((l) => l.townHallRequired <= level)),
     );
   }
 
   /** Filter by damage type of the normal mode (use 'none' for knockback-only buildings like Air Sweeper). Buildings without a normal mode (e.g. Spell Tower) are excluded. */
-  byDamageType(type: DefenseMode['damageType']): HomeDefenseQuery {
-    return new HomeDefenseQuery(this.data.filter((d) => d.modes.normal?.damageType === type));
+  byDamageType(type: DefenseMode['damageType']): HomeVillageDefenses {
+    return new HomeVillageDefenses(this.data.filter((d) => d.modes.normal?.damageType === type));
   }
 
   /** Filter to buildings that can be geared up (any gear-up mode). */
-  hasGearUp(): HomeDefenseQuery {
-    return new HomeDefenseQuery(this.data.filter((d) => d.gearUp !== undefined));
+  hasGearUp(): HomeVillageDefenses {
+    return new HomeVillageDefenses(this.data.filter((d) => d.gearUp !== undefined));
   }
 }
-
-export function homeDefenses(source: HomeDefense[] = allHomeDefenses): HomeDefenseQuery {
-  return new HomeDefenseQuery(source);
-}
-
-export * from './air-defense';
-export * from './air-sweeper';
-export * from './archer-tower';
-export * from './bomb-tower';
-export * from './builders-hut';
-export * from './cannon';
-export * from './eagle-artillery';
-export * from './hidden-tesla';
-export * from './inferno-tower';
-export * from './monolith';
-export * from './mortar';
-export * from './multi-archer-tower';
-export * from './firespitter';
-export * from './multi-gear-tower';
-export * from './revenge-tower';
-export * from './ricochet-cannon';
-export * from './super-wizard-tower';
-export * from './crafting-station';
-export * from './scattershot';
-export * from './spell-tower';
-export * from './wizard-tower';
-export * from './x-bow';

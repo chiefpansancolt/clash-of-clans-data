@@ -9,7 +9,7 @@ import { skeletonTrapData } from './skeleton-trap';
 import { springTrapData } from './spring-trap';
 import { tornadoTrapData } from './tornado-trap';
 
-const allHomeTraps: HomeTrap[] = [
+const allTraps: HomeTrap[] = [
   bombData,
   springTrapData,
   giantBombData,
@@ -20,20 +20,47 @@ const allHomeTraps: HomeTrap[] = [
   gigaBombData,
 ];
 
-export class HomeTrapQuery extends QueryBase<HomeTrap> {
-  constructor(data: HomeTrap[] = allHomeTraps) {
+export class HomeVillageTraps extends QueryBase<HomeTrap> {
+  constructor(data: HomeTrap[] = allTraps) {
     super(data);
   }
 
+  // Per-building accessors
+  bomb(): HomeVillageTraps {
+    return new HomeVillageTraps([bombData]);
+  }
+  springTrap(): HomeVillageTraps {
+    return new HomeVillageTraps([springTrapData]);
+  }
+  giantBomb(): HomeVillageTraps {
+    return new HomeVillageTraps([giantBombData]);
+  }
+  airBomb(): HomeVillageTraps {
+    return new HomeVillageTraps([airBombData]);
+  }
+  seekingAirMine(): HomeVillageTraps {
+    return new HomeVillageTraps([seekingAirMineData]);
+  }
+  skeletonTrap(): HomeVillageTraps {
+    return new HomeVillageTraps([skeletonTrapData]);
+  }
+  tornadoTrap(): HomeVillageTraps {
+    return new HomeVillageTraps([tornadoTrapData]);
+  }
+  gigaBomb(): HomeVillageTraps {
+    return new HomeVillageTraps([gigaBombData]);
+  }
+
+  // Category filters
   /** Filter to a specific trap by name (case-insensitive). */
-  byTrap(name: string): HomeTrapQuery {
+  byTrap(name: string): HomeVillageTraps {
     const q = name.toLowerCase();
-    return new HomeTrapQuery(this.data.filter((t) => t.name.toLowerCase() === q));
+    return new HomeVillageTraps(this.data.filter((t) => t.name.toLowerCase() === q));
   }
 
   /** Filter to traps available (count > 0) at the given Town Hall level. */
-  byTownHall(level: number): HomeTrapQuery {
-    return new HomeTrapQuery(
+  byTownHall(level: number): HomeVillageTraps {
+    return new HomeVillageTraps(
       this.data.filter((t) =>
         t.availablePerTownHall.some((e) => e.townHallLevel === level && e.count > 0),
       ),
@@ -41,20 +68,7 @@ export class HomeTrapQuery extends QueryBase<HomeTrap> {
   }
 
   /** Filter by target type. */
-  byTargetType(type: HomeTrap['targetType']): HomeTrapQuery {
-    return new HomeTrapQuery(this.data.filter((t) => t.targetType === type));
+  byTargetType(type: HomeTrap['targetType']): HomeVillageTraps {
+    return new HomeVillageTraps(this.data.filter((t) => t.targetType === type));
   }
 }
-
-export function homeTraps(source: HomeTrap[] = allHomeTraps): HomeTrapQuery {
-  return new HomeTrapQuery(source);
-}
-
-export * from './air-bomb';
-export * from './bomb';
-export * from './giga-bomb';
-export * from './giant-bomb';
-export * from './seeking-air-mine';
-export * from './skeleton-trap';
-export * from './spring-trap';
-export * from './tornado-trap';

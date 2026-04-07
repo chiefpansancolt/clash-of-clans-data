@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { airSweeper } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const as = airSweeper();
+const as = home().defenses().airSweeper().first()!;
 
 log('=== airSweeper() ===');
 log(`id:       ${as.id}`);

@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { crusherMortar } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const cm = crusherMortar();
+const cm = home().craftedDefenses().crusherMortar().first()!;
 
 log('=== crusherMortar() ===');
 log(`id:            ${cm.id}`);

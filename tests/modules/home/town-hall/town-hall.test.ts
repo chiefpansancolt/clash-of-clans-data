@@ -1,28 +1,28 @@
-import { townHall } from '@/modules/home/town-hall';
+import { home } from '@/modules/home';
 
 describe('townHall()', () => {
   it('returns a TownHall object', () => {
-    const result = townHall();
+    const result = home().townHall().first()!;
     expect(result).toBeDefined();
     expect(result.id).toBe('town-hall');
     expect(result.name).toBe('Town Hall');
   });
 
   it('base is home, category is town-hall', () => {
-    expect(townHall().base).toBe('home');
-    expect(townHall().category).toBe('town-hall');
+    expect(home().townHall().first()!.base).toBe('home');
+    expect(home().townHall().first()!.category).toBe('town-hall');
   });
 
   it('size is 4x4', () => {
-    expect(townHall().size).toBe('4x4');
+    expect(home().townHall().first()!.size).toBe('4x4');
   });
 
   it('has 18 levels', () => {
-    expect(townHall().levels).toHaveLength(18);
+    expect(home().townHall().first()!.levels).toHaveLength(18);
   });
 
   it('level 1 stats', () => {
-    const l1 = townHall().levels[0];
+    const l1 = home().townHall().first()!.levels[0];
     expect(l1.level).toBe(1);
     expect(l1.hitpoints).toBe(400);
     expect(l1.buildCost).toBe(0);
@@ -36,7 +36,7 @@ describe('townHall()', () => {
   });
 
   it('level 18 stats', () => {
-    const l18 = townHall().levels[17];
+    const l18 = home().townHall().first()!.levels[17];
     expect(l18.level).toBe(18);
     expect(l18.hitpoints).toBe(10800);
     expect(l18.buildCost).toBe(25000000);
@@ -49,14 +49,14 @@ describe('townHall()', () => {
   });
 
   it('levels 1-11 and 18 have no weapon', () => {
-    const levels = townHall().levels;
+    const levels = home().townHall().first()!.levels;
     [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 17].forEach((i) => {
       expect(levels[i].weapon).toBeNull();
     });
   });
 
   it('levels 12-17 have weapons', () => {
-    const levels = townHall().levels;
+    const levels = home().townHall().first()!.levels;
     [11, 12, 13, 14, 15, 16].forEach((i) => {
       expect(levels[i].weapon).not.toBeNull();
     });
@@ -64,7 +64,7 @@ describe('townHall()', () => {
 
   describe('TH12 Giga Tesla', () => {
     it('has correct weapon stats', () => {
-      const w = townHall().levels[11].weapon!;
+      const w = home().townHall().first()!.levels[11].weapon!;
       expect(w.name).toBe('Giga Tesla');
       expect(w.hitpoints).toBe(7500);
       expect(w.targets).toBe(4);
@@ -76,7 +76,7 @@ describe('townHall()', () => {
     });
 
     it('has 1 weapon level with correct stats', () => {
-      const w = townHall().levels[11].weapon!;
+      const w = home().townHall().first()!.levels[11].weapon!;
       expect(w.levels).toHaveLength(1);
       expect(w.levels[0].level).toBe(1);
       expect(w.levels[0].dps).toBe(140);
@@ -89,7 +89,7 @@ describe('townHall()', () => {
 
   describe('TH17 Inferno Artillery', () => {
     it('has correct weapon stats', () => {
-      const w = townHall().levels[16].weapon!;
+      const w = home().townHall().first()!.levels[16].weapon!;
       expect(w.name).toBe('Inferno Artillery');
       expect(w.hitpoints).toBe(10400);
       expect(w.targets).toBe(4);
@@ -101,11 +101,11 @@ describe('townHall()', () => {
     });
 
     it('has 5 weapon levels', () => {
-      expect(townHall().levels[16].weapon!.levels).toHaveLength(5);
+      expect(home().townHall().first()!.levels[16].weapon!.levels).toHaveLength(5);
     });
 
     it('IA level 1 is free and instant', () => {
-      const l1 = townHall().levels[16].weapon!.levels[0];
+      const l1 = home().townHall().first()!.levels[16].weapon!.levels[0];
       expect(l1.level).toBe(1);
       expect(l1.dps).toBe(40);
       expect(l1.damagePerHit).toBe(140);
@@ -115,7 +115,7 @@ describe('townHall()', () => {
     });
 
     it('IA level 5 stats', () => {
-      const l5 = townHall().levels[16].weapon!.levels[4];
+      const l5 = home().townHall().first()!.levels[16].weapon!.levels[4];
       expect(l5.level).toBe(5);
       expect(l5.dps).toBe(60);
       expect(l5.damagePerHit).toBe(210);
@@ -125,15 +125,18 @@ describe('townHall()', () => {
     });
 
     it('IA weapon levels have townHall images', () => {
-      townHall().levels[16].weapon!.levels.forEach((l, i) => {
-        expect(l.images.townHall).toBe(`images/home/town-hall/normal/level-17-${i + 1}.png`);
-      });
+      home()
+        .townHall()
+        .first()!
+        .levels[16].weapon!.levels.forEach((l, i) => {
+          expect(l.images.townHall).toBe(`images/home/town-hall/normal/level-17-${i + 1}.png`);
+        });
     });
   });
 
   describe('TH14 Giga Inferno', () => {
     it('has poison death effect', () => {
-      const w = townHall().levels[13].weapon!;
+      const w = home().townHall().first()!.levels[13].weapon!;
       expect(w.deathPoisonMaxDps).toBe(180);
       expect(w.deathPoisonDuration).toBe(12);
       expect(w.deathDamage).toBe(900);
@@ -142,17 +145,25 @@ describe('townHall()', () => {
   });
 
   it('all levels use Gold as build resource', () => {
-    townHall().levels.forEach((l) => expect(l.buildCostResource).toBe('Gold'));
+    home()
+      .townHall()
+      .first()!
+      .levels.forEach((l) => expect(l.buildCostResource).toBe('Gold'));
   });
 
   it('each level has a normal image', () => {
-    townHall().levels.forEach((l) => {
-      expect(l.images.normal).toBe(`images/home/town-hall/normal/level-${l.level}.png`);
-    });
+    home()
+      .townHall()
+      .first()!
+      .levels.forEach((l) => {
+        expect(l.images.normal).toBe(`images/home/town-hall/normal/level-${l.level}.png`);
+      });
   });
 
   it('dark elixir storage is 0 for TH1-6', () => {
-    townHall()
+    home()
+      .townHall()
+      .first()!
       .levels.slice(0, 6)
       .forEach((l) => {
         expect(l.storageCapacity.darkElixir).toBe(0);
@@ -160,7 +171,9 @@ describe('townHall()', () => {
   });
 
   it('TH7+ has dark elixir storage', () => {
-    townHall()
+    home()
+      .townHall()
+      .first()!
       .levels.slice(6)
       .forEach((l) => {
         expect(l.storageCapacity.darkElixir).toBeGreaterThan(0);

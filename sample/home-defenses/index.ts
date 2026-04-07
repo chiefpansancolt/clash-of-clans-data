@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { homeDefenses } from '../../src';
+import { home } from '../../src';
 
 const lines: string[] = [];
 const log = (...args: unknown[]) => {
@@ -11,7 +11,7 @@ const log = (...args: unknown[]) => {
   console.log(line);
 };
 
-const all = homeDefenses();
+const all = home().defenses();
 
 log('=== homeDefenses() ===');
 log(`total buildings: ${all.count()}`);

@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { homeCraftedDefenses, roaster } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const r = roaster();
+const r = home().craftedDefenses().roaster().first()!;
 
 log('=== roaster() ===');
 log(`id:            ${r.id}`);
@@ -41,9 +41,9 @@ r.modules.forEach((mod, i) => {
 });
 log('');
 
-log('=== homeCraftedDefenses() context ===');
-log(`Phase 3 count: ${homeCraftedDefenses().byPhase(3).count()}`);
-log(`current() count: ${homeCraftedDefenses().current().count()}`);
+log('=== home().craftedDefenses() context ===');
+log(`Phase 3 count: ${home().craftedDefenses().byPhase(3).count()}`);
+log(`current() count: ${home().craftedDefenses().current().count()}`);
 log('');
 
 log('--- Image Validation ---');

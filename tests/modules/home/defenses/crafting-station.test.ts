@@ -1,51 +1,51 @@
-import { HomeDefenseQuery, homeDefenses } from '@/modules/home/defenses';
-import { craftingStation } from '@/modules/home/defenses/crafting-station';
+import { home } from '@/modules/home';
+import { HomeVillageDefenses } from '@/modules/home';
 import { testFilterImmutability } from '../../../helpers';
 
 describe('craftingStation()', () => {
   it('returns a HomeDefense object', () => {
-    const result = craftingStation();
+    const result = home().defenses().craftingStation().first()!;
     expect(result).toBeDefined();
     expect(result.id).toBe('crafting-station');
     expect(result.name).toBe('Crafting Station');
   });
 
   it('has 1 level', () => {
-    expect(craftingStation().levels).toHaveLength(1);
+    expect(home().defenses().craftingStation().first()!.levels).toHaveLength(1);
   });
 
   it('size is 3x3', () => {
-    expect(craftingStation().size).toBe('3x3');
+    expect(home().defenses().craftingStation().first()!.size).toBe('3x3');
   });
 
   it('base is home', () => {
-    expect(craftingStation().base).toBe('home');
+    expect(home().defenses().craftingStation().first()!.base).toBe('home');
   });
 
   it('category is defense', () => {
-    expect(craftingStation().category).toBe('defense');
+    expect(home().defenses().craftingStation().first()!.category).toBe('defense');
   });
 
   it('has no gear-up', () => {
-    expect(craftingStation().gearUp).toBeUndefined();
+    expect(home().defenses().craftingStation().first()!.gearUp).toBeUndefined();
   });
 
   it('has no normal attack mode', () => {
-    expect(craftingStation().modes.normal).toBeUndefined();
+    expect(home().defenses().craftingStation().first()!.modes.normal).toBeUndefined();
   });
 });
 
 describe('craftingStation() level 1', () => {
   it('hitpoints is 1000 (unselected state)', () => {
-    expect(craftingStation().levels[0].hitpoints).toBe(1000);
+    expect(home().defenses().craftingStation().first()!.levels[0].hitpoints).toBe(1000);
   });
 
   it('buildCost is 0 (free)', () => {
-    expect(craftingStation().levels[0].buildCost).toBe(0);
+    expect(home().defenses().craftingStation().first()!.levels[0].buildCost).toBe(0);
   });
 
   it('buildTime is instant', () => {
-    expect(craftingStation().levels[0].buildTime).toEqual({
+    expect(home().defenses().craftingStation().first()!.levels[0].buildTime).toEqual({
       days: 0,
       hours: 0,
       minutes: 0,
@@ -54,18 +54,18 @@ describe('craftingStation() level 1', () => {
   });
 
   it('townHallRequired is 18', () => {
-    expect(craftingStation().levels[0].townHallRequired).toBe(18);
+    expect(home().defenses().craftingStation().first()!.levels[0].townHallRequired).toBe(18);
   });
 
   it('has a normal image', () => {
-    expect(craftingStation().levels[0].images.normal).toBeTruthy();
+    expect(home().defenses().craftingStation().first()!.levels[0].images.normal).toBeTruthy();
   });
 });
 
 describe('craftingStation() availablePerTownHall', () => {
   it('only available at TH18 with count 1', () => {
-    expect(craftingStation().availablePerTownHall).toHaveLength(1);
-    const th18 = craftingStation().availablePerTownHall[0];
+    expect(home().defenses().craftingStation().first()!.availablePerTownHall).toHaveLength(1);
+    const th18 = home().defenses().craftingStation().first()!.availablePerTownHall[0];
     expect(th18.townHallLevel).toBe(18);
     expect(th18.count).toBe(1);
   });
@@ -73,13 +73,14 @@ describe('craftingStation() availablePerTownHall', () => {
 
 describe('craftingStation() integration with homeDefenses()', () => {
   it('is included in homeDefenses()', () => {
-    const result = homeDefenses().findByName('Crafting Station');
+    const result = home().defenses().findByName('Crafting Station');
     expect(result).toBeDefined();
     expect(result!.id).toBe('crafting-station');
   });
 
   it('homeDefenses().byTownHall(17) excludes Crafting Station', () => {
-    const names = homeDefenses()
+    const names = home()
+      .defenses()
       .byTownHall(17)
       .get()
       .map((d) => d.name);
@@ -87,7 +88,8 @@ describe('craftingStation() integration with homeDefenses()', () => {
   });
 
   it('homeDefenses().byTownHall(18) includes Crafting Station', () => {
-    const names = homeDefenses()
+    const names = home()
+      .defenses()
       .byTownHall(18)
       .get()
       .map((d) => d.name);
@@ -95,7 +97,8 @@ describe('craftingStation() integration with homeDefenses()', () => {
   });
 
   it('homeDefenses().hasGearUp() excludes Crafting Station', () => {
-    const names = homeDefenses()
+    const names = home()
+      .defenses()
       .hasGearUp()
       .get()
       .map((d) => d.name);
@@ -103,20 +106,21 @@ describe('craftingStation() integration with homeDefenses()', () => {
   });
 
   it('homeDefenses().byDamageType("single") excludes Crafting Station', () => {
-    const names = homeDefenses()
+    const names = home()
+      .defenses()
       .byDamageType('single')
       .get()
       .map((d) => d.name);
     expect(names).not.toContain('Crafting Station');
   });
 
-  it('is a HomeDefenseQuery instance', () => {
-    expect(homeDefenses().byBuilding('Crafting Station')).toBeInstanceOf(HomeDefenseQuery);
+  it('is a HomeVillageDefenses instance', () => {
+    expect(home().defenses().byBuilding('Crafting Station')).toBeInstanceOf(HomeVillageDefenses);
   });
 
   testFilterImmutability(
     'homeDefenses filter immutability',
-    () => homeDefenses(),
-    (q) => (q as HomeDefenseQuery).byBuilding('Crafting Station'),
+    () => home().defenses(),
+    (q) => (q as HomeVillageDefenses).byBuilding('Crafting Station'),
   );
 });

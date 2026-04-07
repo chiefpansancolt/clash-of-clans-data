@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { firespitter } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const fs_ = firespitter();
+const fs_ = home().defenses().firespitter().first()!;
 
 log('=== firespitter() ===');
 log(`id:       ${fs_.id}`);

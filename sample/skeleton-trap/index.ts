@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { skeletonTrap } from '../../src';
+import { home } from '../../src';
 
 const ROOT = path.resolve(__dirname, '../..');
 
@@ -19,7 +19,7 @@ function checkImage(label: string, imagePath: string): boolean {
   return false;
 }
 
-const st = skeletonTrap();
+const st = home().traps().skeletonTrap().first()!;
 
 log('=== skeletonTrap() ===');
 log(`id:             ${st.id}`);
