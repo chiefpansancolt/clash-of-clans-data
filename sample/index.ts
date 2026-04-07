@@ -30,6 +30,7 @@ import './giant-bomb';
 import './giga-bomb';
 import './gold-mine';
 import './gold-storage';
+import './hero-banner';
 import './hero-bell';
 import './hidden-tesla';
 import './home-defenses';

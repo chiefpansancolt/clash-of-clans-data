@@ -1,5 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import {
+  HeroBannerBuilding,
   HomeArmyBuilding,
   HomeBarracksBuilding,
   HomeResearchBuilding,
@@ -9,6 +10,7 @@ import { armyCampData } from './army-camp';
 import { barracksData } from './barracks';
 import { darkBarracksData } from './dark-barracks';
 import { darkSpellFactoryData } from './dark-spell-factory';
+import { heroBannerData } from './hero-banner';
 import { laboratoryData } from './laboratory';
 import { spellFactoryData } from './spell-factory';
 
@@ -44,6 +46,12 @@ export class HomeVillageDarkSpellFactory extends QueryBase<HomeSpellFactoryBuild
   }
 }
 
+export class HomeVillageHeroBanner extends QueryBase<HeroBannerBuilding> {
+  constructor(data: HeroBannerBuilding[] = [heroBannerData]) {
+    super(data);
+  }
+}
+
 export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
   constructor(data: HomeArmyBuilding[] = allArmyBuildings) {
     super(data);
@@ -72,6 +80,10 @@ export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
 
   darkSpellFactory(): HomeVillageDarkSpellFactory {
     return new HomeVillageDarkSpellFactory([darkSpellFactoryData]);
+  }
+
+  heroBanner(): HomeVillageHeroBanner {
+    return new HomeVillageHeroBanner([heroBannerData]);
   }
 
   // Category filters

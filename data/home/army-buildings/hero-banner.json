@@ -1,0 +1,37 @@
+{
+  "id": "hero-banner",
+  "name": "Hero Banner",
+  "description": "Hero Banners provide a defensive post for your Heroes. They cannot be destroyed in attacks.",
+  "base": "home",
+  "category": "other",
+  "size": "2x2",
+  "images": {
+    "empty": "images/home/army-buildings/hero-banner/empty.png",
+    "barbarianKing": "images/home/army-buildings/hero-banner/barbarian-king.png",
+    "archerQueen": "images/home/army-buildings/hero-banner/archer-queen.png",
+    "minionPrince": "images/home/army-buildings/hero-banner/minion-prince.png",
+    "grandWarden": "images/home/army-buildings/hero-banner/grand-warden.png",
+    "royalChampion": "images/home/army-buildings/hero-banner/royal-champion.png",
+    "dragonDuke": "images/home/army-buildings/hero-banner/dragon-duke.png"
+  },
+  "availablePerTownHall": [
+    { "townHallLevel": 1, "count": 0 },
+    { "townHallLevel": 2, "count": 0 },
+    { "townHallLevel": 3, "count": 0 },
+    { "townHallLevel": 4, "count": 0 },
+    { "townHallLevel": 5, "count": 0 },
+    { "townHallLevel": 6, "count": 0 },
+    { "townHallLevel": 7, "count": 1 },
+    { "townHallLevel": 8, "count": 1 },
+    { "townHallLevel": 9, "count": 2 },
+    { "townHallLevel": 10, "count": 2 },
+    { "townHallLevel": 11, "count": 3 },
+    { "townHallLevel": 12, "count": 3 },
+    { "townHallLevel": 13, "count": 4 },
+    { "townHallLevel": 14, "count": 4 },
+    { "townHallLevel": 15, "count": 4 },
+    { "townHallLevel": 16, "count": 4 },
+    { "townHallLevel": 17, "count": 4 },
+    { "townHallLevel": 18, "count": 4 }
+  ]
+}

@@ -1,5 +1,5 @@
 import { Building, BuildingLevel } from './building';
-import { TownHallAvailability } from './common';
+import { Base, Category, TownHallAvailability } from './common';
 
 export interface ArmyBuildingLevel extends BuildingLevel {
   housingSpace: number;
@@ -69,5 +69,26 @@ export interface HomeClanCastleLevel extends ClanCastleLevel {
 
 export interface HomeClanCastle extends Building<HomeClanCastleLevel> {
   triggerRadius: number;
+  availablePerTownHall: TownHallAvailability[];
+}
+
+export interface HeroBannerImages {
+  empty: string;
+  barbarianKing: string;
+  archerQueen: string;
+  minionPrince: string;
+  grandWarden: string;
+  royalChampion: string;
+  dragonDuke: string;
+}
+
+export interface HeroBannerBuilding {
+  id: string;
+  name: string;
+  description?: string;
+  base: Base;
+  category: Category;
+  size: string;
+  images: HeroBannerImages;
   availablePerTownHall: TownHallAvailability[];
 }
