@@ -6,6 +6,7 @@ import './air-bombs';
 import './air-defense';
 import './air-sweeper';
 import './archer-tower';
+import './bomb';
 import './bomb-hive';
 import './bomb-tower';
 import './builders-hut';

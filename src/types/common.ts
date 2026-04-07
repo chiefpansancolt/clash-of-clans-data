@@ -4,6 +4,7 @@ export type Category =
   | 'defense'
   | 'crafted-defense'
   | 'wall'
+  | 'trap'
   | 'troop'
   | 'spell'
   | 'resource'

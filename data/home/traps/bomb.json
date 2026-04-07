@@ -1,0 +1,174 @@
+{
+  "id": "bomb",
+  "name": "Bomb",
+  "description": "Bombs are traps that remain hidden until activated by an attacking troop moving into their trigger radius. Once triggered, they must be re-armed for free.",
+  "base": "home",
+  "category": "trap",
+  "size": "1x1",
+  "triggerRadius": 1.5,
+  "damageRadius": 3,
+  "damageType": "splash",
+  "targetType": "ground",
+  "levels": [
+    {
+      "level": 1,
+      "damage": 20,
+      "buildCost": 400,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "townHallRequired": 3,
+      "images": { "normal": "images/home/traps/bomb/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "damage": 24,
+      "buildCost": 1000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "xpGained": 18,
+      "townHallRequired": 3,
+      "images": { "normal": "images/home/traps/bomb/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "damage": 29,
+      "buildCost": 10000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 20, "seconds": 0 },
+      "xpGained": 34,
+      "townHallRequired": 5,
+      "images": { "normal": "images/home/traps/bomb/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "damage": 35,
+      "buildCost": 40000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 40, "seconds": 0 },
+      "xpGained": 48,
+      "townHallRequired": 7,
+      "images": { "normal": "images/home/traps/bomb/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "damage": 42,
+      "buildCost": 100000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "xpGained": 60,
+      "townHallRequired": 8,
+      "images": { "normal": "images/home/traps/bomb/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "damage": 54,
+      "buildCost": 230000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "xpGained": 103,
+      "townHallRequired": 9,
+      "images": { "normal": "images/home/traps/bomb/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "damage": 72,
+      "buildCost": 330000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "xpGained": 134,
+      "townHallRequired": 10,
+      "images": { "normal": "images/home/traps/bomb/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "damage": 92,
+      "buildCost": 500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "xpGained": 146,
+      "townHallRequired": 11,
+      "images": { "normal": "images/home/traps/bomb/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "damage": 125,
+      "buildCost": 750000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 207,
+      "townHallRequired": 13,
+      "images": { "normal": "images/home/traps/bomb/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "damage": 140,
+      "buildCost": 1300000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "townHallRequired": 14,
+      "images": { "normal": "images/home/traps/bomb/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "damage": 155,
+      "buildCost": 2500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "townHallRequired": 15,
+      "images": { "normal": "images/home/traps/bomb/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "damage": 170,
+      "buildCost": 4000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "townHallRequired": 16,
+      "images": { "normal": "images/home/traps/bomb/normal/level-12.png" }
+    },
+    {
+      "level": 13,
+      "damage": 185,
+      "buildCost": 8500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 623,
+      "townHallRequired": 17,
+      "images": { "normal": "images/home/traps/bomb/normal/level-13.png" }
+    },
+    {
+      "level": 14,
+      "damage": 200,
+      "buildCost": 14000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "townHallRequired": 18,
+      "images": { "normal": "images/home/traps/bomb/normal/level-14.png" }
+    }
+  ],
+  "availablePerTownHall": [
+    { "townHallLevel": 1, "count": 0 },
+    { "townHallLevel": 2, "count": 0 },
+    { "townHallLevel": 3, "count": 2 },
+    { "townHallLevel": 4, "count": 2 },
+    { "townHallLevel": 5, "count": 4 },
+    { "townHallLevel": 6, "count": 4 },
+    { "townHallLevel": 7, "count": 6 },
+    { "townHallLevel": 8, "count": 6 },
+    { "townHallLevel": 9, "count": 6 },
+    { "townHallLevel": 10, "count": 6 },
+    { "townHallLevel": 11, "count": 6 },
+    { "townHallLevel": 12, "count": 6 },
+    { "townHallLevel": 13, "count": 7 },
+    { "townHallLevel": 14, "count": 8 },
+    { "townHallLevel": 15, "count": 8 },
+    { "townHallLevel": 16, "count": 8 },
+    { "townHallLevel": 17, "count": 8 },
+    { "townHallLevel": 18, "count": 8 }
+  ]
+}
