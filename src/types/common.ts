@@ -3,6 +3,7 @@ export type Base = 'home' | 'builder' | 'clan_capital';
 export type Category =
   | 'defense'
   | 'crafted-defense'
+  | 'wall'
   | 'troop'
   | 'spell'
   | 'resource'
@@ -15,6 +16,7 @@ export type ResourceType =
   | 'Gold'
   | 'Elixir'
   | 'Dark Elixir'
+  | 'Gold or Elixir'
   | 'Builder Gold'
   | 'Builder Elixir'
   | 'Capital Gold'

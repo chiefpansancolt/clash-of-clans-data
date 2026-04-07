@@ -9,3 +9,4 @@ export * from './research-building';
 export * from './resource-building';
 export * from './spell';
 export * from './troop';
+export * from './wall';

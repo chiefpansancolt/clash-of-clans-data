@@ -34,5 +34,6 @@ import './scattershot';
 import './smasher';
 import './spell-tower';
 import './super-wizard-tower';
+import './wall';
 import './wizard-tower';
 import './x-bow';
