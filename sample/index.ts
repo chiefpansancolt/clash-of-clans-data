@@ -35,6 +35,7 @@ import './hero-banner';
 import './hero-bell';
 import './hero-hall';
 import './hidden-tesla';
+import './home-army';
 import './home-defenses';
 import './home-resources';
 import './home-traps';
