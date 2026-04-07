@@ -1,4 +1,5 @@
 import { Building, BuildingLevel } from './building';
+import { TownHallAvailability } from './common';
 
 export interface ResourceBuildingLevel extends BuildingLevel {
   capacity: number;
@@ -10,9 +11,12 @@ export interface ResourceBuildingLevel extends BuildingLevel {
 
 export interface HomeResourceBuildingLevel extends ResourceBuildingLevel {
   townHallRequired: number;
+  supercharge?: boolean;
 }
 
-export type HomeResourceBuilding = Building<HomeResourceBuildingLevel>;
+export interface HomeResourceBuilding extends Building<HomeResourceBuildingLevel> {
+  availablePerTownHall: TownHallAvailability[];
+}
 
 export interface BuilderResourceBuildingLevel extends ResourceBuildingLevel {
   builderHallRequired: number;
