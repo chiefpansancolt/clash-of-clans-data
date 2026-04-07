@@ -6,6 +6,7 @@ import { BuildTime, ResourceType } from './common';
 export interface HomeTroopLevelStats {
   dps: number;
   damagePerShot: number;
+  deathDamage?: number;
 }
 
 export interface HomeTroopLevel {
