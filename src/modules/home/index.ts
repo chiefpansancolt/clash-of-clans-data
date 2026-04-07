@@ -18,6 +18,7 @@ export {
   HomeVillageHeroHall,
   HomeVillageBlacksmith,
   HomeVillageWorkshop,
+  HomeVillagePetHouse,
 } from './army-buildings';
 export { HomeVillageCraftedDefenses } from './crafted-defenses';
 export { HomeVillageDefenses } from './defenses';

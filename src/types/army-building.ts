@@ -150,3 +150,13 @@ export interface HomeWorkshopBuildingLevel extends BuildingLevel {
 export interface HomeWorkshopBuilding extends Building<HomeWorkshopBuildingLevel> {
   availablePerTownHall: TownHallAvailability[];
 }
+
+export interface HomePetHouseBuildingLevel extends BuildingLevel {
+  unlockedPet: string;
+  townHallRequired: number;
+  images: { normal: string };
+}
+
+export interface HomePetHouseBuilding extends Building<HomePetHouseBuildingLevel> {
+  availablePerTownHall: TownHallAvailability[];
+}

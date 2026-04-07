@@ -1,0 +1,161 @@
+{
+  "id": "pet-house",
+  "name": "Pet House",
+  "base": "home",
+  "category": "army",
+  "size": "3x3",
+  "availablePerTownHall": [
+    { "townHallLevel": 1, "count": 0 },
+    { "townHallLevel": 2, "count": 0 },
+    { "townHallLevel": 3, "count": 0 },
+    { "townHallLevel": 4, "count": 0 },
+    { "townHallLevel": 5, "count": 0 },
+    { "townHallLevel": 6, "count": 0 },
+    { "townHallLevel": 7, "count": 0 },
+    { "townHallLevel": 8, "count": 0 },
+    { "townHallLevel": 9, "count": 0 },
+    { "townHallLevel": 10, "count": 0 },
+    { "townHallLevel": 11, "count": 0 },
+    { "townHallLevel": 12, "count": 0 },
+    { "townHallLevel": 13, "count": 0 },
+    { "townHallLevel": 14, "count": 1 },
+    { "townHallLevel": 15, "count": 1 },
+    { "townHallLevel": 16, "count": 1 },
+    { "townHallLevel": 17, "count": 1 },
+    { "townHallLevel": 18, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "unlockedPet": "L.A.S.S.I",
+      "hitpoints": 700,
+      "buildCost": 3000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "townHallRequired": 14,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "unlockedPet": "Electro Owl",
+      "hitpoints": 800,
+      "buildCost": 4000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "townHallRequired": 14,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "unlockedPet": "Mighty Yak",
+      "hitpoints": 900,
+      "buildCost": 5000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "townHallRequired": 14,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "unlockedPet": "Unicorn",
+      "hitpoints": 1000,
+      "buildCost": 6000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 549,
+      "townHallRequired": 14,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "unlockedPet": "Frosty",
+      "hitpoints": 1050,
+      "buildCost": 7000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "townHallRequired": 15,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "unlockedPet": "Diggy",
+      "hitpoints": 1100,
+      "buildCost": 8000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 623,
+      "townHallRequired": 15,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "unlockedPet": "Poison Lizard",
+      "hitpoints": 1150,
+      "buildCost": 9000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 657,
+      "townHallRequired": 15,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "unlockedPet": "Phoenix",
+      "hitpoints": 1200,
+      "buildCost": 10000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 689,
+      "townHallRequired": 15,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "unlockedPet": "Spirit Fox",
+      "hitpoints": 1250,
+      "buildCost": 11000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "townHallRequired": 16,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "unlockedPet": "Angry Jelly",
+      "hitpoints": 1300,
+      "buildCost": 12000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 16,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "unlockedPet": "Sneezy",
+      "hitpoints": 1350,
+      "buildCost": 16500000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 881,
+      "townHallRequired": 17,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "unlockedPet": "Greedy Raven",
+      "hitpoints": 1400,
+      "buildCost": 25500000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 13, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 1080,
+      "townHallRequired": 18,
+      "images": { "normal": "images/home/army-buildings/pet-house/normal/level-12.png" }
+    }
+  ]
+}

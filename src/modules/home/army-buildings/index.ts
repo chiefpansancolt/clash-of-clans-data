@@ -5,6 +5,7 @@ import {
   HomeBarracksBuilding,
   HomeBlacksmithBuilding,
   HomeHeroHallBuilding,
+  HomePetHouseBuilding,
   HomeResearchBuilding,
   HomeSpellFactoryBuilding,
   HomeWorkshopBuilding,
@@ -17,6 +18,7 @@ import { darkSpellFactoryData } from './dark-spell-factory';
 import { heroBannerData } from './hero-banner';
 import { heroHallData } from './hero-hall';
 import { laboratoryData } from './laboratory';
+import { petHouseData } from './pet-house';
 import { spellFactoryData } from './spell-factory';
 import { workshopData } from './workshop';
 
@@ -76,6 +78,12 @@ export class HomeVillageWorkshop extends QueryBase<HomeWorkshopBuilding> {
   }
 }
 
+export class HomeVillagePetHouse extends QueryBase<HomePetHouseBuilding> {
+  constructor(data: HomePetHouseBuilding[] = [petHouseData]) {
+    super(data);
+  }
+}
+
 export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
   constructor(data: HomeArmyBuilding[] = allArmyBuildings) {
     super(data);
@@ -120,6 +128,10 @@ export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
 
   workshop(): HomeVillageWorkshop {
     return new HomeVillageWorkshop([workshopData]);
+  }
+
+  petHouse(): HomeVillagePetHouse {
+    return new HomeVillagePetHouse([petHouseData]);
   }
 
   // Category filters

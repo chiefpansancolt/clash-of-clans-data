@@ -48,6 +48,7 @@ import './monolith';
 import './mortar';
 import './multi-archer-tower';
 import './multi-gear-tower';
+import './pet-house';
 import './revenge-tower';
 import './ricochet-cannon';
 import './roaster';
