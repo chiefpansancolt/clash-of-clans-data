@@ -15,3 +15,54 @@ export type OtherBuilding = Building<OtherBuildingLevel>;
 export interface HomeOtherBuilding extends Building<OtherBuildingLevel> {
   availablePerTownHall: TownHallAvailability[];
 }
+
+export interface HomeHelperHutBuildingLevel extends BuildingLevel {
+  townHallRequired: number;
+  images: { normal: string; active: string };
+}
+
+export interface HomeHelperHutBuilding extends Building<HomeHelperHutBuildingLevel> {
+  availablePerTownHall: TownHallAvailability[];
+}
+
+// Helpers — non-building characters that live in the Helper Hut.
+// They are upgraded with Gems (not build resources) and have no hitpoints.
+export interface HomeHelperLevel {
+  level: number;
+  townHallRequired: number;
+  upgradeCost: number; // Gems
+}
+
+export interface HomeHelper<L extends HomeHelperLevel = HomeHelperLevel> {
+  id: string;
+  name: string;
+  description?: string;
+  base: 'home';
+  category: 'other';
+  recruitmentCost: number;
+  recruitmentCostResource: 'Gems' | 'Season Challenge Points';
+  townHallRequired: number;
+  images: { normal: string };
+  levels: L[];
+}
+
+export interface HomeWorkRateHelperLevel extends HomeHelperLevel {
+  workRate: number;
+}
+
+export interface HomeAlchemistHelperLevel extends HomeHelperLevel {
+  goldElixirConversionMax: number;
+  darkElixirConversionMax: number;
+  conversionBonusPercent: number;
+}
+
+export interface HomeProspectorHelperLevel extends HomeHelperLevel {
+  shinyOreConversionMax: number;
+  glowyOreConversionMax: number;
+  starryOreConversionMax: number;
+}
+
+export type HomeLabAssistantHelper = HomeHelper<HomeWorkRateHelperLevel>;
+export type HomeBuilderApprenticeHelper = HomeHelper<HomeWorkRateHelperLevel>;
+export type HomeAlchemistHelper = HomeHelper<HomeAlchemistHelperLevel>;
+export type HomeProspectorHelper = HomeHelper<HomeProspectorHelperLevel>;

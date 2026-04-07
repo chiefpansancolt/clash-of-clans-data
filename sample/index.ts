@@ -32,6 +32,7 @@ import './giant-bomb';
 import './giga-bomb';
 import './gold-mine';
 import './gold-storage';
+import './helper-hut';
 import './hero-banner';
 import './hero-bell';
 import './hero-hall';

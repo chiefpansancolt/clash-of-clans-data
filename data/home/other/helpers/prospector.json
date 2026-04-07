@@ -1,0 +1,20 @@
+{
+  "id": "prospector",
+  "name": "Prospector",
+  "base": "home",
+  "category": "other",
+  "recruitmentCost": 2200,
+  "recruitmentCostResource": "Season Challenge Points",
+  "townHallRequired": 10,
+  "images": { "normal": "images/home/other/helpers/prospector/normal.png" },
+  "levels": [
+    {
+      "level": 1,
+      "shinyOreConversionMax": 2000,
+      "glowyOreConversionMax": 120,
+      "starryOreConversionMax": 2,
+      "upgradeCost": 0,
+      "townHallRequired": 10
+    }
+  ]
+}

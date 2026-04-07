@@ -1,0 +1,68 @@
+{
+  "id": "alchemist",
+  "name": "Alchemist",
+  "base": "home",
+  "category": "other",
+  "recruitmentCost": 100,
+  "recruitmentCostResource": "Gems",
+  "townHallRequired": 11,
+  "images": { "normal": "images/home/other/helpers/alchemist/normal.png" },
+  "levels": [
+    {
+      "level": 1,
+      "goldElixirConversionMax": 1500000,
+      "darkElixirConversionMax": 10000,
+      "conversionBonusPercent": 1,
+      "upgradeCost": 100,
+      "townHallRequired": 11
+    },
+    {
+      "level": 2,
+      "goldElixirConversionMax": 2250000,
+      "darkElixirConversionMax": 15000,
+      "conversionBonusPercent": 2,
+      "upgradeCost": 250,
+      "townHallRequired": 12
+    },
+    {
+      "level": 3,
+      "goldElixirConversionMax": 3000000,
+      "darkElixirConversionMax": 20000,
+      "conversionBonusPercent": 4,
+      "upgradeCost": 500,
+      "townHallRequired": 13
+    },
+    {
+      "level": 4,
+      "goldElixirConversionMax": 4500000,
+      "darkElixirConversionMax": 30000,
+      "conversionBonusPercent": 5,
+      "upgradeCost": 1000,
+      "townHallRequired": 14
+    },
+    {
+      "level": 5,
+      "goldElixirConversionMax": 6000000,
+      "darkElixirConversionMax": 40000,
+      "conversionBonusPercent": 7,
+      "upgradeCost": 1000,
+      "townHallRequired": 15
+    },
+    {
+      "level": 6,
+      "goldElixirConversionMax": 7500000,
+      "darkElixirConversionMax": 50000,
+      "conversionBonusPercent": 9,
+      "upgradeCost": 1500,
+      "townHallRequired": 16
+    },
+    {
+      "level": 7,
+      "goldElixirConversionMax": 10500000,
+      "darkElixirConversionMax": 70000,
+      "conversionBonusPercent": 10,
+      "upgradeCost": 1500,
+      "townHallRequired": 17
+    }
+  ]
+}

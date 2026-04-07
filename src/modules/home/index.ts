@@ -27,7 +27,15 @@ export { HomeVillageGuardians } from './guardians';
 export { HomeVillageClanCastle, HomeVillageResourceBuildings } from './resource-buildings';
 export { HomeVillageTownHall } from './town-hall';
 export { HomeVillageTraps } from './traps';
-export { HomeVillageOtherBuildings } from './other';
+export {
+  HomeVillageOtherBuildings,
+  HomeVillageHelperHut,
+  HomeVillageHelpers,
+  HomeVillageLabAssistant,
+  HomeVillageBuildersApprentice,
+  HomeVillageAlchemist,
+  HomeVillageProspector,
+} from './other';
 export { HomeVillageWalls } from './walls';
 
 export class HomeVillage {
