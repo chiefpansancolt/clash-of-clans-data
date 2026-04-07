@@ -11,6 +11,7 @@ export type Category =
   | 'army'
   | 'research'
   | 'guardian'
+  | 'town-hall'
   | 'other';
 
 export type ResourceType =
