@@ -210,7 +210,7 @@ describe('elixirCollector() integration with resourceBuildings()', () => {
   });
 
   it('resourceBuildings() total count is now 5', () => {
-    expect(home().resourceBuildings().count()).toBe(5);
+    expect(home().resourceBuildings().count()).toBe(6);
   });
 
   testFilterImmutability(

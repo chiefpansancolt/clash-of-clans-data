@@ -257,7 +257,7 @@ describe('darkElixirDrill() integration with resourceBuildings()', () => {
   });
 
   it('resourceBuildings() total count is 5', () => {
-    expect(home().resourceBuildings().count()).toBe(5);
+    expect(home().resourceBuildings().count()).toBe(6);
   });
 
   testFilterImmutability(
