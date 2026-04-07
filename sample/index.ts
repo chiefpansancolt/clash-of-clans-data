@@ -63,4 +63,5 @@ import './tornado-trap';
 import './town-hall';
 import './wall';
 import './wizard-tower';
+import './workshop';
 import './x-bow';

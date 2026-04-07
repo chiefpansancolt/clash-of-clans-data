@@ -7,6 +7,7 @@ import {
   HomeHeroHallBuilding,
   HomeResearchBuilding,
   HomeSpellFactoryBuilding,
+  HomeWorkshopBuilding,
 } from '@/types';
 import { armyCampData } from './army-camp';
 import { barracksData } from './barracks';
@@ -17,6 +18,7 @@ import { heroBannerData } from './hero-banner';
 import { heroHallData } from './hero-hall';
 import { laboratoryData } from './laboratory';
 import { spellFactoryData } from './spell-factory';
+import { workshopData } from './workshop';
 
 const allArmyBuildings: HomeArmyBuilding[] = [armyCampData];
 
@@ -68,6 +70,12 @@ export class HomeVillageBlacksmith extends QueryBase<HomeBlacksmithBuilding> {
   }
 }
 
+export class HomeVillageWorkshop extends QueryBase<HomeWorkshopBuilding> {
+  constructor(data: HomeWorkshopBuilding[] = [workshopData]) {
+    super(data);
+  }
+}
+
 export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
   constructor(data: HomeArmyBuilding[] = allArmyBuildings) {
     super(data);
@@ -108,6 +116,10 @@ export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
 
   blacksmith(): HomeVillageBlacksmith {
     return new HomeVillageBlacksmith([blacksmithData]);
+  }
+
+  workshop(): HomeVillageWorkshop {
+    return new HomeVillageWorkshop([workshopData]);
   }
 
   // Category filters

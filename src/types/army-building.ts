@@ -139,3 +139,14 @@ export interface HeroBannerBuilding {
   images: HeroBannerImages;
   availablePerTownHall: TownHallAvailability[];
 }
+
+export interface HomeWorkshopBuildingLevel extends BuildingLevel {
+  unlockedSiegeMachine: string;
+  siegeMachineCapacity: number;
+  townHallRequired: number;
+  images: { normal: string };
+}
+
+export interface HomeWorkshopBuilding extends Building<HomeWorkshopBuildingLevel> {
+  availablePerTownHall: TownHallAvailability[];
+}
