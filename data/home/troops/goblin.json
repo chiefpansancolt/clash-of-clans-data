@@ -1,0 +1,170 @@
+{
+  "id": "goblin",
+  "name": "Goblin",
+  "description": "These pesky little creatures only have eyes for one thing: LOOT! They are faster than a Spring Trap, and their hunger for resources is limitless.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "housingSpace": 1,
+  "movementSpeed": 32,
+  "range": 0.4,
+  "attackSpeed": 1,
+  "damageType": "single",
+  "targetType": "ground",
+  "barrackLevelRequired": 4,
+  "images": { "icon": "images/home/troops/goblin/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 25,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 11, "damagePerShot": 11 }
+      },
+      "images": { "normal": "images/home/troops/goblin/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 30,
+      "townHallRequired": 3,
+      "laboratoryRequired": 1,
+      "researchCost": 45000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 14, "damagePerShot": 14 }
+      },
+      "images": { "normal": "images/home/troops/goblin/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 36,
+      "townHallRequired": 5,
+      "laboratoryRequired": 3,
+      "researchCost": 100000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 19, "damagePerShot": 19 }
+      },
+      "images": { "normal": "images/home/troops/goblin/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 50,
+      "townHallRequired": 7,
+      "laboratoryRequired": 5,
+      "researchCost": 500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 24, "damagePerShot": 24 }
+      },
+      "images": { "normal": "images/home/troops/goblin/normal/level-3.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 65,
+      "townHallRequired": 8,
+      "laboratoryRequired": 6,
+      "researchCost": 700000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 32, "damagePerShot": 32 }
+      },
+      "images": { "normal": "images/home/troops/goblin/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 80,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 1600000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 42, "damagePerShot": 42 }
+      },
+      "images": { "normal": "images/home/troops/goblin/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 105,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 2200000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 52, "damagePerShot": 52 }
+      },
+      "images": { "normal": "images/home/troops/goblin/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 126,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 3700000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 62, "damagePerShot": 62 }
+      },
+      "images": { "normal": "images/home/troops/goblin/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 146,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 8000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 72, "damagePerShot": 72 }
+      },
+      "images": { "normal": "images/home/troops/goblin/normal/level-9.png" }
+    }
+  ],
+  "superTroop": {
+    "id": "sneaky-goblin",
+    "name": "Sneaky Goblin",
+    "description": "Sneaky Goblins have a talent going unnoticed for a while after being deployed. It's usually the incredibly loud sound of resources being pilfered that gives them away.",
+    "housingSpace": 3,
+    "movementSpeed": 32,
+    "attackSpeed": 1,
+    "range": 0.4,
+    "boostCost": 25000,
+    "boostCostResource": "Dark Elixir",
+    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "regularLevelRequired": 7,
+    "specialAbility": "Cloak",
+    "images": { "icon": "images/home/troops/goblin/super/icon.png" },
+    "levels": [
+      {
+        "level": 7,
+        "hitpoints": 270,
+        "stats": { "normal": { "dps": 155, "damagePerShot": 155 } },
+        "images": { "normal": "images/home/troops/goblin/super/level-7.png" }
+      },
+      {
+        "level": 8,
+        "hitpoints": 320,
+        "stats": { "normal": { "dps": 170, "damagePerShot": 170 } },
+        "images": { "normal": "images/home/troops/goblin/super/level-7.png" }
+      },
+      {
+        "level": 9,
+        "hitpoints": 350,
+        "stats": { "normal": { "dps": 180, "damagePerShot": 180 } },
+        "images": { "normal": "images/home/troops/goblin/super/level-7.png" }
+      }
+    ]
+  }
+}

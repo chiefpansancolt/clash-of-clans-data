@@ -3,8 +3,9 @@ import { HomeTroop } from '@/types';
 import { archerData } from './archer';
 import { barbarianData } from './barbarian';
 import { giantData } from './giant';
+import { goblinData } from './goblin';
 
-const allTroops: HomeTroop[] = [barbarianData, archerData, giantData];
+const allTroops: HomeTroop[] = [barbarianData, archerData, giantData, goblinData];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
   constructor(data: HomeTroop[] = allTroops) {
@@ -22,6 +23,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   giant(): HomeVillageTroops {
     return new HomeVillageTroops([giantData]);
+  }
+
+  goblin(): HomeVillageTroops {
+    return new HomeVillageTroops([goblinData]);
   }
 
   // Category filters
