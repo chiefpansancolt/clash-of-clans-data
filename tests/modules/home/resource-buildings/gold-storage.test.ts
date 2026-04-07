@@ -195,8 +195,8 @@ describe('goldStorage() integration with resourceBuildings()', () => {
     expect(home().resourceBuildings().goldStorage()).toBeInstanceOf(HomeVillageResourceBuildings);
   });
 
-  it('resourceBuildings() total count is 4', () => {
-    expect(home().resourceBuildings().count()).toBe(4);
+  it('resourceBuildings() total count is 5', () => {
+    expect(home().resourceBuildings().count()).toBe(5);
   });
 
   testFilterImmutability(
