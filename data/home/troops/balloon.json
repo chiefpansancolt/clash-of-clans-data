@@ -1,0 +1,230 @@
+{
+  "id": "balloon",
+  "name": "Balloon",
+  "description": "These promoted skeletons have traded in their joy of destroying walls for a joy of destroying defenses. Deploy them to take out pesky mortars and cannons!",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "housingSpace": 5,
+  "movementSpeed": 10,
+  "range": 0.5,
+  "attackSpeed": 3,
+  "damageType": "splash",
+  "targetType": "ground",
+  "barrackLevelRequired": 6,
+  "images": { "icon": "images/home/troops/balloon/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 150,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 25, "damagePerShot": 75, "deathDamage": 25 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 180,
+      "townHallRequired": 4,
+      "laboratoryRequired": 2,
+      "researchCost": 100000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 32, "damagePerShot": 96, "deathDamage": 32 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 216,
+      "townHallRequired": 6,
+      "laboratoryRequired": 4,
+      "researchCost": 400000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 48, "damagePerShot": 144, "deathDamage": 48 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 280,
+      "townHallRequired": 7,
+      "laboratoryRequired": 5,
+      "researchCost": 720000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 72, "damagePerShot": 216, "deathDamage": 72 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-3.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 390,
+      "townHallRequired": 8,
+      "laboratoryRequired": 6,
+      "researchCost": 1300000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 108, "damagePerShot": 324, "deathDamage": 108 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 545,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 2750000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 162, "damagePerShot": 486, "deathDamage": 162 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 690,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 4400000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 198, "damagePerShot": 594, "deathDamage": 214 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 840,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 5000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 236, "damagePerShot": 708, "deathDamage": 268 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 940,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 7000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 256, "damagePerShot": 768, "deathDamage": 322 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 1040,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 10000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 276, "damagePerShot": 828, "deathDamage": 352 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "hitpoints": 1140,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 14000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 290, "damagePerShot": 870, "deathDamage": 375 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "hitpoints": 1240,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 17500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 304, "damagePerShot": 912, "deathDamage": 398 }
+      },
+      "images": { "normal": "images/home/troops/balloon/normal/level-12.png" }
+    }
+  ],
+  "superTroop": {
+    "id": "rocket-balloon",
+    "name": "Rocket Balloon",
+    "housingSpace": 8,
+    "movementSpeed": 12,
+    "attackSpeed": 3,
+    "range": 0.5,
+    "boostCost": 25000,
+    "boostCostResource": "Dark Elixir",
+    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "regularLevelRequired": 8,
+    "specialAbility": "Boosters",
+    "images": { "icon": "images/home/troops/balloon/super-icon.png" },
+    "levels": [
+      {
+        "level": 8,
+        "hitpoints": 840,
+        "stats": {
+          "normal": { "dps": 270, "damagePerShot": 810, "deathDamage": 580 }
+        },
+        "images": { "normal": "images/home/troops/balloon/super/level-8.png" }
+      },
+      {
+        "level": 9,
+        "hitpoints": 940,
+        "stats": {
+          "normal": { "dps": 280, "damagePerShot": 840, "deathDamage": 620 }
+        },
+        "images": { "normal": "images/home/troops/balloon/super/level-8.png" }
+      },
+      {
+        "level": 10,
+        "hitpoints": 1040,
+        "stats": {
+          "normal": { "dps": 285, "damagePerShot": 855, "deathDamage": 650 }
+        },
+        "images": { "normal": "images/home/troops/balloon/super/level-8.png" }
+      },
+      {
+        "level": 11,
+        "hitpoints": 1140,
+        "stats": {
+          "normal": { "dps": 290, "damagePerShot": 870, "deathDamage": 700 }
+        },
+        "images": { "normal": "images/home/troops/balloon/super/level-8.png" }
+      },
+      {
+        "level": 12,
+        "hitpoints": 1240,
+        "stats": {
+          "normal": { "dps": 304, "damagePerShot": 912, "deathDamage": 730 }
+        },
+        "images": { "normal": "images/home/troops/balloon/super/level-8.png" }
+      }
+    ]
+  }
+}

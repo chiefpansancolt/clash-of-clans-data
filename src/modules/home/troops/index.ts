@@ -1,12 +1,20 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeTroop } from '@/types';
 import { archerData } from './archer';
+import { balloonData } from './balloon';
 import { barbarianData } from './barbarian';
 import { giantData } from './giant';
 import { goblinData } from './goblin';
 import { wallBreakerData } from './wall-breaker';
 
-const allTroops: HomeTroop[] = [barbarianData, archerData, giantData, goblinData, wallBreakerData];
+const allTroops: HomeTroop[] = [
+  barbarianData,
+  archerData,
+  giantData,
+  goblinData,
+  wallBreakerData,
+  balloonData,
+];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
   constructor(data: HomeTroop[] = allTroops) {
@@ -32,6 +40,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   wallBreaker(): HomeVillageTroops {
     return new HomeVillageTroops([wallBreakerData]);
+  }
+
+  balloon(): HomeVillageTroops {
+    return new HomeVillageTroops([balloonData]);
   }
 
   // Category filters
