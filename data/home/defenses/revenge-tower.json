@@ -26,9 +26,7 @@
       "chainRange": 2
     }
   },
-  "availablePerTownHall": [
-    { "townHallLevel": 18, "count": 1 }
-  ],
+  "availablePerTownHall": [{ "townHallLevel": 18, "count": 1 }],
   "levels": [
     {
       "level": 1,
@@ -42,7 +40,12 @@
         "normal": {},
         "stage1": { "dps": 375, "damagePerShot": 450 },
         "stage2": { "dps": 375, "damagePerShot": 225, "secondaryChainDamagePerShot": 135 },
-        "stage3": { "dps": 642, "damagePerShot": 225, "secondaryChainDamagePerShot": 135, "tertiaryChainDamagePerShot": 81 }
+        "stage3": {
+          "dps": 642,
+          "damagePerShot": 225,
+          "secondaryChainDamagePerShot": 135,
+          "tertiaryChainDamagePerShot": 81
+        }
       },
       "images": {
         "normal": "images/home/defenses/revenge-tower/normal/level-1.png",
@@ -63,7 +66,12 @@
         "normal": {},
         "stage1": { "dps": 416, "damagePerShot": 500 },
         "stage2": { "dps": 416, "damagePerShot": 250, "secondaryChainDamagePerShot": 150 },
-        "stage3": { "dps": 714, "damagePerShot": 250, "secondaryChainDamagePerShot": 150, "tertiaryChainDamagePerShot": 90 }
+        "stage3": {
+          "dps": 714,
+          "damagePerShot": 250,
+          "secondaryChainDamagePerShot": 150,
+          "tertiaryChainDamagePerShot": 90
+        }
       },
       "images": {
         "normal": "images/home/defenses/revenge-tower/normal/level-2.png",

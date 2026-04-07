@@ -52,10 +52,10 @@ log('');
 
 log('--- All Levels ---');
 for (const lvl of rt.levels) {
-  log(`lv${lvl.level} | hp: ${lvl.hitpoints} | cost: ${lvl.buildCost} DE | xp: ${lvl.xpGained} | TH${lvl.townHallRequired}`);
   log(
-    `     stage1: dps ${lvl.stats.stage1!.dps} | dmg/shot ${lvl.stats.stage1!.damagePerShot}`,
+    `lv${lvl.level} | hp: ${lvl.hitpoints} | cost: ${lvl.buildCost} DE | xp: ${lvl.xpGained} | TH${lvl.townHallRequired}`,
   );
+  log(`     stage1: dps ${lvl.stats.stage1!.dps} | dmg/shot ${lvl.stats.stage1!.damagePerShot}`);
   log(
     `     stage2: dps ${lvl.stats.stage2!.dps} | primary ${lvl.stats.stage2!.damagePerShot} | secondary ${lvl.stats.stage2!.secondaryChainDamagePerShot}`,
   );

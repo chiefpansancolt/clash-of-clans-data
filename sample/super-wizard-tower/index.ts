@@ -32,7 +32,9 @@ log('');
 
 log('--- Normal Mode ---');
 const mode = swt.modes.normal!;
-log(`range: ${mode.range} | attackSpeed: ${mode.attackSpeed}s | damageType: ${mode.damageType} | maxChainTargets: ${mode.maxChainTargets}`);
+log(
+  `range: ${mode.range} | attackSpeed: ${mode.attackSpeed}s | damageType: ${mode.damageType} | maxChainTargets: ${mode.maxChainTargets}`,
+);
 log('');
 
 log('--- Available Per Town Hall ---');
@@ -44,7 +46,9 @@ log('');
 log('--- All Levels ---');
 for (const lvl of swt.levels) {
   const tag = lvl.supercharge ? ` [SC${lvl.level}]` : ``;
-  log(`lv${lvl.level}${tag} | hp: ${lvl.hitpoints} | cost: ${lvl.buildCost} Gold | xp: ${lvl.xpGained} | TH${lvl.townHallRequired}`);
+  log(
+    `lv${lvl.level}${tag} | hp: ${lvl.hitpoints} | cost: ${lvl.buildCost} Gold | xp: ${lvl.xpGained} | TH${lvl.townHallRequired}`,
+  );
   log(
     `     dps: ${lvl.stats.normal.dps} | damagePerShot: ${lvl.stats.normal.damagePerShot} | chainDamage: ${lvl.stats.normal.secondaryChainDamagePerShot}`,
   );

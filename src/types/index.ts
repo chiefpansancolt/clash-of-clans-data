@@ -1,4 +1,5 @@
 export * from './army-building';
+export * from './guardian';
 export * from './building';
 export * from './common';
 export * from './defense';
