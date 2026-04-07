@@ -13,6 +13,7 @@ export {
   HomeVillageDarkBarracks,
   HomeVillageLaboratory,
   HomeVillageSpellFactory,
+  HomeVillageDarkSpellFactory,
 } from './army-buildings';
 export { HomeVillageCraftedDefenses } from './crafted-defenses';
 export { HomeVillageDefenses } from './defenses';

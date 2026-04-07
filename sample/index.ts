@@ -20,6 +20,7 @@ import './crusher-mortar';
 import './dark-barracks';
 import './dark-elixir-drill';
 import './dark-elixir-storage';
+import './dark-spell-factory';
 import './eagle-artillery';
 import './elixir-collector';
 import './elixir-storage';

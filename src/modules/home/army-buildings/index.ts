@@ -8,6 +8,7 @@ import {
 import { armyCampData } from './army-camp';
 import { barracksData } from './barracks';
 import { darkBarracksData } from './dark-barracks';
+import { darkSpellFactoryData } from './dark-spell-factory';
 import { laboratoryData } from './laboratory';
 import { spellFactoryData } from './spell-factory';
 
@@ -37,6 +38,12 @@ export class HomeVillageSpellFactory extends QueryBase<HomeSpellFactoryBuilding>
   }
 }
 
+export class HomeVillageDarkSpellFactory extends QueryBase<HomeSpellFactoryBuilding> {
+  constructor(data: HomeSpellFactoryBuilding[] = [darkSpellFactoryData]) {
+    super(data);
+  }
+}
+
 export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
   constructor(data: HomeArmyBuilding[] = allArmyBuildings) {
     super(data);
@@ -61,6 +68,10 @@ export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
 
   spellFactory(): HomeVillageSpellFactory {
     return new HomeVillageSpellFactory([spellFactoryData]);
+  }
+
+  darkSpellFactory(): HomeVillageDarkSpellFactory {
+    return new HomeVillageDarkSpellFactory([darkSpellFactoryData]);
   }
 
   // Category filters
