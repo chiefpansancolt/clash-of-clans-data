@@ -12,6 +12,7 @@
   "damageType": "single",
   "targetType": "ground",
   "barrackLevelRequired": 1,
+  "images": { "icon": "images/home/troops/barbarian/icon.png" },
   "levels": [
     {
       "level": 1,
@@ -183,6 +184,7 @@
     "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
     "regularLevelRequired": 8,
     "specialAbility": "Rage",
+    "images": { "icon": "images/home/troops/barbarian/super/icon.png" },
     "levels": [
       {
         "level": 8,

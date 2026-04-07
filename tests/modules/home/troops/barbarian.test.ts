@@ -164,23 +164,23 @@ describe('troops()', () => {
     expect(home().troops()).toBeInstanceOf(HomeVillageTroops);
   });
 
-  it('has 1 troop total', () => {
-    expect(home().troops().count()).toBe(1);
+  it('has 2 troops total', () => {
+    expect(home().troops().count()).toBe(2);
   });
 
-  it('byType("regular") returns 1 troop', () => {
-    expect(home().troops().byType('regular').count()).toBe(1);
+  it('byType("regular") returns 2 troops', () => {
+    expect(home().troops().byType('regular').count()).toBe(2);
   });
 
   it('byType("dark") returns 0 troops', () => {
     expect(home().troops().byType('dark').count()).toBe(0);
   });
 
-  it('withSuperTroop() returns 1 troop', () => {
-    expect(home().troops().withSuperTroop().count()).toBe(1);
+  it('withSuperTroop() returns 2 troops', () => {
+    expect(home().troops().withSuperTroop().count()).toBe(2);
   });
 
-  it('byTownHall(1) returns 1 troop (Barbarian level 1 is TH1)', () => {
-    expect(home().troops().byTownHall(1).count()).toBe(1);
+  it('byTownHall(1) returns 2 troops (Barbarian and Archer level 1 are TH1)', () => {
+    expect(home().troops().byTownHall(1).count()).toBe(2);
   });
 });
