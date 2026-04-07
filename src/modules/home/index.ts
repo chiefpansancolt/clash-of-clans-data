@@ -6,6 +6,7 @@ import { HomeVillageOtherBuildings } from './other';
 import { HomeVillageResourceBuildings } from './resource-buildings';
 import { HomeVillageTownHall } from './town-hall';
 import { HomeVillageTraps } from './traps';
+import { HomeVillageTroops } from './troops';
 import { HomeVillageWalls } from './walls';
 
 export {
@@ -36,6 +37,7 @@ export {
   HomeVillageAlchemist,
   HomeVillageProspector,
 } from './other';
+export { HomeVillageTroops } from './troops';
 export { HomeVillageWalls } from './walls';
 
 export class HomeVillage {
@@ -69,6 +71,10 @@ export class HomeVillage {
 
   resourceBuildings(): HomeVillageResourceBuildings {
     return new HomeVillageResourceBuildings();
+  }
+
+  troops(): HomeVillageTroops {
+    return new HomeVillageTroops();
   }
 
   otherBuildings(): HomeVillageOtherBuildings {
