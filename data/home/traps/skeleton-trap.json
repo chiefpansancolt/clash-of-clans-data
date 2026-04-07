@@ -1,0 +1,109 @@
+{
+  "id": "skeleton-trap",
+  "name": "Skeleton Trap",
+  "description": "Ambush and distract unsuspecting foes with a surprise skirmish of short-lived, but sneaky skeleton troops! Skeleton Traps can be configured to pursue ground or air troops.",
+  "base": "home",
+  "category": "trap",
+  "size": "1x1",
+  "triggerRadius": 5,
+  "damageType": "single",
+  "targetType": "both",
+  "specialAbility": "Spawns Skeletons",
+  "levels": [
+    {
+      "level": 1,
+      "damage": 0,
+      "spawnedUnits": 2,
+      "skeletonLevel": 1,
+      "buildCost": 6000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "townHallRequired": 8,
+      "images": {
+        "normal": "images/home/traps/skeleton-trap/normal/level-1.png",
+        "air": "images/home/traps/skeleton-trap/air/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "damage": 0,
+      "spawnedUnits": 3,
+      "skeletonLevel": 1,
+      "buildCost": 250000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "xpGained": 134,
+      "townHallRequired": 8,
+      "images": {
+        "normal": "images/home/traps/skeleton-trap/normal/level-2.png",
+        "air": "images/home/traps/skeleton-trap/air/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "damage": 0,
+      "spawnedUnits": 4,
+      "skeletonLevel": 1,
+      "buildCost": 400000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "xpGained": 169,
+      "townHallRequired": 9,
+      "images": {
+        "normal": "images/home/traps/skeleton-trap/normal/level-3.png",
+        "air": "images/home/traps/skeleton-trap/air/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "damage": 0,
+      "spawnedUnits": 5,
+      "skeletonLevel": 1,
+      "buildCost": 1000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 207,
+      "townHallRequired": 10,
+      "images": {
+        "normal": "images/home/traps/skeleton-trap/normal/level-4.png",
+        "air": "images/home/traps/skeleton-trap/air/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "damage": 0,
+      "spawnedUnits": 5,
+      "skeletonLevel": 2,
+      "buildCost": 18000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 18,
+      "images": {
+        "normal": "images/home/traps/skeleton-trap/normal/level-5.png",
+        "air": "images/home/traps/skeleton-trap/air/level-5.png"
+      }
+    }
+  ],
+  "availablePerTownHall": [
+    { "townHallLevel": 1, "count": 0 },
+    { "townHallLevel": 2, "count": 0 },
+    { "townHallLevel": 3, "count": 0 },
+    { "townHallLevel": 4, "count": 0 },
+    { "townHallLevel": 5, "count": 0 },
+    { "townHallLevel": 6, "count": 0 },
+    { "townHallLevel": 7, "count": 0 },
+    { "townHallLevel": 8, "count": 2 },
+    { "townHallLevel": 9, "count": 2 },
+    { "townHallLevel": 10, "count": 3 },
+    { "townHallLevel": 11, "count": 3 },
+    { "townHallLevel": 12, "count": 3 },
+    { "townHallLevel": 13, "count": 3 },
+    { "townHallLevel": 14, "count": 4 },
+    { "townHallLevel": 15, "count": 4 },
+    { "townHallLevel": 16, "count": 4 },
+    { "townHallLevel": 17, "count": 4 },
+    { "townHallLevel": 18, "count": 4 }
+  ]
+}
