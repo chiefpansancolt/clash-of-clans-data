@@ -6,6 +6,7 @@ import { archerTowerData } from './archer-tower';
 import { bombTowerData } from './bomb-tower';
 import { buildersHutData } from './builders-hut';
 import { cannonData } from './cannon';
+import { craftingStationData } from './crafting-station';
 import { eagleArtilleryData } from './eagle-artillery';
 import { firespitterData } from './firespitter';
 import { hiddenTeslaData } from './hidden-tesla';
@@ -44,6 +45,7 @@ const allHomeDefenses: HomeDefense[] = [
   revengeTowerData,
   ricochetCannonData,
   superWizardTowerData,
+  craftingStationData,
 ];
 
 export class HomeDefenseQuery extends QueryBase<HomeDefense> {
@@ -99,6 +101,7 @@ export * from './multi-gear-tower';
 export * from './revenge-tower';
 export * from './ricochet-cannon';
 export * from './super-wizard-tower';
+export * from './crafting-station';
 export * from './scattershot';
 export * from './spell-tower';
 export * from './wizard-tower';

@@ -1,0 +1,322 @@
+{
+  "id": "hero-bell",
+  "name": "Hero Bell",
+  "base": "home",
+  "category": "crafted-defense",
+  "size": "3x3",
+  "craftingPhase": 2,
+  "isCurrent": false,
+  "targetType": "both",
+  "modules": [
+    {
+      "name": "Hitpoints",
+      "controls": "Maximum hitpoints",
+      "upgrades": [
+        {
+          "level": 1,
+          "stat": 400,
+          "buildCost": 0,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 0,
+          "sparkyStones": 0
+        },
+        {
+          "level": 2,
+          "stat": 900,
+          "buildCost": 4000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 293,
+          "sparkyStones": 8
+        },
+        {
+          "level": 3,
+          "stat": 1400,
+          "buildCost": 5000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 328,
+          "sparkyStones": 8
+        },
+        {
+          "level": 4,
+          "stat": 1900,
+          "buildCost": 6000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 360,
+          "sparkyStones": 8
+        },
+        {
+          "level": 5,
+          "stat": 2400,
+          "buildCost": 7000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 1, "hours": 18, "minutes": 0, "seconds": 0 },
+          "xpGained": 388,
+          "sparkyStones": 8
+        },
+        {
+          "level": 6,
+          "stat": 2900,
+          "buildCost": 8000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 415,
+          "sparkyStones": 8
+        },
+        {
+          "level": 7,
+          "stat": 3400,
+          "buildCost": 9000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 440,
+          "sparkyStones": 8
+        },
+        {
+          "level": 8,
+          "stat": 3900,
+          "buildCost": 10000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 464,
+          "sparkyStones": 8
+        },
+        {
+          "level": 9,
+          "stat": 4400,
+          "buildCost": 11000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 2, "hours": 18, "minutes": 0, "seconds": 0 },
+          "xpGained": 487,
+          "sparkyStones": 8
+        },
+        {
+          "level": 10,
+          "stat": 4900,
+          "buildCost": 12000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 509,
+          "sparkyStones": 8
+        }
+      ]
+    },
+    {
+      "name": "Hero DPS Boost",
+      "controls": "Hero DPS boost percentage",
+      "upgrades": [
+        {
+          "level": 1,
+          "stat": 4,
+          "buildCost": 0,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 0,
+          "sparkyStones": 0
+        },
+        {
+          "level": 2,
+          "stat": 5,
+          "buildCost": 5000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 207,
+          "sparkyStones": 8
+        },
+        {
+          "level": 3,
+          "stat": 7,
+          "buildCost": 6500000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+          "xpGained": 240,
+          "sparkyStones": 8
+        },
+        {
+          "level": 4,
+          "stat": 8,
+          "buildCost": 8000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 },
+          "xpGained": 268,
+          "sparkyStones": 8
+        },
+        {
+          "level": 5,
+          "stat": 10,
+          "buildCost": 9500000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 293,
+          "sparkyStones": 8
+        },
+        {
+          "level": 6,
+          "stat": 11,
+          "buildCost": 10000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 328,
+          "sparkyStones": 8
+        },
+        {
+          "level": 7,
+          "stat": 13,
+          "buildCost": 10500000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 360,
+          "sparkyStones": 8
+        },
+        {
+          "level": 8,
+          "stat": 14,
+          "buildCost": 11000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 415,
+          "sparkyStones": 8
+        },
+        {
+          "level": 9,
+          "stat": 16,
+          "buildCost": 11500000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 464,
+          "sparkyStones": 8
+        },
+        {
+          "level": 10,
+          "stat": 17,
+          "buildCost": 12000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 509,
+          "sparkyStones": 8
+        }
+      ]
+    },
+    {
+      "name": "Hero HP Boost",
+      "controls": "Hero HP boost percentage",
+      "upgrades": [
+        {
+          "level": 1,
+          "stat": 8,
+          "buildCost": 0,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 0,
+          "sparkyStones": 0
+        },
+        {
+          "level": 2,
+          "stat": 11,
+          "buildCost": 25000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 360,
+          "sparkyStones": 8
+        },
+        {
+          "level": 3,
+          "stat": 14,
+          "buildCost": 30000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 415,
+          "sparkyStones": 8
+        },
+        {
+          "level": 4,
+          "stat": 17,
+          "buildCost": 35000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 464,
+          "sparkyStones": 8
+        },
+        {
+          "level": 5,
+          "stat": 20,
+          "buildCost": 40000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 14, "minutes": 0, "seconds": 0 },
+          "xpGained": 472,
+          "sparkyStones": 8
+        },
+        {
+          "level": 6,
+          "stat": 23,
+          "buildCost": 55000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 16, "minutes": 0, "seconds": 0 },
+          "xpGained": 480,
+          "sparkyStones": 8
+        },
+        {
+          "level": 7,
+          "stat": 26,
+          "buildCost": 70000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 18, "minutes": 0, "seconds": 0 },
+          "xpGained": 487,
+          "sparkyStones": 8
+        },
+        {
+          "level": 8,
+          "stat": 29,
+          "buildCost": 85000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 20, "minutes": 0, "seconds": 0 },
+          "xpGained": 494,
+          "sparkyStones": 8
+        },
+        {
+          "level": 9,
+          "stat": 32,
+          "buildCost": 100000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 22, "minutes": 0, "seconds": 0 },
+          "xpGained": 501,
+          "sparkyStones": 8
+        },
+        {
+          "level": 10,
+          "stat": 35,
+          "buildCost": 115000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 509,
+          "sparkyStones": 8
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "fromEffectiveLevel": 3,
+      "toEffectiveLevel": 11,
+      "normal": "images/home/crafted-defenses/hero-bell/normal/level-1.png"
+    },
+    {
+      "fromEffectiveLevel": 12,
+      "toEffectiveLevel": 20,
+      "normal": "images/home/crafted-defenses/hero-bell/normal/level-2.png"
+    },
+    {
+      "fromEffectiveLevel": 21,
+      "toEffectiveLevel": 29,
+      "normal": "images/home/crafted-defenses/hero-bell/normal/level-3.png"
+    },
+    {
+      "fromEffectiveLevel": 30,
+      "toEffectiveLevel": 30,
+      "normal": "images/home/crafted-defenses/hero-bell/normal/level-4.png"
+    }
+  ]
+}

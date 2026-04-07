@@ -2,6 +2,7 @@ export type Base = 'home' | 'builder' | 'clan_capital';
 
 export type Category =
   | 'defense'
+  | 'crafted-defense'
   | 'troop'
   | 'spell'
   | 'resource'

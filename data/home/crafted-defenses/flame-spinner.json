@@ -1,0 +1,322 @@
+{
+  "id": "flame-spinner",
+  "name": "Flame Spinner",
+  "base": "home",
+  "category": "crafted-defense",
+  "size": "3x3",
+  "craftingPhase": 1,
+  "isCurrent": false,
+  "targetType": "both",
+  "modules": [
+    {
+      "name": "Hitpoints",
+      "controls": "Maximum hitpoints",
+      "upgrades": [
+        {
+          "level": 1,
+          "stat": 600,
+          "buildCost": 0,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 0,
+          "sparkyStones": 0
+        },
+        {
+          "level": 2,
+          "stat": 1200,
+          "buildCost": 3000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 360,
+          "sparkyStones": 8
+        },
+        {
+          "level": 3,
+          "stat": 1800,
+          "buildCost": 3500000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 415,
+          "sparkyStones": 8
+        },
+        {
+          "level": 4,
+          "stat": 2400,
+          "buildCost": 4000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 464,
+          "sparkyStones": 8
+        },
+        {
+          "level": 5,
+          "stat": 3000,
+          "buildCost": 4500000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 2, "hours": 14, "minutes": 0, "seconds": 0 },
+          "xpGained": 472,
+          "sparkyStones": 8
+        },
+        {
+          "level": 6,
+          "stat": 3600,
+          "buildCost": 6000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 2, "hours": 16, "minutes": 0, "seconds": 0 },
+          "xpGained": 480,
+          "sparkyStones": 8
+        },
+        {
+          "level": 7,
+          "stat": 4200,
+          "buildCost": 7500000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 2, "hours": 18, "minutes": 0, "seconds": 0 },
+          "xpGained": 487,
+          "sparkyStones": 8
+        },
+        {
+          "level": 8,
+          "stat": 4800,
+          "buildCost": 9000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 2, "hours": 20, "minutes": 0, "seconds": 0 },
+          "xpGained": 494,
+          "sparkyStones": 8
+        },
+        {
+          "level": 9,
+          "stat": 5400,
+          "buildCost": 10500000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 2, "hours": 22, "minutes": 0, "seconds": 0 },
+          "xpGained": 501,
+          "sparkyStones": 8
+        },
+        {
+          "level": 10,
+          "stat": 6000,
+          "buildCost": 12000000,
+          "buildCostResource": "Gold",
+          "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 509,
+          "sparkyStones": 8
+        }
+      ]
+    },
+    {
+      "name": "Damage",
+      "controls": "Damage per hit",
+      "upgrades": [
+        {
+          "level": 1,
+          "stat": 220,
+          "buildCost": 0,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 0,
+          "sparkyStones": 0
+        },
+        {
+          "level": 2,
+          "stat": 240,
+          "buildCost": 35000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 293,
+          "sparkyStones": 8
+        },
+        {
+          "level": 3,
+          "stat": 260,
+          "buildCost": 45000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 328,
+          "sparkyStones": 8
+        },
+        {
+          "level": 4,
+          "stat": 280,
+          "buildCost": 55000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 360,
+          "sparkyStones": 8
+        },
+        {
+          "level": 5,
+          "stat": 300,
+          "buildCost": 65000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 1, "hours": 18, "minutes": 0, "seconds": 0 },
+          "xpGained": 388,
+          "sparkyStones": 8
+        },
+        {
+          "level": 6,
+          "stat": 320,
+          "buildCost": 75000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 415,
+          "sparkyStones": 8
+        },
+        {
+          "level": 7,
+          "stat": 340,
+          "buildCost": 85000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 440,
+          "sparkyStones": 8
+        },
+        {
+          "level": 8,
+          "stat": 360,
+          "buildCost": 95000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 464,
+          "sparkyStones": 8
+        },
+        {
+          "level": 9,
+          "stat": 380,
+          "buildCost": 105000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 18, "minutes": 0, "seconds": 0 },
+          "xpGained": 487,
+          "sparkyStones": 8
+        },
+        {
+          "level": 10,
+          "stat": 400,
+          "buildCost": 115000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 509,
+          "sparkyStones": 8
+        }
+      ]
+    },
+    {
+      "name": "Burst Fire",
+      "controls": "Shots per burst",
+      "upgrades": [
+        {
+          "level": 1,
+          "stat": 19,
+          "buildCost": 0,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 0,
+          "sparkyStones": 0
+        },
+        {
+          "level": 2,
+          "stat": 20,
+          "buildCost": 5000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 207,
+          "sparkyStones": 8
+        },
+        {
+          "level": 3,
+          "stat": 21,
+          "buildCost": 6500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+          "xpGained": 240,
+          "sparkyStones": 8
+        },
+        {
+          "level": 4,
+          "stat": 22,
+          "buildCost": 8000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 },
+          "xpGained": 268,
+          "sparkyStones": 8
+        },
+        {
+          "level": 5,
+          "stat": 23,
+          "buildCost": 9500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 293,
+          "sparkyStones": 8
+        },
+        {
+          "level": 6,
+          "stat": 24,
+          "buildCost": 10000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 328,
+          "sparkyStones": 8
+        },
+        {
+          "level": 7,
+          "stat": 25,
+          "buildCost": 10500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 360,
+          "sparkyStones": 8
+        },
+        {
+          "level": 8,
+          "stat": 26,
+          "buildCost": 11000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 415,
+          "sparkyStones": 8
+        },
+        {
+          "level": 9,
+          "stat": 27,
+          "buildCost": 11500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 464,
+          "sparkyStones": 8
+        },
+        {
+          "level": 10,
+          "stat": 28,
+          "buildCost": 12000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 509,
+          "sparkyStones": 8
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "fromEffectiveLevel": 3,
+      "toEffectiveLevel": 11,
+      "normal": "images/home/crafted-defenses/flame-spinner/normal/level-1.png"
+    },
+    {
+      "fromEffectiveLevel": 12,
+      "toEffectiveLevel": 20,
+      "normal": "images/home/crafted-defenses/flame-spinner/normal/level-2.png"
+    },
+    {
+      "fromEffectiveLevel": 21,
+      "toEffectiveLevel": 29,
+      "normal": "images/home/crafted-defenses/flame-spinner/normal/level-3.png"
+    },
+    {
+      "fromEffectiveLevel": 30,
+      "toEffectiveLevel": 30,
+      "normal": "images/home/crafted-defenses/flame-spinner/normal/level-4.png"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "id": "roaster",
+  "name": "Roaster",
+  "base": "home",
+  "category": "crafted-defense",
+  "size": "3x3",
+  "craftingPhase": 3,
+  "isCurrent": true,
+  "targetType": "both",
+  "modules": [
+    {
+      "name": "Hitpoints",
+      "controls": "Maximum hitpoints",
+      "upgrades": [
+        {
+          "level": 1,
+          "stat": 960,
+          "buildCost": 0,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 0,
+          "sparkyStones": 0
+        },
+        {
+          "level": 2,
+          "stat": 1500,
+          "buildCost": 3500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 146,
+          "sparkyStones": 8
+        },
+        {
+          "level": 3,
+          "stat": 2000,
+          "buildCost": 4500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+          "xpGained": 169,
+          "sparkyStones": 8
+        },
+        {
+          "level": 4,
+          "stat": 2500,
+          "buildCost": 5500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+          "xpGained": 189,
+          "sparkyStones": 8
+        },
+        {
+          "level": 5,
+          "stat": 3000,
+          "buildCost": 6500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 207,
+          "sparkyStones": 8
+        },
+        {
+          "level": 6,
+          "stat": 3500,
+          "buildCost": 7500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 14, "minutes": 0, "seconds": 0 },
+          "xpGained": 224,
+          "sparkyStones": 8
+        },
+        {
+          "level": 7,
+          "stat": 4000,
+          "buildCost": 8500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 1, "hours": 2, "minutes": 0, "seconds": 0 },
+          "xpGained": 305,
+          "sparkyStones": 8
+        },
+        {
+          "level": 8,
+          "stat": 4500,
+          "buildCost": 10000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 2, "hours": 4, "minutes": 0, "seconds": 0 },
+          "xpGained": 432,
+          "sparkyStones": 8
+        },
+        {
+          "level": 9,
+          "stat": 5200,
+          "buildCost": 11500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 4, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 605,
+          "sparkyStones": 8
+        },
+        {
+          "level": 10,
+          "stat": 6000,
+          "buildCost": 13000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 856,
+          "sparkyStones": 8
+        }
+      ]
+    },
+    {
+      "name": "Damage",
+      "controls": "Damage per shot",
+      "upgrades": [
+        {
+          "level": 1,
+          "stat": 50,
+          "buildCost": 0,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 0,
+          "sparkyStones": 0
+        },
+        {
+          "level": 2,
+          "stat": 54,
+          "buildCost": 4000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+          "xpGained": 169,
+          "sparkyStones": 8
+        },
+        {
+          "level": 3,
+          "stat": 58,
+          "buildCost": 5000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+          "xpGained": 189,
+          "sparkyStones": 8
+        },
+        {
+          "level": 4,
+          "stat": 62,
+          "buildCost": 6000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 11, "minutes": 0, "seconds": 0 },
+          "xpGained": 198,
+          "sparkyStones": 8
+        },
+        {
+          "level": 5,
+          "stat": 66,
+          "buildCost": 7500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 13, "minutes": 0, "seconds": 0 },
+          "xpGained": 216,
+          "sparkyStones": 8
+        },
+        {
+          "level": 6,
+          "stat": 70,
+          "buildCost": 9000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 0, "hours": 15, "minutes": 0, "seconds": 0 },
+          "xpGained": 232,
+          "sparkyStones": 8
+        },
+        {
+          "level": 7,
+          "stat": 75,
+          "buildCost": 10500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 1, "hours": 3, "minutes": 0, "seconds": 0 },
+          "xpGained": 311,
+          "sparkyStones": 8
+        },
+        {
+          "level": 8,
+          "stat": 80,
+          "buildCost": 12000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 440,
+          "sparkyStones": 8
+        },
+        {
+          "level": 9,
+          "stat": 87,
+          "buildCost": 13500000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 623,
+          "sparkyStones": 8
+        },
+        {
+          "level": 10,
+          "stat": 95,
+          "buildCost": 15000000,
+          "buildCostResource": "Elixir",
+          "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 881,
+          "sparkyStones": 8
+        }
+      ]
+    },
+    {
+      "name": "Burst Fire",
+      "controls": "Shots per burst",
+      "upgrades": [
+        {
+          "level": 1,
+          "stat": 6,
+          "buildCost": 0,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 0,
+          "sparkyStones": 0
+        },
+        {
+          "level": 2,
+          "stat": 7,
+          "buildCost": 30000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+          "xpGained": 120,
+          "sparkyStones": 8
+        },
+        {
+          "level": 3,
+          "stat": 8,
+          "buildCost": 40000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+          "xpGained": 146,
+          "sparkyStones": 8
+        },
+        {
+          "level": 4,
+          "stat": 9,
+          "buildCost": 50000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+          "xpGained": 169,
+          "sparkyStones": 8
+        },
+        {
+          "level": 5,
+          "stat": 10,
+          "buildCost": 60000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+          "xpGained": 189,
+          "sparkyStones": 8
+        },
+        {
+          "level": 6,
+          "stat": 11,
+          "buildCost": 70000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+          "xpGained": 207,
+          "sparkyStones": 8
+        },
+        {
+          "level": 7,
+          "stat": 12,
+          "buildCost": 80000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 293,
+          "sparkyStones": 8
+        },
+        {
+          "level": 8,
+          "stat": 13,
+          "buildCost": 90000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 415,
+          "sparkyStones": 8
+        },
+        {
+          "level": 9,
+          "stat": 14,
+          "buildCost": 100000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 587,
+          "sparkyStones": 8
+        },
+        {
+          "level": 10,
+          "stat": 15,
+          "buildCost": 110000,
+          "buildCostResource": "Dark Elixir",
+          "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+          "xpGained": 831,
+          "sparkyStones": 8
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "fromEffectiveLevel": 3,
+      "toEffectiveLevel": 5,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-1.png"
+    },
+    {
+      "fromEffectiveLevel": 6,
+      "toEffectiveLevel": 8,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-2.png"
+    },
+    {
+      "fromEffectiveLevel": 9,
+      "toEffectiveLevel": 11,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-3.png"
+    },
+    {
+      "fromEffectiveLevel": 12,
+      "toEffectiveLevel": 14,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-4.png"
+    },
+    {
+      "fromEffectiveLevel": 15,
+      "toEffectiveLevel": 17,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-5.png"
+    },
+    {
+      "fromEffectiveLevel": 18,
+      "toEffectiveLevel": 20,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-6.png"
+    },
+    {
+      "fromEffectiveLevel": 21,
+      "toEffectiveLevel": 23,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-7.png"
+    },
+    {
+      "fromEffectiveLevel": 24,
+      "toEffectiveLevel": 26,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-8.png"
+    },
+    {
+      "fromEffectiveLevel": 27,
+      "toEffectiveLevel": 29,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-9.png"
+    },
+    {
+      "fromEffectiveLevel": 30,
+      "toEffectiveLevel": 30,
+      "normal": "images/home/crafted-defenses/roaster/normal/level-10.png"
+    }
+  ]
+}
