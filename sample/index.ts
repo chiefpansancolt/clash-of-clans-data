@@ -36,6 +36,7 @@ import './home-resources';
 import './home-traps';
 import './hook-tower';
 import './inferno-tower';
+import './laboratory';
 import './lava-launcher';
 import './light-beam';
 import './longshot';

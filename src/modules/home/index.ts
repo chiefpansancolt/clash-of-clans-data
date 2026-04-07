@@ -11,6 +11,7 @@ export {
   HomeVillageArmyBuildings,
   HomeVillageBarracks,
   HomeVillageDarkBarracks,
+  HomeVillageLaboratory,
 } from './army-buildings';
 export { HomeVillageCraftedDefenses } from './crafted-defenses';
 export { HomeVillageDefenses } from './defenses';
