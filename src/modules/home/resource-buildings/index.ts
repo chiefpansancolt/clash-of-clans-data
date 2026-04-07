@@ -1,8 +1,9 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeResourceBuilding } from '@/types';
+import { elixirCollectorData } from './elixir-collector';
 import { goldMineData } from './gold-mine';
 
-const allResourceBuildings: HomeResourceBuilding[] = [goldMineData];
+const allResourceBuildings: HomeResourceBuilding[] = [goldMineData, elixirCollectorData];
 
 export class HomeVillageResourceBuildings extends QueryBase<HomeResourceBuilding> {
   constructor(data: HomeResourceBuilding[] = allResourceBuildings) {
@@ -12,6 +13,10 @@ export class HomeVillageResourceBuildings extends QueryBase<HomeResourceBuilding
   // Per-building accessors
   goldMine(): HomeVillageResourceBuildings {
     return new HomeVillageResourceBuildings([goldMineData]);
+  }
+
+  elixirCollector(): HomeVillageResourceBuildings {
+    return new HomeVillageResourceBuildings([elixirCollectorData]);
   }
 
   // Category filters
