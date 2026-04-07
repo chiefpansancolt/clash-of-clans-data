@@ -4,10 +4,14 @@ import { BuildTime, ResourceType } from './common';
 // ── Home Village Troops ───────────────────────────────────────────────────
 
 export interface HomeTroopLevelStats {
-  dps: number;
-  damagePerShot: number;
+  dps?: number;
+  damagePerShot?: number;
   deathDamage?: number;
   chainDamagePerShot?: number;
+  healingPerSecond?: number;
+  healingPerPulse?: number;
+  healingPerSecondOnHeroes?: number;
+  healingPerPulseOnHeroes?: number;
 }
 
 export interface HomeTroopLevel {
@@ -65,7 +69,7 @@ export interface HomeTroop {
   movementSpeed: number;
   range: number;
   attackSpeed: number;
-  damageType: 'single' | 'splash' | 'area';
+  damageType: 'single' | 'splash' | 'area' | 'none';
   targetType: 'ground' | 'air' | 'both';
   barrackLevelRequired: number;
   images: { icon: string };

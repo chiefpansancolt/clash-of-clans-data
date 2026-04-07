@@ -5,6 +5,7 @@ import { balloonData } from './balloon';
 import { barbarianData } from './barbarian';
 import { giantData } from './giant';
 import { goblinData } from './goblin';
+import { healerData } from './healer';
 import { wallBreakerData } from './wall-breaker';
 import { wizardData } from './wizard';
 
@@ -16,6 +17,7 @@ const allTroops: HomeTroop[] = [
   wallBreakerData,
   balloonData,
   wizardData,
+  healerData,
 ];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
@@ -50,6 +52,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   wizard(): HomeVillageTroops {
     return new HomeVillageTroops([wizardData]);
+  }
+
+  healer(): HomeVillageTroops {
+    return new HomeVillageTroops([healerData]);
   }
 
   // Category filters

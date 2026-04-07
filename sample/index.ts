@@ -83,6 +83,7 @@ import './home/troops/balloon';
 import './home/troops/barbarian';
 import './home/troops/giant';
 import './home/troops/goblin';
+import './home/troops/healer';
 import './home/troops/wall-breaker';
 import './home/troops/wizard';
 // ── Walls ─────────────────────────────────────────────────────────────────────
