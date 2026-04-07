@@ -34,6 +34,7 @@ import './revenge-tower';
 import './ricochet-cannon';
 import './roaster';
 import './scattershot';
+import './seeking-air-mine';
 import './smasher';
 import './spell-tower';
 import './spring-trap';
