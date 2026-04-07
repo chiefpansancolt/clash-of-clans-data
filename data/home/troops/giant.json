@@ -1,0 +1,253 @@
+{
+  "id": "giant",
+  "name": "Giant",
+  "description": "These big guys may seem calm, but show them a Cannon or Archer Tower and you'll see their fury unleashed! Slow yet durable, these warriors are best used to soak up hits.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "housingSpace": 5,
+  "movementSpeed": 12,
+  "range": 1,
+  "attackSpeed": 2,
+  "damageType": "single",
+  "targetType": "ground",
+  "barrackLevelRequired": 3,
+  "images": { "icon": "images/home/troops/giant/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 400,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 12, "damagePerShot": 24 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 500,
+      "townHallRequired": 4,
+      "laboratoryRequired": 2,
+      "researchCost": 40000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 15, "damagePerShot": 30 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 600,
+      "townHallRequired": 6,
+      "laboratoryRequired": 4,
+      "researchCost": 150000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 20, "damagePerShot": 40 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 700,
+      "townHallRequired": 7,
+      "laboratoryRequired": 5,
+      "researchCost": 400000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 24, "damagePerShot": 48 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-3.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 900,
+      "townHallRequired": 8,
+      "laboratoryRequired": 6,
+      "researchCost": 800000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 31, "damagePerShot": 62 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1100,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 1500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 43, "damagePerShot": 86 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1300,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 2300000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 55, "damagePerShot": 110 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 1500,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 2600000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 62, "damagePerShot": 124 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 1850,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 3400000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 70, "damagePerShot": 140 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 2000,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 5000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 78, "damagePerShot": 156 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "hitpoints": 2200,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 7500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 86, "damagePerShot": 172 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "hitpoints": 2400,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 10000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 94, "damagePerShot": 188 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-12.png" }
+    },
+    {
+      "level": 13,
+      "hitpoints": 2700,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 15000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 104, "damagePerShot": 208 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-13.png" }
+    },
+    {
+      "level": 14,
+      "hitpoints": 3000,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 25000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 13, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 114, "damagePerShot": 228 }
+      },
+      "images": { "normal": "images/home/troops/giant/normal/level-14.png" }
+    }
+  ],
+  "superTroop": {
+    "id": "super-giant",
+    "name": "Super Giant",
+    "description": "Super Giants are bigger than their ordinary cousins and are great at punching their way through walls. The belt is from the annual village eating contest.",
+    "housingSpace": 10,
+    "movementSpeed": 12,
+    "attackSpeed": 2,
+    "range": 1,
+    "boostCost": 25000,
+    "boostCostResource": "Dark Elixir",
+    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "regularLevelRequired": 9,
+    "specialAbility": "Wall Buster",
+    "images": { "icon": "images/home/troops/giant/super/icon.png" },
+    "levels": [
+      {
+        "level": 9,
+        "hitpoints": 4000,
+        "stats": { "normal": { "dps": 130, "damagePerShot": 260 } },
+        "images": { "normal": "images/home/troops/giant/super/level-9.png" }
+      },
+      {
+        "level": 10,
+        "hitpoints": 4200,
+        "stats": { "normal": { "dps": 140, "damagePerShot": 280 } },
+        "images": { "normal": "images/home/troops/giant/super/level-9.png" }
+      },
+      {
+        "level": 11,
+        "hitpoints": 4400,
+        "stats": { "normal": { "dps": 150, "damagePerShot": 300 } },
+        "images": { "normal": "images/home/troops/giant/super/level-9.png" }
+      },
+      {
+        "level": 12,
+        "hitpoints": 4600,
+        "stats": { "normal": { "dps": 160, "damagePerShot": 320 } },
+        "images": { "normal": "images/home/troops/giant/super/level-9.png" }
+      },
+      {
+        "level": 13,
+        "hitpoints": 4900,
+        "stats": { "normal": { "dps": 175, "damagePerShot": 350 } },
+        "images": { "normal": "images/home/troops/giant/super/level-9.png" }
+      },
+      {
+        "level": 14,
+        "hitpoints": 5600,
+        "stats": { "normal": { "dps": 205, "damagePerShot": 410 } },
+        "images": { "normal": "images/home/troops/giant/super/level-9.png" }
+      }
+    ]
+  }
+}
