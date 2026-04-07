@@ -22,6 +22,21 @@ export interface BuilderArmyBuildingLevel extends ArmyBuildingLevel {
 
 export type BuilderArmyBuilding = Building<BuilderArmyBuildingLevel>;
 
+export interface BarracksBuildingLevel extends BuildingLevel {
+  unlockedUnit: string;
+  images: {
+    normal: string;
+  };
+}
+
+export interface HomeBarracksBuildingLevel extends BarracksBuildingLevel {
+  townHallRequired: number;
+}
+
+export interface HomeBarracksBuilding extends Building<HomeBarracksBuildingLevel> {
+  availablePerTownHall: TownHallAvailability[];
+}
+
 export interface ClanCastleLevel extends BuildingLevel {
   troopCapacity: number;
   spellCapacity: number;

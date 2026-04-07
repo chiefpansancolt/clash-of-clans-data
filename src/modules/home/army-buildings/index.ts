@@ -1,8 +1,15 @@
 import { QueryBase } from '@/common/query-base';
-import { HomeArmyBuilding } from '@/types';
+import { HomeArmyBuilding, HomeBarracksBuilding } from '@/types';
 import { armyCampData } from './army-camp';
+import { barracksData } from './barracks';
 
 const allArmyBuildings: HomeArmyBuilding[] = [armyCampData];
+
+export class HomeVillageBarracks extends QueryBase<HomeBarracksBuilding> {
+  constructor(data: HomeBarracksBuilding[] = [barracksData]) {
+    super(data);
+  }
+}
 
 export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
   constructor(data: HomeArmyBuilding[] = allArmyBuildings) {
@@ -12,6 +19,10 @@ export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
   // Per-building accessors
   armyCamp(): HomeVillageArmyBuildings {
     return new HomeVillageArmyBuildings([armyCampData]);
+  }
+
+  barracks(): HomeVillageBarracks {
+    return new HomeVillageBarracks([barracksData]);
   }
 
   // Category filters
