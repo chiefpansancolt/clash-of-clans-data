@@ -4,9 +4,7 @@ export interface WallLevel {
   level: number;
   hitpoints: number;
   buildCost: number;
-  /** 'Gold' for levels 1–4; 'Gold or Elixir' for levels 5–19 (same cost either way). */
   buildCostResource: ResourceType;
-  /** Wall Rings required as an alternative to Gold/Elixir. */
   wallRings: number;
   buildTime: BuildTime;
   xpGained: number;

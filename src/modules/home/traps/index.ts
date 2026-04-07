@@ -1,9 +1,10 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeTrap } from '@/types';
 import { bombData } from './bomb';
+import { giantBombData } from './giant-bomb';
 import { springTrapData } from './spring-trap';
 
-const allHomeTraps: HomeTrap[] = [bombData, springTrapData];
+const allHomeTraps: HomeTrap[] = [bombData, springTrapData, giantBombData];
 
 export class HomeTrapQuery extends QueryBase<HomeTrap> {
   constructor(data: HomeTrap[] = allHomeTraps) {
@@ -36,4 +37,5 @@ export function homeTraps(source: HomeTrap[] = allHomeTraps): HomeTrapQuery {
 }
 
 export * from './bomb';
+export * from './giant-bomb';
 export * from './spring-trap';
