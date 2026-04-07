@@ -7,7 +7,11 @@ import { HomeVillageTownHall } from './town-hall';
 import { HomeVillageTraps } from './traps';
 import { HomeVillageWalls } from './walls';
 
-export { HomeVillageArmyBuildings, HomeVillageBarracks } from './army-buildings';
+export {
+  HomeVillageArmyBuildings,
+  HomeVillageBarracks,
+  HomeVillageDarkBarracks,
+} from './army-buildings';
 export { HomeVillageCraftedDefenses } from './crafted-defenses';
 export { HomeVillageDefenses } from './defenses';
 export { HomeVillageGuardians } from './guardians';

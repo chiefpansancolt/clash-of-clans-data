@@ -1,0 +1,161 @@
+{
+  "id": "dark-barracks",
+  "name": "Dark Barracks",
+  "base": "home",
+  "category": "army",
+  "size": "3x3",
+  "availablePerTownHall": [
+    { "townHallLevel": 1, "count": 0 },
+    { "townHallLevel": 2, "count": 0 },
+    { "townHallLevel": 3, "count": 0 },
+    { "townHallLevel": 4, "count": 0 },
+    { "townHallLevel": 5, "count": 0 },
+    { "townHallLevel": 6, "count": 0 },
+    { "townHallLevel": 7, "count": 1 },
+    { "townHallLevel": 8, "count": 1 },
+    { "townHallLevel": 9, "count": 1 },
+    { "townHallLevel": 10, "count": 1 },
+    { "townHallLevel": 11, "count": 1 },
+    { "townHallLevel": 12, "count": 1 },
+    { "townHallLevel": 13, "count": 1 },
+    { "townHallLevel": 14, "count": 1 },
+    { "townHallLevel": 15, "count": 1 },
+    { "townHallLevel": 16, "count": 1 },
+    { "townHallLevel": 17, "count": 1 },
+    { "townHallLevel": 18, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 500,
+      "unlockedUnit": "Minion",
+      "buildCost": 200000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "xpGained": 169,
+      "townHallRequired": 7,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 550,
+      "unlockedUnit": "Hog Rider",
+      "buildCost": 600000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "townHallRequired": 7,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 600,
+      "unlockedUnit": "Valkyrie",
+      "buildCost": 1000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 360,
+      "townHallRequired": 8,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 650,
+      "unlockedUnit": "Golem",
+      "buildCost": 1600000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "townHallRequired": 8,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 700,
+      "unlockedUnit": "Witch",
+      "buildCost": 2200000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 464,
+      "townHallRequired": 9,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 750,
+      "unlockedUnit": "Lava Hound",
+      "buildCost": 2900000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "townHallRequired": 9,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 800,
+      "unlockedUnit": "Bowler",
+      "buildCost": 4000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 657,
+      "townHallRequired": 10,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 850,
+      "unlockedUnit": "Ice Golem",
+      "buildCost": 7000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "townHallRequired": 11,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 900,
+      "unlockedUnit": "Headhunter",
+      "buildCost": 7200000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 12,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 950,
+      "unlockedUnit": "Apprentice Warden",
+      "buildCost": 10000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 804,
+      "townHallRequired": 13,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "hitpoints": 1000,
+      "unlockedUnit": "Druid",
+      "buildCost": 12000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "townHallRequired": 14,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "hitpoints": 1050,
+      "unlockedUnit": "Furnace",
+      "buildCost": 20000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1018,
+      "townHallRequired": 15,
+      "images": { "normal": "images/home/army-buildings/dark-barracks/normal/level-12.png" }
+    }
+  ]
+}

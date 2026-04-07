@@ -17,6 +17,7 @@ import './cannon';
 import './clan-castle';
 import './crafting-station';
 import './crusher-mortar';
+import './dark-barracks';
 import './dark-elixir-drill';
 import './dark-elixir-storage';
 import './eagle-artillery';
