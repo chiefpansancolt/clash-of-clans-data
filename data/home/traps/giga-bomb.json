@@ -1,0 +1,76 @@
+{
+  "id": "giga-bomb",
+  "name": "Giga Bomb",
+  "description": "Villagers didn't want to keep this dangerous Weapon inside the Town Hall, so they moved it out! The Giga Bomb pushes enemies back with massive damage. This Trap is so deadly, it doesn't need to hide!",
+  "base": "home",
+  "category": "trap",
+  "size": "2x2",
+  "triggerRadius": 3.5,
+  "triggerHousingSpace": 18,
+  "damageRadius": 4.5,
+  "damageType": "splash",
+  "targetType": "both",
+  "specialAbility": "Knockback",
+  "levels": [
+    {
+      "level": 1,
+      "damage": 1100,
+      "buildCost": 4500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "townHallRequired": 17,
+      "images": { "normal": "images/home/traps/giga-bomb/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "damage": 1200,
+      "buildCost": 8500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 657,
+      "townHallRequired": 17,
+      "images": { "normal": "images/home/traps/giga-bomb/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "damage": 1300,
+      "buildCost": 12500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "townHallRequired": 17,
+      "images": { "normal": "images/home/traps/giga-bomb/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "damage": 1400,
+      "buildCost": 20000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 13, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1059,
+      "townHallRequired": 18,
+      "images": { "normal": "images/home/traps/giga-bomb/normal/level-4.png" }
+    }
+  ],
+  "availablePerTownHall": [
+    { "townHallLevel": 1, "count": 0 },
+    { "townHallLevel": 2, "count": 0 },
+    { "townHallLevel": 3, "count": 0 },
+    { "townHallLevel": 4, "count": 0 },
+    { "townHallLevel": 5, "count": 0 },
+    { "townHallLevel": 6, "count": 0 },
+    { "townHallLevel": 7, "count": 0 },
+    { "townHallLevel": 8, "count": 0 },
+    { "townHallLevel": 9, "count": 0 },
+    { "townHallLevel": 10, "count": 0 },
+    { "townHallLevel": 11, "count": 0 },
+    { "townHallLevel": 12, "count": 0 },
+    { "townHallLevel": 13, "count": 0 },
+    { "townHallLevel": 14, "count": 0 },
+    { "townHallLevel": 15, "count": 0 },
+    { "townHallLevel": 16, "count": 0 },
+    { "townHallLevel": 17, "count": 1 },
+    { "townHallLevel": 18, "count": 1 }
+  ]
+}

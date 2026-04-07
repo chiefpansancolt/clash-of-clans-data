@@ -3,6 +3,7 @@ import { HomeTrap } from '@/types';
 import { airBombData } from './air-bomb';
 import { bombData } from './bomb';
 import { giantBombData } from './giant-bomb';
+import { gigaBombData } from './giga-bomb';
 import { seekingAirMineData } from './seeking-air-mine';
 import { skeletonTrapData } from './skeleton-trap';
 import { springTrapData } from './spring-trap';
@@ -16,6 +17,7 @@ const allHomeTraps: HomeTrap[] = [
   seekingAirMineData,
   skeletonTrapData,
   tornadoTrapData,
+  gigaBombData,
 ];
 
 export class HomeTrapQuery extends QueryBase<HomeTrap> {
@@ -50,6 +52,7 @@ export function homeTraps(source: HomeTrap[] = allHomeTraps): HomeTrapQuery {
 
 export * from './air-bomb';
 export * from './bomb';
+export * from './giga-bomb';
 export * from './giant-bomb';
 export * from './seeking-air-mine';
 export * from './skeleton-trap';

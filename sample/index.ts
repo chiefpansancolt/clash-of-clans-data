@@ -18,6 +18,7 @@ import './eagle-artillery';
 import './firespitter';
 import './flame-spinner';
 import './giant-bomb';
+import './giga-bomb';
 import './hero-bell';
 import './hidden-tesla';
 import './home-defenses';
