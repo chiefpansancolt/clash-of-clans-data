@@ -1,0 +1,68 @@
+{
+  "id": "tornado-trap",
+  "name": "Tornado Trap",
+  "description": "Wind and stones may break some bones, but this trap will definitely confound you. Just place one of these traps down and the released vortex will draw the enemy troops in, hindering their progress.",
+  "base": "home",
+  "category": "trap",
+  "size": "1x1",
+  "triggerRadius": 3,
+  "damageRadius": 3,
+  "damageType": "splash",
+  "targetType": "both",
+  "specialAbility": "Pulls in troops",
+  "levels": [
+    {
+      "level": 1,
+      "damage": 39,
+      "duration": 5,
+      "buildCost": 1800000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "townHallRequired": 11,
+      "images": { "normal": "images/home/traps/tornado-trap/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "damage": 47,
+      "duration": 6,
+      "buildCost": 2000000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "townHallRequired": 11,
+      "images": { "normal": "images/home/traps/tornado-trap/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "damage": 55,
+      "duration": 7,
+      "buildCost": 2500000,
+      "buildCostResource": "Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "townHallRequired": 12,
+      "images": { "normal": "images/home/traps/tornado-trap/normal/level-3.png" }
+    }
+  ],
+  "availablePerTownHall": [
+    { "townHallLevel": 1, "count": 0 },
+    { "townHallLevel": 2, "count": 0 },
+    { "townHallLevel": 3, "count": 0 },
+    { "townHallLevel": 4, "count": 0 },
+    { "townHallLevel": 5, "count": 0 },
+    { "townHallLevel": 6, "count": 0 },
+    { "townHallLevel": 7, "count": 0 },
+    { "townHallLevel": 8, "count": 0 },
+    { "townHallLevel": 9, "count": 0 },
+    { "townHallLevel": 10, "count": 0 },
+    { "townHallLevel": 11, "count": 1 },
+    { "townHallLevel": 12, "count": 1 },
+    { "townHallLevel": 13, "count": 1 },
+    { "townHallLevel": 14, "count": 1 },
+    { "townHallLevel": 15, "count": 1 },
+    { "townHallLevel": 16, "count": 1 },
+    { "townHallLevel": 17, "count": 1 },
+    { "townHallLevel": 18, "count": 1 }
+  ]
+}

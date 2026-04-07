@@ -7,6 +7,7 @@ export interface TrapLevel {
   damageRadius?: number; // per-level override (Giant Bomb)
   spawnedUnits?: number; // Skeleton Trap: number of skeletons spawned
   skeletonLevel?: number; // Skeleton Trap: level of each spawned skeleton
+  duration?: number; // Tornado Trap: active duration in seconds
   buildCost: number;
   buildCostResource: ResourceType;
   buildTime: BuildTime;

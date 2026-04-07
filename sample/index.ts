@@ -40,6 +40,7 @@ import './smasher';
 import './spell-tower';
 import './spring-trap';
 import './super-wizard-tower';
+import './tornado-trap';
 import './wall';
 import './wizard-tower';
 import './x-bow';
