@@ -1,6 +1,7 @@
 {
   "id": "flame-spinner",
   "name": "Flame Spinner",
+  "description": "Fear the relentless rotating of a repurposed cooking oven! Without ever getting dizzy, the Flame Spinner creates an endless whirlwind of Fire that damages nearby ground and air enemies.",
   "base": "home",
   "category": "crafted-defense",
   "size": "3x3",

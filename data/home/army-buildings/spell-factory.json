@@ -1,6 +1,7 @@
 {
   "id": "spell-factory",
   "name": "Spell Factory",
+  "description": "The Spell Factory is home to veteran Wizards who are better suited to creating magical weapons than front-line combat. Use their powerful Attack Spells to turn the tide of a battle in your favor!",
   "base": "home",
   "category": "army",
   "size": "3x3",

@@ -1,6 +1,7 @@
 {
   "id": "lava-launcher",
   "name": "Lava Launcher",
+  "description": "A hot delivery From Builder Base. Lava Launcher spits straight fire at a single target from afar! Its piping-hot projectiles play a dangerous game of The Floor is Lava where ground troops always lose.",
   "base": "home",
   "category": "crafted-defense",
   "size": "4x4",

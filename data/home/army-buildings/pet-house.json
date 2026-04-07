@@ -1,6 +1,7 @@
 {
   "id": "pet-house",
   "name": "Pet House",
+  "description": "Every hero deserves a loyal companion. The Pet House allows you to unlock powerful Pets with various abilities to fight alongside your heroes.",
   "base": "home",
   "category": "army",
   "size": "3x3",

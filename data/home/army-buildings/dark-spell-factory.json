@@ -1,6 +1,7 @@
 {
   "id": "dark-spell-factory",
   "name": "Dark Spell Factory",
+  "description": "Only the most brilliant or reckless Master Wizards dabble in Dark Elixir brewery. Their compact Dark Spells require keen insight to master, but provide unique tactical advantages.",
   "base": "home",
   "category": "army",
   "size": "3x3",

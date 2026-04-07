@@ -1,6 +1,7 @@
 {
   "id": "hero-bell",
   "name": "Hero Bell",
+  "description": "The tolling bell ignites the fighting spirit of defending Heroes, boosting their strength and health. When destroyed, Heroes go back to their regular awesome selves. Boo!",
   "base": "home",
   "category": "crafted-defense",
   "size": "3x3",

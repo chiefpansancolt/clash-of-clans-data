@@ -1,6 +1,7 @@
 {
   "id": "dark-barracks",
   "name": "Dark Barracks",
+  "description": "The Dark Barracks will open doors for creatures born out of Dark Elixir. Upgrade the barracks to unlock more troops with unique battle skills.",
   "base": "home",
   "category": "army",
   "size": "3x3",

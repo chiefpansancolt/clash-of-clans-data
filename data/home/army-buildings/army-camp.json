@@ -1,6 +1,7 @@
 {
   "id": "army-camp",
   "name": "Army Camp",
+  "description": "Your troops are stationed in Army Camps. Build more camps and upgrade them to muster a powerful army.",
   "base": "home",
   "category": "army",
   "size": "4x4",

@@ -1,6 +1,7 @@
 {
   "id": "laboratory",
   "name": "Laboratory",
+  "description": "What dark secrets do these Wizards hide inside their Laboratory? Nobody has dared to look. All we know is that their research makes our spells and troops harder, better, faster and stronger!",
   "base": "home",
   "category": "research",
   "size": "3x3",

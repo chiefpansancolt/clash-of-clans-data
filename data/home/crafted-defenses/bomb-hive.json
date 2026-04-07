@@ -1,6 +1,7 @@
 {
   "id": "bomb-hive",
   "name": "Bomb Hive",
+  "description": "Oh, those bombs of ours, they blow up so fast! Bombs leave the nest in straight lines, exploding when they hit a ground or air target.",
   "base": "home",
   "category": "crafted-defense",
   "size": "3x3",

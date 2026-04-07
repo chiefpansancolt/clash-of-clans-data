@@ -1,6 +1,7 @@
 {
   "id": "roaster",
   "name": "Roaster",
+  "description": "Boils up and blasts hot plasma on ground and air enemies. Give your skin a healthy glow by standing at a safe distance.",
   "base": "home",
   "category": "crafted-defense",
   "size": "3x3",

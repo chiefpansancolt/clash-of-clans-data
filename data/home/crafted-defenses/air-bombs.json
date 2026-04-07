@@ -1,6 +1,7 @@
 {
   "id": "air-bombs",
   "name": "Air Bombs",
+  "description": "Barrel after barrel, Air Bombs blast even the mightiest Flying enemies out of the sky. Your village airspace isn't safe with this Builder Base classic around!",
   "base": "home",
   "category": "crafted-defense",
   "size": "3x3",

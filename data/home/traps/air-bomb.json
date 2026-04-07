@@ -1,6 +1,7 @@
 {
   "id": "air-bomb",
   "name": "Air Bomb",
+  "description": "Latest invention in the field of flying pest control. This trap can blast multiple air units in a small area.",
   "base": "home",
   "category": "trap",
   "size": "1x1",

@@ -1,6 +1,7 @@
 {
   "id": "light-beam",
   "name": "Light Beam",
+  "description": "So bright, even squinting won't help! The Light Beam has very long range, but its luminosity fades with distance. Closer targets take more damage.",
   "base": "home",
   "category": "crafted-defense",
   "size": "3x3",

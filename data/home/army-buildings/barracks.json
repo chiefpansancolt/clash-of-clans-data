@@ -1,6 +1,7 @@
 {
   "id": "barracks",
   "name": "Barracks",
+  "description": "The Barracks allow you to train troops to attack your enemies. Upgrade the Barracks to unlock advanced units that can win epic battles.",
   "base": "home",
   "category": "army",
   "size": "3x3",

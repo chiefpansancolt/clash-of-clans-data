@@ -1,6 +1,7 @@
 {
   "id": "crusher-mortar",
   "name": "Crusher Mortar",
+  "description": "Bowlers from all around line up to get this thing's autograph! The Crusher Mortar's spiky boulders land with the grace of Golems, before bouncing around for extra collateral damage. Protective headwear is recommended!",
   "base": "home",
   "category": "crafted-defense",
   "size": "3x3",

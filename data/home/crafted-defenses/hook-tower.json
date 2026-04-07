@@ -1,6 +1,7 @@
 {
   "id": "hook-tower",
   "name": "Hook Tower",
+  "description": "The Master Builder won't mind that we borrowed rope from his boat, will he? The Hook Tower pulls in enemies from afar and stuns them. Sadly, Siege Machines are a bit too heavy!",
   "base": "home",
   "category": "crafted-defense",
   "size": "3x3",

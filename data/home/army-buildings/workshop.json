@@ -1,6 +1,7 @@
 {
   "id": "workshop",
   "name": "Workshop",
+  "description": "The Workshop is where Siege Machines are built. Upgrade the Workshop to unlock different Siege Machines!",
   "base": "home",
   "category": "army",
   "size": "4x4",
