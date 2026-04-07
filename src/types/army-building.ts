@@ -72,6 +72,29 @@ export interface HomeClanCastle extends Building<HomeClanCastleLevel> {
   availablePerTownHall: TownHallAvailability[];
 }
 
+export interface BlacksmithOreCapacity {
+  shinyOre: number;
+  glowyOre: number;
+  starryOre: number;
+}
+
+export interface BlacksmithMaxEquipmentLevel {
+  common: number;
+  epic: number;
+}
+
+export interface HomeBlacksmithBuildingLevel extends BuildingLevel {
+  equipmentUnlocked: string | string[] | null;
+  oreCapacity: BlacksmithOreCapacity;
+  maxEquipmentLevel: BlacksmithMaxEquipmentLevel;
+  townHallRequired: number;
+  images: { normal: string };
+}
+
+export interface HomeBlacksmithBuilding extends Building<HomeBlacksmithBuildingLevel> {
+  availablePerTownHall: TownHallAvailability[];
+}
+
 export interface HeroLevelCaps {
   barbarianKing?: number;
   archerQueen?: number;

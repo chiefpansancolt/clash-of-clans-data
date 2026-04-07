@@ -9,6 +9,7 @@ import './air-sweeper';
 import './archer-tower';
 import './army-camp';
 import './barracks';
+import './blacksmith';
 import './bomb';
 import './bomb-hive';
 import './bomb-tower';
