@@ -37,6 +37,22 @@ export interface HomeBarracksBuilding extends Building<HomeBarracksBuildingLevel
   availablePerTownHall: TownHallAvailability[];
 }
 
+export interface SpellFactoryBuildingLevel extends BuildingLevel {
+  unlockedSpell: string | string[];
+  spellStorageCapacity: number;
+  images: {
+    normal: string;
+  };
+}
+
+export interface HomeSpellFactoryBuildingLevel extends SpellFactoryBuildingLevel {
+  townHallRequired: number;
+}
+
+export interface HomeSpellFactoryBuilding extends Building<HomeSpellFactoryBuildingLevel> {
+  availablePerTownHall: TownHallAvailability[];
+}
+
 export interface ClanCastleLevel extends BuildingLevel {
   troopCapacity: number;
   spellCapacity: number;

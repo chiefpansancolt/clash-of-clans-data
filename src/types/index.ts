@@ -1,4 +1,5 @@
 export * from './army-building';
+export * from './research-building';
 export * from './town-hall';
 export * from './crafted-defense';
 export * from './guardian';

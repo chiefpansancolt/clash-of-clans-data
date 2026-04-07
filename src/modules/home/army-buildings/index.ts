@@ -1,9 +1,15 @@
 import { QueryBase } from '@/common/query-base';
-import { HomeArmyBuilding, HomeBarracksBuilding, HomeResearchBuilding } from '@/types';
+import {
+  HomeArmyBuilding,
+  HomeBarracksBuilding,
+  HomeResearchBuilding,
+  HomeSpellFactoryBuilding,
+} from '@/types';
 import { armyCampData } from './army-camp';
 import { barracksData } from './barracks';
 import { darkBarracksData } from './dark-barracks';
 import { laboratoryData } from './laboratory';
+import { spellFactoryData } from './spell-factory';
 
 const allArmyBuildings: HomeArmyBuilding[] = [armyCampData];
 
@@ -21,6 +27,12 @@ export class HomeVillageDarkBarracks extends QueryBase<HomeBarracksBuilding> {
 
 export class HomeVillageLaboratory extends QueryBase<HomeResearchBuilding> {
   constructor(data: HomeResearchBuilding[] = [laboratoryData]) {
+    super(data);
+  }
+}
+
+export class HomeVillageSpellFactory extends QueryBase<HomeSpellFactoryBuilding> {
+  constructor(data: HomeSpellFactoryBuilding[] = [spellFactoryData]) {
     super(data);
   }
 }
@@ -45,6 +57,10 @@ export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
 
   laboratory(): HomeVillageLaboratory {
     return new HomeVillageLaboratory([laboratoryData]);
+  }
+
+  spellFactory(): HomeVillageSpellFactory {
+    return new HomeVillageSpellFactory([spellFactoryData]);
   }
 
   // Category filters

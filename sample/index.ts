@@ -51,6 +51,7 @@ import './scattershot';
 import './seeking-air-mine';
 import './skeleton-trap';
 import './smasher';
+import './spell-factory';
 import './spell-tower';
 import './spring-trap';
 import './super-wizard-tower';
