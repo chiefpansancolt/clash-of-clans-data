@@ -3,11 +3,13 @@ import { HomeResourceBuilding } from '@/types';
 import { darkElixirDrillData } from './dark-elixir-drill';
 import { elixirCollectorData } from './elixir-collector';
 import { goldMineData } from './gold-mine';
+import { goldStorageData } from './gold-storage';
 
 const allResourceBuildings: HomeResourceBuilding[] = [
   goldMineData,
   elixirCollectorData,
   darkElixirDrillData,
+  goldStorageData,
 ];
 
 export class HomeVillageResourceBuildings extends QueryBase<HomeResourceBuilding> {
@@ -26,6 +28,10 @@ export class HomeVillageResourceBuildings extends QueryBase<HomeResourceBuilding
 
   darkElixirDrill(): HomeVillageResourceBuildings {
     return new HomeVillageResourceBuildings([darkElixirDrillData]);
+  }
+
+  goldStorage(): HomeVillageResourceBuildings {
+    return new HomeVillageResourceBuildings([goldStorageData]);
   }
 
   // Category filters

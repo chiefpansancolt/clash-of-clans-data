@@ -3,7 +3,7 @@ import { TownHallAvailability } from './common';
 
 export interface ResourceBuildingLevel extends BuildingLevel {
   capacity: number;
-  productionRate: number;
+  productionRate?: number;
   images: {
     normal: string;
   };

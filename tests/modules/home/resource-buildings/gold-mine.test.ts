@@ -210,8 +210,8 @@ describe('goldMine() integration with resourceBuildings()', () => {
     expect(home().resourceBuildings().goldMine()).toBeInstanceOf(HomeVillageResourceBuildings);
   });
 
-  it('resourceBuildings() total count is 3', () => {
-    expect(home().resourceBuildings().count()).toBe(3);
+  it('resourceBuildings() total count is 4', () => {
+    expect(home().resourceBuildings().count()).toBe(4);
   });
 
   testFilterImmutability(
