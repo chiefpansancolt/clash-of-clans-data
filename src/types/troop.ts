@@ -48,6 +48,7 @@ export interface HomeSuperTroop {
   boostDuration: BuildTime;
   regularLevelRequired: number;
   specialAbility?: string;
+  images: { icon: string };
   levels: HomeSuperTroopLevel[];
 }
 
@@ -65,6 +66,7 @@ export interface HomeTroop {
   damageType: 'single' | 'splash' | 'area';
   targetType: 'ground' | 'air' | 'both';
   barrackLevelRequired: number;
+  images: { icon: string };
   levels: HomeTroopLevel[];
   superTroop?: HomeSuperTroop;
 }

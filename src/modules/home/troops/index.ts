@@ -1,8 +1,9 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeTroop } from '@/types';
+import { archerData } from './archer';
 import { barbarianData } from './barbarian';
 
-const allTroops: HomeTroop[] = [barbarianData];
+const allTroops: HomeTroop[] = [barbarianData, archerData];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
   constructor(data: HomeTroop[] = allTroops) {
@@ -12,6 +13,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
   // Per-troop accessors
   barbarian(): HomeVillageTroops {
     return new HomeVillageTroops([barbarianData]);
+  }
+
+  archer(): HomeVillageTroops {
+    return new HomeVillageTroops([archerData]);
   }
 
   // Category filters
