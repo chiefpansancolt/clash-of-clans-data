@@ -32,6 +32,7 @@ import './gold-mine';
 import './gold-storage';
 import './hero-banner';
 import './hero-bell';
+import './hero-hall';
 import './hidden-tesla';
 import './home-defenses';
 import './home-resources';

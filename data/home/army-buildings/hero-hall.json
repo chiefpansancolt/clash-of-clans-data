@@ -1,0 +1,272 @@
+{
+  "id": "hero-hall",
+  "name": "Hero Hall",
+  "description": "This fancy Hall honors your Village's mightiest warriors! Visit the Hero Hall for all your heroic essentials, and to upgrade Heroes. Upgrade the Hero Hall to unlock more Heroes!",
+  "base": "home",
+  "category": "army",
+  "size": "4x4",
+  "levels": [
+    {
+      "level": 1,
+      "unlockedHero": "Barbarian King",
+      "heroSlots": 1,
+      "heroLevelCaps": { "barbarianKing": 10 },
+      "hitpoints": 2000,
+      "buildCost": 800000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "townHallRequired": 7,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-1.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "unlockedHero": "Archer Queen",
+      "heroSlots": 1,
+      "heroLevelCaps": { "barbarianKing": 20, "archerQueen": 10 },
+      "hitpoints": 2400,
+      "buildCost": 1600000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "townHallRequired": 8,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-2.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "unlockedHero": "Minion Prince",
+      "heroSlots": 2,
+      "heroLevelCaps": { "barbarianKing": 30, "archerQueen": 30, "minionPrince": 10 },
+      "hitpoints": 2800,
+      "buildCost": 2300000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "townHallRequired": 9,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-3.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "unlockedHero": null,
+      "heroSlots": 2,
+      "heroLevelCaps": { "barbarianKing": 40, "archerQueen": 40, "minionPrince": 20 },
+      "hitpoints": 3200,
+      "buildCost": 2500000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "townHallRequired": 10,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-4.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "unlockedHero": "Grand Warden",
+      "heroSlots": 3,
+      "heroLevelCaps": {
+        "barbarianKing": 50,
+        "archerQueen": 50,
+        "minionPrince": 30,
+        "grandWarden": 20
+      },
+      "hitpoints": 3600,
+      "buildCost": 4500000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 623,
+      "townHallRequired": 11,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-5.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-5.png"
+      }
+    },
+    {
+      "level": 6,
+      "unlockedHero": null,
+      "heroSlots": 3,
+      "heroLevelCaps": {
+        "barbarianKing": 65,
+        "archerQueen": 65,
+        "minionPrince": 40,
+        "grandWarden": 40
+      },
+      "hitpoints": 3800,
+      "buildCost": 5500000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "townHallRequired": 12,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-6.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-6.png"
+      }
+    },
+    {
+      "level": 7,
+      "unlockedHero": "Royal Champion",
+      "heroSlots": 4,
+      "heroLevelCaps": {
+        "barbarianKing": 75,
+        "archerQueen": 75,
+        "minionPrince": 50,
+        "grandWarden": 50,
+        "royalChampion": 25
+      },
+      "hitpoints": 4200,
+      "buildCost": 8500000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 13,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-7.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-7.png"
+      }
+    },
+    {
+      "level": 8,
+      "unlockedHero": null,
+      "heroSlots": 4,
+      "heroLevelCaps": {
+        "barbarianKing": 85,
+        "archerQueen": 85,
+        "minionPrince": 60,
+        "grandWarden": 60,
+        "royalChampion": 30
+      },
+      "hitpoints": 4600,
+      "buildCost": 9500000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 749,
+      "townHallRequired": 14,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-8.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-8.png"
+      }
+    },
+    {
+      "level": 9,
+      "unlockedHero": "Dragon Duke",
+      "heroSlots": 4,
+      "heroLevelCaps": {
+        "barbarianKing": 90,
+        "archerQueen": 90,
+        "minionPrince": 70,
+        "grandWarden": 65,
+        "royalChampion": 40,
+        "dragonDuke": 10
+      },
+      "hitpoints": 5000,
+      "buildCost": 11000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 15,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-9.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-9.png"
+      }
+    },
+    {
+      "level": 10,
+      "unlockedHero": null,
+      "heroSlots": 4,
+      "heroLevelCaps": {
+        "barbarianKing": 95,
+        "archerQueen": 95,
+        "minionPrince": 80,
+        "grandWarden": 70,
+        "royalChampion": 45,
+        "dragonDuke": 15
+      },
+      "hitpoints": 5400,
+      "buildCost": 13000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "townHallRequired": 16,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-10.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-10.png"
+      }
+    },
+    {
+      "level": 11,
+      "unlockedHero": null,
+      "heroSlots": 4,
+      "heroLevelCaps": {
+        "barbarianKing": 100,
+        "archerQueen": 100,
+        "minionPrince": 90,
+        "grandWarden": 75,
+        "royalChampion": 50,
+        "dragonDuke": 20
+      },
+      "hitpoints": 5800,
+      "buildCost": 17000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 905,
+      "townHallRequired": 17,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-11.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-11.png"
+      }
+    },
+    {
+      "level": 12,
+      "unlockedHero": null,
+      "heroSlots": 4,
+      "heroLevelCaps": {
+        "barbarianKing": 105,
+        "archerQueen": 105,
+        "minionPrince": 95,
+        "grandWarden": 80,
+        "royalChampion": 55,
+        "dragonDuke": 25
+      },
+      "hitpoints": 6000,
+      "buildCost": 26000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 13, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 1080,
+      "townHallRequired": 18,
+      "images": {
+        "normal": "images/home/army-buildings/hero-hall/normal/level-12.png",
+        "active": "images/home/army-buildings/hero-hall/active/level-12.png"
+      }
+    }
+  ],
+  "availablePerTownHall": [
+    { "townHallLevel": 1, "count": 0 },
+    { "townHallLevel": 2, "count": 0 },
+    { "townHallLevel": 3, "count": 0 },
+    { "townHallLevel": 4, "count": 0 },
+    { "townHallLevel": 5, "count": 0 },
+    { "townHallLevel": 6, "count": 0 },
+    { "townHallLevel": 7, "count": 1 },
+    { "townHallLevel": 8, "count": 1 },
+    { "townHallLevel": 9, "count": 1 },
+    { "townHallLevel": 10, "count": 1 },
+    { "townHallLevel": 11, "count": 1 },
+    { "townHallLevel": 12, "count": 1 },
+    { "townHallLevel": 13, "count": 1 },
+    { "townHallLevel": 14, "count": 1 },
+    { "townHallLevel": 15, "count": 1 },
+    { "townHallLevel": 16, "count": 1 },
+    { "townHallLevel": 17, "count": 1 },
+    { "townHallLevel": 18, "count": 1 }
+  ]
+}

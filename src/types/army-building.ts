@@ -72,6 +72,30 @@ export interface HomeClanCastle extends Building<HomeClanCastleLevel> {
   availablePerTownHall: TownHallAvailability[];
 }
 
+export interface HeroLevelCaps {
+  barbarianKing?: number;
+  archerQueen?: number;
+  minionPrince?: number;
+  grandWarden?: number;
+  royalChampion?: number;
+  dragonDuke?: number;
+}
+
+export interface HomeHeroHallBuildingLevel extends BuildingLevel {
+  unlockedHero: string | null;
+  heroSlots: number;
+  heroLevelCaps: HeroLevelCaps;
+  townHallRequired: number;
+  images: {
+    normal: string;
+    active: string;
+  };
+}
+
+export interface HomeHeroHallBuilding extends Building<HomeHeroHallBuildingLevel> {
+  availablePerTownHall: TownHallAvailability[];
+}
+
 export interface HeroBannerImages {
   empty: string;
   barbarianKing: string;
