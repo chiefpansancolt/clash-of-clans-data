@@ -9,7 +9,7 @@ import { HomeVillageWalls } from './walls';
 export { HomeVillageCraftedDefenses } from './crafted-defenses';
 export { HomeVillageDefenses } from './defenses';
 export { HomeVillageGuardians } from './guardians';
-export { HomeVillageResourceBuildings } from './resource-buildings';
+export { HomeVillageClanCastle, HomeVillageResourceBuildings } from './resource-buildings';
 export { HomeVillageTownHall } from './town-hall';
 export { HomeVillageTraps } from './traps';
 export { HomeVillageWalls } from './walls';

@@ -1,11 +1,18 @@
 import { QueryBase } from '@/common/query-base';
-import { HomeResourceBuilding } from '@/types';
+import { HomeClanCastle, HomeResourceBuilding } from '@/types';
+import { clanCastleData } from './clan-castle';
 import { darkElixirDrillData } from './dark-elixir-drill';
 import { darkElixirStorageData } from './dark-elixir-storage';
 import { elixirCollectorData } from './elixir-collector';
 import { elixirStorageData } from './elixir-storage';
 import { goldMineData } from './gold-mine';
 import { goldStorageData } from './gold-storage';
+
+export class HomeVillageClanCastle extends QueryBase<HomeClanCastle> {
+  constructor(data: HomeClanCastle[] = [clanCastleData]) {
+    super(data);
+  }
+}
 
 const allResourceBuildings: HomeResourceBuilding[] = [
   goldMineData,
@@ -44,6 +51,10 @@ export class HomeVillageResourceBuildings extends QueryBase<HomeResourceBuilding
 
   darkElixirStorage(): HomeVillageResourceBuildings {
     return new HomeVillageResourceBuildings([darkElixirStorageData]);
+  }
+
+  clanCastle(): HomeVillageClanCastle {
+    return new HomeVillageClanCastle([clanCastleData]);
   }
 
   // Category filters

@@ -1,0 +1,255 @@
+{
+  "id": "clan-castle",
+  "name": "Clan Castle",
+  "description": "The Clan Castle houses your Treasury and any reinforcement troops or spells sent by your clanmates.",
+  "base": "home",
+  "category": "resource",
+  "size": "3x3",
+  "triggerRadius": 13,
+  "availablePerTownHall": [
+    { "townHallLevel": 1, "count": 1 },
+    { "townHallLevel": 2, "count": 1 },
+    { "townHallLevel": 3, "count": 1 },
+    { "townHallLevel": 4, "count": 1 },
+    { "townHallLevel": 5, "count": 1 },
+    { "townHallLevel": 6, "count": 1 },
+    { "townHallLevel": 7, "count": 1 },
+    { "townHallLevel": 8, "count": 1 },
+    { "townHallLevel": 9, "count": 1 },
+    { "townHallLevel": 10, "count": 1 },
+    { "townHallLevel": 11, "count": 1 },
+    { "townHallLevel": 12, "count": 1 },
+    { "townHallLevel": 13, "count": 1 },
+    { "townHallLevel": 14, "count": 1 },
+    { "townHallLevel": 15, "count": 1 },
+    { "townHallLevel": 16, "count": 1 },
+    { "townHallLevel": 17, "count": 1 },
+    { "townHallLevel": 18, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 600,
+      "troopCapacity": 10,
+      "spellCapacity": 0,
+      "siegeMachineCapacity": 0,
+      "labLevelCap": 5,
+      "buildCost": 10000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "townHallRequired": 3,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1200,
+      "troopCapacity": 15,
+      "spellCapacity": 0,
+      "siegeMachineCapacity": 0,
+      "labLevelCap": 6,
+      "buildCost": 50000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "xpGained": 84,
+      "townHallRequired": 4,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1800,
+      "troopCapacity": 20,
+      "spellCapacity": 0,
+      "siegeMachineCapacity": 0,
+      "labLevelCap": 7,
+      "buildCost": 600000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 207,
+      "townHallRequired": 6,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2600,
+      "troopCapacity": 25,
+      "spellCapacity": 1,
+      "siegeMachineCapacity": 0,
+      "labLevelCap": 8,
+      "buildCost": 1200000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "townHallRequired": 8,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 3000,
+      "troopCapacity": 30,
+      "spellCapacity": 1,
+      "siegeMachineCapacity": 0,
+      "labLevelCap": 9,
+      "buildCost": 2000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 360,
+      "townHallRequired": 9,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-5.png"
+      }
+    },
+    {
+      "level": 6,
+      "hitpoints": 3400,
+      "troopCapacity": 35,
+      "spellCapacity": 1,
+      "siegeMachineCapacity": 1,
+      "labLevelCap": 10,
+      "buildCost": 3000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "townHallRequired": 10,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-6.png"
+      }
+    },
+    {
+      "level": 7,
+      "hitpoints": 4000,
+      "troopCapacity": 35,
+      "spellCapacity": 2,
+      "siegeMachineCapacity": 1,
+      "labLevelCap": 11,
+      "buildCost": 5000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "townHallRequired": 11,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-7.png"
+      }
+    },
+    {
+      "level": 8,
+      "hitpoints": 4400,
+      "troopCapacity": 40,
+      "spellCapacity": 2,
+      "siegeMachineCapacity": 1,
+      "labLevelCap": 12,
+      "buildCost": 5000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "townHallRequired": 12,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-8.png"
+      }
+    },
+    {
+      "level": 9,
+      "hitpoints": 4800,
+      "troopCapacity": 45,
+      "spellCapacity": 2,
+      "siegeMachineCapacity": 1,
+      "labLevelCap": 13,
+      "buildCost": 8000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "townHallRequired": 13,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-9.png"
+      }
+    },
+    {
+      "level": 10,
+      "hitpoints": 5200,
+      "troopCapacity": 45,
+      "spellCapacity": 3,
+      "siegeMachineCapacity": 1,
+      "labLevelCap": 14,
+      "buildCost": 10000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "townHallRequired": 14,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-10.png"
+      }
+    },
+    {
+      "level": 11,
+      "hitpoints": 5400,
+      "troopCapacity": 50,
+      "spellCapacity": 3,
+      "siegeMachineCapacity": 1,
+      "labLevelCap": 15,
+      "buildCost": 12000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "townHallRequired": 15,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-11.png"
+      }
+    },
+    {
+      "level": 12,
+      "hitpoints": 5600,
+      "troopCapacity": 50,
+      "spellCapacity": 3,
+      "siegeMachineCapacity": 2,
+      "labLevelCap": 16,
+      "buildCost": 14500000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 881,
+      "townHallRequired": 16,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-12.png"
+      }
+    },
+    {
+      "level": 13,
+      "hitpoints": 5800,
+      "troopCapacity": 55,
+      "spellCapacity": 3,
+      "siegeMachineCapacity": 2,
+      "labLevelCap": 16,
+      "buildCost": 19000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 974,
+      "townHallRequired": 17,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-13.png"
+      }
+    },
+    {
+      "level": 14,
+      "hitpoints": 6000,
+      "troopCapacity": 55,
+      "spellCapacity": 4,
+      "siegeMachineCapacity": 2,
+      "labLevelCap": 16,
+      "buildCost": 28000000,
+      "buildCostResource": "Elixir",
+      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1099,
+      "townHallRequired": 18,
+      "images": {
+        "normal": "images/home/resource-buildings/clan-castle/normal/level-14.png"
+      }
+    }
+  ]
+}
