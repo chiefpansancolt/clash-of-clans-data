@@ -34,6 +34,7 @@ import './roaster';
 import './scattershot';
 import './smasher';
 import './spell-tower';
+import './spring-trap';
 import './super-wizard-tower';
 import './wall';
 import './wizard-tower';
