@@ -7,6 +7,7 @@ export interface HomeTroopLevelStats {
   dps: number;
   damagePerShot: number;
   deathDamage?: number;
+  chainDamagePerShot?: number;
 }
 
 export interface HomeTroopLevel {

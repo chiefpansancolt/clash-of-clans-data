@@ -164,23 +164,23 @@ describe('troops()', () => {
     expect(home().troops()).toBeInstanceOf(HomeVillageTroops);
   });
 
-  it('has 6 troops total', () => {
-    expect(home().troops().count()).toBe(6);
+  it('has 7 troops total', () => {
+    expect(home().troops().count()).toBe(7);
   });
 
-  it('byType("regular") returns 6 troops', () => {
-    expect(home().troops().byType('regular').count()).toBe(6);
+  it('byType("regular") returns 7 troops', () => {
+    expect(home().troops().byType('regular').count()).toBe(7);
   });
 
   it('byType("dark") returns 0 troops', () => {
     expect(home().troops().byType('dark').count()).toBe(0);
   });
 
-  it('withSuperTroop() returns 6 troops', () => {
-    expect(home().troops().withSuperTroop().count()).toBe(6);
+  it('withSuperTroop() returns 7 troops', () => {
+    expect(home().troops().withSuperTroop().count()).toBe(7);
   });
 
-  it('byTownHall(1) returns 5 troops (Barbarian, Archer, Giant, Goblin, and Wall Breaker level 1 are TH1; Balloon starts at TH1 too)', () => {
-    expect(home().troops().byTownHall(1).count()).toBe(6);
+  it('byTownHall(1) returns 6 troops (Barbarian, Archer, Giant, Goblin, Wall Breaker, Balloon all TH1; Wizard L1 is also TH1)', () => {
+    expect(home().troops().byTownHall(1).count()).toBe(7);
   });
 });
