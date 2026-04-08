@@ -1,0 +1,216 @@
+{
+  "id": "golem",
+  "name": "Golem",
+  "description": "The mighty Golem loves to soak up damage! When destroyed, it explodes and splits into Golemites. The resulting Golemites have one-fifth the Golem's strength and hitpoints.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "dark",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 30,
+  "movementSpeed": 12,
+  "attackSpeed": 2.4,
+  "range": 1,
+  "barrackLevelRequired": 4,
+  "images": {
+    "icon": "images/home/troops/golem/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 5100,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 2,
+      "stats": {
+        "normal": { "dps": 35, "damagePerShot": 84, "deathDamage": 350 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 5400,
+      "townHallRequired": 8,
+      "laboratoryRequired": 6,
+      "researchCost": 4000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 2,
+      "stats": {
+        "normal": { "dps": 40, "damagePerShot": 96, "deathDamage": 400 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 5700,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 6000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 2,
+      "stats": {
+        "normal": { "dps": 45, "damagePerShot": 108, "deathDamage": 450 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 6000,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 10000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 2,
+      "stats": {
+        "normal": { "dps": 50, "damagePerShot": 120, "deathDamage": 500 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-3.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 6300,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 18500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 2,
+      "stats": {
+        "normal": { "dps": 55, "damagePerShot": 132, "deathDamage": 550 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 6600,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 26500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 2,
+      "stats": {
+        "normal": { "dps": 60, "damagePerShot": 144, "deathDamage": 600 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 7000,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 38500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 18, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 2,
+      "stats": {
+        "normal": { "dps": 65, "damagePerShot": 156, "deathDamage": 650 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 7500,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 50000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 3,
+      "stats": {
+        "normal": { "dps": 70, "damagePerShot": 168, "deathDamage": 700 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 7900,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 62500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 3,
+      "stats": {
+        "normal": { "dps": 75, "damagePerShot": 180, "deathDamage": 750 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 8200,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 80000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 3,
+      "stats": {
+        "normal": { "dps": 80, "damagePerShot": 192, "deathDamage": 800 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "hitpoints": 8500,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 105000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 3,
+      "stats": {
+        "normal": { "dps": 85, "damagePerShot": 204, "deathDamage": 850 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "hitpoints": 8800,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 122500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 3,
+      "stats": {
+        "normal": { "dps": 90, "damagePerShot": 216, "deathDamage": 900 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-12.png" }
+    },
+    {
+      "level": 13,
+      "hitpoints": 9200,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 175000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 6, "hours": 10, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 4,
+      "stats": {
+        "normal": { "dps": 95, "damagePerShot": 228, "deathDamage": 950 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-13.png" }
+    },
+    {
+      "level": 14,
+      "hitpoints": 9600,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 230000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "golemitesSpawned": 4,
+      "stats": {
+        "normal": { "dps": 100, "damagePerShot": 240, "deathDamage": 1000 }
+      },
+      "images": { "normal": "images/home/troops/golem/normal/level-14.png" }
+    }
+  ]
+}

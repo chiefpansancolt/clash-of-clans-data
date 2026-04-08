@@ -88,6 +88,7 @@ import './home/troops/electro-dragon';
 import './home/troops/electro-titan';
 import './home/troops/giant';
 import './home/troops/goblin';
+import './home/troops/golem';
 import './home/troops/healer';
 import './home/troops/hog-rider';
 import './home/troops/meteor-golem';

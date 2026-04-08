@@ -10,6 +10,7 @@ import { electroDragonData } from './electro-dragon';
 import { electroTitanData } from './electro-titan';
 import { giantData } from './giant';
 import { goblinData } from './goblin';
+import { golemData } from './golem';
 import { healerData } from './healer';
 import { hogRiderData } from './hog-rider';
 import { meteorGolemData } from './meteor-golem';
@@ -28,6 +29,7 @@ const allTroops: HomeTroop[] = [
   archerData,
   giantData,
   goblinData,
+  golemData,
   wallBreakerData,
   balloonData,
   wizardData,
@@ -68,6 +70,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   goblin(): HomeVillageTroops {
     return new HomeVillageTroops([goblinData]);
+  }
+
+  golem(): HomeVillageTroops {
+    return new HomeVillageTroops([golemData]);
   }
 
   wallBreaker(): HomeVillageTroops {

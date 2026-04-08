@@ -22,6 +22,7 @@ export interface HomeTroopLevel {
   researchCost: number;
   researchCostResource: ResourceType;
   researchTime: BuildTime;
+  golemitesSpawned?: number;
   stats: {
     normal: HomeTroopLevelStats;
     enraged?: HomeTroopLevelStats;
