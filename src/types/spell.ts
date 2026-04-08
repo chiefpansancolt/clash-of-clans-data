@@ -8,6 +8,7 @@ export interface HomeSpellLevel {
   totalHealingOnHeroes?: number;
   damageIncrease?: number;
   speedIncrease?: number;
+  spellDuration?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;

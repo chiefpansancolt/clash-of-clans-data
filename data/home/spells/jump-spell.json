@@ -1,0 +1,60 @@
+{
+  "id": "jump-spell",
+  "name": "Jump Spell",
+  "description": "Walls slowing you down? Try making a shortcut! Cast this spell near enemy walls to create a route straight over them. Your troops will jump over affected walls pieces as if they weren't even there!",
+  "base": "home",
+  "category": "spell",
+  "spellType": "regular",
+  "radius": 3.5,
+  "housingSpace": 2,
+  "spellFactoryLevelRequired": 4,
+  "boostTime": 1,
+  "images": { "icon": "images/home/spells/jump-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "spellDuration": 20,
+      "laboratoryRequired": 0,
+      "townHallRequired": 8,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "spellDuration": 40,
+      "laboratoryRequired": 5,
+      "townHallRequired": 8,
+      "researchCost": 1000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "spellDuration": 60,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 2000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "spellDuration": 80,
+      "laboratoryRequired": 11,
+      "townHallRequired": 13,
+      "researchCost": 5000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "spellDuration": 100,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 8000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}
