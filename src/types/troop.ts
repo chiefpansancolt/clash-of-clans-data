@@ -33,6 +33,7 @@ export interface HomeTroopLevel {
 export interface HomeSuperTroopLevel {
   level: number;
   hitpoints: number;
+  townHallRequired?: number;
   stats: {
     normal: HomeTroopLevelStats;
   };
@@ -48,6 +49,8 @@ export interface HomeSuperTroop {
   housingSpace: number;
   movementSpeed: number;
   attackSpeed: number;
+  shotsPerBurst?: number;
+  timeBetweenBursts?: number;
   range: number;
   boostCost: number;
   boostCostResource: 'Dark Elixir';

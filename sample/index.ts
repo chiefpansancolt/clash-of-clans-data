@@ -81,6 +81,7 @@ import './home/troops';
 import './home/troops/archer';
 import './home/troops/balloon';
 import './home/troops/barbarian';
+import './home/troops/dragon';
 import './home/troops/giant';
 import './home/troops/goblin';
 import './home/troops/healer';

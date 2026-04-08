@@ -1,0 +1,241 @@
+{
+  "id": "dragon",
+  "name": "Dragon",
+  "description": "The might of the dragons is known throughout the land. This scaly terror of the skies feels no mercy and nothing will escape the fiery splashes of his breath.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "housingSpace": 20,
+  "movementSpeed": 16,
+  "range": 3,
+  "attackSpeed": 1.25,
+  "damageType": "splash",
+  "targetType": "both",
+  "barrackLevelRequired": 9,
+  "images": {
+    "icon": "images/home/troops/dragon/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1900,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 140, "damagePerShot": 175 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 2100,
+      "townHallRequired": 7,
+      "laboratoryRequired": 5,
+      "researchCost": 1000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 160, "damagePerShot": 200 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2300,
+      "townHallRequired": 8,
+      "laboratoryRequired": 6,
+      "researchCost": 2000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 180, "damagePerShot": 225 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2700,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 3000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 210, "damagePerShot": 262.5 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 3100,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 3800000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 240, "damagePerShot": 300 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 3400,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 4900000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 270, "damagePerShot": 337.5 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 3900,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 5000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 310, "damagePerShot": 387.5 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 4200,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 7500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 330, "damagePerShot": 412.5 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 4500,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 10500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 350, "damagePerShot": 437.5 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 4900,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 12000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 370, "damagePerShot": 462.5 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "hitpoints": 5300,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 14000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 390, "damagePerShot": 487.5 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "hitpoints": 5700,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 18500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": { "normal": { "dps": 410, "damagePerShot": 512.5 } },
+      "images": { "normal": "images/home/troops/dragon/normal/level-12.png" }
+    }
+  ],
+  "superTroop": {
+    "id": "super-dragon",
+    "name": "Super Dragon",
+    "description": "Sometimes having a fire inside of you isn't enough. The Super Dragon has fires on the inside, outside, and if he gets to do his thing, all around him!",
+    "housingSpace": 40,
+    "movementSpeed": 14,
+    "attackSpeed": 0.192,
+    "shotsPerBurst": 10,
+    "timeBetweenBursts": 1.8,
+    "range": 3,
+    "boostCost": 25000,
+    "boostCostResource": "Dark Elixir",
+    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "regularLevelRequired": 7,
+    "specialAbility": "Roast",
+    "images": { "icon": "images/home/troops/dragon/super-icon.png" },
+    "levels": [
+      {
+        "level": 3,
+        "hitpoints": 3900,
+        "townHallRequired": 8,
+        "stats": { "normal": { "dps": 286, "damagePerShot": 108 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      },
+      {
+        "level": 4,
+        "hitpoints": 4500,
+        "townHallRequired": 9,
+        "stats": { "normal": { "dps": 309, "damagePerShot": 117 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      },
+      {
+        "level": 5,
+        "hitpoints": 5100,
+        "townHallRequired": 10,
+        "stats": { "normal": { "dps": 333, "damagePerShot": 126 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      },
+      {
+        "level": 6,
+        "hitpoints": 5600,
+        "townHallRequired": 11,
+        "stats": { "normal": { "dps": 357, "damagePerShot": 135 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      },
+      {
+        "level": 7,
+        "hitpoints": 6100,
+        "townHallRequired": 12,
+        "stats": { "normal": { "dps": 381, "damagePerShot": 144 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      },
+      {
+        "level": 8,
+        "hitpoints": 6400,
+        "townHallRequired": 13,
+        "stats": { "normal": { "dps": 405, "damagePerShot": 153 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      },
+      {
+        "level": 9,
+        "hitpoints": 6700,
+        "townHallRequired": 14,
+        "stats": { "normal": { "dps": 429, "damagePerShot": 162 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      },
+      {
+        "level": 10,
+        "hitpoints": 7200,
+        "townHallRequired": 15,
+        "stats": { "normal": { "dps": 452, "damagePerShot": 171 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      },
+      {
+        "level": 11,
+        "hitpoints": 7600,
+        "townHallRequired": 16,
+        "stats": { "normal": { "dps": 471, "damagePerShot": 178.2 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      },
+      {
+        "level": 12,
+        "hitpoints": 8000,
+        "townHallRequired": 17,
+        "stats": { "normal": { "dps": 490, "damagePerShot": 185.4 } },
+        "images": { "normal": "images/home/troops/dragon/super/level-3.png" }
+      }
+    ]
+  }
+}
