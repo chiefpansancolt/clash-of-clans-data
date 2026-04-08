@@ -26,6 +26,7 @@ export interface HomeTroopLevel {
     normal: HomeTroopLevelStats;
     enraged?: HomeTroopLevelStats;
     aura?: HomeTroopLevelStats;
+    wall?: HomeTroopLevelStats;
   };
   images: {
     normal: string;
@@ -81,6 +82,7 @@ export interface HomeTroop {
   barrackLevelRequired: number;
   auraAttackSpeed?: number;
   auraRange?: number;
+  wallAttackSpeed?: number;
   specialAbility?: string;
   images: { icon: string };
   levels: HomeTroopLevel[];

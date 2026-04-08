@@ -13,6 +13,7 @@ import { goblinData } from './goblin';
 import { healerData } from './healer';
 import { minerData } from './miner';
 import { pekkaData } from './pekka';
+import { rootRiderData } from './root-rider';
 import { wallBreakerData } from './wall-breaker';
 import { wizardData } from './wizard';
 import { yetiData } from './yeti';
@@ -34,6 +35,7 @@ const allTroops: HomeTroop[] = [
   yetiData,
   dragonRiderData,
   electroTitanData,
+  rootRiderData,
 ];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
@@ -104,6 +106,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   electroTitan(): HomeVillageTroops {
     return new HomeVillageTroops([electroTitanData]);
+  }
+
+  rootRider(): HomeVillageTroops {
+    return new HomeVillageTroops([rootRiderData]);
   }
 
   // Category filters

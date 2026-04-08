@@ -1,0 +1,63 @@
+{
+  "id": "root-rider",
+  "name": "Root Rider",
+  "description": "This earth warrior is so in tune with nature she doesn't need to walk herself. Riding into battle atop a tough tree root, Root Rider can smash through Walls and slam Defenses into dust.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 20,
+  "movementSpeed": 12,
+  "attackSpeed": 2.2,
+  "range": 1,
+  "wallAttackSpeed": 0.4,
+  "barrackLevelRequired": 17,
+  "images": {
+    "icon": "images/home/troops/root-rider/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 6200,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 95, "damagePerShot": 209 },
+        "wall": { "dps": 10000, "damagePerShot": 4000 }
+      },
+      "images": { "normal": "images/home/troops/root-rider/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 6350,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 15000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 105, "damagePerShot": 231 },
+        "wall": { "dps": 10000, "damagePerShot": 4000 }
+      },
+      "images": { "normal": "images/home/troops/root-rider/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 6500,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 17600000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 115, "damagePerShot": 253 },
+        "wall": { "dps": 10000, "damagePerShot": 4000 }
+      },
+      "images": { "normal": "images/home/troops/root-rider/normal/level-3.png" }
+    }
+  ]
+}
