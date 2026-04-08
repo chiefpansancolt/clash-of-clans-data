@@ -9,6 +9,7 @@ import { healingSpellData } from './healing-spell';
 import { invisibilitySpellData } from './invisibility-spell';
 import { jumpSpellData } from './jump-spell';
 import { lightningSpellData } from './lightning-spell';
+import { overgrowthSpellData } from './overgrowth-spell';
 import { poisonSpellData } from './poison-spell';
 import { rageSpellData } from './rage-spell';
 import { recallSpellData } from './recall-spell';
@@ -32,6 +33,7 @@ const allSpells: HomeSpell[] = [
   totemSpellData,
   skeletonSpellData,
   batSpellData,
+  overgrowthSpellData,
 ];
 
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
@@ -98,6 +100,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   batSpell(): HomeVillageSpells {
     return new HomeVillageSpells([batSpellData]);
+  }
+
+  overgrowthSpell(): HomeVillageSpells {
+    return new HomeVillageSpells([overgrowthSpellData]);
   }
 
   // Category filters
