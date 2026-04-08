@@ -1,0 +1,52 @@
+{
+  "id": "totem-spell",
+  "name": "Totem Spell",
+  "description": "Hey, look over there! Distract ground and air Defenses by dropping a Totem Spell. Nearby enemies will focus their attack on the Totem, taking the heat off other troops. Forged from dense cosmic rock, the Totem also damages and stuns the area in which it lands.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "regular",
+  "radius": 5,
+  "housingSpace": 1,
+  "spellFactoryLevelRequired": 9,
+  "targetType": "both",
+  "hitpointDecayPerSecond": 334,
+  "images": { "icon": "images/home/spells/totem-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "totemHitpoints": 10000,
+      "laboratoryRequired": 0,
+      "townHallRequired": 13,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "totemHitpoints": 11000,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 21000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "totemHitpoints": 12000,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 22000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "totemHitpoints": 13000,
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 23000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

@@ -74,6 +74,7 @@ import './home/spells/lightning-spell';
 import './home/spells/rage-spell';
 import './home/spells/recall-spell';
 import './home/spells/revive-spell';
+import './home/spells/totem-spell';
 // ── Town Hall ─────────────────────────────────────────────────────────────────
 import './home/town-hall';
 // ── Traps ─────────────────────────────────────────────────────────────────────

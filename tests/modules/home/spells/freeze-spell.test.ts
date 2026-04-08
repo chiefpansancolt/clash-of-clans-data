@@ -92,12 +92,12 @@ testQueryBaseContract('home().spells().freezeSpell()', () => home().spells().fre
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with freeze spell', () => {
-  it('has 9 spells total', () => {
-    expect(home().spells().count()).toBe(9);
+  it('has 10 spells total', () => {
+    expect(home().spells().count()).toBe(10);
   });
 
-  it('byType("regular") returns 9 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(9);
+  it('byType("regular") returns 10 spells', () => {
+    expect(home().spells().byType('regular').count()).toBe(10);
   });
 
   it('byTownHall(8) includes freeze spell', () => {

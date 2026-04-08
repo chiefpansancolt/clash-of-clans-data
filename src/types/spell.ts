@@ -12,6 +12,7 @@ export interface HomeSpellLevel {
   clonedCapacity?: number;
   recalledCapacity?: number;
   heroHealPercent?: number;
+  totemHitpoints?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;
@@ -36,6 +37,7 @@ export interface HomeSpell {
   boostTime?: number;
   spellDuration?: number;
   clonedLifespan?: number;
+  hitpointDecayPerSecond?: number;
   images: { icon: string };
   levels: HomeSpellLevel[];
 }
