@@ -83,6 +83,7 @@ import './home/troops/baby-dragon';
 import './home/troops/balloon';
 import './home/troops/barbarian';
 import './home/troops/dragon';
+import './home/troops/dragon-rider';
 import './home/troops/electro-dragon';
 import './home/troops/giant';
 import './home/troops/goblin';

@@ -1,0 +1,98 @@
+{
+  "id": "dragon-rider",
+  "name": "Dragon Rider",
+  "description": "This aerial engine of destruction readily and frankly, quite excitedly lays waste to any defense it comes across. The skeleton onboard swears he's not touching the controls.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 25,
+  "movementSpeed": 20,
+  "attackSpeed": 1.2,
+  "range": 4,
+  "barrackLevelRequired": 15,
+  "images": {
+    "icon": "images/home/troops/dragon-rider/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 4100,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 340, "damagePerShot": 408, "deathDamage": 700 }
+      },
+      "images": { "normal": "images/home/troops/dragon-rider/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 4400,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 7500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 370, "damagePerShot": 444, "deathDamage": 800 }
+      },
+      "images": { "normal": "images/home/troops/dragon-rider/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 4700,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 12000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 400, "damagePerShot": 480, "deathDamage": 900 }
+      },
+      "images": { "normal": "images/home/troops/dragon-rider/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 5100,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 14500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 430, "damagePerShot": 516, "deathDamage": 1000 }
+      },
+      "images": { "normal": "images/home/troops/dragon-rider/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 5600,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 19000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 10, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 470, "damagePerShot": 564, "deathDamage": 1100 }
+      },
+      "images": { "normal": "images/home/troops/dragon-rider/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 6200,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 29500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 15, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 520, "damagePerShot": 624, "deathDamage": 1200 }
+      },
+      "images": { "normal": "images/home/troops/dragon-rider/normal/level-6.png" }
+    }
+  ]
+}
