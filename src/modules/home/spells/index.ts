@@ -1,5 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeSpell } from '@/types';
+import { cloneSpellData } from './clone-spell';
 import { freezeSpellData } from './freeze-spell';
 import { healingSpellData } from './healing-spell';
 import { jumpSpellData } from './jump-spell';
@@ -12,6 +13,7 @@ const allSpells: HomeSpell[] = [
   rageSpellData,
   jumpSpellData,
   freezeSpellData,
+  cloneSpellData,
 ];
 
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
@@ -38,6 +40,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   freezeSpell(): HomeVillageSpells {
     return new HomeVillageSpells([freezeSpellData]);
+  }
+
+  cloneSpell(): HomeVillageSpells {
+    return new HomeVillageSpells([cloneSpellData]);
   }
 
   // Category filters

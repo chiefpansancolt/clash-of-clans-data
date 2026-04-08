@@ -9,6 +9,7 @@ export interface HomeSpellLevel {
   damageIncrease?: number;
   speedIncrease?: number;
   spellDuration?: number;
+  clonedCapacity?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;
@@ -30,6 +31,8 @@ export interface HomeSpell {
   numberOfPulses?: number;
   timeBetweenPulses?: number;
   boostTime?: number;
+  spellDuration?: number;
+  clonedLifespan?: number;
   images: { icon: string };
   levels: HomeSpellLevel[];
 }

@@ -110,12 +110,12 @@ testQueryBaseContract('home().spells().healingSpell()', () => home().spells().he
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with healing spell', () => {
-  it('has 5 spells total', () => {
-    expect(home().spells().count()).toBe(5);
+  it('has 6 spells total', () => {
+    expect(home().spells().count()).toBe(6);
   });
 
-  it('byType("regular") returns 5 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(5);
+  it('byType("regular") returns 6 spells', () => {
+    expect(home().spells().byType('regular').count()).toBe(6);
   });
 
   it('byType("dark") returns 0 spells', () => {

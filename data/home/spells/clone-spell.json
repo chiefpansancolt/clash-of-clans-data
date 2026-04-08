@@ -1,0 +1,88 @@
+{
+  "id": "clone-spell",
+  "name": "Clone Spell",
+  "description": "Turn this Spell into a pop-up army! Clone Spells create a circle of spawning that creates limited-lifetime copies of troops that enter it. It will only spawn up to a maximum housing space of troops.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "regular",
+  "radius": 3.5,
+  "housingSpace": 3,
+  "spellFactoryLevelRequired": 5,
+  "spellDuration": 18,
+  "clonedLifespan": 30,
+  "images": { "icon": "images/home/spells/clone-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "clonedCapacity": 22,
+      "laboratoryRequired": 0,
+      "townHallRequired": 9,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "clonedCapacity": 24,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 1500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "clonedCapacity": 26,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 2500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "clonedCapacity": 28,
+      "laboratoryRequired": 9,
+      "townHallRequired": 11,
+      "researchCost": 3000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "clonedCapacity": 30,
+      "laboratoryRequired": 9,
+      "townHallRequired": 11,
+      "researchCost": 4000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "clonedCapacity": 34,
+      "laboratoryRequired": 11,
+      "townHallRequired": 13,
+      "researchCost": 5000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "clonedCapacity": 38,
+      "laboratoryRequired": 12,
+      "townHallRequired": 14,
+      "researchCost": 8000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "clonedCapacity": 42,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 9000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}
