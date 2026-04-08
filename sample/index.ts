@@ -66,6 +66,7 @@ import './home/resource-buildings/gold-mine';
 import './home/resource-buildings/gold-storage';
 // ── Spells ────────────────────────────────────────────────────────────────────
 import './home/spells/clone-spell';
+import './home/spells/earthquake-spell';
 import './home/spells/freeze-spell';
 import './home/spells/healing-spell';
 import './home/spells/invisibility-spell';

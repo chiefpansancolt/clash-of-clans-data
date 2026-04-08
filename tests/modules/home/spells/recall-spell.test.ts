@@ -86,8 +86,8 @@ testQueryBaseContract('home().spells().recallSpell()', () => home().spells().rec
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with recall spell', () => {
-  it('has 11 spells total', () => {
-    expect(home().spells().count()).toBe(11);
+  it('has 12 spells total', () => {
+    expect(home().spells().count()).toBe(12);
   });
 
   it('byType("regular") returns 10 spells', () => {

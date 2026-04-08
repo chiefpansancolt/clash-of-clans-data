@@ -1,0 +1,96 @@
+{
+  "id": "earthquake-spell",
+  "name": "Earthquake Spell",
+  "description": "Weaken Walls and buildings with crippling earthquakes! Earthquake Spells damage structures based on their maximum hitpoints. Repeated Earthquakes deal decreasing damage to the same buildings, but increasing damage to the same Walls. No Wall can withstand the might of four Earthquake Spells!",
+  "base": "home",
+  "category": "spell",
+  "spellType": "dark",
+  "housingSpace": 1,
+  "spellFactoryLevelRequired": 2,
+  "images": { "icon": "images/home/spells/earthquake-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "buildingDamagePercent": 14.5,
+      "radius": 3.5,
+      "laboratoryRequired": 0,
+      "townHallRequired": 8,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "buildingDamagePercent": 17,
+      "radius": 3.8,
+      "laboratoryRequired": 6,
+      "townHallRequired": 8,
+      "researchCost": 6000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "buildingDamagePercent": 21,
+      "radius": 4.1,
+      "laboratoryRequired": 7,
+      "townHallRequired": 9,
+      "researchCost": 12000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "buildingDamagePercent": 25,
+      "radius": 4.4,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 25500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "buildingDamagePercent": 29,
+      "radius": 4.7,
+      "laboratoryRequired": 9,
+      "townHallRequired": 11,
+      "researchCost": 42000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "buildingDamagePercent": 29,
+      "troopDamagePercent": 5,
+      "radius": 4.7,
+      "laboratoryRequired": 12,
+      "townHallRequired": 14,
+      "researchCost": 120000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "buildingDamagePercent": 29,
+      "troopDamagePercent": 10,
+      "radius": 4.7,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 200000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "buildingDamagePercent": 29,
+      "troopDamagePercent": 14.5,
+      "radius": 4.7,
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 330000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 13, "hours": 12, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

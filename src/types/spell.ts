@@ -16,6 +16,9 @@ export interface HomeSpellLevel {
   maxDamagePerSecond?: number;
   speedDecrease?: number;
   attackRateDecrease?: number;
+  radius?: number;
+  buildingDamagePercent?: number;
+  troopDamagePercent?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;
@@ -30,7 +33,7 @@ export interface HomeSpell {
   base: 'home';
   category: 'spell';
   spellType: 'regular' | 'dark';
-  radius: number;
+  radius?: number;
   housingSpace: number;
   spellFactoryLevelRequired: number;
   stunTime?: number;

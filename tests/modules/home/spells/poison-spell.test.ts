@@ -98,16 +98,16 @@ testQueryBaseContract('home().spells().poisonSpell()', () => home().spells().poi
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with poison spell', () => {
-  it('has 11 spells total', () => {
-    expect(home().spells().count()).toBe(11);
+  it('has 12 spells total', () => {
+    expect(home().spells().count()).toBe(12);
   });
 
   it('byType("regular") returns 10 spells', () => {
     expect(home().spells().byType('regular').count()).toBe(10);
   });
 
-  it('byType("dark") returns 1 spell', () => {
-    expect(home().spells().byType('dark').count()).toBe(1);
+  it('byType("dark") returns 2 spells', () => {
+    expect(home().spells().byType('dark').count()).toBe(2);
   });
 
   it('byTownHall(8) includes poison spell', () => {
