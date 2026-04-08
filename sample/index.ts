@@ -68,6 +68,7 @@ import './home/resource-buildings/gold-storage';
 import './home/spells/clone-spell';
 import './home/spells/earthquake-spell';
 import './home/spells/freeze-spell';
+import './home/spells/haste-spell';
 import './home/spells/healing-spell';
 import './home/spells/invisibility-spell';
 import './home/spells/jump-spell';

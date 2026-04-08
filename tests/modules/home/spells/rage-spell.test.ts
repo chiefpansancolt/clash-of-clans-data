@@ -97,8 +97,8 @@ testQueryBaseContract('home().spells().rageSpell()', () => home().spells().rageS
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with rage spell', () => {
-  it('has 12 spells total', () => {
-    expect(home().spells().count()).toBe(12);
+  it('has 13 spells total', () => {
+    expect(home().spells().count()).toBe(13);
   });
 
   it('byType("regular") returns 10 spells', () => {

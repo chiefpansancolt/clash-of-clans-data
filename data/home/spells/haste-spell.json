@@ -1,0 +1,91 @@
+{
+  "id": "haste-spell",
+  "name": "Haste Spell",
+  "description": "Put some hustle in even your heaviest units! Haste Spells lack the damage boost of Rage Spells, but provide an even better boost to movement speed. A lower storage space also allows you to take more of them into battle!",
+  "base": "home",
+  "category": "spell",
+  "spellType": "dark",
+  "housingSpace": 1,
+  "spellFactoryLevelRequired": 3,
+  "targetType": "both",
+  "images": { "icon": "images/home/spells/haste-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "speedIncrease": 28,
+      "spellDuration": 10,
+      "radius": 4,
+      "laboratoryRequired": 0,
+      "townHallRequired": 9,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "speedIncrease": 34,
+      "spellDuration": 15,
+      "radius": 4,
+      "laboratoryRequired": 7,
+      "townHallRequired": 9,
+      "researchCost": 8000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "speedIncrease": 40,
+      "spellDuration": 20,
+      "radius": 4,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 17000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "speedIncrease": 46,
+      "spellDuration": 25,
+      "radius": 4,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 30000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "speedIncrease": 52,
+      "spellDuration": 30,
+      "radius": 4,
+      "laboratoryRequired": 9,
+      "townHallRequired": 11,
+      "researchCost": 38500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "speedIncrease": 56,
+      "spellDuration": 30,
+      "radius": 4,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 200000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "speedIncrease": 56,
+      "spellDuration": 30,
+      "radius": 5,
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 320000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 12, "hours": 12, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}
