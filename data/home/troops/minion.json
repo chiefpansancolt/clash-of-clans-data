@@ -1,0 +1,284 @@
+{
+  "id": "minion",
+  "name": "Minion",
+  "description": "This terror of the skies was born out of Dark Elixir. Undetectable by the Seeking Air Mine, Minions materialize with ease, but are fragile in our world.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "dark",
+  "damageType": "single",
+  "targetType": "both",
+  "housingSpace": 2,
+  "movementSpeed": 32,
+  "attackSpeed": 1,
+  "range": 2.75,
+  "barrackLevelRequired": 1,
+  "images": {
+    "icon": "images/home/troops/minion/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 58,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 38, "damagePerShot": 38 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 63,
+      "townHallRequired": 7,
+      "laboratoryRequired": 5,
+      "researchCost": 1000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 41, "damagePerShot": 41 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 68,
+      "townHallRequired": 8,
+      "laboratoryRequired": 6,
+      "researchCost": 2500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 44, "damagePerShot": 44 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 73,
+      "townHallRequired": 8,
+      "laboratoryRequired": 6,
+      "researchCost": 5000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 47, "damagePerShot": 47 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-3.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 78,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 10000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 50, "damagePerShot": 50 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 84,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 15000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 54, "damagePerShot": 54 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 90,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 31500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 1, "hours": 18, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 58, "damagePerShot": 58 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 96,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 47500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 62, "damagePerShot": 62 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-7.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 102,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 75000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 66, "damagePerShot": 66 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 108,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 100000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 70, "damagePerShot": 70 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "hitpoints": 114,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 115000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 74, "damagePerShot": 74 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "hitpoints": 120,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 160000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 78, "damagePerShot": 78 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-12.png" }
+    },
+    {
+      "level": 13,
+      "hitpoints": 130,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 220000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 84, "damagePerShot": 84 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-13.png" }
+    },
+    {
+      "level": 14,
+      "hitpoints": 140,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 335000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 92, "damagePerShot": 92 }
+      },
+      "images": { "normal": "images/home/troops/minion/normal/level-14.png" }
+    }
+  ],
+  "superTroop": {
+    "id": "super-minion",
+    "name": "Super Minion",
+    "description": "Super Minion's big forehead isn't just for show: sniping enemy defenses from a safe distance is simply a brainy move! Especially when you've grown too big to avoid Seeking Air Mines.",
+    "housingSpace": 12,
+    "movementSpeed": 16,
+    "attackSpeed": 1,
+    "range": 4,
+    "boostCost": 25000,
+    "boostCostResource": "Dark Elixir",
+    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "regularLevelRequired": 8,
+    "specialAbility": "Long Shot",
+    "images": {
+      "icon": "images/home/troops/minion/super-icon.png"
+    },
+    "levels": [
+      {
+        "level": 8,
+        "hitpoints": 1500,
+        "townHallRequired": 12,
+        "stats": {
+          "normal": { "dps": 300, "damagePerShot": 300 }
+        },
+        "images": { "normal": "images/home/troops/minion/super/level-8.png" }
+      },
+      {
+        "level": 9,
+        "hitpoints": 1600,
+        "townHallRequired": 13,
+        "stats": {
+          "normal": { "dps": 325, "damagePerShot": 325 }
+        },
+        "images": { "normal": "images/home/troops/minion/super/level-8.png" }
+      },
+      {
+        "level": 10,
+        "hitpoints": 1700,
+        "townHallRequired": 14,
+        "stats": {
+          "normal": { "dps": 350, "damagePerShot": 350 }
+        },
+        "images": { "normal": "images/home/troops/minion/super/level-8.png" }
+      },
+      {
+        "level": 11,
+        "hitpoints": 1800,
+        "townHallRequired": 15,
+        "stats": {
+          "normal": { "dps": 360, "damagePerShot": 360 }
+        },
+        "images": { "normal": "images/home/troops/minion/super/level-8.png" }
+      },
+      {
+        "level": 12,
+        "hitpoints": 1900,
+        "townHallRequired": 16,
+        "stats": {
+          "normal": { "dps": 370, "damagePerShot": 370 }
+        },
+        "images": { "normal": "images/home/troops/minion/super/level-8.png" }
+      },
+      {
+        "level": 13,
+        "hitpoints": 2100,
+        "townHallRequired": 17,
+        "stats": {
+          "normal": { "dps": 385, "damagePerShot": 385 }
+        },
+        "images": { "normal": "images/home/troops/minion/super/level-8.png" }
+      },
+      {
+        "level": 14,
+        "hitpoints": 2300,
+        "townHallRequired": 18,
+        "stats": {
+          "normal": { "dps": 400, "damagePerShot": 400 }
+        },
+        "images": { "normal": "images/home/troops/minion/super/level-8.png" }
+      }
+    ]
+  }
+}

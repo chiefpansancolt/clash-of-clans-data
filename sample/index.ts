@@ -91,6 +91,7 @@ import './home/troops/goblin';
 import './home/troops/healer';
 import './home/troops/meteor-golem';
 import './home/troops/miner';
+import './home/troops/minion';
 import './home/troops/pekka';
 import './home/troops/root-rider';
 import './home/troops/thrower';
