@@ -1,0 +1,132 @@
+{
+  "id": "lightning-spell",
+  "name": "Lightning Spell",
+  "description": "Electrocute your enemies with a bolt of lightning! Cast this spell at the enemy village to damage and stun buildings and units inside a small area.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "regular",
+  "radius": 2,
+  "housingSpace": 1,
+  "spellFactoryLevelRequired": 1,
+  "stunTime": 0.1,
+  "images": { "icon": "images/home/spells/lightning-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "damage": 150,
+      "laboratoryRequired": 0,
+      "townHallRequired": 5,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "damage": 180,
+      "laboratoryRequired": 1,
+      "townHallRequired": 5,
+      "researchCost": 50000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "damage": 210,
+      "laboratoryRequired": 2,
+      "townHallRequired": 5,
+      "researchCost": 100000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "damage": 240,
+      "laboratoryRequired": 3,
+      "townHallRequired": 5,
+      "researchCost": 200000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "damage": 270,
+      "laboratoryRequired": 6,
+      "townHallRequired": 8,
+      "researchCost": 600000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "damage": 320,
+      "laboratoryRequired": 7,
+      "townHallRequired": 9,
+      "researchCost": 1500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "damage": 400,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 2500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "damage": 480,
+      "laboratoryRequired": 9,
+      "townHallRequired": 11,
+      "researchCost": 4200000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 9,
+      "damage": 560,
+      "laboratoryRequired": 10,
+      "townHallRequired": 12,
+      "researchCost": 6300000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 10,
+      "damage": 600,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 10000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 11,
+      "damage": 640,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 13500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 12,
+      "damage": 680,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 18500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 13,
+      "damage": 720,
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 27000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

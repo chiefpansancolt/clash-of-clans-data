@@ -4,6 +4,7 @@ import { HomeVillageDefenses } from './defenses';
 import { HomeVillageGuardians } from './guardians';
 import { HomeVillageOtherBuildings } from './other';
 import { HomeVillageResourceBuildings } from './resource-buildings';
+import { HomeVillageSpells } from './spells';
 import { HomeVillageTownHall } from './town-hall';
 import { HomeVillageTraps } from './traps';
 import { HomeVillageTroops } from './troops';
@@ -37,6 +38,7 @@ export {
   HomeVillageAlchemist,
   HomeVillageProspector,
 } from './other';
+export { HomeVillageSpells } from './spells';
 export { HomeVillageTroops } from './troops';
 export { HomeVillageWalls } from './walls';
 
@@ -71,6 +73,10 @@ export class HomeVillage {
 
   resourceBuildings(): HomeVillageResourceBuildings {
     return new HomeVillageResourceBuildings();
+  }
+
+  spells(): HomeVillageSpells {
+    return new HomeVillageSpells();
   }
 
   troops(): HomeVillageTroops {

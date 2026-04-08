@@ -1,34 +1,44 @@
-import { Building, BuildingLevel } from './building';
-import { ResourceType } from './common';
+import { BuildTime, ResourceType } from './common';
 
-export interface SpellLevel extends BuildingLevel {
-  brewingCost: number;
-  brewingCostResource: ResourceType;
-  brewingTime: number;
-  images: {
-    normal: string;
-  };
-}
-
-export interface HomeSpellLevel extends SpellLevel {
-  townHallRequired: number;
+export interface HomeSpellLevel {
+  level: number;
+  damage?: number;
   laboratoryRequired: number;
+  townHallRequired: number;
   researchCost: number;
   researchCostResource: ResourceType;
-  researchTime: number;
+  researchTime: BuildTime;
 }
 
-export interface HomeSpell extends Building<HomeSpellLevel> {
-  radius: number;
+export interface HomeSpell {
+  id: string;
+  name: string;
+  description?: string;
+  base: 'home';
+  category: 'spell';
   spellType: 'regular' | 'dark';
-  housingSpace: number;
-}
-
-export interface ClanCapitalSpellLevel extends SpellLevel {
-  districtHallRequired: number;
-}
-
-export interface ClanCapitalSpell extends Building<ClanCapitalSpellLevel> {
   radius: number;
   housingSpace: number;
+  spellFactoryLevelRequired: number;
+  stunTime?: number;
+  images: { icon: string };
+  levels: HomeSpellLevel[];
+}
+
+// Placeholder for future Clan Capital spell implementation
+export interface ClanCapitalSpellLevel {
+  level: number;
+  districtHallRequired: number;
+  images: { normal: string };
+}
+
+export interface ClanCapitalSpell {
+  id: string;
+  name: string;
+  description?: string;
+  base: 'clan_capital';
+  category: 'spell';
+  radius: number;
+  housingSpace: number;
+  levels: ClanCapitalSpellLevel[];
 }
