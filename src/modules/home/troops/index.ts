@@ -4,6 +4,7 @@ import { archerData } from './archer';
 import { babyDragonData } from './baby-dragon';
 import { balloonData } from './balloon';
 import { barbarianData } from './barbarian';
+import { bowlerData } from './bowler';
 import { dragonData } from './dragon';
 import { dragonRiderData } from './dragon-rider';
 import { electroDragonData } from './electro-dragon';
@@ -52,6 +53,7 @@ const allTroops: HomeTroop[] = [
   valkyrieData,
   witchData,
   lavaHoundData,
+  bowlerData,
 ];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
@@ -158,6 +160,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   lavaHound(): HomeVillageTroops {
     return new HomeVillageTroops([lavaHoundData]);
+  }
+
+  bowler(): HomeVillageTroops {
+    return new HomeVillageTroops([bowlerData]);
   }
 
   // Category filters

@@ -1,0 +1,218 @@
+{
+  "id": "bowler",
+  "name": "Bowler",
+  "description": "This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders bounce off of their target and hit again behind it for a double strike!",
+  "base": "home",
+  "category": "troop",
+  "troopType": "dark",
+  "housingSpace": 6,
+  "movementSpeed": 14,
+  "attackSpeed": 2.2,
+  "range": 3,
+  "damageType": "splash",
+  "targetType": "ground",
+  "barrackLevelRequired": 7,
+  "images": {
+    "icon": "images/home/troops/bowler/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 325,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 60, "damagePerShot": 132 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 375,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 32500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 72, "damagePerShot": 158.4 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 420,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 44000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 84, "damagePerShot": 184.8 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 470,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 62500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 96, "damagePerShot": 211.2 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 505,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 85000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 102, "damagePerShot": 224.4 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 530,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 110000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 108, "damagePerShot": 237.6 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 565,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 145000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 114, "damagePerShot": 250.8 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 600,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 175000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 126, "damagePerShot": 277.2 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 700,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 260000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 140, "damagePerShot": 308 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 850,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 360000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 15, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 156, "damagePerShot": 343.2 }
+      },
+      "images": { "normal": "images/home/troops/bowler/normal/level-10.png" }
+    }
+  ],
+  "superTroop": {
+    "id": "super-bowler",
+    "name": "Super Bowler",
+    "description": "Super Bowler now has everything he's ever wanted: a grippier glove, more comfortable footwear, and even more ridiculously massive boulders to toss.",
+    "housingSpace": 30,
+    "movementSpeed": 14,
+    "attackSpeed": 2.2,
+    "range": 3,
+    "boostCost": 25000,
+    "boostCostResource": "Dark Elixir",
+    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "regularLevelRequired": 4,
+    "specialAbility": "Triple Strike",
+    "images": {
+      "icon": "images/home/troops/bowler/super-icon.png"
+    },
+    "levels": [
+      {
+        "level": 4,
+        "hitpoints": 1600,
+        "townHallRequired": 12,
+        "stats": { "normal": { "dps": 170, "damagePerShot": 374 } },
+        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+      },
+      {
+        "level": 5,
+        "hitpoints": 1800,
+        "townHallRequired": 13,
+        "stats": { "normal": { "dps": 185, "damagePerShot": 407 } },
+        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+      },
+      {
+        "level": 6,
+        "hitpoints": 2000,
+        "townHallRequired": 14,
+        "stats": { "normal": { "dps": 200, "damagePerShot": 440 } },
+        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+      },
+      {
+        "level": 7,
+        "hitpoints": 2300,
+        "townHallRequired": 15,
+        "stats": { "normal": { "dps": 220, "damagePerShot": 484 } },
+        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+      },
+      {
+        "level": 8,
+        "hitpoints": 2600,
+        "townHallRequired": 16,
+        "stats": { "normal": { "dps": 240, "damagePerShot": 528 } },
+        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+      },
+      {
+        "level": 9,
+        "hitpoints": 3000,
+        "townHallRequired": 17,
+        "stats": { "normal": { "dps": 270, "damagePerShot": 594 } },
+        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+      },
+      {
+        "level": 10,
+        "hitpoints": 3600,
+        "townHallRequired": 18,
+        "stats": { "normal": { "dps": 300, "damagePerShot": 660 } },
+        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+      }
+    ]
+  }
+}
