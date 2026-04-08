@@ -7,6 +7,7 @@ import { invisibilitySpellData } from './invisibility-spell';
 import { jumpSpellData } from './jump-spell';
 import { lightningSpellData } from './lightning-spell';
 import { rageSpellData } from './rage-spell';
+import { recallSpellData } from './recall-spell';
 
 const allSpells: HomeSpell[] = [
   lightningSpellData,
@@ -16,6 +17,7 @@ const allSpells: HomeSpell[] = [
   freezeSpellData,
   cloneSpellData,
   invisibilitySpellData,
+  recallSpellData,
 ];
 
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
@@ -50,6 +52,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   invisibilitySpell(): HomeVillageSpells {
     return new HomeVillageSpells([invisibilitySpellData]);
+  }
+
+  recallSpell(): HomeVillageSpells {
+    return new HomeVillageSpells([recallSpellData]);
   }
 
   // Category filters

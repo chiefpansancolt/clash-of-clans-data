@@ -72,6 +72,7 @@ import './home/spells/invisibility-spell';
 import './home/spells/jump-spell';
 import './home/spells/lightning-spell';
 import './home/spells/rage-spell';
+import './home/spells/recall-spell';
 // ── Town Hall ─────────────────────────────────────────────────────────────────
 import './home/town-hall';
 // ── Traps ─────────────────────────────────────────────────────────────────────

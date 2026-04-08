@@ -10,6 +10,7 @@ export interface HomeSpellLevel {
   speedIncrease?: number;
   spellDuration?: number;
   clonedCapacity?: number;
+  recalledCapacity?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;
@@ -30,6 +31,7 @@ export interface HomeSpell {
   stunTime?: number;
   numberOfPulses?: number;
   timeBetweenPulses?: number;
+  targetType?: 'ground' | 'air' | 'both';
   boostTime?: number;
   spellDuration?: number;
   clonedLifespan?: number;

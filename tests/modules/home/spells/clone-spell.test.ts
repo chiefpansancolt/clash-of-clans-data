@@ -91,12 +91,12 @@ testQueryBaseContract('home().spells().cloneSpell()', () => home().spells().clon
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with clone spell', () => {
-  it('has 7 spells total', () => {
-    expect(home().spells().count()).toBe(7);
+  it('has 8 spells total', () => {
+    expect(home().spells().count()).toBe(8);
   });
 
-  it('byType("regular") returns 7 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(7);
+  it('byType("regular") returns 8 spells', () => {
+    expect(home().spells().byType('regular').count()).toBe(8);
   });
 
   it('byTownHall(9) includes clone spell', () => {
