@@ -67,6 +67,7 @@ import './home/resource-buildings/gold-storage';
 // ── Spells ────────────────────────────────────────────────────────────────────
 import './home/spells/healing-spell';
 import './home/spells/lightning-spell';
+import './home/spells/rage-spell';
 // ── Town Hall ─────────────────────────────────────────────────────────────────
 import './home/town-hall';
 // ── Traps ─────────────────────────────────────────────────────────────────────

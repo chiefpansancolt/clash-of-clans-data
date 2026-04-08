@@ -2,8 +2,9 @@ import { QueryBase } from '@/common/query-base';
 import { HomeSpell } from '@/types';
 import { healingSpellData } from './healing-spell';
 import { lightningSpellData } from './lightning-spell';
+import { rageSpellData } from './rage-spell';
 
-const allSpells: HomeSpell[] = [lightningSpellData, healingSpellData];
+const allSpells: HomeSpell[] = [lightningSpellData, healingSpellData, rageSpellData];
 
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
   constructor(data: HomeSpell[] = allSpells) {
@@ -17,6 +18,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   healingSpell(): HomeVillageSpells {
     return new HomeVillageSpells([healingSpellData]);
+  }
+
+  rageSpell(): HomeVillageSpells {
+    return new HomeVillageSpells([rageSpellData]);
   }
 
   // Category filters

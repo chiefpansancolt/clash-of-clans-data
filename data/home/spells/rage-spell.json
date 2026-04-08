@@ -1,0 +1,77 @@
+{
+  "id": "rage-spell",
+  "name": "Rage Spell",
+  "description": "Enrage your units to make them bigger, faster and stronger! Cast this to create a Ring of Rage! Your units will gain speed and attack power while they are inside this ring.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "regular",
+  "radius": 5,
+  "housingSpace": 2,
+  "spellFactoryLevelRequired": 3,
+  "numberOfPulses": 60,
+  "timeBetweenPulses": 0.3,
+  "boostTime": 1,
+  "images": { "icon": "images/home/spells/rage-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "damageIncrease": 130,
+      "speedIncrease": 20,
+      "laboratoryRequired": 0,
+      "townHallRequired": 7,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "damageIncrease": 140,
+      "speedIncrease": 22,
+      "laboratoryRequired": 3,
+      "townHallRequired": 7,
+      "researchCost": 400000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "damageIncrease": 150,
+      "speedIncrease": 24,
+      "laboratoryRequired": 4,
+      "townHallRequired": 7,
+      "researchCost": 800000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "damageIncrease": 160,
+      "speedIncrease": 26,
+      "laboratoryRequired": 5,
+      "townHallRequired": 7,
+      "researchCost": 1000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "damageIncrease": 170,
+      "speedIncrease": 28,
+      "laboratoryRequired": 6,
+      "townHallRequired": 8,
+      "researchCost": 2000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "damageIncrease": 180,
+      "speedIncrease": 30,
+      "laboratoryRequired": 10,
+      "townHallRequired": 12,
+      "researchCost": 5000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

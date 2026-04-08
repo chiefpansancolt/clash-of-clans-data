@@ -6,6 +6,8 @@ export interface HomeSpellLevel {
   totalHealing?: number;
   healingPerPulse?: number;
   totalHealingOnHeroes?: number;
+  damageIncrease?: number;
+  speedIncrease?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;
@@ -26,6 +28,7 @@ export interface HomeSpell {
   stunTime?: number;
   numberOfPulses?: number;
   timeBetweenPulses?: number;
+  boostTime?: number;
   images: { icon: string };
   levels: HomeSpellLevel[];
 }
