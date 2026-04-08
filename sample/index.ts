@@ -85,6 +85,7 @@ import './home/troops/dragon';
 import './home/troops/giant';
 import './home/troops/goblin';
 import './home/troops/healer';
+import './home/troops/pekka';
 import './home/troops/wall-breaker';
 import './home/troops/wizard';
 // ── Walls ─────────────────────────────────────────────────────────────────────
