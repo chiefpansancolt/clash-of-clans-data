@@ -65,6 +65,7 @@ import './home/resource-buildings/elixir-storage';
 import './home/resource-buildings/gold-mine';
 import './home/resource-buildings/gold-storage';
 // ── Spells ────────────────────────────────────────────────────────────────────
+import './home/spells/healing-spell';
 import './home/spells/lightning-spell';
 // ── Town Hall ─────────────────────────────────────────────────────────────────
 import './home/town-hall';

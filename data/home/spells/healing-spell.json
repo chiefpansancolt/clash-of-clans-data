@@ -1,0 +1,148 @@
+{
+  "id": "healing-spell",
+  "name": "Healing Spell",
+  "description": "Heal your Troops to keep them in the fight! Cast this spell to create a Ring of Healing. Your units will be healed while they are inside this ring.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "regular",
+  "radius": 5,
+  "housingSpace": 2,
+  "spellFactoryLevelRequired": 2,
+  "numberOfPulses": 41,
+  "timeBetweenPulses": 0.3,
+  "images": { "icon": "images/home/spells/healing-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "totalHealing": 615,
+      "healingPerPulse": 15,
+      "totalHealingOnHeroes": 338.25,
+      "laboratoryRequired": 0,
+      "townHallRequired": 6,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "totalHealing": 820,
+      "healingPerPulse": 20,
+      "totalHealingOnHeroes": 451,
+      "laboratoryRequired": 2,
+      "townHallRequired": 6,
+      "researchCost": 75000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "totalHealing": 1025,
+      "healingPerPulse": 25,
+      "totalHealingOnHeroes": 563.75,
+      "laboratoryRequired": 4,
+      "townHallRequired": 6,
+      "researchCost": 150000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "totalHealing": 1230,
+      "healingPerPulse": 30,
+      "totalHealingOnHeroes": 676.5,
+      "laboratoryRequired": 5,
+      "townHallRequired": 7,
+      "researchCost": 300000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "totalHealing": 1435,
+      "healingPerPulse": 35,
+      "totalHealingOnHeroes": 789.25,
+      "laboratoryRequired": 6,
+      "townHallRequired": 8,
+      "researchCost": 900000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "totalHealing": 1640,
+      "healingPerPulse": 40,
+      "totalHealingOnHeroes": 902,
+      "laboratoryRequired": 7,
+      "townHallRequired": 9,
+      "researchCost": 1800000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "totalHealing": 1845,
+      "healingPerPulse": 45,
+      "totalHealingOnHeroes": 1014.75,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 3000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "totalHealing": 2050,
+      "healingPerPulse": 50,
+      "totalHealingOnHeroes": 1127.5,
+      "laboratoryRequired": 11,
+      "townHallRequired": 13,
+      "researchCost": 6000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 9,
+      "totalHealing": 2255,
+      "healingPerPulse": 55,
+      "totalHealingOnHeroes": 1240.25,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 11000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 10,
+      "totalHealing": 2460,
+      "healingPerPulse": 60,
+      "totalHealingOnHeroes": 1353,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 14000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 11,
+      "totalHealing": 2747,
+      "healingPerPulse": 67,
+      "totalHealingOnHeroes": 1510.85,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 19000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 10, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 12,
+      "totalHealing": 3075,
+      "healingPerPulse": 75,
+      "totalHealingOnHeroes": 1691.25,
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 29000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 15, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

@@ -3,6 +3,9 @@ import { BuildTime, ResourceType } from './common';
 export interface HomeSpellLevel {
   level: number;
   damage?: number;
+  totalHealing?: number;
+  healingPerPulse?: number;
+  totalHealingOnHeroes?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;
@@ -21,6 +24,8 @@ export interface HomeSpell {
   housingSpace: number;
   spellFactoryLevelRequired: number;
   stunTime?: number;
+  numberOfPulses?: number;
+  timeBetweenPulses?: number;
   images: { icon: string };
   levels: HomeSpellLevel[];
 }
