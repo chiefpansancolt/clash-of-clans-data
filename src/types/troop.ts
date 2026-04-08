@@ -100,6 +100,8 @@ export interface HomeTroop {
   auraRange?: number;
   wallAttackSpeed?: number;
   summonCooldown?: number;
+  numberOfTargets?: number;
+  evolveTime?: number;
   preferredTarget?: string;
   freezeRadiusOnOffense?: number;
   freezeRadiusOnDefense?: number;

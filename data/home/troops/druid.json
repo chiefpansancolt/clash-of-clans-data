@@ -1,0 +1,113 @@
+{
+  "id": "druid",
+  "name": "Druid",
+  "description": "The Druid has complicated emotions. One moment he's calmly helping heal his fellow Troops, and the next he's turned into a very angry Bear.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "dark",
+  "housingSpace": 16,
+  "movementSpeed": 24,
+  "attackSpeed": 1,
+  "range": 5,
+  "damageType": "chain",
+  "targetType": "both",
+  "barrackLevelRequired": 11,
+  "numberOfTargets": 4,
+  "evolveTime": 30,
+  "specialAbility": "Bear Form",
+  "images": {
+    "icon": "images/home/troops/druid/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1300,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": {
+          "healingPerSecond": 80,
+          "healingPerPulse": 80,
+          "healingPerSecondOnHeroes": 84,
+          "healingPerPulseOnHeroes": 84
+        }
+      },
+      "images": { "normal": "images/home/troops/druid/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1400,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 125000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": {
+          "healingPerSecond": 85,
+          "healingPerPulse": 85,
+          "healingPerSecondOnHeroes": 89.25,
+          "healingPerPulseOnHeroes": 89.25
+        }
+      },
+      "images": { "normal": "images/home/troops/druid/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1500,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 175000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": {
+          "healingPerSecond": 90,
+          "healingPerPulse": 90,
+          "healingPerSecondOnHeroes": 99,
+          "healingPerPulseOnHeroes": 99
+        }
+      },
+      "images": { "normal": "images/home/troops/druid/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1600,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 187500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": {
+          "healingPerSecond": 95,
+          "healingPerPulse": 95,
+          "healingPerSecondOnHeroes": 104.5,
+          "healingPerPulseOnHeroes": 104.5
+        }
+      },
+      "images": { "normal": "images/home/troops/druid/normal/level-3.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1700,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 300000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": {
+          "healingPerSecond": 100,
+          "healingPerPulse": 100,
+          "healingPerSecondOnHeroes": 115,
+          "healingPerPulseOnHeroes": 115
+        }
+      },
+      "images": { "normal": "images/home/troops/druid/normal/level-5.png" }
+    }
+  ]
+}

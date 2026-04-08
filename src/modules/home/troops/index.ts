@@ -8,6 +8,7 @@ import { barbarianData } from './barbarian';
 import { bowlerData } from './bowler';
 import { dragonData } from './dragon';
 import { dragonRiderData } from './dragon-rider';
+import { druidData } from './druid';
 import { electroDragonData } from './electro-dragon';
 import { electroTitanData } from './electro-titan';
 import { giantData } from './giant';
@@ -33,6 +34,7 @@ import { yetiData } from './yeti';
 const allTroops: HomeTroop[] = [
   apprenticeWardenData,
   barbarianData,
+  druidData,
   archerData,
   giantData,
   goblinData,
@@ -110,6 +112,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   dragon(): HomeVillageTroops {
     return new HomeVillageTroops([dragonData]);
+  }
+
+  druid(): HomeVillageTroops {
+    return new HomeVillageTroops([druidData]);
   }
 
   pekka(): HomeVillageTroops {
