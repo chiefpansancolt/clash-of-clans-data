@@ -8,6 +8,7 @@ import { dragonData } from './dragon';
 import { giantData } from './giant';
 import { goblinData } from './goblin';
 import { healerData } from './healer';
+import { minerData } from './miner';
 import { pekkaData } from './pekka';
 import { wallBreakerData } from './wall-breaker';
 import { wizardData } from './wizard';
@@ -24,6 +25,7 @@ const allTroops: HomeTroop[] = [
   dragonData,
   pekkaData,
   babyDragonData,
+  minerData,
 ];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
@@ -74,6 +76,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   babyDragon(): HomeVillageTroops {
     return new HomeVillageTroops([babyDragonData]);
+  }
+
+  miner(): HomeVillageTroops {
+    return new HomeVillageTroops([minerData]);
   }
 
   // Category filters
