@@ -75,7 +75,7 @@ export interface HomeTroop {
   movementSpeed: number;
   range: number;
   attackSpeed: number;
-  damageType: 'single' | 'splash' | 'area' | 'none';
+  damageType: 'single' | 'splash' | 'area' | 'chain' | 'none';
   targetType: 'ground' | 'air' | 'both';
   barrackLevelRequired: number;
   specialAbility?: string;

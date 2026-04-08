@@ -1,0 +1,137 @@
+{
+  "id": "electro-dragon",
+  "name": "Electro Dragon",
+  "description": "Possessing iron-tough scales and a breath of devastating lightning, the Electro Dragon's favorite thing is raining destruction from above. When vanquished, the Electro Dragon even pummels the ground with lightning strikes! (6 lightning bolts on death, each dealing the listed death damage to a random target.)",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "housingSpace": 30,
+  "movementSpeed": 13,
+  "range": 3,
+  "attackSpeed": 3.5,
+  "damageType": "chain",
+  "targetType": "both",
+  "barrackLevelRequired": 13,
+  "images": {
+    "icon": "images/home/troops/electro-dragon/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 3400,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 260, "damagePerShot": 910, "deathDamage": 65 }
+      },
+      "images": { "normal": "images/home/troops/electro-dragon/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 3900,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 6000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 290, "damagePerShot": 1015, "deathDamage": 75 }
+      },
+      "images": { "normal": "images/home/troops/electro-dragon/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 4400,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 7000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 320, "damagePerShot": 1120, "deathDamage": 85 }
+      },
+      "images": { "normal": "images/home/troops/electro-dragon/normal/level-1.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 4700,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 9000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 350, "damagePerShot": 1225, "deathDamage": 95 }
+      },
+      "images": { "normal": "images/home/troops/electro-dragon/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 5000,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 11000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 380, "damagePerShot": 1330, "deathDamage": 105 }
+      },
+      "images": { "normal": "images/home/troops/electro-dragon/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 5400,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 14000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 410, "damagePerShot": 1435, "deathDamage": 115 }
+      },
+      "images": { "normal": "images/home/troops/electro-dragon/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 5700,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 16000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 440, "damagePerShot": 1540, "deathDamage": 125 }
+      },
+      "images": { "normal": "images/home/troops/electro-dragon/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 6200,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 20000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 460, "damagePerShot": 1610, "deathDamage": 135 }
+      },
+      "images": { "normal": "images/home/troops/electro-dragon/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 6700,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 30000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 500, "damagePerShot": 1750, "deathDamage": 145 }
+      },
+      "images": { "normal": "images/home/troops/electro-dragon/normal/level-9.png" }
+    }
+  ]
+}
