@@ -1,0 +1,72 @@
+{
+  "id": "thrower",
+  "name": "Thrower",
+  "description": "This powerful pitcher has his eye on the prize! The Thrower hurls mighty spears from long range at enemies and Defenses. His secret? The strength lies in his fabulous facial hair!",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "damageType": "single",
+  "targetType": "both",
+  "housingSpace": 16,
+  "movementSpeed": 18,
+  "attackSpeed": 2.5,
+  "range": 6,
+  "barrackLevelRequired": 18,
+  "images": {
+    "icon": "images/home/troops/thrower/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 2200,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 190, "damagePerShot": 475 }
+      },
+      "images": { "normal": "images/home/troops/thrower/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 2350,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 16000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 210, "damagePerShot": 525 }
+      },
+      "images": { "normal": "images/home/troops/thrower/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2600,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 18000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 10, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 230, "damagePerShot": 575 }
+      },
+      "images": { "normal": "images/home/troops/thrower/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2800,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 27000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 15, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 240, "damagePerShot": 600 }
+      },
+      "images": { "normal": "images/home/troops/thrower/normal/level-4.png" }
+    }
+  ]
+}

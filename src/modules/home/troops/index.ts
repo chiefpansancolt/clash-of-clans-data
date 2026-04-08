@@ -14,6 +14,7 @@ import { healerData } from './healer';
 import { minerData } from './miner';
 import { pekkaData } from './pekka';
 import { rootRiderData } from './root-rider';
+import { throwerData } from './thrower';
 import { wallBreakerData } from './wall-breaker';
 import { wizardData } from './wizard';
 import { yetiData } from './yeti';
@@ -36,6 +37,7 @@ const allTroops: HomeTroop[] = [
   dragonRiderData,
   electroTitanData,
   rootRiderData,
+  throwerData,
 ];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
@@ -110,6 +112,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   rootRider(): HomeVillageTroops {
     return new HomeVillageTroops([rootRiderData]);
+  }
+
+  thrower(): HomeVillageTroops {
+    return new HomeVillageTroops([throwerData]);
   }
 
   // Category filters
