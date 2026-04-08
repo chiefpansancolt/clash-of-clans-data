@@ -1,0 +1,92 @@
+{
+  "id": "electro-titan",
+  "name": "Electro Titan",
+  "description": "Barely controlling her raw magical power, the Electro Titan is a formidable force on the battlefield. She channels some of her magic into a powerful electro whip while the rest spills out to damage everything around her.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "damageType": "single",
+  "targetType": "both",
+  "housingSpace": 32,
+  "movementSpeed": 16,
+  "attackSpeed": 1.5,
+  "range": 1.25,
+  "auraAttackSpeed": 0.4,
+  "auraRange": 3.5,
+  "barrackLevelRequired": 16,
+  "images": {
+    "icon": "images/home/troops/electro-titan/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 7200,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 180, "damagePerShot": 270 },
+        "aura": { "dps": 75, "damagePerShot": 30 }
+      },
+      "images": { "normal": "images/home/troops/electro-titan/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 7700,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 14000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 200, "damagePerShot": 300 },
+        "aura": { "dps": 100, "damagePerShot": 40 }
+      },
+      "images": { "normal": "images/home/troops/electro-titan/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 8200,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 16000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 220, "damagePerShot": 330 },
+        "aura": { "dps": 125, "damagePerShot": 50 }
+      },
+      "images": { "normal": "images/home/troops/electro-titan/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 8700,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 18500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 240, "damagePerShot": 360 },
+        "aura": { "dps": 137.5, "damagePerShot": 55 }
+      },
+      "images": { "normal": "images/home/troops/electro-titan/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 9200,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 30000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 270, "damagePerShot": 405 },
+        "aura": { "dps": 150, "damagePerShot": 60 }
+      },
+      "images": { "normal": "images/home/troops/electro-titan/normal/level-5.png" }
+    }
+  ]
+}

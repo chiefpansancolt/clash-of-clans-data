@@ -85,6 +85,7 @@ import './home/troops/barbarian';
 import './home/troops/dragon';
 import './home/troops/dragon-rider';
 import './home/troops/electro-dragon';
+import './home/troops/electro-titan';
 import './home/troops/giant';
 import './home/troops/goblin';
 import './home/troops/healer';
