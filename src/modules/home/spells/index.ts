@@ -3,6 +3,7 @@ import { HomeSpell } from '@/types';
 import { cloneSpellData } from './clone-spell';
 import { freezeSpellData } from './freeze-spell';
 import { healingSpellData } from './healing-spell';
+import { invisibilitySpellData } from './invisibility-spell';
 import { jumpSpellData } from './jump-spell';
 import { lightningSpellData } from './lightning-spell';
 import { rageSpellData } from './rage-spell';
@@ -14,6 +15,7 @@ const allSpells: HomeSpell[] = [
   jumpSpellData,
   freezeSpellData,
   cloneSpellData,
+  invisibilitySpellData,
 ];
 
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
@@ -44,6 +46,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   cloneSpell(): HomeVillageSpells {
     return new HomeVillageSpells([cloneSpellData]);
+  }
+
+  invisibilitySpell(): HomeVillageSpells {
+    return new HomeVillageSpells([invisibilitySpellData]);
   }
 
   // Category filters

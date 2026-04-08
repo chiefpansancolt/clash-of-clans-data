@@ -102,12 +102,12 @@ describe('spells()', () => {
     expect(home().spells()).toBeInstanceOf(HomeVillageSpells);
   });
 
-  it('has 6 spells total', () => {
-    expect(home().spells().count()).toBe(6);
+  it('has 7 spells total', () => {
+    expect(home().spells().count()).toBe(7);
   });
 
-  it('byType("regular") returns 6 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(6);
+  it('byType("regular") returns 7 spells', () => {
+    expect(home().spells().byType('regular').count()).toBe(7);
   });
 
   it('byType("dark") returns 0 spells', () => {

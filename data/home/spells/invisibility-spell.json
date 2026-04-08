@@ -1,0 +1,50 @@
+{
+  "id": "invisibility-spell",
+  "name": "Invisibility Spell",
+  "description": "Invisibility Spell makes EVERYTHING except for Walls and Siege Machines invisible and untargetable within its radius.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "regular",
+  "radius": 4,
+  "housingSpace": 1,
+  "spellFactoryLevelRequired": 6,
+  "images": { "icon": "images/home/spells/invisibility-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "spellDuration": 3.5,
+      "laboratoryRequired": 0,
+      "townHallRequired": 10,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "spellDuration": 3.75,
+      "laboratoryRequired": 9,
+      "townHallRequired": 11,
+      "researchCost": 5000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "spellDuration": 4,
+      "laboratoryRequired": 10,
+      "townHallRequired": 12,
+      "researchCost": 6000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "spellDuration": 4.25,
+      "laboratoryRequired": 11,
+      "townHallRequired": 13,
+      "researchCost": 7000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}
