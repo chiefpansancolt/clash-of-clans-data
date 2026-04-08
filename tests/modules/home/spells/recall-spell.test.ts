@@ -87,7 +87,7 @@ testQueryBaseContract('home().spells().recallSpell()', () => home().spells().rec
 
 describe('spells() with recall spell', () => {
   it('has 13 spells total', () => {
-    expect(home().spells().count()).toBe(13);
+    expect(home().spells().count()).toBe(14);
   });
 
   it('byType("regular") returns 10 spells', () => {

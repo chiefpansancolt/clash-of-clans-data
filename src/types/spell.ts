@@ -19,11 +19,23 @@ export interface HomeSpellLevel {
   radius?: number;
   buildingDamagePercent?: number;
   troopDamagePercent?: number;
+  skeletonsGenerated?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;
   researchCostResource: ResourceType;
   researchTime: BuildTime;
+}
+
+export interface SkeletonStats {
+  preferredTarget: string;
+  attackType: string;
+  movementSpeed: number;
+  attackSpeed: number;
+  range: number;
+  damagePerSecond: number;
+  hitpoints: number;
+  armorHitpoints: number;
 }
 
 export interface HomeSpell {
@@ -33,6 +45,7 @@ export interface HomeSpell {
   base: 'home';
   category: 'spell';
   spellType: 'regular' | 'dark';
+  skeletonStats?: SkeletonStats;
   radius?: number;
   housingSpace: number;
   spellFactoryLevelRequired: number;

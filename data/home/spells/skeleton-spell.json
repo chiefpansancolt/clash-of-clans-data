@@ -1,0 +1,97 @@
+{
+  "id": "skeleton-spell",
+  "name": "Skeleton Spell",
+  "description": "Summon an army of Skeletons anywhere on the battlefield! Put a few extra swords when and where you need them most. Skeletons do not trigger traps.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "dark",
+  "radius": 3.5,
+  "housingSpace": 1,
+  "spellFactoryLevelRequired": 4,
+  "targetType": "ground",
+  "skeletonStats": {
+    "preferredTarget": "None",
+    "attackType": "Melee (Ground Only)",
+    "movementSpeed": 24,
+    "attackSpeed": 1,
+    "range": 0.4,
+    "damagePerSecond": 25,
+    "hitpoints": 30,
+    "armorHitpoints": 30
+  },
+  "images": { "icon": "images/home/spells/skeleton-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "skeletonsGenerated": 12,
+      "laboratoryRequired": 0,
+      "townHallRequired": 9,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "skeletonsGenerated": 13,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 11000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "skeletonsGenerated": 14,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 17000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "skeletonsGenerated": 15,
+      "laboratoryRequired": 9,
+      "townHallRequired": 11,
+      "researchCost": 25000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "skeletonsGenerated": 16,
+      "laboratoryRequired": 10,
+      "townHallRequired": 12,
+      "researchCost": 40000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "skeletonsGenerated": 17,
+      "laboratoryRequired": 10,
+      "townHallRequired": 12,
+      "researchCost": 50000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "skeletonsGenerated": 18,
+      "laboratoryRequired": 11,
+      "townHallRequired": 13,
+      "researchCost": 75000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 6, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "skeletonsGenerated": 19,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 135000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

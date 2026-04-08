@@ -12,6 +12,7 @@ import { poisonSpellData } from './poison-spell';
 import { rageSpellData } from './rage-spell';
 import { recallSpellData } from './recall-spell';
 import { reviveSpellData } from './revive-spell';
+import { skeletonSpellData } from './skeleton-spell';
 import { totemSpellData } from './totem-spell';
 
 const allSpells: HomeSpell[] = [
@@ -28,6 +29,7 @@ const allSpells: HomeSpell[] = [
   hasteSpellData,
   poisonSpellData,
   totemSpellData,
+  skeletonSpellData,
 ];
 
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
@@ -86,6 +88,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   totemSpell(): HomeVillageSpells {
     return new HomeVillageSpells([totemSpellData]);
+  }
+
+  skeletonSpell(): HomeVillageSpells {
+    return new HomeVillageSpells([skeletonSpellData]);
   }
 
   // Category filters
