@@ -90,16 +90,16 @@ testQueryBaseContract('home().spells().batSpell()', () => home().spells().batSpe
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with bat spell', () => {
-  it('has 16 spells total', () => {
-    expect(home().spells().count()).toBe(16);
+  it('has 17 spells total', () => {
+    expect(home().spells().count()).toBe(17);
   });
 
   it('byType("regular") returns 10 spells', () => {
     expect(home().spells().byType('regular').count()).toBe(10);
   });
 
-  it('byType("dark") returns 6 spells', () => {
-    expect(home().spells().byType('dark').count()).toBe(6);
+  it('byType("dark") returns 7 spells', () => {
+    expect(home().spells().byType('dark').count()).toBe(7);
   });
 
   it('byTownHall(10) includes bat spell', () => {

@@ -21,6 +21,7 @@ export interface HomeSpellLevel {
   troopDamagePercent?: number;
   skeletonsGenerated?: number;
   batsGenerated?: number;
+  incomingDamageReduction?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;

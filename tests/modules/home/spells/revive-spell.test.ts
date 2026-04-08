@@ -85,8 +85,8 @@ testQueryBaseContract('home().spells().reviveSpell()', () => home().spells().rev
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with revive spell', () => {
-  it('has 16 spells total', () => {
-    expect(home().spells().count()).toBe(16);
+  it('has 17 spells total', () => {
+    expect(home().spells().count()).toBe(17);
   });
 
   it('byType("regular") returns 10 spells', () => {

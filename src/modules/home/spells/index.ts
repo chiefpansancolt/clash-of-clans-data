@@ -6,6 +6,7 @@ import { earthquakeSpellData } from './earthquake-spell';
 import { freezeSpellData } from './freeze-spell';
 import { hasteSpellData } from './haste-spell';
 import { healingSpellData } from './healing-spell';
+import { iceBlockSpellData } from './ice-block-spell';
 import { invisibilitySpellData } from './invisibility-spell';
 import { jumpSpellData } from './jump-spell';
 import { lightningSpellData } from './lightning-spell';
@@ -34,6 +35,7 @@ const allSpells: HomeSpell[] = [
   skeletonSpellData,
   batSpellData,
   overgrowthSpellData,
+  iceBlockSpellData,
 ];
 
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
@@ -104,6 +106,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   overgrowthSpell(): HomeVillageSpells {
     return new HomeVillageSpells([overgrowthSpellData]);
+  }
+
+  iceBlockSpell(): HomeVillageSpells {
+    return new HomeVillageSpells([iceBlockSpellData]);
   }
 
   // Category filters

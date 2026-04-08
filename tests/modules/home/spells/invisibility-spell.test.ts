@@ -94,8 +94,8 @@ testQueryBaseContract('home().spells().invisibilitySpell()', () =>
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with invisibility spell', () => {
-  it('has 16 spells total', () => {
-    expect(home().spells().count()).toBe(16);
+  it('has 17 spells total', () => {
+    expect(home().spells().count()).toBe(17);
   });
 
   it('byType("regular") returns 10 spells', () => {

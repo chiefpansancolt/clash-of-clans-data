@@ -71,6 +71,7 @@ import './home/spells/earthquake-spell';
 import './home/spells/freeze-spell';
 import './home/spells/haste-spell';
 import './home/spells/healing-spell';
+import './home/spells/ice-block-spell';
 import './home/spells/invisibility-spell';
 import './home/spells/jump-spell';
 import './home/spells/lightning-spell';

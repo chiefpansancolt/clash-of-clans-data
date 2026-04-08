@@ -1,0 +1,65 @@
+{
+  "id": "ice-block-spell",
+  "name": "Ice Block Spell",
+  "description": "Cast this cool concoction to encase your ground and air Troops in ice that blocks almost all damage but Freezes their movement and attack!",
+  "base": "home",
+  "category": "spell",
+  "spellType": "dark",
+  "radius": 5,
+  "housingSpace": 1,
+  "spellFactoryLevelRequired": 7,
+  "targetType": "both",
+  "images": { "icon": "images/home/spells/ice-block-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "incomingDamageReduction": 86,
+      "spellDuration": 7,
+      "laboratoryRequired": 0,
+      "townHallRequired": 12,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "incomingDamageReduction": 88,
+      "spellDuration": 7,
+      "laboratoryRequired": 12,
+      "townHallRequired": 14,
+      "researchCost": 140000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "incomingDamageReduction": 90,
+      "spellDuration": 7,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 200000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "incomingDamageReduction": 92,
+      "spellDuration": 7,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 280000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "incomingDamageReduction": 94,
+      "spellDuration": 7,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 320000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}
