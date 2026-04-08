@@ -26,6 +26,8 @@ export interface HomeTroopLevel {
   skeletonsPerSummon?: number;
   maxSkeletons?: number;
   skeletonLevel?: number;
+  pupsOnOffense?: number;
+  pupsOnDefense?: number;
   stats: {
     normal: HomeTroopLevelStats;
     enraged?: HomeTroopLevelStats;
@@ -41,6 +43,9 @@ export interface HomeSuperTroopLevel {
   level: number;
   hitpoints: number;
   townHallRequired?: number;
+  pupsOnOffense?: number;
+  pupsOnDefense?: number;
+  freezeTime?: number;
   stats: {
     normal: HomeTroopLevelStats;
     stage2?: HomeTroopLevelStats;

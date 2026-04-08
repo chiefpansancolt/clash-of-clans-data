@@ -1,0 +1,237 @@
+{
+  "id": "lava-hound",
+  "name": "Lava Hound",
+  "base": "home",
+  "category": "troop",
+  "troopType": "dark",
+  "housingSpace": 30,
+  "movementSpeed": 20,
+  "attackSpeed": 2,
+  "range": 1,
+  "damageType": "single",
+  "targetType": "ground",
+  "barrackLevelRequired": 6,
+  "images": {
+    "icon": "images/home/troops/lava-hound/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 6100,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "pupsOnOffense": 8,
+      "pupsOnDefense": 8,
+      "stats": {
+        "normal": { "dps": 10, "damagePerShot": 20, "deathDamage": 100 }
+      },
+      "images": { "normal": "images/home/troops/lava-hound/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 6500,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 14000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "pupsOnOffense": 10,
+      "pupsOnDefense": 9,
+      "stats": {
+        "normal": { "dps": 12, "damagePerShot": 24, "deathDamage": 150 }
+      },
+      "images": { "normal": "images/home/troops/lava-hound/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 6800,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 21500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "pupsOnOffense": 12,
+      "pupsOnDefense": 10,
+      "stats": {
+        "normal": { "dps": 14, "damagePerShot": 28, "deathDamage": 200 }
+      },
+      "images": { "normal": "images/home/troops/lava-hound/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 7200,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 42500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "pupsOnOffense": 14,
+      "pupsOnDefense": 11,
+      "stats": {
+        "normal": { "dps": 16, "damagePerShot": 32, "deathDamage": 250 }
+      },
+      "images": { "normal": "images/home/troops/lava-hound/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 7600,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 60000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "pupsOnOffense": 16,
+      "pupsOnDefense": 12,
+      "stats": {
+        "normal": { "dps": 18, "damagePerShot": 36, "deathDamage": 300 }
+      },
+      "images": { "normal": "images/home/troops/lava-hound/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 8000,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 80000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "pupsOnOffense": 18,
+      "pupsOnDefense": 13,
+      "stats": {
+        "normal": { "dps": 20, "damagePerShot": 40, "deathDamage": 350 }
+      },
+      "images": { "normal": "images/home/troops/lava-hound/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 8500,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 200000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "pupsOnOffense": 20,
+      "pupsOnDefense": 14,
+      "stats": {
+        "normal": { "dps": 22, "damagePerShot": 44, "deathDamage": 400 }
+      },
+      "images": { "normal": "images/home/troops/lava-hound/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 9500,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 345000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 15, "hours": 6, "minutes": 0, "seconds": 0 },
+      "pupsOnOffense": 22,
+      "pupsOnDefense": 15,
+      "stats": {
+        "normal": { "dps": 24, "damagePerShot": 48, "deathDamage": 450 }
+      },
+      "images": { "normal": "images/home/troops/lava-hound/normal/level-8.png" }
+    }
+  ],
+  "superTroop": {
+    "id": "ice-hound",
+    "name": "Ice Hound",
+    "housingSpace": 40,
+    "movementSpeed": 20,
+    "attackSpeed": 2,
+    "range": 0.75,
+    "boostCost": 25000,
+    "boostCostResource": "Dark Elixir",
+    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "regularLevelRequired": 5,
+    "specialAbility": "Dish Served Cold",
+    "images": {
+      "icon": "images/home/troops/lava-hound/super-icon.png"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "hitpoints": 7500,
+        "townHallRequired": 7,
+        "pupsOnOffense": 6,
+        "pupsOnDefense": 6,
+        "freezeTime": 3.75,
+        "stats": { "normal": { "dps": 2, "damagePerShot": 4 } },
+        "images": { "normal": "images/home/troops/lava-hound/super/level-1.png" }
+      },
+      {
+        "level": 2,
+        "hitpoints": 8000,
+        "townHallRequired": 9,
+        "pupsOnOffense": 7,
+        "pupsOnDefense": 7,
+        "freezeTime": 3.75,
+        "stats": { "normal": { "dps": 4, "damagePerShot": 8 } },
+        "images": { "normal": "images/home/troops/lava-hound/super/level-1.png" }
+      },
+      {
+        "level": 3,
+        "hitpoints": 8500,
+        "townHallRequired": 10,
+        "pupsOnOffense": 8,
+        "pupsOnDefense": 8,
+        "freezeTime": 3.75,
+        "stats": { "normal": { "dps": 6, "damagePerShot": 12 } },
+        "images": { "normal": "images/home/troops/lava-hound/super/level-1.png" }
+      },
+      {
+        "level": 4,
+        "hitpoints": 9000,
+        "townHallRequired": 11,
+        "pupsOnOffense": 9,
+        "pupsOnDefense": 9,
+        "freezeTime": 3.75,
+        "stats": { "normal": { "dps": 8, "damagePerShot": 16 } },
+        "images": { "normal": "images/home/troops/lava-hound/super/level-1.png" }
+      },
+      {
+        "level": 5,
+        "hitpoints": 9500,
+        "townHallRequired": 12,
+        "pupsOnOffense": 10,
+        "pupsOnDefense": 10,
+        "freezeTime": 3.75,
+        "stats": { "normal": { "dps": 10, "damagePerShot": 20 } },
+        "images": { "normal": "images/home/troops/lava-hound/super/level-1.png" }
+      },
+      {
+        "level": 6,
+        "hitpoints": 10000,
+        "townHallRequired": 13,
+        "pupsOnOffense": 12,
+        "pupsOnDefense": 11,
+        "freezeTime": 4.25,
+        "stats": { "normal": { "dps": 15, "damagePerShot": 30 } },
+        "images": { "normal": "images/home/troops/lava-hound/super/level-1.png" }
+      },
+      {
+        "level": 7,
+        "hitpoints": 10500,
+        "townHallRequired": 16,
+        "pupsOnOffense": 14,
+        "pupsOnDefense": 12,
+        "freezeTime": 4.75,
+        "stats": { "normal": { "dps": 20, "damagePerShot": 40 } },
+        "images": { "normal": "images/home/troops/lava-hound/super/level-1.png" }
+      },
+      {
+        "level": 8,
+        "hitpoints": 11500,
+        "townHallRequired": 18,
+        "pupsOnOffense": 16,
+        "pupsOnDefense": 13,
+        "freezeTime": 5.25,
+        "stats": { "normal": { "dps": 25, "damagePerShot": 50 } },
+        "images": { "normal": "images/home/troops/lava-hound/super/level-1.png" }
+      }
+    ]
+  }
+}
