@@ -11,6 +11,7 @@ import { electroTitanData } from './electro-titan';
 import { giantData } from './giant';
 import { goblinData } from './goblin';
 import { healerData } from './healer';
+import { meteorGolemData } from './meteor-golem';
 import { minerData } from './miner';
 import { pekkaData } from './pekka';
 import { rootRiderData } from './root-rider';
@@ -38,6 +39,7 @@ const allTroops: HomeTroop[] = [
   electroTitanData,
   rootRiderData,
   throwerData,
+  meteorGolemData,
 ];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
@@ -116,6 +118,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   thrower(): HomeVillageTroops {
     return new HomeVillageTroops([throwerData]);
+  }
+
+  meteorGolem(): HomeVillageTroops {
+    return new HomeVillageTroops([meteorGolemData]);
   }
 
   // Category filters

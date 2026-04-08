@@ -1,0 +1,59 @@
+{
+  "id": "meteor-golem",
+  "name": "Meteor Golem",
+  "description": "From the cosmos, to your army! This lob-loving duo will throw themselves at anything for up-close damage. When separated, Meteormites will attack nearby targets or find a friend to form a Meteor Golem!",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "damageType": "splash",
+  "targetType": "both",
+  "housingSpace": 40,
+  "movementSpeed": 12,
+  "attackSpeed": 1,
+  "range": 5,
+  "barrackLevelRequired": 19,
+  "images": {
+    "icon": "images/home/troops/meteor-golem/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 13000,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 450, "damagePerShot": 450 }
+      },
+      "images": { "normal": "images/home/troops/meteor-golem/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 14500,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 28000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 500, "damagePerShot": 500 }
+      },
+      "images": { "normal": "images/home/troops/meteor-golem/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 16000,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 30000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 550, "damagePerShot": 550 }
+      },
+      "images": { "normal": "images/home/troops/meteor-golem/normal/level-3.png" }
+    }
+  ]
+}
