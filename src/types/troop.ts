@@ -6,6 +6,7 @@ import { BuildTime, ResourceType } from './common';
 export interface HomeTroopLevelStats {
   dps?: number;
   damagePerShot?: number;
+  dpsOnHeroes?: number;
   deathDamage?: number;
   chainDamagePerShot?: number;
   healingPerSecond?: number;
@@ -30,6 +31,9 @@ export interface HomeTroopLevel {
   pupsOnDefense?: number;
   deathFreezeTimeOnOffense?: number;
   deathFreezeTimeOnDefense?: number;
+  poisonMaxDps?: number;
+  poisonSpeedDecrease?: number;
+  poisonAttackRateDecrease?: number;
   stats: {
     normal: HomeTroopLevelStats;
     enraged?: HomeTroopLevelStats;
