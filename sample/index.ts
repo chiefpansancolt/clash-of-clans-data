@@ -96,6 +96,7 @@ import './home/troops/minion';
 import './home/troops/pekka';
 import './home/troops/root-rider';
 import './home/troops/thrower';
+import './home/troops/valkyrie';
 import './home/troops/wall-breaker';
 import './home/troops/wizard';
 import './home/troops/yeti';
