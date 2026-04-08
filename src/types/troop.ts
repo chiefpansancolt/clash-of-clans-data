@@ -34,6 +34,7 @@ export interface HomeTroopLevel {
   poisonMaxDps?: number;
   poisonSpeedDecrease?: number;
   poisonAttackRateDecrease?: number;
+  auraHpIncrease?: number;
   stats: {
     normal: HomeTroopLevelStats;
     enraged?: HomeTroopLevelStats;

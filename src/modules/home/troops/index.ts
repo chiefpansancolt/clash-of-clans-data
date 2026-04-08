@@ -1,5 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeTroop } from '@/types';
+import { apprenticeWardenData } from './apprentice-warden';
 import { archerData } from './archer';
 import { babyDragonData } from './baby-dragon';
 import { balloonData } from './balloon';
@@ -30,6 +31,7 @@ import { wizardData } from './wizard';
 import { yetiData } from './yeti';
 
 const allTroops: HomeTroop[] = [
+  apprenticeWardenData,
   barbarianData,
   archerData,
   giantData,
@@ -66,6 +68,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
   }
 
   // Per-troop accessors
+  apprenticeWarden(): HomeVillageTroops {
+    return new HomeVillageTroops([apprenticeWardenData]);
+  }
+
   barbarian(): HomeVillageTroops {
     return new HomeVillageTroops([barbarianData]);
   }
