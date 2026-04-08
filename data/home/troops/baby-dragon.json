@@ -1,0 +1,283 @@
+{
+  "id": "baby-dragon",
+  "name": "Baby Dragon",
+  "description": "This fire-breathing hatchling is shy around other air units, but leave it alone and it'll throw a fit! When not around other air units, Baby Dragons become enraged and gain bonus damage and attack speed.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "regular",
+  "housingSpace": 10,
+  "movementSpeed": 20,
+  "range": 2.75,
+  "attackSpeed": 1,
+  "damageType": "splash",
+  "targetType": "both",
+  "barrackLevelRequired": 11,
+  "specialAbility": "Tantrum",
+  "images": {
+    "icon": "images/home/troops/baby-dragon/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1200,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 75, "damagePerShot": 75 },
+        "enraged": { "dps": 225, "damagePerShot": 150 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1300,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 1500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 85, "damagePerShot": 85 },
+        "enraged": { "dps": 255, "damagePerShot": 170 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1400,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 2000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 95, "damagePerShot": 95 },
+        "enraged": { "dps": 285, "damagePerShot": 190 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1500,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 2800000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 105, "damagePerShot": 105 },
+        "enraged": { "dps": 315, "damagePerShot": 210 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1600,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 3700000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 2, "hours": 18, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 115, "damagePerShot": 115 },
+        "enraged": { "dps": 345, "damagePerShot": 230 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1700,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 4800000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 125, "damagePerShot": 125 },
+        "enraged": { "dps": 375, "damagePerShot": 250 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1800,
+      "townHallRequired": 13,
+      "laboratoryRequired": 11,
+      "researchCost": 6200000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 135, "damagePerShot": 135 },
+        "enraged": { "dps": 405, "damagePerShot": 270 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 1900,
+      "townHallRequired": 14,
+      "laboratoryRequired": 12,
+      "researchCost": 9500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 145, "damagePerShot": 145 },
+        "enraged": { "dps": 435, "damagePerShot": 290 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 2000,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 11000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 155, "damagePerShot": 155 },
+        "enraged": { "dps": 465, "damagePerShot": 310 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 2100,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 13500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 7, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 165, "damagePerShot": 165 },
+        "enraged": { "dps": 495, "damagePerShot": 330 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-10.png" }
+    },
+    {
+      "level": 11,
+      "hitpoints": 2200,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 16500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 175, "damagePerShot": 175 },
+        "enraged": { "dps": 525, "damagePerShot": 350 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-11.png" }
+    },
+    {
+      "level": 12,
+      "hitpoints": 2350,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 29000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 15, "hours": 6, "minutes": 0, "seconds": 0 },
+      "stats": {
+        "normal": { "dps": 185, "damagePerShot": 185 },
+        "enraged": { "dps": 555, "damagePerShot": 370 }
+      },
+      "images": { "normal": "images/home/troops/baby-dragon/normal/level-12.png" }
+    }
+  ],
+  "superTroop": {
+    "id": "inferno-dragon",
+    "name": "Inferno Dragon",
+    "description": "Not getting upset over being alone anymore, the Inferno Dragon has learned to focus its rage into a very powerful beam that builds up over time!",
+    "housingSpace": 15,
+    "movementSpeed": 18,
+    "attackSpeed": 0.128,
+    "range": 4,
+    "boostCost": 25000,
+    "boostCostResource": "Dark Elixir",
+    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "regularLevelRequired": 6,
+    "specialAbility": "Inferno Beam",
+    "images": { "icon": "images/home/troops/baby-dragon/super-icon.png" },
+    "levels": [
+      {
+        "level": 6,
+        "hitpoints": 1900,
+        "townHallRequired": 12,
+        "stats": {
+          "normal": { "dps": 75 },
+          "stage2": { "dps": 150 },
+          "stage3": { "dps": 1500 }
+        },
+        "images": { "normal": "images/home/troops/baby-dragon/super/level-6.png" }
+      },
+      {
+        "level": 7,
+        "hitpoints": 2050,
+        "townHallRequired": 13,
+        "stats": {
+          "normal": { "dps": 79 },
+          "stage2": { "dps": 158 },
+          "stage3": { "dps": 1580 }
+        },
+        "images": { "normal": "images/home/troops/baby-dragon/super/level-6.png" }
+      },
+      {
+        "level": 8,
+        "hitpoints": 2200,
+        "townHallRequired": 14,
+        "stats": {
+          "normal": { "dps": 83 },
+          "stage2": { "dps": 166 },
+          "stage3": { "dps": 1660 }
+        },
+        "images": { "normal": "images/home/troops/baby-dragon/super/level-6.png" }
+      },
+      {
+        "level": 9,
+        "hitpoints": 2300,
+        "townHallRequired": 15,
+        "stats": {
+          "normal": { "dps": 85 },
+          "stage2": { "dps": 170 },
+          "stage3": { "dps": 1700 }
+        },
+        "images": { "normal": "images/home/troops/baby-dragon/super/level-6.png" }
+      },
+      {
+        "level": 10,
+        "hitpoints": 2400,
+        "townHallRequired": 16,
+        "stats": {
+          "normal": { "dps": 86 },
+          "stage2": { "dps": 174 },
+          "stage3": { "dps": 1740 }
+        },
+        "images": { "normal": "images/home/troops/baby-dragon/super/level-6.png" }
+      },
+      {
+        "level": 11,
+        "hitpoints": 2500,
+        "townHallRequired": 17,
+        "stats": {
+          "normal": { "dps": 88 },
+          "stage2": { "dps": 178 },
+          "stage3": { "dps": 1780 }
+        },
+        "images": { "normal": "images/home/troops/baby-dragon/super/level-6.png" }
+      },
+      {
+        "level": 12,
+        "hitpoints": 2700,
+        "townHallRequired": 18,
+        "stats": {
+          "normal": { "dps": 90 },
+          "stage2": { "dps": 182 },
+          "stage3": { "dps": 1820 }
+        },
+        "images": { "normal": "images/home/troops/baby-dragon/super/level-6.png" }
+      }
+    ]
+  }
+}

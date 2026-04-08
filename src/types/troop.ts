@@ -24,6 +24,7 @@ export interface HomeTroopLevel {
   researchTime: BuildTime;
   stats: {
     normal: HomeTroopLevelStats;
+    enraged?: HomeTroopLevelStats;
   };
   images: {
     normal: string;
@@ -36,6 +37,8 @@ export interface HomeSuperTroopLevel {
   townHallRequired?: number;
   stats: {
     normal: HomeTroopLevelStats;
+    stage2?: HomeTroopLevelStats;
+    stage3?: HomeTroopLevelStats;
   };
   images: {
     normal: string;
@@ -75,6 +78,7 @@ export interface HomeTroop {
   damageType: 'single' | 'splash' | 'area' | 'none';
   targetType: 'ground' | 'air' | 'both';
   barrackLevelRequired: number;
+  specialAbility?: string;
   images: { icon: string };
   levels: HomeTroopLevel[];
   superTroop?: HomeSuperTroop;

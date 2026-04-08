@@ -79,6 +79,7 @@ import './home/traps/tornado-trap';
 // ── Troops ────────────────────────────────────────────────────────────────────
 import './home/troops';
 import './home/troops/archer';
+import './home/troops/baby-dragon';
 import './home/troops/balloon';
 import './home/troops/barbarian';
 import './home/troops/dragon';
