@@ -1,0 +1,206 @@
+{
+  "id": "witch",
+  "name": "Witch",
+  "description": "The Witch never fights alone, constantly raising dead warriors from past battles to lead her attacks. Upgraded Witches raise more skeletons at a time.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "dark",
+  "damageType": "splash",
+  "targetType": "both",
+  "housingSpace": 12,
+  "movementSpeed": 12,
+  "attackSpeed": 0.7,
+  "range": 4,
+  "summonCooldown": 7,
+  "barrackLevelRequired": 5,
+  "images": {
+    "icon": "images/home/troops/witch/icon.png"
+  },
+  "superTroop": {
+    "id": "super-witch",
+    "name": "Super Witch",
+    "description": "Focused magic creates focused results. Instead of summoning hordes of tiny Skeletons, Super Witch summons just one really big skeleton with very formidable bone density.",
+    "damageType": "splash",
+    "targetType": "both",
+    "housingSpace": 40,
+    "movementSpeed": 12,
+    "attackSpeed": 0.7,
+    "range": 4,
+    "specialAbility": "Big Boy",
+    "boostCost": 25000,
+    "boostCostResource": "Dark Elixir",
+    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "regularLevelRequired": 5,
+    "images": {
+      "icon": "images/home/troops/witch/super-icon.png"
+    },
+    "levels": [
+      {
+        "level": 5,
+        "hitpoints": 3200,
+        "townHallRequired": 12,
+        "stats": {
+          "normal": { "dps": 360, "damagePerShot": 252 }
+        },
+        "images": { "normal": "images/home/troops/witch/super/level-5.png" }
+      },
+      {
+        "level": 6,
+        "hitpoints": 3400,
+        "townHallRequired": 15,
+        "stats": {
+          "normal": { "dps": 390, "damagePerShot": 273 }
+        },
+        "images": { "normal": "images/home/troops/witch/super/level-5.png" }
+      },
+      {
+        "level": 7,
+        "hitpoints": 3750,
+        "townHallRequired": 16,
+        "stats": {
+          "normal": { "dps": 430, "damagePerShot": 301 }
+        },
+        "images": { "normal": "images/home/troops/witch/super/level-5.png" }
+      },
+      {
+        "level": 8,
+        "hitpoints": 4100,
+        "townHallRequired": 18,
+        "stats": {
+          "normal": { "dps": 470, "damagePerShot": 329 }
+        },
+        "images": { "normal": "images/home/troops/witch/super/level-5.png" }
+      }
+    ]
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 300,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "skeletonsPerSummon": 4,
+      "maxSkeletons": 6,
+      "skeletonLevel": 1,
+      "stats": {
+        "normal": { "dps": 100, "damagePerShot": 70 }
+      },
+      "images": { "normal": "images/home/troops/witch/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 320,
+      "townHallRequired": 9,
+      "laboratoryRequired": 7,
+      "researchCost": 20000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "skeletonsPerSummon": 4,
+      "maxSkeletons": 8,
+      "skeletonLevel": 1,
+      "stats": {
+        "normal": { "dps": 110, "damagePerShot": 77 }
+      },
+      "images": { "normal": "images/home/troops/witch/normal/level-1.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 400,
+      "townHallRequired": 10,
+      "laboratoryRequired": 8,
+      "researchCost": 29000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "skeletonsPerSummon": 4,
+      "maxSkeletons": 10,
+      "skeletonLevel": 1,
+      "stats": {
+        "normal": { "dps": 140, "damagePerShot": 98 }
+      },
+      "images": { "normal": "images/home/troops/witch/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 470,
+      "townHallRequired": 11,
+      "laboratoryRequired": 9,
+      "researchCost": 45000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "skeletonsPerSummon": 4,
+      "maxSkeletons": 12,
+      "skeletonLevel": 1,
+      "stats": {
+        "normal": { "dps": 165, "damagePerShot": 115.5 }
+      },
+      "images": { "normal": "images/home/troops/witch/normal/level-3.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 520,
+      "townHallRequired": 12,
+      "laboratoryRequired": 10,
+      "researchCost": 62500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "skeletonsPerSummon": 4,
+      "maxSkeletons": 14,
+      "skeletonLevel": 1,
+      "stats": {
+        "normal": { "dps": 185, "damagePerShot": 129.5 }
+      },
+      "images": { "normal": "images/home/troops/witch/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 540,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 150000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "skeletonsPerSummon": 4,
+      "maxSkeletons": 15,
+      "skeletonLevel": 1,
+      "stats": {
+        "normal": { "dps": 200, "damagePerShot": 140 }
+      },
+      "images": { "normal": "images/home/troops/witch/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 560,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 180000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 7, "hours": 6, "minutes": 0, "seconds": 0 },
+      "skeletonsPerSummon": 5,
+      "maxSkeletons": 16,
+      "skeletonLevel": 1,
+      "stats": {
+        "normal": { "dps": 220, "damagePerShot": 154 }
+      },
+      "images": { "normal": "images/home/troops/witch/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 650,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 355000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 15, "hours": 12, "minutes": 0, "seconds": 0 },
+      "skeletonsPerSummon": 5,
+      "maxSkeletons": 16,
+      "skeletonLevel": 2,
+      "stats": {
+        "normal": { "dps": 260, "damagePerShot": 182 }
+      },
+      "images": { "normal": "images/home/troops/witch/normal/level-8.png" }
+    }
+  ]
+}

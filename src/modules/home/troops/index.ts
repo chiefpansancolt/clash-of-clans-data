@@ -21,6 +21,7 @@ import { rootRiderData } from './root-rider';
 import { throwerData } from './thrower';
 import { valkyrieData } from './valkyrie';
 import { wallBreakerData } from './wall-breaker';
+import { witchData } from './witch';
 import { wizardData } from './wizard';
 import { yetiData } from './yeti';
 
@@ -48,6 +49,7 @@ const allTroops: HomeTroop[] = [
   minionData,
   hogRiderData,
   valkyrieData,
+  witchData,
 ];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
@@ -146,6 +148,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   valkyrie(): HomeVillageTroops {
     return new HomeVillageTroops([valkyrieData]);
+  }
+
+  witch(): HomeVillageTroops {
+    return new HomeVillageTroops([witchData]);
   }
 
   // Category filters

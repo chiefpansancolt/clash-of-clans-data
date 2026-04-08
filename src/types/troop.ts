@@ -23,6 +23,9 @@ export interface HomeTroopLevel {
   researchCostResource: ResourceType;
   researchTime: BuildTime;
   golemitesSpawned?: number;
+  skeletonsPerSummon?: number;
+  maxSkeletons?: number;
+  skeletonLevel?: number;
   stats: {
     normal: HomeTroopLevelStats;
     enraged?: HomeTroopLevelStats;
@@ -84,6 +87,7 @@ export interface HomeTroop {
   auraAttackSpeed?: number;
   auraRange?: number;
   wallAttackSpeed?: number;
+  summonCooldown?: number;
   specialAbility?: string;
   images: { icon: string };
   levels: HomeTroopLevel[];
