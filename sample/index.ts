@@ -91,5 +91,6 @@ import './home/troops/miner';
 import './home/troops/pekka';
 import './home/troops/wall-breaker';
 import './home/troops/wizard';
+import './home/troops/yeti';
 // ── Walls ─────────────────────────────────────────────────────────────────────
 import './home/walls/wall';
