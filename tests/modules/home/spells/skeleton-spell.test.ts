@@ -90,16 +90,16 @@ testQueryBaseContract('home().spells().skeletonSpell()', () => home().spells().s
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with skeleton spell', () => {
-  it('has 14 spells total', () => {
-    expect(home().spells().count()).toBe(14);
+  it('has 15 spells total', () => {
+    expect(home().spells().count()).toBe(15);
   });
 
   it('byType("regular") returns 10 spells', () => {
     expect(home().spells().byType('regular').count()).toBe(10);
   });
 
-  it('byType("dark") returns 4 spells', () => {
-    expect(home().spells().byType('dark').count()).toBe(4);
+  it('byType("dark") returns 5 spells', () => {
+    expect(home().spells().byType('dark').count()).toBe(5);
   });
 
   it('byTownHall(9) includes skeleton spell', () => {

@@ -1,5 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeSpell } from '@/types';
+import { batSpellData } from './bat-spell';
 import { cloneSpellData } from './clone-spell';
 import { earthquakeSpellData } from './earthquake-spell';
 import { freezeSpellData } from './freeze-spell';
@@ -30,6 +31,7 @@ const allSpells: HomeSpell[] = [
   poisonSpellData,
   totemSpellData,
   skeletonSpellData,
+  batSpellData,
 ];
 
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
@@ -92,6 +94,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   skeletonSpell(): HomeVillageSpells {
     return new HomeVillageSpells([skeletonSpellData]);
+  }
+
+  batSpell(): HomeVillageSpells {
+    return new HomeVillageSpells([batSpellData]);
   }
 
   // Category filters

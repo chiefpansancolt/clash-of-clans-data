@@ -90,8 +90,8 @@ testQueryBaseContract('home().spells().totemSpell()', () => home().spells().tote
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with totem spell', () => {
-  it('has 13 spells total', () => {
-    expect(home().spells().count()).toBe(14);
+  it('has 15 spells total', () => {
+    expect(home().spells().count()).toBe(15);
   });
 
   it('byType("regular") returns 10 spells', () => {

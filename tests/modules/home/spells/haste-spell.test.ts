@@ -91,16 +91,16 @@ testQueryBaseContract('home().spells().hasteSpell()', () => home().spells().hast
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with haste spell', () => {
-  it('has 13 spells total', () => {
-    expect(home().spells().count()).toBe(14);
+  it('has 15 spells total', () => {
+    expect(home().spells().count()).toBe(15);
   });
 
   it('byType("regular") returns 10 spells', () => {
     expect(home().spells().byType('regular').count()).toBe(10);
   });
 
-  it('byType("dark") returns 3 spells', () => {
-    expect(home().spells().byType('dark').count()).toBe(4);
+  it('byType("dark") returns 5 spells', () => {
+    expect(home().spells().byType('dark').count()).toBe(5);
   });
 
   it('byTownHall(9) includes haste spell', () => {

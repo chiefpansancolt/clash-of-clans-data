@@ -1,0 +1,97 @@
+{
+  "id": "bat-spell",
+  "name": "Bat Spell",
+  "description": "Summon an army of Bats anywhere on the battlefield! Deploy aerial reinforcements wherever you need them most. Bats do not trigger Traps.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "dark",
+  "radius": 3.5,
+  "housingSpace": 1,
+  "spellFactoryLevelRequired": 5,
+  "targetType": "defenses",
+  "batStats": {
+    "preferredTarget": "Defenses",
+    "attackType": "Air",
+    "movementSpeed": 56,
+    "attackSpeed": 2,
+    "range": 0.8,
+    "damagePerSecond": 30,
+    "damageVsResources": 0.4,
+    "hitpoints": 20
+  },
+  "images": { "icon": "images/home/spells/bat-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "batsGenerated": 7,
+      "laboratoryRequired": 0,
+      "townHallRequired": 10,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "batsGenerated": 9,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 13000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "batsGenerated": 11,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 25500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "batsGenerated": 16,
+      "laboratoryRequired": 9,
+      "townHallRequired": 11,
+      "researchCost": 35000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "batsGenerated": 21,
+      "laboratoryRequired": 10,
+      "townHallRequired": 12,
+      "researchCost": 47500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "batsGenerated": 22,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 140000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "batsGenerated": 23,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 220000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "batsGenerated": 25,
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 300000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 13, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

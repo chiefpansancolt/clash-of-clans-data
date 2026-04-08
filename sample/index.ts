@@ -65,6 +65,7 @@ import './home/resource-buildings/elixir-storage';
 import './home/resource-buildings/gold-mine';
 import './home/resource-buildings/gold-storage';
 // ── Spells ────────────────────────────────────────────────────────────────────
+import './home/spells/bat-spell';
 import './home/spells/clone-spell';
 import './home/spells/earthquake-spell';
 import './home/spells/freeze-spell';

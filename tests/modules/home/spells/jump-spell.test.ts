@@ -91,8 +91,8 @@ testQueryBaseContract('home().spells().jumpSpell()', () => home().spells().jumpS
 // ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with jump spell', () => {
-  it('has 13 spells total', () => {
-    expect(home().spells().count()).toBe(14);
+  it('has 15 spells total', () => {
+    expect(home().spells().count()).toBe(15);
   });
 
   it('byType("regular") returns 10 spells', () => {

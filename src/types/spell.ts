@@ -20,6 +20,7 @@ export interface HomeSpellLevel {
   buildingDamagePercent?: number;
   troopDamagePercent?: number;
   skeletonsGenerated?: number;
+  batsGenerated?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;
@@ -38,6 +39,17 @@ export interface SkeletonStats {
   armorHitpoints: number;
 }
 
+export interface BatStats {
+  preferredTarget: string;
+  attackType: string;
+  movementSpeed: number;
+  attackSpeed: number;
+  range: number;
+  damagePerSecond: number;
+  damageVsResources: number;
+  hitpoints: number;
+}
+
 export interface HomeSpell {
   id: string;
   name: string;
@@ -46,13 +58,14 @@ export interface HomeSpell {
   category: 'spell';
   spellType: 'regular' | 'dark';
   skeletonStats?: SkeletonStats;
+  batStats?: BatStats;
   radius?: number;
   housingSpace: number;
   spellFactoryLevelRequired: number;
   stunTime?: number;
   numberOfPulses?: number;
   timeBetweenPulses?: number;
-  targetType?: 'ground' | 'air' | 'both';
+  targetType?: 'ground' | 'air' | 'both' | 'defenses';
   boostTime?: number;
   spellDuration?: number;
   clonedLifespan?: number;
