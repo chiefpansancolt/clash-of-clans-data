@@ -1,0 +1,67 @@
+{
+  "id": "furnace",
+  "name": "Furnace",
+  "description": "The Furnace doesn't move, but it does spawn Firemites over time that target Buildings. These curious little guys leave pools of fire where they visit!",
+  "base": "home",
+  "category": "troop",
+  "troopType": "dark",
+  "housingSpace": 18,
+  "movementSpeed": 0,
+  "lifetime": 60,
+  "damageType": "none",
+  "targetType": "ground",
+  "barrackLevelRequired": 12,
+  "images": {
+    "icon": "images/home/troops/furnace/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1530,
+      "townHallRequired": 1,
+      "laboratoryRequired": 0,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "firemitesSpawned": 19,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/home/troops/furnace/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1620,
+      "townHallRequired": 15,
+      "laboratoryRequired": 13,
+      "researchCost": 200000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "firemitesSpawned": 20,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/home/troops/furnace/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1710,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 260000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "firemitesSpawned": 21,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/home/troops/furnace/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1800,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 320000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 },
+      "firemitesSpawned": 22,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/home/troops/furnace/normal/level-4.png" }
+    }
+  ]
+}

@@ -31,6 +31,7 @@ export interface HomeTroopLevel {
   pupsOnDefense?: number;
   deathFreezeTimeOnOffense?: number;
   deathFreezeTimeOnDefense?: number;
+  firemitesSpawned?: number;
   poisonMaxDps?: number;
   poisonSpeedDecrease?: number;
   poisonAttackRateDecrease?: number;
@@ -91,11 +92,12 @@ export interface HomeTroop {
   troopType: 'regular' | 'dark';
   housingSpace: number;
   movementSpeed: number;
-  range: number;
-  attackSpeed: number;
+  range?: number;
+  attackSpeed?: number;
   damageType: 'single' | 'splash' | 'area' | 'chain' | 'none';
   targetType: 'ground' | 'air' | 'both';
   barrackLevelRequired: number;
+  lifetime?: number;
   auraAttackSpeed?: number;
   auraRange?: number;
   wallAttackSpeed?: number;

@@ -164,23 +164,23 @@ describe('troops()', () => {
     expect(home().troops()).toBeInstanceOf(HomeVillageTroops);
   });
 
-  it('has 30 troops total', () => {
-    expect(home().troops().count()).toBe(30);
+  it('has 31 troops total', () => {
+    expect(home().troops().count()).toBe(31);
   });
 
   it('byType("regular") returns 19 troops', () => {
     expect(home().troops().byType('regular').count()).toBe(19);
   });
 
-  it('byType("dark") returns 11 troops', () => {
-    expect(home().troops().byType('dark').count()).toBe(11);
+  it('byType("dark") returns 12 troops', () => {
+    expect(home().troops().byType('dark').count()).toBe(12);
   });
 
   it('withSuperTroop() returns 17 troops', () => {
     expect(home().troops().withSuperTroop().count()).toBe(17);
   });
 
-  it('byTownHall(1) returns 30 troops (all L1 troops use TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).count()).toBe(30);
+  it('byTownHall(1) returns 31 troops (all L1 troops use TH1 convention)', () => {
+    expect(home().troops().byTownHall(1).count()).toBe(31);
   });
 });
