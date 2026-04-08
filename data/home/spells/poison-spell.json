@@ -1,0 +1,148 @@
+{
+  "id": "poison-spell",
+  "name": "Poison Spell",
+  "description": "Give your army the upper hand against enemy troops with this deadly poison! Defending units that linger in a Poison Spell's toxic cloud will move slower, attack slower and take damage with increasing severity over time. Poison Spells do not affect structures.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "dark",
+  "radius": 4,
+  "housingSpace": 1,
+  "spellFactoryLevelRequired": 1,
+  "spellDuration": 16,
+  "targetType": "both",
+  "images": { "icon": "images/home/spells/poison-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "maxDamagePerSecond": 90,
+      "speedDecrease": 26,
+      "attackRateDecrease": 35,
+      "laboratoryRequired": 0,
+      "townHallRequired": 8,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "maxDamagePerSecond": 115,
+      "speedDecrease": 30,
+      "attackRateDecrease": 40,
+      "laboratoryRequired": 6,
+      "townHallRequired": 8,
+      "researchCost": 5000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "maxDamagePerSecond": 145,
+      "speedDecrease": 34,
+      "attackRateDecrease": 45,
+      "laboratoryRequired": 7,
+      "townHallRequired": 9,
+      "researchCost": 10000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "maxDamagePerSecond": 180,
+      "speedDecrease": 38,
+      "attackRateDecrease": 50,
+      "laboratoryRequired": 8,
+      "townHallRequired": 10,
+      "researchCost": 21500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "maxDamagePerSecond": 220,
+      "speedDecrease": 40,
+      "attackRateDecrease": 55,
+      "laboratoryRequired": 9,
+      "townHallRequired": 11,
+      "researchCost": 35000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "maxDamagePerSecond": 260,
+      "speedDecrease": 42,
+      "attackRateDecrease": 60,
+      "laboratoryRequired": 10,
+      "townHallRequired": 12,
+      "researchCost": 55000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "maxDamagePerSecond": 280,
+      "speedDecrease": 44,
+      "attackRateDecrease": 65,
+      "laboratoryRequired": 11,
+      "townHallRequired": 13,
+      "researchCost": 77500,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "maxDamagePerSecond": 300,
+      "speedDecrease": 46,
+      "attackRateDecrease": 68,
+      "laboratoryRequired": 12,
+      "townHallRequired": 14,
+      "researchCost": 100000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 9,
+      "maxDamagePerSecond": 320,
+      "speedDecrease": 48,
+      "attackRateDecrease": 70,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 135000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 10,
+      "maxDamagePerSecond": 340,
+      "speedDecrease": 50,
+      "attackRateDecrease": 72,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 175000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 11,
+      "maxDamagePerSecond": 360,
+      "speedDecrease": 51,
+      "attackRateDecrease": 73,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 230000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 9, "hours": 16, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 12,
+      "maxDamagePerSecond": 380,
+      "speedDecrease": 52,
+      "attackRateDecrease": 74,
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 350000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": { "days": 14, "hours": 12, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

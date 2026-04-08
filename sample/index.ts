@@ -71,6 +71,7 @@ import './home/spells/healing-spell';
 import './home/spells/invisibility-spell';
 import './home/spells/jump-spell';
 import './home/spells/lightning-spell';
+import './home/spells/poison-spell';
 import './home/spells/rage-spell';
 import './home/spells/recall-spell';
 import './home/spells/revive-spell';

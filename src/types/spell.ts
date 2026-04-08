@@ -13,6 +13,9 @@ export interface HomeSpellLevel {
   recalledCapacity?: number;
   heroHealPercent?: number;
   totemHitpoints?: number;
+  maxDamagePerSecond?: number;
+  speedDecrease?: number;
+  attackRateDecrease?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;

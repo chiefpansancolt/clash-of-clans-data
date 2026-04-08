@@ -6,6 +6,7 @@ import { healingSpellData } from './healing-spell';
 import { invisibilitySpellData } from './invisibility-spell';
 import { jumpSpellData } from './jump-spell';
 import { lightningSpellData } from './lightning-spell';
+import { poisonSpellData } from './poison-spell';
 import { rageSpellData } from './rage-spell';
 import { recallSpellData } from './recall-spell';
 import { reviveSpellData } from './revive-spell';
@@ -21,6 +22,7 @@ const allSpells: HomeSpell[] = [
   invisibilitySpellData,
   recallSpellData,
   reviveSpellData,
+  poisonSpellData,
   totemSpellData,
 ];
 
@@ -64,6 +66,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   reviveSpell(): HomeVillageSpells {
     return new HomeVillageSpells([reviveSpellData]);
+  }
+
+  poisonSpell(): HomeVillageSpells {
+    return new HomeVillageSpells([poisonSpellData]);
   }
 
   totemSpell(): HomeVillageSpells {
