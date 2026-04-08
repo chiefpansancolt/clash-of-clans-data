@@ -11,6 +11,7 @@ export interface HomeSpellLevel {
   spellDuration?: number;
   clonedCapacity?: number;
   recalledCapacity?: number;
+  heroHealPercent?: number;
   laboratoryRequired: number;
   townHallRequired: number;
   researchCost: number;

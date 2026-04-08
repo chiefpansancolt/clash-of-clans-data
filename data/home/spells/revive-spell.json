@@ -1,0 +1,59 @@
+{
+  "id": "revive-spell",
+  "name": "Revive Spell",
+  "description": "The Healer's own special recipe! The Revive Spell brings a defeated Hero in its range back into the fight with some health. Bring this Spell into battle, and a floating golden heart will appear above any defeated Hero that can be revived. Upgrade the Revive Spell to increase the amount of health Heroes regain.",
+  "base": "home",
+  "category": "spell",
+  "spellType": "regular",
+  "radius": 8,
+  "housingSpace": 2,
+  "spellFactoryLevelRequired": 8,
+  "images": { "icon": "images/home/spells/revive-spell/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "heroHealPercent": 60,
+      "laboratoryRequired": 0,
+      "townHallRequired": 12,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "heroHealPercent": 65,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 18000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "heroHealPercent": 70,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 19000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 10, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "heroHealPercent": 75,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 20000000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 11, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "heroHealPercent": 80,
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 29500000,
+      "researchCostResource": "Elixir",
+      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

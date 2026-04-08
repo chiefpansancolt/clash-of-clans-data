@@ -8,6 +8,7 @@ import { jumpSpellData } from './jump-spell';
 import { lightningSpellData } from './lightning-spell';
 import { rageSpellData } from './rage-spell';
 import { recallSpellData } from './recall-spell';
+import { reviveSpellData } from './revive-spell';
 
 const allSpells: HomeSpell[] = [
   lightningSpellData,
@@ -18,6 +19,7 @@ const allSpells: HomeSpell[] = [
   cloneSpellData,
   invisibilitySpellData,
   recallSpellData,
+  reviveSpellData,
 ];
 
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
@@ -56,6 +58,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   recallSpell(): HomeVillageSpells {
     return new HomeVillageSpells([recallSpellData]);
+  }
+
+  reviveSpell(): HomeVillageSpells {
+    return new HomeVillageSpells([reviveSpellData]);
   }
 
   // Category filters
