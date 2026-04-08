@@ -14,6 +14,7 @@ import { goblinData } from './goblin';
 import { golemData } from './golem';
 import { healerData } from './healer';
 import { hogRiderData } from './hog-rider';
+import { iceGolemData } from './ice-golem';
 import { lavaHoundData } from './lava-hound';
 import { meteorGolemData } from './meteor-golem';
 import { minerData } from './miner';
@@ -54,6 +55,7 @@ const allTroops: HomeTroop[] = [
   witchData,
   lavaHoundData,
   bowlerData,
+  iceGolemData,
 ];
 
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
@@ -164,6 +166,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   bowler(): HomeVillageTroops {
     return new HomeVillageTroops([bowlerData]);
+  }
+
+  iceGolem(): HomeVillageTroops {
+    return new HomeVillageTroops([iceGolemData]);
   }
 
   // Category filters

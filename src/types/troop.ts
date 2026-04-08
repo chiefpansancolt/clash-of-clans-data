@@ -28,6 +28,8 @@ export interface HomeTroopLevel {
   skeletonLevel?: number;
   pupsOnOffense?: number;
   pupsOnDefense?: number;
+  deathFreezeTimeOnOffense?: number;
+  deathFreezeTimeOnDefense?: number;
   stats: {
     normal: HomeTroopLevelStats;
     enraged?: HomeTroopLevelStats;
@@ -93,6 +95,9 @@ export interface HomeTroop {
   auraRange?: number;
   wallAttackSpeed?: number;
   summonCooldown?: number;
+  preferredTarget?: string;
+  freezeRadiusOnOffense?: number;
+  freezeRadiusOnDefense?: number;
   specialAbility?: string;
   images: { icon: string };
   levels: HomeTroopLevel[];
