@@ -1,8 +1,6 @@
 import { home, HomeVillagePets } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Poison Lizard ────────────────────────────────────────────────────────────
-
 describe('poisonLizard()', () => {
   it('returns a HomePet', () => {
     const p = home().pets().poisonLizard().first()!;
@@ -120,11 +118,7 @@ describe('poisonLizard()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().pets().poisonLizard()', () => home().pets().poisonLizard());
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byPetHouse(7)',

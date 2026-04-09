@@ -10,7 +10,6 @@ export class HomeVillageGuardians extends QueryBase<Guardian> {
     super(data);
   }
 
-  // Per-building accessors
   longshot(): HomeVillageGuardians {
     return new HomeVillageGuardians([longshotData]);
   }
@@ -18,7 +17,6 @@ export class HomeVillageGuardians extends QueryBase<Guardian> {
     return new HomeVillageGuardians([smasherData]);
   }
 
-  // Category filters
   /** Filter to a specific guardian variant by type (e.g. 'longshot', 'smasher'). */
   byGuardianType(type: string): HomeVillageGuardians {
     return new HomeVillageGuardians(this.data.filter((g) => g.guardianType === type));

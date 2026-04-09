@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Electro Titan troop ──────────────────────────────────────────────────────
-
 describe('electroTitan()', () => {
   it('returns a HomeTroop', () => {
     const et = home().troops().electroTitan().first()!;
@@ -113,8 +111,6 @@ describe('electroTitan()', () => {
     expect(home().troops().electroTitan()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with electroTitan', () => {
   it('byType("regular") includes electro-titan', () => {

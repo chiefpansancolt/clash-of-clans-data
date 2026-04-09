@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Minion troop ─────────────────────────────────────────────────────────────
-
 describe('minion()', () => {
   it('returns a HomeTroop', () => {
     const m = home().troops().minion().first()!;
@@ -102,8 +100,6 @@ describe('minion()', () => {
   });
 });
 
-// ─── Super Minion ─────────────────────────────────────────────────────────────
-
 describe('superTroop (Super Minion)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().minion().first()!.superTroop!;
@@ -163,8 +159,6 @@ describe('superTroop (Super Minion)', () => {
     expect(paths.size).toBe(1);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with minion', () => {
   it('byType("dark") includes minion', () => {

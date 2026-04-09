@@ -16,7 +16,6 @@ const ab = home().armyBuildings();
 log('=== home().armyBuildings() ===');
 log('');
 
-// --- Army Camp ---
 const armyCamp = ab.armyCamp().first()!;
 log(`--- ${armyCamp.name} ---`);
 log(`id: ${armyCamp.id} | size: ${armyCamp.size} | levels: ${armyCamp.levels.length}`);
@@ -36,7 +35,6 @@ for (const l of armyCamp.levels) {
 }
 log('');
 
-// --- Barracks ---
 const barracks = ab.barracks().first()!;
 log(`--- ${barracks.name} ---`);
 log(`id: ${barracks.id} | size: ${barracks.size} | levels: ${barracks.levels.length}`);
@@ -46,7 +44,6 @@ for (const l of barracks.levels) {
 }
 log('');
 
-// --- Dark Barracks ---
 const darkBarracks = ab.darkBarracks().first()!;
 log(`--- ${darkBarracks.name} ---`);
 log(`id: ${darkBarracks.id} | size: ${darkBarracks.size} | levels: ${darkBarracks.levels.length}`);
@@ -56,7 +53,6 @@ for (const l of darkBarracks.levels) {
 }
 log('');
 
-// --- Spell Factory ---
 const spellFactory = ab.spellFactory().first()!;
 log(`--- ${spellFactory.name} ---`);
 log(`id: ${spellFactory.id} | size: ${spellFactory.size} | levels: ${spellFactory.levels.length}`);
@@ -69,7 +65,6 @@ for (const l of spellFactory.levels) {
 }
 log('');
 
-// --- Dark Spell Factory ---
 const darkSpellFactory = ab.darkSpellFactory().first()!;
 log(`--- ${darkSpellFactory.name} ---`);
 log(
@@ -84,7 +79,6 @@ for (const l of darkSpellFactory.levels) {
 }
 log('');
 
-// --- Laboratory ---
 const laboratory = ab.laboratory().first()!;
 log(`--- ${laboratory.name} ---`);
 log(`id: ${laboratory.id} | size: ${laboratory.size} | levels: ${laboratory.levels.length}`);
@@ -94,7 +88,6 @@ for (const l of laboratory.levels) {
 }
 log('');
 
-// --- Blacksmith ---
 const blacksmith = ab.blacksmith().first()!;
 log(`--- ${blacksmith.name} ---`);
 log(`id: ${blacksmith.id} | size: ${blacksmith.size} | levels: ${blacksmith.levels.length}`);
@@ -109,7 +102,6 @@ for (const l of blacksmith.levels) {
 }
 log('');
 
-// --- Workshop ---
 const workshop = ab.workshop().first()!;
 log(`--- ${workshop.name} ---`);
 log(`id: ${workshop.id} | size: ${workshop.size} | levels: ${workshop.levels.length}`);
@@ -121,7 +113,6 @@ for (const l of workshop.levels) {
 }
 log('');
 
-// --- Pet House ---
 const petHouse = ab.petHouse().first()!;
 log(`--- ${petHouse.name} ---`);
 log(`id: ${petHouse.id} | size: ${petHouse.size} | levels: ${petHouse.levels.length}`);
@@ -131,7 +122,6 @@ for (const l of petHouse.levels) {
 }
 log('');
 
-// --- Hero Hall ---
 const heroHall = ab.heroHall().first()!;
 log(`--- ${heroHall.name} ---`);
 log(`id: ${heroHall.id} | size: ${heroHall.size} | levels: ${heroHall.levels.length}`);
@@ -143,14 +133,12 @@ for (const l of heroHall.levels) {
 }
 log('');
 
-// --- Hero Banner ---
 const heroBanner = ab.heroBanner().first()!;
 log(`--- ${heroBanner.name} ---`);
 log(`id: ${heroBanner.id} | size: ${heroBanner.size}`);
 log('Image variants: ' + Object.keys(heroBanner.images).join(', '));
 log('');
 
-// --- byTownHall(12) on army camp ---
 log('--- armyCamp byTownHall(12) ---');
 for (const b of ab.byTownHall(12).get()) {
   const avail = b.availablePerTownHall.find((a) => a.townHallLevel === 12);

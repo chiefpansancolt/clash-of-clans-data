@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Thrower troop ────────────────────────────────────────────────────────────
-
 describe('thrower()', () => {
   it('returns a HomeTroop', () => {
     const t = home().troops().thrower().first()!;
@@ -98,8 +96,6 @@ describe('thrower()', () => {
     expect(home().troops().thrower()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with thrower', () => {
   it('byType("regular") includes thrower', () => {

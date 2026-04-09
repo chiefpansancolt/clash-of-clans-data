@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Valkyrie troop ───────────────────────────────────────────────────────────
-
 describe('valkyrie()', () => {
   it('returns a HomeTroop', () => {
     const v = home().troops().valkyrie().first()!;
@@ -102,8 +100,6 @@ describe('valkyrie()', () => {
   });
 });
 
-// ─── Super Valkyrie ───────────────────────────────────────────────────────────
-
 describe('superTroop (Super Valkyrie)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().valkyrie().first()!.superTroop!;
@@ -163,8 +159,6 @@ describe('superTroop (Super Valkyrie)', () => {
     expect(paths.size).toBe(1);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with valkyrie', () => {
   it('byType("dark") includes valkyrie', () => {

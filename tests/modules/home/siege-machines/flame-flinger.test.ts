@@ -1,8 +1,6 @@
 import { home, HomeVillageSiegeMachines } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Flame Flinger ────────────────────────────────────────────────────────────
-
 describe('flameFlinger()', () => {
   it('returns a SiegeMachine', () => {
     const m = home().siegeMachines().flameFlinger().first()!;
@@ -95,13 +93,9 @@ describe('flameFlinger()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().siegeMachines().flameFlinger()', () =>
   home().siegeMachines().flameFlinger(),
 );
-
-// ─── siegeMachines() namespace ────────────────────────────────────────────────
 
 describe('siegeMachines() namespace', () => {
   it('has 8 siege machines', () => {
@@ -124,8 +118,6 @@ describe('siegeMachines() namespace', () => {
     expect(home().siegeMachines().byTownHall(14).find('flame-flinger')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byWorkshop(6)',

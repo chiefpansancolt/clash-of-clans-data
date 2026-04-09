@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Furnace troop ────────────────────────────────────────────────────────────
-
 describe('furnace()', () => {
   it('returns a HomeTroop', () => {
     const f = home().troops().furnace().first()!;
@@ -101,8 +99,6 @@ describe('furnace()', () => {
     expect(home().troops().furnace()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with furnace', () => {
   it('byType("dark") includes furnace', () => {

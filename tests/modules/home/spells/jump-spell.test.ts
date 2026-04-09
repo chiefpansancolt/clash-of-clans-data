@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Jump Spell ───────────────────────────────────────────────────────────────
-
 describe('jumpSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().jumpSpell().first()!;
@@ -84,11 +82,7 @@ describe('jumpSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().jumpSpell()', () => home().spells().jumpSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with jump spell', () => {
   it('has 17 spells total', () => {
@@ -107,8 +101,6 @@ describe('spells() with jump spell', () => {
     expect(home().spells().byTownHall(7).find('jump-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("regular")',

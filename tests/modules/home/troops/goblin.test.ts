@@ -1,8 +1,6 @@
 import { home } from '@/modules/home';
 import { HomeVillageTroops } from '@/modules/home';
 
-// ─── Goblin troop ─────────────────────────────────────────────────────────────
-
 describe('goblin()', () => {
   it('returns a HomeTroop', () => {
     const g = home().troops().goblin().first()!;
@@ -100,8 +98,6 @@ describe('goblin()', () => {
   });
 });
 
-// ─── Sneaky Goblin ────────────────────────────────────────────────────────────
-
 describe('superTroop (Sneaky Goblin)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().goblin().first()!.superTroop!;
@@ -164,8 +160,6 @@ describe('superTroop (Sneaky Goblin)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with goblin', () => {
   it('byType("regular") includes goblin', () => {

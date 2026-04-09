@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Hog Rider troop ──────────────────────────────────────────────────────────
-
 describe('hogRider()', () => {
   it('returns a HomeTroop', () => {
     const h = home().troops().hogRider().first()!;
@@ -103,8 +101,6 @@ describe('hogRider()', () => {
   });
 });
 
-// ─── Super Hog Rider ──────────────────────────────────────────────────────────
-
 describe('superTroop (Super Hog Rider)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().hogRider().first()!.superTroop!;
@@ -166,8 +162,6 @@ describe('superTroop (Super Hog Rider)', () => {
     expect(paths.size).toBe(1);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with hog rider', () => {
   it('byType("dark") includes hog-rider', () => {

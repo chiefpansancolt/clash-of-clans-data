@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Totem Spell ──────────────────────────────────────────────────────────────
-
 describe('totemSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().totemSpell().first()!;
@@ -83,11 +81,7 @@ describe('totemSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().totemSpell()', () => home().spells().totemSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with totem spell', () => {
   it('has 17 spells total', () => {
@@ -106,8 +100,6 @@ describe('spells() with totem spell', () => {
     expect(home().spells().byTownHall(12).find('totem-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("regular")',

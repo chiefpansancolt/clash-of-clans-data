@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Miner troop ──────────────────────────────────────────────────────────────
-
 describe('miner()', () => {
   it('returns a HomeTroop', () => {
     const m = home().troops().miner().first()!;
@@ -132,8 +130,6 @@ describe('miner()', () => {
   });
 });
 
-// ─── Super Miner (Super Troop) ────────────────────────────────────────────────
-
 describe('superTroop (Super Miner)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().miner().first()!.superTroop!;
@@ -217,8 +213,6 @@ describe('superTroop (Super Miner)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with miner', () => {
   it('byType("regular") includes miner', () => {

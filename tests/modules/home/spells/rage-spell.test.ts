@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Rage Spell ───────────────────────────────────────────────────────────────
-
 describe('rageSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().rageSpell().first()!;
@@ -90,11 +88,7 @@ describe('rageSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().rageSpell()', () => home().spells().rageSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with rage spell', () => {
   it('has 17 spells total', () => {
@@ -113,8 +107,6 @@ describe('spells() with rage spell', () => {
     expect(home().spells().byTownHall(6).find('rage-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("regular")',

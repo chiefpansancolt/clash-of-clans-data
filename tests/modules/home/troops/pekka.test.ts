@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── P.E.K.K.A troop ──────────────────────────────────────────────────────────
-
 describe('pekka()', () => {
   it('returns a HomeTroop', () => {
     const p = home().troops().pekka().first()!;
@@ -142,8 +140,6 @@ describe('pekka()', () => {
     expect(home().troops().pekka()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with pekka', () => {
   it('byType("regular") includes pekka', () => {

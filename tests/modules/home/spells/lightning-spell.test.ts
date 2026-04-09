@@ -2,8 +2,6 @@ import { home } from '@/modules/home';
 import { HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Lightning Spell ──────────────────────────────────────────────────────────
-
 describe('lightningSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().lightningSpell().first()!;
@@ -91,11 +89,7 @@ describe('lightningSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().lightningSpell()', () => home().spells().lightningSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells()', () => {
   it('returns a HomeVillageSpells instance', () => {
@@ -122,8 +116,6 @@ describe('spells()', () => {
     expect(home().spells().byTownHall(4).find('lightning-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("regular")',

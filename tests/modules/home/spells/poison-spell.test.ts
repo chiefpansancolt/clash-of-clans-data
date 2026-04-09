@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Poison Spell ─────────────────────────────────────────────────────────────
-
 describe('poisonSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().poisonSpell().first()!;
@@ -91,11 +89,7 @@ describe('poisonSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().poisonSpell()', () => home().spells().poisonSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with poison spell', () => {
   it('has 17 spells total', () => {
@@ -118,8 +112,6 @@ describe('spells() with poison spell', () => {
     expect(home().spells().byTownHall(7).find('poison-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("dark")',

@@ -2,8 +2,6 @@
  * Runs all sample scripts. Each writes its output to its own output.txt file.
  * Run with: pnpm sample
  */
-// ── Defenses ──────────────────────────────────────────────────────────────────
-// ── Army Buildings ────────────────────────────────────────────────────────────
 import './home/army-buildings';
 import './home/army-buildings/army-camp';
 import './home/army-buildings/barracks';
@@ -16,7 +14,6 @@ import './home/army-buildings/laboratory';
 import './home/army-buildings/pet-house';
 import './home/army-buildings/spell-factory';
 import './home/army-buildings/workshop';
-// ── Crafted Defenses ──────────────────────────────────────────────────────────
 import './home/crafted-defenses/air-bombs';
 import './home/crafted-defenses/bomb-hive';
 import './home/crafted-defenses/crusher-mortar';
@@ -49,10 +46,8 @@ import './home/defenses/spell-tower';
 import './home/defenses/super-wizard-tower';
 import './home/defenses/wizard-tower';
 import './home/defenses/x-bow';
-// ── Guardians ─────────────────────────────────────────────────────────────────
 import './home/guardians/longshot';
 import './home/guardians/smasher';
-// ── Heroes ────────────────────────────────────────────────────────────────────
 import './home/heroes';
 import './home/heroes/archer-queen';
 import './home/heroes/barbarian-king';
@@ -60,10 +55,8 @@ import './home/heroes/dragon-duke';
 import './home/heroes/grand-warden';
 import './home/heroes/minion-prince';
 import './home/heroes/royal-champion';
-// ── Other ─────────────────────────────────────────────────────────────────────
 import './home/other/bobs-hut';
 import './home/other/helper-hut';
-// ── Pets ──────────────────────────────────────────────────────────────────────
 import './home/pets';
 import './home/pets/angry-jelly';
 import './home/pets/diggy';
@@ -77,7 +70,6 @@ import './home/pets/poison-lizard';
 import './home/pets/sneezy';
 import './home/pets/spirit-fox';
 import './home/pets/unicorn';
-// ── Resource Buildings ────────────────────────────────────────────────────────
 import './home/resource-buildings';
 import './home/resource-buildings/clan-castle';
 import './home/resource-buildings/dark-elixir-drill';
@@ -86,7 +78,7 @@ import './home/resource-buildings/elixir-collector';
 import './home/resource-buildings/elixir-storage';
 import './home/resource-buildings/gold-mine';
 import './home/resource-buildings/gold-storage';
-// ── Siege Machines ────────────────────────────────────────────────────────────
+import './home/siege-machines';
 import './home/siege-machines/battle-blimp';
 import './home/siege-machines/battle-drill';
 import './home/siege-machines/flame-flinger';
@@ -95,7 +87,6 @@ import './home/siege-machines/siege-barracks';
 import './home/siege-machines/stone-slammer';
 import './home/siege-machines/troop-launcher';
 import './home/siege-machines/wall-wrecker';
-// ── Spells ────────────────────────────────────────────────────────────────────
 import './home/spells';
 import './home/spells/bat-spell';
 import './home/spells/clone-spell';
@@ -114,9 +105,7 @@ import './home/spells/recall-spell';
 import './home/spells/revive-spell';
 import './home/spells/skeleton-spell';
 import './home/spells/totem-spell';
-// ── Town Hall ─────────────────────────────────────────────────────────────────
 import './home/town-hall';
-// ── Traps ─────────────────────────────────────────────────────────────────────
 import './home/traps';
 import './home/traps/air-bomb';
 import './home/traps/bomb';
@@ -126,7 +115,6 @@ import './home/traps/seeking-air-mine';
 import './home/traps/skeleton-trap';
 import './home/traps/spring-trap';
 import './home/traps/tornado-trap';
-// ── Troops ────────────────────────────────────────────────────────────────────
 import './home/troops';
 import './home/troops/apprentice-warden';
 import './home/troops/archer';
@@ -159,5 +147,4 @@ import './home/troops/wall-breaker';
 import './home/troops/witch';
 import './home/troops/wizard';
 import './home/troops/yeti';
-// ── Walls ─────────────────────────────────────────────────────────────────────
 import './home/walls/wall';

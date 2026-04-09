@@ -1,8 +1,6 @@
 import { home } from '@/modules/home';
 import { HomeVillageTroops } from '@/modules/home';
 
-// ─── Wizard troop ─────────────────────────────────────────────────────────────
-
 describe('wizard()', () => {
   it('returns a HomeTroop', () => {
     const w = home().troops().wizard().first()!;
@@ -119,8 +117,6 @@ describe('wizard()', () => {
   });
 });
 
-// ─── Super Troop: Super Wizard ────────────────────────────────────────────────
-
 describe('superTroop (Super Wizard)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().wizard().first()!.superTroop!;
@@ -185,8 +181,6 @@ describe('superTroop (Super Wizard)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with wizard', () => {
   it('byType("regular") includes wizard', () => {

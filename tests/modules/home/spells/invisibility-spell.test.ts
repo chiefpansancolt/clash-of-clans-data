@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Invisibility Spell ───────────────────────────────────────────────────────
-
 describe('invisibilitySpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().invisibilitySpell().first()!;
@@ -85,13 +83,9 @@ describe('invisibilitySpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().invisibilitySpell()', () =>
   home().spells().invisibilitySpell(),
 );
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with invisibility spell', () => {
   it('has 17 spells total', () => {
@@ -110,8 +104,6 @@ describe('spells() with invisibility spell', () => {
     expect(home().spells().byTownHall(9).find('invisibility-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("regular")',

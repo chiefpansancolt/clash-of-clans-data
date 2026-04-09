@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Freeze Spell ─────────────────────────────────────────────────────────────
-
 describe('freezeSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().freezeSpell().first()!;
@@ -85,11 +83,7 @@ describe('freezeSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().freezeSpell()', () => home().spells().freezeSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with freeze spell', () => {
   it('has 17 spells total', () => {
@@ -108,8 +102,6 @@ describe('spells() with freeze spell', () => {
     expect(home().spells().byTownHall(7).find('freeze-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("regular")',

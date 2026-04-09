@@ -53,7 +53,6 @@ export class HomeVillageDefenses extends QueryBase<HomeDefense> {
     super(data);
   }
 
-  // Per-building accessors
   cannon(): HomeVillageDefenses {
     return new HomeVillageDefenses([cannonData]);
   }
@@ -121,7 +120,6 @@ export class HomeVillageDefenses extends QueryBase<HomeDefense> {
     return new HomeVillageDefenses([craftingStationData]);
   }
 
-  // Category filters
   /** Filter to a specific building by name (case-insensitive). */
   byBuilding(name: string): HomeVillageDefenses {
     const q = name.toLowerCase();

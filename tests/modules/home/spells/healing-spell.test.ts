@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Healing Spell ────────────────────────────────────────────────────────────
-
 describe('healingSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().healingSpell().first()!;
@@ -103,11 +101,7 @@ describe('healingSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().healingSpell()', () => home().spells().healingSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with healing spell', () => {
   it('has 17 spells total', () => {
@@ -134,8 +128,6 @@ describe('spells() with healing spell', () => {
     expect(home().spells().byTownHall(5).find('lightning-spell')).toBeDefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("regular")',

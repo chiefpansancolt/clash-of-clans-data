@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Dragon Rider troop ───────────────────────────────────────────────────────
-
 describe('dragonRider()', () => {
   it('returns a HomeTroop', () => {
     const dr = home().troops().dragonRider().first()!;
@@ -109,8 +107,6 @@ describe('dragonRider()', () => {
     expect(home().troops().dragonRider()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with dragonRider', () => {
   it('byType("regular") includes dragon-rider', () => {

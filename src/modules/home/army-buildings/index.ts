@@ -89,7 +89,6 @@ export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
     super(data);
   }
 
-  // Per-building accessors
   armyCamp(): HomeVillageArmyBuildings {
     return new HomeVillageArmyBuildings([armyCampData]);
   }
@@ -134,7 +133,6 @@ export class HomeVillageArmyBuildings extends QueryBase<HomeArmyBuilding> {
     return new HomeVillagePetHouse([petHouseData]);
   }
 
-  // Category filters
   /** Filter to army buildings available (count > 0) at the given Town Hall level. */
   byTownHall(level: number): HomeVillageArmyBuildings {
     return new HomeVillageArmyBuildings(

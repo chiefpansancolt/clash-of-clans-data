@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Yeti troop ───────────────────────────────────────────────────────────────
-
 describe('yeti()', () => {
   it('returns a HomeTroop', () => {
     const y = home().troops().yeti().first()!;
@@ -95,8 +93,6 @@ describe('yeti()', () => {
   });
 });
 
-// ─── Super Yeti ───────────────────────────────────────────────────────────────
-
 describe('superTroop (Super Yeti)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().yeti().first()!.superTroop!;
@@ -156,8 +152,6 @@ describe('superTroop (Super Yeti)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with yeti', () => {
   it('byType("regular") includes yeti', () => {

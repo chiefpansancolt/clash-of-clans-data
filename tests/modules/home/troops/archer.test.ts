@@ -1,8 +1,6 @@
 import { home } from '@/modules/home';
 import { HomeVillageTroops } from '@/modules/home';
 
-// ─── Archer troop ──────────────────────────────────────────────────────────────
-
 describe('archer()', () => {
   it('returns a HomeTroop', () => {
     const a = home().troops().archer().first()!;
@@ -100,8 +98,6 @@ describe('archer()', () => {
   });
 });
 
-// ─── Super Archer ─────────────────────────────────────────────────────────────
-
 describe('superTroop (Super Archer)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().archer().first()!.superTroop!;
@@ -164,8 +160,6 @@ describe('superTroop (Super Archer)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with archer', () => {
   it('byType("regular") includes archer', () => {

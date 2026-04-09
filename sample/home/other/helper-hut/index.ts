@@ -21,7 +21,6 @@ function checkImage(label: string, imagePath: string): boolean {
 
 const ob = home().otherBuildings();
 
-// --- Helper Hut building ---
 const hh = ob.helperHut().first()!;
 log('=== helperHut() ===');
 log(`id: ${hh.id} | name: ${hh.name} | size: ${hh.size} | levels: ${hh.levels.length}`);
@@ -32,7 +31,6 @@ checkImage('normal', hh.levels[0].images.normal);
 checkImage('active', hh.levels[0].images.active);
 log('');
 
-// --- helpers() namespace ---
 const helpers = ob.helpers();
 log('=== helpers() ===');
 log(`total helpers: ${helpers.count()}`);
@@ -43,7 +41,6 @@ for (const h of helpers.get()) {
 }
 log('');
 
-// --- Lab Assistant ---
 const la = helpers.labAssistant().first()!;
 log('--- Lab Assistant ---');
 log('Level  Work Rate  Upgrade Cost  TH');
@@ -55,7 +52,6 @@ for (const l of la.levels) {
 checkImage('lab-assistant', la.images.normal);
 log('');
 
-// --- Builder's Apprentice ---
 const ba = helpers.buildersApprentice().first()!;
 log("--- Builder's Apprentice ---");
 log('Level  Work Rate  Upgrade Cost  TH');
@@ -67,7 +63,6 @@ for (const l of ba.levels) {
 checkImage('builders-apprentice', ba.images.normal);
 log('');
 
-// --- Alchemist ---
 const al = helpers.alchemist().first()!;
 log('--- Alchemist ---');
 log('Level  Gold/Elixir Max  Dark Elixir Max  Bonus%  Upgrade Cost  TH');
@@ -79,7 +74,6 @@ for (const l of al.levels) {
 checkImage('alchemist', al.images.normal);
 log('');
 
-// --- Prospector ---
 const pr = helpers.prospector().first()!;
 log('--- Prospector ---');
 log('Level  Shiny Max  Glowy Max  Starry Max  TH');
@@ -91,7 +85,6 @@ for (const l of pr.levels) {
 checkImage('prospector', pr.images.normal);
 log('');
 
-// --- byTownHall ---
 log('--- helpers().byTownHall(10) ---');
 for (const h of helpers.byTownHall(10).get()) {
   log(`  ${h.name}`);

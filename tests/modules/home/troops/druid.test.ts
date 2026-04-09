@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Druid troop ──────────────────────────────────────────────────────────────
-
 describe('druid()', () => {
   it('returns a HomeTroop', () => {
     const d = home().troops().druid().first()!;
@@ -125,8 +123,6 @@ describe('druid()', () => {
     expect(home().troops().druid()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with druid', () => {
   it('byType("dark") includes druid', () => {

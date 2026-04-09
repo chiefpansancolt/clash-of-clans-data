@@ -9,12 +9,10 @@ export class HomeVillageWalls extends QueryBase<HomeWall> {
     super(data);
   }
 
-  // Per-building accessor
   wall(): HomeVillageWalls {
     return new HomeVillageWalls([wallData]);
   }
 
-  // Category filters
   /** Filter to walls available (count > 0) at the given Town Hall level. */
   byTownHall(level: number): HomeVillageWalls {
     return new HomeVillageWalls(

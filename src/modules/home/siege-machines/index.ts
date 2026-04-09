@@ -25,7 +25,6 @@ export class HomeVillageSiegeMachines extends QueryBase<SiegeMachine> {
     super(data);
   }
 
-  // Per-machine accessors
   wallWrecker(): HomeVillageSiegeMachines {
     return new HomeVillageSiegeMachines([wallWreckerData]);
   }
@@ -58,7 +57,6 @@ export class HomeVillageSiegeMachines extends QueryBase<SiegeMachine> {
     return new HomeVillageSiegeMachines([troopLauncherData]);
   }
 
-  // Category filters
   byWorkshop(level: number): HomeVillageSiegeMachines {
     return new HomeVillageSiegeMachines(this.data.filter((m) => m.workshopLevelRequired <= level));
   }

@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Recall Spell ─────────────────────────────────────────────────────────────
-
 describe('recallSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().recallSpell().first()!;
@@ -79,11 +77,7 @@ describe('recallSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().recallSpell()', () => home().spells().recallSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with recall spell', () => {
   it('has 17 spells total', () => {
@@ -102,8 +96,6 @@ describe('spells() with recall spell', () => {
     expect(home().spells().byTownHall(10).find('recall-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("regular")',

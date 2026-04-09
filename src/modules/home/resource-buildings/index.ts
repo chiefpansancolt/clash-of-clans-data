@@ -28,7 +28,6 @@ export class HomeVillageResourceBuildings extends QueryBase<HomeResourceBuilding
     super(data);
   }
 
-  // Per-building accessors
   goldMine(): HomeVillageResourceBuildings {
     return new HomeVillageResourceBuildings([goldMineData]);
   }
@@ -57,7 +56,6 @@ export class HomeVillageResourceBuildings extends QueryBase<HomeResourceBuilding
     return new HomeVillageClanCastle([clanCastleData]);
   }
 
-  // Category filters
   /** Filter to resource buildings available (count > 0) at the given Town Hall level. */
   byTownHall(level: number): HomeVillageResourceBuildings {
     return new HomeVillageResourceBuildings(

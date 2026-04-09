@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Headhunter troop ─────────────────────────────────────────────────────────
-
 describe('headhunter()', () => {
   it('returns a HomeTroop', () => {
     const hh = home().troops().headhunter().first()!;
@@ -115,8 +113,6 @@ describe('headhunter()', () => {
     expect(home().troops().headhunter()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with headhunter', () => {
   it('byType("dark") includes headhunter', () => {

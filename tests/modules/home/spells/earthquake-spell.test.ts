@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Earthquake Spell ─────────────────────────────────────────────────────────
-
 describe('earthquakeSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().earthquakeSpell().first()!;
@@ -97,11 +95,7 @@ describe('earthquakeSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().earthquakeSpell()', () => home().spells().earthquakeSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with earthquake spell', () => {
   it('has 17 spells total', () => {
@@ -124,8 +118,6 @@ describe('spells() with earthquake spell', () => {
     expect(home().spells().byTownHall(7).find('earthquake-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("dark")',

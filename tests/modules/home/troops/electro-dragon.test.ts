@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Electro Dragon troop ─────────────────────────────────────────────────────
-
 describe('electroDragon()', () => {
   it('returns a HomeTroop', () => {
     const ed = home().troops().electroDragon().first()!;
@@ -116,8 +114,6 @@ describe('electroDragon()', () => {
     expect(home().troops().electroDragon()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with electroDragon', () => {
   it('byType("regular") includes electro-dragon', () => {

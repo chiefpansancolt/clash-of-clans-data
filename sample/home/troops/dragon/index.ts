@@ -89,7 +89,7 @@ for (const lvl of d.levels) {
   if (checkImage(`lv${lvl.level} normal`, lvl.images.normal)) passed++;
   else failed++;
 }
-// Super dragon levels all share one sprite — check unique paths
+
 const superPaths = new Set(st.levels.map((l) => l.images.normal));
 for (const p of superPaths) {
   if (checkImage('super normal', p)) passed++;

@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Overgrowth Spell ─────────────────────────────────────────────────────────
-
 describe('overgrowthSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().overgrowthSpell().first()!;
@@ -70,11 +68,7 @@ describe('overgrowthSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().overgrowthSpell()', () => home().spells().overgrowthSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with overgrowth spell', () => {
   it('has 17 spells total', () => {
@@ -97,8 +91,6 @@ describe('spells() with overgrowth spell', () => {
     expect(home().spells().byTownHall(10).find('overgrowth-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("dark")',

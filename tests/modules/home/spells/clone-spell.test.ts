@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Clone Spell ──────────────────────────────────────────────────────────────
-
 describe('cloneSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().cloneSpell().first()!;
@@ -84,11 +82,7 @@ describe('cloneSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().cloneSpell()', () => home().spells().cloneSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with clone spell', () => {
   it('has 17 spells total', () => {
@@ -107,8 +101,6 @@ describe('spells() with clone spell', () => {
     expect(home().spells().byTownHall(8).find('clone-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("regular")',

@@ -1,8 +1,6 @@
 import { home, HomeVillagePets } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Electro Owl ──────────────────────────────────────────────────────────────
-
 describe('electroOwl()', () => {
   it('returns a HomePet', () => {
     const p = home().pets().electroOwl().first()!;
@@ -107,11 +105,7 @@ describe('electroOwl()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().pets().electroOwl()', () => home().pets().electroOwl());
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byPetHouse(2)',

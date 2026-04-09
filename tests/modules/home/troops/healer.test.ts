@@ -1,8 +1,6 @@
 import { home } from '@/modules/home';
 import { HomeVillageTroops } from '@/modules/home';
 
-// ─── Healer troop ─────────────────────────────────────────────────────────────
-
 describe('healer()', () => {
   it('returns a HomeTroop', () => {
     const h = home().troops().healer().first()!;
@@ -122,8 +120,6 @@ describe('healer()', () => {
     expect(home().troops().healer()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with healer', () => {
   it('byType("regular") includes healer', () => {

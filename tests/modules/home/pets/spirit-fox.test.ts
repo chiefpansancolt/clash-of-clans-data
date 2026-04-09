@@ -1,8 +1,6 @@
 import { home, HomeVillagePets } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Spirit Fox ───────────────────────────────────────────────────────────────
-
 describe('spiritFox()', () => {
   it('returns a HomePet', () => {
     const p = home().pets().spiritFox().first()!;
@@ -84,11 +82,7 @@ describe('spiritFox()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().pets().spiritFox()', () => home().pets().spiritFox());
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byPetHouse(9)',

@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Ice Block Spell ──────────────────────────────────────────────────────────
-
 describe('iceBlockSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().iceBlockSpell().first()!;
@@ -73,11 +71,7 @@ describe('iceBlockSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().iceBlockSpell()', () => home().spells().iceBlockSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with ice block spell', () => {
   it('has 17 spells total', () => {
@@ -100,8 +94,6 @@ describe('spells() with ice block spell', () => {
     expect(home().spells().byTownHall(11).find('ice-block-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("dark")',

@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Apprentice Warden troop ──────────────────────────────────────────────────
-
 describe('apprenticeWarden()', () => {
   it('returns a HomeTroop', () => {
     const aw = home().troops().apprenticeWarden().first()!;
@@ -105,8 +103,6 @@ describe('apprenticeWarden()', () => {
     expect(home().troops().apprenticeWarden()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with apprentice warden', () => {
   it('byType("dark") includes apprentice warden', () => {

@@ -1,8 +1,6 @@
 import { home, HomeVillagePets } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── L.A.S.S.I ────────────────────────────────────────────────────────────────
-
 describe('lassi()', () => {
   it('returns a HomePet', () => {
     const p = home().pets().lassi().first()!;
@@ -105,11 +103,7 @@ describe('lassi()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().pets().lassi()', () => home().pets().lassi());
-
-// ─── pets() namespace ─────────────────────────────────────────────────────────
 
 describe('pets() namespace', () => {
   it('has 12 pets', () => {
@@ -132,8 +126,6 @@ describe('pets() namespace', () => {
     expect(home().pets().byTownHall(13).find('lassi')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byPetHouse(1)',

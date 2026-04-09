@@ -1,8 +1,6 @@
 import { home } from '@/modules/home';
 import { HomeVillageTroops } from '@/modules/home';
 
-// ─── Balloon troop ────────────────────────────────────────────────────────────
-
 describe('balloon()', () => {
   it('returns a HomeTroop', () => {
     const b = home().troops().balloon().first()!;
@@ -110,8 +108,6 @@ describe('balloon()', () => {
   });
 });
 
-// ─── Super Troop: Rocket Balloon ──────────────────────────────────────────────
-
 describe('superTroop (Rocket Balloon)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().balloon().first()!.superTroop!;
@@ -176,8 +172,6 @@ describe('superTroop (Rocket Balloon)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with balloon', () => {
   it('byType("regular") includes balloon', () => {

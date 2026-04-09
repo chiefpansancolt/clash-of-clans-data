@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Root Rider troop ─────────────────────────────────────────────────────────
-
 describe('rootRider()', () => {
   it('returns a HomeTroop', () => {
     const rr = home().troops().rootRider().first()!;
@@ -101,8 +99,6 @@ describe('rootRider()', () => {
     expect(home().troops().rootRider()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with rootRider', () => {
   it('byType("regular") includes root-rider', () => {

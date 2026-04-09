@@ -1,8 +1,6 @@
 import { home, HomeVillageSiegeMachines } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Log Launcher ─────────────────────────────────────────────────────────────
-
 describe('logLauncher()', () => {
   it('returns a SiegeMachine', () => {
     const m = home().siegeMachines().logLauncher().first()!;
@@ -94,13 +92,9 @@ describe('logLauncher()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().siegeMachines().logLauncher()', () =>
   home().siegeMachines().logLauncher(),
 );
-
-// ─── siegeMachines() namespace ────────────────────────────────────────────────
 
 describe('siegeMachines() namespace', () => {
   it('has 8 siege machines', () => {
@@ -123,8 +117,6 @@ describe('siegeMachines() namespace', () => {
     expect(home().siegeMachines().byTownHall(13).find('log-launcher')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byWorkshop(5)',

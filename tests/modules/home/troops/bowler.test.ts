@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Bowler troop ─────────────────────────────────────────────────────────────
-
 describe('bowler()', () => {
   it('returns a HomeTroop', () => {
     const b = home().troops().bowler().first()!;
@@ -113,8 +111,6 @@ describe('bowler()', () => {
   });
 });
 
-// ─── Super Bowler ─────────────────────────────────────────────────────────────
-
 describe('superTroop (Super Bowler)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().bowler().first()!.superTroop!;
@@ -183,8 +179,6 @@ describe('superTroop (Super Bowler)', () => {
     expect(paths.size).toBe(1);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with bowler', () => {
   it('byType("dark") includes bowler', () => {

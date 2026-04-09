@@ -34,7 +34,6 @@ export class HomeVillageCraftedDefenses extends QueryBase<CraftedDefense> {
     super(data);
   }
 
-  // Per-building accessors
   hookTower(): HomeVillageCraftedDefenses {
     return new HomeVillageCraftedDefenses([hookTowerData]);
   }
@@ -63,7 +62,6 @@ export class HomeVillageCraftedDefenses extends QueryBase<CraftedDefense> {
     return new HomeVillageCraftedDefenses([lavaLauncherData]);
   }
 
-  // Category filters
   /** Filter to a specific crafting phase (1, 2, 3, …). */
   byPhase(phase: number): HomeVillageCraftedDefenses {
     return new HomeVillageCraftedDefenses(this.data.filter((d) => d.craftingPhase === phase));

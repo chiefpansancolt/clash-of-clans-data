@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Witch troop ──────────────────────────────────────────────────────────────
-
 describe('witch()', () => {
   it('returns a HomeTroop', () => {
     const w = home().troops().witch().first()!;
@@ -124,8 +122,6 @@ describe('witch()', () => {
   });
 });
 
-// ─── Super Witch ──────────────────────────────────────────────────────────────
-
 describe('superTroop (Super Witch)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().witch().first()!.superTroop!;
@@ -185,8 +181,6 @@ describe('superTroop (Super Witch)', () => {
     expect(paths.size).toBe(1);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with witch', () => {
   it('byType("dark") includes witch', () => {

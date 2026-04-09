@@ -25,7 +25,6 @@ export class HomeVillageTraps extends QueryBase<HomeTrap> {
     super(data);
   }
 
-  // Per-building accessors
   bomb(): HomeVillageTraps {
     return new HomeVillageTraps([bombData]);
   }
@@ -51,7 +50,6 @@ export class HomeVillageTraps extends QueryBase<HomeTrap> {
     return new HomeVillageTraps([gigaBombData]);
   }
 
-  // Category filters
   /** Filter to a specific trap by name (case-insensitive). */
   byTrap(name: string): HomeVillageTraps {
     const q = name.toLowerCase();

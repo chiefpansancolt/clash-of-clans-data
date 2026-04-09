@@ -43,7 +43,6 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
     super(data);
   }
 
-  // Per-spell accessors
   lightningSpell(): HomeVillageSpells {
     return new HomeVillageSpells([lightningSpellData]);
   }
@@ -112,7 +111,6 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
     return new HomeVillageSpells([iceBlockSpellData]);
   }
 
-  // Category filters
   byType(type: 'regular' | 'dark'): HomeVillageSpells {
     return new HomeVillageSpells(this.data.filter((s) => s.spellType === type));
   }

@@ -1,8 +1,6 @@
 import { home, HomeVillageHeroes } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Minion Prince ────────────────────────────────────────────────────────────
-
 describe('minionPrince()', () => {
   it('returns a HomeHero', () => {
     const h = home().heroes().minionPrince().first()!;
@@ -89,11 +87,7 @@ describe('minionPrince()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().heroes().minionPrince()', () => home().heroes().minionPrince());
-
-// ─── heroes() namespace ───────────────────────────────────────────────────────
 
 describe('heroes() namespace', () => {
   it('has 6 heroes', () => {
@@ -108,8 +102,6 @@ describe('heroes() namespace', () => {
     expect(home().heroes().byHeroHall(2).find('minion-prince')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byHeroHall(3)',

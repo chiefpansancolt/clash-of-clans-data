@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Lava Hound troop ─────────────────────────────────────────────────────────
-
 describe('lavaHound()', () => {
   it('returns a HomeTroop', () => {
     const lh = home().troops().lavaHound().first()!;
@@ -121,8 +119,6 @@ describe('lavaHound()', () => {
   });
 });
 
-// ─── Ice Hound super troop ────────────────────────────────────────────────────
-
 describe('superTroop (Ice Hound)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().lavaHound().first()!.superTroop!;
@@ -211,8 +207,6 @@ describe('superTroop (Ice Hound)', () => {
     expect(paths.size).toBe(1);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with lavaHound', () => {
   it('byType("dark") includes lava-hound', () => {

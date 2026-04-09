@@ -1,8 +1,6 @@
 import { home, HomeVillageHeroes } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Barbarian King ───────────────────────────────────────────────────────────
-
 describe('barbarianKing()', () => {
   it('returns a HomeHero', () => {
     const h = home().heroes().barbarianKing().first()!;
@@ -89,11 +87,7 @@ describe('barbarianKing()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().heroes().barbarianKing()', () => home().heroes().barbarianKing());
-
-// ─── heroes() namespace ───────────────────────────────────────────────────────
 
 describe('heroes() namespace', () => {
   it('has 6 heroes', () => {
@@ -108,8 +102,6 @@ describe('heroes() namespace', () => {
     expect(home().heroes().byHeroHall(0).find('barbarian-king')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byHeroHall(1)',

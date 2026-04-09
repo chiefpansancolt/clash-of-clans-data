@@ -33,7 +33,6 @@ export class HomeVillagePets extends QueryBase<HomePet> {
     super(data);
   }
 
-  // Per-pet accessors
   lassi(): HomeVillagePets {
     return new HomeVillagePets([lassiData]);
   }
@@ -82,7 +81,6 @@ export class HomeVillagePets extends QueryBase<HomePet> {
     return new HomeVillagePets([greedyRavenData]);
   }
 
-  // Category filters
   byPetHouse(level: number): HomeVillagePets {
     return new HomeVillagePets(this.data.filter((p) => p.petHouseLevelRequired <= level));
   }

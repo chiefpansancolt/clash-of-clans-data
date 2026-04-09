@@ -1,8 +1,6 @@
 import { home } from '@/modules/home';
 import { HomeVillageTroops } from '@/modules/home';
 
-// ─── Barbarian troop ──────────────────────────────────────────────────────────
-
 describe('barbarian()', () => {
   it('returns a HomeTroop', () => {
     const b = home().troops().barbarian().first()!;
@@ -96,8 +94,6 @@ describe('barbarian()', () => {
   });
 });
 
-// ─── Super Barbarian ──────────────────────────────────────────────────────────
-
 describe('superTroop (Super Barbarian)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().barbarian().first()!.superTroop!;
@@ -156,8 +152,6 @@ describe('superTroop (Super Barbarian)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops()', () => {
   it('returns a HomeVillageTroops instance', () => {

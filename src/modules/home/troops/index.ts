@@ -71,7 +71,6 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
     super(data);
   }
 
-  // Per-troop accessors
   apprenticeWarden(): HomeVillageTroops {
     return new HomeVillageTroops([apprenticeWardenData]);
   }
@@ -196,7 +195,6 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
     return new HomeVillageTroops([headhunterData]);
   }
 
-  // Category filters
   byType(type: 'regular' | 'dark'): HomeVillageTroops {
     return new HomeVillageTroops(this.data.filter((t) => t.troopType === type));
   }

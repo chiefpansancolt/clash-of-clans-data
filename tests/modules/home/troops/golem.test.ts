@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Golem troop ──────────────────────────────────────────────────────────────
-
 describe('golem()', () => {
   it('returns a HomeTroop', () => {
     const g = home().troops().golem().first()!;
@@ -123,8 +121,6 @@ describe('golem()', () => {
     expect(home().troops().golem()).toBeInstanceOf(HomeVillageTroops);
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with golem', () => {
   it('byType("dark") includes golem', () => {

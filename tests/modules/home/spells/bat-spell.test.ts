@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Bat Spell ────────────────────────────────────────────────────────────────
-
 describe('batSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().batSpell().first()!;
@@ -83,11 +81,7 @@ describe('batSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().batSpell()', () => home().spells().batSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with bat spell', () => {
   it('has 17 spells total', () => {
@@ -110,8 +104,6 @@ describe('spells() with bat spell', () => {
     expect(home().spells().byTownHall(9).find('bat-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("dark")',

@@ -1,8 +1,6 @@
 import { home } from '@/modules/home';
 import { HomeVillageTroops } from '@/modules/home';
 
-// ─── Giant troop ───────────────────────────────────────────────────────────────
-
 describe('giant()', () => {
   it('returns a HomeTroop', () => {
     const g = home().troops().giant().first()!;
@@ -100,8 +98,6 @@ describe('giant()', () => {
   });
 });
 
-// ─── Super Giant ──────────────────────────────────────────────────────────────
-
 describe('superTroop (Super Giant)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().giant().first()!.superTroop!;
@@ -164,8 +160,6 @@ describe('superTroop (Super Giant)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with giant', () => {
   it('byType("regular") includes giant', () => {

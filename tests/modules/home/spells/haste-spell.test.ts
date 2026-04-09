@@ -1,8 +1,6 @@
 import { home, HomeVillageSpells } from '@/modules/home';
 import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
-// ─── Haste Spell ──────────────────────────────────────────────────────────────
-
 describe('hasteSpell()', () => {
   it('returns a HomeSpell', () => {
     const s = home().spells().hasteSpell().first()!;
@@ -84,11 +82,7 @@ describe('hasteSpell()', () => {
   });
 });
 
-// ─── QueryBase contract ───────────────────────────────────────────────────────
-
 testQueryBaseContract('home().spells().hasteSpell()', () => home().spells().hasteSpell());
-
-// ─── spells() namespace ───────────────────────────────────────────────────────
 
 describe('spells() with haste spell', () => {
   it('has 17 spells total', () => {
@@ -111,8 +105,6 @@ describe('spells() with haste spell', () => {
     expect(home().spells().byTownHall(8).find('haste-spell')).toBeUndefined();
   });
 });
-
-// ─── Filter immutability ──────────────────────────────────────────────────────
 
 testFilterImmutability(
   'byType("dark")',

@@ -1,8 +1,6 @@
 import { home } from '@/modules/home';
 import { HomeVillageTroops } from '@/modules/home';
 
-// ─── Wall Breaker troop ───────────────────────────────────────────────────────
-
 describe('wallBreaker()', () => {
   it('returns a HomeTroop', () => {
     const wb = home().troops().wallBreaker().first()!;
@@ -103,8 +101,6 @@ describe('wallBreaker()', () => {
   });
 });
 
-// ─── Super Wall Breaker ───────────────────────────────────────────────────────
-
 describe('superTroop (Super Wall Breaker)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().wallBreaker().first()!.superTroop!;
@@ -169,8 +165,6 @@ describe('superTroop (Super Wall Breaker)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with wallBreaker', () => {
   it('byType("regular") includes wallBreaker', () => {

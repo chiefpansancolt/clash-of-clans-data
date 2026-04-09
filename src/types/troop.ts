@@ -1,8 +1,6 @@
 import { Building, BuildingLevel } from './building';
 import { BuildTime, DonationCost, ResourceType } from './common';
 
-// ── Home Village Troops ───────────────────────────────────────────────────
-
 export interface HomeTroopLevelStats {
   dps?: number;
   damagePerShot?: number;
@@ -114,8 +112,6 @@ export interface HomeTroop {
   superTroop?: HomeSuperTroop;
 }
 
-// ── Builder Base Troops (typed for future implementation) ─────────────────
-
 export interface TroopModeStats {
   dps: number;
   damagePerShot: number;
@@ -142,8 +138,6 @@ export interface BuilderTroop extends Building<BuilderTroopLevel> {
   targetType: 'ground' | 'air' | 'both';
   housingSpace: number;
 }
-
-// ── Clan Capital Troops (typed for future implementation) ─────────────────
 
 export interface ClanCapitalTroopLevel extends BuildingLevel {
   districtHallRequired: number;

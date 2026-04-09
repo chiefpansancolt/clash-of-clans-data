@@ -1,7 +1,5 @@
 import { home, HomeVillageTroops } from '@/modules/home';
 
-// ─── Baby Dragon troop ────────────────────────────────────────────────────────
-
 describe('babyDragon()', () => {
   it('returns a HomeTroop', () => {
     const bd = home().troops().babyDragon().first()!;
@@ -130,8 +128,6 @@ describe('babyDragon()', () => {
   });
 });
 
-// ─── Inferno Dragon (Super Troop) ─────────────────────────────────────────────
-
 describe('superTroop (Inferno Dragon)', () => {
   it('has a super troop defined', () => {
     const st = home().troops().babyDragon().first()!.superTroop!;
@@ -212,8 +208,6 @@ describe('superTroop (Inferno Dragon)', () => {
     });
   });
 });
-
-// ─── troops() namespace ───────────────────────────────────────────────────────
 
 describe('troops() with babyDragon', () => {
   it('byType("regular") includes baby-dragon', () => {

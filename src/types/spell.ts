@@ -76,7 +76,6 @@ export interface HomeSpell {
   levels: HomeSpellLevel[];
 }
 
-// Placeholder for future Clan Capital spell implementation
 export interface ClanCapitalSpellLevel {
   level: number;
   districtHallRequired: number;

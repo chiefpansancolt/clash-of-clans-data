@@ -86,7 +86,6 @@ export class HomeVillageOtherBuildings extends QueryBase<HomeOtherBuilding> {
     super(data);
   }
 
-  // Per-building accessors
   bobsHut(): HomeVillageOtherBuildings {
     return new HomeVillageOtherBuildings([bobsHutData]);
   }
@@ -99,7 +98,6 @@ export class HomeVillageOtherBuildings extends QueryBase<HomeOtherBuilding> {
     return new HomeVillageHelpers();
   }
 
-  // Category filters
   byTownHall(level: number): HomeVillageOtherBuildings {
     return new HomeVillageOtherBuildings(
       this.data.filter((b) =>

@@ -25,12 +25,10 @@ export interface HomeHelperHutBuilding extends Building<HomeHelperHutBuildingLev
   availablePerTownHall: TownHallAvailability[];
 }
 
-// Helpers — non-building characters that live in the Helper Hut.
-// They are upgraded with Gems (not build resources) and have no hitpoints.
 export interface HomeHelperLevel {
   level: number;
   townHallRequired: number;
-  upgradeCost: number; // Gems
+  upgradeCost: number;
 }
 
 export interface HomeHelper<L extends HomeHelperLevel = HomeHelperLevel> {

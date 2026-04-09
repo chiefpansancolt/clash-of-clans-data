@@ -8,8 +8,6 @@ import {
   HomeVillageProspector,
 } from '@/modules/home';
 
-// ─── Helper Hut building ──────────────────────────────────────────────────────
-
 describe('helperHut()', () => {
   it('returns a HomeHelperHutBuilding', () => {
     const hh = home().otherBuildings().helperHut().first()!;
@@ -74,8 +72,6 @@ describe('helperHut()', () => {
   });
 });
 
-// ─── helpers() namespace ─────────────────────────────────────────────────────
-
 describe('helpers()', () => {
   it('returns a HomeVillageHelpers instance', () => {
     expect(home().otherBuildings().helpers()).toBeInstanceOf(HomeVillageHelpers);
@@ -97,8 +93,6 @@ describe('helpers()', () => {
     expect(home().otherBuildings().helpers().byTownHall(11).count()).toBe(4);
   });
 });
-
-// ─── Lab Assistant ────────────────────────────────────────────────────────────
 
 describe('labAssistant()', () => {
   it('returns a HomeLabAssistantHelper', () => {
@@ -153,8 +147,6 @@ describe('labAssistant()', () => {
   });
 });
 
-// ─── Builder's Apprentice ─────────────────────────────────────────────────────
-
 describe('buildersApprentice()', () => {
   it('returns a HomeBuilderApprenticeHelper', () => {
     const ba = home().otherBuildings().helpers().buildersApprentice().first()!;
@@ -185,8 +177,6 @@ describe('buildersApprentice()', () => {
     );
   });
 });
-
-// ─── Alchemist ────────────────────────────────────────────────────────────────
 
 describe('alchemist()', () => {
   it('returns a HomeAlchemistHelper', () => {
@@ -227,8 +217,6 @@ describe('alchemist()', () => {
     expect(home().otherBuildings().helpers().alchemist()).toBeInstanceOf(HomeVillageAlchemist);
   });
 });
-
-// ─── Prospector ───────────────────────────────────────────────────────────────
 
 describe('prospector()', () => {
   it('returns a HomeProspectorHelper', () => {
