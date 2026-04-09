@@ -2,9 +2,11 @@ import { BuildTime, ResourceType } from './common';
 
 export interface HomePetLevel {
   level: number;
-  damagePerSecond: number;
-  damagePerHit: number;
+  damagePerSecond?: number;
+  damagePerHit?: number;
   damageVsWalls?: number;
+  healingPerSecond?: number;
+  healingPerPulse?: number;
   hitpoints: number;
   petHouseLevelRequired: number;
   townHallRequired: number;
