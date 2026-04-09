@@ -1,0 +1,79 @@
+{
+  "id": "battle-drill",
+  "name": "Battle Drill",
+  "description": "A fine example of goblin ingenuity, the Battle Drill burrows underground towards the nearest defense. On arrival it pops up to stun and demolish with its dastardly drill.",
+  "base": "home",
+  "category": "siege-machine",
+  "housingSpace": 1,
+  "workshopLevelRequired": 7,
+  "preferredTarget": "Defenses",
+  "attackType": "Single Target (Ground Only)",
+  "movementSpeed": 24,
+  "range": 1,
+  "attackSpeed": 1.7,
+  "images": {
+    "icon": "images/home/siege-machines/battle-drill/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 430,
+      "damagePerHit": 731,
+      "hitpoints": 4800,
+      "laboratoryRequired": 0,
+      "townHallRequired": 16,
+      "researchCost": 0,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-drill/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 470,
+      "damagePerHit": 799,
+      "hitpoints": 5100,
+      "laboratoryRequired": 13,
+      "townHallRequired": 16,
+      "researchCost": 6000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-drill/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 510,
+      "damagePerHit": 867,
+      "hitpoints": 5400,
+      "laboratoryRequired": 13,
+      "townHallRequired": 16,
+      "researchCost": 8500000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-drill/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 550,
+      "damagePerHit": 935,
+      "hitpoints": 5800,
+      "laboratoryRequired": 13,
+      "townHallRequired": 16,
+      "researchCost": 10000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-drill/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "damagePerSecond": 590,
+      "damagePerHit": 1003,
+      "hitpoints": 6300,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 17000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-drill/normal/level-5.png" }
+    }
+  ]
+}

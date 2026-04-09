@@ -1,6 +1,7 @@
 import { QueryBase } from '@/common/query-base';
 import { SiegeMachine } from '@/types';
 import { battleBlimpData } from './battle-blimp';
+import { battleDrillData } from './battle-drill';
 import { flameFlingerData } from './flame-flinger';
 import { logLauncherData } from './log-launcher';
 import { siegeBarracksData } from './siege-barracks';
@@ -14,6 +15,7 @@ const allSiegeMachines: SiegeMachine[] = [
   siegeBarracksData,
   logLauncherData,
   flameFlingerData,
+  battleDrillData,
 ];
 
 export class HomeVillageSiegeMachines extends QueryBase<SiegeMachine> {
@@ -44,6 +46,10 @@ export class HomeVillageSiegeMachines extends QueryBase<SiegeMachine> {
 
   flameFlinger(): HomeVillageSiegeMachines {
     return new HomeVillageSiegeMachines([flameFlingerData]);
+  }
+
+  battleDrill(): HomeVillageSiegeMachines {
+    return new HomeVillageSiegeMachines([battleDrillData]);
   }
 
   // Category filters
