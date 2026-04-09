@@ -20,6 +20,10 @@ const allSiegeMachines: SiegeMachine[] = [
   troopLauncherData,
 ];
 
+/**
+ * Query class for all Home Village siege machines.
+ * Returned by `home().siegeMachines()`.
+ */
 export class HomeVillageSiegeMachines extends QueryBase<SiegeMachine> {
   constructor(data: SiegeMachine[] = allSiegeMachines) {
     super(data);
@@ -57,10 +61,12 @@ export class HomeVillageSiegeMachines extends QueryBase<SiegeMachine> {
     return new HomeVillageSiegeMachines([troopLauncherData]);
   }
 
+  /** Filter to siege machines unlocked at or below the given Workshop level. */
   byWorkshop(level: number): HomeVillageSiegeMachines {
     return new HomeVillageSiegeMachines(this.data.filter((m) => m.workshopLevelRequired <= level));
   }
 
+  /** Filter to siege machines that have at least one level available at or before the given Town Hall level. */
   byTownHall(level: number): HomeVillageSiegeMachines {
     return new HomeVillageSiegeMachines(
       this.data.filter((m) => m.levels.some((l) => l.townHallRequired <= level)),

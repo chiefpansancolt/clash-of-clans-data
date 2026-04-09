@@ -29,6 +29,10 @@ const allCraftedDefenses: CraftedDefense[] = [
   lavaLauncherData,
 ];
 
+/**
+ * Query class for all Home Village crafted defenses.
+ * Returned by `home().craftedDefenses()`.
+ */
 export class HomeVillageCraftedDefenses extends QueryBase<CraftedDefense> {
   constructor(data: CraftedDefense[] = allCraftedDefenses) {
     super(data);

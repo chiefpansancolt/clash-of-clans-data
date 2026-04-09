@@ -8,6 +8,7 @@ import { elixirStorageData } from './elixir-storage';
 import { goldMineData } from './gold-mine';
 import { goldStorageData } from './gold-storage';
 
+/** Query class for the Clan Castle building. Returned by `home().resourceBuildings().clanCastle()`. */
 export class HomeVillageClanCastle extends QueryBase<HomeClanCastle> {
   constructor(data: HomeClanCastle[] = [clanCastleData]) {
     super(data);
@@ -23,6 +24,10 @@ const allResourceBuildings: HomeResourceBuilding[] = [
   darkElixirStorageData,
 ];
 
+/**
+ * Query class for all Home Village resource buildings (collectors and storages).
+ * Returned by `home().resourceBuildings()`.
+ */
 export class HomeVillageResourceBuildings extends QueryBase<HomeResourceBuilding> {
   constructor(data: HomeResourceBuilding[] = allResourceBuildings) {
     super(data);

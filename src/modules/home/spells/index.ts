@@ -38,6 +38,10 @@ const allSpells: HomeSpell[] = [
   iceBlockSpellData,
 ];
 
+/**
+ * Query class for all Home Village spells.
+ * Returned by `home().spells()`.
+ */
 export class HomeVillageSpells extends QueryBase<HomeSpell> {
   constructor(data: HomeSpell[] = allSpells) {
     super(data);
@@ -111,10 +115,12 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
     return new HomeVillageSpells([iceBlockSpellData]);
   }
 
+  /** Filter by spell type — `'regular'` (brewed in Spell Factory) or `'dark'` (Dark Spell Factory). */
   byType(type: 'regular' | 'dark'): HomeVillageSpells {
     return new HomeVillageSpells(this.data.filter((s) => s.spellType === type));
   }
 
+  /** Filter to spells that have at least one level available at or before the given Town Hall level. */
   byTownHall(level: number): HomeVillageSpells {
     return new HomeVillageSpells(
       this.data.filter((s) => s.levels.some((l) => l.townHallRequired <= level)),

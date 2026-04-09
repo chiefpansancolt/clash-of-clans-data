@@ -34,6 +34,10 @@ const allHeroEquipment: HeroEquipment[] = [
   actionFigureData,
 ];
 
+/**
+ * Query class for all Home Village hero equipment.
+ * Returned by `home().heroEquipment()`.
+ */
 export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
   constructor(data: HeroEquipment[] = allHeroEquipment) {
     super(data);
@@ -99,14 +103,17 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
     return new HomeVillageHeroEquipment([actionFigureData]);
   }
 
+  /** Filter to equipment belonging to the given hero (by hero ID, e.g. `'barbarian-king'`). */
   byHero(heroId: string): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment(this.data.filter((e) => e.hero === heroId));
   }
 
+  /** Filter by equipment rarity (`'common'`, `'epic'`, etc.). */
   byRarity(rarity: EquipmentRarity): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment(this.data.filter((e) => e.rarity === rarity));
   }
 
+  /** Filter to equipment that has at least one level available at or below the given Blacksmith level. */
   byBlacksmith(level: number): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment(
       this.data.filter((e) => e.levels.some((l) => l.blacksmithLevelRequired <= level)),

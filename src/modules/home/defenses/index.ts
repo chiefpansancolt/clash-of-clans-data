@@ -48,6 +48,10 @@ const allDefenses: HomeDefense[] = [
   craftingStationData,
 ];
 
+/**
+ * Query class for all Home Village stationary defenses.
+ * Returned by `home().defenses()`.
+ */
 export class HomeVillageDefenses extends QueryBase<HomeDefense> {
   constructor(data: HomeDefense[] = allDefenses) {
     super(data);

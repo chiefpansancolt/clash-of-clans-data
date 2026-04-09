@@ -28,6 +28,10 @@ const allPets: HomePet[] = [
   greedyRavenData,
 ];
 
+/**
+ * Query class for all Home Village pets.
+ * Returned by `home().pets()`.
+ */
 export class HomeVillagePets extends QueryBase<HomePet> {
   constructor(data: HomePet[] = allPets) {
     super(data);
@@ -81,10 +85,12 @@ export class HomeVillagePets extends QueryBase<HomePet> {
     return new HomeVillagePets([greedyRavenData]);
   }
 
+  /** Filter to pets that are unlocked at or below the given Pet House level. */
   byPetHouse(level: number): HomeVillagePets {
     return new HomeVillagePets(this.data.filter((p) => p.petHouseLevelRequired <= level));
   }
 
+  /** Filter to pets that have at least one level available at or before the given Town Hall level. */
   byTownHall(level: number): HomeVillagePets {
     return new HomeVillagePets(
       this.data.filter((p) => p.levels.some((l) => l.townHallRequired <= level)),

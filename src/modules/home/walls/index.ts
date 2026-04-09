@@ -4,6 +4,10 @@ import { wallData } from './wall';
 
 const allWalls: HomeWall[] = [wallData];
 
+/**
+ * Query class for Home Village wall data.
+ * Returned by `home().walls()`.
+ */
 export class HomeVillageWalls extends QueryBase<HomeWall> {
   constructor(data: HomeWall[] = allWalls) {
     super(data);

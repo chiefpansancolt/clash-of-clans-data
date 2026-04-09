@@ -5,6 +5,10 @@ import { smasherData } from './smasher';
 
 const allGuardians: Guardian[] = [longshotData, smasherData];
 
+/**
+ * Query class for all Home Village Guardians.
+ * Returned by `home().guardians()`.
+ */
 export class HomeVillageGuardians extends QueryBase<Guardian> {
   constructor(data: Guardian[] = allGuardians) {
     super(data);

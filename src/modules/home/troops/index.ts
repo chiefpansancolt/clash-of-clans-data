@@ -66,6 +66,10 @@ const allTroops: HomeTroop[] = [
   headhunterData,
 ];
 
+/**
+ * Query class for all Home Village troops.
+ * Returned by `home().troops()`.
+ */
 export class HomeVillageTroops extends QueryBase<HomeTroop> {
   constructor(data: HomeTroop[] = allTroops) {
     super(data);
@@ -195,16 +199,19 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
     return new HomeVillageTroops([headhunterData]);
   }
 
+  /** Filter by troop type — `'regular'` (trained in Barracks) or `'dark'` (Dark Barracks). */
   byType(type: 'regular' | 'dark'): HomeVillageTroops {
     return new HomeVillageTroops(this.data.filter((t) => t.troopType === type));
   }
 
+  /** Filter to troops that have at least one level available at or before the given Town Hall level. */
   byTownHall(level: number): HomeVillageTroops {
     return new HomeVillageTroops(
       this.data.filter((t) => t.levels.some((l) => l.townHallRequired <= level)),
     );
   }
 
+  /** Filter to troops that have an associated Super Troop variant. */
   withSuperTroop(): HomeVillageTroops {
     return new HomeVillageTroops(this.data.filter((t) => t.superTroop !== undefined));
   }

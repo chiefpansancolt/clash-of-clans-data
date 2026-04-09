@@ -16,6 +16,10 @@ const allHeroes: HomeHero[] = [
   dragonDukeData,
 ];
 
+/**
+ * Query class for all Home Village heroes.
+ * Returned by `home().heroes()`.
+ */
 export class HomeVillageHeroes extends QueryBase<HomeHero> {
   constructor(data: HomeHero[] = allHeroes) {
     super(data);
@@ -45,6 +49,7 @@ export class HomeVillageHeroes extends QueryBase<HomeHero> {
     return new HomeVillageHeroes([minionPrinceData]);
   }
 
+  /** Filter to heroes that have at least one level available at or below the given Hero Hall level. */
   byHeroHall(level: number): HomeVillageHeroes {
     return new HomeVillageHeroes(
       this.data.filter((h) => h.levels.some((l) => l.heroHallLevelRequired <= level)),
