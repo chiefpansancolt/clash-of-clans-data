@@ -7,10 +7,17 @@
   "spellType": "dark",
   "radius": 4,
   "housingSpace": 1,
+  "donationCost": {
+    "amount": 135,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 3
+  },
   "spellFactoryLevelRequired": 1,
   "spellDuration": 16,
   "targetType": "both",
-  "images": { "icon": "images/home/spells/poison-spell/icon.png" },
+  "images": {
+    "icon": "images/home/spells/poison-spell/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -21,7 +28,12 @@
       "townHallRequired": 8,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -32,7 +44,12 @@
       "townHallRequired": 8,
       "researchCost": 5000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -43,7 +60,12 @@
       "townHallRequired": 9,
       "researchCost": 10000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -54,7 +76,12 @@
       "townHallRequired": 10,
       "researchCost": 21500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -65,7 +92,12 @@
       "townHallRequired": 11,
       "researchCost": 35000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 6,
@@ -76,7 +108,12 @@
       "townHallRequired": 12,
       "researchCost": 55000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 7,
@@ -87,7 +124,12 @@
       "townHallRequired": 13,
       "researchCost": 77500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 8,
@@ -98,7 +140,12 @@
       "townHallRequired": 14,
       "researchCost": 100000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 9,
@@ -109,7 +156,12 @@
       "townHallRequired": 15,
       "researchCost": 135000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 10,
@@ -120,7 +172,12 @@
       "townHallRequired": 16,
       "researchCost": 175000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 11,
@@ -131,7 +188,12 @@
       "townHallRequired": 17,
       "researchCost": 230000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 9, "hours": 16, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 9,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 12,
@@ -142,7 +204,12 @@
       "townHallRequired": 17,
       "researchCost": 350000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 14, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 14,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

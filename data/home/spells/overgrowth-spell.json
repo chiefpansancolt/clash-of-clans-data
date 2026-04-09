@@ -7,9 +7,16 @@
   "spellType": "dark",
   "radius": 6,
   "housingSpace": 2,
+  "donationCost": {
+    "amount": 270,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 6
+  },
   "spellFactoryLevelRequired": 6,
   "targetType": "both",
-  "images": { "icon": "images/home/spells/overgrowth-spell/icon.png" },
+  "images": {
+    "icon": "images/home/spells/overgrowth-spell/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -18,7 +25,12 @@
       "townHallRequired": 11,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -27,7 +39,12 @@
       "townHallRequired": 12,
       "researchCost": 62500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -36,7 +53,12 @@
       "townHallRequired": 14,
       "researchCost": 125000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 8,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -45,7 +67,12 @@
       "townHallRequired": 16,
       "researchCost": 175000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

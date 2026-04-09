@@ -6,6 +6,11 @@
   "category": "troop",
   "troopType": "regular",
   "housingSpace": 6,
+  "donationCost": {
+    "amount": 9000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 3
+  },
   "movementSpeed": 32,
   "range": 0.5,
   "attackSpeed": 1.7,
@@ -23,11 +28,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 80, "damagePerShot": 136 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 80,
+          "damagePerShot": 136
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -36,11 +51,21 @@
       "laboratoryRequired": 8,
       "researchCost": 1500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 88, "damagePerShot": 149.6 }
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 88,
+          "damagePerShot": 149.6
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -49,11 +74,21 @@
       "laboratoryRequired": 8,
       "researchCost": 2600000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 96, "damagePerShot": 163.2 }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 96,
+          "damagePerShot": 163.2
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -62,11 +97,21 @@
       "laboratoryRequired": 9,
       "researchCost": 3000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 104, "damagePerShot": 176.8 }
+      "researchTime": {
+        "days": 2,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 104,
+          "damagePerShot": 176.8
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -75,11 +120,21 @@
       "laboratoryRequired": 9,
       "researchCost": 4000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 112, "damagePerShot": 190.4 }
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 112,
+          "damagePerShot": 190.4
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -88,11 +143,21 @@
       "laboratoryRequired": 10,
       "researchCost": 4800000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 120, "damagePerShot": 204 }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 120,
+          "damagePerShot": 204
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-5.png"
+      }
     },
     {
       "level": 7,
@@ -101,11 +166,21 @@
       "laboratoryRequired": 11,
       "researchCost": 6000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 128, "damagePerShot": 217.6 }
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 128,
+          "damagePerShot": 217.6
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -114,11 +189,21 @@
       "laboratoryRequired": 12,
       "researchCost": 8600000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 136, "damagePerShot": 231.2 }
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-8.png" }
+      "stats": {
+        "normal": {
+          "dps": 136,
+          "damagePerShot": 231.2
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -127,11 +212,21 @@
       "laboratoryRequired": 13,
       "researchCost": 10500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 144, "damagePerShot": 244.8 }
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-9.png" }
+      "stats": {
+        "normal": {
+          "dps": 144,
+          "damagePerShot": 244.8
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -140,11 +235,21 @@
       "laboratoryRequired": 14,
       "researchCost": 12500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 160, "damagePerShot": 272 }
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 160,
+          "damagePerShot": 272
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -153,11 +258,21 @@
       "laboratoryRequired": 15,
       "researchCost": 16500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 9, "hours": 20, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 175, "damagePerShot": 297.5 }
+      "researchTime": {
+        "days": 9,
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-11.png" }
+      "stats": {
+        "normal": {
+          "dps": 175,
+          "damagePerShot": 297.5
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -166,11 +281,21 @@
       "laboratoryRequired": 16,
       "researchCost": 28000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 14, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 195, "damagePerShot": 331.5 }
+      "researchTime": {
+        "days": 14,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/miner/normal/level-12.png" }
+      "stats": {
+        "normal": {
+          "dps": 195,
+          "damagePerShot": 331.5
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/miner/normal/level-12.png"
+      }
     }
   ],
   "superTroop": {
@@ -183,76 +308,137 @@
     "range": 0.6,
     "boostCost": 25000,
     "boostCostResource": "Dark Elixir",
-    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "boostDuration": {
+      "days": 3,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "regularLevelRequired": 7,
     "specialAbility": "Last Blast",
-    "images": { "icon": "images/home/troops/miner/super-icon.png" },
+    "images": {
+      "icon": "images/home/troops/miner/super-icon.png"
+    },
     "levels": [
       {
         "level": 7,
         "hitpoints": 3000,
         "townHallRequired": 13,
         "stats": {
-          "normal": { "dps": 170, "deathDamage": 1400 },
-          "stage2": { "dps": 340 },
-          "stage3": { "dps": 520 }
+          "normal": {
+            "dps": 170,
+            "deathDamage": 1400
+          },
+          "stage2": {
+            "dps": 340
+          },
+          "stage3": {
+            "dps": 520
+          }
         },
-        "images": { "normal": "images/home/troops/miner/super/level-7.png" }
+        "images": {
+          "normal": "images/home/troops/miner/super/level-7.png"
+        }
       },
       {
         "level": 8,
         "hitpoints": 3300,
         "townHallRequired": 14,
         "stats": {
-          "normal": { "dps": 185, "deathDamage": 1600 },
-          "stage2": { "dps": 370 },
-          "stage3": { "dps": 560 }
+          "normal": {
+            "dps": 185,
+            "deathDamage": 1600
+          },
+          "stage2": {
+            "dps": 370
+          },
+          "stage3": {
+            "dps": 560
+          }
         },
-        "images": { "normal": "images/home/troops/miner/super/level-7.png" }
+        "images": {
+          "normal": "images/home/troops/miner/super/level-7.png"
+        }
       },
       {
         "level": 9,
         "hitpoints": 3600,
         "townHallRequired": 15,
         "stats": {
-          "normal": { "dps": 205, "deathDamage": 1800 },
-          "stage2": { "dps": 405 },
-          "stage3": { "dps": 605 }
+          "normal": {
+            "dps": 205,
+            "deathDamage": 1800
+          },
+          "stage2": {
+            "dps": 405
+          },
+          "stage3": {
+            "dps": 605
+          }
         },
-        "images": { "normal": "images/home/troops/miner/super/level-7.png" }
+        "images": {
+          "normal": "images/home/troops/miner/super/level-7.png"
+        }
       },
       {
         "level": 10,
         "hitpoints": 4000,
         "townHallRequired": 16,
         "stats": {
-          "normal": { "dps": 225, "deathDamage": 2000 },
-          "stage2": { "dps": 440 },
-          "stage3": { "dps": 650 }
+          "normal": {
+            "dps": 225,
+            "deathDamage": 2000
+          },
+          "stage2": {
+            "dps": 440
+          },
+          "stage3": {
+            "dps": 650
+          }
         },
-        "images": { "normal": "images/home/troops/miner/super/level-7.png" }
+        "images": {
+          "normal": "images/home/troops/miner/super/level-7.png"
+        }
       },
       {
         "level": 11,
         "hitpoints": 4400,
         "townHallRequired": 17,
         "stats": {
-          "normal": { "dps": 245, "deathDamage": 2200 },
-          "stage2": { "dps": 475 },
-          "stage3": { "dps": 695 }
+          "normal": {
+            "dps": 245,
+            "deathDamage": 2200
+          },
+          "stage2": {
+            "dps": 475
+          },
+          "stage3": {
+            "dps": 695
+          }
         },
-        "images": { "normal": "images/home/troops/miner/super/level-7.png" }
+        "images": {
+          "normal": "images/home/troops/miner/super/level-7.png"
+        }
       },
       {
         "level": 12,
         "hitpoints": 5000,
         "townHallRequired": 18,
         "stats": {
-          "normal": { "dps": 265, "deathDamage": 2400 },
-          "stage2": { "dps": 510 },
-          "stage3": { "dps": 740 }
+          "normal": {
+            "dps": 265,
+            "deathDamage": 2400
+          },
+          "stage2": {
+            "dps": 510
+          },
+          "stage3": {
+            "dps": 740
+          }
         },
-        "images": { "normal": "images/home/troops/miner/super/level-7.png" }
+        "images": {
+          "normal": "images/home/troops/miner/super/level-7.png"
+        }
       }
     ]
   }

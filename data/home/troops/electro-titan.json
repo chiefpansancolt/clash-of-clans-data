@@ -8,6 +8,11 @@
   "damageType": "single",
   "targetType": "both",
   "housingSpace": 32,
+  "donationCost": {
+    "amount": 48000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 16
+  },
   "movementSpeed": 16,
   "attackSpeed": 1.5,
   "range": 1.25,
@@ -25,12 +30,25 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 180, "damagePerShot": 270 },
-        "aura": { "dps": 75, "damagePerShot": 30 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/electro-titan/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 180,
+          "damagePerShot": 270
+        },
+        "aura": {
+          "dps": 75,
+          "damagePerShot": 30
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/electro-titan/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -39,12 +57,25 @@
       "laboratoryRequired": 12,
       "researchCost": 14000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 200, "damagePerShot": 300 },
-        "aura": { "dps": 100, "damagePerShot": 40 }
+      "researchTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/electro-titan/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 200,
+          "damagePerShot": 300
+        },
+        "aura": {
+          "dps": 100,
+          "damagePerShot": 40
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/electro-titan/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -53,12 +84,25 @@
       "laboratoryRequired": 13,
       "researchCost": 16000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 220, "damagePerShot": 330 },
-        "aura": { "dps": 125, "damagePerShot": 50 }
+      "researchTime": {
+        "days": 9,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/electro-titan/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 220,
+          "damagePerShot": 330
+        },
+        "aura": {
+          "dps": 125,
+          "damagePerShot": 50
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/electro-titan/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -67,12 +111,25 @@
       "laboratoryRequired": 14,
       "researchCost": 18500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 240, "damagePerShot": 360 },
-        "aura": { "dps": 137.5, "damagePerShot": 55 }
+      "researchTime": {
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/electro-titan/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 240,
+          "damagePerShot": 360
+        },
+        "aura": {
+          "dps": 137.5,
+          "damagePerShot": 55
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/electro-titan/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -81,12 +138,25 @@
       "laboratoryRequired": 16,
       "researchCost": 30000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 270, "damagePerShot": 405 },
-        "aura": { "dps": 150, "damagePerShot": 60 }
+      "researchTime": {
+        "days": 16,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/electro-titan/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 270,
+          "damagePerShot": 405
+        },
+        "aura": {
+          "dps": 150,
+          "damagePerShot": 60
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/electro-titan/normal/level-5.png"
+      }
     }
   ]
 }

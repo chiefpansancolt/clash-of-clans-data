@@ -1,4 +1,4 @@
-import { BuildTime, ResourceType } from './common';
+import { BuildTime, DonationCost, ResourceType } from './common';
 
 export interface SiegeMachineLevel {
   level: number;
@@ -38,6 +38,7 @@ export interface SiegeMachine {
   category: 'siege-machine';
   housingSpace: number;
   workshopLevelRequired: number;
+  donationCost: DonationCost;
   preferredTarget?: string;
   attackType?: string;
   movementSpeed: number;

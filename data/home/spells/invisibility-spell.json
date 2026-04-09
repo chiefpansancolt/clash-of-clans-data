@@ -7,8 +7,15 @@
   "spellType": "regular",
   "radius": 4,
   "housingSpace": 1,
+  "donationCost": {
+    "amount": 9000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 3
+  },
   "spellFactoryLevelRequired": 6,
-  "images": { "icon": "images/home/spells/invisibility-spell/icon.png" },
+  "images": {
+    "icon": "images/home/spells/invisibility-spell/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -17,7 +24,12 @@
       "townHallRequired": 10,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -26,7 +38,12 @@
       "townHallRequired": 11,
       "researchCost": 5000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -35,7 +52,12 @@
       "townHallRequired": 12,
       "researchCost": 6000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -44,7 +66,12 @@
       "townHallRequired": 13,
       "researchCost": 7000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

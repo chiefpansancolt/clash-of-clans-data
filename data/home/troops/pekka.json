@@ -6,6 +6,11 @@
   "category": "troop",
   "troopType": "regular",
   "housingSpace": 25,
+  "donationCost": {
+    "amount": 39000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 13
+  },
   "movementSpeed": 16,
   "range": 0.8,
   "attackSpeed": 1.8,
@@ -23,9 +28,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 260, "damagePerShot": 468 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-1.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 260,
+          "damagePerShot": 468
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -34,9 +51,21 @@
       "laboratoryRequired": 6,
       "researchCost": 600000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 290, "damagePerShot": 522 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-2.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 290,
+          "damagePerShot": 522
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -45,9 +74,21 @@
       "laboratoryRequired": 6,
       "researchCost": 1300000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 320, "damagePerShot": 576 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-3.png" }
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 320,
+          "damagePerShot": 576
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -56,9 +97,21 @@
       "laboratoryRequired": 7,
       "researchCost": 2000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 360, "damagePerShot": 648 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-4.png" }
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 360,
+          "damagePerShot": 648
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -67,9 +120,21 @@
       "laboratoryRequired": 8,
       "researchCost": 2100000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 16, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 410, "damagePerShot": 738 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-5.png" }
+      "researchTime": {
+        "days": 1,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 410,
+          "damagePerShot": 738
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -78,9 +143,21 @@
       "laboratoryRequired": 8,
       "researchCost": 2500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 470, "damagePerShot": 846 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-6.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 470,
+          "damagePerShot": 846
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -89,9 +166,21 @@
       "laboratoryRequired": 9,
       "researchCost": 4500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 540, "damagePerShot": 972 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-7.png" }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 540,
+          "damagePerShot": 972
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -100,9 +189,21 @@
       "laboratoryRequired": 10,
       "researchCost": 5000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 610, "damagePerShot": 1098 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-8.png" }
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 610,
+          "damagePerShot": 1098
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -111,9 +212,21 @@
       "laboratoryRequired": 11,
       "researchCost": 5800000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 680, "damagePerShot": 1224 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-9.png" }
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 680,
+          "damagePerShot": 1224
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -122,9 +235,21 @@
       "laboratoryRequired": 13,
       "researchCost": 10500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 750, "damagePerShot": 1350 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-10.png" }
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 750,
+          "damagePerShot": 1350
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -133,9 +258,21 @@
       "laboratoryRequired": 14,
       "researchCost": 12000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 810, "damagePerShot": 1458 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-11.png" }
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 810,
+          "damagePerShot": 1458
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -144,9 +281,21 @@
       "laboratoryRequired": 15,
       "researchCost": 16000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 870, "damagePerShot": 1566 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-12.png" }
+      "researchTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 870,
+          "damagePerShot": 1566
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -155,9 +304,21 @@
       "laboratoryRequired": 16,
       "researchCost": 28000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 14, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 940, "damagePerShot": 1692 } },
-      "images": { "normal": "images/home/troops/pekka/normal/level-13.png" }
+      "researchTime": {
+        "days": 14,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 940,
+          "damagePerShot": 1692
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/pekka/normal/level-13.png"
+      }
     }
   ]
 }

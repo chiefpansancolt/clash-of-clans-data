@@ -8,6 +8,11 @@
   "damageType": "single",
   "targetType": "both",
   "housingSpace": 16,
+  "donationCost": {
+    "amount": 24000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 8
+  },
   "movementSpeed": 18,
   "attackSpeed": 2.5,
   "range": 6,
@@ -23,11 +28,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 190, "damagePerShot": 475 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/thrower/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 190,
+          "damagePerShot": 475
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/thrower/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -36,11 +51,21 @@
       "laboratoryRequired": 14,
       "researchCost": 16000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 210, "damagePerShot": 525 }
+      "researchTime": {
+        "days": 9,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/thrower/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 210,
+          "damagePerShot": 525
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/thrower/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -49,11 +74,21 @@
       "laboratoryRequired": 15,
       "researchCost": 18000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 10, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 230, "damagePerShot": 575 }
+      "researchTime": {
+        "days": 10,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/thrower/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 230,
+          "damagePerShot": 575
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/thrower/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -62,11 +97,21 @@
       "laboratoryRequired": 16,
       "researchCost": 27000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 15, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 240, "damagePerShot": 600 }
+      "researchTime": {
+        "days": 15,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/thrower/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 240,
+          "damagePerShot": 600
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/thrower/normal/level-4.png"
+      }
     }
   ]
 }

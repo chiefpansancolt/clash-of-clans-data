@@ -5,10 +5,17 @@
   "base": "home",
   "category": "siege-machine",
   "housingSpace": 1,
+  "donationCost": {
+    "amount": 45000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 15
+  },
   "workshopLevelRequired": 4,
   "movementSpeed": 0,
   "lifetime": 30,
-  "images": { "icon": "images/home/siege-machines/siege-barracks/icon.png" },
+  "images": {
+    "icon": "images/home/siege-machines/siege-barracks/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -19,8 +26,15 @@
       "townHallRequired": 13,
       "researchCost": 0,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-1.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/siege-barracks/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -31,8 +45,15 @@
       "townHallRequired": 13,
       "researchCost": 3500000,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-2.png" }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/siege-barracks/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -43,8 +64,15 @@
       "townHallRequired": 13,
       "researchCost": 5000000,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-3.png" }
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/siege-barracks/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -55,8 +83,15 @@
       "townHallRequired": 13,
       "researchCost": 8000000,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-4.png" }
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/siege-barracks/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -67,8 +102,15 @@
       "townHallRequired": 16,
       "researchCost": 18000000,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-5.png" }
+      "researchTime": {
+        "days": 12,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/siege-barracks/normal/level-5.png"
+      }
     }
   ]
 }

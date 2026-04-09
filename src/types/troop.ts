@@ -1,5 +1,5 @@
 import { Building, BuildingLevel } from './building';
-import { BuildTime, ResourceType } from './common';
+import { BuildTime, DonationCost, ResourceType } from './common';
 
 // ── Home Village Troops ───────────────────────────────────────────────────
 
@@ -97,6 +97,7 @@ export interface HomeTroop {
   damageType: 'single' | 'splash' | 'area' | 'chain' | 'none';
   targetType: 'ground' | 'air' | 'both';
   barrackLevelRequired: number;
+  donationCost: DonationCost;
   lifetime?: number;
   auraAttackSpeed?: number;
   auraRange?: number;

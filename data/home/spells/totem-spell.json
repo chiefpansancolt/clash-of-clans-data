@@ -7,10 +7,17 @@
   "spellType": "regular",
   "radius": 5,
   "housingSpace": 1,
+  "donationCost": {
+    "amount": 9000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 3
+  },
   "spellFactoryLevelRequired": 9,
   "targetType": "both",
   "hitpointDecayPerSecond": 334,
-  "images": { "icon": "images/home/spells/totem-spell/icon.png" },
+  "images": {
+    "icon": "images/home/spells/totem-spell/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -19,7 +26,12 @@
       "townHallRequired": 13,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -28,7 +40,12 @@
       "townHallRequired": 16,
       "researchCost": 21000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 12,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -37,7 +54,12 @@
       "townHallRequired": 17,
       "researchCost": 22000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -46,7 +68,12 @@
       "townHallRequired": 17,
       "researchCost": 23000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 16,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

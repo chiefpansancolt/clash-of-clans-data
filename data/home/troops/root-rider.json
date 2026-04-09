@@ -8,6 +8,11 @@
   "damageType": "single",
   "targetType": "ground",
   "housingSpace": 20,
+  "donationCost": {
+    "amount": 30000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 10
+  },
   "movementSpeed": 12,
   "attackSpeed": 2.2,
   "range": 1,
@@ -24,12 +29,25 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 95, "damagePerShot": 209 },
-        "wall": { "dps": 10000, "damagePerShot": 4000 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/root-rider/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 95,
+          "damagePerShot": 209
+        },
+        "wall": {
+          "dps": 10000,
+          "damagePerShot": 4000
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/root-rider/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -38,12 +56,25 @@
       "laboratoryRequired": 13,
       "researchCost": 15000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 105, "damagePerShot": 231 },
-        "wall": { "dps": 10000, "damagePerShot": 4000 }
+      "researchTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/root-rider/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 105,
+          "damagePerShot": 231
+        },
+        "wall": {
+          "dps": 10000,
+          "damagePerShot": 4000
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/root-rider/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -52,12 +83,25 @@
       "laboratoryRequired": 14,
       "researchCost": 17600000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 115, "damagePerShot": 253 },
-        "wall": { "dps": 10000, "damagePerShot": 4000 }
+      "researchTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/root-rider/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 115,
+          "damagePerShot": 253
+        },
+        "wall": {
+          "dps": 10000,
+          "damagePerShot": 4000
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/root-rider/normal/level-3.png"
+      }
     }
   ]
 }

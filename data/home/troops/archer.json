@@ -6,13 +6,20 @@
   "category": "troop",
   "troopType": "regular",
   "housingSpace": 1,
+  "donationCost": {
+    "amount": 3000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 1
+  },
   "movementSpeed": 24,
   "range": 3.5,
   "attackSpeed": 1,
   "damageType": "single",
   "targetType": "both",
   "barrackLevelRequired": 2,
-  "images": { "icon": "images/home/troops/archer/icon.png" },
+  "images": {
+    "icon": "images/home/troops/archer/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -21,11 +28,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 8, "damagePerShot": 8 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 8,
+          "damagePerShot": 8
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -34,11 +51,21 @@
       "laboratoryRequired": 1,
       "researchCost": 20000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 10, "damagePerShot": 10 }
+      "researchTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 10,
+          "damagePerShot": 10
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -47,11 +74,21 @@
       "laboratoryRequired": 3,
       "researchCost": 80000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 13, "damagePerShot": 13 }
+      "researchTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 13,
+          "damagePerShot": 13
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -60,11 +97,21 @@
       "laboratoryRequired": 5,
       "researchCost": 200000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 16, "damagePerShot": 16 }
+      "researchTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 16,
+          "damagePerShot": 16
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -73,11 +120,21 @@
       "laboratoryRequired": 6,
       "researchCost": 500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 20, "damagePerShot": 20 }
+      "researchTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 20,
+          "damagePerShot": 20
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -86,11 +143,21 @@
       "laboratoryRequired": 7,
       "researchCost": 1000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 22, "damagePerShot": 22 }
+      "researchTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 22,
+          "damagePerShot": 22
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -99,11 +166,21 @@
       "laboratoryRequired": 8,
       "researchCost": 1500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 25, "damagePerShot": 25 }
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 25,
+          "damagePerShot": 25
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -112,11 +189,21 @@
       "laboratoryRequired": 9,
       "researchCost": 2300000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 28, "damagePerShot": 28 }
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-8.png" }
+      "stats": {
+        "normal": {
+          "dps": 28,
+          "damagePerShot": 28
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -125,11 +212,21 @@
       "laboratoryRequired": 10,
       "researchCost": 3000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 31, "damagePerShot": 31 }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-9.png" }
+      "stats": {
+        "normal": {
+          "dps": 31,
+          "damagePerShot": 31
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -138,11 +235,21 @@
       "laboratoryRequired": 12,
       "researchCost": 4500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 34, "damagePerShot": 34 }
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 34,
+          "damagePerShot": 34
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -151,11 +258,21 @@
       "laboratoryRequired": 13,
       "researchCost": 6500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 37, "damagePerShot": 37 }
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-11.png" }
+      "stats": {
+        "normal": {
+          "dps": 37,
+          "damagePerShot": 37
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -164,11 +281,21 @@
       "laboratoryRequired": 14,
       "researchCost": 9000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 40, "damagePerShot": 40 }
+      "researchTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-12.png" }
+      "stats": {
+        "normal": {
+          "dps": 40,
+          "damagePerShot": 40
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -177,11 +304,21 @@
       "laboratoryRequired": 15,
       "researchCost": 14000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 43, "damagePerShot": 43 }
+      "researchTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-13.png" }
+      "stats": {
+        "normal": {
+          "dps": 43,
+          "damagePerShot": 43
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -190,11 +327,21 @@
       "laboratoryRequired": 16,
       "researchCost": 25000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 13, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 46, "damagePerShot": 46 }
+      "researchTime": {
+        "days": 13,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/archer/normal/level-14.png" }
+      "stats": {
+        "normal": {
+          "dps": 46,
+          "damagePerShot": 46
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/archer/normal/level-14.png"
+      }
     }
   ],
   "superTroop": {
@@ -207,52 +354,108 @@
     "range": 6,
     "boostCost": 25000,
     "boostCostResource": "Dark Elixir",
-    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "boostDuration": {
+      "days": 3,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "regularLevelRequired": 8,
     "specialAbility": "Sharp Shot",
-    "images": { "icon": "images/home/troops/archer/super/icon.png" },
+    "images": {
+      "icon": "images/home/troops/archer/super/icon.png"
+    },
     "levels": [
       {
         "level": 8,
         "hitpoints": 450,
-        "stats": { "normal": { "dps": 120, "damagePerShot": 180 } },
-        "images": { "normal": "images/home/troops/archer/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 120,
+            "damagePerShot": 180
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/archer/super/level-8.png"
+        }
       },
       {
         "level": 9,
         "hitpoints": 510,
-        "stats": { "normal": { "dps": 132, "damagePerShot": 198 } },
-        "images": { "normal": "images/home/troops/archer/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 132,
+            "damagePerShot": 198
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/archer/super/level-8.png"
+        }
       },
       {
         "level": 10,
         "hitpoints": 565,
-        "stats": { "normal": { "dps": 144, "damagePerShot": 216 } },
-        "images": { "normal": "images/home/troops/archer/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 144,
+            "damagePerShot": 216
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/archer/super/level-8.png"
+        }
       },
       {
         "level": 11,
         "hitpoints": 605,
-        "stats": { "normal": { "dps": 156, "damagePerShot": 234 } },
-        "images": { "normal": "images/home/troops/archer/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 156,
+            "damagePerShot": 234
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/archer/super/level-8.png"
+        }
       },
       {
         "level": 12,
         "hitpoints": 645,
-        "stats": { "normal": { "dps": 162, "damagePerShot": 243 } },
-        "images": { "normal": "images/home/troops/archer/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 162,
+            "damagePerShot": 243
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/archer/super/level-8.png"
+        }
       },
       {
         "level": 13,
         "hitpoints": 685,
-        "stats": { "normal": { "dps": 166, "damagePerShot": 249 } },
-        "images": { "normal": "images/home/troops/archer/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 166,
+            "damagePerShot": 249
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/archer/super/level-8.png"
+        }
       },
       {
         "level": 14,
         "hitpoints": 725,
-        "stats": { "normal": { "dps": 170, "damagePerShot": 255 } },
-        "images": { "normal": "images/home/troops/archer/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 170,
+            "damagePerShot": 255
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/archer/super/level-8.png"
+        }
       }
     ]
   }

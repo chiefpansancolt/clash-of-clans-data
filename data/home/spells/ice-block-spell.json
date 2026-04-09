@@ -7,9 +7,16 @@
   "spellType": "dark",
   "radius": 5,
   "housingSpace": 1,
+  "donationCost": {
+    "amount": 135,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 3
+  },
   "spellFactoryLevelRequired": 7,
   "targetType": "both",
-  "images": { "icon": "images/home/spells/ice-block-spell/icon.png" },
+  "images": {
+    "icon": "images/home/spells/ice-block-spell/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -19,7 +26,12 @@
       "townHallRequired": 12,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -29,7 +41,12 @@
       "townHallRequired": 14,
       "researchCost": 140000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -39,7 +56,12 @@
       "townHallRequired": 15,
       "researchCost": 200000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -49,7 +71,12 @@
       "townHallRequired": 16,
       "researchCost": 280000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -59,7 +86,12 @@
       "townHallRequired": 17,
       "researchCost": 320000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 16,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

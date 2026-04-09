@@ -1,4 +1,4 @@
-import { BuildTime, ResourceType } from './common';
+import { BuildTime, DonationCost, ResourceType } from './common';
 
 export interface HomeSpellLevel {
   level: number;
@@ -62,6 +62,7 @@ export interface HomeSpell {
   batStats?: BatStats;
   radius?: number;
   housingSpace: number;
+  donationCost: DonationCost;
   spellFactoryLevelRequired: number;
   stunTime?: number;
   numberOfPulses?: number;

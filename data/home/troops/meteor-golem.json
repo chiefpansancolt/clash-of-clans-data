@@ -8,6 +8,11 @@
   "damageType": "splash",
   "targetType": "both",
   "housingSpace": 40,
+  "donationCost": {
+    "amount": 60000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 20
+  },
   "movementSpeed": 12,
   "attackSpeed": 1,
   "range": 5,
@@ -23,11 +28,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 450, "damagePerShot": 450 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/meteor-golem/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 450,
+          "damagePerShot": 450
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/meteor-golem/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -36,11 +51,21 @@
       "laboratoryRequired": 15,
       "researchCost": 28000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 500, "damagePerShot": 500 }
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/meteor-golem/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 500,
+          "damagePerShot": 500
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/meteor-golem/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -49,11 +74,21 @@
       "laboratoryRequired": 16,
       "researchCost": 30000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 550, "damagePerShot": 550 }
+      "researchTime": {
+        "days": 16,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/meteor-golem/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 550,
+          "damagePerShot": 550
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/meteor-golem/normal/level-3.png"
+      }
     }
   ]
 }

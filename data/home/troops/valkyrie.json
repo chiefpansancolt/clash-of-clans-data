@@ -8,6 +8,11 @@
   "damageType": "splash",
   "targetType": "ground",
   "housingSpace": 8,
+  "donationCost": {
+    "amount": 180,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 4
+  },
   "movementSpeed": 24,
   "attackSpeed": 1.8,
   "range": 0.5,
@@ -28,7 +33,12 @@
     "specialAbility": "Farewell Gift",
     "boostCost": 25000,
     "boostCostResource": "Dark Elixir",
-    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "boostDuration": {
+      "days": 3,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "regularLevelRequired": 7,
     "images": {
       "icon": "images/home/troops/valkyrie/super-icon.png"
@@ -38,36 +48,71 @@
         "level": 7,
         "hitpoints": 2400,
         "townHallRequired": 12,
-        "stats": { "normal": { "dps": 250, "damagePerShot": 275 } },
-        "images": { "normal": "images/home/troops/valkyrie/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 250,
+            "damagePerShot": 275
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/valkyrie/super/level-7.png"
+        }
       },
       {
         "level": 8,
         "hitpoints": 2700,
         "townHallRequired": 13,
-        "stats": { "normal": { "dps": 300, "damagePerShot": 330 } },
-        "images": { "normal": "images/home/troops/valkyrie/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 300,
+            "damagePerShot": 330
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/valkyrie/super/level-7.png"
+        }
       },
       {
         "level": 9,
         "hitpoints": 2900,
         "townHallRequired": 14,
-        "stats": { "normal": { "dps": 325, "damagePerShot": 357.5 } },
-        "images": { "normal": "images/home/troops/valkyrie/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 325,
+            "damagePerShot": 357.5
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/valkyrie/super/level-7.png"
+        }
       },
       {
         "level": 10,
         "hitpoints": 3400,
         "townHallRequired": 15,
-        "stats": { "normal": { "dps": 350, "damagePerShot": 385 } },
-        "images": { "normal": "images/home/troops/valkyrie/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 350,
+            "damagePerShot": 385
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/valkyrie/super/level-7.png"
+        }
       },
       {
         "level": 11,
         "hitpoints": 3900,
         "townHallRequired": 16,
-        "stats": { "normal": { "dps": 375, "damagePerShot": 412.5 } },
-        "images": { "normal": "images/home/troops/valkyrie/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 375,
+            "damagePerShot": 412.5
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/valkyrie/super/level-7.png"
+        }
       }
     ]
   },
@@ -79,9 +124,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 94, "damagePerShot": 169.2 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-1.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 94,
+          "damagePerShot": 169.2
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -90,9 +147,21 @@
       "laboratoryRequired": 6,
       "researchCost": 3000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 106, "damagePerShot": 190.8 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-1.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 106,
+          "damagePerShot": 190.8
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -101,9 +170,21 @@
       "laboratoryRequired": 7,
       "researchCost": 5000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 119, "damagePerShot": 214.2 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-3.png" }
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 119,
+          "damagePerShot": 214.2
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -112,9 +193,21 @@
       "laboratoryRequired": 7,
       "researchCost": 10000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 133, "damagePerShot": 239.4 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-3.png" }
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 133,
+          "damagePerShot": 239.4
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -123,9 +216,21 @@
       "laboratoryRequired": 8,
       "researchCost": 16000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 1, "hours": 18, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 148, "damagePerShot": 266.4 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-5.png" }
+      "researchTime": {
+        "days": 1,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 148,
+          "damagePerShot": 266.4
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -134,9 +239,21 @@
       "laboratoryRequired": 9,
       "researchCost": 31500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 167, "damagePerShot": 300.6 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-6.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 167,
+          "damagePerShot": 300.6
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -145,9 +262,21 @@
       "laboratoryRequired": 10,
       "researchCost": 55000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 185, "damagePerShot": 333 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-6.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 185,
+          "damagePerShot": 333
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-6.png"
+      }
     },
     {
       "level": 8,
@@ -156,9 +285,21 @@
       "laboratoryRequired": 11,
       "researchCost": 77500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 196, "damagePerShot": 352.8 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-8.png" }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 196,
+          "damagePerShot": 352.8
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -167,9 +308,21 @@
       "laboratoryRequired": 12,
       "researchCost": 105000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 208, "damagePerShot": 374.4 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-9.png" }
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 208,
+          "damagePerShot": 374.4
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -178,9 +331,21 @@
       "laboratoryRequired": 13,
       "researchCost": 120000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 223, "damagePerShot": 401.4 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-10.png" }
+      "researchTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 223,
+          "damagePerShot": 401.4
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -189,9 +354,21 @@
       "laboratoryRequired": 14,
       "researchCost": 170000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 238, "damagePerShot": 428.4 } },
-      "images": { "normal": "images/home/troops/valkyrie/normal/level-11.png" }
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 238,
+          "damagePerShot": 428.4
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-11.png"
+      }
     }
   ]
 }

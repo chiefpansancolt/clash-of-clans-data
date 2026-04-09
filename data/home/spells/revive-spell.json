@@ -7,8 +7,15 @@
   "spellType": "regular",
   "radius": 8,
   "housingSpace": 2,
+  "donationCost": {
+    "amount": 18000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 6
+  },
   "spellFactoryLevelRequired": 8,
-  "images": { "icon": "images/home/spells/revive-spell/icon.png" },
+  "images": {
+    "icon": "images/home/spells/revive-spell/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -17,7 +24,12 @@
       "townHallRequired": 12,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -26,7 +38,12 @@
       "townHallRequired": 15,
       "researchCost": 18000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -35,7 +52,12 @@
       "townHallRequired": 16,
       "researchCost": 19000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 10, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 10,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -44,7 +66,12 @@
       "townHallRequired": 17,
       "researchCost": 20000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 11, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 11,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -53,7 +80,12 @@
       "townHallRequired": 17,
       "researchCost": 29500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 16,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

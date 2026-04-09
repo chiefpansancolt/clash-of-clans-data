@@ -6,6 +6,11 @@
   "category": "troop",
   "troopType": "dark",
   "housingSpace": 20,
+  "donationCost": {
+    "amount": 450,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 10
+  },
   "movementSpeed": 20,
   "attackSpeed": 0.9,
   "range": 5,
@@ -24,12 +29,22 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "auraHpIncrease": 20,
       "stats": {
-        "normal": { "dps": 170, "damagePerShot": 153 }
+        "normal": {
+          "dps": 170,
+          "damagePerShot": 153
+        }
       },
-      "images": { "normal": "images/home/troops/apprentice-warden/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/troops/apprentice-warden/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -38,12 +53,22 @@
       "laboratoryRequired": 11,
       "researchCost": 90000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "auraHpIncrease": 22,
       "stats": {
-        "normal": { "dps": 185, "damagePerShot": 166.5 }
+        "normal": {
+          "dps": 185,
+          "damagePerShot": 166.5
+        }
       },
-      "images": { "normal": "images/home/troops/apprentice-warden/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/troops/apprentice-warden/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -52,12 +77,22 @@
       "laboratoryRequired": 12,
       "researchCost": 135000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "auraHpIncrease": 24,
       "stats": {
-        "normal": { "dps": 200, "damagePerShot": 180 }
+        "normal": {
+          "dps": 200,
+          "damagePerShot": 180
+        }
       },
-      "images": { "normal": "images/home/troops/apprentice-warden/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/troops/apprentice-warden/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -66,12 +101,22 @@
       "laboratoryRequired": 13,
       "researchCost": 160000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "auraHpIncrease": 26,
       "stats": {
-        "normal": { "dps": 215, "damagePerShot": 193.5 }
+        "normal": {
+          "dps": 215,
+          "damagePerShot": 193.5
+        }
       },
-      "images": { "normal": "images/home/troops/apprentice-warden/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/troops/apprentice-warden/normal/level-4.png"
+      }
     }
   ]
 }

@@ -32,6 +32,12 @@ export interface BuildTime {
   seconds: number;
 }
 
+export interface DonationCost {
+  amount: number;
+  resource: 'Elixir' | 'Dark Elixir';
+  gemsOrRaidMedals: number;
+}
+
 export interface TownHallAvailability {
   townHallLevel: number;
   count: number;

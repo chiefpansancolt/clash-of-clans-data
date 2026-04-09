@@ -8,6 +8,11 @@
   "damageType": "single",
   "targetType": "ground",
   "housingSpace": 5,
+  "donationCost": {
+    "amount": 135,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 3
+  },
   "movementSpeed": 24,
   "attackSpeed": 1,
   "range": 0.6,
@@ -28,7 +33,12 @@
     "specialAbility": "Divide and Conquer",
     "boostCost": 25000,
     "boostCostResource": "Dark Elixir",
-    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "boostDuration": {
+      "days": 3,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "regularLevelRequired": 10,
     "images": {
       "icon": "images/home/troops/hog-rider/super-icon.png"
@@ -38,43 +48,85 @@
         "level": 10,
         "hitpoints": 1500,
         "townHallRequired": 13,
-        "stats": { "normal": { "dps": 180, "damagePerShot": 180 } },
-        "images": { "normal": "images/home/troops/hog-rider/super/level-10.png" }
+        "stats": {
+          "normal": {
+            "dps": 180,
+            "damagePerShot": 180
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/hog-rider/super/level-10.png"
+        }
       },
       {
         "level": 11,
         "hitpoints": 1600,
         "townHallRequired": 14,
-        "stats": { "normal": { "dps": 200, "damagePerShot": 200 } },
-        "images": { "normal": "images/home/troops/hog-rider/super/level-10.png" }
+        "stats": {
+          "normal": {
+            "dps": 200,
+            "damagePerShot": 200
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/hog-rider/super/level-10.png"
+        }
       },
       {
         "level": 12,
         "hitpoints": 1750,
         "townHallRequired": 15,
-        "stats": { "normal": { "dps": 230, "damagePerShot": 230 } },
-        "images": { "normal": "images/home/troops/hog-rider/super/level-10.png" }
+        "stats": {
+          "normal": {
+            "dps": 230,
+            "damagePerShot": 230
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/hog-rider/super/level-10.png"
+        }
       },
       {
         "level": 13,
         "hitpoints": 1900,
         "townHallRequired": 16,
-        "stats": { "normal": { "dps": 250, "damagePerShot": 250 } },
-        "images": { "normal": "images/home/troops/hog-rider/super/level-10.png" }
+        "stats": {
+          "normal": {
+            "dps": 250,
+            "damagePerShot": 250
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/hog-rider/super/level-10.png"
+        }
       },
       {
         "level": 14,
         "hitpoints": 2100,
         "townHallRequired": 17,
-        "stats": { "normal": { "dps": 270, "damagePerShot": 270 } },
-        "images": { "normal": "images/home/troops/hog-rider/super/level-10.png" }
+        "stats": {
+          "normal": {
+            "dps": 270,
+            "damagePerShot": 270
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/hog-rider/super/level-10.png"
+        }
       },
       {
         "level": 15,
         "hitpoints": 2350,
         "townHallRequired": 18,
-        "stats": { "normal": { "dps": 300, "damagePerShot": 300 } },
-        "images": { "normal": "images/home/troops/hog-rider/super/level-10.png" }
+        "stats": {
+          "normal": {
+            "dps": 300,
+            "damagePerShot": 300
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/hog-rider/super/level-10.png"
+        }
       }
     ]
   },
@@ -86,9 +138,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 60, "damagePerShot": 60 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-1.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 60,
+          "damagePerShot": 60
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -97,9 +161,21 @@
       "laboratoryRequired": 5,
       "researchCost": 2000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 70, "damagePerShot": 70 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-1.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 10,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 70,
+          "damagePerShot": 70
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -108,9 +184,21 @@
       "laboratoryRequired": 6,
       "researchCost": 3500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 80, "damagePerShot": 80 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-3.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 80,
+          "damagePerShot": 80
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -119,9 +207,21 @@
       "laboratoryRequired": 6,
       "researchCost": 5000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 92, "damagePerShot": 92 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-3.png" }
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 92,
+          "damagePerShot": 92
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -130,9 +230,21 @@
       "laboratoryRequired": 7,
       "researchCost": 10000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 105, "damagePerShot": 105 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-5.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 105,
+          "damagePerShot": 105
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -141,9 +253,21 @@
       "laboratoryRequired": 8,
       "researchCost": 18500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 118, "damagePerShot": 118 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-6.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 118,
+          "damagePerShot": 118
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -152,9 +276,21 @@
       "laboratoryRequired": 9,
       "researchCost": 35000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 140, "damagePerShot": 140 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-7.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 140,
+          "damagePerShot": 140
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -163,9 +299,21 @@
       "laboratoryRequired": 10,
       "researchCost": 47500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 155, "damagePerShot": 155 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-8.png" }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 155,
+          "damagePerShot": 155
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -174,9 +322,21 @@
       "laboratoryRequired": 10,
       "researchCost": 50000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 165, "damagePerShot": 165 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-9.png" }
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 165,
+          "damagePerShot": 165
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -185,9 +345,21 @@
       "laboratoryRequired": 11,
       "researchCost": 85000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 176, "damagePerShot": 176 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-10.png" }
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 176,
+          "damagePerShot": 176
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -196,9 +368,21 @@
       "laboratoryRequired": 12,
       "researchCost": 107500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 187, "damagePerShot": 187 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-11.png" }
+      "researchTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 187,
+          "damagePerShot": 187
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -207,9 +391,21 @@
       "laboratoryRequired": 13,
       "researchCost": 125000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 200, "damagePerShot": 200 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-12.png" }
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 200,
+          "damagePerShot": 200
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -218,9 +414,21 @@
       "laboratoryRequired": 14,
       "researchCost": 175000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 213, "damagePerShot": 213 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-13.png" }
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 213,
+          "damagePerShot": 213
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -229,9 +437,21 @@
       "laboratoryRequired": 15,
       "researchCost": 240000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 225, "damagePerShot": 225 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-14.png" }
+      "researchTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 225,
+          "damagePerShot": 225
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-14.png"
+      }
     },
     {
       "level": 15,
@@ -240,9 +460,21 @@
       "laboratoryRequired": 16,
       "researchCost": 340000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 14, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 250, "damagePerShot": 250 } },
-      "images": { "normal": "images/home/troops/hog-rider/normal/level-15.png" }
+      "researchTime": {
+        "days": 14,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 250,
+          "damagePerShot": 250
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/hog-rider/normal/level-15.png"
+      }
     }
   ]
 }

@@ -6,13 +6,20 @@
   "category": "troop",
   "troopType": "regular",
   "housingSpace": 4,
+  "donationCost": {
+    "amount": 6000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 2
+  },
   "movementSpeed": 16,
   "range": 3,
   "attackSpeed": 1.5,
   "damageType": "splash",
   "targetType": "both",
   "barrackLevelRequired": 7,
-  "images": { "icon": "images/home/troops/wizard/icon.png" },
+  "images": {
+    "icon": "images/home/troops/wizard/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -21,9 +28,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 50, "damagePerShot": 75 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-1.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 50,
+          "damagePerShot": 75
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -32,9 +51,21 @@
       "laboratoryRequired": 3,
       "researchCost": 120000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 70, "damagePerShot": 105 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-1.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 70,
+          "damagePerShot": 105
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -43,9 +74,21 @@
       "laboratoryRequired": 4,
       "researchCost": 300000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 90, "damagePerShot": 135 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-3.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 5,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 90,
+          "damagePerShot": 135
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -54,9 +97,21 @@
       "laboratoryRequired": 5,
       "researchCost": 600000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 125, "damagePerShot": 187.5 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-3.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 125,
+          "damagePerShot": 187.5
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -65,9 +120,21 @@
       "laboratoryRequired": 6,
       "researchCost": 1200000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 170, "damagePerShot": 255 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-5.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 170,
+          "damagePerShot": 255
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -76,9 +143,21 @@
       "laboratoryRequired": 7,
       "researchCost": 2000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 185, "damagePerShot": 277.5 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-6.png" }
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 185,
+          "damagePerShot": 277.5
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -87,9 +166,21 @@
       "laboratoryRequired": 8,
       "researchCost": 2500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 200, "damagePerShot": 300 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-7.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 200,
+          "damagePerShot": 300
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -98,9 +189,21 @@
       "laboratoryRequired": 9,
       "researchCost": 3100000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 215, "damagePerShot": 322.5 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-8.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 215,
+          "damagePerShot": 322.5
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -109,9 +212,21 @@
       "laboratoryRequired": 10,
       "researchCost": 4000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 230, "damagePerShot": 345 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-9.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 230,
+          "damagePerShot": 345
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -120,9 +235,21 @@
       "laboratoryRequired": 11,
       "researchCost": 5500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 245, "damagePerShot": 367.5 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-10.png" }
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 245,
+          "damagePerShot": 367.5
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -131,9 +258,21 @@
       "laboratoryRequired": 13,
       "researchCost": 10000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 260, "damagePerShot": 390 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-11.png" }
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 260,
+          "damagePerShot": 390
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -142,9 +281,21 @@
       "laboratoryRequired": 14,
       "researchCost": 11500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 275, "damagePerShot": 412.5 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-12.png" }
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 275,
+          "damagePerShot": 412.5
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -153,9 +304,21 @@
       "laboratoryRequired": 15,
       "researchCost": 16000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 10, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 290, "damagePerShot": 435 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-13.png" }
+      "researchTime": {
+        "days": 10,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 290,
+          "damagePerShot": 435
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -164,9 +327,21 @@
       "laboratoryRequired": 16,
       "researchCost": 27000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": { "normal": { "dps": 310, "damagePerShot": 465 } },
-      "images": { "normal": "images/home/troops/wizard/normal/level-14.png" }
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 310,
+          "damagePerShot": 465
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wizard/normal/level-14.png"
+      }
     }
   ],
   "superTroop": {
@@ -179,46 +354,101 @@
     "range": 3,
     "boostCost": 25000,
     "boostCostResource": "Dark Elixir",
-    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "boostDuration": {
+      "days": 3,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "regularLevelRequired": 9,
     "specialAbility": "Chain Magic",
-    "images": { "icon": "images/home/troops/wizard/super-icon.png" },
+    "images": {
+      "icon": "images/home/troops/wizard/super-icon.png"
+    },
     "levels": [
       {
         "level": 9,
         "hitpoints": 545,
-        "stats": { "normal": { "dps": 220, "damagePerShot": 440, "chainDamagePerShot": 176 } },
-        "images": { "normal": "images/home/troops/wizard/super/level-9.png" }
+        "stats": {
+          "normal": {
+            "dps": 220,
+            "damagePerShot": 440,
+            "chainDamagePerShot": 176
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wizard/super/level-9.png"
+        }
       },
       {
         "level": 10,
         "hitpoints": 705,
-        "stats": { "normal": { "dps": 240, "damagePerShot": 480, "chainDamagePerShot": 192 } },
-        "images": { "normal": "images/home/troops/wizard/super/level-9.png" }
+        "stats": {
+          "normal": {
+            "dps": 240,
+            "damagePerShot": 480,
+            "chainDamagePerShot": 192
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wizard/super/level-9.png"
+        }
       },
       {
         "level": 11,
         "hitpoints": 760,
-        "stats": { "normal": { "dps": 265, "damagePerShot": 530, "chainDamagePerShot": 212 } },
-        "images": { "normal": "images/home/troops/wizard/super/level-9.png" }
+        "stats": {
+          "normal": {
+            "dps": 265,
+            "damagePerShot": 530,
+            "chainDamagePerShot": 212
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wizard/super/level-9.png"
+        }
       },
       {
         "level": 12,
         "hitpoints": 815,
-        "stats": { "normal": { "dps": 285, "damagePerShot": 570, "chainDamagePerShot": 228 } },
-        "images": { "normal": "images/home/troops/wizard/super/level-9.png" }
+        "stats": {
+          "normal": {
+            "dps": 285,
+            "damagePerShot": 570,
+            "chainDamagePerShot": 228
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wizard/super/level-9.png"
+        }
       },
       {
         "level": 13,
         "hitpoints": 870,
-        "stats": { "normal": { "dps": 305, "damagePerShot": 610, "chainDamagePerShot": 244 } },
-        "images": { "normal": "images/home/troops/wizard/super/level-9.png" }
+        "stats": {
+          "normal": {
+            "dps": 305,
+            "damagePerShot": 610,
+            "chainDamagePerShot": 244
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wizard/super/level-9.png"
+        }
       },
       {
         "level": 14,
         "hitpoints": 925,
-        "stats": { "normal": { "dps": 335, "damagePerShot": 670, "chainDamagePerShot": 268 } },
-        "images": { "normal": "images/home/troops/wizard/super/level-9.png" }
+        "stats": {
+          "normal": {
+            "dps": 335,
+            "damagePerShot": 670,
+            "chainDamagePerShot": 268
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wizard/super/level-9.png"
+        }
       }
     ]
   }

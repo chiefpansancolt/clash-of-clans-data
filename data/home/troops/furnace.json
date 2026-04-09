@@ -6,6 +6,11 @@
   "category": "troop",
   "troopType": "dark",
   "housingSpace": 18,
+  "donationCost": {
+    "amount": 405,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 9
+  },
   "movementSpeed": 0,
   "lifetime": 60,
   "damageType": "none",
@@ -22,10 +27,19 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "firemitesSpawned": 19,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/home/troops/furnace/normal/level-1.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/home/troops/furnace/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -34,10 +48,19 @@
       "laboratoryRequired": 13,
       "researchCost": 200000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 12,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "firemitesSpawned": 20,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/home/troops/furnace/normal/level-2.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/home/troops/furnace/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -46,10 +69,19 @@
       "laboratoryRequired": 14,
       "researchCost": 260000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "firemitesSpawned": 21,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/home/troops/furnace/normal/level-3.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/home/troops/furnace/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -58,10 +90,19 @@
       "laboratoryRequired": 15,
       "researchCost": 320000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 16, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 16,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "firemitesSpawned": 22,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/home/troops/furnace/normal/level-4.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/home/troops/furnace/normal/level-4.png"
+      }
     }
   ]
 }

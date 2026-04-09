@@ -6,6 +6,11 @@
   "category": "troop",
   "troopType": "dark",
   "housingSpace": 6,
+  "donationCost": {
+    "amount": 135,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 3
+  },
   "movementSpeed": 32,
   "attackSpeed": 0.6,
   "range": 3,
@@ -24,7 +29,12 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "poisonMaxDps": 220,
       "poisonSpeedDecrease": 40,
       "poisonAttackRateDecrease": 55,
@@ -46,7 +56,12 @@
       "laboratoryRequired": 10,
       "researchCost": 57500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "poisonMaxDps": 260,
       "poisonSpeedDecrease": 42,
       "poisonAttackRateDecrease": 60,
@@ -68,7 +83,12 @@
       "laboratoryRequired": 11,
       "researchCost": 90000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "poisonMaxDps": 280,
       "poisonSpeedDecrease": 44,
       "poisonAttackRateDecrease": 65,

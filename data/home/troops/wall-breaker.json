@@ -6,13 +6,20 @@
   "category": "troop",
   "troopType": "regular",
   "housingSpace": 2,
+  "donationCost": {
+    "amount": 3000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 1
+  },
   "movementSpeed": 24,
   "range": 1,
   "attackSpeed": 1,
   "damageType": "splash",
   "targetType": "ground",
   "barrackLevelRequired": 5,
-  "images": { "icon": "images/home/troops/wall-breaker/icon.png" },
+  "images": {
+    "icon": "images/home/troops/wall-breaker/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -21,11 +28,22 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 10, "damagePerShot": 10, "deathDamage": 6 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 10,
+          "damagePerShot": 10,
+          "deathDamage": 6
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -34,11 +52,22 @@
       "laboratoryRequired": 2,
       "researchCost": 80000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 20, "damagePerShot": 20, "deathDamage": 9 }
+      "researchTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 20,
+          "damagePerShot": 20,
+          "deathDamage": 9
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -47,11 +76,22 @@
       "laboratoryRequired": 4,
       "researchCost": 200000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 25, "damagePerShot": 25, "deathDamage": 13 }
+      "researchTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 25,
+          "damagePerShot": 25,
+          "deathDamage": 13
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -60,11 +100,22 @@
       "laboratoryRequired": 5,
       "researchCost": 450000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 30, "damagePerShot": 30, "deathDamage": 16 }
+      "researchTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 30,
+          "damagePerShot": 30,
+          "deathDamage": 16
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -73,11 +124,22 @@
       "laboratoryRequired": 6,
       "researchCost": 1000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 43, "damagePerShot": 43, "deathDamage": 23 }
+      "researchTime": {
+        "days": 0,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 43,
+          "damagePerShot": 43,
+          "deathDamage": 23
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -86,11 +148,22 @@
       "laboratoryRequired": 8,
       "researchCost": 2400000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 55, "damagePerShot": 55, "deathDamage": 30 }
+      "researchTime": {
+        "days": 1,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 55,
+          "damagePerShot": 55,
+          "deathDamage": 30
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -99,11 +172,22 @@
       "laboratoryRequired": 9,
       "researchCost": 2800000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 66, "damagePerShot": 66, "deathDamage": 36 }
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 66,
+          "damagePerShot": 66,
+          "deathDamage": 36
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -112,11 +196,22 @@
       "laboratoryRequired": 10,
       "researchCost": 3800000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 75, "damagePerShot": 75, "deathDamage": 42 }
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 75,
+          "damagePerShot": 75,
+          "deathDamage": 42
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-7.png"
+      }
     },
     {
       "level": 9,
@@ -125,11 +220,22 @@
       "laboratoryRequired": 11,
       "researchCost": 5200000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 86, "damagePerShot": 86, "deathDamage": 48 }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 86,
+          "damagePerShot": 86,
+          "deathDamage": 48
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-7.png"
+      }
     },
     {
       "level": 10,
@@ -138,11 +244,22 @@
       "laboratoryRequired": 12,
       "researchCost": 6500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 94, "damagePerShot": 94, "deathDamage": 54 }
+      "researchTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 94,
+          "damagePerShot": 94,
+          "deathDamage": 54
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -151,11 +268,22 @@
       "laboratoryRequired": 13,
       "researchCost": 9500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 102, "damagePerShot": 102, "deathDamage": 60 }
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-11.png" }
+      "stats": {
+        "normal": {
+          "dps": 102,
+          "damagePerShot": 102,
+          "deathDamage": 60
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -164,11 +292,22 @@
       "laboratoryRequired": 14,
       "researchCost": 11000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 110, "damagePerShot": 110, "deathDamage": 66 }
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-12.png" }
+      "stats": {
+        "normal": {
+          "dps": 110,
+          "damagePerShot": 110,
+          "deathDamage": 66
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -177,11 +316,22 @@
       "laboratoryRequired": 15,
       "researchCost": 15500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 118, "damagePerShot": 118, "deathDamage": 72 }
+      "researchTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-13.png" }
+      "stats": {
+        "normal": {
+          "dps": 118,
+          "damagePerShot": 118,
+          "deathDamage": 72
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -190,11 +340,22 @@
       "laboratoryRequired": 16,
       "researchCost": 26000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 126, "damagePerShot": 126, "deathDamage": 78 }
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/wall-breaker/normal/level-14.png" }
+      "stats": {
+        "normal": {
+          "dps": 126,
+          "damagePerShot": 126,
+          "deathDamage": 78
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/wall-breaker/normal/level-14.png"
+      }
     }
   ],
   "superTroop": {
@@ -207,58 +368,129 @@
     "range": 0.6,
     "boostCost": 25000,
     "boostCostResource": "Dark Elixir",
-    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "boostDuration": {
+      "days": 3,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "regularLevelRequired": 7,
     "specialAbility": "Mega Bomb",
-    "images": { "icon": "images/home/troops/wall-breaker/super/icon.png" },
+    "images": {
+      "icon": "images/home/troops/wall-breaker/super/icon.png"
+    },
     "levels": [
       {
         "level": 7,
         "hitpoints": 350,
-        "stats": { "normal": { "dps": 78, "damagePerShot": 78, "deathDamage": 175 } },
-        "images": { "normal": "images/home/troops/wall-breaker/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 78,
+            "damagePerShot": 78,
+            "deathDamage": 175
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wall-breaker/super/level-7.png"
+        }
       },
       {
         "level": 8,
         "hitpoints": 400,
-        "stats": { "normal": { "dps": 100, "damagePerShot": 100, "deathDamage": 225 } },
-        "images": { "normal": "images/home/troops/wall-breaker/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 100,
+            "damagePerShot": 100,
+            "deathDamage": 225
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wall-breaker/super/level-7.png"
+        }
       },
       {
         "level": 9,
         "hitpoints": 450,
-        "stats": { "normal": { "dps": 120, "damagePerShot": 120, "deathDamage": 275 } },
-        "images": { "normal": "images/home/troops/wall-breaker/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 120,
+            "damagePerShot": 120,
+            "deathDamage": 275
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wall-breaker/super/level-7.png"
+        }
       },
       {
         "level": 10,
         "hitpoints": 475,
-        "stats": { "normal": { "dps": 130, "damagePerShot": 130, "deathDamage": 313 } },
-        "images": { "normal": "images/home/troops/wall-breaker/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 130,
+            "damagePerShot": 130,
+            "deathDamage": 313
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wall-breaker/super/level-7.png"
+        }
       },
       {
         "level": 11,
         "hitpoints": 500,
-        "stats": { "normal": { "dps": 140, "damagePerShot": 140, "deathDamage": 338 } },
-        "images": { "normal": "images/home/troops/wall-breaker/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 140,
+            "damagePerShot": 140,
+            "deathDamage": 338
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wall-breaker/super/level-7.png"
+        }
       },
       {
         "level": 12,
         "hitpoints": 525,
-        "stats": { "normal": { "dps": 150, "damagePerShot": 150, "deathDamage": 363 } },
-        "images": { "normal": "images/home/troops/wall-breaker/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 150,
+            "damagePerShot": 150,
+            "deathDamage": 363
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wall-breaker/super/level-7.png"
+        }
       },
       {
         "level": 13,
         "hitpoints": 550,
-        "stats": { "normal": { "dps": 160, "damagePerShot": 160, "deathDamage": 388 } },
-        "images": { "normal": "images/home/troops/wall-breaker/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 160,
+            "damagePerShot": 160,
+            "deathDamage": 388
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wall-breaker/super/level-7.png"
+        }
       },
       {
         "level": 14,
         "hitpoints": 575,
-        "stats": { "normal": { "dps": 170, "damagePerShot": 170, "deathDamage": 413 } },
-        "images": { "normal": "images/home/troops/wall-breaker/super/level-7.png" }
+        "stats": {
+          "normal": {
+            "dps": 170,
+            "damagePerShot": 170,
+            "deathDamage": 413
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/wall-breaker/super/level-7.png"
+        }
       }
     ]
   }

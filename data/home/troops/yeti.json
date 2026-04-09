@@ -8,6 +8,11 @@
   "damageType": "single",
   "targetType": "ground",
   "housingSpace": 18,
+  "donationCost": {
+    "amount": 27000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 9
+  },
   "movementSpeed": 12,
   "attackSpeed": 1,
   "range": 0.8,
@@ -23,11 +28,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 230, "damagePerShot": 230 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/yeti/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 230,
+          "damagePerShot": 230
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/yeti/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -36,11 +51,21 @@
       "laboratoryRequired": 10,
       "researchCost": 5000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 250, "damagePerShot": 250 }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/yeti/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 250,
+          "damagePerShot": 250
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/yeti/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -49,11 +74,21 @@
       "laboratoryRequired": 11,
       "researchCost": 6500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 270, "damagePerShot": 270 }
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/yeti/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 270,
+          "damagePerShot": 270
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/yeti/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -62,11 +97,21 @@
       "laboratoryRequired": 12,
       "researchCost": 10000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 290, "damagePerShot": 290 }
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/yeti/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 290,
+          "damagePerShot": 290
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/yeti/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -75,11 +120,21 @@
       "laboratoryRequired": 13,
       "researchCost": 12000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 310, "damagePerShot": 310 }
+      "researchTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/yeti/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 310,
+          "damagePerShot": 310
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/yeti/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -88,11 +143,21 @@
       "laboratoryRequired": 14,
       "researchCost": 14500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 8, "hours": 6, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 330, "damagePerShot": 330 }
+      "researchTime": {
+        "days": 8,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/yeti/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 330,
+          "damagePerShot": 330
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/yeti/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -101,11 +166,21 @@
       "laboratoryRequired": 15,
       "researchCost": 17000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 350, "damagePerShot": 350 }
+      "researchTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/yeti/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 350,
+          "damagePerShot": 350
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/yeti/normal/level-7.png"
+      }
     }
   ],
   "superTroop": {
@@ -118,7 +193,12 @@
     "range": 0.8,
     "boostCost": 25000,
     "boostCostResource": "Dark Elixir",
-    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "boostDuration": {
+      "days": 3,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "regularLevelRequired": 3,
     "specialAbility": "Shock and Awe",
     "images": {
@@ -130,45 +210,70 @@
         "hitpoints": 5400,
         "townHallRequired": 13,
         "stats": {
-          "normal": { "dps": 415, "damagePerShot": 415 }
+          "normal": {
+            "dps": 415,
+            "damagePerShot": 415
+          }
         },
-        "images": { "normal": "images/home/troops/yeti/super/level-3.png" }
+        "images": {
+          "normal": "images/home/troops/yeti/super/level-3.png"
+        }
       },
       {
         "level": 4,
         "hitpoints": 5800,
         "townHallRequired": 14,
         "stats": {
-          "normal": { "dps": 440, "damagePerShot": 440 }
+          "normal": {
+            "dps": 440,
+            "damagePerShot": 440
+          }
         },
-        "images": { "normal": "images/home/troops/yeti/super/level-3.png" }
+        "images": {
+          "normal": "images/home/troops/yeti/super/level-3.png"
+        }
       },
       {
         "level": 5,
         "hitpoints": 6200,
         "townHallRequired": 15,
         "stats": {
-          "normal": { "dps": 465, "damagePerShot": 465 }
+          "normal": {
+            "dps": 465,
+            "damagePerShot": 465
+          }
         },
-        "images": { "normal": "images/home/troops/yeti/super/level-3.png" }
+        "images": {
+          "normal": "images/home/troops/yeti/super/level-3.png"
+        }
       },
       {
         "level": 6,
         "hitpoints": 6600,
         "townHallRequired": 16,
         "stats": {
-          "normal": { "dps": 495, "damagePerShot": 495 }
+          "normal": {
+            "dps": 495,
+            "damagePerShot": 495
+          }
         },
-        "images": { "normal": "images/home/troops/yeti/super/level-3.png" }
+        "images": {
+          "normal": "images/home/troops/yeti/super/level-3.png"
+        }
       },
       {
         "level": 7,
         "hitpoints": 7000,
         "townHallRequired": 17,
         "stats": {
-          "normal": { "dps": 525, "damagePerShot": 525 }
+          "normal": {
+            "dps": 525,
+            "damagePerShot": 525
+          }
         },
-        "images": { "normal": "images/home/troops/yeti/super/level-3.png" }
+        "images": {
+          "normal": "images/home/troops/yeti/super/level-3.png"
+        }
       }
     ]
   }

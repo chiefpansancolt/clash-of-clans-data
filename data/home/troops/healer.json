@@ -5,13 +5,20 @@
   "category": "troop",
   "troopType": "regular",
   "housingSpace": 14,
+  "donationCost": {
+    "amount": 21000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 7
+  },
   "movementSpeed": 16,
   "range": 5,
   "attackSpeed": 0.7,
   "damageType": "none",
   "targetType": "ground",
   "barrackLevelRequired": 8,
-  "images": { "icon": "images/home/troops/healer/icon.png" },
+  "images": {
+    "icon": "images/home/troops/healer/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -20,7 +27,12 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 36,
@@ -29,7 +41,9 @@
           "healingPerPulseOnHeroes": 13.3
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -38,7 +52,12 @@
       "laboratoryRequired": 5,
       "researchCost": 450000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 48,
@@ -47,7 +66,9 @@
           "healingPerPulseOnHeroes": 18.2
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -56,7 +77,12 @@
       "laboratoryRequired": 6,
       "researchCost": 900000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 60,
@@ -65,7 +91,9 @@
           "healingPerPulseOnHeroes": 23.1
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -74,7 +102,12 @@
       "laboratoryRequired": 7,
       "researchCost": 2500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 66,
@@ -83,7 +116,9 @@
           "healingPerPulseOnHeroes": 25.2
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -92,7 +127,12 @@
       "laboratoryRequired": 9,
       "researchCost": 4000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 72,
@@ -101,7 +141,9 @@
           "healingPerPulseOnHeroes": 33.6
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -110,7 +152,12 @@
       "laboratoryRequired": 11,
       "researchCost": 6000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 72,
@@ -119,7 +166,9 @@
           "healingPerPulseOnHeroes": 39.2
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-5.png"
+      }
     },
     {
       "level": 7,
@@ -128,7 +177,12 @@
       "laboratoryRequired": 12,
       "researchCost": 9500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 72,
@@ -137,7 +191,9 @@
           "healingPerPulseOnHeroes": 43.4
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -146,7 +202,12 @@
       "laboratoryRequired": 13,
       "researchCost": 11000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 76,
@@ -155,7 +216,9 @@
           "healingPerPulseOnHeroes": 47.6
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-8.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -164,7 +227,12 @@
       "laboratoryRequired": 14,
       "researchCost": 13000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 7, "hours": 6, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 7,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 80,
@@ -173,7 +241,9 @@
           "healingPerPulseOnHeroes": 52.5
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-9.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -182,7 +252,12 @@
       "laboratoryRequired": 15,
       "researchCost": 17000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 80,
@@ -191,7 +266,9 @@
           "healingPerPulseOnHeroes": 54.6
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-10.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -200,7 +277,12 @@
       "laboratoryRequired": 16,
       "researchCost": 28500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 15, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 15,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "stats": {
         "normal": {
           "healingPerSecond": 82,
@@ -209,7 +291,9 @@
           "healingPerPulseOnHeroes": 61.6
         }
       },
-      "images": { "normal": "images/home/troops/healer/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/troops/healer/normal/level-11.png"
+      }
     }
   ]
 }

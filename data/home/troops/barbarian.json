@@ -6,13 +6,20 @@
   "category": "troop",
   "troopType": "regular",
   "housingSpace": 1,
+  "donationCost": {
+    "amount": 3000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 1
+  },
   "movementSpeed": 18,
   "range": 0.4,
   "attackSpeed": 1,
   "damageType": "single",
   "targetType": "ground",
   "barrackLevelRequired": 1,
-  "images": { "icon": "images/home/troops/barbarian/icon.png" },
+  "images": {
+    "icon": "images/home/troops/barbarian/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -21,11 +28,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 9, "damagePerShot": 9 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 9,
+          "damagePerShot": 9
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -34,11 +51,21 @@
       "laboratoryRequired": 1,
       "researchCost": 10000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 12, "damagePerShot": 12 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 12,
+          "damagePerShot": 12
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -47,11 +74,21 @@
       "laboratoryRequired": 3,
       "researchCost": 50000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 15, "damagePerShot": 15 }
+      "researchTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 15,
+          "damagePerShot": 15
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -60,11 +97,21 @@
       "laboratoryRequired": 5,
       "researchCost": 130000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 18, "damagePerShot": 18 }
+      "researchTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 18,
+          "damagePerShot": 18
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -73,11 +120,21 @@
       "laboratoryRequired": 6,
       "researchCost": 300000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 23, "damagePerShot": 23 }
+      "researchTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 23,
+          "damagePerShot": 23
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -86,11 +143,21 @@
       "laboratoryRequired": 7,
       "researchCost": 800000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 26, "damagePerShot": 26 }
+      "researchTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 26,
+          "damagePerShot": 26
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -99,11 +166,21 @@
       "laboratoryRequired": 8,
       "researchCost": 1000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 30, "damagePerShot": 30 }
+      "researchTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 30,
+          "damagePerShot": 30
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -112,11 +189,21 @@
       "laboratoryRequired": 9,
       "researchCost": 1500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 34, "damagePerShot": 34 }
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-8.png" }
+      "stats": {
+        "normal": {
+          "dps": 34,
+          "damagePerShot": 34
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -125,11 +212,21 @@
       "laboratoryRequired": 10,
       "researchCost": 2500000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 38, "damagePerShot": 38 }
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-9.png" }
+      "stats": {
+        "normal": {
+          "dps": 38,
+          "damagePerShot": 38
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -138,11 +235,21 @@
       "laboratoryRequired": 12,
       "researchCost": 4300000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 42, "damagePerShot": 42 }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 42,
+          "damagePerShot": 42
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -151,11 +258,21 @@
       "laboratoryRequired": 13,
       "researchCost": 6000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 45, "damagePerShot": 45 }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-11.png" }
+      "stats": {
+        "normal": {
+          "dps": 45,
+          "damagePerShot": 45
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -164,11 +281,21 @@
       "laboratoryRequired": 14,
       "researchCost": 8000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 48, "damagePerShot": 48 }
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/barbarian/normal/level-12.png" }
+      "stats": {
+        "normal": {
+          "dps": 48,
+          "damagePerShot": 48
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-12.png"
+      }
     }
   ],
   "superTroop": {
@@ -181,40 +308,82 @@
     "range": 0.6,
     "boostCost": 25000,
     "boostCostResource": "Dark Elixir",
-    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "boostDuration": {
+      "days": 3,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "regularLevelRequired": 8,
     "specialAbility": "Rage",
-    "images": { "icon": "images/home/troops/barbarian/super/icon.png" },
+    "images": {
+      "icon": "images/home/troops/barbarian/super/icon.png"
+    },
     "levels": [
       {
         "level": 8,
         "hitpoints": 1000,
-        "stats": { "normal": { "dps": 180, "damagePerShot": 144 } },
-        "images": { "normal": "images/home/troops/barbarian/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 180,
+            "damagePerShot": 144
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/barbarian/super/level-8.png"
+        }
       },
       {
         "level": 9,
         "hitpoints": 1100,
-        "stats": { "normal": { "dps": 200, "damagePerShot": 160 } },
-        "images": { "normal": "images/home/troops/barbarian/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 200,
+            "damagePerShot": 160
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/barbarian/super/level-8.png"
+        }
       },
       {
         "level": 10,
         "hitpoints": 1200,
-        "stats": { "normal": { "dps": 220, "damagePerShot": 176 } },
-        "images": { "normal": "images/home/troops/barbarian/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 220,
+            "damagePerShot": 176
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/barbarian/super/level-8.png"
+        }
       },
       {
         "level": 11,
         "hitpoints": 1300,
-        "stats": { "normal": { "dps": 240, "damagePerShot": 192 } },
-        "images": { "normal": "images/home/troops/barbarian/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 240,
+            "damagePerShot": 192
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/barbarian/super/level-8.png"
+        }
       },
       {
         "level": 12,
         "hitpoints": 1350,
-        "stats": { "normal": { "dps": 250, "damagePerShot": 200 } },
-        "images": { "normal": "images/home/troops/barbarian/super/level-8.png" }
+        "stats": {
+          "normal": {
+            "dps": 250,
+            "damagePerShot": 200
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/barbarian/super/level-8.png"
+        }
       }
     ]
   }

@@ -6,6 +6,11 @@
   "category": "troop",
   "troopType": "dark",
   "housingSpace": 6,
+  "donationCost": {
+    "amount": 135,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 3
+  },
   "movementSpeed": 14,
   "attackSpeed": 2.2,
   "range": 3,
@@ -23,11 +28,21 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 60, "damagePerShot": 132 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 60,
+          "damagePerShot": 132
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -36,11 +51,21 @@
       "laboratoryRequired": 8,
       "researchCost": 32500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 72, "damagePerShot": 158.4 }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 72,
+          "damagePerShot": 158.4
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -49,11 +74,21 @@
       "laboratoryRequired": 9,
       "researchCost": 44000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 84, "damagePerShot": 184.8 }
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 84,
+          "damagePerShot": 184.8
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -62,11 +97,21 @@
       "laboratoryRequired": 10,
       "researchCost": 62500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 96, "damagePerShot": 211.2 }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 96,
+          "damagePerShot": 211.2
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -75,11 +120,21 @@
       "laboratoryRequired": 11,
       "researchCost": 85000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 102, "damagePerShot": 224.4 }
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 102,
+          "damagePerShot": 224.4
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -88,11 +143,21 @@
       "laboratoryRequired": 12,
       "researchCost": 110000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 108, "damagePerShot": 237.6 }
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 108,
+          "damagePerShot": 237.6
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -101,11 +166,21 @@
       "laboratoryRequired": 13,
       "researchCost": 145000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 114, "damagePerShot": 250.8 }
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 114,
+          "damagePerShot": 250.8
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -114,11 +189,21 @@
       "laboratoryRequired": 14,
       "researchCost": 175000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 126, "damagePerShot": 277.2 }
+      "researchTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-8.png" }
+      "stats": {
+        "normal": {
+          "dps": 126,
+          "damagePerShot": 277.2
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -127,11 +212,21 @@
       "laboratoryRequired": 15,
       "researchCost": 260000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 140, "damagePerShot": 308 }
+      "researchTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-9.png" }
+      "stats": {
+        "normal": {
+          "dps": 140,
+          "damagePerShot": 308
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -140,11 +235,21 @@
       "laboratoryRequired": 16,
       "researchCost": 360000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 15, "hours": 0, "minutes": 0, "seconds": 0 },
-      "stats": {
-        "normal": { "dps": 156, "damagePerShot": 343.2 }
+      "researchTime": {
+        "days": 15,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
       },
-      "images": { "normal": "images/home/troops/bowler/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 156,
+          "damagePerShot": 343.2
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/bowler/normal/level-10.png"
+      }
     }
   ],
   "superTroop": {
@@ -157,7 +262,12 @@
     "range": 3,
     "boostCost": 25000,
     "boostCostResource": "Dark Elixir",
-    "boostDuration": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+    "boostDuration": {
+      "days": 3,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "regularLevelRequired": 4,
     "specialAbility": "Triple Strike",
     "images": {
@@ -168,50 +278,99 @@
         "level": 4,
         "hitpoints": 1600,
         "townHallRequired": 12,
-        "stats": { "normal": { "dps": 170, "damagePerShot": 374 } },
-        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+        "stats": {
+          "normal": {
+            "dps": 170,
+            "damagePerShot": 374
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/bowler/super/level-4.png"
+        }
       },
       {
         "level": 5,
         "hitpoints": 1800,
         "townHallRequired": 13,
-        "stats": { "normal": { "dps": 185, "damagePerShot": 407 } },
-        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+        "stats": {
+          "normal": {
+            "dps": 185,
+            "damagePerShot": 407
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/bowler/super/level-4.png"
+        }
       },
       {
         "level": 6,
         "hitpoints": 2000,
         "townHallRequired": 14,
-        "stats": { "normal": { "dps": 200, "damagePerShot": 440 } },
-        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+        "stats": {
+          "normal": {
+            "dps": 200,
+            "damagePerShot": 440
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/bowler/super/level-4.png"
+        }
       },
       {
         "level": 7,
         "hitpoints": 2300,
         "townHallRequired": 15,
-        "stats": { "normal": { "dps": 220, "damagePerShot": 484 } },
-        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+        "stats": {
+          "normal": {
+            "dps": 220,
+            "damagePerShot": 484
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/bowler/super/level-4.png"
+        }
       },
       {
         "level": 8,
         "hitpoints": 2600,
         "townHallRequired": 16,
-        "stats": { "normal": { "dps": 240, "damagePerShot": 528 } },
-        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+        "stats": {
+          "normal": {
+            "dps": 240,
+            "damagePerShot": 528
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/bowler/super/level-4.png"
+        }
       },
       {
         "level": 9,
         "hitpoints": 3000,
         "townHallRequired": 17,
-        "stats": { "normal": { "dps": 270, "damagePerShot": 594 } },
-        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+        "stats": {
+          "normal": {
+            "dps": 270,
+            "damagePerShot": 594
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/bowler/super/level-4.png"
+        }
       },
       {
         "level": 10,
         "hitpoints": 3600,
         "townHallRequired": 18,
-        "stats": { "normal": { "dps": 300, "damagePerShot": 660 } },
-        "images": { "normal": "images/home/troops/bowler/super/level-4.png" }
+        "stats": {
+          "normal": {
+            "dps": 300,
+            "damagePerShot": 660
+          }
+        },
+        "images": {
+          "normal": "images/home/troops/bowler/super/level-4.png"
+        }
       }
     ]
   }

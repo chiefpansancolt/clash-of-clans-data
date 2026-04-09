@@ -7,10 +7,17 @@
   "spellType": "regular",
   "radius": 5,
   "housingSpace": 2,
+  "donationCost": {
+    "amount": 18000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 6
+  },
   "spellFactoryLevelRequired": 2,
   "numberOfPulses": 41,
   "timeBetweenPulses": 0.3,
-  "images": { "icon": "images/home/spells/healing-spell/icon.png" },
+  "images": {
+    "icon": "images/home/spells/healing-spell/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -21,7 +28,12 @@
       "townHallRequired": 6,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -32,7 +44,12 @@
       "townHallRequired": 6,
       "researchCost": 75000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -43,7 +60,12 @@
       "townHallRequired": 6,
       "researchCost": 150000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -54,7 +76,12 @@
       "townHallRequired": 7,
       "researchCost": 300000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -65,7 +92,12 @@
       "townHallRequired": 8,
       "researchCost": 900000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 6,
@@ -76,7 +108,12 @@
       "townHallRequired": 9,
       "researchCost": 1800000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 7,
@@ -87,7 +124,12 @@
       "townHallRequired": 10,
       "researchCost": 3000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 8,
@@ -98,7 +140,12 @@
       "townHallRequired": 13,
       "researchCost": 6000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 9,
@@ -109,7 +156,12 @@
       "townHallRequired": 15,
       "researchCost": 11000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 10,
@@ -120,7 +172,12 @@
       "townHallRequired": 16,
       "researchCost": 14000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 11,
@@ -131,7 +188,12 @@
       "townHallRequired": 17,
       "researchCost": 19000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 10, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 10,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 12,
@@ -142,7 +204,12 @@
       "townHallRequired": 17,
       "researchCost": 29000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 15, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 15,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

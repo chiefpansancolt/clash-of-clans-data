@@ -6,6 +6,11 @@
   "category": "troop",
   "troopType": "dark",
   "housingSpace": 15,
+  "donationCost": {
+    "amount": 360,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 8
+  },
   "movementSpeed": 12,
   "attackSpeed": 2,
   "range": 1,
@@ -26,13 +31,23 @@
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "deathFreezeTimeOnOffense": 4.0,
       "deathFreezeTimeOnDefense": 2.0,
       "stats": {
-        "normal": { "dps": 24, "damagePerShot": 48 }
+        "normal": {
+          "dps": 24,
+          "damagePerShot": 48
+        }
       },
-      "images": { "normal": "images/home/troops/ice-golem/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/troops/ice-golem/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -41,13 +56,23 @@
       "laboratoryRequired": 9,
       "researchCost": 27500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "deathFreezeTimeOnOffense": 4.75,
       "deathFreezeTimeOnDefense": 2.25,
       "stats": {
-        "normal": { "dps": 28, "damagePerShot": 56 }
+        "normal": {
+          "dps": 28,
+          "damagePerShot": 56
+        }
       },
-      "images": { "normal": "images/home/troops/ice-golem/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/troops/ice-golem/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -56,13 +81,23 @@
       "laboratoryRequired": 9,
       "researchCost": 42500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "deathFreezeTimeOnOffense": 5.5,
       "deathFreezeTimeOnDefense": 2.5,
       "stats": {
-        "normal": { "dps": 32, "damagePerShot": 64 }
+        "normal": {
+          "dps": 32,
+          "damagePerShot": 64
+        }
       },
-      "images": { "normal": "images/home/troops/ice-golem/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/troops/ice-golem/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -71,13 +106,23 @@
       "laboratoryRequired": 10,
       "researchCost": 50000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 3, "hours": 6, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 3,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "deathFreezeTimeOnOffense": 6.25,
       "deathFreezeTimeOnDefense": 2.75,
       "stats": {
-        "normal": { "dps": 36, "damagePerShot": 72 }
+        "normal": {
+          "dps": 36,
+          "damagePerShot": 72
+        }
       },
-      "images": { "normal": "images/home/troops/ice-golem/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/troops/ice-golem/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -86,13 +131,23 @@
       "laboratoryRequired": 10,
       "researchCost": 62500,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "deathFreezeTimeOnOffense": 7.0,
       "deathFreezeTimeOnDefense": 3.0,
       "stats": {
-        "normal": { "dps": 40, "damagePerShot": 80 }
+        "normal": {
+          "dps": 40,
+          "damagePerShot": 80
+        }
       },
-      "images": { "normal": "images/home/troops/ice-golem/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/troops/ice-golem/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -101,13 +156,23 @@
       "laboratoryRequired": 12,
       "researchCost": 110000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "deathFreezeTimeOnOffense": 7.5,
       "deathFreezeTimeOnDefense": 3.25,
       "stats": {
-        "normal": { "dps": 44, "damagePerShot": 88 }
+        "normal": {
+          "dps": 44,
+          "damagePerShot": 88
+        }
       },
-      "images": { "normal": "images/home/troops/ice-golem/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/troops/ice-golem/normal/level-5.png"
+      }
     },
     {
       "level": 7,
@@ -116,13 +181,23 @@
       "laboratoryRequired": 13,
       "researchCost": 140000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "deathFreezeTimeOnOffense": 8.0,
       "deathFreezeTimeOnDefense": 3.5,
       "stats": {
-        "normal": { "dps": 48, "damagePerShot": 96 }
+        "normal": {
+          "dps": 48,
+          "damagePerShot": 96
+        }
       },
-      "images": { "normal": "images/home/troops/ice-golem/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/troops/ice-golem/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -131,13 +206,23 @@
       "laboratoryRequired": 14,
       "researchCost": 180000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "deathFreezeTimeOnOffense": 8.5,
       "deathFreezeTimeOnDefense": 3.5,
       "stats": {
-        "normal": { "dps": 52, "damagePerShot": 104 }
+        "normal": {
+          "dps": 52,
+          "damagePerShot": 104
+        }
       },
-      "images": { "normal": "images/home/troops/ice-golem/normal/level-8.png" }
+      "images": {
+        "normal": "images/home/troops/ice-golem/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -146,13 +231,23 @@
       "laboratoryRequired": 15,
       "researchCost": 280000,
       "researchCostResource": "Dark Elixir",
-      "researchTime": { "days": 10, "hours": 14, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 10,
+        "hours": 14,
+        "minutes": 0,
+        "seconds": 0
+      },
       "deathFreezeTimeOnOffense": 9.0,
       "deathFreezeTimeOnDefense": 3.5,
       "stats": {
-        "normal": { "dps": 56, "damagePerShot": 112 }
+        "normal": {
+          "dps": 56,
+          "damagePerShot": 112
+        }
       },
-      "images": { "normal": "images/home/troops/ice-golem/normal/level-9.png" }
+      "images": {
+        "normal": "images/home/troops/ice-golem/normal/level-9.png"
+      }
     }
   ]
 }

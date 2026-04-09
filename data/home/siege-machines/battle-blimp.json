@@ -5,12 +5,19 @@
   "base": "home",
   "category": "siege-machine",
   "housingSpace": 1,
+  "donationCost": {
+    "amount": 45000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 15
+  },
   "workshopLevelRequired": 2,
   "preferredTarget": "None",
   "attackType": "Area Splash",
   "movementSpeed": 18,
   "attackSpeed": 1.5,
-  "images": { "icon": "images/home/siege-machines/battle-blimp/icon.png" },
+  "images": {
+    "icon": "images/home/siege-machines/battle-blimp/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -22,8 +29,15 @@
       "townHallRequired": 12,
       "researchCost": 0,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-1.png" }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/battle-blimp/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -35,8 +49,15 @@
       "townHallRequired": 12,
       "researchCost": 2500000,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-2.png" }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/battle-blimp/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -48,8 +69,15 @@
       "townHallRequired": 12,
       "researchCost": 3500000,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-3.png" }
+      "researchTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/battle-blimp/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -61,8 +89,15 @@
       "townHallRequired": 13,
       "researchCost": 6500000,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-4.png" }
+      "researchTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/battle-blimp/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -74,8 +109,15 @@
       "townHallRequired": 15,
       "researchCost": 10000000,
       "researchCostResource": "Gold",
-      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
-      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-5.png" }
+      "researchTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/battle-blimp/normal/level-5.png"
+      }
     }
   ]
 }

@@ -7,9 +7,16 @@
   "spellType": "regular",
   "radius": 3.5,
   "housingSpace": 2,
+  "donationCost": {
+    "amount": 18000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 6
+  },
   "spellFactoryLevelRequired": 4,
   "boostTime": 1,
-  "images": { "icon": "images/home/spells/jump-spell/icon.png" },
+  "images": {
+    "icon": "images/home/spells/jump-spell/icon.png"
+  },
   "levels": [
     {
       "level": 1,
@@ -18,7 +25,12 @@
       "townHallRequired": 8,
       "researchCost": 0,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -27,7 +39,12 @@
       "townHallRequired": 8,
       "researchCost": 1000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -36,7 +53,12 @@
       "townHallRequired": 10,
       "researchCost": 2000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -45,7 +67,12 @@
       "townHallRequired": 13,
       "researchCost": 5000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -54,7 +81,12 @@
       "townHallRequired": 15,
       "researchCost": 8000000,
       "researchCostResource": "Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }
