@@ -8,10 +8,11 @@ import { lassiData } from './lassi';
 import { mightyYakData } from './mighty-yak';
 import { phoenixData } from './phoenix';
 import { poisonLizardData } from './poison-lizard';
+import { sneezyData } from './sneezy';
 import { spiritFoxData } from './spirit-fox';
 import { unicornData } from './unicorn';
 
-const allPets: HomePet[] = [lassiData, electroOwlData, mightyYakData, unicornData, frostyData, diggyData, poisonLizardData, phoenixData, spiritFoxData, angryJellyData];
+const allPets: HomePet[] = [lassiData, electroOwlData, mightyYakData, unicornData, frostyData, diggyData, poisonLizardData, phoenixData, spiritFoxData, angryJellyData, sneezyData];
 
 export class HomeVillagePets extends QueryBase<HomePet> {
   constructor(data: HomePet[] = allPets) {
@@ -57,6 +58,10 @@ export class HomeVillagePets extends QueryBase<HomePet> {
 
   angryJelly(): HomeVillagePets {
     return new HomeVillagePets([angryJellyData]);
+  }
+
+  sneezy(): HomeVillagePets {
+    return new HomeVillagePets([sneezyData]);
   }
 
   // Category filters

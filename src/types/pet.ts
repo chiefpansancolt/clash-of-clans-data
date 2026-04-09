@@ -44,6 +44,7 @@ export interface HomePet {
   summonCooldown?: number;
   rageSpeedIncrease?: number;
   rageDamageIncreasePercent?: number;
+  maxBoogersSummoned?: number;
   images: { icon: string; normal: string; egg?: string };
   levels: HomePetLevel[];
 }
