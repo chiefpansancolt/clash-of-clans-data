@@ -1,8 +1,15 @@
 import { QueryBase } from '@/common/query-base';
 import { EquipmentRarity, HeroEquipment } from '@/types';
+import { actionFigureData } from './action-figure';
+import { archerPuppetData } from './archer-puppet';
 import { barbarianPuppetData } from './barbarian-puppet';
 import { earthquakeBootsData } from './earthquake-boots';
+import { frozenArrowData } from './frozen-arrow';
+import { giantArrowData } from './giant-arrow';
 import { giantGauntletData } from './giant-gauntlet';
+import { healerPuppetData } from './healer-puppet';
+import { invisibilityVialData } from './invisibility-vial';
+import { magicMirrorData } from './magic-mirror';
 import { rageVialData } from './rage-vial';
 import { snakeBraceletData } from './snake-bracelet';
 import { spikyBallData } from './spiky-ball';
@@ -10,6 +17,7 @@ import { stickHorseData } from './stick-horse';
 import { vampstacheData } from './vampstache';
 
 const allHeroEquipment: HeroEquipment[] = [
+  archerPuppetData,
   barbarianPuppetData,
   rageVialData,
   earthquakeBootsData,
@@ -18,11 +26,25 @@ const allHeroEquipment: HeroEquipment[] = [
   spikyBallData,
   snakeBraceletData,
   stickHorseData,
+  invisibilityVialData,
+  giantArrowData,
+  healerPuppetData,
+  frozenArrowData,
+  magicMirrorData,
+  actionFigureData,
 ];
 
 export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
   constructor(data: HeroEquipment[] = allHeroEquipment) {
     super(data);
+  }
+
+  archerPuppet(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([archerPuppetData]);
+  }
+
+  giantArrow(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([giantArrowData]);
   }
 
   barbarianPuppet(): HomeVillageHeroEquipment {
@@ -55,6 +77,26 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
 
   stickHorse(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([stickHorseData]);
+  }
+
+  invisibilityVial(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([invisibilityVialData]);
+  }
+
+  healerPuppet(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([healerPuppetData]);
+  }
+
+  frozenArrow(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([frozenArrowData]);
+  }
+
+  magicMirror(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([magicMirrorData]);
+  }
+
+  actionFigure(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([actionFigureData]);
   }
 
   byHero(heroId: string): HomeVillageHeroEquipment {

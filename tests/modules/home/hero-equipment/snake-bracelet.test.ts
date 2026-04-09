@@ -99,7 +99,7 @@ testQueryBaseContract('home().heroEquipment().snakeBracelet()', () =>
 
 describe('heroEquipment() namespace', () => {
   it('has 7 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(8);
+    expect(home().heroEquipment().count()).toBe(15);
   });
 
   it('byHero("barbarian-king") includes Snake Bracelet', () => {

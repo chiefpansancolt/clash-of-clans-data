@@ -96,8 +96,8 @@ testQueryBaseContract('home().heroEquipment().stickHorse()', () =>
 );
 
 describe('heroEquipment() namespace', () => {
-  it('has 8 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(8);
+  it('has 13 equipment', () => {
+    expect(home().heroEquipment().count()).toBe(15);
   });
 
   it('byHero("barbarian-king") includes Stick Horse', () => {

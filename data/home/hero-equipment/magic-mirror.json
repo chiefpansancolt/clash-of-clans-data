@@ -1,0 +1,430 @@
+{
+  "id": "magic-mirror",
+  "name": "Magic Mirror",
+  "description": "Summons clones of the Archer Queen",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "archer-queen",
+  "rarity": "Epic",
+  "abilityType": "Active",
+  "unlockRequirement": [
+    "Buy in Anime Clash event for 3,100 Magic Medals",
+    "Buy in Dark Deal event for 3,100 Mischief Medals",
+    "Buy in Meltdown Mayhem event for 3,100 Ember Medals",
+    "Buy in Equipment Blast event for 3,100 Relic Medals",
+    "Purchasable from the Trader for 1,500 Gems"
+  ],
+  "ability": {
+    "invisibilityDuration": "1s"
+  },
+  "images": {
+    "icon": "images/home/hero-equipment/magic-mirror/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hpRecoveryIncrease": 198,
+      "hitpointIncrease": 88,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "20s",
+        "cloneDps": 136,
+        "cloneHealth": 580
+      }
+    },
+    {
+      "level": 2,
+      "hpRecoveryIncrease": 229,
+      "hitpointIncrease": 96,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "20s",
+        "cloneDps": 136,
+        "cloneHealth": 580
+      }
+    },
+    {
+      "level": 3,
+      "hpRecoveryIncrease": 250,
+      "hitpointIncrease": 113,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "20s",
+        "cloneDps": 206,
+        "cloneHealth": 873
+      }
+    },
+    {
+      "level": 4,
+      "hpRecoveryIncrease": 271,
+      "hitpointIncrease": 131,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "20s",
+        "cloneDps": 206,
+        "cloneHealth": 873
+      }
+    },
+    {
+      "level": 5,
+      "hpRecoveryIncrease": 294,
+      "hitpointIncrease": 157,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "20s",
+        "cloneDps": 206,
+        "cloneHealth": 873
+      }
+    },
+    {
+      "level": 6,
+      "hpRecoveryIncrease": 317,
+      "hitpointIncrease": 184,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "20s",
+        "cloneDps": 276,
+        "cloneHealth": 1166
+      }
+    },
+    {
+      "level": 7,
+      "hpRecoveryIncrease": 344,
+      "hitpointIncrease": 228,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "20s",
+        "cloneDps": 276,
+        "cloneHealth": 1166
+      }
+    },
+    {
+      "level": 8,
+      "hpRecoveryIncrease": 372,
+      "hitpointIncrease": 272,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "20s",
+        "cloneDps": 276,
+        "cloneHealth": 1166
+      }
+    },
+    {
+      "level": 9,
+      "hpRecoveryIncrease": 397,
+      "hitpointIncrease": 307,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 10,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "25s",
+        "cloneDps": 346,
+        "cloneHealth": 1459
+      }
+    },
+    {
+      "level": 10,
+      "hpRecoveryIncrease": 423,
+      "hitpointIncrease": 342,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "25s",
+        "cloneDps": 346,
+        "cloneHealth": 1459
+      }
+    },
+    {
+      "level": 11,
+      "hpRecoveryIncrease": 448,
+      "hitpointIncrease": 377,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "25s",
+        "cloneDps": 346,
+        "cloneHealth": 1459
+      }
+    },
+    {
+      "level": 12,
+      "hpRecoveryIncrease": 474,
+      "hitpointIncrease": 412,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 20,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "25s",
+        "cloneDps": 416,
+        "cloneHealth": 1752
+      }
+    },
+    {
+      "level": 13,
+      "hpRecoveryIncrease": 498,
+      "hitpointIncrease": 448,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "25s",
+        "cloneDps": 416,
+        "cloneHealth": 1752
+      }
+    },
+    {
+      "level": 14,
+      "hpRecoveryIncrease": 529,
+      "hitpointIncrease": 483,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "25s",
+        "cloneDps": 416,
+        "cloneHealth": 1752
+      }
+    },
+    {
+      "level": 15,
+      "hpRecoveryIncrease": 560,
+      "hitpointIncrease": 518,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 30,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "25s",
+        "cloneDps": 486,
+        "cloneHealth": 2045
+      }
+    },
+    {
+      "level": 16,
+      "hpRecoveryIncrease": 591,
+      "hitpointIncrease": 553,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "25s",
+        "cloneDps": 486,
+        "cloneHealth": 2045
+      }
+    },
+    {
+      "level": 17,
+      "hpRecoveryIncrease": 622,
+      "hitpointIncrease": 588,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "clones": 1,
+        "cloneDuration": "25s",
+        "cloneDps": 486,
+        "cloneHealth": 2045
+      }
+    },
+    {
+      "level": 18,
+      "hpRecoveryIncrease": 652,
+      "hitpointIncrease": 624,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 50,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "25s",
+        "cloneDps": 556,
+        "cloneHealth": 2338
+      }
+    },
+    {
+      "level": 19,
+      "hpRecoveryIncrease": 679,
+      "hitpointIncrease": 650,
+      "upgradeShinyOre": 2800,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "25s",
+        "cloneDps": 556,
+        "cloneHealth": 2338
+      }
+    },
+    {
+      "level": 20,
+      "hpRecoveryIncrease": 706,
+      "hitpointIncrease": 676,
+      "upgradeShinyOre": 2900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "25s",
+        "cloneDps": 556,
+        "cloneHealth": 2338
+      }
+    },
+    {
+      "level": 21,
+      "hpRecoveryIncrease": 732,
+      "hitpointIncrease": 703,
+      "upgradeShinyOre": 3000,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 100,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "25s",
+        "cloneDps": 626,
+        "cloneHealth": 2631
+      }
+    },
+    {
+      "level": 22,
+      "hpRecoveryIncrease": 759,
+      "hitpointIncrease": 729,
+      "upgradeShinyOre": 3100,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "25s",
+        "cloneDps": 626,
+        "cloneHealth": 2631
+      }
+    },
+    {
+      "level": 23,
+      "hpRecoveryIncrease": 784,
+      "hitpointIncrease": 756,
+      "upgradeShinyOre": 3200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "25s",
+        "cloneDps": 626,
+        "cloneHealth": 2631
+      }
+    },
+    {
+      "level": 24,
+      "hpRecoveryIncrease": 811,
+      "hitpointIncrease": 782,
+      "upgradeShinyOre": 3300,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 120,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "25s",
+        "cloneDps": 696,
+        "cloneHealth": 2924
+      }
+    },
+    {
+      "level": 25,
+      "hpRecoveryIncrease": 838,
+      "hitpointIncrease": 808,
+      "upgradeShinyOre": 3400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "25s",
+        "cloneDps": 696,
+        "cloneHealth": 2924
+      }
+    },
+    {
+      "level": 26,
+      "hpRecoveryIncrease": 864,
+      "hitpointIncrease": 835,
+      "upgradeShinyOre": 3500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "25s",
+        "cloneDps": 696,
+        "cloneHealth": 2924
+      }
+    },
+    {
+      "level": 27,
+      "hpRecoveryIncrease": 891,
+      "hitpointIncrease": 861,
+      "upgradeShinyOre": 3600,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 150,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "clones": 2,
+        "cloneDuration": "30s",
+        "cloneDps": 765,
+        "cloneHealth": 3216
+      }
+    }
+  ]
+}
