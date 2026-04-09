@@ -1,23 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../../src';
+import { createImageCounter, createLogger } from '../../../helper';
 
-const ROOT = path.resolve(__dirname, '../../../..');
-
-const lines: string[] = [];
-const log = (...args: unknown[]) => {
-  const line = args
-    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
-    .join(' ');
-  lines.push(line);
-  console.log(line);
-};
-
-function checkImage(label: string, imagePath: string): boolean {
-  if (fs.existsSync(path.join(ROOT, imagePath))) return true;
-  console.error(`  MISSING image for ${label}: ${imagePath}`);
-  return false;
-}
+const { log, writeOutput } = createLogger();
 
 const w = home().troops().witch().first()!;
 
@@ -77,30 +61,23 @@ for (const lvl of st.levels) {
 log('');
 
 log('--- Image Validation ---');
-let passed = 0;
-let failed = 0;
-if (checkImage('icon', w.images.icon)) passed++;
-else failed++;
-if (checkImage('super-icon', st.images.icon)) passed++;
-else failed++;
+const images = createImageCounter();
+images.check('icon', w.images.icon);
+images.check('super-icon', st.images.icon);
 const seenNormal = new Set<string>();
 for (const lvl of w.levels) {
   if (!seenNormal.has(lvl.images.normal)) {
     seenNormal.add(lvl.images.normal);
-    if (checkImage(`lv${lvl.level} normal`, lvl.images.normal)) passed++;
-    else failed++;
+    images.check(`lv${lvl.level} normal`, lvl.images.normal);
   }
 }
 const seenSuper = new Set<string>();
 for (const lvl of st.levels) {
   if (!seenSuper.has(lvl.images.normal)) {
     seenSuper.add(lvl.images.normal);
-    if (checkImage(`super lv${lvl.level}`, lvl.images.normal)) passed++;
-    else failed++;
+    images.check(`super lv${lvl.level}`, lvl.images.normal);
   }
 }
-log(`Images: ${passed} OK, ${failed} missing`);
+log(images.report());
 
-const outputPath = path.join(__dirname, 'output.txt');
-fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');
-console.log(`\nOutput written to: ${outputPath}`);
+writeOutput(__dirname);

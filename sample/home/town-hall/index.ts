@@ -1,23 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../src';
+import { createImageCounter, createLogger } from '../../helper';
 
-const ROOT = path.resolve(__dirname, '../../..');
-
-const lines: string[] = [];
-const log = (...args: unknown[]) => {
-  const line = args
-    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
-    .join(' ');
-  lines.push(line);
-  console.log(line);
-};
-
-function checkImage(label: string, imagePath: string): boolean {
-  if (fs.existsSync(path.join(ROOT, imagePath))) return true;
-  console.error(`  MISSING image for ${label}: ${imagePath}`);
-  return false;
-}
+const { log, writeOutput } = createLogger();
 
 const th = home().townHall().first()!;
 
@@ -89,24 +73,18 @@ th.levels.forEach((l) => {
 });
 
 log('--- Image Validation ---');
-let passed = 0;
-let failed = 0;
+const images = createImageCounter();
 th.levels.forEach((l) => {
-  if (checkImage(`TH level ${l.level}`, l.images.normal)) passed++;
-  else failed++;
+  images.check(`TH level ${l.level}`, l.images.normal);
   if (l.weapon) {
     l.weapon.levels.forEach((wl) => {
-      if (checkImage(`TH${l.level} weapon L${wl.level}`, wl.images.normal)) passed++;
-      else failed++;
+      images.check(`TH${l.level} weapon L${wl.level}`, wl.images.normal);
       if (wl.images.townHall) {
-        if (checkImage(`TH${l.level} appearance L${wl.level}`, wl.images.townHall)) passed++;
-        else failed++;
+        images.check(`TH${l.level} appearance L${wl.level}`, wl.images.townHall);
       }
     });
   }
 });
-log(`Images: ${passed} OK, ${failed} missing`);
+log(images.report());
 
-const outputPath = path.join(__dirname, 'output.txt');
-fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');
-console.log(`\nOutput written to: ${outputPath}`);
+writeOutput(__dirname);

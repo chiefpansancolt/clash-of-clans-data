@@ -1,23 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../../src';
+import { checkImage, createLogger } from '../../../helper';
 
-const ROOT = path.resolve(__dirname, '../../../..');
-
-const lines: string[] = [];
-const log = (...args: unknown[]) => {
-  const line = args
-    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
-    .join(' ');
-  lines.push(line);
-  console.log(line);
-};
-
-function checkImage(label: string, imagePath: string): boolean {
-  if (fs.existsSync(path.join(ROOT, imagePath))) return true;
-  console.error(`  MISSING image for ${label}: ${imagePath}`);
-  return false;
-}
+const { log, writeOutput } = createLogger();
 
 const ob = home().otherBuildings();
 
@@ -90,6 +74,4 @@ for (const h of helpers.byTownHall(10).get()) {
   log(`  ${h.name}`);
 }
 
-const outputPath = path.join(__dirname, 'output.txt');
-fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');
-console.log(`\nOutput written to: ${outputPath}`);
+writeOutput(__dirname);

@@ -1,23 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../../src';
+import { createImageCounter, createLogger } from '../../../helper';
 
-const ROOT = path.resolve(__dirname, '../../../..');
-
-const lines: string[] = [];
-const log = (...args: unknown[]) => {
-  const line = args
-    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
-    .join(' ');
-  lines.push(line);
-  console.log(line);
-};
-
-function checkImage(label: string, imagePath: string): boolean {
-  if (fs.existsSync(path.join(ROOT, imagePath))) return true;
-  console.error(`  MISSING image for ${label}: ${imagePath}`);
-  return false;
-}
+const { log, writeOutput } = createLogger();
 
 const cs = home().defenses().craftingStation().first()!;
 
@@ -43,12 +27,8 @@ log('Phase 3 (current): Roaster, Air Bombs, Lava Launcher');
 log('');
 
 log('--- Image Validation ---');
-let passed = 0;
-let failed = 0;
-if (checkImage('level-1 normal', cs.levels[0].images.normal)) passed++;
-else failed++;
-log(`Images: ${passed} OK, ${failed} missing`);
+const images = createImageCounter();
+images.check('level-1 normal', cs.levels[0].images.normal);
+log(images.report());
 
-const outputPath = path.join(__dirname, 'output.txt');
-fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');
-console.log(`\nOutput written to: ${outputPath}`);
+writeOutput(__dirname);

@@ -1,18 +1,17 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../../src';
+import { createLogger } from '../../../helper';
 
-const lines: string[] = [];
+const { log, writeOutput } = createLogger();
 
 const e = home().heroEquipment().rageVial().first()!;
-lines.push(`${e.name} (${e.id})`);
-lines.push(`  hero: ${e.hero} | rarity: ${e.rarity} | abilityType: ${e.abilityType}`);
-lines.push(`  levels: ${e.levels.length}`);
-lines.push('');
+log(`${e.name} (${e.id})`);
+log(`  hero: ${e.hero} | rarity: ${e.rarity} | abilityType: ${e.abilityType}`);
+log(`  levels: ${e.levels.length}`);
+log('');
 
-lines.push('Level stats:');
+log('Level stats:');
 for (const lvl of e.levels) {
-  lines.push(
+  log(
     `  ${lvl.level}: Recovery+${lvl.hpRecoveryIncrease} ` +
       `Shiny:${lvl.upgradeShinyOre} Glowy:${lvl.upgradeGlowingOre} ` +
       `Blacksmith:${lvl.blacksmithLevelRequired} ` +
@@ -20,7 +19,4 @@ for (const lvl of e.levels) {
   );
 }
 
-const output = lines.join('\n');
-console.log(output);
-
-fs.writeFileSync(path.join(__dirname, 'output.txt'), output + '\n');
+writeOutput(__dirname);

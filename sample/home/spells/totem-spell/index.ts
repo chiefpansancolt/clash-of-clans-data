@@ -1,23 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../../src';
+import { createImageCounter, createLogger } from '../../../helper';
 
-const ROOT = path.resolve(__dirname, '../../../..');
-
-const lines: string[] = [];
-const log = (...args: unknown[]) => {
-  const line = args
-    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
-    .join(' ');
-  lines.push(line);
-  console.log(line);
-};
-
-function checkImage(label: string, imagePath: string): boolean {
-  if (fs.existsSync(path.join(ROOT, imagePath))) return true;
-  console.error(`  MISSING image for ${label}: ${imagePath}`);
-  return false;
-}
+const { log, writeOutput } = createLogger();
 
 const s = home().spells().totemSpell().first()!;
 
@@ -51,12 +35,8 @@ for (const lvl of s.levels) {
 log('');
 
 log('--- Image Validation ---');
-let passed = 0;
-let failed = 0;
-if (checkImage('icon', s.images.icon)) passed++;
-else failed++;
-log(`Images: ${passed} OK, ${failed} missing`);
+const images = createImageCounter();
+images.check('icon', s.images.icon);
+log(images.report());
 
-const outputPath = path.join(__dirname, 'output.txt');
-fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');
-console.log(`\nOutput written to: ${outputPath}`);
+writeOutput(__dirname);

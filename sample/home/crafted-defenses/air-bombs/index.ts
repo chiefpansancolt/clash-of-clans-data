@@ -1,23 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../../src';
+import { createImageCounter, createLogger } from '../../../helper';
 
-const ROOT = path.resolve(__dirname, '../../../..');
-
-const lines: string[] = [];
-const log = (...args: unknown[]) => {
-  const line = args
-    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
-    .join(' ');
-  lines.push(line);
-  console.log(line);
-};
-
-function checkImage(label: string, imagePath: string): boolean {
-  if (fs.existsSync(path.join(ROOT, imagePath))) return true;
-  console.error(`  MISSING image for ${label}: ${imagePath}`);
-  return false;
-}
+const { log, writeOutput } = createLogger();
 
 const ab = home().craftedDefenses().airBombs().first()!;
 
@@ -42,15 +26,10 @@ ab.modules.forEach((mod, i) => {
 log('');
 
 log('--- Image Validation ---');
-let passed = 0;
-let failed = 0;
+const images = createImageCounter();
 ab.images.forEach((img) => {
-  if (checkImage(`eff-level ${img.fromEffectiveLevel}-${img.toEffectiveLevel}`, img.normal))
-    passed++;
-  else failed++;
+  images.check(`eff-level ${img.fromEffectiveLevel}-${img.toEffectiveLevel}`, img.normal);
 });
-log(`Images: ${passed} OK, ${failed} missing`);
+log(images.report());
 
-const outputPath = path.join(__dirname, 'output.txt');
-fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');
-console.log(`\nOutput written to: ${outputPath}`);
+writeOutput(__dirname);

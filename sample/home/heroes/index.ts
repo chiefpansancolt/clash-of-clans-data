@@ -1,15 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../src';
+import { createLogger } from '../../helper';
 
-const lines: string[] = [];
-const log = (...args: unknown[]) => {
-  const line = args
-    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
-    .join(' ');
-  lines.push(line);
-  console.log(line);
-};
+const { log, writeOutput } = createLogger();
 
 const all = home().heroes();
 
@@ -36,6 +28,4 @@ for (const h of all.byHeroHall(2).get()) {
   log(`${h.name}`);
 }
 
-const outputPath = path.join(__dirname, 'output.txt');
-fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');
-console.log(`\nOutput written to: ${outputPath}`);
+writeOutput(__dirname);

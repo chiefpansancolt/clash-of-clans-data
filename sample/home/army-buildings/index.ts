@@ -1,15 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../src';
+import { createLogger } from '../../helper';
 
-const lines: string[] = [];
-const log = (...args: unknown[]) => {
-  const line = args
-    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
-    .join(' ');
-  lines.push(line);
-  console.log(line);
-};
+const { log, writeOutput } = createLogger();
 
 const ab = home().armyBuildings();
 
@@ -149,6 +141,4 @@ for (const b of ab.byTownHall(12).get()) {
   log(`${b.name} | count: ${count} | max level: ${maxLevel}`);
 }
 
-const outputPath = path.join(__dirname, 'output.txt');
-fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');
-console.log(`\nOutput written to: ${outputPath}`);
+writeOutput(__dirname);

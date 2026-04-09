@@ -1,23 +1,7 @@
-import * as fs from 'fs';
-import * as path from 'path';
 import { home } from '../../../../src';
+import { createImageCounter, createLogger } from '../../../helper';
 
-const ROOT = path.resolve(__dirname, '../../../..');
-
-const lines: string[] = [];
-const log = (...args: unknown[]) => {
-  const line = args
-    .map((a) => (typeof a === 'object' ? JSON.stringify(a, null, 2) : String(a)))
-    .join(' ');
-  lines.push(line);
-  console.log(line);
-};
-
-function checkImage(label: string, imagePath: string): boolean {
-  if (fs.existsSync(path.join(ROOT, imagePath))) return true;
-  console.error(`  MISSING image for ${label}: ${imagePath}`);
-  return false;
-}
+const { log, writeOutput } = createLogger();
 
 const rt = home().defenses().revengeTower().first()!;
 
@@ -66,23 +50,16 @@ for (const lvl of rt.levels) {
 log('');
 
 log('--- Image Validation ---');
-let passed = 0;
-let failed = 0;
+const images = createImageCounter();
 
 for (const lvl of rt.levels) {
   const base = `lv${lvl.level}`;
-  if (checkImage(`${base} normal`, lvl.images.normal)) passed++;
-  else failed++;
-  if (lvl.images.stage1 && checkImage(`${base} stage1`, lvl.images.stage1)) passed++;
-  else if (lvl.images.stage1) failed++;
-  if (lvl.images.stage2 && checkImage(`${base} stage2`, lvl.images.stage2)) passed++;
-  else if (lvl.images.stage2) failed++;
-  if (lvl.images.stage3 && checkImage(`${base} stage3`, lvl.images.stage3)) passed++;
-  else if (lvl.images.stage3) failed++;
+  images.check(`${base} normal`, lvl.images.normal);
+  if (lvl.images.stage1) images.check(`${base} stage1`, lvl.images.stage1);
+  if (lvl.images.stage2) images.check(`${base} stage2`, lvl.images.stage2);
+  if (lvl.images.stage3) images.check(`${base} stage3`, lvl.images.stage3);
 }
 
-log(`Images: ${passed} OK, ${failed} missing`);
+log(images.report());
 
-const outputPath = path.join(__dirname, 'output.txt');
-fs.writeFileSync(outputPath, lines.join('\n') + '\n', 'utf-8');
-console.log(`\nOutput written to: ${outputPath}`);
+writeOutput(__dirname);
