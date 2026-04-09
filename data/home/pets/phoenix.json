@@ -1,6 +1,7 @@
 {
   "id": "phoenix",
   "name": "Phoenix",
+  "description": "A true friend will egg you on when things get rough. Phoenix starts the battle as a helpless egg, but at the moment her Hero might go down, she hatches. The furious fiery fowl then gives temporary invulnerability to its Hero and engages nearby enemies.",
   "base": "home",
   "category": "pet",
   "targetType": "both",
