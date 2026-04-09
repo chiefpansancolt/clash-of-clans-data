@@ -8,6 +8,7 @@ export * from './common';
 export * from './defense';
 export * from './other-building';
 export * from './resource-building';
+export * from './siege-machine';
 export * from './spell';
 export * from './troop';
 export * from './trap';

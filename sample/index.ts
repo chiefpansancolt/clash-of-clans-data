@@ -64,6 +64,8 @@ import './home/resource-buildings/elixir-collector';
 import './home/resource-buildings/elixir-storage';
 import './home/resource-buildings/gold-mine';
 import './home/resource-buildings/gold-storage';
+// ── Siege Machines ────────────────────────────────────────────────────────────
+import './home/siege-machines/wall-wrecker';
 // ── Spells ────────────────────────────────────────────────────────────────────
 import './home/spells/bat-spell';
 import './home/spells/clone-spell';

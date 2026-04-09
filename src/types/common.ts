@@ -11,6 +11,7 @@ export type Category =
   | 'army'
   | 'research'
   | 'guardian'
+  | 'siege-machine'
   | 'town-hall'
   | 'other';
 

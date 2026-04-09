@@ -4,6 +4,7 @@ import { HomeVillageDefenses } from './defenses';
 import { HomeVillageGuardians } from './guardians';
 import { HomeVillageOtherBuildings } from './other';
 import { HomeVillageResourceBuildings } from './resource-buildings';
+import { HomeVillageSiegeMachines } from './siege-machines';
 import { HomeVillageSpells } from './spells';
 import { HomeVillageTownHall } from './town-hall';
 import { HomeVillageTraps } from './traps';
@@ -38,6 +39,7 @@ export {
   HomeVillageAlchemist,
   HomeVillageProspector,
 } from './other';
+export { HomeVillageSiegeMachines } from './siege-machines';
 export { HomeVillageSpells } from './spells';
 export { HomeVillageTroops } from './troops';
 export { HomeVillageWalls } from './walls';
@@ -81,6 +83,10 @@ export class HomeVillage {
 
   troops(): HomeVillageTroops {
     return new HomeVillageTroops();
+  }
+
+  siegeMachines(): HomeVillageSiegeMachines {
+    return new HomeVillageSiegeMachines();
   }
 
   otherBuildings(): HomeVillageOtherBuildings {
