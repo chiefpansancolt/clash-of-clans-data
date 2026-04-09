@@ -96,8 +96,8 @@ testQueryBaseContract('home().heroes().minionPrince()', () => home().heroes().mi
 // ─── heroes() namespace ───────────────────────────────────────────────────────
 
 describe('heroes() namespace', () => {
-  it('has 3 heroes', () => {
-    expect(home().heroes().count()).toBe(3);
+  it('has 4 heroes', () => {
+    expect(home().heroes().count()).toBe(4);
   });
 
   it('byHeroHall(3) includes Minion Prince', () => {

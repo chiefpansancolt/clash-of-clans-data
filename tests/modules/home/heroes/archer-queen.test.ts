@@ -96,8 +96,8 @@ testQueryBaseContract('home().heroes().archerQueen()', () => home().heroes().arc
 // ─── heroes() namespace ───────────────────────────────────────────────────────
 
 describe('heroes() namespace', () => {
-  it('has 3 heroes', () => {
-    expect(home().heroes().count()).toBe(3);
+  it('has 4 heroes', () => {
+    expect(home().heroes().count()).toBe(4);
   });
 
   it('byHeroHall(2) includes Archer Queen', () => {
