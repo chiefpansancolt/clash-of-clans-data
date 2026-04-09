@@ -97,8 +97,8 @@ testQueryBaseContract('home().siegeMachines().battleBlimp()', () =>
 // ─── siegeMachines() namespace ────────────────────────────────────────────────
 
 describe('siegeMachines() namespace', () => {
-  it('has 2 siege machines', () => {
-    expect(home().siegeMachines().count()).toBe(2);
+  it('has 3 siege machines', () => {
+    expect(home().siegeMachines().count()).toBe(3);
   });
 
   it('byWorkshop(2) includes battle blimp', () => {

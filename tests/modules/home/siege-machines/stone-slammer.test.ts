@@ -1,0 +1,135 @@
+import { home, HomeVillageSiegeMachines } from '@/modules/home';
+import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+
+// ─── Stone Slammer ────────────────────────────────────────────────────────────
+
+describe('stoneSlammer()', () => {
+  it('returns a SiegeMachine', () => {
+    const m = home().siegeMachines().stoneSlammer().first()!;
+    expect(m).toBeDefined();
+    expect(m.id).toBe('stone-slammer');
+    expect(m.name).toBe('Stone Slammer');
+  });
+
+  it('has 6 levels', () => {
+    expect(home().siegeMachines().stoneSlammer().first()!.levels).toHaveLength(6);
+  });
+
+  it('is a siege-machine in home base', () => {
+    const m = home().siegeMachines().stoneSlammer().first()!;
+    expect(m.category).toBe('siege-machine');
+    expect(m.base).toBe('home');
+  });
+
+  it('has correct top-level stats', () => {
+    const m = home().siegeMachines().stoneSlammer().first()!;
+    expect(m.housingSpace).toBe(1);
+    expect(m.workshopLevelRequired).toBe(3);
+    expect(m.preferredTarget).toBe('Defenses');
+    expect(m.movementSpeed).toBe(16);
+    expect(m.attackSpeed).toBe(2.5);
+  });
+
+  it('has an icon image', () => {
+    expect(home().siegeMachines().stoneSlammer().first()!.images.icon).toBeTruthy();
+  });
+
+  it('level 1: DPS 400, HP 5600, hitbox1=100, hitbox2=200, no research, TH13', () => {
+    const lvl = home().siegeMachines().stoneSlammer().first()!.levels[0];
+    expect(lvl.level).toBe(1);
+    expect(lvl.damagePerSecond).toBe(400);
+    expect(lvl.damagePerHit).toBe(1000);
+    expect(lvl.damageWhenDestroyedHitbox1).toBe(100);
+    expect(lvl.damageWhenDestroyedHitbox2).toBe(200);
+    expect(lvl.damageVsWalls).toBeUndefined();
+    expect(lvl.hitpoints).toBe(5600);
+    expect(lvl.laboratoryRequired).toBe(0);
+    expect(lvl.townHallRequired).toBe(13);
+    expect(lvl.researchCost).toBe(0);
+    expect(lvl.researchCostResource).toBe('Gold');
+    expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 4: DPS 700, HP 6500, hitbox1=250, hitbox2=500, Lab 11, TH13, 6,500,000 Gold, 7d', () => {
+    const lvl = home().siegeMachines().stoneSlammer().first()!.levels[3];
+    expect(lvl.level).toBe(4);
+    expect(lvl.damagePerSecond).toBe(700);
+    expect(lvl.damagePerHit).toBe(1750);
+    expect(lvl.damageWhenDestroyedHitbox1).toBe(250);
+    expect(lvl.damageWhenDestroyedHitbox2).toBe(500);
+    expect(lvl.hitpoints).toBe(6500);
+    expect(lvl.laboratoryRequired).toBe(11);
+    expect(lvl.townHallRequired).toBe(13);
+    expect(lvl.researchCost).toBe(6500000);
+    expect(lvl.researchTime).toEqual({ days: 7, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 6: DPS 820, HP 7200, hitbox1=350, hitbox2=700, Lab 16, TH17, 26,000,000 Gold, 13d 12h', () => {
+    const lvl = home().siegeMachines().stoneSlammer().first()!.levels[5];
+    expect(lvl.level).toBe(6);
+    expect(lvl.damagePerSecond).toBe(820);
+    expect(lvl.damagePerHit).toBe(2050);
+    expect(lvl.damageWhenDestroyedHitbox1).toBe(350);
+    expect(lvl.damageWhenDestroyedHitbox2).toBe(700);
+    expect(lvl.hitpoints).toBe(7200);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.townHallRequired).toBe(17);
+    expect(lvl.researchCost).toBe(26000000);
+    expect(lvl.researchTime).toEqual({ days: 13, hours: 12, minutes: 0, seconds: 0 });
+  });
+
+  it('all levels have normal images', () => {
+    const levels = home().siegeMachines().stoneSlammer().first()!.levels;
+    for (const lvl of levels) {
+      expect(lvl.images.normal).toBeTruthy();
+    }
+  });
+
+  it('returns a HomeVillageSiegeMachines instance', () => {
+    expect(home().siegeMachines().stoneSlammer()).toBeInstanceOf(HomeVillageSiegeMachines);
+  });
+});
+
+// ─── QueryBase contract ───────────────────────────────────────────────────────
+
+testQueryBaseContract('home().siegeMachines().stoneSlammer()', () =>
+  home().siegeMachines().stoneSlammer(),
+);
+
+// ─── siegeMachines() namespace ────────────────────────────────────────────────
+
+describe('siegeMachines() namespace', () => {
+  it('has 3 siege machines', () => {
+    expect(home().siegeMachines().count()).toBe(3);
+  });
+
+  it('byWorkshop(3) includes stone slammer', () => {
+    expect(home().siegeMachines().byWorkshop(3).find('stone-slammer')).toBeDefined();
+  });
+
+  it('byWorkshop(2) does not include stone slammer', () => {
+    expect(home().siegeMachines().byWorkshop(2).find('stone-slammer')).toBeUndefined();
+  });
+
+  it('byTownHall(13) includes stone slammer', () => {
+    expect(home().siegeMachines().byTownHall(13).find('stone-slammer')).toBeDefined();
+  });
+
+  it('byTownHall(12) does not include stone slammer', () => {
+    expect(home().siegeMachines().byTownHall(12).find('stone-slammer')).toBeUndefined();
+  });
+});
+
+// ─── Filter immutability ──────────────────────────────────────────────────────
+
+testFilterImmutability(
+  'byWorkshop(3)',
+  () => home().siegeMachines(),
+  (q) => (q as HomeVillageSiegeMachines).byWorkshop(3),
+);
+
+testFilterImmutability(
+  'byTownHall(13)',
+  () => home().siegeMachines(),
+  (q) => (q as HomeVillageSiegeMachines).byTownHall(13),
+);

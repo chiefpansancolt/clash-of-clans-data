@@ -96,8 +96,8 @@ testQueryBaseContract('home().siegeMachines().wallWrecker()', () =>
 // ─── siegeMachines() namespace ────────────────────────────────────────────────
 
 describe('siegeMachines() namespace', () => {
-  it('has 2 siege machines', () => {
-    expect(home().siegeMachines().count()).toBe(2);
+  it('has 3 siege machines', () => {
+    expect(home().siegeMachines().count()).toBe(3);
   });
 
   it('byWorkshop(1) includes wall wrecker', () => {
