@@ -1,4 +1,4 @@
-import { home } from '@/modules/home';
+import { home, HomeVillageTownHall } from '@/modules/home';
 
 describe('townHall()', () => {
   it('returns a TownHall object', () => {
@@ -178,5 +178,9 @@ describe('townHall()', () => {
       .forEach((l) => {
         expect(l.storageCapacity.darkElixir).toBeGreaterThan(0);
       });
+  });
+
+  it('townHall() is a HomeVillageTownHall instance', () => {
+    expect(home().townHall()).toBeInstanceOf(HomeVillageTownHall);
   });
 });

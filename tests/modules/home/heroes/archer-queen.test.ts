@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroes } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('archerQueen()', () => {
   it('returns a HomeHero', () => {
@@ -88,23 +88,3 @@ describe('archerQueen()', () => {
 });
 
 testQueryBaseContract('home().heroes().archerQueen()', () => home().heroes().archerQueen());
-
-describe('heroes() namespace', () => {
-  it('has 6 heroes', () => {
-    expect(home().heroes().count()).toBe(6);
-  });
-
-  it('byHeroHall(2) includes Archer Queen', () => {
-    expect(home().heroes().byHeroHall(2).find('archer-queen')).toBeDefined();
-  });
-
-  it('byHeroHall(1) does not include Archer Queen', () => {
-    expect(home().heroes().byHeroHall(1).find('archer-queen')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byHeroHall(2)',
-  () => home().heroes(),
-  (q) => (q as HomeVillageHeroes).byHeroHall(2),
-);

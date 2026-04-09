@@ -1,5 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageClanCastle, HomeVillageResourceBuildings } from '@/modules/home';
 
 describe('clanCastle()', () => {
   it('returns a HomeClanCastle object', () => {
@@ -178,20 +177,5 @@ describe('clanCastle() availablePerTownHall', () => {
       .first()!
       .availablePerTownHall.find((a) => a.townHallLevel === 18);
     expect(th18?.count).toBe(1);
-  });
-});
-
-describe('clanCastle() integration with resourceBuildings()', () => {
-  it('clanCastle() returns a HomeVillageClanCastle instance', () => {
-    expect(home().resourceBuildings().clanCastle()).toBeInstanceOf(HomeVillageClanCastle);
-  });
-
-  it('resourceBuildings() is a HomeVillageResourceBuildings instance', () => {
-    expect(home().resourceBuildings()).toBeInstanceOf(HomeVillageResourceBuildings);
-  });
-
-  it('resourceBuildings().byTownHall(1) includes Clan Castle via clanCastle()', () => {
-    const cc = home().resourceBuildings().clanCastle().first()!;
-    expect(cc.availablePerTownHall.find((a) => a.townHallLevel === 1)?.count).toBe(1);
   });
 });

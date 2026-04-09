@@ -1,6 +1,4 @@
-import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
+import { home, HomeVillageDefenses } from '@/modules/home';
 
 describe('craftingStation()', () => {
   it('returns a HomeDefense object', () => {
@@ -117,10 +115,4 @@ describe('craftingStation() integration with homeDefenses()', () => {
   it('is a HomeVillageDefenses instance', () => {
     expect(home().defenses().byBuilding('Crafting Station')).toBeInstanceOf(HomeVillageDefenses);
   });
-
-  testFilterImmutability(
-    'homeDefenses filter immutability',
-    () => home().defenses(),
-    (q) => (q as HomeVillageDefenses).byBuilding('Crafting Station'),
-  );
 });

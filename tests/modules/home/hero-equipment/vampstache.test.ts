@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroEquipment } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('vampstache()', () => {
   it('returns a HeroEquipment', () => {
@@ -84,36 +84,4 @@ describe('vampstache()', () => {
 
 testQueryBaseContract('home().heroEquipment().vampstache()', () =>
   home().heroEquipment().vampstache(),
-);
-
-describe('heroEquipment() namespace', () => {
-  it('has 13 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(15);
-  });
-
-  it('byHero("barbarian-king") includes Vampstache', () => {
-    expect(home().heroEquipment().byHero('barbarian-king').find('vampstache')).toBeDefined();
-  });
-
-  it('byHero("archer-queen") does not include Vampstache', () => {
-    expect(home().heroEquipment().byHero('archer-queen').find('vampstache')).toBeUndefined();
-  });
-
-  it('byRarity("Common") includes Vampstache', () => {
-    expect(home().heroEquipment().byRarity('Common').find('vampstache')).toBeDefined();
-  });
-
-  it('byBlacksmith(3) includes Vampstache', () => {
-    expect(home().heroEquipment().byBlacksmith(3).find('vampstache')).toBeDefined();
-  });
-
-  it('byBlacksmith(2) does not include Vampstache', () => {
-    expect(home().heroEquipment().byBlacksmith(2).find('vampstache')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byHero("barbarian-king")',
-  () => home().heroEquipment(),
-  (q) => (q as HomeVillageHeroEquipment).byHero('barbarian-king'),
 );

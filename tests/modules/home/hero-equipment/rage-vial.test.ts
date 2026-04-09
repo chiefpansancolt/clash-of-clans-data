@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroEquipment } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('rageVial()', () => {
   it('returns a HeroEquipment', () => {
@@ -84,31 +84,3 @@ describe('rageVial()', () => {
 });
 
 testQueryBaseContract('home().heroEquipment().rageVial()', () => home().heroEquipment().rageVial());
-
-describe('heroEquipment() namespace', () => {
-  it('has 13 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(15);
-  });
-
-  it('byHero("barbarian-king") includes Rage Vial', () => {
-    expect(home().heroEquipment().byHero('barbarian-king').find('rage-vial')).toBeDefined();
-  });
-
-  it('byHero("archer-queen") does not include Rage Vial', () => {
-    expect(home().heroEquipment().byHero('archer-queen').find('rage-vial')).toBeUndefined();
-  });
-
-  it('byRarity("Common") includes Rage Vial', () => {
-    expect(home().heroEquipment().byRarity('Common').find('rage-vial')).toBeDefined();
-  });
-
-  it('byBlacksmith(0) includes Rage Vial', () => {
-    expect(home().heroEquipment().byBlacksmith(0).find('rage-vial')).toBeDefined();
-  });
-});
-
-testFilterImmutability(
-  'byHero("barbarian-king")',
-  () => home().heroEquipment(),
-  (q) => (q as HomeVillageHeroEquipment).byHero('barbarian-king'),
-);

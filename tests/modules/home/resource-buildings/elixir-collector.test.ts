@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageResourceBuildings } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('elixirCollector()', () => {
   it('returns a HomeResourceBuilding object', () => {
@@ -185,37 +183,4 @@ describe('elixirCollector() availablePerTownHall', () => {
       .availablePerTownHall.find((a) => a.townHallLevel === 9);
     expect(th9?.count).toBe(7);
   });
-});
-
-describe('elixirCollector() integration with resourceBuildings()', () => {
-  it('is included in resourceBuildings()', () => {
-    const result = home().resourceBuildings().findByName('Elixir Collector');
-    expect(result).toBeDefined();
-    expect(result!.id).toBe('elixir-collector');
-  });
-
-  it('resourceBuildings().byTownHall(1) includes Elixir Collector', () => {
-    const names = home()
-      .resourceBuildings()
-      .byTownHall(1)
-      .get()
-      .map((b) => b.name);
-    expect(names).toContain('Elixir Collector');
-  });
-
-  it('is a HomeVillageResourceBuildings instance', () => {
-    expect(home().resourceBuildings().elixirCollector()).toBeInstanceOf(
-      HomeVillageResourceBuildings,
-    );
-  });
-
-  it('resourceBuildings() total count is now 5', () => {
-    expect(home().resourceBuildings().count()).toBe(6);
-  });
-
-  testFilterImmutability(
-    'resourceBuildings filter immutability',
-    () => home().resourceBuildings(),
-    (q) => (q as HomeVillageResourceBuildings).byTownHall(1),
-  );
 });

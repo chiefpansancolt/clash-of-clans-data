@@ -1,5 +1,4 @@
-import { home } from '@/modules/home';
-import { HomeVillageHeroBanner } from '@/modules/home';
+import { home, HomeVillageHeroBanner } from '@/modules/home';
 
 describe('heroBanner()', () => {
   it('returns a HeroBannerBuilding object', () => {

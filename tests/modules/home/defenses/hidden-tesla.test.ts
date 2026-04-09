@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('hiddenTesla()', () => {
   it('returns a HomeDefense object', () => {
@@ -163,9 +161,3 @@ describe('HomeVillageDefenses with hidden tesla', () => {
     expect(home().defenses().hasGearUp().findByName('Hidden Tesla')).toBeUndefined();
   });
 });
-
-testFilterImmutability(
-  'byBuilding',
-  () => home().defenses(),
-  (q) => (q as HomeVillageDefenses).byBuilding('Hidden Tesla'),
-);

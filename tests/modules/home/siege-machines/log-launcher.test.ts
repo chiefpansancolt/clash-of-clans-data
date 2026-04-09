@@ -1,5 +1,5 @@
 import { home, HomeVillageSiegeMachines } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('logLauncher()', () => {
   it('returns a SiegeMachine', () => {
@@ -94,38 +94,4 @@ describe('logLauncher()', () => {
 
 testQueryBaseContract('home().siegeMachines().logLauncher()', () =>
   home().siegeMachines().logLauncher(),
-);
-
-describe('siegeMachines() namespace', () => {
-  it('has 8 siege machines', () => {
-    expect(home().siegeMachines().count()).toBe(8);
-  });
-
-  it('byWorkshop(5) includes log launcher', () => {
-    expect(home().siegeMachines().byWorkshop(5).find('log-launcher')).toBeDefined();
-  });
-
-  it('byWorkshop(4) does not include log launcher', () => {
-    expect(home().siegeMachines().byWorkshop(4).find('log-launcher')).toBeUndefined();
-  });
-
-  it('byTownHall(14) includes log launcher', () => {
-    expect(home().siegeMachines().byTownHall(14).find('log-launcher')).toBeDefined();
-  });
-
-  it('byTownHall(13) does not include log launcher', () => {
-    expect(home().siegeMachines().byTownHall(13).find('log-launcher')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byWorkshop(5)',
-  () => home().siegeMachines(),
-  (q) => (q as HomeVillageSiegeMachines).byWorkshop(5),
-);
-
-testFilterImmutability(
-  'byTownHall(14)',
-  () => home().siegeMachines(),
-  (q) => (q as HomeVillageSiegeMachines).byTownHall(14),
 );

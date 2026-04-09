@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroEquipment } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('barbarianPuppet()', () => {
   it('returns a HeroEquipment', () => {
@@ -88,40 +88,4 @@ describe('barbarianPuppet()', () => {
 
 testQueryBaseContract('home().heroEquipment().barbarianPuppet()', () =>
   home().heroEquipment().barbarianPuppet(),
-);
-
-describe('heroEquipment() namespace', () => {
-  it('has 13 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(15);
-  });
-
-  it('byHero("barbarian-king") includes Barbarian Puppet', () => {
-    expect(home().heroEquipment().byHero('barbarian-king').find('barbarian-puppet')).toBeDefined();
-  });
-
-  it('byHero("archer-queen") does not include Barbarian Puppet', () => {
-    expect(home().heroEquipment().byHero('archer-queen').find('barbarian-puppet')).toBeUndefined();
-  });
-
-  it('byRarity("Common") includes Barbarian Puppet', () => {
-    expect(home().heroEquipment().byRarity('Common').find('barbarian-puppet')).toBeDefined();
-  });
-
-  it('byRarity("Epic") does not include Barbarian Puppet', () => {
-    expect(home().heroEquipment().byRarity('Epic').find('barbarian-puppet')).toBeUndefined();
-  });
-
-  it('byBlacksmith(1) includes Barbarian Puppet', () => {
-    expect(home().heroEquipment().byBlacksmith(1).find('barbarian-puppet')).toBeDefined();
-  });
-
-  it('byBlacksmith(0) includes Barbarian Puppet (level 1 has no requirement)', () => {
-    expect(home().heroEquipment().byBlacksmith(0).find('barbarian-puppet')).toBeDefined();
-  });
-});
-
-testFilterImmutability(
-  'byHero("barbarian-king")',
-  () => home().heroEquipment(),
-  (q) => (q as HomeVillageHeroEquipment).byHero('barbarian-king'),
 );

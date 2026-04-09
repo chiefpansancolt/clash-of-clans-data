@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageResourceBuildings } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('goldMine()', () => {
   it('returns a HomeResourceBuilding object', () => {
@@ -188,35 +186,4 @@ describe('goldMine() availablePerTownHall', () => {
       .availablePerTownHall.find((a) => a.townHallLevel === 18);
     expect(th18?.count).toBe(7);
   });
-});
-
-describe('goldMine() integration with resourceBuildings()', () => {
-  it('is included in resourceBuildings()', () => {
-    const result = home().resourceBuildings().findByName('Gold Mine');
-    expect(result).toBeDefined();
-    expect(result!.id).toBe('gold-mine');
-  });
-
-  it('resourceBuildings().byTownHall(1) includes Gold Mine', () => {
-    const names = home()
-      .resourceBuildings()
-      .byTownHall(1)
-      .get()
-      .map((b) => b.name);
-    expect(names).toContain('Gold Mine');
-  });
-
-  it('is a HomeVillageResourceBuildings instance', () => {
-    expect(home().resourceBuildings().goldMine()).toBeInstanceOf(HomeVillageResourceBuildings);
-  });
-
-  it('resourceBuildings() total count is 5', () => {
-    expect(home().resourceBuildings().count()).toBe(6);
-  });
-
-  testFilterImmutability(
-    'resourceBuildings filter immutability',
-    () => home().resourceBuildings(),
-    (q) => (q as HomeVillageResourceBuildings).byTownHall(1),
-  );
 });

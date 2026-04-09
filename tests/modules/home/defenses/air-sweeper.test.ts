@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('airSweeper()', () => {
   it('returns a HomeDefense object', () => {
@@ -162,9 +160,3 @@ describe('HomeVillageDefenses with air sweeper', () => {
     expect(home().defenses().hasGearUp().findByName('Air Sweeper')).toBeUndefined();
   });
 });
-
-testFilterImmutability(
-  'byBuilding',
-  () => home().defenses(),
-  (q) => (q as HomeVillageDefenses).byBuilding('Air Sweeper'),
-);

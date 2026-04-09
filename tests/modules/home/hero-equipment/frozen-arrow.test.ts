@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroEquipment } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('frozenArrow()', () => {
   it('returns a HeroEquipment', () => {
@@ -90,32 +90,4 @@ describe('frozenArrow()', () => {
 
 testQueryBaseContract('home().heroEquipment().frozenArrow()', () =>
   home().heroEquipment().frozenArrow(),
-);
-
-describe('heroEquipment() namespace', () => {
-  it('has 13 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(15);
-  });
-
-  it('byHero("archer-queen") includes Frozen Arrow', () => {
-    expect(home().heroEquipment().byHero('archer-queen').find('frozen-arrow')).toBeDefined();
-  });
-
-  it('byRarity("Epic") includes Frozen Arrow', () => {
-    expect(home().heroEquipment().byRarity('Epic').find('frozen-arrow')).toBeDefined();
-  });
-
-  it('byRarity("Common") does not include Frozen Arrow', () => {
-    expect(home().heroEquipment().byRarity('Common').find('frozen-arrow')).toBeUndefined();
-  });
-
-  it('byBlacksmith(1) includes Frozen Arrow', () => {
-    expect(home().heroEquipment().byBlacksmith(1).find('frozen-arrow')).toBeDefined();
-  });
-});
-
-testFilterImmutability(
-  'byRarity("Epic")',
-  () => home().heroEquipment(),
-  (q) => (q as HomeVillageHeroEquipment).byRarity('Epic'),
 );

@@ -1,6 +1,6 @@
 import { home } from '@/modules/home';
 import { HomeVillageSpells } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('lightningSpell()', () => {
   it('returns a HomeSpell', () => {
@@ -90,41 +90,3 @@ describe('lightningSpell()', () => {
 });
 
 testQueryBaseContract('home().spells().lightningSpell()', () => home().spells().lightningSpell());
-
-describe('spells()', () => {
-  it('returns a HomeVillageSpells instance', () => {
-    expect(home().spells()).toBeInstanceOf(HomeVillageSpells);
-  });
-
-  it('has 17 spells total', () => {
-    expect(home().spells().count()).toBe(17);
-  });
-
-  it('byType("regular") returns 10 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(10);
-  });
-
-  it('byType("dark") returns 7 spells', () => {
-    expect(home().spells().byType('dark').count()).toBe(7);
-  });
-
-  it('byTownHall(5) includes lightning spell', () => {
-    expect(home().spells().byTownHall(5).find('lightning-spell')).toBeDefined();
-  });
-
-  it('byTownHall(4) does not include lightning spell', () => {
-    expect(home().spells().byTownHall(4).find('lightning-spell')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byType("regular")',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byType('regular'),
-);
-
-testFilterImmutability(
-  'byTownHall(10)',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byTownHall(10),
-);

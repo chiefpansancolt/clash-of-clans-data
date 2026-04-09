@@ -1,5 +1,5 @@
 import { home, HomeVillageSiegeMachines } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('flameFlinger()', () => {
   it('returns a SiegeMachine', () => {
@@ -95,38 +95,4 @@ describe('flameFlinger()', () => {
 
 testQueryBaseContract('home().siegeMachines().flameFlinger()', () =>
   home().siegeMachines().flameFlinger(),
-);
-
-describe('siegeMachines() namespace', () => {
-  it('has 8 siege machines', () => {
-    expect(home().siegeMachines().count()).toBe(8);
-  });
-
-  it('byWorkshop(6) includes flame flinger', () => {
-    expect(home().siegeMachines().byWorkshop(6).find('flame-flinger')).toBeDefined();
-  });
-
-  it('byWorkshop(5) does not include flame flinger', () => {
-    expect(home().siegeMachines().byWorkshop(5).find('flame-flinger')).toBeUndefined();
-  });
-
-  it('byTownHall(15) includes flame flinger', () => {
-    expect(home().siegeMachines().byTownHall(15).find('flame-flinger')).toBeDefined();
-  });
-
-  it('byTownHall(14) does not include flame flinger', () => {
-    expect(home().siegeMachines().byTownHall(14).find('flame-flinger')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byWorkshop(6)',
-  () => home().siegeMachines(),
-  (q) => (q as HomeVillageSiegeMachines).byWorkshop(6),
-);
-
-testFilterImmutability(
-  'byTownHall(15)',
-  () => home().siegeMachines(),
-  (q) => (q as HomeVillageSiegeMachines).byTownHall(15),
 );

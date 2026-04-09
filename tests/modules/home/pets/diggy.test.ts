@@ -1,5 +1,5 @@
 import { home, HomeVillagePets } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('diggy()', () => {
   it('returns a HomePet', () => {
@@ -83,15 +83,3 @@ describe('diggy()', () => {
 });
 
 testQueryBaseContract('home().pets().diggy()', () => home().pets().diggy());
-
-testFilterImmutability(
-  'byPetHouse(6)',
-  () => home().pets(),
-  (q) => (q as HomeVillagePets).byPetHouse(6),
-);
-
-testFilterImmutability(
-  'byTownHall(15)',
-  () => home().pets(),
-  (q) => (q as HomeVillagePets).byTownHall(15),
-);

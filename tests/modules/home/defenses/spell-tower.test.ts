@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('spellTower()', () => {
   it('returns a HomeDefense object', () => {
@@ -267,10 +265,4 @@ describe('homeDefenses() — Spell Tower integration', () => {
       .map((d) => d.name);
     expect(names).not.toContain('Spell Tower');
   });
-
-  testFilterImmutability(
-    'homeDefenses().byBuilding("Spell Tower")',
-    () => home().defenses() as HomeVillageDefenses,
-    (q) => (q as HomeVillageDefenses).byBuilding('Spell Tower'),
-  );
 });

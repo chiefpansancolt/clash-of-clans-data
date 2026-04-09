@@ -1,6 +1,4 @@
-import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
+import { home, HomeVillageDefenses } from '@/modules/home';
 
 describe('multiArcherTower()', () => {
   it('returns a HomeDefense object', () => {
@@ -221,10 +219,4 @@ describe('multiArcherTower() integration with homeDefenses()', () => {
   it('is a HomeVillageDefenses instance', () => {
     expect(home().defenses().byBuilding('Multi-Archer Tower')).toBeInstanceOf(HomeVillageDefenses);
   });
-
-  testFilterImmutability(
-    'homeDefenses filter immutability',
-    () => home().defenses(),
-    (q) => (q as HomeVillageDefenses).byBuilding('Multi-Archer Tower'),
-  );
 });

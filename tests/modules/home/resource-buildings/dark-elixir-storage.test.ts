@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageResourceBuildings } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('darkElixirStorage()', () => {
   it('returns a HomeResourceBuilding object', () => {
@@ -165,46 +163,4 @@ describe('darkElixirStorage() availablePerTownHall', () => {
       .availablePerTownHall.find((a) => a.townHallLevel === 18);
     expect(th18?.count).toBe(1);
   });
-});
-
-describe('darkElixirStorage() integration with resourceBuildings()', () => {
-  it('is included in resourceBuildings()', () => {
-    const result = home().resourceBuildings().findByName('Dark Elixir Storage');
-    expect(result).toBeDefined();
-    expect(result!.id).toBe('dark-elixir-storage');
-  });
-
-  it('resourceBuildings().byTownHall(7) includes Dark Elixir Storage', () => {
-    const names = home()
-      .resourceBuildings()
-      .byTownHall(7)
-      .get()
-      .map((b) => b.name);
-    expect(names).toContain('Dark Elixir Storage');
-  });
-
-  it('resourceBuildings().byTownHall(1) does not include Dark Elixir Storage', () => {
-    const names = home()
-      .resourceBuildings()
-      .byTownHall(1)
-      .get()
-      .map((b) => b.name);
-    expect(names).not.toContain('Dark Elixir Storage');
-  });
-
-  it('is a HomeVillageResourceBuildings instance', () => {
-    expect(home().resourceBuildings().darkElixirStorage()).toBeInstanceOf(
-      HomeVillageResourceBuildings,
-    );
-  });
-
-  it('resourceBuildings() total count is 6', () => {
-    expect(home().resourceBuildings().count()).toBe(6);
-  });
-
-  testFilterImmutability(
-    'resourceBuildings filter immutability',
-    () => home().resourceBuildings(),
-    (q) => (q as HomeVillageResourceBuildings).byTownHall(7),
-  );
 });

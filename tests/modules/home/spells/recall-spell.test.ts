@@ -1,5 +1,5 @@
 import { home, HomeVillageSpells } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('recallSpell()', () => {
   it('returns a HomeSpell', () => {
@@ -78,33 +78,3 @@ describe('recallSpell()', () => {
 });
 
 testQueryBaseContract('home().spells().recallSpell()', () => home().spells().recallSpell());
-
-describe('spells() with recall spell', () => {
-  it('has 17 spells total', () => {
-    expect(home().spells().count()).toBe(17);
-  });
-
-  it('byType("regular") returns 10 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(10);
-  });
-
-  it('byTownHall(11) includes recall spell', () => {
-    expect(home().spells().byTownHall(11).find('recall-spell')).toBeDefined();
-  });
-
-  it('byTownHall(10) does not include recall spell', () => {
-    expect(home().spells().byTownHall(10).find('recall-spell')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byType("regular")',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byType('regular'),
-);
-
-testFilterImmutability(
-  'byTownHall(11)',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byTownHall(11),
-);

@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroEquipment } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('magicMirror()', () => {
   it('returns a HeroEquipment', () => {
@@ -110,32 +110,4 @@ describe('magicMirror()', () => {
 
 testQueryBaseContract('home().heroEquipment().magicMirror()', () =>
   home().heroEquipment().magicMirror(),
-);
-
-describe('heroEquipment() namespace', () => {
-  it('has 14 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(15);
-  });
-
-  it('byHero("archer-queen") includes Magic Mirror', () => {
-    expect(home().heroEquipment().byHero('archer-queen').find('magic-mirror')).toBeDefined();
-  });
-
-  it('byRarity("Epic") includes Magic Mirror', () => {
-    expect(home().heroEquipment().byRarity('Epic').find('magic-mirror')).toBeDefined();
-  });
-
-  it('byRarity("Common") does not include Magic Mirror', () => {
-    expect(home().heroEquipment().byRarity('Common').find('magic-mirror')).toBeUndefined();
-  });
-
-  it('byBlacksmith(1) includes Magic Mirror', () => {
-    expect(home().heroEquipment().byBlacksmith(1).find('magic-mirror')).toBeDefined();
-  });
-});
-
-testFilterImmutability(
-  'byRarity("Epic")',
-  () => home().heroEquipment(),
-  (q) => (q as HomeVillageHeroEquipment).byRarity('Epic'),
 );

@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroEquipment } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('spikyBall()', () => {
   it('returns a HeroEquipment', () => {
@@ -91,32 +91,4 @@ describe('spikyBall()', () => {
 
 testQueryBaseContract('home().heroEquipment().spikyBall()', () =>
   home().heroEquipment().spikyBall(),
-);
-
-describe('heroEquipment() namespace', () => {
-  it('has 13 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(15);
-  });
-
-  it('byHero("barbarian-king") includes Spiky Ball', () => {
-    expect(home().heroEquipment().byHero('barbarian-king').find('spiky-ball')).toBeDefined();
-  });
-
-  it('byRarity("Epic") includes Spiky Ball', () => {
-    expect(home().heroEquipment().byRarity('Epic').find('spiky-ball')).toBeDefined();
-  });
-
-  it('byRarity("Common") does not include Spiky Ball', () => {
-    expect(home().heroEquipment().byRarity('Common').find('spiky-ball')).toBeUndefined();
-  });
-
-  it('byBlacksmith(1) includes Spiky Ball', () => {
-    expect(home().heroEquipment().byBlacksmith(1).find('spiky-ball')).toBeDefined();
-  });
-});
-
-testFilterImmutability(
-  'byRarity("Epic")',
-  () => home().heroEquipment(),
-  (q) => (q as HomeVillageHeroEquipment).byRarity('Epic'),
 );

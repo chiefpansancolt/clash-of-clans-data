@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageGuardians } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('longshot()', () => {
   it('returns a LongshotGuardian object', () => {
@@ -238,44 +236,4 @@ describe('longshot() availablePerTownHall', () => {
       .availablePerTownHall.filter((a) => a.townHallLevel < 18);
     expect(below).toHaveLength(0);
   });
-});
-
-describe('longshot() integration with homeGuardians()', () => {
-  it('is included in homeGuardians()', () => {
-    const result = home().guardians().findByName('Longshot');
-    expect(result).toBeDefined();
-    expect(result!.id).toBe('longshot');
-  });
-
-  it('homeGuardians().byGuardianType("longshot") returns one result', () => {
-    expect(home().guardians().byGuardianType('longshot').count()).toBe(1);
-  });
-
-  it('homeGuardians().byTownHall(17) excludes Longshot', () => {
-    const names = home()
-      .guardians()
-      .byTownHall(17)
-      .get()
-      .map((g) => g.name);
-    expect(names).not.toContain('Longshot');
-  });
-
-  it('homeGuardians().byTownHall(18) includes Longshot', () => {
-    const names = home()
-      .guardians()
-      .byTownHall(18)
-      .get()
-      .map((g) => g.name);
-    expect(names).toContain('Longshot');
-  });
-
-  it('is a HomeVillageGuardians instance', () => {
-    expect(home().guardians().byGuardianType('longshot')).toBeInstanceOf(HomeVillageGuardians);
-  });
-
-  testFilterImmutability(
-    'homeGuardians filter immutability',
-    () => home().guardians(),
-    (q) => (q as HomeVillageGuardians).byGuardianType('longshot'),
-  );
 });

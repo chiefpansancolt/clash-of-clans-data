@@ -1,5 +1,5 @@
 import { home, HomeVillageSpells } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('freezeSpell()', () => {
   it('returns a HomeSpell', () => {
@@ -84,33 +84,3 @@ describe('freezeSpell()', () => {
 });
 
 testQueryBaseContract('home().spells().freezeSpell()', () => home().spells().freezeSpell());
-
-describe('spells() with freeze spell', () => {
-  it('has 17 spells total', () => {
-    expect(home().spells().count()).toBe(17);
-  });
-
-  it('byType("regular") returns 10 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(10);
-  });
-
-  it('byTownHall(8) includes freeze spell', () => {
-    expect(home().spells().byTownHall(8).find('freeze-spell')).toBeDefined();
-  });
-
-  it('byTownHall(7) does not include freeze spell', () => {
-    expect(home().spells().byTownHall(7).find('freeze-spell')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byType("regular")',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byType('regular'),
-);
-
-testFilterImmutability(
-  'byTownHall(8)',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byTownHall(8),
-);

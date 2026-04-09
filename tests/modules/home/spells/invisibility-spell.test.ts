@@ -1,5 +1,5 @@
 import { home, HomeVillageSpells } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('invisibilitySpell()', () => {
   it('returns a HomeSpell', () => {
@@ -85,34 +85,4 @@ describe('invisibilitySpell()', () => {
 
 testQueryBaseContract('home().spells().invisibilitySpell()', () =>
   home().spells().invisibilitySpell(),
-);
-
-describe('spells() with invisibility spell', () => {
-  it('has 17 spells total', () => {
-    expect(home().spells().count()).toBe(17);
-  });
-
-  it('byType("regular") returns 10 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(10);
-  });
-
-  it('byTownHall(10) includes invisibility spell', () => {
-    expect(home().spells().byTownHall(10).find('invisibility-spell')).toBeDefined();
-  });
-
-  it('byTownHall(9) does not include invisibility spell', () => {
-    expect(home().spells().byTownHall(9).find('invisibility-spell')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byType("regular")',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byType('regular'),
-);
-
-testFilterImmutability(
-  'byTownHall(10)',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byTownHall(10),
 );

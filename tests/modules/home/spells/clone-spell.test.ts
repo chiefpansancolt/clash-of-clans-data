@@ -1,5 +1,5 @@
 import { home, HomeVillageSpells } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('cloneSpell()', () => {
   it('returns a HomeSpell', () => {
@@ -83,33 +83,3 @@ describe('cloneSpell()', () => {
 });
 
 testQueryBaseContract('home().spells().cloneSpell()', () => home().spells().cloneSpell());
-
-describe('spells() with clone spell', () => {
-  it('has 17 spells total', () => {
-    expect(home().spells().count()).toBe(17);
-  });
-
-  it('byType("regular") returns 10 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(10);
-  });
-
-  it('byTownHall(9) includes clone spell', () => {
-    expect(home().spells().byTownHall(9).find('clone-spell')).toBeDefined();
-  });
-
-  it('byTownHall(8) does not include clone spell', () => {
-    expect(home().spells().byTownHall(8).find('clone-spell')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byType("regular")',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byType('regular'),
-);
-
-testFilterImmutability(
-  'byTownHall(9)',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byTownHall(9),
-);

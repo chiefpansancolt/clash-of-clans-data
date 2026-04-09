@@ -1,5 +1,4 @@
-import { home } from '@/modules/home';
-import { HomeVillageSpellFactory } from '@/modules/home';
+import { home, HomeVillageSpellFactory } from '@/modules/home';
 
 describe('spellFactory()', () => {
   it('returns a HomeSpellFactoryBuilding object', () => {

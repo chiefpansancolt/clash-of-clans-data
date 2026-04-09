@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroes } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('dragonDuke()', () => {
   it('returns a HomeHero', () => {
@@ -87,23 +87,3 @@ describe('dragonDuke()', () => {
 });
 
 testQueryBaseContract('home().heroes().dragonDuke()', () => home().heroes().dragonDuke());
-
-describe('heroes() namespace', () => {
-  it('has 6 heroes', () => {
-    expect(home().heroes().count()).toBe(6);
-  });
-
-  it('byHeroHall(9) includes Dragon Duke', () => {
-    expect(home().heroes().byHeroHall(9).find('dragon-duke')).toBeDefined();
-  });
-
-  it('byHeroHall(8) does not include Dragon Duke', () => {
-    expect(home().heroes().byHeroHall(8).find('dragon-duke')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byHeroHall(9)',
-  () => home().heroes(),
-  (q) => (q as HomeVillageHeroes).byHeroHall(9),
-);

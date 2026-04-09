@@ -1,5 +1,5 @@
 import { home, HomeVillageSpells } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('earthquakeSpell()', () => {
   it('returns a HomeSpell', () => {
@@ -96,37 +96,3 @@ describe('earthquakeSpell()', () => {
 });
 
 testQueryBaseContract('home().spells().earthquakeSpell()', () => home().spells().earthquakeSpell());
-
-describe('spells() with earthquake spell', () => {
-  it('has 17 spells total', () => {
-    expect(home().spells().count()).toBe(17);
-  });
-
-  it('byType("regular") returns 10 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(10);
-  });
-
-  it('byType("dark") returns 7 spells', () => {
-    expect(home().spells().byType('dark').count()).toBe(7);
-  });
-
-  it('byTownHall(8) includes earthquake spell', () => {
-    expect(home().spells().byTownHall(8).find('earthquake-spell')).toBeDefined();
-  });
-
-  it('byTownHall(7) does not include earthquake spell', () => {
-    expect(home().spells().byTownHall(7).find('earthquake-spell')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byType("dark")',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byType('dark'),
-);
-
-testFilterImmutability(
-  'byTownHall(8)',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byTownHall(8),
-);

@@ -1,5 +1,4 @@
-import { home } from '@/modules/home';
-import { HomeVillageBarracks } from '@/modules/home';
+import { home, HomeVillageBarracks } from '@/modules/home';
 
 describe('barracks()', () => {
   it('returns a HomeBarracksBuilding object', () => {

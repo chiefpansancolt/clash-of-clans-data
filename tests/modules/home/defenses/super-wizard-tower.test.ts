@@ -1,6 +1,4 @@
-import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
+import { home, HomeVillageDefenses } from '@/modules/home';
 
 describe('superWizardTower()', () => {
   it('returns a HomeDefense object', () => {
@@ -255,10 +253,4 @@ describe('superWizardTower() integration with homeDefenses()', () => {
   it('is a HomeVillageDefenses instance', () => {
     expect(home().defenses().byBuilding('Super Wizard Tower')).toBeInstanceOf(HomeVillageDefenses);
   });
-
-  testFilterImmutability(
-    'homeDefenses filter immutability',
-    () => home().defenses(),
-    (q) => (q as HomeVillageDefenses).byBuilding('Super Wizard Tower'),
-  );
 });

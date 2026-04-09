@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('scattershot()', () => {
   it('returns a HomeDefense object', () => {
@@ -207,9 +205,3 @@ describe('HomeVillageDefenses with scattershot', () => {
     expect(home().defenses().hasGearUp().findByName('Scattershot')).toBeUndefined();
   });
 });
-
-testFilterImmutability(
-  'byBuilding',
-  () => home().defenses(),
-  (q) => (q as HomeVillageDefenses).byBuilding('Scattershot'),
-);

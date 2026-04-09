@@ -1,5 +1,4 @@
-import { home } from '@/modules/home';
-import { HomeVillageHeroHall } from '@/modules/home';
+import { home, HomeVillageHeroHall } from '@/modules/home';
 
 describe('heroHall()', () => {
   it('returns a HomeHeroHallBuilding object', () => {

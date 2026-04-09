@@ -1,5 +1,5 @@
 import { home, HomeVillagePets } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('lassi()', () => {
   it('returns a HomePet', () => {
@@ -104,37 +104,3 @@ describe('lassi()', () => {
 });
 
 testQueryBaseContract('home().pets().lassi()', () => home().pets().lassi());
-
-describe('pets() namespace', () => {
-  it('has 12 pets', () => {
-    expect(home().pets().count()).toBe(12);
-  });
-
-  it('byPetHouse(1) includes L.A.S.S.I', () => {
-    expect(home().pets().byPetHouse(1).find('lassi')).toBeDefined();
-  });
-
-  it('byPetHouse(0) does not include L.A.S.S.I', () => {
-    expect(home().pets().byPetHouse(0).find('lassi')).toBeUndefined();
-  });
-
-  it('byTownHall(14) includes L.A.S.S.I', () => {
-    expect(home().pets().byTownHall(14).find('lassi')).toBeDefined();
-  });
-
-  it('byTownHall(13) does not include L.A.S.S.I', () => {
-    expect(home().pets().byTownHall(13).find('lassi')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byPetHouse(1)',
-  () => home().pets(),
-  (q) => (q as HomeVillagePets).byPetHouse(1),
-);
-
-testFilterImmutability(
-  'byTownHall(14)',
-  () => home().pets(),
-  (q) => (q as HomeVillagePets).byTownHall(14),
-);

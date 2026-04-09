@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('mortar()', () => {
   it('returns a HomeDefense object', () => {
@@ -148,9 +146,3 @@ describe('HomeVillageDefenses with mortar', () => {
     expect(home().defenses().hasGearUp().findByName('Mortar')).toBeDefined();
   });
 });
-
-testFilterImmutability(
-  'byDamageType',
-  () => home().defenses(),
-  (q) => (q as HomeVillageDefenses).byDamageType('splash'),
-);

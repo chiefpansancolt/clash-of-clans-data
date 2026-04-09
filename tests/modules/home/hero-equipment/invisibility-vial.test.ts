@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroEquipment } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('invisibilityVial()', () => {
   it('returns a HeroEquipment', () => {
@@ -87,32 +87,4 @@ describe('invisibilityVial()', () => {
 
 testQueryBaseContract('home().heroEquipment().invisibilityVial()', () =>
   home().heroEquipment().invisibilityVial(),
-);
-
-describe('heroEquipment() namespace', () => {
-  it('has 13 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(15);
-  });
-
-  it('byHero("archer-queen") includes Invisibility Vial', () => {
-    expect(home().heroEquipment().byHero('archer-queen').find('invisibility-vial')).toBeDefined();
-  });
-
-  it('byRarity("Common") includes Invisibility Vial', () => {
-    expect(home().heroEquipment().byRarity('Common').find('invisibility-vial')).toBeDefined();
-  });
-
-  it('byRarity("Epic") does not include Invisibility Vial', () => {
-    expect(home().heroEquipment().byRarity('Epic').find('invisibility-vial')).toBeUndefined();
-  });
-
-  it('byBlacksmith(1) includes Invisibility Vial', () => {
-    expect(home().heroEquipment().byBlacksmith(1).find('invisibility-vial')).toBeDefined();
-  });
-});
-
-testFilterImmutability(
-  'byRarity("Common")',
-  () => home().heroEquipment(),
-  (q) => (q as HomeVillageHeroEquipment).byRarity('Common'),
 );

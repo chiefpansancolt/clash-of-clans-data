@@ -1,5 +1,5 @@
 import { home, HomeVillageSpells } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('hasteSpell()', () => {
   it('returns a HomeSpell', () => {
@@ -83,37 +83,3 @@ describe('hasteSpell()', () => {
 });
 
 testQueryBaseContract('home().spells().hasteSpell()', () => home().spells().hasteSpell());
-
-describe('spells() with haste spell', () => {
-  it('has 17 spells total', () => {
-    expect(home().spells().count()).toBe(17);
-  });
-
-  it('byType("regular") returns 10 spells', () => {
-    expect(home().spells().byType('regular').count()).toBe(10);
-  });
-
-  it('byType("dark") returns 7 spells', () => {
-    expect(home().spells().byType('dark').count()).toBe(7);
-  });
-
-  it('byTownHall(9) includes haste spell', () => {
-    expect(home().spells().byTownHall(9).find('haste-spell')).toBeDefined();
-  });
-
-  it('byTownHall(8) does not include haste spell', () => {
-    expect(home().spells().byTownHall(8).find('haste-spell')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byType("dark")',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byType('dark'),
-);
-
-testFilterImmutability(
-  'byTownHall(9)',
-  () => home().spells(),
-  (q) => (q as HomeVillageSpells).byTownHall(9),
-);

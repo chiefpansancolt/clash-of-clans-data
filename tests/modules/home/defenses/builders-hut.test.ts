@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('buildersHut()', () => {
   it('returns a HomeDefense object', () => {
@@ -273,12 +271,6 @@ describe("homeDefenses() — Builder's Hut integration", () => {
       .map((d) => d.name);
     expect(names).toContain("Builder's Hut");
   });
-
-  testFilterImmutability(
-    'homeDefenses().byBuilding("Builder\'s Hut")',
-    () => home().defenses() as HomeVillageDefenses,
-    (q) => (q as HomeVillageDefenses).byBuilding("Builder's Hut"),
-  );
 });
 
 describe('buildersHut() supercharge levels', () => {

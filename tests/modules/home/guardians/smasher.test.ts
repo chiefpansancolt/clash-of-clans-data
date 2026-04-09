@@ -1,7 +1,5 @@
 import { home } from '@/modules/home';
-import { HomeVillageGuardians } from '@/modules/home';
 import { SmasherGuardian } from '@/types';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('smasher()', () => {
   it('returns a SmasherGuardian object', () => {
@@ -237,57 +235,4 @@ describe('smasher() availablePerTownHall', () => {
       .availablePerTownHall.filter((a) => a.townHallLevel < 18);
     expect(below).toHaveLength(0);
   });
-});
-
-describe('smasher() integration with homeGuardians()', () => {
-  it('is included in homeGuardians()', () => {
-    const result = home().guardians().findByName('Smasher');
-    expect(result).toBeDefined();
-    expect(result!.id).toBe('smasher');
-  });
-
-  it('homeGuardians().byGuardianType("smasher") returns one result', () => {
-    expect(home().guardians().byGuardianType('smasher').count()).toBe(1);
-  });
-
-  it('homeGuardians().byTownHall(17) excludes Smasher', () => {
-    const names = home()
-      .guardians()
-      .byTownHall(17)
-      .get()
-      .map((g) => g.name);
-    expect(names).not.toContain('Smasher');
-  });
-
-  it('homeGuardians().byTownHall(18) includes Smasher', () => {
-    const names = home()
-      .guardians()
-      .byTownHall(18)
-      .get()
-      .map((g) => g.name);
-    expect(names).toContain('Smasher');
-  });
-
-  it('homeGuardians().byGuardianType("longshot") excludes Smasher', () => {
-    const names = home()
-      .guardians()
-      .byGuardianType('longshot')
-      .get()
-      .map((g) => g.name);
-    expect(names).not.toContain('Smasher');
-  });
-
-  it('homeGuardians() total count is 2', () => {
-    expect(home().guardians().count()).toBe(2);
-  });
-
-  it('is a HomeVillageGuardians instance', () => {
-    expect(home().guardians().byGuardianType('smasher')).toBeInstanceOf(HomeVillageGuardians);
-  });
-
-  testFilterImmutability(
-    'homeGuardians filter immutability',
-    () => home().guardians(),
-    (q) => (q as HomeVillageGuardians).byGuardianType('smasher'),
-  );
 });

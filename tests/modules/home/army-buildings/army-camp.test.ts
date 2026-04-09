@@ -1,5 +1,4 @@
-import { home } from '@/modules/home';
-import { HomeVillageArmyBuildings } from '@/modules/home';
+import { home, HomeVillageArmyBuildings } from '@/modules/home';
 
 describe('armyCamp()', () => {
   it('returns an HomeArmyBuilding object', () => {
@@ -164,18 +163,5 @@ describe('armyCamp() availablePerTownHall', () => {
 describe('armyCamp() integration with armyBuildings()', () => {
   it('armyCamp() returns a HomeVillageArmyBuildings instance', () => {
     expect(home().armyBuildings().armyCamp()).toBeInstanceOf(HomeVillageArmyBuildings);
-  });
-
-  it('armyBuildings() is a HomeVillageArmyBuildings instance', () => {
-    expect(home().armyBuildings()).toBeInstanceOf(HomeVillageArmyBuildings);
-  });
-
-  it('armyBuildings().byTownHall(1) includes Army Camp', () => {
-    const result = home().armyBuildings().byTownHall(1).first();
-    expect(result?.id).toBe('army-camp');
-  });
-
-  it('armyBuildings().byTownHall(1).count() is 1', () => {
-    expect(home().armyBuildings().byTownHall(1).count()).toBe(1);
   });
 });

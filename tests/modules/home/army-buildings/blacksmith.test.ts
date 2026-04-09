@@ -1,5 +1,4 @@
-import { home } from '@/modules/home';
-import { HomeVillageBlacksmith } from '@/modules/home';
+import { home, HomeVillageBlacksmith } from '@/modules/home';
 
 describe('blacksmith()', () => {
   it('returns a HomeBlacksmithBuilding object', () => {

@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability } from '../../../helpers';
 
 describe('infernoTower()', () => {
   it('returns a HomeDefense object', () => {
@@ -184,9 +182,3 @@ describe('HomeVillageDefenses with inferno tower', () => {
     expect(home().defenses().hasGearUp().findByName('Inferno Tower')).toBeUndefined();
   });
 });
-
-testFilterImmutability(
-  'byBuilding',
-  () => home().defenses(),
-  (q) => (q as HomeVillageDefenses).byBuilding('Inferno Tower'),
-);

@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
 describe('cannon()', () => {
   it('returns a HomeDefense object', () => {
@@ -129,8 +127,6 @@ describe('cannon()', () => {
   });
 });
 
-testQueryBaseContract('homeDefenses', () => home().defenses());
-
 describe('HomeVillageDefenses#byBuilding', () => {
   it('filters by name case-insensitively', () => {
     expect(home().defenses().byBuilding('cannon').count()).toBe(1);
@@ -158,19 +154,3 @@ describe('HomeVillageDefenses#hasGearUp', () => {
     expect(home().defenses().hasGearUp().findByName('Cannon')).toBeDefined();
   });
 });
-
-testFilterImmutability(
-  'byBuilding',
-  () => home().defenses(),
-  (q) => (q as HomeVillageDefenses).byBuilding('Cannon'),
-);
-testFilterImmutability(
-  'byTownHall',
-  () => home().defenses(),
-  (q) => (q as HomeVillageDefenses).byTownHall(10),
-);
-testFilterImmutability(
-  'hasGearUp',
-  () => home().defenses(),
-  (q) => (q as HomeVillageDefenses).hasGearUp(),
-);

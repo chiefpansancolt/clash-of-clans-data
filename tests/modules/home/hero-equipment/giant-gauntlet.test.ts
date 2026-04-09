@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroEquipment } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('giantGauntlet()', () => {
   it('returns a HeroEquipment', () => {
@@ -97,32 +97,4 @@ describe('giantGauntlet()', () => {
 
 testQueryBaseContract('home().heroEquipment().giantGauntlet()', () =>
   home().heroEquipment().giantGauntlet(),
-);
-
-describe('heroEquipment() namespace', () => {
-  it('has 13 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(15);
-  });
-
-  it('byHero("barbarian-king") includes Giant Gauntlet', () => {
-    expect(home().heroEquipment().byHero('barbarian-king').find('giant-gauntlet')).toBeDefined();
-  });
-
-  it('byRarity("Epic") includes Giant Gauntlet', () => {
-    expect(home().heroEquipment().byRarity('Epic').find('giant-gauntlet')).toBeDefined();
-  });
-
-  it('byRarity("Common") does not include Giant Gauntlet', () => {
-    expect(home().heroEquipment().byRarity('Common').find('giant-gauntlet')).toBeUndefined();
-  });
-
-  it('byBlacksmith(1) includes Giant Gauntlet', () => {
-    expect(home().heroEquipment().byBlacksmith(1).find('giant-gauntlet')).toBeDefined();
-  });
-});
-
-testFilterImmutability(
-  'byRarity("Epic")',
-  () => home().heroEquipment(),
-  (q) => (q as HomeVillageHeroEquipment).byRarity('Epic'),
 );

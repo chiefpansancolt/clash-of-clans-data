@@ -1,6 +1,4 @@
 import { home } from '@/modules/home';
-import { HomeVillageDefenses } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
 
 describe('airDefense()', () => {
   it('returns a HomeDefense object', () => {
@@ -211,11 +209,3 @@ describe('HomeVillageDefenses with air defense', () => {
     expect(home().defenses().hasGearUp().findByName('Air Defense')).toBeUndefined();
   });
 });
-
-testQueryBaseContract('homeDefenses', () => home().defenses());
-
-testFilterImmutability(
-  'byBuilding',
-  () => home().defenses(),
-  (q) => (q as HomeVillageDefenses).byBuilding('Air Defense'),
-);

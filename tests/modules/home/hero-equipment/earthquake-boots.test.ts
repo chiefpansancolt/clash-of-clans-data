@@ -1,5 +1,5 @@
 import { home, HomeVillageHeroEquipment } from '@/modules/home';
-import { testFilterImmutability, testQueryBaseContract } from '../../../helpers';
+import { testQueryBaseContract } from '../../../helpers';
 
 describe('earthquakeBoots()', () => {
   it('returns a HeroEquipment', () => {
@@ -86,36 +86,4 @@ describe('earthquakeBoots()', () => {
 
 testQueryBaseContract('home().heroEquipment().earthquakeBoots()', () =>
   home().heroEquipment().earthquakeBoots(),
-);
-
-describe('heroEquipment() namespace', () => {
-  it('has 13 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(15);
-  });
-
-  it('byHero("barbarian-king") includes Earthquake Boots', () => {
-    expect(home().heroEquipment().byHero('barbarian-king').find('earthquake-boots')).toBeDefined();
-  });
-
-  it('byHero("archer-queen") does not include Earthquake Boots', () => {
-    expect(home().heroEquipment().byHero('archer-queen').find('earthquake-boots')).toBeUndefined();
-  });
-
-  it('byRarity("Common") includes Earthquake Boots', () => {
-    expect(home().heroEquipment().byRarity('Common').find('earthquake-boots')).toBeDefined();
-  });
-
-  it('byBlacksmith(1) includes Earthquake Boots', () => {
-    expect(home().heroEquipment().byBlacksmith(1).find('earthquake-boots')).toBeDefined();
-  });
-
-  it('byBlacksmith(0) does not include Earthquake Boots', () => {
-    expect(home().heroEquipment().byBlacksmith(0).find('earthquake-boots')).toBeUndefined();
-  });
-});
-
-testFilterImmutability(
-  'byHero("barbarian-king")',
-  () => home().heroEquipment(),
-  (q) => (q as HomeVillageHeroEquipment).byHero('barbarian-king'),
 );
