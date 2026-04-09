@@ -2,12 +2,14 @@ import { BuildTime, ResourceType } from './common';
 
 export interface SiegeMachineLevel {
   level: number;
-  damagePerSecond: number;
-  damagePerHit: number;
+  damagePerSecond?: number;
+  damagePerHit?: number;
   damageVsWalls?: number;
   damageWhenDestroyed?: number;
   damageWhenDestroyedHitbox1?: number;
   damageWhenDestroyedHitbox2?: number;
+  pekkasSpawned?: number;
+  wizardsSpawned?: number;
   hitpoints: number;
   laboratoryRequired: number;
   townHallRequired: number;
@@ -25,10 +27,11 @@ export interface SiegeMachine {
   category: 'siege-machine';
   housingSpace: number;
   workshopLevelRequired: number;
-  preferredTarget: string;
-  attackType: string;
+  preferredTarget?: string;
+  attackType?: string;
   movementSpeed: number;
-  attackSpeed: number;
+  attackSpeed?: number;
+  lifetime?: number;
   images: { icon: string };
   levels: SiegeMachineLevel[];
 }

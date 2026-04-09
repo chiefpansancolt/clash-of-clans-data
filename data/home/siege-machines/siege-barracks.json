@@ -1,0 +1,74 @@
+{
+  "id": "siege-barracks",
+  "name": "Siege Barracks",
+  "description": "The Siege Barracks parachutes down gracefully to first release a menagerie of P.E.K.K.As and Wizards and then the Clan Castle troops. How they all managed to squeeze inside is a mystery not really worth investigating.",
+  "base": "home",
+  "category": "siege-machine",
+  "housingSpace": 1,
+  "workshopLevelRequired": 4,
+  "movementSpeed": 0,
+  "lifetime": 30,
+  "images": { "icon": "images/home/siege-machines/siege-barracks/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "pekkasSpawned": 1,
+      "wizardsSpawned": 6,
+      "hitpoints": 3300,
+      "laboratoryRequired": 0,
+      "townHallRequired": 13,
+      "researchCost": 0,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "pekkasSpawned": 1,
+      "wizardsSpawned": 8,
+      "hitpoints": 3700,
+      "laboratoryRequired": 10,
+      "townHallRequired": 13,
+      "researchCost": 3500000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "pekkasSpawned": 1,
+      "wizardsSpawned": 10,
+      "hitpoints": 4100,
+      "laboratoryRequired": 10,
+      "townHallRequired": 13,
+      "researchCost": 5000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "pekkasSpawned": 1,
+      "wizardsSpawned": 11,
+      "hitpoints": 4500,
+      "laboratoryRequired": 11,
+      "townHallRequired": 13,
+      "researchCost": 8000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "pekkasSpawned": 2,
+      "wizardsSpawned": 11,
+      "hitpoints": 4800,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 18000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/siege-barracks/normal/level-5.png" }
+    }
+  ]
+}
