@@ -4,7 +4,8 @@ export interface SiegeMachineLevel {
   level: number;
   damagePerSecond: number;
   damagePerHit: number;
-  damageVsWalls: number;
+  damageVsWalls?: number;
+  damageWhenDestroyed?: number;
   hitpoints: number;
   laboratoryRequired: number;
   townHallRequired: number;

@@ -1,0 +1,81 @@
+{
+  "id": "battle-blimp",
+  "name": "Battle Blimp",
+  "description": "The Battle Blimp bypasses ground-based obstacles and delivers your Clan Castle troops directly into the heart of the enemy village, all while dropping bombs along the way. However, its thin hide makes it easier to shoot down. Immune to spell effects.",
+  "base": "home",
+  "category": "siege-machine",
+  "housingSpace": 1,
+  "workshopLevelRequired": 2,
+  "preferredTarget": "None",
+  "attackType": "Area Splash",
+  "movementSpeed": 18,
+  "attackSpeed": 1.5,
+  "images": { "icon": "images/home/siege-machines/battle-blimp/icon.png" },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 100,
+      "damagePerHit": 150,
+      "damageWhenDestroyed": 700,
+      "hitpoints": 3000,
+      "laboratoryRequired": 0,
+      "townHallRequired": 12,
+      "researchCost": 0,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 140,
+      "damagePerHit": 210,
+      "damageWhenDestroyed": 800,
+      "hitpoints": 3500,
+      "laboratoryRequired": 10,
+      "townHallRequired": 12,
+      "researchCost": 2500000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 180,
+      "damagePerHit": 270,
+      "damageWhenDestroyed": 900,
+      "hitpoints": 4000,
+      "laboratoryRequired": 10,
+      "townHallRequired": 12,
+      "researchCost": 3500000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 220,
+      "damagePerHit": 330,
+      "damageWhenDestroyed": 1000,
+      "hitpoints": 4500,
+      "laboratoryRequired": 11,
+      "townHallRequired": 13,
+      "researchCost": 6500000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "damagePerSecond": 260,
+      "damagePerHit": 390,
+      "damageWhenDestroyed": 1100,
+      "hitpoints": 5000,
+      "laboratoryRequired": 13,
+      "townHallRequired": 15,
+      "researchCost": 10000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/battle-blimp/normal/level-5.png" }
+    }
+  ]
+}
