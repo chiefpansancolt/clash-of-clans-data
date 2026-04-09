@@ -1,8 +1,9 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeHero } from '@/types';
+import { archerQueenData } from './archer-queen';
 import { barbarianKingData } from './barbarian-king';
 
-const allHeroes: HomeHero[] = [barbarianKingData];
+const allHeroes: HomeHero[] = [barbarianKingData, archerQueenData];
 
 export class HomeVillageHeroes extends QueryBase<HomeHero> {
   constructor(data: HomeHero[] = allHeroes) {
@@ -12,6 +13,10 @@ export class HomeVillageHeroes extends QueryBase<HomeHero> {
   // Per-hero accessors
   barbarianKing(): HomeVillageHeroes {
     return new HomeVillageHeroes([barbarianKingData]);
+  }
+
+  archerQueen(): HomeVillageHeroes {
+    return new HomeVillageHeroes([archerQueenData]);
   }
 
   // Category filters

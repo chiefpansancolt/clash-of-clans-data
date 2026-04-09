@@ -52,15 +52,20 @@ import './home/defenses/x-bow';
 // ── Guardians ─────────────────────────────────────────────────────────────────
 import './home/guardians/longshot';
 import './home/guardians/smasher';
+// ── Heroes ────────────────────────────────────────────────────────────────────
+import './home/heroes';
+import './home/heroes/archer-queen';
+import './home/heroes/barbarian-king';
 // ── Other ─────────────────────────────────────────────────────────────────────
 import './home/other/bobs-hut';
 import './home/other/helper-hut';
+// ── Pets ──────────────────────────────────────────────────────────────────────
+import './home/pets';
 import './home/pets/angry-jelly';
 import './home/pets/diggy';
 import './home/pets/electro-owl';
 import './home/pets/frosty';
 import './home/pets/greedy-raven';
-// ── Pets ──────────────────────────────────────────────────────────────────────
 import './home/pets/lassi';
 import './home/pets/mighty-yak';
 import './home/pets/phoenix';
@@ -87,6 +92,7 @@ import './home/siege-machines/stone-slammer';
 import './home/siege-machines/troop-launcher';
 import './home/siege-machines/wall-wrecker';
 // ── Spells ────────────────────────────────────────────────────────────────────
+import './home/spells';
 import './home/spells/bat-spell';
 import './home/spells/clone-spell';
 import './home/spells/earthquake-spell';
