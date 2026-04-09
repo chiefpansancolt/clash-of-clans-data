@@ -1,0 +1,141 @@
+{
+  "id": "angry-jelly",
+  "name": "Angry Jelly",
+  "description": "This blob of pure anger gets impatient waiting around the Village, it's hungry for a good fight. During Battle it convinces its Hero to attack Defenses before splitting to fight separately.",
+  "base": "home",
+  "category": "pet",
+  "targetType": "both",
+  "preferredTarget": "Hero's Target",
+  "attackType": "Single Target",
+  "movementSpeed": 16,
+  "attackSpeed": 0.75,
+  "range": 1.5,
+  "petHouseLevelRequired": 10,
+  "specialAbility": "Brainwash",
+  "images": {
+    "icon": "images/home/pets/angry-jelly/icon.png",
+    "normal": "images/home/pets/angry-jelly/normal.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 112,
+      "damagePerHit": 84,
+      "brainwashDuration": 25,
+      "hitpoints": 1450,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 0,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 121,
+      "damagePerHit": 90.75,
+      "brainwashDuration": 25,
+      "hitpoints": 1525,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 150000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 130,
+      "damagePerHit": 97.5,
+      "brainwashDuration": 25,
+      "hitpoints": 1600,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 160000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 139,
+      "damagePerHit": 104.25,
+      "brainwashDuration": 25,
+      "hitpoints": 1675,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 170000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "damagePerSecond": 148,
+      "damagePerHit": 111,
+      "brainwashDuration": 30,
+      "hitpoints": 1750,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 180000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "damagePerSecond": 157,
+      "damagePerHit": 117.75,
+      "brainwashDuration": 30,
+      "hitpoints": 1825,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 190000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "damagePerSecond": 166,
+      "damagePerHit": 124.5,
+      "brainwashDuration": 30,
+      "hitpoints": 1900,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 200000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "damagePerSecond": 175,
+      "damagePerHit": 131.25,
+      "brainwashDuration": 30,
+      "hitpoints": 1975,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 210000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 9,
+      "damagePerSecond": 184,
+      "damagePerHit": 138,
+      "brainwashDuration": 30,
+      "hitpoints": 2050,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 220000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 10,
+      "damagePerSecond": 193,
+      "damagePerHit": 144.75,
+      "brainwashDuration": 35,
+      "hitpoints": 2125,
+      "petHouseLevelRequired": 10,
+      "townHallRequired": 16,
+      "upgradeCost": 230000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

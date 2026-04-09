@@ -12,6 +12,7 @@ export interface HomePetLevel {
   stunDuration?: number;
   reviveDuration?: number;
   invisibilityDuration?: number;
+  brainwashDuration?: number;
   poisonMaxDps?: number;
   poisonSpeedDecreasePercent?: number;
   poisonAttackRateDecreasePercent?: number;
