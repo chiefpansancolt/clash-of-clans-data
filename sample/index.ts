@@ -55,19 +55,19 @@ import './home/guardians/smasher';
 // ── Other ─────────────────────────────────────────────────────────────────────
 import './home/other/bobs-hut';
 import './home/other/helper-hut';
+import './home/pets/angry-jelly';
+import './home/pets/diggy';
+import './home/pets/electro-owl';
+import './home/pets/frosty';
+import './home/pets/greedy-raven';
 // ── Pets ──────────────────────────────────────────────────────────────────────
 import './home/pets/lassi';
-import './home/pets/electro-owl';
 import './home/pets/mighty-yak';
-import './home/pets/unicorn';
-import './home/pets/frosty';
-import './home/pets/diggy';
-import './home/pets/poison-lizard';
 import './home/pets/phoenix';
-import './home/pets/spirit-fox';
-import './home/pets/angry-jelly';
+import './home/pets/poison-lizard';
 import './home/pets/sneezy';
-import './home/pets/greedy-raven';
+import './home/pets/spirit-fox';
+import './home/pets/unicorn';
 // ── Resource Buildings ────────────────────────────────────────────────────────
 import './home/resource-buildings';
 import './home/resource-buildings/clan-castle';

@@ -36,7 +36,9 @@ log(`specialAbility:   ${p.specialAbility}`);
 log('');
 
 log('--- All Levels ---');
-log('Lvl  DPS    DPH  PoisonDPS  SpeedDec%  AtkRateDec%      HP  Upgrade Cost  Upgrade Time  PH  TH');
+log(
+  'Lvl  DPS    DPH  PoisonDPS  SpeedDec%  AtkRateDec%      HP  Upgrade Cost  Upgrade Time  PH  TH',
+);
 for (const lvl of p.levels) {
   const ut =
     [

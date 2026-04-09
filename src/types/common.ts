@@ -13,6 +13,7 @@ export type Category =
   | 'guardian'
   | 'siege-machine'
   | 'pet'
+  | 'hero'
   | 'town-hall'
   | 'other';
 
