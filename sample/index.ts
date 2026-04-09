@@ -56,6 +56,7 @@ import './home/guardians/smasher';
 import './home/heroes';
 import './home/heroes/archer-queen';
 import './home/heroes/barbarian-king';
+import './home/heroes/dragon-duke';
 import './home/heroes/grand-warden';
 import './home/heroes/minion-prince';
 import './home/heroes/royal-champion';

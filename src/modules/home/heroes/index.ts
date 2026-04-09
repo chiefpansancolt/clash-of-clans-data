@@ -2,6 +2,7 @@ import { QueryBase } from '@/common/query-base';
 import { HomeHero } from '@/types';
 import { archerQueenData } from './archer-queen';
 import { barbarianKingData } from './barbarian-king';
+import { dragonDukeData } from './dragon-duke';
 import { grandWardenData } from './grand-warden';
 import { minionPrinceData } from './minion-prince';
 import { royalChampionData } from './royal-champion';
@@ -12,6 +13,7 @@ const allHeroes: HomeHero[] = [
   grandWardenData,
   royalChampionData,
   minionPrinceData,
+  dragonDukeData,
 ];
 
 export class HomeVillageHeroes extends QueryBase<HomeHero> {
@@ -34,6 +36,10 @@ export class HomeVillageHeroes extends QueryBase<HomeHero> {
 
   royalChampion(): HomeVillageHeroes {
     return new HomeVillageHeroes([royalChampionData]);
+  }
+
+  dragonDuke(): HomeVillageHeroes {
+    return new HomeVillageHeroes([dragonDukeData]);
   }
 
   minionPrince(): HomeVillageHeroes {

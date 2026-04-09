@@ -96,8 +96,8 @@ testQueryBaseContract('home().heroes().royalChampion()', () => home().heroes().r
 // ─── heroes() namespace ───────────────────────────────────────────────────────
 
 describe('heroes() namespace', () => {
-  it('has 5 heroes', () => {
-    expect(home().heroes().count()).toBe(5);
+  it('has 6 heroes', () => {
+    expect(home().heroes().count()).toBe(6);
   });
 
   it('byHeroHall(7) includes Royal Champion', () => {
