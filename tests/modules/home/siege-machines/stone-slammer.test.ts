@@ -99,8 +99,8 @@ testQueryBaseContract('home().siegeMachines().stoneSlammer()', () =>
 // ─── siegeMachines() namespace ────────────────────────────────────────────────
 
 describe('siegeMachines() namespace', () => {
-  it('has 5 siege machines', () => {
-    expect(home().siegeMachines().count()).toBe(5);
+  it('has 6 siege machines', () => {
+    expect(home().siegeMachines().count()).toBe(6);
   });
 
   it('byWorkshop(3) includes stone slammer', () => {

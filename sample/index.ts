@@ -66,6 +66,7 @@ import './home/resource-buildings/gold-mine';
 import './home/resource-buildings/gold-storage';
 // ── Siege Machines ────────────────────────────────────────────────────────────
 import './home/siege-machines/battle-blimp';
+import './home/siege-machines/flame-flinger';
 import './home/siege-machines/log-launcher';
 import './home/siege-machines/siege-barracks';
 import './home/siege-machines/stone-slammer';

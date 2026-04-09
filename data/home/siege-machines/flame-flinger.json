@@ -1,0 +1,91 @@
+{
+  "id": "flame-flinger",
+  "name": "Flame Flinger",
+  "description": "This little charmer flings bundles of Fire Spirits that both hit hard and leave behind a burning mess. Its long range helps it stay out of trouble, but beware of longer range defenses and traps! Immune to spell effects.",
+  "base": "home",
+  "category": "siege-machine",
+  "housingSpace": 1,
+  "workshopLevelRequired": 6,
+  "preferredTarget": "Defenses",
+  "attackType": "Area Splash (Ground Only)",
+  "movementSpeed": 6,
+  "range": 11,
+  "shotsPerBurst": 3,
+  "timeBetweenBursts": 5,
+  "hpDecayPerSecond": 17,
+  "images": {
+    "icon": "images/home/siege-machines/flame-flinger/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 124,
+      "damagePerHit": 225,
+      "flameMaxDps": 80,
+      "lifetime": 100.0,
+      "hitpoints": 1700,
+      "laboratoryRequired": 0,
+      "townHallRequired": 15,
+      "researchCost": 0,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/flame-flinger/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 137,
+      "damagePerHit": 250,
+      "flameMaxDps": 95,
+      "lifetime": 105.88,
+      "hitpoints": 1800,
+      "laboratoryRequired": 10,
+      "townHallRequired": 15,
+      "researchCost": 5500000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/flame-flinger/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 151,
+      "damagePerHit": 275,
+      "flameMaxDps": 105,
+      "lifetime": 111.76,
+      "hitpoints": 1900,
+      "laboratoryRequired": 10,
+      "townHallRequired": 15,
+      "researchCost": 8000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/flame-flinger/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 165,
+      "damagePerHit": 300,
+      "flameMaxDps": 120,
+      "lifetime": 117.64,
+      "hitpoints": 2000,
+      "laboratoryRequired": 11,
+      "townHallRequired": 15,
+      "researchCost": 10000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/flame-flinger/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "damagePerSecond": 179,
+      "damagePerHit": 325,
+      "flameMaxDps": 130,
+      "lifetime": 123.52,
+      "hitpoints": 2100,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 18000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/flame-flinger/normal/level-5.png" }
+    }
+  ]
+}

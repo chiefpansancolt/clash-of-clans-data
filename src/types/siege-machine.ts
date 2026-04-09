@@ -9,6 +9,7 @@ export interface SiegeMachineLevel {
   damageWhenDestroyedHitbox1?: number;
   damageWhenDestroyedHitbox2?: number;
   pointBlankDamage?: number;
+  flameMaxDps?: number;
   pekkasSpawned?: number;
   wizardsSpawned?: number;
   lifetime?: number;
@@ -33,6 +34,9 @@ export interface SiegeMachine {
   attackType?: string;
   movementSpeed: number;
   attackSpeed?: number;
+  range?: number;
+  shotsPerBurst?: number;
+  timeBetweenBursts?: number;
   lifetime?: number;
   hpDecayPerSecond?: number;
   images: { icon: string };
