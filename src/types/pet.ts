@@ -16,6 +16,7 @@ export interface HomePetLevel {
   poisonMaxDps?: number;
   poisonSpeedDecreasePercent?: number;
   poisonAttackRateDecreasePercent?: number;
+  dpsOnResourceBuildings?: number;
   hitpoints: number;
   petHouseLevelRequired: number;
   townHallRequired: number;

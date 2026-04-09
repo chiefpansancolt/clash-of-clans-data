@@ -2,6 +2,7 @@ import { QueryBase } from '@/common/query-base';
 import { HomePet } from '@/types';
 import { angryJellyData } from './angry-jelly';
 import { diggyData } from './diggy';
+import { greedyRavenData } from './greedy-raven';
 import { electroOwlData } from './electro-owl';
 import { frostyData } from './frosty';
 import { lassiData } from './lassi';
@@ -12,7 +13,7 @@ import { sneezyData } from './sneezy';
 import { spiritFoxData } from './spirit-fox';
 import { unicornData } from './unicorn';
 
-const allPets: HomePet[] = [lassiData, electroOwlData, mightyYakData, unicornData, frostyData, diggyData, poisonLizardData, phoenixData, spiritFoxData, angryJellyData, sneezyData];
+const allPets: HomePet[] = [lassiData, electroOwlData, mightyYakData, unicornData, frostyData, diggyData, poisonLizardData, phoenixData, spiritFoxData, angryJellyData, sneezyData, greedyRavenData];
 
 export class HomeVillagePets extends QueryBase<HomePet> {
   constructor(data: HomePet[] = allPets) {
@@ -62,6 +63,10 @@ export class HomeVillagePets extends QueryBase<HomePet> {
 
   sneezy(): HomeVillagePets {
     return new HomeVillagePets([sneezyData]);
+  }
+
+  greedyRaven(): HomeVillagePets {
+    return new HomeVillagePets([greedyRavenData]);
   }
 
   // Category filters

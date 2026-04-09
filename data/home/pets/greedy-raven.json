@@ -1,0 +1,141 @@
+{
+  "id": "greedy-raven",
+  "name": "Greedy Raven",
+  "description": "No scarecrow is frightning enough to keep Greedy Raven away from shiny loot! This masked bandit's swift feathers target and deal extra damage to resource buildings and egos.",
+  "base": "home",
+  "category": "pet",
+  "targetType": "both",
+  "preferredTarget": "Resources",
+  "attackType": "Single Target",
+  "movementSpeed": 28,
+  "attackSpeed": 0.42,
+  "range": 8,
+  "petHouseLevelRequired": 12,
+  "specialAbility": "Shine Sweep",
+  "images": {
+    "icon": "images/home/pets/greedy-raven/icon.png",
+    "normal": "images/home/pets/greedy-raven/normal.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 110,
+      "damagePerHit": 46.2,
+      "dpsOnResourceBuildings": 550,
+      "hitpoints": 2150,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 0,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 115,
+      "damagePerHit": 48.3,
+      "dpsOnResourceBuildings": 575,
+      "hitpoints": 2300,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 260000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 120,
+      "damagePerHit": 50.4,
+      "dpsOnResourceBuildings": 600,
+      "hitpoints": 2450,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 280000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 125,
+      "damagePerHit": 52.5,
+      "dpsOnResourceBuildings": 625,
+      "hitpoints": 2600,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 300000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "damagePerSecond": 130,
+      "damagePerHit": 54.6,
+      "dpsOnResourceBuildings": 650,
+      "hitpoints": 2750,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 320000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "damagePerSecond": 135,
+      "damagePerHit": 56.7,
+      "dpsOnResourceBuildings": 675,
+      "hitpoints": 2900,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 340000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "damagePerSecond": 140,
+      "damagePerHit": 58.8,
+      "dpsOnResourceBuildings": 700,
+      "hitpoints": 3050,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 360000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "damagePerSecond": 145,
+      "damagePerHit": 60.9,
+      "dpsOnResourceBuildings": 725,
+      "hitpoints": 3200,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 380000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 9,
+      "damagePerSecond": 150,
+      "damagePerHit": 63,
+      "dpsOnResourceBuildings": 750,
+      "hitpoints": 3350,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 400000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 10,
+      "damagePerSecond": 155,
+      "damagePerHit": 65.1,
+      "dpsOnResourceBuildings": 775,
+      "hitpoints": 3500,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 420000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

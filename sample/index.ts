@@ -67,6 +67,7 @@ import './home/pets/phoenix';
 import './home/pets/spirit-fox';
 import './home/pets/angry-jelly';
 import './home/pets/sneezy';
+import './home/pets/greedy-raven';
 // ── Resource Buildings ────────────────────────────────────────────────────────
 import './home/resource-buildings';
 import './home/resource-buildings/clan-castle';

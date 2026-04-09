@@ -112,8 +112,8 @@ testQueryBaseContract('home().pets().lassi()', () => home().pets().lassi());
 // ─── pets() namespace ─────────────────────────────────────────────────────────
 
 describe('pets() namespace', () => {
-  it('has 11 pets', () => {
-    expect(home().pets().count()).toBe(11);
+  it('has 12 pets', () => {
+    expect(home().pets().count()).toBe(12);
   });
 
   it('byPetHouse(1) includes L.A.S.S.I', () => {
