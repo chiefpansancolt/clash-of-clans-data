@@ -8,8 +8,10 @@ export interface SiegeMachineLevel {
   damageWhenDestroyed?: number;
   damageWhenDestroyedHitbox1?: number;
   damageWhenDestroyedHitbox2?: number;
+  pointBlankDamage?: number;
   pekkasSpawned?: number;
   wizardsSpawned?: number;
+  lifetime?: number;
   hitpoints: number;
   laboratoryRequired: number;
   townHallRequired: number;
@@ -32,6 +34,7 @@ export interface SiegeMachine {
   movementSpeed: number;
   attackSpeed?: number;
   lifetime?: number;
+  hpDecayPerSecond?: number;
   images: { icon: string };
   levels: SiegeMachineLevel[];
 }

@@ -1,6 +1,7 @@
 import { QueryBase } from '@/common/query-base';
 import { SiegeMachine } from '@/types';
 import { battleBlimpData } from './battle-blimp';
+import { logLauncherData } from './log-launcher';
 import { siegeBarracksData } from './siege-barracks';
 import { stoneSlammerData } from './stone-slammer';
 import { wallWreckerData } from './wall-wrecker';
@@ -10,6 +11,7 @@ const allSiegeMachines: SiegeMachine[] = [
   battleBlimpData,
   stoneSlammerData,
   siegeBarracksData,
+  logLauncherData,
 ];
 
 export class HomeVillageSiegeMachines extends QueryBase<SiegeMachine> {
@@ -32,6 +34,10 @@ export class HomeVillageSiegeMachines extends QueryBase<SiegeMachine> {
 
   siegeBarracks(): HomeVillageSiegeMachines {
     return new HomeVillageSiegeMachines([siegeBarracksData]);
+  }
+
+  logLauncher(): HomeVillageSiegeMachines {
+    return new HomeVillageSiegeMachines([logLauncherData]);
   }
 
   // Category filters
