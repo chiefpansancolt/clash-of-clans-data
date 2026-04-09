@@ -1,0 +1,141 @@
+{
+  "id": "phoenix",
+  "name": "Phoenix",
+  "base": "home",
+  "category": "pet",
+  "targetType": "both",
+  "preferredTarget": "Hero's Target",
+  "attackType": "Area Splash",
+  "movementSpeed": 16,
+  "attackSpeed": 1,
+  "range": 2.5,
+  "petHouseLevelRequired": 8,
+  "specialAbility": "Fiery Finale",
+  "images": {
+    "icon": "images/home/pets/phoenix/icon.png",
+    "normal": "images/home/pets/phoenix/normal.png",
+    "egg": "images/home/pets/phoenix/egg.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 178,
+      "damagePerHit": 178,
+      "reviveDuration": 6,
+      "hitpoints": 3120,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 0,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 186,
+      "damagePerHit": 186,
+      "reviveDuration": 6,
+      "hitpoints": 3240,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 80000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 194,
+      "damagePerHit": 194,
+      "reviveDuration": 6,
+      "hitpoints": 3360,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 95000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 202,
+      "damagePerHit": 202,
+      "reviveDuration": 6,
+      "hitpoints": 3480,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 110000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "damagePerSecond": 210,
+      "damagePerHit": 210,
+      "reviveDuration": 7,
+      "hitpoints": 3600,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 125000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "damagePerSecond": 218,
+      "damagePerHit": 218,
+      "reviveDuration": 7,
+      "hitpoints": 3720,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 140000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "damagePerSecond": 226,
+      "damagePerHit": 226,
+      "reviveDuration": 7,
+      "hitpoints": 3840,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 155000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "damagePerSecond": 234,
+      "damagePerHit": 234,
+      "reviveDuration": 7,
+      "hitpoints": 3960,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 170000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 9,
+      "damagePerSecond": 242,
+      "damagePerHit": 242,
+      "reviveDuration": 7,
+      "hitpoints": 4080,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 180000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 10,
+      "damagePerSecond": 250,
+      "damagePerHit": 250,
+      "reviveDuration": 8,
+      "hitpoints": 4200,
+      "petHouseLevelRequired": 8,
+      "townHallRequired": 15,
+      "upgradeCost": 190000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

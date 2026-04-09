@@ -62,6 +62,8 @@ import './home/pets/mighty-yak';
 import './home/pets/unicorn';
 import './home/pets/frosty';
 import './home/pets/diggy';
+import './home/pets/poison-lizard';
+import './home/pets/phoenix';
 // ── Resource Buildings ────────────────────────────────────────────────────────
 import './home/resource-buildings';
 import './home/resource-buildings/clan-castle';

@@ -10,6 +10,10 @@ export interface HomePetLevel {
   frostmitesPerSummon?: number;
   maxFrostmites?: number;
   stunDuration?: number;
+  reviveDuration?: number;
+  poisonMaxDps?: number;
+  poisonSpeedDecreasePercent?: number;
+  poisonAttackRateDecreasePercent?: number;
   hitpoints: number;
   petHouseLevelRequired: number;
   townHallRequired: number;
@@ -38,6 +42,6 @@ export interface HomePet {
   summonCooldown?: number;
   rageSpeedIncrease?: number;
   rageDamageIncreasePercent?: number;
-  images: { icon: string; normal: string };
+  images: { icon: string; normal: string; egg?: string };
   levels: HomePetLevel[];
 }
