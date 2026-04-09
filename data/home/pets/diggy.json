@@ -1,0 +1,141 @@
+{
+  "id": "diggy",
+  "name": "Diggy",
+  "description": "Diggy is an introvert and spends a lot of time hiding underground. Still when it comes to battle, he'll do his part, coming up to attack buildings and aid his Hero. If his Hero's taken out, he'll seek out a new one for support, scritches.",
+  "base": "home",
+  "category": "pet",
+  "targetType": "ground",
+  "preferredTarget": "Hero's Target",
+  "attackType": "Single Target",
+  "movementSpeed": 32,
+  "attackSpeed": 1.1,
+  "range": 0.8,
+  "petHouseLevelRequired": 6,
+  "specialAbility": "Stunning Surprise",
+  "images": {
+    "icon": "images/home/pets/diggy/icon.png",
+    "normal": "images/home/pets/diggy/normal.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 105,
+      "damagePerHit": 115.5,
+      "stunDuration": 2,
+      "hitpoints": 3650,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 0,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 110,
+      "damagePerHit": 121,
+      "stunDuration": 2,
+      "hitpoints": 3800,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 90000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 115,
+      "damagePerHit": 126.5,
+      "stunDuration": 2,
+      "hitpoints": 3950,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 105000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 120,
+      "damagePerHit": 132,
+      "stunDuration": 2,
+      "hitpoints": 4100,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 120000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "damagePerSecond": 125,
+      "damagePerHit": 137.5,
+      "stunDuration": 2.5,
+      "hitpoints": 4250,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 130000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "damagePerSecond": 130,
+      "damagePerHit": 143,
+      "stunDuration": 2.5,
+      "hitpoints": 4400,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 140000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "damagePerSecond": 135,
+      "damagePerHit": 148.5,
+      "stunDuration": 2.5,
+      "hitpoints": 4550,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 150000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "damagePerSecond": 140,
+      "damagePerHit": 154,
+      "stunDuration": 2.5,
+      "hitpoints": 4700,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 160000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 9,
+      "damagePerSecond": 145,
+      "damagePerHit": 159.5,
+      "stunDuration": 2.5,
+      "hitpoints": 4850,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 170000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 10,
+      "damagePerSecond": 150,
+      "damagePerHit": 165,
+      "stunDuration": 3,
+      "hitpoints": 5000,
+      "petHouseLevelRequired": 6,
+      "townHallRequired": 15,
+      "upgradeCost": 180000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

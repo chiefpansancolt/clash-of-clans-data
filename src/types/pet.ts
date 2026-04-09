@@ -9,6 +9,7 @@ export interface HomePetLevel {
   healingPerPulse?: number;
   frostmitesPerSummon?: number;
   maxFrostmites?: number;
+  stunDuration?: number;
   hitpoints: number;
   petHouseLevelRequired: number;
   townHallRequired: number;
