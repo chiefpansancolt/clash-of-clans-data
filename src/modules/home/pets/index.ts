@@ -1,8 +1,9 @@
 import { QueryBase } from '@/common/query-base';
 import { HomePet } from '@/types';
+import { electroOwlData } from './electro-owl';
 import { lassiData } from './lassi';
 
-const allPets: HomePet[] = [lassiData];
+const allPets: HomePet[] = [lassiData, electroOwlData];
 
 export class HomeVillagePets extends QueryBase<HomePet> {
   constructor(data: HomePet[] = allPets) {
@@ -12,6 +13,10 @@ export class HomeVillagePets extends QueryBase<HomePet> {
   // Per-pet accessors
   lassi(): HomeVillagePets {
     return new HomeVillagePets([lassiData]);
+  }
+
+  electroOwl(): HomeVillagePets {
+    return new HomeVillagePets([electroOwlData]);
   }
 
   // Category filters

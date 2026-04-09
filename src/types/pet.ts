@@ -26,6 +26,8 @@ export interface HomePet {
   range: number;
   petHouseLevelRequired: number;
   specialAbility?: string;
+  numberOfTargets?: number;
+  chainDamageDecay?: number;
   images: { icon: string; normal: string };
   levels: HomePetLevel[];
 }
