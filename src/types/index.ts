@@ -1,4 +1,5 @@
 export * from './army-building';
+export * from './hero-equipment';
 export * from './hero';
 export * from './research-building';
 export * from './town-hall';

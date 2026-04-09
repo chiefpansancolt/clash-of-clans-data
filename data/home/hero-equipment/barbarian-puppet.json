@@ -1,0 +1,286 @@
+{
+  "id": "barbarian-puppet",
+  "name": "Barbarian Puppet",
+  "description": "Summons a pack of raged Barbarians",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "barbarian-king",
+  "rarity": "Common",
+  "abilityType": "Active",
+  "unlockRequirement": "Available by default",
+  "images": {
+    "icon": "images/home/hero-equipment/barbarian-puppet/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 309,
+      "hpRecoveryIncrease": 110,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 0,
+      "stats": {
+        "summonedBarbarians": 8,
+        "barbarianDamageIncrease": "+100%",
+        "barbarianSpeedIncrease": 9.5,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 385,
+      "hpRecoveryIncrease": 165,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedBarbarians": 8,
+        "barbarianDamageIncrease": "+100%",
+        "barbarianSpeedIncrease": 9.5,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 467,
+      "hpRecoveryIncrease": 220,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedBarbarians": 16,
+        "barbarianDamageIncrease": "+120%",
+        "barbarianSpeedIncrease": 12.7,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 564,
+      "hpRecoveryIncrease": 275,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedBarbarians": 16,
+        "barbarianDamageIncrease": "+120%",
+        "barbarianSpeedIncrease": 12.7,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 649,
+      "hpRecoveryIncrease": 330,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedBarbarians": 16,
+        "barbarianDamageIncrease": "+120%",
+        "barbarianSpeedIncrease": 12.7,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 734,
+      "hpRecoveryIncrease": 385,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedBarbarians": 20,
+        "barbarianDamageIncrease": "+140%",
+        "barbarianSpeedIncrease": 16.0,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 836,
+      "hpRecoveryIncrease": 440,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedBarbarians": 20,
+        "barbarianDamageIncrease": "+140%",
+        "barbarianSpeedIncrease": 16.0,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 940,
+      "hpRecoveryIncrease": 495,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedBarbarians": 20,
+        "barbarianDamageIncrease": "+140%",
+        "barbarianSpeedIncrease": 16.0,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 1045,
+      "hpRecoveryIncrease": 572,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedBarbarians": 30,
+        "barbarianDamageIncrease": "+160%",
+        "barbarianSpeedIncrease": 19.1,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 1155,
+      "hpRecoveryIncrease": 660,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "summonedBarbarians": 30,
+        "barbarianDamageIncrease": "+160%",
+        "barbarianSpeedIncrease": 19.1,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 1265,
+      "hpRecoveryIncrease": 748,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "summonedBarbarians": 30,
+        "barbarianDamageIncrease": "+160%",
+        "barbarianSpeedIncrease": 19.1,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 1445,
+      "hpRecoveryIncrease": 847,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "summonedBarbarians": 36,
+        "barbarianDamageIncrease": "+180%",
+        "barbarianSpeedIncrease": 22.3,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 1755,
+      "hpRecoveryIncrease": 946,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "summonedBarbarians": 36,
+        "barbarianDamageIncrease": "+180%",
+        "barbarianSpeedIncrease": 22.3,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 2087,
+      "hpRecoveryIncrease": 1034,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "summonedBarbarians": 36,
+        "barbarianDamageIncrease": "+180%",
+        "barbarianSpeedIncrease": 22.3,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 2444,
+      "hpRecoveryIncrease": 1166,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "summonedBarbarians": 40,
+        "barbarianDamageIncrease": "+200%",
+        "barbarianSpeedIncrease": 25.5,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 2703,
+      "hpRecoveryIncrease": 1243,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "summonedBarbarians": 40,
+        "barbarianDamageIncrease": "+200%",
+        "barbarianSpeedIncrease": 25.5,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 3093,
+      "hpRecoveryIncrease": 1320,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "summonedBarbarians": 40,
+        "barbarianDamageIncrease": "+200%",
+        "barbarianSpeedIncrease": 25.5,
+        "barbarianRageDuration": 20
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 3366,
+      "hpRecoveryIncrease": 1386,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "summonedBarbarians": 44,
+        "barbarianDamageIncrease": "+220%",
+        "barbarianSpeedIncrease": 28.7,
+        "barbarianRageDuration": 20
+      }
+    }
+  ]
+}

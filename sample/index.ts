@@ -48,6 +48,8 @@ import './home/defenses/wizard-tower';
 import './home/defenses/x-bow';
 import './home/guardians/longshot';
 import './home/guardians/smasher';
+import './home/hero-equipment';
+import './home/hero-equipment/barbarian-puppet';
 import './home/heroes';
 import './home/heroes/archer-queen';
 import './home/heroes/barbarian-king';

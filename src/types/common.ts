@@ -14,6 +14,7 @@ export type Category =
   | 'siege-machine'
   | 'pet'
   | 'hero'
+  | 'hero-equipment'
   | 'town-hall'
   | 'other';
 
