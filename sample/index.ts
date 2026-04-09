@@ -56,6 +56,7 @@ import './home/guardians/smasher';
 import './home/heroes';
 import './home/heroes/archer-queen';
 import './home/heroes/barbarian-king';
+import './home/heroes/minion-prince';
 // ── Other ─────────────────────────────────────────────────────────────────────
 import './home/other/bobs-hut';
 import './home/other/helper-hut';

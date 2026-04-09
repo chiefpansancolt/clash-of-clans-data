@@ -96,8 +96,8 @@ testQueryBaseContract('home().heroes().barbarianKing()', () => home().heroes().b
 // ─── heroes() namespace ───────────────────────────────────────────────────────
 
 describe('heroes() namespace', () => {
-  it('has 1 hero', () => {
-    expect(home().heroes().count()).toBe(1);
+  it('has 3 heroes', () => {
+    expect(home().heroes().count()).toBe(3);
   });
 
   it('byHeroHall(1) includes Barbarian King', () => {

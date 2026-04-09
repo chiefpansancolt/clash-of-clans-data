@@ -19,7 +19,9 @@ log('');
 
 log('--- All Pets ---');
 for (const p of all.get()) {
-  log(`${p.id} | ${p.name} | ${p.levels.length} levels | target: ${p.targetType} | PH: ${p.petHouseLevelRequired}`);
+  log(
+    `${p.id} | ${p.name} | ${p.levels.length} levels | target: ${p.targetType} | PH: ${p.petHouseLevelRequired}`,
+  );
 }
 log('');
 

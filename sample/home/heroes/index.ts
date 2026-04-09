@@ -19,7 +19,9 @@ log('');
 
 log('--- All Heroes ---');
 for (const h of all.get()) {
-  log(`${h.id} | ${h.name} | ${h.levels.length} levels | attack: ${h.attackType} | ability: ${h.specialAbility}`);
+  log(
+    `${h.id} | ${h.name} | ${h.levels.length} levels | attack: ${h.attackType} | ability: ${h.specialAbility}`,
+  );
 }
 log('');
 

@@ -19,7 +19,9 @@ log('');
 
 log('--- All Spells ---');
 for (const s of all.get()) {
-  log(`${s.id} | ${s.name} | ${s.levels.length} levels | type: ${s.spellType} | housing: ${s.housingSpace}`);
+  log(
+    `${s.id} | ${s.name} | ${s.levels.length} levels | type: ${s.spellType} | housing: ${s.housingSpace}`,
+  );
 }
 log('');
 
