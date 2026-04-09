@@ -11,6 +11,7 @@ export interface HomePetLevel {
   maxFrostmites?: number;
   stunDuration?: number;
   reviveDuration?: number;
+  invisibilityDuration?: number;
   poisonMaxDps?: number;
   poisonSpeedDecreasePercent?: number;
   poisonAttackRateDecreasePercent?: number;

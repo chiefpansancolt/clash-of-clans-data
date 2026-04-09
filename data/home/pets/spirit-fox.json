@@ -1,0 +1,141 @@
+{
+  "id": "spirit-fox",
+  "name": "Spirit Fox",
+  "description": "An extremely shy creature, who's happiest alone in the woods outside the Village. When called to battle, Spirit Fox fights fiercely alongside their hero and helps them with a little invisibility.",
+  "base": "home",
+  "category": "pet",
+  "targetType": "ground",
+  "preferredTarget": "Within 4.5 tiles of Hero",
+  "attackType": "Single Target",
+  "movementSpeed": 24,
+  "attackSpeed": 1.6,
+  "range": 2.5,
+  "petHouseLevelRequired": 9,
+  "specialAbility": "Spirit Walk",
+  "images": {
+    "icon": "images/home/pets/spirit-fox/icon.png",
+    "normal": "images/home/pets/spirit-fox/normal.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 108,
+      "damagePerHit": 172.8,
+      "invisibilityDuration": 3,
+      "hitpoints": 1900,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 0,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 116,
+      "damagePerHit": 185.6,
+      "invisibilityDuration": 3,
+      "hitpoints": 2000,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 150000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 124,
+      "damagePerHit": 198.4,
+      "invisibilityDuration": 3,
+      "hitpoints": 2100,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 160000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 132,
+      "damagePerHit": 211.2,
+      "invisibilityDuration": 3,
+      "hitpoints": 2200,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 170000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "damagePerSecond": 140,
+      "damagePerHit": 224,
+      "invisibilityDuration": 3.5,
+      "hitpoints": 2300,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 180000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "damagePerSecond": 148,
+      "damagePerHit": 236.8,
+      "invisibilityDuration": 3.5,
+      "hitpoints": 2400,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 190000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "damagePerSecond": 156,
+      "damagePerHit": 249.6,
+      "invisibilityDuration": 3.5,
+      "hitpoints": 2500,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 200000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "damagePerSecond": 164,
+      "damagePerHit": 262.4,
+      "invisibilityDuration": 3.5,
+      "hitpoints": 2600,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 210000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 9,
+      "damagePerSecond": 172,
+      "damagePerHit": 275.2,
+      "invisibilityDuration": 3.5,
+      "hitpoints": 2700,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 220000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 10,
+      "damagePerSecond": 180,
+      "damagePerHit": 288,
+      "invisibilityDuration": 4,
+      "hitpoints": 2800,
+      "petHouseLevelRequired": 9,
+      "townHallRequired": 16,
+      "upgradeCost": 230000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}
