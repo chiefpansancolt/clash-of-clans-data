@@ -24,7 +24,7 @@ describe('barbarianPuppet()', () => {
     expect(e.hero).toBe('barbarian-king');
     expect(e.rarity).toBe('Common');
     expect(e.abilityType).toBe('Active');
-    expect(e.unlockRequirement).toBe('Available by default');
+    expect(e.unlockRequirement).toEqual(['Available by default']);
   });
 
   it('has an icon image', () => {
@@ -44,6 +44,11 @@ describe('barbarianPuppet()', () => {
     expect(lvl.stats['summonedBarbarians']).toBe(8);
     expect(lvl.stats['barbarianDamageIncrease']).toBe('+100%');
     expect(lvl.stats['barbarianSpeedIncrease']).toBe(9.5);
+  });
+
+  it('has ability: barbarianRageDuration 20', () => {
+    const e = home().heroEquipment().barbarianPuppet().first()!;
+    expect(e.ability!['barbarianRageDuration']).toBe(20);
   });
 
   it('level 9: HP+1045, Recovery+572, 1800 Shiny+200 Glowy, blacksmith 1', () => {
@@ -86,8 +91,8 @@ testQueryBaseContract('home().heroEquipment().barbarianPuppet()', () =>
 );
 
 describe('heroEquipment() namespace', () => {
-  it('has 1 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(1);
+  it('has 8 equipment', () => {
+    expect(home().heroEquipment().count()).toBe(8);
   });
 
   it('byHero("barbarian-king") includes Barbarian Puppet', () => {

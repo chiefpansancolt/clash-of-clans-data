@@ -2,8 +2,8 @@ export type EquipmentRarity = 'Common' | 'Rare' | 'Epic';
 
 export interface HeroEquipmentLevel {
   level: number;
-  hitpointIncrease: number;
-  hpRecoveryIncrease: number;
+  hitpointIncrease?: number;
+  hpRecoveryIncrease?: number;
   upgradeShinyOre: number;
   upgradeGlowingOre: number;
   upgradeStarryOre: number;
@@ -20,7 +20,8 @@ export interface HeroEquipment {
   hero: string;
   rarity: EquipmentRarity;
   abilityType: 'Active' | 'Passive';
-  unlockRequirement: string;
+  unlockRequirement: string[];
+  ability?: Record<string, string | number>;
   images: { icon: string };
   levels: HeroEquipmentLevel[];
 }
