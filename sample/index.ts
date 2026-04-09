@@ -55,6 +55,8 @@ import './home/guardians/smasher';
 // ── Other ─────────────────────────────────────────────────────────────────────
 import './home/other/bobs-hut';
 import './home/other/helper-hut';
+// ── Pets ──────────────────────────────────────────────────────────────────────
+import './home/pets/lassi';
 // ── Resource Buildings ────────────────────────────────────────────────────────
 import './home/resource-buildings';
 import './home/resource-buildings/clan-castle';

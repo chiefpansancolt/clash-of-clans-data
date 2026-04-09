@@ -3,6 +3,7 @@ import { HomeVillageCraftedDefenses } from './crafted-defenses';
 import { HomeVillageDefenses } from './defenses';
 import { HomeVillageGuardians } from './guardians';
 import { HomeVillageOtherBuildings } from './other';
+import { HomeVillagePets } from './pets';
 import { HomeVillageResourceBuildings } from './resource-buildings';
 import { HomeVillageSiegeMachines } from './siege-machines';
 import { HomeVillageSpells } from './spells';
@@ -39,6 +40,7 @@ export {
   HomeVillageAlchemist,
   HomeVillageProspector,
 } from './other';
+export { HomeVillagePets } from './pets';
 export { HomeVillageSiegeMachines } from './siege-machines';
 export { HomeVillageSpells } from './spells';
 export { HomeVillageTroops } from './troops';
@@ -83,6 +85,10 @@ export class HomeVillage {
 
   troops(): HomeVillageTroops {
     return new HomeVillageTroops();
+  }
+
+  pets(): HomeVillagePets {
+    return new HomeVillagePets();
   }
 
   siegeMachines(): HomeVillageSiegeMachines {

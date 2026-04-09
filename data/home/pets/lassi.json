@@ -1,0 +1,186 @@
+{
+  "id": "lassi",
+  "name": "L.A.S.S.I",
+  "description": "The trustiest hound to ever roam the village proper, L.A.S.S.I chases enemies with unrelenting fury. Unless they fly, in which case she just observes them intently.",
+  "base": "home",
+  "category": "pet",
+  "targetType": "ground",
+  "preferredTarget": "Within 2.5 tiles of Hero",
+  "attackType": "Single Target",
+  "movementSpeed": 32,
+  "attackSpeed": 0.9,
+  "range": 0.6,
+  "petHouseLevelRequired": 1,
+  "specialAbility": "High Jumper",
+  "images": {
+    "icon": "images/home/pets/lassi/icon.png",
+    "normal": "images/home/pets/lassi/normal.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 160,
+      "damagePerHit": 144,
+      "hitpoints": 2800,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 0,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 170,
+      "damagePerHit": 153,
+      "hitpoints": 2900,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 20000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 180,
+      "damagePerHit": 162,
+      "hitpoints": 3000,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 30000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 190,
+      "damagePerHit": 171,
+      "hitpoints": 3100,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 40000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 5,
+      "damagePerSecond": 200,
+      "damagePerHit": 180,
+      "hitpoints": 3200,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 50000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 6,
+      "damagePerSecond": 210,
+      "damagePerHit": 189,
+      "hitpoints": 3300,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 60000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 7,
+      "damagePerSecond": 220,
+      "damagePerHit": 198,
+      "hitpoints": 3400,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 70000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 8,
+      "damagePerSecond": 230,
+      "damagePerHit": 207,
+      "hitpoints": 3500,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 80000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 9,
+      "damagePerSecond": 240,
+      "damagePerHit": 216,
+      "hitpoints": 3600,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 90000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 10,
+      "damagePerSecond": 260,
+      "damagePerHit": 234,
+      "hitpoints": 3700,
+      "petHouseLevelRequired": 1,
+      "townHallRequired": 14,
+      "upgradeCost": 100000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 11,
+      "damagePerSecond": 290,
+      "damagePerHit": 261,
+      "hitpoints": 3850,
+      "petHouseLevelRequired": 5,
+      "townHallRequired": 15,
+      "upgradeCost": 110000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 12,
+      "damagePerSecond": 310,
+      "damagePerHit": 279,
+      "hitpoints": 3950,
+      "petHouseLevelRequired": 5,
+      "townHallRequired": 15,
+      "upgradeCost": 120000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 13,
+      "damagePerSecond": 330,
+      "damagePerHit": 297,
+      "hitpoints": 4100,
+      "petHouseLevelRequired": 5,
+      "townHallRequired": 15,
+      "upgradeCost": 130000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 14,
+      "damagePerSecond": 360,
+      "damagePerHit": 324,
+      "hitpoints": 4300,
+      "petHouseLevelRequired": 5,
+      "townHallRequired": 15,
+      "upgradeCost": 140000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 15,
+      "damagePerSecond": 400,
+      "damagePerHit": 360,
+      "hitpoints": 4500,
+      "petHouseLevelRequired": 5,
+      "townHallRequired": 15,
+      "upgradeCost": 150000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}
