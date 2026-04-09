@@ -1,11 +1,12 @@
 import { QueryBase } from '@/common/query-base';
 import { HomePet } from '@/types';
 import { electroOwlData } from './electro-owl';
+import { frostyData } from './frosty';
 import { lassiData } from './lassi';
 import { mightyYakData } from './mighty-yak';
 import { unicornData } from './unicorn';
 
-const allPets: HomePet[] = [lassiData, electroOwlData, mightyYakData, unicornData];
+const allPets: HomePet[] = [lassiData, electroOwlData, mightyYakData, unicornData, frostyData];
 
 export class HomeVillagePets extends QueryBase<HomePet> {
   constructor(data: HomePet[] = allPets) {
@@ -27,6 +28,10 @@ export class HomeVillagePets extends QueryBase<HomePet> {
 
   unicorn(): HomeVillagePets {
     return new HomeVillagePets([unicornData]);
+  }
+
+  frosty(): HomeVillagePets {
+    return new HomeVillagePets([frostyData]);
   }
 
   // Category filters

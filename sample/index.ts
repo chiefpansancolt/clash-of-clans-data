@@ -60,6 +60,7 @@ import './home/pets/lassi';
 import './home/pets/electro-owl';
 import './home/pets/mighty-yak';
 import './home/pets/unicorn';
+import './home/pets/frosty';
 // ── Resource Buildings ────────────────────────────────────────────────────────
 import './home/resource-buildings';
 import './home/resource-buildings/clan-castle';

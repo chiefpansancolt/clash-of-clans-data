@@ -7,6 +7,8 @@ export interface HomePetLevel {
   damageVsWalls?: number;
   healingPerSecond?: number;
   healingPerPulse?: number;
+  frostmitesPerSummon?: number;
+  maxFrostmites?: number;
   hitpoints: number;
   petHouseLevelRequired: number;
   townHallRequired: number;
@@ -32,6 +34,7 @@ export interface HomePet {
   numberOfTargets?: number;
   chainDamageDecay?: number;
   rageDuration?: number;
+  summonCooldown?: number;
   rageSpeedIncrease?: number;
   rageDamageIncreasePercent?: number;
   images: { icon: string; normal: string };
