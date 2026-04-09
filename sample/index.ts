@@ -71,6 +71,7 @@ import './home/siege-machines/flame-flinger';
 import './home/siege-machines/log-launcher';
 import './home/siege-machines/siege-barracks';
 import './home/siege-machines/stone-slammer';
+import './home/siege-machines/troop-launcher';
 import './home/siege-machines/wall-wrecker';
 // ── Spells ────────────────────────────────────────────────────────────────────
 import './home/spells/bat-spell';

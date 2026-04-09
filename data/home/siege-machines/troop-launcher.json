@@ -1,0 +1,72 @@
+{
+  "id": "troop-launcher",
+  "name": "Troop Launcher",
+  "description": "This immobile machine launches barrel loads of Troops and Clan Castle Troops at your allies in battle to support them. Each barrel can hold multiple Troops, including one Clan Castle Troop. There's only a few barrels inside, so make them count!",
+  "base": "home",
+  "category": "siege-machine",
+  "housingSpace": 1,
+  "workshopLevelRequired": 8,
+  "movementSpeed": 0,
+  "attackSpeed": 6,
+  "images": {
+    "icon": "images/home/siege-machines/troop-launcher/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "barrelCount": 5,
+      "troopLevel": 9,
+      "troopsSpawnedPerBarrel": { "barbarians": 2, "archers": 3, "giants": 1, "wallBreakers": 1 },
+      "lifetime": 80,
+      "hitpoints": 2000,
+      "laboratoryRequired": 0,
+      "townHallRequired": 17,
+      "researchCost": 0,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/troop-launcher/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "barrelCount": 5,
+      "troopLevel": 10,
+      "troopsSpawnedPerBarrel": { "barbarians": 2, "archers": 3, "giants": 1, "wallBreakers": 2 },
+      "lifetime": 88,
+      "hitpoints": 2200,
+      "laboratoryRequired": 14,
+      "townHallRequired": 17,
+      "researchCost": 8500000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/troop-launcher/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "barrelCount": 6,
+      "troopLevel": 11,
+      "troopsSpawnedPerBarrel": { "barbarians": 2, "archers": 4, "giants": 1, "wallBreakers": 2 },
+      "lifetime": 96,
+      "hitpoints": 2400,
+      "laboratoryRequired": 14,
+      "townHallRequired": 17,
+      "researchCost": 10000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/troop-launcher/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "barrelCount": 7,
+      "troopLevel": 12,
+      "troopsSpawnedPerBarrel": { "barbarians": 2, "archers": 4, "giants": 1, "wallBreakers": 2 },
+      "lifetime": 104,
+      "hitpoints": 2600,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 17000000,
+      "researchCostResource": "Gold",
+      "researchTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "images": { "normal": "images/home/siege-machines/troop-launcher/normal/level-4.png" }
+    }
+  ]
+}

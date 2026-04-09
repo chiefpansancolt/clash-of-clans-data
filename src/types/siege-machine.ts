@@ -12,6 +12,14 @@ export interface SiegeMachineLevel {
   flameMaxDps?: number;
   pekkasSpawned?: number;
   wizardsSpawned?: number;
+  barrelCount?: number;
+  troopLevel?: number;
+  troopsSpawnedPerBarrel?: {
+    barbarians?: number;
+    archers?: number;
+    giants?: number;
+    wallBreakers?: number;
+  };
   lifetime?: number;
   hitpoints: number;
   laboratoryRequired: number;
