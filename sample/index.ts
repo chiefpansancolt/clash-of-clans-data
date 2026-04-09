@@ -58,6 +58,7 @@ import './home/other/helper-hut';
 // ── Pets ──────────────────────────────────────────────────────────────────────
 import './home/pets/lassi';
 import './home/pets/electro-owl';
+import './home/pets/mighty-yak';
 // ── Resource Buildings ────────────────────────────────────────────────────────
 import './home/resource-buildings';
 import './home/resource-buildings/clan-castle';

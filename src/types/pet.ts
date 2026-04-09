@@ -4,6 +4,7 @@ export interface HomePetLevel {
   level: number;
   damagePerSecond: number;
   damagePerHit: number;
+  damageVsWalls?: number;
   hitpoints: number;
   petHouseLevelRequired: number;
   townHallRequired: number;
@@ -28,6 +29,9 @@ export interface HomePet {
   specialAbility?: string;
   numberOfTargets?: number;
   chainDamageDecay?: number;
+  rageDuration?: number;
+  rageSpeedIncrease?: number;
+  rageDamageIncreasePercent?: number;
   images: { icon: string; normal: string };
   levels: HomePetLevel[];
 }
