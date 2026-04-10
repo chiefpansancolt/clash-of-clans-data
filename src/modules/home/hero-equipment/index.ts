@@ -8,7 +8,9 @@ import { darkOrbData } from './dark-orb';
 import { earthquakeBootsData } from './earthquake-boots';
 import { electroBootsData } from './electro-boots';
 import { eternalTomeData } from './eternal-tome';
+import { fireHeartData } from './fire-heart';
 import { fireballData } from './fireball';
+import { flameBlowerData } from './flame-blower';
 import { frostFlakeData } from './frost-flake';
 import { frozenArrowData } from './frozen-arrow';
 import { giantArrowData } from './giant-arrow';
@@ -28,12 +30,14 @@ import { meteorStaffData } from './meteor-staff';
 import { nobleIronData } from './noble-iron';
 import { rageGemData } from './rage-gem';
 import { rageVialData } from './rage-vial';
+import { rocketBackpackData } from './rocket-backpack';
 import { rocketSpearData } from './rocket-spear';
 import { royalGemData } from './royal-gem';
 import { seekingShieldData } from './seeking-shield';
 import { snakeBraceletData } from './snake-bracelet';
 import { spikyBallData } from './spiky-ball';
 import { stickHorseData } from './stick-horse';
+import { stunBlasterData } from './stun-blaster';
 import { vampstacheData } from './vampstache';
 
 const allHeroEquipment: HeroEquipment[] = [
@@ -63,6 +67,8 @@ const allHeroEquipment: HeroEquipment[] = [
   rageGemData,
   healingTomeData,
   fireballData,
+  fireHeartData,
+  flameBlowerData,
   lavaloonPuppetData,
   heroicTorchData,
   royalGemData,
@@ -71,6 +77,8 @@ const allHeroEquipment: HeroEquipment[] = [
   hasteVialData,
   electroBootsData,
   frostFlakeData,
+  stunBlasterData,
+  rocketBackpackData,
   rocketSpearData,
 ];
 
@@ -113,6 +121,10 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
 
   giantGauntlet(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([giantGauntletData]);
+  }
+
+  stunBlaster(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([stunBlasterData]);
   }
 
   spikyBall(): HomeVillageHeroEquipment {
@@ -191,6 +203,14 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
     return new HomeVillageHeroEquipment([healingTomeData]);
   }
 
+  flameBlower(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([flameBlowerData]);
+  }
+
+  fireHeart(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([fireHeartData]);
+  }
+
   fireball(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([fireballData]);
   }
@@ -217,6 +237,10 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
 
   hasteVial(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([hasteVialData]);
+  }
+
+  rocketBackpack(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([rocketBackpackData]);
   }
 
   rocketSpear(): HomeVillageHeroEquipment {

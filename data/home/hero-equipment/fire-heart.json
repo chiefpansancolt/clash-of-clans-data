@@ -1,0 +1,253 @@
+{
+  "id": "fire-heart",
+  "name": "Fire Heart",
+  "description": "Slowly regenerates health and bursts into damaging Flames when Dragon Duke falls",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "dragon-duke",
+  "rarity": "Common",
+  "abilityType": "Passive",
+  "unlockRequirement": ["Available by default"],
+  "ability": {
+    "damageRadius": "4 tiles"
+  },
+  "images": {
+    "icon": "images/home/hero-equipment/fire-heart/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 900,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 0,
+      "stats": {
+        "damageOnDefeat": 1000,
+        "selfHealingPerSecond": 50,
+        "dpsIncrease": 10
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 1200,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageOnDefeat": 1000,
+        "selfHealingPerSecond": 50,
+        "dpsIncrease": 12
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 1450,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageOnDefeat": 1350,
+        "selfHealingPerSecond": 70,
+        "dpsIncrease": 14
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 1750,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageOnDefeat": 1350,
+        "selfHealingPerSecond": 70,
+        "dpsIncrease": 16
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 2000,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageOnDefeat": 1350,
+        "selfHealingPerSecond": 70,
+        "dpsIncrease": 18
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 2300,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageOnDefeat": 1700,
+        "selfHealingPerSecond": 90,
+        "dpsIncrease": 20
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 2600,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageOnDefeat": 1700,
+        "selfHealingPerSecond": 90,
+        "dpsIncrease": 22
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 2850,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageOnDefeat": 1700,
+        "selfHealingPerSecond": 90,
+        "dpsIncrease": 24
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 3150,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageOnDefeat": 2000,
+        "selfHealingPerSecond": 110,
+        "dpsIncrease": 26
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 3400,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "damageOnDefeat": 2000,
+        "selfHealingPerSecond": 110,
+        "dpsIncrease": 28
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 3700,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "damageOnDefeat": 2000,
+        "selfHealingPerSecond": 110,
+        "dpsIncrease": 30
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 4000,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "damageOnDefeat": 2350,
+        "selfHealingPerSecond": 130,
+        "dpsIncrease": 32
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 4250,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damageOnDefeat": 2350,
+        "selfHealingPerSecond": 130,
+        "dpsIncrease": 34
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 4550,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damageOnDefeat": 2350,
+        "selfHealingPerSecond": 130,
+        "dpsIncrease": 36
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 4800,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damageOnDefeat": 2700,
+        "selfHealingPerSecond": 155,
+        "dpsIncrease": 38
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 5100,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damageOnDefeat": 2700,
+        "selfHealingPerSecond": 155,
+        "dpsIncrease": 40
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 5450,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damageOnDefeat": 2700,
+        "selfHealingPerSecond": 155,
+        "dpsIncrease": 42
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 5600,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damageOnDefeat": 3000,
+        "selfHealingPerSecond": 175,
+        "dpsIncrease": 45
+      }
+    }
+  ]
+}

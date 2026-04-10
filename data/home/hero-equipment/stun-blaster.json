@@ -1,0 +1,253 @@
+{
+  "id": "stun-blaster",
+  "name": "Stun Blaster",
+  "description": "Blasts a shockwave that stuns and damages nearby enemies and buildings.",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "dragon-duke",
+  "rarity": "Common",
+  "abilityType": "Active",
+  "unlockRequirement": ["Blacksmith level 9"],
+  "ability": {
+    "damageRadius": "8 tiles"
+  },
+  "images": {
+    "icon": "images/home/hero-equipment/stun-blaster/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 450,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 150,
+        "stunDuration": "4.5s",
+        "dpsIncrease": 40
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 650,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 150,
+        "stunDuration": "4.5s",
+        "dpsIncrease": 43
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 850,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 200,
+        "stunDuration": "5s",
+        "dpsIncrease": 46
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 1000,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 200,
+        "stunDuration": "5s",
+        "dpsIncrease": 49
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 1150,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 200,
+        "stunDuration": "5s",
+        "dpsIncrease": 52
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 1300,
+      "upgradeShinyOre": 940,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 250,
+        "stunDuration": "5.5s",
+        "dpsIncrease": 55
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 1450,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 250,
+        "stunDuration": "5.5s",
+        "dpsIncrease": 58
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 1600,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 250,
+        "stunDuration": "5.5s",
+        "dpsIncrease": 61
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 1750,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 300,
+        "stunDuration": "6s",
+        "dpsIncrease": 64
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 1900,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 300,
+        "stunDuration": "6s",
+        "dpsIncrease": 67
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 2000,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 300,
+        "stunDuration": "6s",
+        "dpsIncrease": 70
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 2100,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 350,
+        "stunDuration": "6.5s",
+        "dpsIncrease": 73
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 2200,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 350,
+        "stunDuration": "6.5s",
+        "dpsIncrease": 76
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 2275,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 350,
+        "stunDuration": "6.5s",
+        "dpsIncrease": 79
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 2325,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 375,
+        "stunDuration": "7s",
+        "dpsIncrease": 82
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 2375,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 375,
+        "stunDuration": "7s",
+        "dpsIncrease": 85
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 2400,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 375,
+        "stunDuration": "7s",
+        "dpsIncrease": 88
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 2400,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "abilityTotalDamage": 400,
+        "stunDuration": "7.5s",
+        "dpsIncrease": 90
+      }
+    }
+  ]
+}
