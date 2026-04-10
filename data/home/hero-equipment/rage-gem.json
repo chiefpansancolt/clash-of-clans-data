@@ -1,0 +1,232 @@
+{
+  "id": "rage-gem",
+  "name": "Rage Gem",
+  "description": "Nearby friendly units do extra damage",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "grand-warden",
+  "rarity": "Common",
+  "abilityType": "Passive",
+  "unlockRequirement": ["Blacksmith level 4"],
+  "images": {
+    "icon": "images/home/hero-equipment/rage-gem/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "15%",
+        "dpsIncrease": 12,
+        "attackSpeedIncrease": "+5%"
+      }
+    },
+    {
+      "level": 2,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "15%",
+        "dpsIncrease": 14,
+        "attackSpeedIncrease": "+6%"
+      }
+    },
+    {
+      "level": 3,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "20%",
+        "dpsIncrease": 16,
+        "attackSpeedIncrease": "+7%"
+      }
+    },
+    {
+      "level": 4,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "20%",
+        "dpsIncrease": 18,
+        "attackSpeedIncrease": "+8%"
+      }
+    },
+    {
+      "level": 5,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "20%",
+        "dpsIncrease": 20,
+        "attackSpeedIncrease": "+9%"
+      }
+    },
+    {
+      "level": 6,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "25%",
+        "dpsIncrease": 22,
+        "attackSpeedIncrease": "+10%"
+      }
+    },
+    {
+      "level": 7,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "25%",
+        "dpsIncrease": 24,
+        "attackSpeedIncrease": "+11%"
+      }
+    },
+    {
+      "level": 8,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "25%",
+        "dpsIncrease": 26,
+        "attackSpeedIncrease": "+12%"
+      }
+    },
+    {
+      "level": 9,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "30%",
+        "dpsIncrease": 30,
+        "attackSpeedIncrease": "+13%"
+      }
+    },
+    {
+      "level": 10,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "30%",
+        "dpsIncrease": 36,
+        "attackSpeedIncrease": "+14%"
+      }
+    },
+    {
+      "level": 11,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "30%",
+        "dpsIncrease": 43,
+        "attackSpeedIncrease": "+15%"
+      }
+    },
+    {
+      "level": 12,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 4,
+      "stats": {
+        "damageIncreasePercent": "35%",
+        "dpsIncrease": 49,
+        "attackSpeedIncrease": "+16%"
+      }
+    },
+    {
+      "level": 13,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damageIncreasePercent": "35%",
+        "dpsIncrease": 56,
+        "attackSpeedIncrease": "+17%"
+      }
+    },
+    {
+      "level": 14,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damageIncreasePercent": "35%",
+        "dpsIncrease": 62,
+        "attackSpeedIncrease": "+18%"
+      }
+    },
+    {
+      "level": 15,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damageIncreasePercent": "45%",
+        "dpsIncrease": 69,
+        "attackSpeedIncrease": "+19%"
+      }
+    },
+    {
+      "level": 16,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damageIncreasePercent": "45%",
+        "dpsIncrease": 75,
+        "attackSpeedIncrease": "+20%"
+      }
+    },
+    {
+      "level": 17,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damageIncreasePercent": "45%",
+        "dpsIncrease": 82,
+        "attackSpeedIncrease": "+21%"
+      }
+    },
+    {
+      "level": 18,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damageIncreasePercent": "50%",
+        "dpsIncrease": 88,
+        "attackSpeedIncrease": "+22%"
+      }
+    }
+  ]
+}

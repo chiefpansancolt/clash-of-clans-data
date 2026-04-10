@@ -1,0 +1,250 @@
+{
+  "id": "life-gem",
+  "name": "Life Gem",
+  "description": "Nearby friendly units gain extra hitpoints",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "grand-warden",
+  "rarity": "Common",
+  "abilityType": "Passive",
+  "unlockRequirement": ["Available by default"],
+  "images": {
+    "icon": "images/home/hero-equipment/life-gem/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 170,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 0,
+      "stats": {
+        "hpIncreasePercent": "50%",
+        "maxHpIncrease": 640,
+        "dpsIncrease": 11
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 184,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "hpIncreasePercent": "50%",
+        "maxHpIncrease": 640,
+        "dpsIncrease": 13
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 195,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "hpIncreasePercent": "60%",
+        "maxHpIncrease": 750,
+        "dpsIncrease": 16
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 205,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "hpIncreasePercent": "60%",
+        "maxHpIncrease": 750,
+        "dpsIncrease": 19
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 217,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "hpIncreasePercent": "60%",
+        "maxHpIncrease": 750,
+        "dpsIncrease": 21
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 230,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "hpIncreasePercent": "75%",
+        "maxHpIncrease": 830,
+        "dpsIncrease": 23
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 255,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "hpIncreasePercent": "75%",
+        "maxHpIncrease": 830,
+        "dpsIncrease": 25
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 282,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "hpIncreasePercent": "75%",
+        "maxHpIncrease": 830,
+        "dpsIncrease": 27
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 311,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "hpIncreasePercent": "90%",
+        "maxHpIncrease": 930,
+        "dpsIncrease": 32
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 344,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "hpIncreasePercent": "90%",
+        "maxHpIncrease": 930,
+        "dpsIncrease": 36
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 381,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "hpIncreasePercent": "90%",
+        "maxHpIncrease": 930,
+        "dpsIncrease": 43
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 398,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "hpIncreasePercent": "100%",
+        "maxHpIncrease": 1010,
+        "dpsIncrease": 47
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 415,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "hpIncreasePercent": "100%",
+        "maxHpIncrease": 1010,
+        "dpsIncrease": 53
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 432,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "hpIncreasePercent": "100%",
+        "maxHpIncrease": 1010,
+        "dpsIncrease": 57
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 449,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "hpIncreasePercent": "110%",
+        "maxHpIncrease": 1120,
+        "dpsIncrease": 61
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 466,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "hpIncreasePercent": "110%",
+        "maxHpIncrease": 1120,
+        "dpsIncrease": 66
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 483,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "hpIncreasePercent": "110%",
+        "maxHpIncrease": 1120,
+        "dpsIncrease": 70
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "hpIncreasePercent": "120%",
+        "maxHpIncrease": 1200,
+        "dpsIncrease": 75
+      }
+    }
+  ]
+}

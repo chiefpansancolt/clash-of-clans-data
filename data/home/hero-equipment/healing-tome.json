@@ -1,0 +1,250 @@
+{
+  "id": "healing-tome",
+  "name": "Healing Tome",
+  "description": "Heals the Grand Warden and all nearby friendly units",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "grand-warden",
+  "rarity": "Common",
+  "abilityType": "Active",
+  "unlockRequirement": ["Blacksmith level 6"],
+  "images": {
+    "icon": "images/home/hero-equipment/healing-tome/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 92,
+      "hpRecoveryIncrease": 165,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 60,
+        "abilityDuration": "15.0s"
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 107,
+      "hpRecoveryIncrease": 193,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 60,
+        "abilityDuration": "15.0s"
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 122,
+      "hpRecoveryIncrease": 220,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 70,
+        "abilityDuration": "16.0s"
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 137,
+      "hpRecoveryIncrease": 248,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 70,
+        "abilityDuration": "16.0s"
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 153,
+      "hpRecoveryIncrease": 275,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 70,
+        "abilityDuration": "16.0s"
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 168,
+      "hpRecoveryIncrease": 303,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 80,
+        "abilityDuration": "17.0s"
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 183,
+      "hpRecoveryIncrease": 330,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 80,
+        "abilityDuration": "17.0s"
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 198,
+      "hpRecoveryIncrease": 358,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 80,
+        "abilityDuration": "17.0s"
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 229,
+      "hpRecoveryIncrease": 413,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 100,
+        "abilityDuration": "18.0s"
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 280,
+      "hpRecoveryIncrease": 463,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 100,
+        "abilityDuration": "18.0s"
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 330,
+      "hpRecoveryIncrease": 513,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 100,
+        "abilityDuration": "18.0s"
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 381,
+      "hpRecoveryIncrease": 563,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 120,
+        "abilityDuration": "19.0s"
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 432,
+      "hpRecoveryIncrease": 613,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 120,
+        "abilityDuration": "19.0s"
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 482,
+      "hpRecoveryIncrease": 663,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 120,
+        "abilityDuration": "19.0s"
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 533,
+      "hpRecoveryIncrease": 713,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 6,
+      "stats": {
+        "healingPerSecond": 140,
+        "abilityDuration": "19.5s"
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 584,
+      "hpRecoveryIncrease": 763,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "healingPerSecond": 140,
+        "abilityDuration": "19.5s"
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 634,
+      "hpRecoveryIncrease": 813,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "healingPerSecond": 140,
+        "abilityDuration": "19.5s"
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 685,
+      "hpRecoveryIncrease": 863,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "healingPerSecond": 150,
+        "abilityDuration": "20.0s"
+      }
+    }
+  ]
+}

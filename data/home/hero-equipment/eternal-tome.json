@@ -1,0 +1,196 @@
+{
+  "id": "eternal-tome",
+  "name": "Eternal Tome",
+  "description": "Grand Warden and all nearby friendly units become immune to damage",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "grand-warden",
+  "rarity": "Common",
+  "abilityType": "Active",
+  "unlockRequirement": ["Available by default"],
+  "images": {
+    "icon": "images/home/hero-equipment/eternal-tome/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 0,
+      "stats": {
+        "abilityDuration": "3.2s"
+      }
+    },
+    {
+      "level": 2,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "abilityDuration": "3.5s"
+      }
+    },
+    {
+      "level": 3,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "abilityDuration": "4.2s"
+      }
+    },
+    {
+      "level": 4,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "abilityDuration": "4.5s"
+      }
+    },
+    {
+      "level": 5,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "abilityDuration": "4.7s"
+      }
+    },
+    {
+      "level": 6,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "abilityDuration": "5.5s"
+      }
+    },
+    {
+      "level": 7,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "abilityDuration": "5.7s"
+      }
+    },
+    {
+      "level": 8,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "abilityDuration": "6.0s"
+      }
+    },
+    {
+      "level": 9,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "abilityDuration": "6.7s"
+      }
+    },
+    {
+      "level": 10,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "6.8s"
+      }
+    },
+    {
+      "level": 11,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "6.9s"
+      }
+    },
+    {
+      "level": 12,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "7.2s"
+      }
+    },
+    {
+      "level": 13,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "abilityDuration": "7.3s"
+      }
+    },
+    {
+      "level": 14,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "abilityDuration": "7.4s"
+      }
+    },
+    {
+      "level": 15,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "abilityDuration": "7.7s"
+      }
+    },
+    {
+      "level": 16,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "abilityDuration": "7.8s"
+      }
+    },
+    {
+      "level": 17,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "abilityDuration": "7.9s"
+      }
+    },
+    {
+      "level": 18,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "abilityDuration": "8.2s"
+      }
+    }
+  ]
+}

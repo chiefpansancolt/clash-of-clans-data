@@ -1,0 +1,371 @@
+{
+  "id": "lavaloon-puppet",
+  "name": "Lavaloon Puppet",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "grand-warden",
+  "rarity": "Epic",
+  "abilityType": "Active",
+  "unlockRequirement": [
+    "Buy in Mashup Mania event for 3,100 Mashup Medals",
+    "Buy in Friend or Foe event for 3,100 Champ Medals",
+    "Buy in Meltdown Mayhem event for 3,100 Ember Medals",
+    "Purchasable from the Trader for 1,500 Gems"
+  ],
+  "images": {
+    "icon": "images/home/hero-equipment/lavaloon-puppet/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 50,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 1,
+        "dpsIncrease": 10
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 55,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 1,
+        "dpsIncrease": 12
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 57,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 2,
+        "dpsIncrease": 13
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 60,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 2,
+        "dpsIncrease": 15
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 65,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 2,
+        "dpsIncrease": 16
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 67,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 3,
+        "dpsIncrease": 18
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 70,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 3,
+        "dpsIncrease": 20
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 75,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 1,
+        "lavaloonLevel": 3,
+        "dpsIncrease": 22
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 77,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 10,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 4,
+        "dpsIncrease": 23
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 80,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 4,
+        "dpsIncrease": 25
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 85,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 4,
+        "dpsIncrease": 28
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 87,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 20,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 5,
+        "dpsIncrease": 30
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 90,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 5,
+        "dpsIncrease": 31
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 95,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 5,
+        "dpsIncrease": 33
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 97,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 30,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 6,
+        "dpsIncrease": 35
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 100,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 6,
+        "dpsIncrease": 37
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 105,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 6,
+        "dpsIncrease": 38
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 107,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 50,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 7,
+        "dpsIncrease": 40
+      }
+    },
+    {
+      "level": 19,
+      "hitpointIncrease": 110,
+      "upgradeShinyOre": 2800,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 7,
+        "dpsIncrease": 41
+      }
+    },
+    {
+      "level": 20,
+      "hitpointIncrease": 115,
+      "upgradeShinyOre": 2900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "summonedLavaloons": 2,
+        "lavaloonLevel": 7,
+        "dpsIncrease": 42
+      }
+    },
+    {
+      "level": 21,
+      "hitpointIncrease": 117,
+      "upgradeShinyOre": 3000,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 100,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 8,
+        "dpsIncrease": 43
+      }
+    },
+    {
+      "level": 22,
+      "hitpointIncrease": 120,
+      "upgradeShinyOre": 3100,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 8,
+        "dpsIncrease": 45
+      }
+    },
+    {
+      "level": 23,
+      "hitpointIncrease": 125,
+      "upgradeShinyOre": 3200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 9,
+        "dpsIncrease": 46
+      }
+    },
+    {
+      "level": 24,
+      "hitpointIncrease": 127,
+      "upgradeShinyOre": 3300,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 120,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 9,
+        "dpsIncrease": 47
+      }
+    },
+    {
+      "level": 25,
+      "hitpointIncrease": 130,
+      "upgradeShinyOre": 3400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 10,
+        "dpsIncrease": 48
+      }
+    },
+    {
+      "level": 26,
+      "hitpointIncrease": 135,
+      "upgradeShinyOre": 3500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 10,
+        "dpsIncrease": 49
+      }
+    },
+    {
+      "level": 27,
+      "hitpointIncrease": 150,
+      "upgradeShinyOre": 3600,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 150,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "summonedLavaloons": 3,
+        "lavaloonLevel": 11,
+        "dpsIncrease": 50
+      }
+    }
+  ]
+}

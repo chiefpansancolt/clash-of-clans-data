@@ -1,0 +1,347 @@
+{
+  "id": "fireball",
+  "name": "Fireball",
+  "description": "Throws a giant exploding fireball at the closest defense",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "grand-warden",
+  "rarity": "Epic",
+  "abilityType": "Active",
+  "unlockRequirement": [
+    "Buy in Super Dragon Spotlight event for 3,100 Super Medals",
+    "Buy in Toyshop Throwdown event for 3,100 Toy Medals",
+    "Buy in Cosmic Rock event for 3,100 Music Medals",
+    "Buy in Equipment Blast event for 3,100 Relic Medals",
+    "Buy in Wise Warriors event for 3,100 Grumpy Medals",
+    "Purchasable from the Trader for 1,500 Gems"
+  ],
+  "images": {
+    "icon": "images/home/hero-equipment/fireball/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "4 tiles",
+        "projectileDamage": 1500,
+        "dpsIncrease": 21
+      }
+    },
+    {
+      "level": 2,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "4 tiles",
+        "projectileDamage": 1500,
+        "dpsIncrease": 24
+      }
+    },
+    {
+      "level": 3,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "4 tiles",
+        "projectileDamage": 1700,
+        "dpsIncrease": 27
+      }
+    },
+    {
+      "level": 4,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "4 tiles",
+        "projectileDamage": 1700,
+        "dpsIncrease": 30
+      }
+    },
+    {
+      "level": 5,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "4 tiles",
+        "projectileDamage": 1800,
+        "dpsIncrease": 33
+      }
+    },
+    {
+      "level": 6,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "4 tiles",
+        "projectileDamage": 1950,
+        "dpsIncrease": 36
+      }
+    },
+    {
+      "level": 7,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "4 tiles",
+        "projectileDamage": 1950,
+        "dpsIncrease": 40
+      }
+    },
+    {
+      "level": 8,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "4 tiles",
+        "projectileDamage": 2050,
+        "dpsIncrease": 44
+      }
+    },
+    {
+      "level": 9,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 10,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 2200,
+        "dpsIncrease": 47
+      }
+    },
+    {
+      "level": 10,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 2200,
+        "dpsIncrease": 51
+      }
+    },
+    {
+      "level": 11,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 2350,
+        "dpsIncrease": 56
+      }
+    },
+    {
+      "level": 12,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 20,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 2650,
+        "dpsIncrease": 60
+      }
+    },
+    {
+      "level": 13,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 2650,
+        "dpsIncrease": 63
+      }
+    },
+    {
+      "level": 14,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 2750,
+        "dpsIncrease": 67
+      }
+    },
+    {
+      "level": 15,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 30,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 3100,
+        "dpsIncrease": 71
+      }
+    },
+    {
+      "level": 16,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 3100,
+        "dpsIncrease": 74
+      }
+    },
+    {
+      "level": 17,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 3250,
+        "dpsIncrease": 77
+      }
+    },
+    {
+      "level": 18,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 50,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 3400,
+        "dpsIncrease": 80
+      }
+    },
+    {
+      "level": 19,
+      "upgradeShinyOre": 2800,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 3400,
+        "dpsIncrease": 82
+      }
+    },
+    {
+      "level": 20,
+      "upgradeShinyOre": 2900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 3500,
+        "dpsIncrease": 84
+      }
+    },
+    {
+      "level": 21,
+      "upgradeShinyOre": 3000,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 100,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 3650,
+        "dpsIncrease": 87
+      }
+    },
+    {
+      "level": 22,
+      "upgradeShinyOre": 3100,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 3650,
+        "dpsIncrease": 89
+      }
+    },
+    {
+      "level": 23,
+      "upgradeShinyOre": 3200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "damageRadius": "5 tiles",
+        "projectileDamage": 3750,
+        "dpsIncrease": 92
+      }
+    },
+    {
+      "level": 24,
+      "upgradeShinyOre": 3300,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 120,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "damageRadius": "6 tiles",
+        "projectileDamage": 3900,
+        "dpsIncrease": 94
+      }
+    },
+    {
+      "level": 25,
+      "upgradeShinyOre": 3400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "damageRadius": "6 tiles",
+        "projectileDamage": 3900,
+        "dpsIncrease": 96
+      }
+    },
+    {
+      "level": 26,
+      "upgradeShinyOre": 3500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "damageRadius": "6 tiles",
+        "projectileDamage": 3950,
+        "dpsIncrease": 99
+      }
+    },
+    {
+      "level": 27,
+      "upgradeShinyOre": 3600,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 150,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "damageRadius": "6 tiles",
+        "projectileDamage": 4100,
+        "dpsIncrease": 101
+      }
+    }
+  ]
+}
