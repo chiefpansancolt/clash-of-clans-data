@@ -3,13 +3,19 @@ import { EquipmentRarity, HeroEquipment } from '@/types';
 import { actionFigureData } from './action-figure';
 import { archerPuppetData } from './archer-puppet';
 import { barbarianPuppetData } from './barbarian-puppet';
+import { darkCrownData } from './dark-crown';
+import { darkOrbData } from './dark-orb';
 import { earthquakeBootsData } from './earthquake-boots';
 import { frozenArrowData } from './frozen-arrow';
 import { giantArrowData } from './giant-arrow';
 import { giantGauntletData } from './giant-gauntlet';
 import { healerPuppetData } from './healer-puppet';
+import { henchmenPuppetData } from './henchmen-puppet';
 import { invisibilityVialData } from './invisibility-vial';
 import { magicMirrorData } from './magic-mirror';
+import { metalPantsData } from './metal-pants';
+import { meteorStaffData } from './meteor-staff';
+import { nobleIronData } from './noble-iron';
 import { rageVialData } from './rage-vial';
 import { snakeBraceletData } from './snake-bracelet';
 import { spikyBallData } from './spiky-ball';
@@ -32,6 +38,12 @@ const allHeroEquipment: HeroEquipment[] = [
   frozenArrowData,
   magicMirrorData,
   actionFigureData,
+  henchmenPuppetData,
+  darkOrbData,
+  metalPantsData,
+  nobleIronData,
+  darkCrownData,
+  meteorStaffData,
 ];
 
 /**
@@ -101,6 +113,30 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
 
   actionFigure(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([actionFigureData]);
+  }
+
+  henchmenPuppet(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([henchmenPuppetData]);
+  }
+
+  darkOrb(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([darkOrbData]);
+  }
+
+  metalPants(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([metalPantsData]);
+  }
+
+  nobleIron(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([nobleIronData]);
+  }
+
+  darkCrown(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([darkCrownData]);
+  }
+
+  meteorStaff(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([meteorStaffData]);
   }
 
   /** Filter to equipment belonging to the given hero (by hero ID, e.g. `'barbarian-king'`). */

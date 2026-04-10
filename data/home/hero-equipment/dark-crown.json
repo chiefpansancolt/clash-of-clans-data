@@ -1,0 +1,372 @@
+{
+  "id": "dark-crown",
+  "name": "Dark Crown",
+  "description": "Boosts health and damage a total of 3 times when allies are defeated",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "minion-prince",
+  "rarity": "Epic",
+  "abilityType": "Passive",
+  "unlockRequirement": [
+    "Buy in Dark Deal event for 3,100 Mischief Medals",
+    "Buy in Meltdown Mayhem event for 3,100 Ember Medals",
+    "Buy in Equipment Blast event for 3,100 Relic Medals",
+    "Purchasable from the Trader for 1,500 Gems"
+  ],
+  "images": {
+    "icon": "images/home/hero-equipment/dark-crown/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 550,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 3,
+        "maxDamageIncrease": 3,
+        "attackSpeedIncrease": 1
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 575,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 3,
+        "maxDamageIncrease": 3,
+        "attackSpeedIncrease": 2
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 600,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 6,
+        "maxDamageIncrease": 6,
+        "attackSpeedIncrease": 2
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 625,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 6,
+        "maxDamageIncrease": 6,
+        "attackSpeedIncrease": 3
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 650,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 6,
+        "maxDamageIncrease": 6,
+        "attackSpeedIncrease": 3
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 675,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 9,
+        "maxDamageIncrease": 9,
+        "attackSpeedIncrease": 3
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 700,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 9,
+        "maxDamageIncrease": 9,
+        "attackSpeedIncrease": 4
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 725,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 9,
+        "maxDamageIncrease": 9,
+        "attackSpeedIncrease": 4
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 750,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 10,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 12,
+        "maxDamageIncrease": 12,
+        "attackSpeedIncrease": 4
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 775,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 12,
+        "maxDamageIncrease": 12,
+        "attackSpeedIncrease": 5
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 800,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 12,
+        "maxDamageIncrease": 12,
+        "attackSpeedIncrease": 5
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 825,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 20,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "maxHealthIncrease": 15,
+        "maxDamageIncrease": 15,
+        "attackSpeedIncrease": 5
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 850,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "maxHealthIncrease": 15,
+        "maxDamageIncrease": 15,
+        "attackSpeedIncrease": 6
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 875,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "maxHealthIncrease": 15,
+        "maxDamageIncrease": 15,
+        "attackSpeedIncrease": 6
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 900,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 30,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "maxHealthIncrease": 18,
+        "maxDamageIncrease": 18,
+        "attackSpeedIncrease": 6
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 925,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "maxHealthIncrease": 18,
+        "maxDamageIncrease": 18,
+        "attackSpeedIncrease": 7
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 950,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "maxHealthIncrease": 18,
+        "maxDamageIncrease": 18,
+        "attackSpeedIncrease": 7
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 975,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 50,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "maxHealthIncrease": 21,
+        "maxDamageIncrease": 21,
+        "attackSpeedIncrease": 7
+      }
+    },
+    {
+      "level": 19,
+      "hitpointIncrease": 1000,
+      "upgradeShinyOre": 2800,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "maxHealthIncrease": 21,
+        "maxDamageIncrease": 21,
+        "attackSpeedIncrease": 8
+      }
+    },
+    {
+      "level": 20,
+      "hitpointIncrease": 1025,
+      "upgradeShinyOre": 2900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "maxHealthIncrease": 21,
+        "maxDamageIncrease": 21,
+        "attackSpeedIncrease": 8
+      }
+    },
+    {
+      "level": 21,
+      "hitpointIncrease": 1050,
+      "upgradeShinyOre": 3000,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 100,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "maxHealthIncrease": 24,
+        "maxDamageIncrease": 24,
+        "attackSpeedIncrease": 8
+      }
+    },
+    {
+      "level": 22,
+      "hitpointIncrease": 1075,
+      "upgradeShinyOre": 3100,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "maxHealthIncrease": 24,
+        "maxDamageIncrease": 24,
+        "attackSpeedIncrease": 9
+      }
+    },
+    {
+      "level": 23,
+      "hitpointIncrease": 1100,
+      "upgradeShinyOre": 3200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "maxHealthIncrease": 24,
+        "maxDamageIncrease": 24,
+        "attackSpeedIncrease": 9
+      }
+    },
+    {
+      "level": 24,
+      "hitpointIncrease": 1125,
+      "upgradeShinyOre": 3300,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 120,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "maxHealthIncrease": 27,
+        "maxDamageIncrease": 27,
+        "attackSpeedIncrease": 9
+      }
+    },
+    {
+      "level": 25,
+      "hitpointIncrease": 1150,
+      "upgradeShinyOre": 3400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "maxHealthIncrease": 27,
+        "maxDamageIncrease": 27,
+        "attackSpeedIncrease": 10
+      }
+    },
+    {
+      "level": 26,
+      "hitpointIncrease": 1175,
+      "upgradeShinyOre": 3500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "maxHealthIncrease": 27,
+        "maxDamageIncrease": 27,
+        "attackSpeedIncrease": 10
+      }
+    },
+    {
+      "level": 27,
+      "hitpointIncrease": 1200,
+      "upgradeShinyOre": 3600,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 150,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "maxHealthIncrease": 30,
+        "maxDamageIncrease": 30,
+        "attackSpeedIncrease": 11
+      }
+    }
+  ]
+}

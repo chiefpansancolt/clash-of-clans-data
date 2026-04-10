@@ -1,0 +1,250 @@
+{
+  "id": "metal-pants",
+  "name": "Metal Pants",
+  "description": "Creates a protective barrier that blocks almost all damage temporarily",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "minion-prince",
+  "rarity": "Common",
+  "abilityType": "Active",
+  "unlockRequirement": ["Blacksmith level 3"],
+  "images": {
+    "icon": "images/home/hero-equipment/metal-pants/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 850,
+      "hpRecoveryIncrease": 1600,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "9s",
+        "incomingDamageReduction": 46
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 900,
+      "hpRecoveryIncrease": 1675,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "9s",
+        "incomingDamageReduction": 46
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 950,
+      "hpRecoveryIncrease": 1750,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "10s",
+        "incomingDamageReduction": 50
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 1000,
+      "hpRecoveryIncrease": 1800,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "10s",
+        "incomingDamageReduction": 50
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 1050,
+      "hpRecoveryIncrease": 1850,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "10s",
+        "incomingDamageReduction": 50
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 1100,
+      "hpRecoveryIncrease": 1900,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "11s",
+        "incomingDamageReduction": 54
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 1150,
+      "hpRecoveryIncrease": 1950,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "11s",
+        "incomingDamageReduction": 54
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 1200,
+      "hpRecoveryIncrease": 2000,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "11s",
+        "incomingDamageReduction": 54
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 1250,
+      "hpRecoveryIncrease": 2050,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "12s",
+        "incomingDamageReduction": 58
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 1300,
+      "hpRecoveryIncrease": 2100,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "12s",
+        "incomingDamageReduction": 58
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 1350,
+      "hpRecoveryIncrease": 2150,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "12s",
+        "incomingDamageReduction": 58
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 1400,
+      "hpRecoveryIncrease": 2200,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "abilityDuration": "13s",
+        "incomingDamageReduction": 62
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 1450,
+      "hpRecoveryIncrease": 2250,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "abilityDuration": "13s",
+        "incomingDamageReduction": 62
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 1500,
+      "hpRecoveryIncrease": 2300,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "abilityDuration": "13s",
+        "incomingDamageReduction": 62
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 1550,
+      "hpRecoveryIncrease": 2350,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "abilityDuration": "14s",
+        "incomingDamageReduction": 66
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 1600,
+      "hpRecoveryIncrease": 2400,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "abilityDuration": "14s",
+        "incomingDamageReduction": 66
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 1650,
+      "hpRecoveryIncrease": 2450,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "abilityDuration": "14s",
+        "incomingDamageReduction": 66
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 1700,
+      "hpRecoveryIncrease": 2500,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "abilityDuration": "15s",
+        "incomingDamageReduction": 70
+      }
+    }
+  ]
+}

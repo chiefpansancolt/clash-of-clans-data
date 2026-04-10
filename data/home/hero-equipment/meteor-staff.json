@@ -1,0 +1,371 @@
+{
+  "id": "meteor-staff",
+  "name": "Meteor Staff",
+  "description": "Summons mysterious meteors that repeatedly strike the nearest Defense",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "minion-prince",
+  "rarity": "Epic",
+  "abilityType": "Passive",
+  "unlockRequirement": [
+    "Buy in Cosmic Rock event for 3,100 Music Medals",
+    "Buy in Wise Warriors event for 3,100 Grumpy Medals",
+    "Purchasable from the Trader for 1,500 Gems"
+  ],
+  "images": {
+    "icon": "images/home/hero-equipment/meteor-staff/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 558,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "10s",
+        "damagePerHit": 250,
+        "dpsIncrease": 13
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 587,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "10s",
+        "damagePerHit": 250,
+        "dpsIncrease": 17
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 615,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "9.5s",
+        "damagePerHit": 300,
+        "dpsIncrease": 21
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 644,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "9.5s",
+        "damagePerHit": 300,
+        "dpsIncrease": 25
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 673,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "9.5s",
+        "damagePerHit": 300,
+        "dpsIncrease": 29
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 702,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "9s",
+        "damagePerHit": 350,
+        "dpsIncrease": 33
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 730,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "9s",
+        "damagePerHit": 350,
+        "dpsIncrease": 37
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 759,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "9s",
+        "damagePerHit": 350,
+        "dpsIncrease": 41
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 788,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 10,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "8.5s",
+        "damagePerHit": 400,
+        "dpsIncrease": 45
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 817,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "8.5s",
+        "damagePerHit": 400,
+        "dpsIncrease": 49
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 845,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "8.5s",
+        "damagePerHit": 400,
+        "dpsIncrease": 53
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 874,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 20,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "cooldownTime": "8s",
+        "damagePerHit": 450,
+        "dpsIncrease": 57
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 903,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "cooldownTime": "8s",
+        "damagePerHit": 450,
+        "dpsIncrease": 61
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 932,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "cooldownTime": "8s",
+        "damagePerHit": 450,
+        "dpsIncrease": 65
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 960,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 30,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "cooldownTime": "7.5s",
+        "damagePerHit": 500,
+        "dpsIncrease": 69
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 989,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "cooldownTime": "7.5s",
+        "damagePerHit": 500,
+        "dpsIncrease": 73
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 1018,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "cooldownTime": "7.5s",
+        "damagePerHit": 500,
+        "dpsIncrease": 77
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 1047,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 50,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "cooldownTime": "7s",
+        "damagePerHit": 575,
+        "dpsIncrease": 81
+      }
+    },
+    {
+      "level": 19,
+      "hitpointIncrease": 1107,
+      "upgradeShinyOre": 2800,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "cooldownTime": "7s",
+        "damagePerHit": 575,
+        "dpsIncrease": 85
+      }
+    },
+    {
+      "level": 20,
+      "hitpointIncrease": 1139,
+      "upgradeShinyOre": 2900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "cooldownTime": "7s",
+        "damagePerHit": 575,
+        "dpsIncrease": 90
+      }
+    },
+    {
+      "level": 21,
+      "hitpointIncrease": 1171,
+      "upgradeShinyOre": 3000,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 100,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "cooldownTime": "6.5s",
+        "damagePerHit": 650,
+        "dpsIncrease": 95
+      }
+    },
+    {
+      "level": 22,
+      "hitpointIncrease": 1205,
+      "upgradeShinyOre": 3100,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "cooldownTime": "6.5s",
+        "damagePerHit": 650,
+        "dpsIncrease": 100
+      }
+    },
+    {
+      "level": 23,
+      "hitpointIncrease": 1239,
+      "upgradeShinyOre": 3200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "cooldownTime": "6.5s",
+        "damagePerHit": 650,
+        "dpsIncrease": 105
+      }
+    },
+    {
+      "level": 24,
+      "hitpointIncrease": 1273,
+      "upgradeShinyOre": 3300,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 120,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "cooldownTime": "6s",
+        "damagePerHit": 750,
+        "dpsIncrease": 110
+      }
+    },
+    {
+      "level": 25,
+      "hitpointIncrease": 1309,
+      "upgradeShinyOre": 3400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "cooldownTime": "6s",
+        "damagePerHit": 750,
+        "dpsIncrease": 115
+      }
+    },
+    {
+      "level": 26,
+      "hitpointIncrease": 1345,
+      "upgradeShinyOre": 3500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "cooldownTime": "6s",
+        "damagePerHit": 750,
+        "dpsIncrease": 120
+      }
+    },
+    {
+      "level": 27,
+      "hitpointIncrease": 1381,
+      "upgradeShinyOre": 3600,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 150,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "cooldownTime": "5s",
+        "damagePerHit": 850,
+        "dpsIncrease": 125
+      }
+    }
+  ]
+}

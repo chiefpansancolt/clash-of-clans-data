@@ -1,0 +1,268 @@
+{
+  "id": "noble-iron",
+  "name": "Noble Iron",
+  "description": "Increases the speed, range, and power of the Minion Prince's first few attacks",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "minion-prince",
+  "rarity": "Common",
+  "abilityType": "Passive",
+  "unlockRequirement": ["Blacksmith level 5"],
+  "images": {
+    "icon": "images/home/hero-equipment/noble-iron/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 350,
+        "attackRange": 10,
+        "numberOfAttacks": 5,
+        "attackSpeedIncrease": 6
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 350,
+        "attackRange": 10,
+        "numberOfAttacks": 5,
+        "attackSpeedIncrease": 7
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 420,
+        "attackRange": 10.5,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 7
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 420,
+        "attackRange": 10.5,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 8
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 420,
+        "attackRange": 10.5,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 9
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 490,
+        "attackRange": 11,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 9
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 490,
+        "attackRange": 11,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 10
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 490,
+        "attackRange": 11,
+        "numberOfAttacks": 6,
+        "attackSpeedIncrease": 11
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 560,
+        "attackRange": 11,
+        "numberOfAttacks": 7,
+        "attackSpeedIncrease": 11
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 560,
+        "attackRange": 11,
+        "numberOfAttacks": 7,
+        "attackSpeedIncrease": 12
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 560,
+        "attackRange": 11,
+        "numberOfAttacks": 7,
+        "attackSpeedIncrease": 13
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 630,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 13
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 630,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 14
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 630,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 15
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 700,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 15
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damagePerShotIncrease": 700,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 16
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damagePerShotIncrease": 700,
+        "attackRange": 11.5,
+        "numberOfAttacks": 8,
+        "attackSpeedIncrease": 17
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damagePerShotIncrease": 770,
+        "attackRange": 12,
+        "numberOfAttacks": 10,
+        "attackSpeedIncrease": 18
+      }
+    }
+  ]
+}
