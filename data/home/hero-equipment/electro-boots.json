@@ -1,0 +1,377 @@
+{
+  "id": "electro-boots",
+  "name": "Electro Boots",
+  "description": "Periodically damages everything around the Royal Champion",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "royal-champion",
+  "rarity": "Epic",
+  "abilityType": "Passive",
+  "unlockRequirement": [
+    "Buy in Toyshop Throwdown event for 3,100 Toy Medals",
+    "Buy in Friend or Foe event for 3,100 Champ Medals",
+    "Buy in Cosmic Rock event for 3,100 Music Medals",
+    "Buy in Equipment Blast event for 3,100 Relic Medals",
+    "Purchasable from the Trader for 1,500 Gems"
+  ],
+  "ability": {
+    "auraAttackSpeed": "0.4s",
+    "auraRadius": "5 tiles"
+  },
+  "images": {
+    "icon": "images/home/hero-equipment/electro-boots/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 50,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 132,
+        "auraDamagePerHit": 52.8,
+        "selfHealingPerSecond": 6
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 75,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 132,
+        "auraDamagePerHit": 52.8,
+        "selfHealingPerSecond": 8
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 100,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 140,
+        "auraDamagePerHit": 56,
+        "selfHealingPerSecond": 10
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 125,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 140,
+        "auraDamagePerHit": 56,
+        "selfHealingPerSecond": 12
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 150,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 140,
+        "auraDamagePerHit": 56,
+        "selfHealingPerSecond": 14
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 175,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 147,
+        "auraDamagePerHit": 58.8,
+        "selfHealingPerSecond": 16
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 200,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 147,
+        "auraDamagePerHit": 58.8,
+        "selfHealingPerSecond": 18
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 225,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 147,
+        "auraDamagePerHit": 58.8,
+        "selfHealingPerSecond": 20
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 250,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 10,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 155,
+        "auraDamagePerHit": 62,
+        "selfHealingPerSecond": 22
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 275,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 155,
+        "auraDamagePerHit": 62,
+        "selfHealingPerSecond": 24
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 300,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 155,
+        "auraDamagePerHit": 62,
+        "selfHealingPerSecond": 26
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 325,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 20,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "auraDps": 162,
+        "auraDamagePerHit": 64.8,
+        "selfHealingPerSecond": 28
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 350,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "auraDps": 162,
+        "auraDamagePerHit": 64.8,
+        "selfHealingPerSecond": 30
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 375,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "auraDps": 162,
+        "auraDamagePerHit": 64.8,
+        "selfHealingPerSecond": 32
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 400,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 30,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "auraDps": 170,
+        "auraDamagePerHit": 68,
+        "selfHealingPerSecond": 33
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 425,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "auraDps": 170,
+        "auraDamagePerHit": 68,
+        "selfHealingPerSecond": 34
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 450,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "auraDps": 170,
+        "auraDamagePerHit": 68,
+        "selfHealingPerSecond": 35
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 475,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 50,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "auraDps": 177,
+        "auraDamagePerHit": 70.8,
+        "selfHealingPerSecond": 36
+      }
+    },
+    {
+      "level": 19,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2800,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "auraDps": 177,
+        "auraDamagePerHit": 70.8,
+        "selfHealingPerSecond": 37
+      }
+    },
+    {
+      "level": 20,
+      "hitpointIncrease": 525,
+      "upgradeShinyOre": 2900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "auraDps": 177,
+        "auraDamagePerHit": 70.8,
+        "selfHealingPerSecond": 38
+      }
+    },
+    {
+      "level": 21,
+      "hitpointIncrease": 550,
+      "upgradeShinyOre": 3000,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 100,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "auraDps": 185,
+        "auraDamagePerHit": 74,
+        "selfHealingPerSecond": 39
+      }
+    },
+    {
+      "level": 22,
+      "hitpointIncrease": 575,
+      "upgradeShinyOre": 3100,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "auraDps": 185,
+        "auraDamagePerHit": 74,
+        "selfHealingPerSecond": 40
+      }
+    },
+    {
+      "level": 23,
+      "hitpointIncrease": 600,
+      "upgradeShinyOre": 3200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "auraDps": 185,
+        "auraDamagePerHit": 74,
+        "selfHealingPerSecond": 41
+      }
+    },
+    {
+      "level": 24,
+      "hitpointIncrease": 625,
+      "upgradeShinyOre": 3300,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 120,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "auraDps": 192,
+        "auraDamagePerHit": 76.8,
+        "selfHealingPerSecond": 42
+      }
+    },
+    {
+      "level": 25,
+      "hitpointIncrease": 650,
+      "upgradeShinyOre": 3400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "auraDps": 192,
+        "auraDamagePerHit": 76.8,
+        "selfHealingPerSecond": 43
+      }
+    },
+    {
+      "level": 26,
+      "hitpointIncrease": 675,
+      "upgradeShinyOre": 3500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "auraDps": 192,
+        "auraDamagePerHit": 76.8,
+        "selfHealingPerSecond": 44
+      }
+    },
+    {
+      "level": 27,
+      "hitpointIncrease": 700,
+      "upgradeShinyOre": 3600,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 150,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "auraDps": 200,
+        "auraDamagePerHit": 80,
+        "selfHealingPerSecond": 45
+      }
+    }
+  ]
+}

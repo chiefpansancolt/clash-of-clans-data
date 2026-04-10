@@ -6,17 +6,31 @@ import { barbarianPuppetData } from './barbarian-puppet';
 import { darkCrownData } from './dark-crown';
 import { darkOrbData } from './dark-orb';
 import { earthquakeBootsData } from './earthquake-boots';
+import { electroBootsData } from './electro-boots';
+import { eternalTomeData } from './eternal-tome';
+import { fireballData } from './fireball';
+import { frostFlakeData } from './frost-flake';
 import { frozenArrowData } from './frozen-arrow';
 import { giantArrowData } from './giant-arrow';
 import { giantGauntletData } from './giant-gauntlet';
+import { hasteVialData } from './haste-vial';
 import { healerPuppetData } from './healer-puppet';
+import { healingTomeData } from './healing-tome';
 import { henchmenPuppetData } from './henchmen-puppet';
+import { heroicTorchData } from './heroic-torch';
+import { hogRiderPuppetData } from './hog-rider-puppet';
 import { invisibilityVialData } from './invisibility-vial';
+import { lavaloonPuppetData } from './lavaloon-puppet';
+import { lifeGemData } from './life-gem';
 import { magicMirrorData } from './magic-mirror';
 import { metalPantsData } from './metal-pants';
 import { meteorStaffData } from './meteor-staff';
 import { nobleIronData } from './noble-iron';
+import { rageGemData } from './rage-gem';
 import { rageVialData } from './rage-vial';
+import { rocketSpearData } from './rocket-spear';
+import { royalGemData } from './royal-gem';
+import { seekingShieldData } from './seeking-shield';
 import { snakeBraceletData } from './snake-bracelet';
 import { spikyBallData } from './spiky-ball';
 import { stickHorseData } from './stick-horse';
@@ -44,6 +58,20 @@ const allHeroEquipment: HeroEquipment[] = [
   nobleIronData,
   darkCrownData,
   meteorStaffData,
+  eternalTomeData,
+  lifeGemData,
+  rageGemData,
+  healingTomeData,
+  fireballData,
+  lavaloonPuppetData,
+  heroicTorchData,
+  royalGemData,
+  seekingShieldData,
+  hogRiderPuppetData,
+  hasteVialData,
+  electroBootsData,
+  frostFlakeData,
+  rocketSpearData,
 ];
 
 /**
@@ -69,6 +97,10 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
 
   rageVial(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([rageVialData]);
+  }
+
+  electroBoots(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([electroBootsData]);
   }
 
   earthquakeBoots(): HomeVillageHeroEquipment {
@@ -101,6 +133,10 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
 
   healerPuppet(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([healerPuppetData]);
+  }
+
+  frostFlake(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([frostFlakeData]);
   }
 
   frozenArrow(): HomeVillageHeroEquipment {
@@ -137,6 +173,54 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
 
   meteorStaff(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([meteorStaffData]);
+  }
+
+  eternalTome(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([eternalTomeData]);
+  }
+
+  lifeGem(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([lifeGemData]);
+  }
+
+  rageGem(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([rageGemData]);
+  }
+
+  healingTome(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([healingTomeData]);
+  }
+
+  fireball(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([fireballData]);
+  }
+
+  lavaloonPuppet(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([lavaloonPuppetData]);
+  }
+
+  heroicTorch(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([heroicTorchData]);
+  }
+
+  royalGem(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([royalGemData]);
+  }
+
+  seekingShield(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([seekingShieldData]);
+  }
+
+  hogRiderPuppet(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([hogRiderPuppetData]);
+  }
+
+  hasteVial(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([hasteVialData]);
+  }
+
+  rocketSpear(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([rocketSpearData]);
   }
 
   /** Filter to equipment belonging to the given hero (by hero ID, e.g. `'barbarian-king'`). */

@@ -1,0 +1,377 @@
+{
+  "id": "rocket-spear",
+  "name": "Rocket Spear",
+  "description": "Her next few spear throws are stronger and longer-ranged",
+  "base": "home",
+  "category": "hero-equipment",
+  "hero": "royal-champion",
+  "rarity": "Epic",
+  "abilityType": "Active",
+  "unlockRequirement": [
+    "Buy in Super Wall Breaker Spotlight event for 3,100 Super Medals",
+    "Buy in Snake Festival event for 3,100 Snake Medals",
+    "Buy in Equipment Blast event for 3,100 Relic Medals",
+    "Buy in Wise Warriors event for 3,100 Grumpy Medals",
+    "Purchasable from the Trader for 1,500 Gems"
+  ],
+  "ability": {
+    "attackRange": "10 tiles",
+    "areaDamageRadius": "0.8 tiles"
+  },
+  "images": {
+    "icon": "images/home/hero-equipment/rocket-spear/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpointIncrease": 50,
+      "upgradeShinyOre": 0,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 350,
+        "numberOfAttacks": 7,
+        "dpsIncrease": 35
+      }
+    },
+    {
+      "level": 2,
+      "hitpointIncrease": 75,
+      "upgradeShinyOre": 120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 350,
+        "numberOfAttacks": 7,
+        "dpsIncrease": 40
+      }
+    },
+    {
+      "level": 3,
+      "hitpointIncrease": 100,
+      "upgradeShinyOre": 240,
+      "upgradeGlowingOre": 20,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 420,
+        "numberOfAttacks": 7,
+        "dpsIncrease": 45
+      }
+    },
+    {
+      "level": 4,
+      "hitpointIncrease": 125,
+      "upgradeShinyOre": 400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 420,
+        "numberOfAttacks": 7,
+        "dpsIncrease": 50
+      }
+    },
+    {
+      "level": 5,
+      "hitpointIncrease": 150,
+      "upgradeShinyOre": 600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 420,
+        "numberOfAttacks": 7,
+        "dpsIncrease": 55
+      }
+    },
+    {
+      "level": 6,
+      "hitpointIncrease": 175,
+      "upgradeShinyOre": 840,
+      "upgradeGlowingOre": 100,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 490,
+        "numberOfAttacks": 7,
+        "dpsIncrease": 60
+      }
+    },
+    {
+      "level": 7,
+      "hitpointIncrease": 200,
+      "upgradeShinyOre": 1120,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 490,
+        "numberOfAttacks": 7,
+        "dpsIncrease": 66
+      }
+    },
+    {
+      "level": 8,
+      "hitpointIncrease": 225,
+      "upgradeShinyOre": 1440,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 490,
+        "numberOfAttacks": 7,
+        "dpsIncrease": 72
+      }
+    },
+    {
+      "level": 9,
+      "hitpointIncrease": 250,
+      "upgradeShinyOre": 1800,
+      "upgradeGlowingOre": 200,
+      "upgradeStarryOre": 10,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 560,
+        "numberOfAttacks": 8,
+        "dpsIncrease": 78
+      }
+    },
+    {
+      "level": 10,
+      "hitpointIncrease": 275,
+      "upgradeShinyOre": 1900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 560,
+        "numberOfAttacks": 8,
+        "dpsIncrease": 85
+      }
+    },
+    {
+      "level": 11,
+      "hitpointIncrease": 300,
+      "upgradeShinyOre": 2000,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 560,
+        "numberOfAttacks": 8,
+        "dpsIncrease": 92
+      }
+    },
+    {
+      "level": 12,
+      "hitpointIncrease": 325,
+      "upgradeShinyOre": 2100,
+      "upgradeGlowingOre": 400,
+      "upgradeStarryOre": 20,
+      "blacksmithLevelRequired": 1,
+      "stats": {
+        "damagePerShotIncrease": 630,
+        "numberOfAttacks": 8,
+        "dpsIncrease": 99
+      }
+    },
+    {
+      "level": 13,
+      "hitpointIncrease": 350,
+      "upgradeShinyOre": 2200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "damagePerShotIncrease": 630,
+        "numberOfAttacks": 8,
+        "dpsIncrease": 105
+      }
+    },
+    {
+      "level": 14,
+      "hitpointIncrease": 375,
+      "upgradeShinyOre": 2300,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "damagePerShotIncrease": 630,
+        "numberOfAttacks": 8,
+        "dpsIncrease": 111
+      }
+    },
+    {
+      "level": 15,
+      "hitpointIncrease": 400,
+      "upgradeShinyOre": 2400,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 30,
+      "blacksmithLevelRequired": 3,
+      "stats": {
+        "damagePerShotIncrease": 700,
+        "numberOfAttacks": 8,
+        "dpsIncrease": 117
+      }
+    },
+    {
+      "level": 16,
+      "hitpointIncrease": 425,
+      "upgradeShinyOre": 2500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 700,
+        "numberOfAttacks": 8,
+        "dpsIncrease": 122
+      }
+    },
+    {
+      "level": 17,
+      "hitpointIncrease": 450,
+      "upgradeShinyOre": 2600,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 700,
+        "numberOfAttacks": 8,
+        "dpsIncrease": 127
+      }
+    },
+    {
+      "level": 18,
+      "hitpointIncrease": 475,
+      "upgradeShinyOre": 2700,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 50,
+      "blacksmithLevelRequired": 5,
+      "stats": {
+        "damagePerShotIncrease": 770,
+        "numberOfAttacks": 9,
+        "dpsIncrease": 132
+      }
+    },
+    {
+      "level": 19,
+      "hitpointIncrease": 500,
+      "upgradeShinyOre": 2800,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damagePerShotIncrease": 770,
+        "numberOfAttacks": 9,
+        "dpsIncrease": 136
+      }
+    },
+    {
+      "level": 20,
+      "hitpointIncrease": 525,
+      "upgradeShinyOre": 2900,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damagePerShotIncrease": 770,
+        "numberOfAttacks": 9,
+        "dpsIncrease": 140
+      }
+    },
+    {
+      "level": 21,
+      "hitpointIncrease": 550,
+      "upgradeShinyOre": 3000,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 100,
+      "blacksmithLevelRequired": 7,
+      "stats": {
+        "damagePerShotIncrease": 840,
+        "numberOfAttacks": 9,
+        "dpsIncrease": 144
+      }
+    },
+    {
+      "level": 22,
+      "hitpointIncrease": 575,
+      "upgradeShinyOre": 3100,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "damagePerShotIncrease": 840,
+        "numberOfAttacks": 9,
+        "dpsIncrease": 148
+      }
+    },
+    {
+      "level": 23,
+      "hitpointIncrease": 600,
+      "upgradeShinyOre": 3200,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "damagePerShotIncrease": 840,
+        "numberOfAttacks": 9,
+        "dpsIncrease": 152
+      }
+    },
+    {
+      "level": 24,
+      "hitpointIncrease": 625,
+      "upgradeShinyOre": 3300,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 120,
+      "blacksmithLevelRequired": 8,
+      "stats": {
+        "damagePerShotIncrease": 910,
+        "numberOfAttacks": 9,
+        "dpsIncrease": 156
+      }
+    },
+    {
+      "level": 25,
+      "hitpointIncrease": 650,
+      "upgradeShinyOre": 3400,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "damagePerShotIncrease": 910,
+        "numberOfAttacks": 9,
+        "dpsIncrease": 160
+      }
+    },
+    {
+      "level": 26,
+      "hitpointIncrease": 675,
+      "upgradeShinyOre": 3500,
+      "upgradeGlowingOre": 0,
+      "upgradeStarryOre": 0,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "damagePerShotIncrease": 910,
+        "numberOfAttacks": 9,
+        "dpsIncrease": 164
+      }
+    },
+    {
+      "level": 27,
+      "hitpointIncrease": 700,
+      "upgradeShinyOre": 3600,
+      "upgradeGlowingOre": 600,
+      "upgradeStarryOre": 150,
+      "blacksmithLevelRequired": 9,
+      "stats": {
+        "damagePerShotIncrease": 980,
+        "numberOfAttacks": 10,
+        "dpsIncrease": 168
+      }
+    }
+  ]
+}
