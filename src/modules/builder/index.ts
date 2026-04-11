@@ -1,4 +1,5 @@
 import { BuilderBaseArmyBuildings } from './army-buildings';
+import { BuilderBaseBuilderHall } from './builder-hall';
 import { BuilderBaseDefenses } from './defenses';
 import { BuilderBaseHeroes } from './heroes';
 import { BuilderBaseOtherBuildings } from './other';
@@ -8,6 +9,7 @@ import { BuilderBaseTroops } from './troops';
 import { BuilderBaseWalls } from './walls';
 
 export { BuilderBaseArmyBuildings } from './army-buildings';
+export { BuilderBaseBuilderHall } from './builder-hall';
 export { BuilderBaseDefenses } from './defenses';
 export { BuilderBaseHeroes } from './heroes';
 export { BuilderBaseOtherBuildings } from './other';
@@ -18,6 +20,11 @@ export { BuilderBaseWalls } from './walls';
 
 /** Namespace for all Builder Base entity queries. Use the {@link builder} factory to create an instance. */
 export class BuilderBase {
+  /** Returns a query wrapping the Builder Hall entity. */
+  builderHall(): BuilderBaseBuilderHall {
+    return new BuilderBaseBuilderHall();
+  }
+
   /** Returns a query over all stationary defenses (Cannon, etc.). */
   defenses(): BuilderBaseDefenses {
     return new BuilderBaseDefenses();
