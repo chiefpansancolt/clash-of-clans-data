@@ -1,5 +1,5 @@
 import { Building, BuildingLevel } from './building';
-import { TownHallAvailability } from './common';
+import { BuilderHallAvailability, TownHallAvailability } from './common';
 
 export interface ResourceBuildingLevel extends BuildingLevel {
   capacity: number;
@@ -22,7 +22,9 @@ export interface BuilderResourceBuildingLevel extends ResourceBuildingLevel {
   builderHallRequired: number;
 }
 
-export type BuilderResourceBuilding = Building<BuilderResourceBuildingLevel>;
+export interface BuilderResourceBuilding extends Building<BuilderResourceBuildingLevel> {
+  availablePerBuilderHall: BuilderHallAvailability[];
+}
 
 export interface ClanCapitalResourceBuildingLevel extends ResourceBuildingLevel {
   districtHallRequired: number;

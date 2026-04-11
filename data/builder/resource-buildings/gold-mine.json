@@ -1,0 +1,162 @@
+{
+  "id": "gold-mine",
+  "name": "Gold Mine",
+  "description": "The Gold Mine produces gold. Upgrade it to boost its production and gold storage capacity.",
+  "base": "builder",
+  "category": "resource",
+  "size": "3x3",
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 1, "count": 1 },
+    { "builderHallLevel": 2, "count": 1 },
+    { "builderHallLevel": 3, "count": 1 },
+    { "builderHallLevel": 4, "count": 1 },
+    { "builderHallLevel": 5, "count": 1 },
+    { "builderHallLevel": 6, "count": 2 },
+    { "builderHallLevel": 7, "count": 2 },
+    { "builderHallLevel": 8, "count": 3 },
+    { "builderHallLevel": 9, "count": 3 },
+    { "builderHallLevel": 10, "count": 3 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 300,
+      "capacity": 24000,
+      "productionRate": 1000,
+      "buildCost": 1000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 10, "seconds": 0 },
+      "xpGained": 24,
+      "builderHallRequired": 1,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 350,
+      "capacity": 28800,
+      "productionRate": 1200,
+      "buildCost": 5000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 20, "seconds": 0 },
+      "xpGained": 34,
+      "builderHallRequired": 3,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 400,
+      "capacity": 36000,
+      "productionRate": 1500,
+      "buildCost": 10000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 40, "seconds": 0 },
+      "xpGained": 48,
+      "builderHallRequired": 3,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 460,
+      "capacity": 43200,
+      "productionRate": 1800,
+      "buildCost": 30000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "xpGained": 84,
+      "builderHallRequired": 4,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 550,
+      "capacity": 50400,
+      "productionRate": 2100,
+      "buildCost": 60000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "xpGained": 146,
+      "builderHallRequired": 5,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-5.png"
+      }
+    },
+    {
+      "level": 6,
+      "hitpoints": 650,
+      "capacity": 60000,
+      "productionRate": 2500,
+      "buildCost": 100000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "builderHallRequired": 6,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-6.png"
+      }
+    },
+    {
+      "level": 7,
+      "hitpoints": 750,
+      "capacity": 72000,
+      "productionRate": 3000,
+      "buildCost": 200000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 360,
+      "builderHallRequired": 7,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-7.png"
+      }
+    },
+    {
+      "level": 8,
+      "hitpoints": 850,
+      "capacity": 84000,
+      "productionRate": 3500,
+      "buildCost": 300000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 8,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-8.png"
+      }
+    },
+    {
+      "level": 9,
+      "hitpoints": 1000,
+      "capacity": 96000,
+      "productionRate": 4000,
+      "buildCost": 400000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 464,
+      "builderHallRequired": 9,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-9.png"
+      }
+    },
+    {
+      "level": 10,
+      "hitpoints": 1150,
+      "capacity": 108000,
+      "productionRate": 4500,
+      "buildCost": 800000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "builderHallRequired": 10,
+      "images": {
+        "normal": "images/builder/resource-buildings/gold-mine/normal/level-10.png"
+      }
+    }
+  ]
+}

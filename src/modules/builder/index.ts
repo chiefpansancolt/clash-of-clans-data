@@ -1,8 +1,10 @@
 import { BuilderBaseDefenses } from './defenses';
+import { BuilderBaseResourceBuildings } from './resource-buildings';
 import { BuilderBaseTraps } from './traps';
 import { BuilderBaseWalls } from './walls';
 
 export { BuilderBaseDefenses } from './defenses';
+export { BuilderBaseResourceBuildings } from './resource-buildings';
 export { BuilderBaseTraps } from './traps';
 export { BuilderBaseWalls } from './walls';
 
@@ -21,6 +23,11 @@ export class BuilderBase {
   /** Returns a query over Builder Base wall data. */
   walls(): BuilderBaseWalls {
     return new BuilderBaseWalls();
+  }
+
+  /** Returns a query over Builder Base resource buildings. */
+  resourceBuildings(): BuilderBaseResourceBuildings {
+    return new BuilderBaseResourceBuildings();
   }
 }
 

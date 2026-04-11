@@ -1,0 +1,87 @@
+{
+  "id": "bob-control",
+  "name": "B.O.B Control",
+  "description": "Control center for Master Builder's latest invention! Once fully upgraded, B.O.B becomes an additional builder in the Home Village!",
+  "base": "builder",
+  "category": "resource",
+  "size": "2x2",
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 1, "count": 0 },
+    { "builderHallLevel": 2, "count": 0 },
+    { "builderHallLevel": 3, "count": 0 },
+    { "builderHallLevel": 4, "count": 0 },
+    { "builderHallLevel": 5, "count": 0 },
+    { "builderHallLevel": 6, "count": 0 },
+    { "builderHallLevel": 7, "count": 0 },
+    { "builderHallLevel": 8, "count": 0 },
+    { "builderHallLevel": 9, "count": 1 },
+    { "builderHallLevel": 10, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 250,
+      "capacity": 0,
+      "buildCost": 100000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 9,
+      "images": {
+        "normal": "images/builder/resource-buildings/bob-control/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 250,
+      "capacity": 0,
+      "buildCost": 0,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 9,
+      "images": {
+        "normal": "images/builder/resource-buildings/bob-control/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 250,
+      "capacity": 0,
+      "buildCost": 0,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 9,
+      "images": {
+        "normal": "images/builder/resource-buildings/bob-control/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 250,
+      "capacity": 0,
+      "buildCost": 0,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 9,
+      "images": {
+        "normal": "images/builder/resource-buildings/bob-control/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 250,
+      "capacity": 0,
+      "buildCost": 0,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 9,
+      "images": {
+        "normal": "images/builder/resource-buildings/bob-control/normal/level-5.png"
+      }
+    }
+  ]
+}
