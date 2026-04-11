@@ -1,0 +1,93 @@
+{
+  "id": "electrofire-wizard",
+  "name": "Electrofire Wizard",
+  "description": "Master of Magic, Sorcerer of Style, the Electrofire Wizard incinerates single targets or zaps multiple foes with charged electricity.",
+  "base": "builder",
+  "category": "troop",
+  "housingSpace": 14,
+  "movementSpeed": 22,
+  "range": 3.5,
+  "attackSpeed": 0.128,
+  "damageType": "single",
+  "targetType": "both",
+  "builderBarracksRequired": 12,
+  "specialAbility": "Change Mode",
+  "abilityCooldown": 1.5,
+  "electroAttackSpeed": 3.5,
+  "electroNumberOfTargets": 4,
+  "electroChainDamageDecay": -0.2,
+  "levels": [
+    {
+      "level": 17,
+      "hitpoints": 1100,
+      "infernoInitialDps": 220,
+      "infernoDpsAfter1_5s": 330,
+      "infernoDpsAfter3_0s": 440,
+      "electroDps": 200,
+      "electroDamagePerShot": 700,
+      "unitsPerCamp": 1,
+      "researchCost": 0,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 0,
+      "images": {
+        "normal": "images/builder/troops/electrofire-wizard/normal/level-17.png",
+        "electroMode": "images/builder/troops/electrofire-wizard/electro-mode/level-17.png"
+      }
+    },
+    {
+      "level": 18,
+      "hitpoints": 1100,
+      "infernoInitialDps": 220,
+      "infernoDpsAfter1_5s": 330,
+      "infernoDpsAfter3_0s": 440,
+      "electroDps": 218,
+      "electroDamagePerShot": 763,
+      "unitsPerCamp": 1,
+      "researchCost": 4400000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 10,
+      "images": {
+        "normal": "images/builder/troops/electrofire-wizard/normal/level-17.png",
+        "electroMode": "images/builder/troops/electrofire-wizard/electro-mode/level-17.png"
+      }
+    },
+    {
+      "level": 19,
+      "hitpoints": 1210,
+      "infernoInitialDps": 252,
+      "infernoDpsAfter1_5s": 380,
+      "infernoDpsAfter3_0s": 505,
+      "electroDps": 218,
+      "electroDamagePerShot": 763,
+      "unitsPerCamp": 1,
+      "researchCost": 5400000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 10,
+      "images": {
+        "normal": "images/builder/troops/electrofire-wizard/normal/level-19.png",
+        "electroMode": "images/builder/troops/electrofire-wizard/electro-mode/level-19.png"
+      }
+    },
+    {
+      "level": 20,
+      "hitpoints": 1210,
+      "infernoInitialDps": 252,
+      "infernoDpsAfter1_5s": 380,
+      "infernoDpsAfter3_0s": 505,
+      "electroDps": 234,
+      "electroDamagePerShot": 819,
+      "unitsPerCamp": 1,
+      "researchCost": 5800000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 10,
+      "images": {
+        "normal": "images/builder/troops/electrofire-wizard/normal/level-19.png",
+        "electroMode": "images/builder/troops/electrofire-wizard/electro-mode/level-19.png"
+      }
+    }
+  ]
+}

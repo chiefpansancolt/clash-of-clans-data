@@ -3,7 +3,6 @@
  * Run with: pnpm sample
  */
 import './builder/army-buildings/army-camp';
-import './builder/other/clock-tower';
 import './builder/army-buildings/battle-copter-altar';
 import './builder/army-buildings/battle-machine-altar';
 import './builder/army-buildings/builder-barracks';
@@ -25,6 +24,7 @@ import './builder/defenses/multi-mortar';
 import './builder/defenses/ottos-outpost';
 import './builder/defenses/roaster';
 import './builder/defenses/x-bow';
+import './builder/other/clock-tower';
 import './builder/resource-buildings/bob-control';
 import './builder/resource-buildings/elixir-collector';
 import './builder/resource-buildings/elixir-storage';
@@ -35,6 +35,18 @@ import './builder/traps/mega-mine';
 import './builder/traps/mine';
 import './builder/traps/push-trap';
 import './builder/traps/spring-trap';
+import './builder/troops/baby-dragon';
+import './builder/troops/beta-minion';
+import './builder/troops/bomber';
+import './builder/troops/boxer-giant';
+import './builder/troops/cannon-cart';
+import './builder/troops/drop-ship';
+import './builder/troops/electrofire-wizard';
+import './builder/troops/hog-glider';
+import './builder/troops/night-witch';
+import './builder/troops/power-pekka';
+import './builder/troops/raged-barbarian';
+import './builder/troops/sneaky-archer';
 import './builder/walls/wall';
 import './home/army-buildings';
 import './home/army-buildings/army-camp';

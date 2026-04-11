@@ -3,6 +3,7 @@ import { BuilderBaseDefenses } from './defenses';
 import { BuilderBaseOtherBuildings } from './other';
 import { BuilderBaseResourceBuildings } from './resource-buildings';
 import { BuilderBaseTraps } from './traps';
+import { BuilderBaseTroops } from './troops';
 import { BuilderBaseWalls } from './walls';
 
 export { BuilderBaseArmyBuildings } from './army-buildings';
@@ -10,6 +11,7 @@ export { BuilderBaseDefenses } from './defenses';
 export { BuilderBaseOtherBuildings } from './other';
 export { BuilderBaseResourceBuildings } from './resource-buildings';
 export { BuilderBaseTraps } from './traps';
+export { BuilderBaseTroops } from './troops';
 export { BuilderBaseWalls } from './walls';
 
 /** Namespace for all Builder Base entity queries. Use the {@link builder} factory to create an instance. */
@@ -42,6 +44,11 @@ export class BuilderBase {
   /** Returns a query over other Builder Base buildings (Clock Tower, etc.). */
   otherBuildings(): BuilderBaseOtherBuildings {
     return new BuilderBaseOtherBuildings();
+  }
+
+  /** Returns a query over Builder Base troops. */
+  troops(): BuilderBaseTroops {
+    return new BuilderBaseTroops();
   }
 }
 

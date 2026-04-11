@@ -121,22 +121,83 @@ export interface TroopModeStats {
   movementSpeed: number;
 }
 
-export interface BuilderTroopLevel extends BuildingLevel {
-  builderHallRequired: number;
-  stats: {
-    normal: TroopModeStats;
-  };
+export interface BuilderTroopLevel {
+  level: number;
+  hitpoints: number;
+  dps?: number;
+  damagePerShot?: number;
+  unitsPerCamp: number;
+  deathDamage?: number;
+  skeletonBombDamage?: number;
+  skeletonBombSkeletons?: number;
+  cloakDurationSeconds?: number;
+  rageDurationSeconds?: number;
+  boxerBlockDurationSeconds?: number;
+  powerPunchDamage?: number;
+  powerShotAttacks?: number;
+  powerShotDamagePerHit?: number;
+  damageVsWalls?: number;
+  bouncingBombDamage?: number;
+  bouncingBombDamageVsWalls?: number;
+  tantrumDamageBonus?: number;
+  fierySneezeDamageMin?: number;
+  fierySneezeDamageMax?: number;
+  mortarDps?: number;
+  mortarDamagePerShot?: number;
+  batSummonCooldown?: number;
+  batsPerSummon?: number;
+  batsMax?: number;
+  batSwarmCount?: number;
+  overchargeDamage?: number;
+  stunDuration?: number;
+  infernoInitialDps?: number;
+  infernoDpsAfter1_5s?: number;
+  infernoDpsAfter3_0s?: number;
+  electroDps?: number;
+  electroDamagePerShot?: number;
+  researchCost: number;
+  researchCostResource: 'Builder Elixir';
+  researchTime: BuildTime;
+  starLabRequired: number;
   images: {
     normal: string;
+    mortarMode?: string;
+    electroMode?: string;
   };
 }
 
-export interface BuilderTroop extends Building<BuilderTroopLevel> {
+export interface BuilderTroop {
+  id: string;
+  name: string;
+  description?: string;
+  base: 'builder';
+  category: 'troop';
+  housingSpace: number;
+  movementSpeed: number;
   range: number;
-  attackSpeed: number;
+  attackSpeed?: number;
   damageType: 'single' | 'splash' | 'area';
   targetType: 'ground' | 'air' | 'both';
-  housingSpace: number;
+  builderBarracksRequired?: number;
+  specialAbility?: string;
+  passiveAbility?: string;
+  preferredTarget?: string;
+  skeletonsSummoned?: number;
+  skeletonsMax?: number;
+  skeletonSummonCooldown?: number;
+  abilityCooldown?: number;
+  electroAttackSpeed?: number;
+  electroNumberOfTargets?: number;
+  electroChainDamageDecay?: number;
+  rageSpeedIncrease?: number;
+  rageDamageIncrease?: number;
+  wallDamageMultiplier?: number;
+  explodingRange?: number;
+  mortarMovementSpeed?: number;
+  mortarRange?: number;
+  mortarAttackSpeed?: number;
+  mortarDamageType?: 'single' | 'splash' | 'area';
+  levels: BuilderTroopLevel[];
 }
 
 export interface ClanCapitalTroopLevel extends BuildingLevel {

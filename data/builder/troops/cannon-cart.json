@@ -1,0 +1,259 @@
+{
+  "id": "cannon-cart",
+  "name": "Cannon Cart",
+  "description": "A cannon on wheels?! Wait, did it just turn into a mortar?? Bet they won't see that coming! Both powerful and versatile!",
+  "base": "builder",
+  "category": "troop",
+  "housingSpace": 16,
+  "movementSpeed": 19,
+  "range": 4.5,
+  "attackSpeed": 1.2,
+  "damageType": "single",
+  "targetType": "ground",
+  "builderBarracksRequired": 7,
+  "specialAbility": "Change Mode",
+  "mortarMovementSpeed": 0,
+  "mortarRange": 8.5,
+  "mortarAttackSpeed": 2.5,
+  "mortarDamageType": "splash",
+  "levels": [
+    {
+      "level": 7,
+      "hitpoints": 666,
+      "dps": 115,
+      "damagePerShot": 138,
+      "mortarDps": 60,
+      "mortarDamagePerShot": 150,
+      "unitsPerCamp": 1,
+      "researchCost": 0,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 0,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-7.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-7.png"
+      }
+    },
+    {
+      "level": 8,
+      "hitpoints": 666,
+      "dps": 115,
+      "damagePerShot": 138,
+      "mortarDps": 68,
+      "mortarDamagePerShot": 170,
+      "unitsPerCamp": 1,
+      "researchCost": 1000000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 5,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-7.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-7.png"
+      }
+    },
+    {
+      "level": 9,
+      "hitpoints": 732,
+      "dps": 130,
+      "damagePerShot": 156,
+      "mortarDps": 68,
+      "mortarDamagePerShot": 170,
+      "unitsPerCamp": 1,
+      "researchCost": 1100000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 5,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-7.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-7.png"
+      }
+    },
+    {
+      "level": 10,
+      "hitpoints": 732,
+      "dps": 130,
+      "damagePerShot": 156,
+      "mortarDps": 78,
+      "mortarDamagePerShot": 195,
+      "unitsPerCamp": 1,
+      "researchCost": 1200000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 5,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-7.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-7.png"
+      }
+    },
+    {
+      "level": 11,
+      "hitpoints": 805,
+      "dps": 150,
+      "damagePerShot": 180,
+      "mortarDps": 78,
+      "mortarDamagePerShot": 195,
+      "unitsPerCamp": 1,
+      "researchCost": 1400000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 6,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-7.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-7.png"
+      }
+    },
+    {
+      "level": 12,
+      "hitpoints": 805,
+      "dps": 150,
+      "damagePerShot": 180,
+      "mortarDps": 90,
+      "mortarDamagePerShot": 225,
+      "unitsPerCamp": 1,
+      "researchCost": 1600000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 6,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-12.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-12.png"
+      }
+    },
+    {
+      "level": 13,
+      "hitpoints": 886,
+      "dps": 170,
+      "damagePerShot": 204,
+      "mortarDps": 90,
+      "mortarDamagePerShot": 225,
+      "unitsPerCamp": 1,
+      "researchCost": 2400000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 7,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-12.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-12.png"
+      }
+    },
+    {
+      "level": 14,
+      "hitpoints": 886,
+      "dps": 170,
+      "damagePerShot": 204,
+      "mortarDps": 102,
+      "mortarDamagePerShot": 255,
+      "unitsPerCamp": 1,
+      "researchCost": 2600000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 7,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-12.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-12.png"
+      }
+    },
+    {
+      "level": 15,
+      "hitpoints": 974,
+      "dps": 190,
+      "damagePerShot": 228,
+      "mortarDps": 102,
+      "mortarDamagePerShot": 255,
+      "unitsPerCamp": 1,
+      "researchCost": 3400000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 8,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-12.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-12.png"
+      }
+    },
+    {
+      "level": 16,
+      "hitpoints": 974,
+      "dps": 190,
+      "damagePerShot": 228,
+      "mortarDps": 114,
+      "mortarDamagePerShot": 285,
+      "unitsPerCamp": 1,
+      "researchCost": 3600000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 8,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-16.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-16.png"
+      }
+    },
+    {
+      "level": 17,
+      "hitpoints": 1072,
+      "dps": 215,
+      "damagePerShot": 258,
+      "mortarDps": 114,
+      "mortarDamagePerShot": 285,
+      "unitsPerCamp": 1,
+      "researchCost": 4100000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 9,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-16.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-16.png"
+      }
+    },
+    {
+      "level": 18,
+      "hitpoints": 1072,
+      "dps": 215,
+      "damagePerShot": 258,
+      "mortarDps": 130,
+      "mortarDamagePerShot": 325,
+      "unitsPerCamp": 1,
+      "researchCost": 4300000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 9,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-18.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-18.png"
+      }
+    },
+    {
+      "level": 19,
+      "hitpoints": 1179,
+      "dps": 240,
+      "damagePerShot": 288,
+      "mortarDps": 130,
+      "mortarDamagePerShot": 325,
+      "unitsPerCamp": 1,
+      "researchCost": 5300000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 10,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-18.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-18.png"
+      }
+    },
+    {
+      "level": 20,
+      "hitpoints": 1179,
+      "dps": 240,
+      "damagePerShot": 288,
+      "mortarDps": 144,
+      "mortarDamagePerShot": 360,
+      "unitsPerCamp": 1,
+      "researchCost": 5700000,
+      "researchCostResource": "Builder Elixir",
+      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "starLabRequired": 10,
+      "images": {
+        "normal": "images/builder/troops/cannon-cart/cannon/level-18.png",
+        "mortarMode": "images/builder/troops/cannon-cart/mortar/level-18.png"
+      }
+    }
+  ]
+}
