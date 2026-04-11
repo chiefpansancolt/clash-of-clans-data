@@ -1,0 +1,132 @@
+{
+  "id": "wall",
+  "name": "Wall",
+  "description": "Walls are great for keeping your village safe and your enemies in the line of fire.",
+  "base": "builder",
+  "category": "wall",
+  "size": "1x1",
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 1, "count": 10 },
+    { "builderHallLevel": 2, "count": 20 },
+    { "builderHallLevel": 3, "count": 50 },
+    { "builderHallLevel": 4, "count": 75 },
+    { "builderHallLevel": 5, "count": 100 },
+    { "builderHallLevel": 6, "count": 120 },
+    { "builderHallLevel": 7, "count": 140 },
+    { "builderHallLevel": 8, "count": 160 },
+    { "builderHallLevel": 9, "count": 180 },
+    { "builderHallLevel": 10, "count": 180 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 900,
+      "buildCost": 0,
+      "buildCostResource": "Builder Gold",
+      "wallRings": 0,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 1,
+      "images": { "normal": "images/builder/walls/wall/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1100,
+      "buildCost": 2000,
+      "buildCostResource": "Builder Gold",
+      "wallRings": 1,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 3,
+      "images": { "normal": "images/builder/walls/wall/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1300,
+      "buildCost": 10000,
+      "buildCostResource": "Builder Gold",
+      "wallRings": 1,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 3,
+      "images": { "normal": "images/builder/walls/wall/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1600,
+      "buildCost": 50000,
+      "buildCostResource": "Builder Gold",
+      "wallRings": 1,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 4,
+      "images": { "normal": "images/builder/walls/wall/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1900,
+      "buildCost": 150000,
+      "buildCostResource": "Builder Gold",
+      "wallRings": 1,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 5,
+      "images": { "normal": "images/builder/walls/wall/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 2200,
+      "buildCost": 240000,
+      "buildCostResource": "Builder Gold",
+      "wallRings": 1,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 6,
+      "images": { "normal": "images/builder/walls/wall/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 2500,
+      "buildCost": 400000,
+      "buildCostResource": "Builder Gold or Builder Elixir",
+      "wallRings": 1,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 7,
+      "images": { "normal": "images/builder/walls/wall/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 2750,
+      "buildCost": 600000,
+      "buildCostResource": "Builder Gold or Builder Elixir",
+      "wallRings": 2,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 8,
+      "images": { "normal": "images/builder/walls/wall/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 3050,
+      "buildCost": 800000,
+      "buildCostResource": "Builder Gold or Builder Elixir",
+      "wallRings": 2,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 9,
+      "images": { "normal": "images/builder/walls/wall/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 3350,
+      "buildCost": 1000000,
+      "buildCostResource": "Builder Gold or Builder Elixir",
+      "wallRings": 2,
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 10,
+      "images": { "normal": "images/builder/walls/wall/normal/level-10.png" }
+    }
+  ]
+}

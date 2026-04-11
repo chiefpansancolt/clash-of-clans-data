@@ -25,6 +25,7 @@ export type ResourceType =
   | 'Gold or Elixir'
   | 'Builder Gold'
   | 'Builder Elixir'
+  | 'Builder Gold or Builder Elixir'
   | 'Capital Gold'
   | 'Gems';
 

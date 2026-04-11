@@ -17,6 +17,7 @@ import './builder/defenses/multi-mortar';
 import './builder/defenses/ottos-outpost';
 import './builder/defenses/roaster';
 import './builder/defenses/x-bow';
+import './builder/walls/wall';
 import './home/army-buildings';
 import './home/army-buildings/army-camp';
 import './home/army-buildings/barracks';
