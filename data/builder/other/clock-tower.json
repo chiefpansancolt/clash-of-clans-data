@@ -1,0 +1,162 @@
+{
+  "id": "clock-tower",
+  "name": "Clock Tower",
+  "description": "The Clock Tower makes things happen faster in your village! Collect resources, research and build faster.",
+  "base": "builder",
+  "category": "other",
+  "size": "4x4",
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 1, "count": 0 },
+    { "builderHallLevel": 2, "count": 0 },
+    { "builderHallLevel": 3, "count": 0 },
+    { "builderHallLevel": 4, "count": 1 },
+    { "builderHallLevel": 5, "count": 1 },
+    { "builderHallLevel": 6, "count": 1 },
+    { "builderHallLevel": 7, "count": 1 },
+    { "builderHallLevel": 8, "count": 1 },
+    { "builderHallLevel": 9, "count": 1 },
+    { "builderHallLevel": 10, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 650,
+      "boostDurationMinutes": 14,
+      "timeGainedMinutes": 126,
+      "buildCost": 150000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "xpGained": 84,
+      "builderHallRequired": 4,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 800,
+      "boostDurationMinutes": 16,
+      "timeGainedMinutes": 144,
+      "buildCost": 180000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "xpGained": 103,
+      "builderHallRequired": 4,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 975,
+      "boostDurationMinutes": 18,
+      "timeGainedMinutes": 162,
+      "buildCost": 220000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "xpGained": 120,
+      "builderHallRequired": 4,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1150,
+      "boostDurationMinutes": 20,
+      "timeGainedMinutes": 180,
+      "buildCost": 300000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "xpGained": 146,
+      "builderHallRequired": 4,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1350,
+      "boostDurationMinutes": 22,
+      "timeGainedMinutes": 198,
+      "buildCost": 700000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 207,
+      "builderHallRequired": 5,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-5.png"
+      }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1600,
+      "boostDurationMinutes": 24,
+      "timeGainedMinutes": 216,
+      "buildCost": 1200000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "builderHallRequired": 6,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-6.png"
+      }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1850,
+      "boostDurationMinutes": 26,
+      "timeGainedMinutes": 234,
+      "buildCost": 1700000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 7,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-7.png"
+      }
+    },
+    {
+      "level": 8,
+      "hitpoints": 2150,
+      "boostDurationMinutes": 28,
+      "timeGainedMinutes": 252,
+      "buildCost": 2200000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "builderHallRequired": 8,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-8.png"
+      }
+    },
+    {
+      "level": 9,
+      "hitpoints": 2450,
+      "boostDurationMinutes": 30,
+      "timeGainedMinutes": 270,
+      "buildCost": 2700000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "builderHallRequired": 9,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-9.png"
+      }
+    },
+    {
+      "level": 10,
+      "hitpoints": 2750,
+      "boostDurationMinutes": 32,
+      "timeGainedMinutes": 288,
+      "buildCost": 3700000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 657,
+      "builderHallRequired": 10,
+      "images": {
+        "normal": "images/builder/other/clock-tower/normal/level-10.png"
+      }
+    }
+  ]
+}

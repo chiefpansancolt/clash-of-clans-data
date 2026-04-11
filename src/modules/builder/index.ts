@@ -1,9 +1,13 @@
+import { BuilderBaseArmyBuildings } from './army-buildings';
 import { BuilderBaseDefenses } from './defenses';
+import { BuilderBaseOtherBuildings } from './other';
 import { BuilderBaseResourceBuildings } from './resource-buildings';
 import { BuilderBaseTraps } from './traps';
 import { BuilderBaseWalls } from './walls';
 
+export { BuilderBaseArmyBuildings } from './army-buildings';
 export { BuilderBaseDefenses } from './defenses';
+export { BuilderBaseOtherBuildings } from './other';
 export { BuilderBaseResourceBuildings } from './resource-buildings';
 export { BuilderBaseTraps } from './traps';
 export { BuilderBaseWalls } from './walls';
@@ -28,6 +32,16 @@ export class BuilderBase {
   /** Returns a query over Builder Base resource buildings. */
   resourceBuildings(): BuilderBaseResourceBuildings {
     return new BuilderBaseResourceBuildings();
+  }
+
+  /** Returns a query over Builder Base army buildings. */
+  armyBuildings(): BuilderBaseArmyBuildings {
+    return new BuilderBaseArmyBuildings();
+  }
+
+  /** Returns a query over other Builder Base buildings (Clock Tower, etc.). */
+  otherBuildings(): BuilderBaseOtherBuildings {
+    return new BuilderBaseOtherBuildings();
   }
 }
 

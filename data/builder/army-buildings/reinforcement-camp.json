@@ -1,0 +1,47 @@
+{
+  "id": "reinforcement-camp",
+  "name": "Reinforcement Camp",
+  "description": "Reinforcement Camps provide helpful reinforcements during battles when reaching the corresponding stage.",
+  "base": "builder",
+  "category": "army",
+  "size": "3x3",
+  "housingSpace": 0,
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 1, "count": 0 },
+    { "builderHallLevel": 2, "count": 0 },
+    { "builderHallLevel": 3, "count": 0 },
+    { "builderHallLevel": 4, "count": 0 },
+    { "builderHallLevel": 5, "count": 0 },
+    { "builderHallLevel": 6, "count": 1 },
+    { "builderHallLevel": 7, "count": 1 },
+    { "builderHallLevel": 8, "count": 1 },
+    { "builderHallLevel": 9, "count": 2 },
+    { "builderHallLevel": 10, "count": 2 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 300,
+      "buildCost": 0,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 6,
+      "images": {
+        "normal": "images/builder/army-buildings/reinforcement-camp/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 300,
+      "buildCost": 4000000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 929,
+      "builderHallRequired": 9,
+      "images": {
+        "normal": "images/builder/army-buildings/reinforcement-camp/normal/level-1.png"
+      }
+    }
+  ]
+}

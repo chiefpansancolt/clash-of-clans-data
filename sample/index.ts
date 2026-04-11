@@ -2,6 +2,14 @@
  * Runs all sample scripts. Each writes its output to its own output.txt file.
  * Run with: pnpm sample
  */
+import './builder/army-buildings/army-camp';
+import './builder/other/clock-tower';
+import './builder/army-buildings/battle-copter-altar';
+import './builder/army-buildings/battle-machine-altar';
+import './builder/army-buildings/builder-barracks';
+import './builder/army-buildings/healing-hut';
+import './builder/army-buildings/reinforcement-camp';
+import './builder/army-buildings/star-laboratory';
 import './builder/defenses/air-bombs';
 import './builder/defenses/archer-tower';
 import './builder/defenses/cannon';

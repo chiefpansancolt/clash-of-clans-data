@@ -1,0 +1,100 @@
+{
+  "id": "army-camp",
+  "name": "Army Camp",
+  "description": "Your troops are stationed in Army Camps. Each camp can house only one troop type at a time. Some troops can be upgraded to fit more units per camp!",
+  "base": "builder",
+  "category": "army",
+  "size": "3x3",
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 1, "count": 1 },
+    { "builderHallLevel": 2, "count": 2 },
+    { "builderHallLevel": 3, "count": 3 },
+    { "builderHallLevel": 4, "count": 4 },
+    { "builderHallLevel": 5, "count": 4 },
+    { "builderHallLevel": 6, "count": 5 },
+    { "builderHallLevel": 7, "count": 6 },
+    { "builderHallLevel": 8, "count": 6 },
+    { "builderHallLevel": 9, "count": 6 },
+    { "builderHallLevel": 10, "count": 6 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 300,
+      "housingSpace": 0,
+      "buildCost": 0,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 1,
+      "images": {
+        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 300,
+      "housingSpace": 0,
+      "buildCost": 12000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 5, "seconds": 0 },
+      "xpGained": 17,
+      "builderHallRequired": 2,
+      "images": {
+        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 300,
+      "housingSpace": 0,
+      "buildCost": 180000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "xpGained": 103,
+      "builderHallRequired": 3,
+      "images": {
+        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 300,
+      "housingSpace": 0,
+      "buildCost": 350000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "xpGained": 169,
+      "builderHallRequired": 4,
+      "images": {
+        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 300,
+      "housingSpace": 0,
+      "buildCost": 2000000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "builderHallRequired": 6,
+      "images": {
+        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
+      }
+    },
+    {
+      "level": 6,
+      "hitpoints": 300,
+      "housingSpace": 0,
+      "buildCost": 3000000,
+      "buildCostResource": "Builder Elixir",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "builderHallRequired": 7,
+      "images": {
+        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
+      }
+    }
+  ]
+}

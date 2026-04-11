@@ -1,5 +1,5 @@
 import { Building, BuildingLevel } from './building';
-import { Base, Category, TownHallAvailability } from './common';
+import { Base, BuilderHallAvailability, Category, TownHallAvailability } from './common';
 
 export interface ArmyBuildingLevel extends BuildingLevel {
   housingSpace: number;
@@ -20,7 +20,29 @@ export interface BuilderArmyBuildingLevel extends ArmyBuildingLevel {
   builderHallRequired: number;
 }
 
-export type BuilderArmyBuilding = Building<BuilderArmyBuildingLevel>;
+export interface BuilderArmyBuilding extends Building<BuilderArmyBuildingLevel> {
+  availablePerBuilderHall: BuilderHallAvailability[];
+}
+
+export interface BuilderHealingHutBuildingLevel extends BuildingLevel {
+  healthRecovery: number;
+  builderHallRequired: number;
+  images: {
+    normal: string;
+  };
+}
+
+export interface BuilderHealingHutBuilding extends Building<BuilderHealingHutBuildingLevel> {
+  availablePerBuilderHall: BuilderHallAvailability[];
+}
+
+export interface BuilderBarracksBuildingLevel extends BarracksBuildingLevel {
+  builderHallRequired: number;
+}
+
+export interface BuilderBarracksBuilding extends Building<BuilderBarracksBuildingLevel> {
+  availablePerBuilderHall: BuilderHallAvailability[];
+}
 
 export interface BarracksBuildingLevel extends BuildingLevel {
   unlockedUnit: string;

@@ -1,5 +1,5 @@
 import { Building, BuildingLevel } from './building';
-import { TownHallAvailability } from './common';
+import { BuilderHallAvailability, TownHallAvailability } from './common';
 
 export interface OtherBuildingLevel extends BuildingLevel {
   townHallRequired?: number;
@@ -64,3 +64,18 @@ export type HomeLabAssistantHelper = HomeHelper<HomeWorkRateHelperLevel>;
 export type HomeBuilderApprenticeHelper = HomeHelper<HomeWorkRateHelperLevel>;
 export type HomeAlchemistHelper = HomeHelper<HomeAlchemistHelperLevel>;
 export type HomeProspectorHelper = HomeHelper<HomeProspectorHelperLevel>;
+
+export interface BuilderClockTowerBuildingLevel extends BuildingLevel {
+  boostDurationMinutes: number;
+  timeGainedMinutes: number;
+  builderHallRequired: number;
+  images: {
+    normal: string;
+  };
+}
+
+export interface BuilderClockTowerBuilding extends Building<BuilderClockTowerBuildingLevel> {
+  availablePerBuilderHall: BuilderHallAvailability[];
+}
+
+export type BuilderOtherBuilding = BuilderClockTowerBuilding;
