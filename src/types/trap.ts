@@ -1,4 +1,4 @@
-import { BuildTime, ResourceType, TownHallAvailability } from './common';
+import { BuilderHallAvailability, BuildTime, ResourceType, TownHallAvailability } from './common';
 
 export interface TrapLevel {
   level: number;
@@ -32,4 +32,34 @@ export interface HomeTrap {
   specialAbility?: string;
   levels: TrapLevel[];
   availablePerTownHall: TownHallAvailability[];
+}
+
+export interface BuilderTrapLevel {
+  level: number;
+  damage?: number;
+  damageVsHeroes?: number;
+  springCapacity?: number;
+  buildCost: number;
+  buildCostResource: ResourceType;
+  buildTime: BuildTime;
+  xpGained: number;
+  builderHallRequired: number;
+  images: { normal: string; air?: string };
+}
+
+export interface BuilderTrap {
+  id: string;
+  name: string;
+  description?: string;
+  base: 'builder';
+  category: 'trap';
+  size: string;
+  triggerRadius: number;
+  damageRadius?: number;
+  springCapacity?: number;
+  aoeRadius?: number;
+  pushDistance?: number;
+  targetType: 'ground' | 'air' | 'both';
+  levels: BuilderTrapLevel[];
+  availablePerBuilderHall: BuilderHallAvailability[];
 }

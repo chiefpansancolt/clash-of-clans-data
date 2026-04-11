@@ -1,0 +1,126 @@
+{
+  "id": "push-trap",
+  "name": "Push Trap",
+  "description": "Toss ground troops in a direction you choose. Heave ho!",
+  "base": "builder",
+  "category": "trap",
+  "size": "2x2",
+  "triggerRadius": 1,
+  "aoeRadius": 3.5,
+  "pushDistance": 6,
+  "targetType": "ground",
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 1, "count": 0 },
+    { "builderHallLevel": 2, "count": 1 },
+    { "builderHallLevel": 3, "count": 2 },
+    { "builderHallLevel": 4, "count": 3 },
+    { "builderHallLevel": 5, "count": 4 },
+    { "builderHallLevel": 6, "count": 4 },
+    { "builderHallLevel": 7, "count": 5 },
+    { "builderHallLevel": 8, "count": 5 },
+    { "builderHallLevel": 9, "count": 5 },
+    { "builderHallLevel": 10, "count": 5 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "springCapacity": 8,
+      "buildCost": 1000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 2,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "springCapacity": 10,
+      "buildCost": 3000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 5, "seconds": 0 },
+      "xpGained": 17,
+      "builderHallRequired": 3,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "springCapacity": 12,
+      "buildCost": 10000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 20, "seconds": 0 },
+      "xpGained": 34,
+      "builderHallRequired": 3,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "springCapacity": 14,
+      "buildCost": 20000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "xpGained": 84,
+      "builderHallRequired": 4,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "springCapacity": 16,
+      "buildCost": 40000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "xpGained": 120,
+      "builderHallRequired": 5,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "springCapacity": 18,
+      "buildCost": 60000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 207,
+      "builderHallRequired": 6,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "springCapacity": 20,
+      "buildCost": 100000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+      "xpGained": 240,
+      "builderHallRequired": 7,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "springCapacity": 22,
+      "buildCost": 200000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "builderHallRequired": 8,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "springCapacity": 24,
+      "buildCost": 300000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 360,
+      "builderHallRequired": 9,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "springCapacity": 26,
+      "buildCost": 500000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 10,
+      "images": { "normal": "images/builder/traps/push-trap/normal/level-10.png" }
+    }
+  ]
+}

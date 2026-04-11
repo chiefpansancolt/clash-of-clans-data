@@ -1,0 +1,80 @@
+{
+  "id": "spring-trap",
+  "name": "Spring Trap",
+  "description": "This bouncy little number launches a small Troop out of battle! Big Troops with higher Housing Space are pushed back and damaged.",
+  "base": "builder",
+  "category": "trap",
+  "size": "1x1",
+  "triggerRadius": 0.7,
+  "springCapacity": 4,
+  "targetType": "ground",
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 1, "count": 0 },
+    { "builderHallLevel": 2, "count": 0 },
+    { "builderHallLevel": 3, "count": 2 },
+    { "builderHallLevel": 4, "count": 2 },
+    { "builderHallLevel": 5, "count": 3 },
+    { "builderHallLevel": 6, "count": 3 },
+    { "builderHallLevel": 7, "count": 4 },
+    { "builderHallLevel": 8, "count": 5 },
+    { "builderHallLevel": 9, "count": 6 },
+    { "builderHallLevel": 10, "count": 6 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "damage": 100,
+      "damageVsHeroes": 50,
+      "buildCost": 10000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 3,
+      "images": { "normal": "images/builder/traps/spring-trap/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "damage": 175,
+      "damageVsHeroes": 87.5,
+      "buildCost": 30000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "xpGained": 60,
+      "builderHallRequired": 4,
+      "images": { "normal": "images/builder/traps/spring-trap/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "damage": 250,
+      "damageVsHeroes": 125,
+      "buildCost": 100000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "builderHallRequired": 6,
+      "images": { "normal": "images/builder/traps/spring-trap/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "damage": 325,
+      "damageVsHeroes": 162.5,
+      "buildCost": 300000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 8,
+      "images": { "normal": "images/builder/traps/spring-trap/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "damage": 400,
+      "damageVsHeroes": 200,
+      "buildCost": 500000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "builderHallRequired": 10,
+      "images": { "normal": "images/builder/traps/spring-trap/normal/level-5.png" }
+    }
+  ]
+}
