@@ -1,0 +1,146 @@
+{
+  "id": "ottos-outpost",
+  "name": "O.T.T.O's Outpost",
+  "description": "O.T.T.O's home and the main building of the second stage. May contain additional feisty robots. Destroying O.T.T.O's Outpost awards an extra star in attacks.",
+  "base": "builder",
+  "category": "defense",
+  "size": "4x4",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 0,
+      "attackSpeed": 0,
+      "damageType": "none"
+    }
+  },
+  "specialAbility": "Awards an extra star when destroyed",
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 6, "count": 1 },
+    { "builderHallLevel": 7, "count": 1 },
+    { "builderHallLevel": 8, "count": 1 },
+    { "builderHallLevel": 9, "count": 1 },
+    { "builderHallLevel": 10, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 650,
+      "buildCost": 0,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "builderHallRequired": 6,
+      "spawnCount": 2,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 800,
+      "buildCost": 1000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "builderHallRequired": 6,
+      "spawnCount": 2,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 975,
+      "buildCost": 1250000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 6,
+      "spawnCount": 2,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1150,
+      "buildCost": 1500000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "builderHallRequired": 6,
+      "spawnCount": 3,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1350,
+      "buildCost": 1750000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "builderHallRequired": 6,
+      "spawnCount": 3,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1600,
+      "buildCost": 2000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 657,
+      "builderHallRequired": 6,
+      "spawnCount": 3,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1850,
+      "buildCost": 3000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "builderHallRequired": 7,
+      "spawnCount": 4,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 2150,
+      "buildCost": 4000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 881,
+      "builderHallRequired": 8,
+      "spawnCount": 4,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 2450,
+      "buildCost": 5000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 929,
+      "builderHallRequired": 9,
+      "spawnCount": 4,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 2750,
+      "buildCost": 6000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 974,
+      "builderHallRequired": 10,
+      "spawnCount": 5,
+      "stats": { "normal": {} },
+      "images": { "normal": "images/builder/defenses/ottos-outpost/normal/level-10.png" }
+    }
+  ]
+}

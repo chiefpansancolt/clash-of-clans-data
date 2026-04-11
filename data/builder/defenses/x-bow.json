@@ -1,0 +1,99 @@
+{
+  "id": "x-bow",
+  "name": "X-Bow",
+  "description": "The X-Bow shoots powerful bolts with terrifying power. You can set it to target ground units or air units.",
+  "base": "builder",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 12,
+      "attackSpeed": 0.192,
+      "damageType": "single"
+    }
+  },
+  "availablePerBuilderHall": [{ "builderHallLevel": 10, "count": 1 }],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1700,
+      "buildCost": 4400000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "builderHallRequired": 10,
+      "stats": {
+        "normal": {
+          "dps": 80,
+          "damagePerShot": 15.36
+        }
+      },
+      "images": { "normal": "images/builder/defenses/x-bow/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1900,
+      "buildCost": 4800000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "builderHallRequired": 10,
+      "stats": {
+        "normal": {
+          "dps": 88,
+          "damagePerShot": 16.9
+        }
+      },
+      "images": { "normal": "images/builder/defenses/x-bow/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2100,
+      "buildCost": 5200000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 929,
+      "builderHallRequired": 10,
+      "stats": {
+        "normal": {
+          "dps": 96,
+          "damagePerShot": 18.43
+        }
+      },
+      "images": { "normal": "images/builder/defenses/x-bow/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2350,
+      "buildCost": 5600000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 974,
+      "builderHallRequired": 10,
+      "stats": {
+        "normal": {
+          "dps": 106,
+          "damagePerShot": 20.35
+        }
+      },
+      "images": { "normal": "images/builder/defenses/x-bow/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 2600,
+      "buildCost": 6000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1018,
+      "builderHallRequired": 10,
+      "stats": {
+        "normal": {
+          "dps": 116,
+          "damagePerShot": 22.27
+        }
+      },
+      "images": { "normal": "images/builder/defenses/x-bow/normal/level-5.png" }
+    }
+  ]
+}

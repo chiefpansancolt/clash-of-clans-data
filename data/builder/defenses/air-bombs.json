@@ -1,0 +1,138 @@
+{
+  "id": "air-bombs",
+  "name": "Air Bombs",
+  "description": "For heavyweight air defense, Air Bombs do the trick. An endless supply of explosive barrels launch into the sky to ravage flying enemies!",
+  "base": "builder",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "air",
+  "modes": {
+    "normal": {
+      "range": 7.5,
+      "attackSpeed": 3,
+      "damageType": "splash",
+      "splashRadius": 1.5
+    }
+  },
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 4, "count": 1 },
+    { "builderHallLevel": 5, "count": 1 },
+    { "builderHallLevel": 6, "count": 1 },
+    { "builderHallLevel": 7, "count": 1 },
+    { "builderHallLevel": 8, "count": 1 },
+    { "builderHallLevel": 9, "count": 1 },
+    { "builderHallLevel": 10, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1000,
+      "buildCost": 300000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "xpGained": 146,
+      "builderHallRequired": 4,
+      "stats": { "normal": { "dps": 90, "damagePerShot": 270 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1100,
+      "buildCost": 320000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "xpGained": 207,
+      "builderHallRequired": 4,
+      "stats": { "normal": { "dps": 99, "damagePerShot": 297 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1250,
+      "buildCost": 340000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "builderHallRequired": 4,
+      "stats": { "normal": { "dps": 109, "damagePerShot": 327 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1400,
+      "buildCost": 360000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 4,
+      "stats": { "normal": { "dps": 119, "damagePerShot": 357 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1600,
+      "buildCost": 1200000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "builderHallRequired": 5,
+      "stats": { "normal": { "dps": 131, "damagePerShot": 393 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1850,
+      "buildCost": 1500000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 657,
+      "builderHallRequired": 6,
+      "stats": { "normal": { "dps": 145, "damagePerShot": 435 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 2100,
+      "buildCost": 2400000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "builderHallRequired": 7,
+      "stats": { "normal": { "dps": 159, "damagePerShot": 477 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 2350,
+      "buildCost": 3400000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 175, "damagePerShot": 525 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 2600,
+      "buildCost": 4400000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 929,
+      "builderHallRequired": 9,
+      "stats": { "normal": { "dps": 193, "damagePerShot": 579 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 2900,
+      "buildCost": 5400000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1018,
+      "builderHallRequired": 10,
+      "stats": { "normal": { "dps": 212, "damagePerShot": 636 } },
+      "images": { "normal": "images/builder/defenses/air-bombs/normal/level-10.png" }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "archer-tower",
+  "name": "Archer Tower",
+  "description": "No foe can escape the Archer arrows. This tower has a special switch – choose long range or fast attack!",
+  "base": "builder",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 10,
+      "attackSpeed": 1,
+      "damageType": "single"
+    },
+    "fastAttack": {
+      "range": 7,
+      "attackSpeed": 0.45,
+      "damageType": "single"
+    }
+  },
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 2, "count": 1 },
+    { "builderHallLevel": 3, "count": 1 },
+    { "builderHallLevel": 4, "count": 2 },
+    { "builderHallLevel": 5, "count": 2 },
+    { "builderHallLevel": 6, "count": 3 },
+    { "builderHallLevel": 7, "count": 3 },
+    { "builderHallLevel": 8, "count": 3 },
+    { "builderHallLevel": 9, "count": 3 },
+    { "builderHallLevel": 10, "count": 3 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 500,
+      "buildCost": 12000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 5, "seconds": 0 },
+      "xpGained": 17,
+      "builderHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 40, "damagePerShot": 40 },
+        "fastAttack": { "dps": 89 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 575,
+      "buildCost": 30000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 15, "seconds": 0 },
+      "xpGained": 30,
+      "builderHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 44, "damagePerShot": 44 },
+        "fastAttack": { "dps": 98 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 660,
+      "buildCost": 60000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "xpGained": 84,
+      "builderHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 48, "damagePerShot": 48 },
+        "fastAttack": { "dps": 107 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 760,
+      "buildCost": 250000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "xpGained": 169,
+      "builderHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 53, "damagePerShot": 53 },
+        "fastAttack": { "dps": 118 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 875,
+      "buildCost": 800000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "builderHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 59, "damagePerShot": 59 },
+        "fastAttack": { "dps": 131 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1050,
+      "buildCost": 1200000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 6,
+      "stats": {
+        "normal": { "dps": 64, "damagePerShot": 64 },
+        "fastAttack": { "dps": 142 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1250,
+      "buildCost": 2000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "builderHallRequired": 7,
+      "stats": {
+        "normal": { "dps": 71, "damagePerShot": 71 },
+        "fastAttack": { "dps": 158 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 1450,
+      "buildCost": 2800000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "builderHallRequired": 8,
+      "stats": {
+        "normal": { "dps": 78, "damagePerShot": 78 },
+        "fastAttack": { "dps": 173 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 1650,
+      "buildCost": 3600000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "builderHallRequired": 9,
+      "stats": {
+        "normal": { "dps": 86, "damagePerShot": 86 },
+        "fastAttack": { "dps": 191 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 1850,
+      "buildCost": 4600000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 881,
+      "builderHallRequired": 10,
+      "stats": {
+        "normal": { "dps": 94, "damagePerShot": 94 },
+        "fastAttack": { "dps": 209 }
+      },
+      "images": { "normal": "images/builder/defenses/archer-tower/normal/level-10.png" }
+    }
+  ]
+}

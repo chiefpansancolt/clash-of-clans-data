@@ -1,0 +1,134 @@
+{
+  "id": "giant-cannon",
+  "name": "Giant Cannon",
+  "description": "Nothing gets in the way of the Giant Cannon. Its mammoth-sized cannon balls push past anything and keeps going and going and going...",
+  "base": "builder",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "ground",
+  "modes": {
+    "normal": {
+      "range": 9.5,
+      "attackSpeed": 5,
+      "damageType": "splash"
+    }
+  },
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 7, "count": 1 },
+    { "builderHallLevel": 8, "count": 1 },
+    { "builderHallLevel": 9, "count": 1 },
+    { "builderHallLevel": 10, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 700,
+      "buildCost": 2000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "builderHallRequired": 7,
+      "stats": { "normal": { "dps": 41, "damagePerShot": 205 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 800,
+      "buildCost": 2100000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 7,
+      "stats": { "normal": { "dps": 45, "damagePerShot": 225 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 950,
+      "buildCost": 2200000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "builderHallRequired": 7,
+      "stats": { "normal": { "dps": 49, "damagePerShot": 245 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1100,
+      "buildCost": 2300000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "builderHallRequired": 7,
+      "stats": { "normal": { "dps": 54, "damagePerShot": 270 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1300,
+      "buildCost": 2400000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 657,
+      "builderHallRequired": 7,
+      "stats": { "normal": { "dps": 60, "damagePerShot": 300 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1500,
+      "buildCost": 2500000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "builderHallRequired": 7,
+      "stats": { "normal": { "dps": 66, "damagePerShot": 330 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1700,
+      "buildCost": 2700000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "builderHallRequired": 7,
+      "stats": { "normal": { "dps": 72, "damagePerShot": 360 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 1900,
+      "buildCost": 3800000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 929,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 79, "damagePerShot": 395 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 2150,
+      "buildCost": 4700000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 974,
+      "builderHallRequired": 9,
+      "stats": { "normal": { "dps": 87, "damagePerShot": 435 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 2400,
+      "buildCost": 5700000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1018,
+      "builderHallRequired": 10,
+      "stats": { "normal": { "dps": 96, "damagePerShot": 480 } },
+      "images": { "normal": "images/builder/defenses/giant-cannon/normal/level-10.png" }
+    }
+  ]
+}

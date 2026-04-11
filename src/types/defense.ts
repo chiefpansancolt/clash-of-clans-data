@@ -32,6 +32,11 @@ export interface DefenseModeStats {
   damagePerShotMin?: number;
   splashDamageMax?: number;
   splashDamageMin?: number;
+  shotsPerBurst?: number;
+  timeBetweenBursts?: number;
+  burnDps?: number;
+  totalBurnDamage?: number;
+  burnDamagePerTick?: number;
 }
 
 export interface DefenseMode {
@@ -48,6 +53,9 @@ export interface DefenseMode {
   timeBetweenBursts?: number;
   activationHousingSpace?: number;
   numberOfRounds?: number;
+  lavaLifetime?: number;
+  lavaRadius?: number;
+  burnDamageTickRate?: number;
 }
 
 export interface BurstDefenseMode extends DefenseMode {
@@ -159,8 +167,11 @@ export interface HomeDefense extends Building<HomeDefenseLevel> {
 
 export interface BuilderDefenseLevel extends BuildingLevel {
   builderHallRequired: number;
+  troopLevel?: number;
+  spawnCount?: number;
   stats: {
     normal: DefenseModeStats;
+    fastAttack?: DefenseModeStats;
   };
   images: {
     normal: string;
@@ -171,7 +182,10 @@ export interface BuilderDefense extends Building<BuilderDefenseLevel> {
   targetType: 'ground' | 'air' | 'both';
   modes: {
     normal: DefenseMode;
+    fastAttack?: DefenseMode;
   };
+  defendingTroops?: Array<{ name: string; count: number }>;
+  specialAbility?: string;
   availablePerBuilderHall: BuilderHallAvailability[];
 }
 

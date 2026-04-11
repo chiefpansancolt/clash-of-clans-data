@@ -2,6 +2,21 @@
  * Runs all sample scripts. Each writes its output to its own output.txt file.
  * Run with: pnpm sample
  */
+import './builder/defenses/air-bombs';
+import './builder/defenses/archer-tower';
+import './builder/defenses/cannon';
+import './builder/defenses/crusher';
+import './builder/defenses/double-cannon';
+import './builder/defenses/firecrackers';
+import './builder/defenses/giant-cannon';
+import './builder/defenses/guard-post';
+import './builder/defenses/hidden-tesla';
+import './builder/defenses/lava-launcher';
+import './builder/defenses/mega-tesla';
+import './builder/defenses/multi-mortar';
+import './builder/defenses/ottos-outpost';
+import './builder/defenses/roaster';
+import './builder/defenses/x-bow';
 import './home/army-buildings';
 import './home/army-buildings/army-camp';
 import './home/army-buildings/barracks';

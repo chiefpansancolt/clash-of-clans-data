@@ -1,0 +1,140 @@
+{
+  "id": "cannon",
+  "name": "Cannon",
+  "description": "The iconic ground defense, built to last! This classic makes the Master Builder a bit sentimental.",
+  "base": "builder",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "ground",
+  "modes": {
+    "normal": {
+      "range": 8.5,
+      "attackSpeed": 0.8,
+      "damageType": "single"
+    }
+  },
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 1, "count": 1 },
+    { "builderHallLevel": 2, "count": 1 },
+    { "builderHallLevel": 3, "count": 2 },
+    { "builderHallLevel": 4, "count": 2 },
+    { "builderHallLevel": 5, "count": 2 },
+    { "builderHallLevel": 6, "count": 2 },
+    { "builderHallLevel": 7, "count": 3 },
+    { "builderHallLevel": 8, "count": 3 },
+    { "builderHallLevel": 9, "count": 3 },
+    { "builderHallLevel": 10, "count": 3 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 500,
+      "buildCost": 10000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 1, "seconds": 0 },
+      "xpGained": 7,
+      "builderHallRequired": 1,
+      "stats": { "normal": { "dps": 70, "damagePerShot": 56 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 575,
+      "buildCost": 20000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 5, "seconds": 0 },
+      "xpGained": 17,
+      "builderHallRequired": 3,
+      "stats": { "normal": { "dps": 77, "damagePerShot": 62 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 660,
+      "buildCost": 50000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "xpGained": 84,
+      "builderHallRequired": 3,
+      "stats": { "normal": { "dps": 85, "damagePerShot": 68 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 760,
+      "buildCost": 200000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "xpGained": 169,
+      "builderHallRequired": 4,
+      "stats": { "normal": { "dps": 93, "damagePerShot": 74 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 875,
+      "buildCost": 600000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 293,
+      "builderHallRequired": 5,
+      "stats": { "normal": { "dps": 102, "damagePerShot": 82 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1050,
+      "buildCost": 1000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 6,
+      "stats": { "normal": { "dps": 112, "damagePerShot": 90 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1250,
+      "buildCost": 1800000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "builderHallRequired": 7,
+      "stats": { "normal": { "dps": 123, "damagePerShot": 98 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 1450,
+      "buildCost": 2500000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 136, "damagePerShot": 109 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 1650,
+      "buildCost": 3300000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "builderHallRequired": 9,
+      "stats": { "normal": { "dps": 150, "damagePerShot": 120 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 1850,
+      "buildCost": 4500000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 881,
+      "builderHallRequired": 10,
+      "stats": { "normal": { "dps": 165, "damagePerShot": 132 } },
+      "images": { "normal": "images/builder/defenses/cannon/normal/level-10.png" }
+    }
+  ]
+}

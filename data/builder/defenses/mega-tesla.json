@@ -1,0 +1,135 @@
+{
+  "id": "mega-tesla",
+  "name": "Mega Tesla",
+  "description": "What happens when a Tesla goes Mega? Its powerful jolt deals heavy damage to even the toughest units!",
+  "base": "builder",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 7.5,
+      "attackSpeed": 4,
+      "damageType": "chain",
+      "maxChainTargets": 2,
+      "chainRange": 3
+    }
+  },
+  "availablePerBuilderHall": [
+    { "builderHallLevel": 8, "count": 1 },
+    { "builderHallLevel": 9, "count": 1 },
+    { "builderHallLevel": 10, "count": 1 }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 700,
+      "buildCost": 3000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 415,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 95, "damagePerShot": 380 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 800,
+      "buildCost": 3100000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 509,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 104, "damagePerShot": 416 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 950,
+      "buildCost": 3200000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 587,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 115, "damagePerShot": 460 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1100,
+      "buildCost": 3300000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 657,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 126, "damagePerShot": 504 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1300,
+      "buildCost": 3400000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 720,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 139, "damagePerShot": 556 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-5.png" }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1500,
+      "buildCost": 3600000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 777,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 153, "damagePerShot": 612 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-6.png" }
+    },
+    {
+      "level": 7,
+      "hitpoints": 1700,
+      "buildCost": 3800000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 831,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 168, "damagePerShot": 672 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-7.png" }
+    },
+    {
+      "level": 8,
+      "hitpoints": 1900,
+      "buildCost": 4000000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 929,
+      "builderHallRequired": 8,
+      "stats": { "normal": { "dps": 185, "damagePerShot": 740 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-8.png" }
+    },
+    {
+      "level": 9,
+      "hitpoints": 2150,
+      "buildCost": 4800000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 974,
+      "builderHallRequired": 9,
+      "stats": { "normal": { "dps": 204, "damagePerShot": 816 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-9.png" }
+    },
+    {
+      "level": 10,
+      "hitpoints": 2400,
+      "buildCost": 5800000,
+      "buildCostResource": "Builder Gold",
+      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 1018,
+      "builderHallRequired": 10,
+      "stats": { "normal": { "dps": 224, "damagePerShot": 896 } },
+      "images": { "normal": "images/builder/defenses/mega-tesla/normal/level-10.png" }
+    }
+  ]
+}
