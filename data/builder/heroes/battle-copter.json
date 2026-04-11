@@ -1,0 +1,361 @@
+{
+  "id": "battle-copter",
+  "name": "Battle Copter",
+  "description": "Get to the Copter! Tired of hammering through Walls, Master Builder's next-generation flying machine lets him soar over them. The Battle Copter attacks from afar with its powerful cannons; or can get up close and personal when using its Bomb Rush ability.",
+  "base": "builder",
+  "category": "hero",
+  "preferredTarget": "None",
+  "attackType": "Ranged (Ground & Air)",
+  "movementSpeed": 14,
+  "attackSpeed": 0.65,
+  "range": 7,
+  "specialAbility": "Bomb Rush",
+  "ability": {
+    "name": "Bomb Rush",
+    "cooldownPerChargeLevel": 14,
+    "movementSpeedDuringAbility": 56,
+    "levels": [
+      {
+        "abilityLevel": 1,
+        "chargeLevel1": {
+          "attackType": "Splash",
+          "damageRadius": 0.5,
+          "damage": 179,
+          "healthRecovery": 550
+        },
+        "chargeLevel2": {
+          "attackType": "Splash",
+          "damageRadius": 2,
+          "damage": 274,
+          "healthRecovery": 1100
+        },
+        "chargeLevel3": {
+          "attackType": "Splash",
+          "damageRadius": 4,
+          "damage": 368,
+          "healthRecovery": 1650
+        }
+      },
+      {
+        "abilityLevel": 2,
+        "chargeLevel1": {
+          "attackType": "Splash",
+          "damageRadius": 0.5,
+          "damage": 209,
+          "healthRecovery": 575
+        },
+        "chargeLevel2": {
+          "attackType": "Splash",
+          "damageRadius": 2,
+          "damage": 320,
+          "healthRecovery": 1150
+        },
+        "chargeLevel3": {
+          "attackType": "Splash",
+          "damageRadius": 4,
+          "damage": 430,
+          "healthRecovery": 1725
+        }
+      },
+      {
+        "abilityLevel": 3,
+        "chargeLevel1": {
+          "attackType": "Splash",
+          "damageRadius": 0.5,
+          "damage": 239,
+          "healthRecovery": 600
+        },
+        "chargeLevel2": {
+          "attackType": "Splash",
+          "damageRadius": 2,
+          "damage": 365,
+          "healthRecovery": 1200
+        },
+        "chargeLevel3": {
+          "attackType": "Splash",
+          "damageRadius": 4,
+          "damage": 491,
+          "healthRecovery": 1800
+        }
+      },
+      {
+        "abilityLevel": 4,
+        "chargeLevel1": {
+          "attackType": "Splash",
+          "damageRadius": 0.5,
+          "damage": 279,
+          "healthRecovery": 625
+        },
+        "chargeLevel2": {
+          "attackType": "Splash",
+          "damageRadius": 2,
+          "damage": 426,
+          "healthRecovery": 1250
+        },
+        "chargeLevel3": {
+          "attackType": "Splash",
+          "damageRadius": 4,
+          "damage": 573,
+          "healthRecovery": 1875
+        }
+      },
+      {
+        "abilityLevel": 5,
+        "chargeLevel1": {
+          "attackType": "Splash",
+          "damageRadius": 0.5,
+          "damage": 319,
+          "healthRecovery": 650
+        },
+        "chargeLevel2": {
+          "attackType": "Splash",
+          "damageRadius": 2,
+          "damage": 487,
+          "healthRecovery": 1300
+        },
+        "chargeLevel3": {
+          "attackType": "Splash",
+          "damageRadius": 4,
+          "damage": 655,
+          "healthRecovery": 1950
+        }
+      }
+    ]
+  },
+  "images": {
+    "icon": "images/builder/heroes/battle-copter/icon.png"
+  },
+  "levels": [
+    {
+      "level": 15,
+      "damagePerSecond": 112,
+      "damagePerHit": 72.8,
+      "hitpoints": 2857,
+      "abilityLevel": 1,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 2500000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 16,
+      "damagePerSecond": 116,
+      "damagePerHit": 75.4,
+      "hitpoints": 2885,
+      "abilityLevel": 1,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 2600000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 17,
+      "damagePerSecond": 119,
+      "damagePerHit": 77.35,
+      "hitpoints": 2915,
+      "abilityLevel": 1,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 2700000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 18,
+      "damagePerSecond": 123,
+      "damagePerHit": 79.95,
+      "hitpoints": 2943,
+      "abilityLevel": 1,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 2800000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 19,
+      "damagePerSecond": 126,
+      "damagePerHit": 81.9,
+      "hitpoints": 2972,
+      "abilityLevel": 1,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 2900000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 20,
+      "damagePerSecond": 130,
+      "damagePerHit": 84.5,
+      "hitpoints": 3003,
+      "abilityLevel": 2,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 3000000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 21,
+      "damagePerSecond": 134,
+      "damagePerHit": 87.1,
+      "hitpoints": 3032,
+      "abilityLevel": 2,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 3100000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 22,
+      "damagePerSecond": 137,
+      "damagePerHit": 89.05,
+      "hitpoints": 3062,
+      "abilityLevel": 2,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 3200000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 23,
+      "damagePerSecond": 141,
+      "damagePerHit": 91.65,
+      "hitpoints": 3094,
+      "abilityLevel": 2,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 3300000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 24,
+      "damagePerSecond": 144,
+      "damagePerHit": 93.6,
+      "hitpoints": 3124,
+      "abilityLevel": 2,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 3400000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 25,
+      "damagePerSecond": 148,
+      "damagePerHit": 96.2,
+      "hitpoints": 3155,
+      "abilityLevel": 3,
+      "builderHallLevelRequired": 8,
+      "upgradeCost": 3500000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 26,
+      "damagePerSecond": 153,
+      "damagePerHit": 99.45,
+      "hitpoints": 3187,
+      "abilityLevel": 3,
+      "builderHallLevelRequired": 9,
+      "upgradeCost": 3600000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 27,
+      "damagePerSecond": 157,
+      "damagePerHit": 102.05,
+      "hitpoints": 3220,
+      "abilityLevel": 3,
+      "builderHallLevelRequired": 9,
+      "upgradeCost": 3700000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 28,
+      "damagePerSecond": 162,
+      "damagePerHit": 105.3,
+      "hitpoints": 3252,
+      "abilityLevel": 3,
+      "builderHallLevelRequired": 9,
+      "upgradeCost": 3800000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 29,
+      "damagePerSecond": 166,
+      "damagePerHit": 107.9,
+      "hitpoints": 3285,
+      "abilityLevel": 3,
+      "builderHallLevelRequired": 9,
+      "upgradeCost": 3900000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 30,
+      "damagePerSecond": 171,
+      "damagePerHit": 111.15,
+      "hitpoints": 3318,
+      "abilityLevel": 4,
+      "builderHallLevelRequired": 9,
+      "upgradeCost": 4000000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 31,
+      "damagePerSecond": 175,
+      "damagePerHit": 113.75,
+      "hitpoints": 3348,
+      "abilityLevel": 4,
+      "builderHallLevelRequired": 10,
+      "upgradeCost": 4100000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 32,
+      "damagePerSecond": 180,
+      "damagePerHit": 117,
+      "hitpoints": 3375,
+      "abilityLevel": 4,
+      "builderHallLevelRequired": 10,
+      "upgradeCost": 4200000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 33,
+      "damagePerSecond": 184,
+      "damagePerHit": 119.6,
+      "hitpoints": 3402,
+      "abilityLevel": 4,
+      "builderHallLevelRequired": 10,
+      "upgradeCost": 4300000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 34,
+      "damagePerSecond": 189,
+      "damagePerHit": 122.85,
+      "hitpoints": 3429,
+      "abilityLevel": 4,
+      "builderHallLevelRequired": 10,
+      "upgradeCost": 4400000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    },
+    {
+      "level": 35,
+      "damagePerSecond": 193,
+      "damagePerHit": 125.45,
+      "hitpoints": 3456,
+      "abilityLevel": 5,
+      "builderHallLevelRequired": 10,
+      "upgradeCost": 4500000,
+      "upgradeCostResource": "Builder Elixir",
+      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+    }
+  ]
+}

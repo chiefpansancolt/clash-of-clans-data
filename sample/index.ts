@@ -24,6 +24,8 @@ import './builder/defenses/multi-mortar';
 import './builder/defenses/ottos-outpost';
 import './builder/defenses/roaster';
 import './builder/defenses/x-bow';
+import './builder/heroes/battle-copter';
+import './builder/heroes/battle-machine';
 import './builder/other/clock-tower';
 import './builder/resource-buildings/bob-control';
 import './builder/resource-buildings/elixir-collector';

@@ -1,5 +1,6 @@
 import { BuilderBaseArmyBuildings } from './army-buildings';
 import { BuilderBaseDefenses } from './defenses';
+import { BuilderBaseHeroes } from './heroes';
 import { BuilderBaseOtherBuildings } from './other';
 import { BuilderBaseResourceBuildings } from './resource-buildings';
 import { BuilderBaseTraps } from './traps';
@@ -8,6 +9,7 @@ import { BuilderBaseWalls } from './walls';
 
 export { BuilderBaseArmyBuildings } from './army-buildings';
 export { BuilderBaseDefenses } from './defenses';
+export { BuilderBaseHeroes } from './heroes';
 export { BuilderBaseOtherBuildings } from './other';
 export { BuilderBaseResourceBuildings } from './resource-buildings';
 export { BuilderBaseTraps } from './traps';
@@ -49,6 +51,11 @@ export class BuilderBase {
   /** Returns a query over Builder Base troops. */
   troops(): BuilderBaseTroops {
     return new BuilderBaseTroops();
+  }
+
+  /** Returns a query over Builder Base heroes. */
+  heroes(): BuilderBaseHeroes {
+    return new BuilderBaseHeroes();
   }
 }
 
