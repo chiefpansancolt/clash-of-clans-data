@@ -7,5 +7,7 @@
     "type": "super-troop",
     "durationDays": 3
   },
+  "maxCapacity": 5,
+  "sellingPrice": 10,
   "image": "images/magic-items/potions/super-potion.png"
 }

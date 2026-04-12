@@ -122,7 +122,8 @@ export interface MagicItem {
   description: string;
   itemType: MagicItemType;
   effect: MagicItemEffect;
-  /** Path to the item image. */
+  maxCapacity?: number;
+  sellingPrice?: number;
   image: string;
 }
 

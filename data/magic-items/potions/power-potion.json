@@ -9,5 +9,7 @@
     "durationHours": 1,
     "appliesTo": ["troops", "spells", "siege-machines"]
   },
+  "maxCapacity": 5,
+  "sellingPrice": 10,
   "image": "images/magic-items/potions/power-potion.png"
 }

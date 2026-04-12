@@ -7,5 +7,7 @@
     "type": "obstacle-move",
     "targets": "single-obstacle"
   },
+  "maxCapacity": 5,
+  "sellingPrice": 50,
   "image": "images/magic-items/utilities/shovel-of-obstacles.png"
 }

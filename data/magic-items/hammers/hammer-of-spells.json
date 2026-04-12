@@ -7,5 +7,7 @@
     "type": "instant-upgrade",
     "appliesTo": "spells"
   },
+  "maxCapacity": 1,
+  "sellingPrice": 100,
   "image": "images/magic-items/hammers/hammer-of-spells.png"
 }

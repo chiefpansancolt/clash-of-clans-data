@@ -8,5 +8,7 @@
     "homeVillageGoldEquivalent": 1000000,
     "builderBaseGoldEquivalent": 500000
   },
+  "maxCapacity": 25,
+  "sellingPrice": 5,
   "image": "images/magic-items/utilities/wall-ring.png"
 }

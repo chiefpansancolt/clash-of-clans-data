@@ -7,5 +7,7 @@
     "type": "instant-complete",
     "appliesTo": "spells"
   },
+  "maxCapacity": 1,
+  "sellingPrice": 50,
   "image": "images/magic-items/books/book-of-spells.png"
 }

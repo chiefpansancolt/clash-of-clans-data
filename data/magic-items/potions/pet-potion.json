@@ -9,5 +9,7 @@
     "durationHours": 1,
     "appliesTo": "pets"
   },
+  "maxCapacity": 5,
+  "sellingPrice": 10,
   "image": "images/magic-items/potions/pet-potion.png"
 }

@@ -9,5 +9,7 @@
     "durationHours": 1,
     "appliesTo": "builders"
   },
+  "maxCapacity": 5,
+  "sellingPrice": 10,
   "image": "images/magic-items/potions/builder-potion.png"
 }

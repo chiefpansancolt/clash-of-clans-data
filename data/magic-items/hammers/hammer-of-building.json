@@ -7,5 +7,7 @@
     "type": "instant-upgrade",
     "appliesTo": "buildings"
   },
+  "maxCapacity": 1,
+  "sellingPrice": 100,
   "image": "images/magic-items/hammers/hammer-of-building.png"
 }

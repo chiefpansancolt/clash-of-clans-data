@@ -7,5 +7,7 @@
     "type": "instant-complete",
     "appliesTo": "troops"
   },
+  "maxCapacity": 1,
+  "sellingPrice": 50,
   "image": "images/magic-items/books/book-of-fighting.png"
 }
