@@ -1,0 +1,73 @@
+{
+  "id": "frost-spell-factory",
+  "name": "Frost Spell Factory",
+  "base": "clan_capital",
+  "category": "army",
+  "size": "3x3",
+  "spellUnlocked": "Frost Spell",
+  "availablePerDistrict": [
+    { "district": "buildersWorkshop", "countPerDistrictHall": [0, 0, 1, 1, 1] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1000,
+      "buildCost": 15000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-factories/frost-spell-factory/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1150,
+      "buildCost": 30000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-factories/frost-spell-factory/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1300,
+      "buildCost": 60000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-factories/frost-spell-factory/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1450,
+      "buildCost": 120000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 4,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-factories/frost-spell-factory/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1600,
+      "buildCost": 250000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 5,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-factories/frost-spell-factory/normal/level-5.png"
+      }
+    }
+  ]
+}

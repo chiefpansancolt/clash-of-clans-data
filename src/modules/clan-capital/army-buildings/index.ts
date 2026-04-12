@@ -6,6 +6,7 @@ import {
 } from '@/types';
 import { armyCampData } from './army-camp';
 import { ClanCapitalBarracks } from './barracks';
+import { ClanCapitalSpellFactories } from './spell-factories';
 import { spellStorageData } from './spell-storage';
 
 type ClanCapitalArmyBuildingItem =
@@ -15,7 +16,7 @@ type ClanCapitalArmyBuildingItem =
 
 const allArmyBuildings: ClanCapitalArmyBuildingItem[] = [armyCampData, spellStorageData];
 
-export { ClanCapitalBarracks };
+export { ClanCapitalBarracks, ClanCapitalSpellFactories };
 
 /**
  * Query class for all Clan Capital army buildings.
@@ -36,6 +37,10 @@ export class ClanCapitalArmyBuildings extends QueryBase<ClanCapitalArmyBuildingI
 
   barracks(): ClanCapitalBarracks {
     return new ClanCapitalBarracks();
+  }
+
+  spellFactories(): ClanCapitalSpellFactories {
+    return new ClanCapitalSpellFactories();
   }
 
   /** Filter to army buildings available in the given district. */

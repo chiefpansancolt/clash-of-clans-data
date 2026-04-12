@@ -53,6 +53,7 @@ import './builder/troops/sneaky-archer';
 import './builder/walls/wall';
 import './clan-capital/army-buildings/army-camp';
 import './clan-capital/army-buildings/barracks';
+import './clan-capital/army-buildings/spell-factories';
 import './clan-capital/army-buildings/spell-storage';
 import './clan-capital/capital-hall';
 import './clan-capital/defenses/air-bombs';

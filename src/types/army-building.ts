@@ -218,3 +218,13 @@ export interface ClanCapitalBarracksBuilding extends Building<ClanCapitalBarrack
   troopUnlocked: string;
   availablePerDistrict: DistrictAvailability[];
 }
+
+export interface ClanCapitalSpellFactoryLevel extends BuildingLevel {
+  districtHallRequired: number;
+  images: { normal: string };
+}
+
+export interface ClanCapitalSpellFactory extends Building<ClanCapitalSpellFactoryLevel> {
+  spellUnlocked: string;
+  availablePerDistrict: DistrictAvailability[];
+}

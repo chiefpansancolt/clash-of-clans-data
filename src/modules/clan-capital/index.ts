@@ -4,7 +4,7 @@ import { ClanCapitalCapitalHall } from './halls/capital-hall';
 import { ClanCapitalDistrictHall } from './halls/district-hall';
 import { ClanCapitalWalls } from './walls';
 
-export { ClanCapitalArmyBuildings, ClanCapitalBarracks } from './army-buildings';
+export { ClanCapitalArmyBuildings, ClanCapitalBarracks, ClanCapitalSpellFactories } from './army-buildings';
 export { ClanCapitalCapitalHall } from './halls/capital-hall';
 export { ClanCapitalDefenses } from './defenses';
 export { ClanCapitalDistrictHall } from './halls/district-hall';
