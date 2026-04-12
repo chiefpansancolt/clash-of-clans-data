@@ -1,0 +1,45 @@
+{
+  "id": "endless-haste-spell",
+  "name": "Endless Haste Spell",
+  "description": "Speed up your troops forever with this spell! Cast this spell to create a Ring of Haste. Units who walk through the ring speed up for the rest of the fight!",
+  "base": "clan_capital",
+  "category": "spell",
+  "radius": 6,
+  "housingSpace": 3,
+  "durationAttacks": 4,
+  "requiredSpellFactory": "Endless Haste Spell Factory",
+  "levels": [
+    {
+      "level": 1,
+      "districtHallRequired": 1,
+      "speedIncrease": 7,
+      "images": {
+        "normal": "images/clan-capital/spells/endless-haste-spell/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "districtHallRequired": 2,
+      "speedIncrease": 8,
+      "images": {
+        "normal": "images/clan-capital/spells/endless-haste-spell/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "districtHallRequired": 3,
+      "speedIncrease": 9,
+      "images": {
+        "normal": "images/clan-capital/spells/endless-haste-spell/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "districtHallRequired": 4,
+      "speedIncrease": 10,
+      "images": {
+        "normal": "images/clan-capital/spells/endless-haste-spell/normal/level-4.png"
+      }
+    }
+  ]
+}

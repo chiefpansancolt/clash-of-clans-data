@@ -1,0 +1,52 @@
+{
+  "id": "jump-spell",
+  "name": "Jump Spell",
+  "description": "Walls and Water in your way? Cast this spell over them to create a route straight over. Your troops will jump over like there was nothing in their way!",
+  "base": "clan_capital",
+  "category": "spell",
+  "housingSpace": 1,
+  "durationAttacks": 2,
+  "requiredSpellFactory": "Jump Spell Factory",
+  "levels": [
+    {
+      "level": 1,
+      "districtHallRequired": 1,
+      "radius": 3.2,
+      "images": {
+        "normal": "images/clan-capital/spells/jump-spell/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "districtHallRequired": 2,
+      "radius": 3.4,
+      "images": {
+        "normal": "images/clan-capital/spells/jump-spell/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "districtHallRequired": 3,
+      "radius": 3.6,
+      "images": {
+        "normal": "images/clan-capital/spells/jump-spell/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "districtHallRequired": 4,
+      "radius": 3.8,
+      "images": {
+        "normal": "images/clan-capital/spells/jump-spell/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "districtHallRequired": 5,
+      "radius": 4,
+      "images": {
+        "normal": "images/clan-capital/spells/jump-spell/normal/level-5.png"
+      }
+    }
+  ]
+}

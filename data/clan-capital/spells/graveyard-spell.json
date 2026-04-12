@@ -1,0 +1,63 @@
+{
+  "id": "graveyard-spell",
+  "name": "Graveyard Spell",
+  "description": "Seriously spooky magic allows this Spell to raise the fallen! When any Troop falls on the battlefield this spell summons a number of Skeletons based on its housing space. Flying Troops result in flying Skeletons.",
+  "base": "clan_capital",
+  "category": "spell",
+  "housingSpace": 2,
+  "durationAttacks": 2,
+  "requiredSpellFactory": "Graveyard Spell Factory",
+  "skeletonStatsGround": {
+    "preferredTarget": "Any",
+    "targetsType": "ground",
+    "damagePerSecond": 25,
+    "damagePerHit": 25,
+    "hitpoints": 30,
+    "shieldHitpoints": 30,
+    "attackSpeed": 1,
+    "movementSpeed": 16
+  },
+  "skeletonStatsAir": {
+    "preferredTarget": "Any",
+    "targetsType": "both",
+    "damagePerSecond": 25,
+    "damagePerHit": 17.5,
+    "hitpoints": 30,
+    "attackSpeed": 0.7,
+    "movementSpeed": 9
+  },
+  "levels": [
+    {
+      "level": 1,
+      "districtHallRequired": 1,
+      "skeletonCount": 21,
+      "images": {
+        "normal": "images/clan-capital/spells/graveyard-spell/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "districtHallRequired": 2,
+      "skeletonCount": 24,
+      "images": {
+        "normal": "images/clan-capital/spells/graveyard-spell/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "districtHallRequired": 3,
+      "skeletonCount": 27,
+      "images": {
+        "normal": "images/clan-capital/spells/graveyard-spell/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "districtHallRequired": 4,
+      "skeletonCount": 29,
+      "images": {
+        "normal": "images/clan-capital/spells/graveyard-spell/normal/level-4.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "healing-spell",
+  "name": "Healing Spell",
+  "description": "Heal your troops to keep them in the fight! Cast this spell to create a Ring of Healing. Your units will be healed while they are inside this ring.",
+  "base": "clan_capital",
+  "category": "spell",
+  "radius": 4.5,
+  "housingSpace": 3,
+  "durationAttacks": 2,
+  "timeBetweenPulses": 0.3,
+  "requiredSpellFactory": "Heal Spell Factory",
+  "levels": [
+    {
+      "level": 1,
+      "districtHallRequired": 1,
+      "healingPerSecond": 80,
+      "healingPerPulse": 24,
+      "images": {
+        "normal": "images/clan-capital/spells/healing-spell/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "districtHallRequired": 2,
+      "healingPerSecond": 93,
+      "healingPerPulse": 28,
+      "images": {
+        "normal": "images/clan-capital/spells/healing-spell/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "districtHallRequired": 3,
+      "healingPerSecond": 106,
+      "healingPerPulse": 32,
+      "images": {
+        "normal": "images/clan-capital/spells/healing-spell/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "districtHallRequired": 4,
+      "healingPerSecond": 120,
+      "healingPerPulse": 36,
+      "images": {
+        "normal": "images/clan-capital/spells/healing-spell/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "districtHallRequired": 5,
+      "healingPerSecond": 133,
+      "healingPerPulse": 40,
+      "images": {
+        "normal": "images/clan-capital/spells/healing-spell/normal/level-5.png"
+      }
+    }
+  ]
+}

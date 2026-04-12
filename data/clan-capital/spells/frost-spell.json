@@ -1,0 +1,52 @@
+{
+  "id": "frost-spell",
+  "name": "Frost Spell",
+  "description": "Slow down enemies with or freeze water to walk over it with the Frost Spell.",
+  "base": "clan_capital",
+  "category": "spell",
+  "housingSpace": 3,
+  "durationAttacks": 2,
+  "requiredSpellFactory": "Frost Spell Factory",
+  "levels": [
+    {
+      "level": 1,
+      "districtHallRequired": 1,
+      "radius": 4.2,
+      "images": {
+        "normal": "images/clan-capital/spells/frost-spell/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "districtHallRequired": 2,
+      "radius": 4.4,
+      "images": {
+        "normal": "images/clan-capital/spells/frost-spell/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "districtHallRequired": 3,
+      "radius": 4.6,
+      "images": {
+        "normal": "images/clan-capital/spells/frost-spell/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "districtHallRequired": 4,
+      "radius": 4.8,
+      "images": {
+        "normal": "images/clan-capital/spells/frost-spell/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "districtHallRequired": 5,
+      "radius": 5,
+      "images": {
+        "normal": "images/clan-capital/spells/frost-spell/normal/level-5.png"
+      }
+    }
+  ]
+}

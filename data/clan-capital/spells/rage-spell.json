@@ -1,0 +1,58 @@
+{
+  "id": "rage-spell",
+  "name": "Rage Spell",
+  "description": "Enrage your units to make them bigger, faster and stronger! Cast this to create a Ring of Rage! Your units will gain speed and attack power while they are inside this ring.",
+  "base": "clan_capital",
+  "category": "spell",
+  "radius": 4.5,
+  "housingSpace": 3,
+  "durationAttacks": 2,
+  "requiredSpellFactory": "Rage Spell Factory",
+  "levels": [
+    {
+      "level": 1,
+      "districtHallRequired": 1,
+      "damageIncrease": 70,
+      "speedIncrease": 10,
+      "images": {
+        "normal": "images/clan-capital/spells/rage-spell/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "districtHallRequired": 2,
+      "damageIncrease": 80,
+      "speedIncrease": 12,
+      "images": {
+        "normal": "images/clan-capital/spells/rage-spell/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "districtHallRequired": 3,
+      "damageIncrease": 90,
+      "speedIncrease": 14,
+      "images": {
+        "normal": "images/clan-capital/spells/rage-spell/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "districtHallRequired": 4,
+      "damageIncrease": 100,
+      "speedIncrease": 16,
+      "images": {
+        "normal": "images/clan-capital/spells/rage-spell/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "districtHallRequired": 5,
+      "damageIncrease": 110,
+      "speedIncrease": 18,
+      "images": {
+        "normal": "images/clan-capital/spells/rage-spell/normal/level-5.png"
+      }
+    }
+  ]
+}

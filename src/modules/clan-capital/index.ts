@@ -3,6 +3,7 @@ import { ClanCapitalDefenses } from './defenses';
 import { ClanCapitalCapitalHall } from './halls/capital-hall';
 import { ClanCapitalDistrictHall } from './halls/district-hall';
 import { ClanCapitalOther } from './other';
+import { ClanCapitalSpells } from './spells';
 import { ClanCapitalWalls } from './walls';
 
 export {
@@ -14,6 +15,7 @@ export { ClanCapitalCapitalHall } from './halls/capital-hall';
 export { ClanCapitalDefenses } from './defenses';
 export { ClanCapitalDistrictHall } from './halls/district-hall';
 export { ClanCapitalHouses, ClanCapitalOther } from './other';
+export { ClanCapitalSpells } from './spells';
 export { ClanCapitalWalls } from './walls';
 
 /** Namespace for all Clan Capital entity queries. Use the {@link clanCapital} factory to create an instance. */
@@ -39,6 +41,11 @@ export class ClanCapital {
   /** Returns a query over Clan Capital other buildings (houses, etc.). */
   other(): ClanCapitalOther {
     return new ClanCapitalOther();
+  }
+
+  /** Returns a query over all Clan Capital spells. */
+  spells(): ClanCapitalSpells {
+    return new ClanCapitalSpells();
   }
 
   /** Returns a query over Clan Capital wall data. */

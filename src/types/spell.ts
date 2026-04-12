@@ -79,7 +79,25 @@ export interface HomeSpell {
 export interface ClanCapitalSpellLevel {
   level: number;
   districtHallRequired: number;
+  radius?: number;
+  damage?: number;
+  damageIncrease?: number;
+  speedIncrease?: number;
+  healingPerSecond?: number;
+  healingPerPulse?: number;
+  skeletonCount?: number;
   images: { normal: string };
+}
+
+export interface ClanCapitalSkeletonStats {
+  preferredTarget: string;
+  targetsType: 'ground' | 'both';
+  damagePerSecond: number;
+  damagePerHit: number;
+  hitpoints: number;
+  shieldHitpoints?: number;
+  attackSpeed: number;
+  movementSpeed: number;
 }
 
 export interface ClanCapitalSpell {
@@ -88,7 +106,13 @@ export interface ClanCapitalSpell {
   description?: string;
   base: 'clan_capital';
   category: 'spell';
-  radius: number;
+  radius?: number;
   housingSpace: number;
+  durationAttacks?: number;
+  timeBetweenPulses?: number;
+  stunDuration?: number;
+  requiredSpellFactory?: string;
+  skeletonStatsGround?: ClanCapitalSkeletonStats;
+  skeletonStatsAir?: ClanCapitalSkeletonStats;
   levels: ClanCapitalSpellLevel[];
 }
