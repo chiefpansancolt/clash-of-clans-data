@@ -1,0 +1,70 @@
+[
+  {
+    "id": "building-upgrade",
+    "name": "Start any building upgrade",
+    "notes": [
+      "Can be done in either Home Village or Builder Base.",
+      "Also awarded if a building construction is started.",
+      "Does not apply to Wall upgrades.",
+      "If a building upgrade is cancelled and restarted, the restarted upgrade will not award a stamp."
+    ],
+    "image": "images/season-pass/challenges/building-upgrade.png"
+  },
+  {
+    "id": "troop-upgrade",
+    "name": "Start any troop upgrade",
+    "notes": [
+      "Can be done in either Home Village or Builder Base."
+    ],
+    "image": "images/season-pass/challenges/troop-upgrade.png"
+  },
+  {
+    "id": "hero-pet-upgrade",
+    "name": "Start any Hero or Pet upgrade",
+    "notes": [
+      "Can be done in either Home Village or Builder Base.",
+      "Rebuilding the Battle Machine counts as a building construction, so that stamp is awarded instead."
+    ],
+    "image": "images/season-pass/challenges/hero-pet-upgrade.png"
+  },
+  {
+    "id": "donate-reinforcements",
+    "name": "Donate reinforcements",
+    "notes": [
+      "Only one stamp can be earned per request, so donating multiple units will not give multiple copies."
+    ],
+    "image": "images/season-pass/challenges/donate-reinforcements.png"
+  },
+  {
+    "id": "star-bonus",
+    "name": "Complete a Star Bonus",
+    "notes": [
+      "Can be done in either Home Village or Builder Base."
+    ],
+    "image": "images/season-pass/challenges/star-bonus.png"
+  },
+  {
+    "id": "win-battle",
+    "name": "Win a battle",
+    "notes": [
+      "Can be done in either Home Village or Builder Base. A win in the Builder Base is defined as scoring at least one star.",
+      "Can also be done in Home Village Friendly Challenges, and single-player battles (including Practice Mode battles, Attack Challenges and the Super Sauna playground level)."
+    ],
+    "image": "images/season-pass/challenges/win-battle.png"
+  },
+  {
+    "id": "destroy-town-hall",
+    "name": "Destroy a Town Hall",
+    "notes": [
+      "Can be done in either Home Village or Builder Base. In the latter case, destroying a Builder Hall qualifies, but not an O.T.T.O's Outpost.",
+      "Can also be done in Home Village Friendly Challenges, and single-player battles (including Practice Mode battles, Attack Challenges and the Super Sauna playground level)."
+    ],
+    "image": "images/season-pass/challenges/destroy-town-hall.png"
+  },
+  {
+    "id": "request-reinforcements",
+    "name": "Request reinforcements",
+    "notes": [],
+    "image": "images/season-pass/challenges/request-reinforcements.png"
+  }
+]

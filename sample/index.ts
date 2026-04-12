@@ -3,6 +3,7 @@
  * Run with: pnpm sample
  */
 import './calculators';
+import './season-pass';
 import './magic-items';
 import './magic-items/snacks';
 import './magic-items/potions';

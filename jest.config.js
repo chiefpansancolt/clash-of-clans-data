@@ -14,5 +14,7 @@ module.exports = {
     '^@/calculators/(.*)$': '<rootDir>/src/modules/calculators/$1',
     '^@/magic-items$': '<rootDir>/src/modules/magic-items/index.ts',
     '^@/magic-items/(.*)$': '<rootDir>/src/modules/magic-items/$1',
+    '^@/season-pass$': '<rootDir>/src/modules/season-pass/index.ts',
+    '^@/season-pass/(.*)$': '<rootDir>/src/modules/season-pass/$1',
   },
 };
