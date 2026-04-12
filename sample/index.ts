@@ -78,6 +78,7 @@ import './clan-capital/defenses/super-dragon-post';
 import './clan-capital/defenses/super-giant-post';
 import './clan-capital/defenses/super-wizard-tower';
 import './clan-capital/district-hall';
+import './clan-capital/other/houses';
 import './clan-capital/walls';
 import './home/army-buildings';
 import './home/army-buildings/army-camp';

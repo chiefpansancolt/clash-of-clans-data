@@ -19,7 +19,9 @@ for (const sf of spellFactories.get() as ClanCapitalSpellFactory[]) {
   log(`size:              ${sf.size}`);
   log(`district:          ${sf.availablePerDistrict.map((d) => d.district).join(', ')}`);
   log(`levels:            ${sf.levels.length}`);
-  log(`HP range:          ${sf.levels[0].hitpoints} – ${sf.levels[sf.levels.length - 1].hitpoints}`);
+  log(
+    `HP range:          ${sf.levels[0].hitpoints} – ${sf.levels[sf.levels.length - 1].hitpoints}`,
+  );
 
   log('Lv  HP      Build Cost  DH Req');
   for (const lvl of sf.levels) {

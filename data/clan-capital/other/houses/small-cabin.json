@@ -1,0 +1,28 @@
+{
+  "id": "small-cabin",
+  "name": "Small Cabin",
+  "description": "For the villagers who like their houses fair and square.",
+  "base": "clan_capital",
+  "category": "other",
+  "size": "2x2",
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [3, 5, 5, 5, 5] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [4, 6, 8, 10, 10] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [4, 4, 4, 4, 4] },
+    { "district": "skeletonPark", "countPerDistrictHall": [3, 3, 3, 4] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 400,
+      "buildCost": 250,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "images": {
+        "normal": "images/clan-capital/other/houses/small-cabin/normal/level-1.png",
+        "ruin": "images/clan-capital/other/houses/small-cabin/ruin/level-1.png"
+      }
+    }
+  ]
+}

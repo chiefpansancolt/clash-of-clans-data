@@ -1,5 +1,5 @@
 import { Building, BuildingLevel } from './building';
-import { BuilderHallAvailability, TownHallAvailability } from './common';
+import { BuilderHallAvailability, DistrictAvailability, TownHallAvailability } from './common';
 
 export interface OtherBuildingLevel extends BuildingLevel {
   townHallRequired?: number;
@@ -79,3 +79,14 @@ export interface BuilderClockTowerBuilding extends Building<BuilderClockTowerBui
 }
 
 export type BuilderOtherBuilding = BuilderClockTowerBuilding;
+
+export interface ClanCapitalHouseLevel extends BuildingLevel {
+  images: {
+    normal: string;
+    ruin: string;
+  };
+}
+
+export interface ClanCapitalHouse extends Building<ClanCapitalHouseLevel> {
+  availablePerDistrict: DistrictAvailability[];
+}

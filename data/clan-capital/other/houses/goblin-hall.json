@@ -1,0 +1,23 @@
+{
+  "id": "goblin-hall",
+  "name": "Goblin Hall",
+  "description": "An eerily quiet Goblin Hall, free from the usual sounds of scheming and clinking gold.",
+  "base": "clan_capital",
+  "category": "other",
+  "size": "3x3",
+  "availablePerDistrict": [{ "district": "goblinMines", "countPerDistrictHall": [1, 1, 1, 1] }],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 900,
+      "buildCost": 1000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "images": {
+        "normal": "images/clan-capital/other/houses/goblin-hall/normal/level-1.png",
+        "ruin": "images/clan-capital/other/houses/goblin-hall/ruin/level-1.png"
+      }
+    }
+  ]
+}

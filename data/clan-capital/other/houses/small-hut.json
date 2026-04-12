@@ -1,0 +1,29 @@
+{
+  "id": "small-hut",
+  "name": "Small Hut",
+  "description": "A quaint little house. Not for tall people.",
+  "base": "clan_capital",
+  "category": "other",
+  "size": "2x2",
+  "availablePerDistrict": [
+    { "district": "wizardValley", "countPerDistrictHall": [7, 8, 10, 10, 10] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [0, 0, 3, 6, 8] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [0, 2, 4, 6, 8] },
+    { "district": "golemQuarry", "countPerDistrictHall": [0, 0, 0, 2, 4] },
+    { "district": "skeletonPark", "countPerDistrictHall": [2, 2, 3, 3] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 400,
+      "buildCost": 250,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "images": {
+        "normal": "images/clan-capital/other/houses/small-hut/normal/level-1.png",
+        "ruin": "images/clan-capital/other/houses/small-hut/ruin/level-1.png"
+      }
+    }
+  ]
+}

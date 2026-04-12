@@ -1,0 +1,23 @@
+{
+  "id": "goblin-outpost",
+  "name": "Goblin Outpost",
+  "description": "An abandoned Goblin outpost. Where'd everyone go?",
+  "base": "clan_capital",
+  "category": "other",
+  "size": "2x2",
+  "availablePerDistrict": [{ "district": "goblinMines", "countPerDistrictHall": [9, 9, 9, 9] }],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 650,
+      "buildCost": 500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "images": {
+        "normal": "images/clan-capital/other/houses/goblin-outpost/normal/level-1.png",
+        "ruin": "images/clan-capital/other/houses/goblin-outpost/ruin/level-1.png"
+      }
+    }
+  ]
+}

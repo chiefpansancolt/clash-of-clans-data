@@ -1,0 +1,26 @@
+{
+  "id": "slanted-house",
+  "name": "Slanted House",
+  "description": "The roof works well to keep snow from piling up, but makes interior decorating a pain.",
+  "base": "clan_capital",
+  "category": "other",
+  "size": "3x3",
+  "availablePerDistrict": [
+    { "district": "buildersWorkshop", "countPerDistrictHall": [6, 8, 8, 8, 8] },
+    { "district": "golemQuarry", "countPerDistrictHall": [2, 4, 4, 4, 4] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 650,
+      "buildCost": 500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "images": {
+        "normal": "images/clan-capital/other/houses/slanted-house/normal/level-1.png",
+        "ruin": "images/clan-capital/other/houses/slanted-house/ruin/level-1.png"
+      }
+    }
+  ]
+}

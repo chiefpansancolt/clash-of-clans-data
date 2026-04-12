@@ -1,0 +1,23 @@
+{
+  "id": "goblin-hut",
+  "name": "Goblin Hut",
+  "description": "An empty Goblin hut. Maybe it's for sale?",
+  "base": "clan_capital",
+  "category": "other",
+  "size": "2x2",
+  "availablePerDistrict": [{ "district": "goblinMines", "countPerDistrictHall": [11, 11, 11, 11] }],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 650,
+      "buildCost": 500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "images": {
+        "normal": "images/clan-capital/other/houses/goblin-hut/normal/level-1.png",
+        "ruin": "images/clan-capital/other/houses/goblin-hut/ruin/level-1.png"
+      }
+    }
+  ]
+}

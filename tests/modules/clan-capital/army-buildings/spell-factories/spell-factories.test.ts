@@ -17,7 +17,9 @@ describe('ClanCapitalSpellFactories', () => {
   });
 
   it('spellFactories() returns a ClanCapitalSpellFactories instance', () => {
-    expect(clanCapital().armyBuildings().spellFactories()).toBeInstanceOf(ClanCapitalSpellFactories);
+    expect(clanCapital().armyBuildings().spellFactories()).toBeInstanceOf(
+      ClanCapitalSpellFactories,
+    );
   });
 
   it('healSpellFactory() returns 1 item', () => {
@@ -45,30 +47,44 @@ describe('ClanCapitalSpellFactories', () => {
   });
 
   it('endlessHasteSpellFactory() returns 1 item', () => {
-    expect(clanCapital().armyBuildings().spellFactories().endlessHasteSpellFactory().count()).toBe(1);
+    expect(clanCapital().armyBuildings().spellFactories().endlessHasteSpellFactory().count()).toBe(
+      1,
+    );
   });
 
   it('byDistrict("wizardValley") returns 2 spell factories', () => {
-    expect(clanCapital().armyBuildings().spellFactories().byDistrict('wizardValley').count()).toBe(2);
+    expect(clanCapital().armyBuildings().spellFactories().byDistrict('wizardValley').count()).toBe(
+      2,
+    );
   });
 
   it('byDistrict("balloonLagoon") returns 1 spell factory', () => {
-    expect(clanCapital().armyBuildings().spellFactories().byDistrict('balloonLagoon').count()).toBe(1);
+    expect(clanCapital().armyBuildings().spellFactories().byDistrict('balloonLagoon').count()).toBe(
+      1,
+    );
   });
 
   it('byDistrict("buildersWorkshop") returns 1 spell factory', () => {
-    expect(clanCapital().armyBuildings().spellFactories().byDistrict('buildersWorkshop').count()).toBe(1);
+    expect(
+      clanCapital().armyBuildings().spellFactories().byDistrict('buildersWorkshop').count(),
+    ).toBe(1);
   });
 
   it('byDistrict("dragonCliffs") returns 1 spell factory', () => {
-    expect(clanCapital().armyBuildings().spellFactories().byDistrict('dragonCliffs').count()).toBe(1);
+    expect(clanCapital().armyBuildings().spellFactories().byDistrict('dragonCliffs').count()).toBe(
+      1,
+    );
   });
 
   it('byDistrict("skeletonPark") returns 1 spell factory', () => {
-    expect(clanCapital().armyBuildings().spellFactories().byDistrict('skeletonPark').count()).toBe(1);
+    expect(clanCapital().armyBuildings().spellFactories().byDistrict('skeletonPark').count()).toBe(
+      1,
+    );
   });
 
   it('byDistrict("goblinMines") returns 1 spell factory', () => {
-    expect(clanCapital().armyBuildings().spellFactories().byDistrict('goblinMines').count()).toBe(1);
+    expect(clanCapital().armyBuildings().spellFactories().byDistrict('goblinMines').count()).toBe(
+      1,
+    );
   });
 });

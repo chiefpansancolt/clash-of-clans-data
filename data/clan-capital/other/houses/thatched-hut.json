@@ -1,0 +1,26 @@
+{
+  "id": "thatched-hut",
+  "name": "Thatched Hut",
+  "description": "Occupied by Barbarians. Shoddy craftmanship. Highly flammable.",
+  "base": "clan_capital",
+  "category": "other",
+  "size": "3x3",
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [6, 7, 7, 9, 9] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [4, 6, 8, 8, 8] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 650,
+      "buildCost": 500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "images": {
+        "normal": "images/clan-capital/other/houses/thatched-hut/normal/level-1.png",
+        "ruin": "images/clan-capital/other/houses/thatched-hut/ruin/level-1.png"
+      }
+    }
+  ]
+}
