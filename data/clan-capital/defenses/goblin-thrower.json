@@ -1,0 +1,76 @@
+{
+  "id": "goblin-thrower",
+  "name": "Goblin Thrower",
+  "description": "This piece of fine Goblin handiwork rapidly throws Goblin-filled barrels at attackers, those Goblins then throw sharp spears at the attackers. But what do the spears throw?",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "ground",
+  "modes": {
+    "normal": {
+      "range": 9,
+      "attackSpeed": 4,
+      "damageType": "splash",
+      "numberOfRounds": 5
+    }
+  },
+  "availablePerDistrict": [{ "district": "goblinMines", "countPerDistrictHall": [3, 3, 4, 4] }],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 3100,
+      "buildCost": 16000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 1,
+      "troopLevel": 1,
+      "stats": {
+        "normal": { "dps": 18, "damagePerShot": 72 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/goblin-thrower/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 3400,
+      "buildCost": 32000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 2,
+      "troopLevel": 2,
+      "stats": {
+        "normal": { "dps": 20, "damagePerShot": 80 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/goblin-thrower/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 3700,
+      "buildCost": 64000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 3,
+      "troopLevel": 3,
+      "stats": {
+        "normal": { "dps": 22, "damagePerShot": 88 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/goblin-thrower/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 4000,
+      "buildCost": 99000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 4,
+      "troopLevel": 4,
+      "stats": {
+        "normal": { "dps": 25, "damagePerShot": 100 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/goblin-thrower/normal/level-4.png" }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "super-giant-post",
+  "name": "Super Giant Post",
+  "description": "Super Giants are ready to deliver a solid punch to any intruding troops.",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "ground",
+  "modes": {
+    "normal": {
+      "range": 0,
+      "attackSpeed": 0,
+      "damageType": "none"
+    }
+  },
+  "defendingTroops": [{ "name": "Super Giant", "count": 2 }],
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 0 },
+    { "capitalHallLevel": 4, "count": 0 },
+    { "capitalHallLevel": 5, "count": 0 },
+    { "capitalHallLevel": 6, "count": 0 },
+    { "capitalHallLevel": 7, "count": 0 },
+    { "capitalHallLevel": 8, "count": 1 },
+    { "capitalHallLevel": 9, "count": 1 },
+    { "capitalHallLevel": 10, "count": 1 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [0, 2, 3, 3, 3] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 800,
+      "buildCost": 7500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 2,
+      "troopLevel": 1,
+      "stats": {
+        "normal": {}
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-giant-post/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 920,
+      "buildCost": 15000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 2,
+      "troopLevel": 2,
+      "stats": {
+        "normal": {}
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-giant-post/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1065,
+      "buildCost": 30000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 3,
+      "troopLevel": 3,
+      "stats": {
+        "normal": {}
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-giant-post/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1225,
+      "buildCost": 48000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 4,
+      "troopLevel": 4,
+      "stats": {
+        "normal": {}
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-giant-post/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1400,
+      "buildCost": 80000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "troopLevel": 5,
+      "stats": {
+        "normal": {}
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-giant-post/normal/level-5.png" }
+    }
+  ]
+}

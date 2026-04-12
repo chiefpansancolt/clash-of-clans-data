@@ -1,0 +1,181 @@
+{
+  "id": "capital-hall",
+  "name": "Capital Hall",
+  "description": "The heart of the Capital! Upgrade to unlock new Districts and additional building upgrades in Capital Peak.",
+  "base": "clan_capital",
+  "category": "capital-hall",
+  "size": "6x6",
+  "weaponMode": {
+    "range": 15,
+    "attackSpeed": 8,
+    "damageType": "splash",
+    "targetType": "both"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 10000,
+      "buildCost": 0,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "maxBuildings": 63,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 14000,
+      "buildCost": 50000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalUpgradesRequired": 15,
+      "newCapitalUpgradesRequired": 15,
+      "maxBuildings": 66,
+      "dps": 80,
+      "damagePerShot": 640,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-2.png",
+        "active": "images/clan-capital/halls/capital-hall/active/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 18000,
+      "buildCost": 75000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalUpgradesRequired": 65,
+      "newCapitalUpgradesRequired": 50,
+      "maxBuildings": 71,
+      "dps": 100,
+      "damagePerShot": 800,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-3.png",
+        "active": "images/clan-capital/halls/capital-hall/active/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 22000,
+      "buildCost": 100000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalUpgradesRequired": 165,
+      "newCapitalUpgradesRequired": 100,
+      "maxBuildings": 77,
+      "dps": 120,
+      "damagePerShot": 960,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-4.png",
+        "active": "images/clan-capital/halls/capital-hall/active/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 25000,
+      "buildCost": 150000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalUpgradesRequired": 285,
+      "newCapitalUpgradesRequired": 120,
+      "maxBuildings": 83,
+      "dps": 140,
+      "damagePerShot": 1120,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-5.png",
+        "active": "images/clan-capital/halls/capital-hall/active/level-5.png"
+      }
+    },
+    {
+      "level": 6,
+      "hitpoints": 28000,
+      "buildCost": 200000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalUpgradesRequired": 480,
+      "newCapitalUpgradesRequired": 195,
+      "maxBuildings": 89,
+      "dps": 160,
+      "damagePerShot": 1280,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-6.png",
+        "active": "images/clan-capital/halls/capital-hall/active/level-6.png"
+      }
+    },
+    {
+      "level": 7,
+      "hitpoints": 31000,
+      "buildCost": 400000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalUpgradesRequired": 670,
+      "newCapitalUpgradesRequired": 190,
+      "maxBuildings": 94,
+      "dps": 190,
+      "damagePerShot": 1520,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-7.png",
+        "active": "images/clan-capital/halls/capital-hall/active/level-7.png"
+      }
+    },
+    {
+      "level": 8,
+      "hitpoints": 34000,
+      "buildCost": 600000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalUpgradesRequired": 1090,
+      "newCapitalUpgradesRequired": 420,
+      "maxBuildings": 96,
+      "dps": 220,
+      "damagePerShot": 1760,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-8.png",
+        "active": "images/clan-capital/halls/capital-hall/active/level-8.png"
+      }
+    },
+    {
+      "level": 9,
+      "hitpoints": 37000,
+      "buildCost": 800000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalUpgradesRequired": 1500,
+      "newCapitalUpgradesRequired": 410,
+      "maxBuildings": 98,
+      "dps": 250,
+      "damagePerShot": 2000,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-9.png",
+        "active": "images/clan-capital/halls/capital-hall/active/level-9.png"
+      }
+    },
+    {
+      "level": 10,
+      "hitpoints": 40000,
+      "buildCost": 1000000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalUpgradesRequired": 2000,
+      "newCapitalUpgradesRequired": 500,
+      "maxBuildings": 100,
+      "dps": 280,
+      "damagePerShot": 2240,
+      "images": {
+        "normal": "images/clan-capital/halls/capital-hall/normal/level-10.png",
+        "active": "images/clan-capital/halls/capital-hall/active/level-10.png"
+      }
+    }
+  ]
+}

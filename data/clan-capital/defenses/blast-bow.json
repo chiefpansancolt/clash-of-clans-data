@@ -1,0 +1,107 @@
+{
+  "id": "blast-bow",
+  "name": "Blast Bow",
+  "description": "Blast Bow finally gives a definitive answer to an age-old question: how dangerous would arrows the size of tree trunks be? Perhaps not surprisingly, very dangerous.",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "4x4",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 14,
+      "minRange": 3.5,
+      "attackSpeed": 4,
+      "damageType": "splash"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 0 },
+    { "capitalHallLevel": 4, "count": 0 },
+    { "capitalHallLevel": 5, "count": 0 },
+    { "capitalHallLevel": 6, "count": 1 },
+    { "capitalHallLevel": 7, "count": 1 },
+    { "capitalHallLevel": 8, "count": 1 },
+    { "capitalHallLevel": 9, "count": 1 },
+    { "capitalHallLevel": 10, "count": 2 }
+  ],
+  "availablePerDistrict": [
+    { "district": "buildersWorkshop", "countPerDistrictHall": [0, 1, 1, 1, 2] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [1, 1, 1, 1, 1] },
+    { "district": "golemQuarry", "countPerDistrictHall": [1, 1, 2, 2, 3] },
+    { "district": "goblinMines", "countPerDistrictHall": [0, 0, 0, 1] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 4800,
+      "buildCost": 20000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 170, "damagePerShot": 680 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/blast-bow/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 5400,
+      "buildCost": 40000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 7,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 185, "damagePerShot": 740 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/blast-bow/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 6000,
+      "buildCost": 80000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 200, "damagePerShot": 800 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/blast-bow/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 6600,
+      "buildCost": 133000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 215, "damagePerShot": 860 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/blast-bow/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 7200,
+      "buildCost": 205000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 230, "damagePerShot": 920 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/blast-bow/normal/level-5.png" }
+    }
+  ]
+}

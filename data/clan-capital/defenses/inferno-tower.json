@@ -1,0 +1,106 @@
+{
+  "id": "inferno-tower",
+  "name": "Inferno Tower",
+  "description": "Bane of all big troops, the Inferno Tower can deal devastating damage to units it stays focused on.",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 9,
+      "attackSpeed": 0.128,
+      "damageType": "single"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 0 },
+    { "capitalHallLevel": 4, "count": 0 },
+    { "capitalHallLevel": 5, "count": 0 },
+    { "capitalHallLevel": 6, "count": 1 },
+    { "capitalHallLevel": 7, "count": 1 },
+    { "capitalHallLevel": 8, "count": 1 },
+    { "capitalHallLevel": 9, "count": 2 },
+    { "capitalHallLevel": 10, "count": 2 }
+  ],
+  "availablePerDistrict": [
+    { "district": "wizardValley", "countPerDistrictHall": [0, 0, 2, 2, 3] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [0, 0, 2, 2, 2] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [1, 2, 2, 2, 2] },
+    { "district": "goblinMines", "countPerDistrictHall": [0, 0, 1, 1] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 3600,
+      "buildCost": 15000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 200, "dpsAfter2p5s": 500, "dpsAfter7p5s": 2000 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/inferno-tower/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 4000,
+      "buildCost": 30000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 7,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 230, "dpsAfter2p5s": 575, "dpsAfter7p5s": 2300 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/inferno-tower/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 4400,
+      "buildCost": 60000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 260, "dpsAfter2p5s": 650, "dpsAfter7p5s": 2600 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/inferno-tower/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 4800,
+      "buildCost": 93000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 290, "dpsAfter2p5s": 725, "dpsAfter7p5s": 2900 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/inferno-tower/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 5200,
+      "buildCost": 155000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 320, "dpsAfter2p5s": 800, "dpsAfter7p5s": 3200 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/inferno-tower/normal/level-5.png" }
+    }
+  ]
+}

@@ -57,3 +57,24 @@ export interface DistrictHallAvailability {
   districtHallLevel: number;
   count: number;
 }
+
+export interface CapitalHallAvailability {
+  capitalHallLevel: number;
+  count: number;
+}
+
+export type ClanCapitalDistrict =
+  | 'barbarianCamp'
+  | 'wizardValley'
+  | 'balloonLagoon'
+  | 'buildersWorkshop'
+  | 'dragonCliffs'
+  | 'golemQuarry'
+  | 'skeletonPark'
+  | 'goblinMines';
+
+/** Counts indexed by District Hall level minus 1 (index 0 = DH1, index 1 = DH2, etc.). */
+export interface DistrictAvailability {
+  district: ClanCapitalDistrict;
+  countPerDistrictHall: number[];
+}

@@ -1,0 +1,108 @@
+{
+  "id": "super-wizard-tower",
+  "name": "Super Wizard Tower",
+  "description": "Super Wizards' electrickery is shockingly powerful against swarms of attackers, as it bounces to everyone too close to the initial target.",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 5.5,
+      "attackSpeed": 2,
+      "damageType": "chain",
+      "maxChainTargets": 9
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 1 },
+    { "capitalHallLevel": 4, "count": 2 },
+    { "capitalHallLevel": 5, "count": 2 },
+    { "capitalHallLevel": 6, "count": 2 },
+    { "capitalHallLevel": 7, "count": 2 },
+    { "capitalHallLevel": 8, "count": 2 },
+    { "capitalHallLevel": 9, "count": 2 },
+    { "capitalHallLevel": 10, "count": 2 }
+  ],
+  "availablePerDistrict": [
+    { "district": "wizardValley", "countPerDistrictHall": [4, 4, 5, 6, 6] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [2, 2, 2, 2, 2] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [2, 3, 4, 4, 4] },
+    { "district": "skeletonPark", "countPerDistrictHall": [4, 4, 4, 4] },
+    { "district": "goblinMines", "countPerDistrictHall": [0, 1, 2, 2] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1800,
+      "buildCost": 6500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 3,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 60, "damagePerShot": 120, "secondaryChainDamagePerShot": 48 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-wizard-tower/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 2100,
+      "buildCost": 13000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 70, "damagePerShot": 140, "secondaryChainDamagePerShot": 56 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-wizard-tower/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2400,
+      "buildCost": 26000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 80, "damagePerShot": 160, "secondaryChainDamagePerShot": 64 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-wizard-tower/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2700,
+      "buildCost": 42000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 90, "damagePerShot": 180, "secondaryChainDamagePerShot": 72 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-wizard-tower/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 3000,
+      "buildCost": 70000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 100, "damagePerShot": 200, "secondaryChainDamagePerShot": 80 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/super-wizard-tower/normal/level-5.png" }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "air-bombs",
+  "name": "Air Bombs",
+  "description": "For heavyweight air defense, Air Bombs do the trick. An endless supply of explosive barrels launch into the sky to ravage flying enemies!",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "air",
+  "modes": {
+    "normal": {
+      "range": 8.5,
+      "attackSpeed": 3,
+      "damageType": "splash"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 1 },
+    { "capitalHallLevel": 4, "count": 2 },
+    { "capitalHallLevel": 5, "count": 2 },
+    { "capitalHallLevel": 6, "count": 2 },
+    { "capitalHallLevel": 7, "count": 2 },
+    { "capitalHallLevel": 8, "count": 2 },
+    { "capitalHallLevel": 9, "count": 2 },
+    { "capitalHallLevel": 10, "count": 2 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [0, 2, 2, 3, 3] },
+    { "district": "wizardValley", "countPerDistrictHall": [1, 2, 3, 3, 3] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [2, 2, 2, 3, 4] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [2, 3, 3, 3, 3] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [2, 2, 2, 2, 2] },
+    { "district": "golemQuarry", "countPerDistrictHall": [2, 2, 2, 2, 2] },
+    { "district": "skeletonPark", "countPerDistrictHall": [1, 2, 3, 3] },
+    { "district": "goblinMines", "countPerDistrictHall": [1, 2, 2, 2] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 2300,
+      "buildCost": 6000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 3,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 225, "damagePerShot": 675 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-bombs/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 2550,
+      "buildCost": 12000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 250, "damagePerShot": 750 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-bombs/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2700,
+      "buildCost": 24000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 275, "damagePerShot": 825 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-bombs/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2950,
+      "buildCost": 39000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 300, "damagePerShot": 900 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-bombs/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 3200,
+      "buildCost": 65000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 325, "damagePerShot": 975 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-bombs/normal/level-5.png" }
+    }
+  ]
+}

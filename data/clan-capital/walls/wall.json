@@ -1,0 +1,102 @@
+{
+  "id": "wall",
+  "name": "Wall",
+  "description": "Walls protect districts and keep enemies at bay. A district's Walls are always the same level and upgrade at the same time. Build together, battle together, upgrade walls together!",
+  "base": "clan_capital",
+  "category": "wall",
+  "size": "1x1",
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 5000,
+      "buildCost": 0,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 1,
+      "districtHallRequired": 1,
+      "images": {
+        "normal": "images/clan-capital/walls/wall/normal/level-1.png",
+        "corner": "images/clan-capital/walls/wall/corner/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 6500,
+      "buildCost": 500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 3,
+      "districtHallRequired": 2,
+      "images": {
+        "normal": "images/clan-capital/walls/wall/normal/level-2.png",
+        "corner": "images/clan-capital/walls/wall/corner/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 8000,
+      "buildCost": 1500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/walls/wall/normal/level-3.png",
+        "corner": "images/clan-capital/walls/wall/corner/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 9500,
+      "buildCost": 3500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 7,
+      "districtHallRequired": 4,
+      "images": {
+        "normal": "images/clan-capital/walls/wall/normal/level-4.png",
+        "corner": "images/clan-capital/walls/wall/corner/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 11000,
+      "buildCost": 6000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 5,
+      "images": {
+        "normal": "images/clan-capital/walls/wall/normal/level-5.png",
+        "corner": "images/clan-capital/walls/wall/corner/level-5.png"
+      }
+    }
+  ],
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 80 },
+    { "capitalHallLevel": 2, "count": 120 },
+    { "capitalHallLevel": 3, "count": 160 },
+    { "capitalHallLevel": 4, "count": 180 },
+    { "capitalHallLevel": 5, "count": 200 },
+    { "capitalHallLevel": 6, "count": 220 },
+    { "capitalHallLevel": 7, "count": 240 },
+    { "capitalHallLevel": 8, "count": 260 },
+    { "capitalHallLevel": 9, "count": 280 },
+    { "capitalHallLevel": 10, "count": 280 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [50, 100, 140, 180, 200] },
+    { "district": "wizardValley", "countPerDistrictHall": [80, 120, 140, 160, 180] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [60, 80, 100, 120, 120] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [100, 120, 140, 160, 180] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [80, 100, 120, 140, 140] },
+    { "district": "golemQuarry", "countPerDistrictHall": [60, 100, 120, 140, 160] },
+    { "district": "skeletonPark", "countPerDistrictHall": [80, 80, 80, 100] },
+    { "district": "goblinMines", "countPerDistrictHall": [30, 60, 80, 100] }
+  ]
+}

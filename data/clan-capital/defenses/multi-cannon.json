@@ -1,0 +1,111 @@
+{
+  "id": "multi-cannon",
+  "name": "Multi Cannon",
+  "description": "It's a cannon with many barrels!",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "ground",
+  "modes": {
+    "normal": {
+      "range": 6,
+      "attackSpeed": 0.136,
+      "shotsPerBurst": 8,
+      "timeBetweenBursts": 1.6,
+      "damageType": "single"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 1 },
+    { "capitalHallLevel": 3, "count": 2 },
+    { "capitalHallLevel": 4, "count": 2 },
+    { "capitalHallLevel": 5, "count": 2 },
+    { "capitalHallLevel": 6, "count": 2 },
+    { "capitalHallLevel": 7, "count": 2 },
+    { "capitalHallLevel": 8, "count": 2 },
+    { "capitalHallLevel": 9, "count": 2 },
+    { "capitalHallLevel": 10, "count": 2 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [2, 2, 2, 5, 6] },
+    { "district": "wizardValley", "countPerDistrictHall": [1, 2, 2, 2, 2] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [2, 2, 2, 2, 2] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [2, 3, 4, 4, 4] },
+    { "district": "golemQuarry", "countPerDistrictHall": [1, 2, 3, 3, 3] },
+    { "district": "skeletonPark", "countPerDistrictHall": [3, 4, 4, 5] },
+    { "district": "goblinMines", "countPerDistrictHall": [2, 2, 2, 2] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1800,
+      "buildCost": 4000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 2,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 238, "damagePerShot": 80 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/multi-cannon/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 2050,
+      "buildCost": 8000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 3,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 267, "damagePerShot": 90 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/multi-cannon/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2300,
+      "buildCost": 16000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 297, "damagePerShot": 100 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/multi-cannon/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2550,
+      "buildCost": 27000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 7,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 327, "damagePerShot": 110 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/multi-cannon/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 2800,
+      "buildCost": 45000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 357, "damagePerShot": 120 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/multi-cannon/normal/level-5.png" }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "air-defense",
+  "name": "Air Defense",
+  "description": "This anti-air tower is deadly against flying enemies, but can't target foes on the ground. Place it wisely to cover as much airspace as possible.",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "air",
+  "modes": {
+    "normal": {
+      "range": 10,
+      "attackSpeed": 1.5,
+      "damageType": "single"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 4 },
+    { "capitalHallLevel": 2, "count": 4 },
+    { "capitalHallLevel": 3, "count": 4 },
+    { "capitalHallLevel": 4, "count": 4 },
+    { "capitalHallLevel": 5, "count": 4 },
+    { "capitalHallLevel": 6, "count": 4 },
+    { "capitalHallLevel": 7, "count": 4 },
+    { "capitalHallLevel": 8, "count": 4 },
+    { "capitalHallLevel": 9, "count": 4 },
+    { "capitalHallLevel": 10, "count": 4 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [4, 4, 6, 7, 7] },
+    { "district": "wizardValley", "countPerDistrictHall": [3, 4, 5, 6, 6] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [2, 2, 3, 3, 3] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [6, 7, 8, 8, 8] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [4, 5, 6, 7, 7] },
+    { "district": "golemQuarry", "countPerDistrictHall": [5, 6, 7, 8, 9] },
+    { "district": "skeletonPark", "countPerDistrictHall": [3, 3, 4, 5] },
+    { "district": "goblinMines", "countPerDistrictHall": [2, 2, 3, 3] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1400,
+      "buildCost": 3500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 1,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 260, "damagePerShot": 390 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-defense/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1500,
+      "buildCost": 7000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 2,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 290, "damagePerShot": 435 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-defense/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1600,
+      "buildCost": 14000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 320, "damagePerShot": 480 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-defense/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1700,
+      "buildCost": 24000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 350, "damagePerShot": 525 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-defense/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1800,
+      "buildCost": 40000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 380, "damagePerShot": 570 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/air-defense/normal/level-5.png" }
+    }
+  ]
+}

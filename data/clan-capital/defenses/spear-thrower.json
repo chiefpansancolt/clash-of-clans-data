@@ -1,0 +1,96 @@
+{
+  "id": "spear-thrower",
+  "name": "Spear Thrower",
+  "description": "Throws big spears at enemies on the ground and in the air. Very intimidating.",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "both",
+  "modes": {
+    "normal": { "range": 9, "attackSpeed": 0.9, "damageType": "single" }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 4 },
+    { "capitalHallLevel": 2, "count": 4 },
+    { "capitalHallLevel": 3, "count": 4 },
+    { "capitalHallLevel": 4, "count": 4 },
+    { "capitalHallLevel": 5, "count": 4 },
+    { "capitalHallLevel": 6, "count": 5 },
+    { "capitalHallLevel": 7, "count": 6 },
+    { "capitalHallLevel": 8, "count": 6 },
+    { "capitalHallLevel": 9, "count": 6 },
+    { "capitalHallLevel": 10, "count": 6 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [4, 6, 8, 9, 9] },
+    { "district": "wizardValley", "countPerDistrictHall": [11, 12, 13, 14, 14] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [8, 10, 12, 13, 14] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [8, 10, 11, 12, 13] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [9, 10, 11, 12, 13] },
+    { "district": "golemQuarry", "countPerDistrictHall": [7, 9, 10, 11, 12] },
+    { "district": "skeletonPark", "countPerDistrictHall": [3, 4, 6, 7] },
+    { "district": "goblinMines", "countPerDistrictHall": [4, 5, 6, 7] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1200,
+      "buildCost": 3000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 1,
+      "districtHallRequired": 1,
+      "stats": { "normal": { "dps": 90, "damagePerShot": 81 } },
+      "images": { "normal": "images/clan-capital/defenses/spear-thrower/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1350,
+      "buildCost": 6000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 2,
+      "districtHallRequired": 2,
+      "stats": { "normal": { "dps": 105, "damagePerShot": 94.5 } },
+      "images": { "normal": "images/clan-capital/defenses/spear-thrower/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1500,
+      "buildCost": 12000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 3,
+      "stats": { "normal": { "dps": 120, "damagePerShot": 108 } },
+      "images": { "normal": "images/clan-capital/defenses/spear-thrower/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1650,
+      "buildCost": 21000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 4,
+      "stats": { "normal": { "dps": 135, "damagePerShot": 121.5 } },
+      "images": { "normal": "images/clan-capital/defenses/spear-thrower/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1800,
+      "buildCost": 35000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 5,
+      "stats": { "normal": { "dps": 150, "damagePerShot": 135 } },
+      "images": { "normal": "images/clan-capital/defenses/spear-thrower/normal/level-5.png" }
+    }
+  ]
+}

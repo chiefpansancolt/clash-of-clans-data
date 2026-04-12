@@ -1,0 +1,110 @@
+{
+  "id": "hidden-mega-tesla",
+  "name": "Hidden Mega Tesla",
+  "description": "What happens when a Hidden Tesla goes Mega? It's powerful jolt deals heavy damage to even the toughest units!",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 6,
+      "triggerRange": 6,
+      "attackSpeed": 4,
+      "damageType": "chain"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 0 },
+    { "capitalHallLevel": 4, "count": 1 },
+    { "capitalHallLevel": 5, "count": 2 },
+    { "capitalHallLevel": 6, "count": 2 },
+    { "capitalHallLevel": 7, "count": 2 },
+    { "capitalHallLevel": 8, "count": 2 },
+    { "capitalHallLevel": 9, "count": 2 },
+    { "capitalHallLevel": 10, "count": 2 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [0, 0, 2, 3, 4] },
+    { "district": "wizardValley", "countPerDistrictHall": [0, 2, 2, 2, 2] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [2, 2, 2, 2, 2] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [2, 3, 4, 5, 5] },
+    { "district": "golemQuarry", "countPerDistrictHall": [1, 1, 1, 1, 1] },
+    { "district": "skeletonPark", "countPerDistrictHall": [4, 5, 5, 5] },
+    { "district": "goblinMines", "countPerDistrictHall": [0, 1, 1, 3] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1800,
+      "buildCost": 7000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 150, "damagePerShot": 600, "secondaryChainDamagePerShot": 480 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/hidden-mega-tesla/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 2000,
+      "buildCost": 14000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 175, "damagePerShot": 700, "secondaryChainDamagePerShot": 560 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/hidden-mega-tesla/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2200,
+      "buildCost": 28000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 200, "damagePerShot": 800, "secondaryChainDamagePerShot": 640 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/hidden-mega-tesla/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2400,
+      "buildCost": 45000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 225, "damagePerShot": 900, "secondaryChainDamagePerShot": 720 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/hidden-mega-tesla/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 2600,
+      "buildCost": 75000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 250, "damagePerShot": 1000, "secondaryChainDamagePerShot": 800 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/hidden-mega-tesla/normal/level-5.png" }
+    }
+  ]
+}

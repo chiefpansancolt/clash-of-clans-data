@@ -1,0 +1,106 @@
+{
+  "id": "crusher",
+  "name": "Crusher",
+  "description": "The Crusher REALLY likes its personal space. This hulking stone slams ground units with a mighty wallop!",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "ground",
+  "modes": {
+    "normal": {
+      "range": 1.7,
+      "attackSpeed": 3.5,
+      "damageType": "splash"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 0 },
+    { "capitalHallLevel": 4, "count": 1 },
+    { "capitalHallLevel": 5, "count": 2 },
+    { "capitalHallLevel": 6, "count": 2 },
+    { "capitalHallLevel": 7, "count": 2 },
+    { "capitalHallLevel": 8, "count": 2 },
+    { "capitalHallLevel": 9, "count": 2 },
+    { "capitalHallLevel": 10, "count": 2 }
+  ],
+  "availablePerDistrict": [
+    { "district": "balloonLagoon", "countPerDistrictHall": [2, 2, 2, 2, 2] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [2, 2, 2, 2, 2] },
+    { "district": "golemQuarry", "countPerDistrictHall": [1, 2, 2, 2, 2] },
+    { "district": "goblinMines", "countPerDistrictHall": [0, 1, 2, 2] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 2300,
+      "buildCost": 4000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 150, "damagePerShot": 525 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/crusher/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 2550,
+      "buildCost": 8000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 175, "damagePerShot": 612.5 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/crusher/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2700,
+      "buildCost": 16000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 200, "damagePerShot": 700 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/crusher/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2950,
+      "buildCost": 27000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 225, "damagePerShot": 787.5 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/crusher/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 3200,
+      "buildCost": 45000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 250, "damagePerShot": 875 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/crusher/normal/level-5.png" }
+    }
+  ]
+}

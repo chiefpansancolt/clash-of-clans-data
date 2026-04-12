@@ -1,0 +1,112 @@
+{
+  "id": "bomb-tower",
+  "name": "Bomb Tower",
+  "description": "Bomb Towers bombard nearby ground troops and go up in a big BOOM when destroyed! Melee units best stand clear!",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "ground",
+  "modes": {
+    "normal": {
+      "range": 5,
+      "attackSpeed": 1.1,
+      "damageType": "splash"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 1 },
+    { "capitalHallLevel": 3, "count": 2 },
+    { "capitalHallLevel": 4, "count": 2 },
+    { "capitalHallLevel": 5, "count": 2 },
+    { "capitalHallLevel": 6, "count": 2 },
+    { "capitalHallLevel": 7, "count": 2 },
+    { "capitalHallLevel": 8, "count": 2 },
+    { "capitalHallLevel": 9, "count": 2 },
+    { "capitalHallLevel": 10, "count": 2 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [2, 3, 3, 4, 4] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [2, 2, 2, 2, 2] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [2, 3, 3, 3, 3] },
+    { "district": "skeletonPark", "countPerDistrictHall": [3, 4, 4, 4] },
+    { "district": "goblinMines", "countPerDistrictHall": [1, 1, 2, 2] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 2000,
+      "buildCost": 4500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 2,
+      "districtHallRequired": 1,
+      "deathDamage": 300,
+      "stats": {
+        "normal": { "dps": 65, "damagePerShot": 71.5 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/bomb-tower/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 2250,
+      "buildCost": 9000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 3,
+      "districtHallRequired": 2,
+      "deathDamage": 350,
+      "stats": {
+        "normal": { "dps": 75, "damagePerShot": 82.5 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/bomb-tower/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2500,
+      "buildCost": 18000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 3,
+      "deathDamage": 400,
+      "stats": {
+        "normal": { "dps": 85, "damagePerShot": 93.5 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/bomb-tower/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2750,
+      "buildCost": 30000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 7,
+      "districtHallRequired": 4,
+      "deathDamage": 450,
+      "stats": {
+        "normal": { "dps": 95, "damagePerShot": 104.5 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/bomb-tower/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 3000,
+      "buildCost": 50000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 5,
+      "deathDamage": 500,
+      "stats": {
+        "normal": { "dps": 105, "damagePerShot": 115.5 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/bomb-tower/normal/level-5.png" }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "district-hall",
+  "name": "District Hall",
+  "description": "Villagers and the Grand Builder take care of this district from here. Upgrade to unlock additional building upgrades in this district.",
+  "base": "clan_capital",
+  "category": "district-hall",
+  "size": "4x4",
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 6000,
+      "buildCost": 0,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": {
+        "barbarianCamp": 2,
+        "wizardValley": 3,
+        "balloonLagoon": 4,
+        "buildersWorkshop": 5,
+        "dragonCliffs": 6,
+        "golemQuarry": 7,
+        "skeletonPark": 8,
+        "goblinMines": 9
+      },
+      "images": {
+        "normal": "images/clan-capital/halls/district-hall/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 7000,
+      "buildCost": 25000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": {
+        "barbarianCamp": 3,
+        "wizardValley": 4,
+        "balloonLagoon": 5,
+        "buildersWorkshop": 6,
+        "dragonCliffs": 7,
+        "golemQuarry": 7,
+        "skeletonPark": 8,
+        "goblinMines": 9
+      },
+      "images": {
+        "normal": "images/clan-capital/halls/district-hall/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 8000,
+      "buildCost": 75000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": {
+        "barbarianCamp": 5,
+        "wizardValley": 6,
+        "balloonLagoon": 7,
+        "buildersWorkshop": 7,
+        "dragonCliffs": 8,
+        "golemQuarry": 8,
+        "skeletonPark": 9,
+        "goblinMines": 10
+      },
+      "images": {
+        "normal": "images/clan-capital/halls/district-hall/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 9000,
+      "buildCost": 150000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": {
+        "barbarianCamp": 7,
+        "wizardValley": 8,
+        "balloonLagoon": 8,
+        "buildersWorkshop": 9,
+        "dragonCliffs": 9,
+        "golemQuarry": 9,
+        "skeletonPark": 10,
+        "goblinMines": 10
+      },
+      "images": {
+        "normal": "images/clan-capital/halls/district-hall/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 10000,
+      "buildCost": 300000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": {
+        "barbarianCamp": 9,
+        "wizardValley": 10,
+        "balloonLagoon": 10,
+        "buildersWorkshop": 10,
+        "dragonCliffs": 10,
+        "golemQuarry": 10
+      },
+      "images": {
+        "normal": "images/clan-capital/halls/district-hall/normal/level-5.png"
+      }
+    }
+  ]
+}

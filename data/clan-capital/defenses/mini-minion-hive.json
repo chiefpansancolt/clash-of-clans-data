@@ -1,0 +1,76 @@
+{
+  "id": "mini-minion-hive",
+  "name": "Mini-Minion Hive",
+  "description": "Built over an underground hive, this defense opens to release a swarm of extremely territorial and extremely dangerous Mini-Minions to take down any attacker.",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "both",
+  "modes": {
+    "normal": {
+      "range": 14,
+      "attackSpeed": 1.5,
+      "damageType": "single",
+      "shotsPerBurst": 12,
+      "timeBetweenBursts": 1.5
+    }
+  },
+  "availablePerDistrict": [
+    { "district": "skeletonPark", "countPerDistrictHall": [1, 2, 2, 2] },
+    { "district": "goblinMines", "countPerDistrictHall": [0, 0, 1, 1] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 4400,
+      "buildCost": 17500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 223, "damagePerShot": 75 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/mini-minion-hive/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 4800,
+      "buildCost": 35000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 267, "damagePerShot": 90 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/mini-minion-hive/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 5200,
+      "buildCost": 70000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 312, "damagePerShot": 105 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/mini-minion-hive/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 5600,
+      "buildCost": 113000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 357, "damagePerShot": 120 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/mini-minion-hive/normal/level-4.png" }
+    }
+  ]
+}

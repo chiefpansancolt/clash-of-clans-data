@@ -1,0 +1,110 @@
+{
+  "id": "rapid-rockets",
+  "name": "Rapid Rockets",
+  "description": "This tightly packed bundle of rockets has a shorter range compared to the Air Defense, but makes up for it by packing a meaner punch.",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "2x2",
+  "targetType": "air",
+  "modes": {
+    "normal": {
+      "range": 7,
+      "attackSpeed": 0.261,
+      "shotsPerBurst": 5,
+      "timeBetweenBursts": 0.55,
+      "damageType": "single"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 0 },
+    { "capitalHallLevel": 4, "count": 2 },
+    { "capitalHallLevel": 5, "count": 4 },
+    { "capitalHallLevel": 6, "count": 6 },
+    { "capitalHallLevel": 7, "count": 8 },
+    { "capitalHallLevel": 8, "count": 8 },
+    { "capitalHallLevel": 9, "count": 8 },
+    { "capitalHallLevel": 10, "count": 8 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [0, 0, 2, 3, 4] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [4, 4, 4, 4, 4] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [2, 3, 4, 4, 4] },
+    { "district": "golemQuarry", "countPerDistrictHall": [1, 2, 3, 3, 3] },
+    { "district": "skeletonPark", "countPerDistrictHall": [2, 3, 4, 5] },
+    { "district": "goblinMines", "countPerDistrictHall": [2, 4, 6, 8] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1400,
+      "buildCost": 5500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 385, "damagePerShot": 143 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/rapid-rockets/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1500,
+      "buildCost": 11000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 436, "damagePerShot": 162 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/rapid-rockets/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1600,
+      "buildCost": 22000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 487, "damagePerShot": 181 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/rapid-rockets/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1700,
+      "buildCost": 36000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 538, "damagePerShot": 200 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/rapid-rockets/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1900,
+      "buildCost": 60000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 592, "damagePerShot": 220 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/rapid-rockets/normal/level-5.png" }
+    }
+  ]
+}

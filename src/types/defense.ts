@@ -2,7 +2,8 @@ import { Building, BuildingLevel } from './building';
 import {
   BuilderHallAvailability,
   BuildTime,
-  DistrictHallAvailability,
+  CapitalHallAvailability,
+  DistrictAvailability,
   ResourceType,
   TownHallAvailability,
 } from './common';
@@ -27,6 +28,8 @@ export interface DefenseModeStats {
   pushStrength?: number;
   dpsInitial?: number;
   dpsAfter1p5s?: number;
+  dpsAfter2p5s?: number;
+  dpsAfter7p5s?: number;
   numberOfTargets?: number;
   shockwaveDamagePerHit?: number;
   damagePerShotMin?: number;
@@ -190,7 +193,10 @@ export interface BuilderDefense extends Building<BuilderDefenseLevel> {
 }
 
 export interface ClanCapitalDefenseLevel extends BuildingLevel {
+  capitalHallRequired?: number;
   districtHallRequired: number;
+  deathDamage?: number;
+  troopLevel?: number;
   stats: {
     normal: DefenseModeStats;
   };
@@ -204,5 +210,7 @@ export interface ClanCapitalDefense extends Building<ClanCapitalDefenseLevel> {
   modes: {
     normal: DefenseMode;
   };
-  availablePerDistrictHall: DistrictHallAvailability[];
+  defendingTroops?: Array<{ name: string; count: number }>;
+  availablePerCapitalHall?: CapitalHallAvailability[];
+  availablePerDistrict: DistrictAvailability[];
 }

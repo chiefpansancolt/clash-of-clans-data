@@ -1,0 +1,107 @@
+{
+  "id": "giant-cannon",
+  "name": "Giant Cannon",
+  "description": "Nothing gets in the way of the Giant Cannon. Its mammoth-sized cannon balls push past anything and just keep going and going and going...",
+  "base": "clan_capital",
+  "category": "defense",
+  "size": "3x3",
+  "targetType": "ground",
+  "modes": {
+    "normal": {
+      "range": 10,
+      "attackSpeed": 5,
+      "damageType": "splash"
+    }
+  },
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 0 },
+    { "capitalHallLevel": 4, "count": 0 },
+    { "capitalHallLevel": 5, "count": 1 },
+    { "capitalHallLevel": 6, "count": 1 },
+    { "capitalHallLevel": 7, "count": 2 },
+    { "capitalHallLevel": 8, "count": 2 },
+    { "capitalHallLevel": 9, "count": 2 },
+    { "capitalHallLevel": 10, "count": 2 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [0, 0, 1, 2, 2] },
+    { "district": "wizardValley", "countPerDistrictHall": [0, 0, 0, 2, 2] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [2, 2, 3, 4, 4] },
+    { "district": "skeletonPark", "countPerDistrictHall": [1, 1, 1, 1] },
+    { "district": "goblinMines", "countPerDistrictHall": [0, 1, 1, 1] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 3700,
+      "buildCost": 10000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": { "dps": 80, "damagePerShot": 400 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/giant-cannon/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "hitpoints": 3900,
+      "buildCost": 20000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": { "dps": 90, "damagePerShot": 450 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/giant-cannon/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "hitpoints": 4100,
+      "buildCost": 40000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 7,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": { "dps": 100, "damagePerShot": 500 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/giant-cannon/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "hitpoints": 4300,
+      "buildCost": 63000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": { "dps": 110, "damagePerShot": 550 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/giant-cannon/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "hitpoints": 4500,
+      "buildCost": 105000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": { "dps": 120, "damagePerShot": 600 }
+      },
+      "images": { "normal": "images/clan-capital/defenses/giant-cannon/normal/level-5.png" }
+    }
+  ]
+}
