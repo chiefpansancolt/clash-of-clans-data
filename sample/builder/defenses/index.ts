@@ -11,9 +11,7 @@ log('');
 
 log('Name                         Target  Levels');
 for (const d of all.get()) {
-  log(
-    `  ${d.name.padEnd(28)} ${d.targetType.padEnd(6)}  ${d.levels.length}`,
-  );
+  log(`  ${d.name.padEnd(28)} ${d.targetType.padEnd(6)}  ${d.levels.length}`);
 }
 
 writeOutput(__dirname);
