@@ -1,0 +1,76 @@
+{
+  "id": "spell-storage",
+  "name": "Spell Storage",
+  "description": "Spell Storage holds the Capital's brewed spells. Upgrade to increase Spell capacity in Raids.",
+  "base": "clan_capital",
+  "category": "army",
+  "size": "3x3",
+  "availablePerDistrict": [{ "district": "wizardValley", "countPerDistrictHall": [1, 1, 1, 1, 1] }],
+  "levels": [
+    {
+      "level": 1,
+      "spellCapacity": 3,
+      "hitpoints": 1000,
+      "buildCost": 0,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 1,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-storage/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "spellCapacity": 4,
+      "hitpoints": 1150,
+      "buildCost": 50000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 2,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-storage/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "spellCapacity": 5,
+      "hitpoints": 1350,
+      "buildCost": 100000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-storage/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "spellCapacity": 6,
+      "hitpoints": 1550,
+      "buildCost": 200000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 4,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-storage/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "spellCapacity": 7,
+      "hitpoints": 1750,
+      "buildCost": 400000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 5,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/spell-storage/normal/level-5.png"
+      }
+    }
+  ]
+}

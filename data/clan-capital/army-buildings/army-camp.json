@@ -1,0 +1,80 @@
+{
+  "id": "army-camp",
+  "name": "Army Camp",
+  "description": "A nice field for your clan's army to hang out in while waiting for raids to happen. Can be upgraded to increase available housing space.",
+  "base": "clan_capital",
+  "category": "army",
+  "size": "4x4",
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [3, 3, 3, 3, 3] },
+    { "district": "wizardValley", "countPerDistrictHall": [0, 1, 1, 1, 1] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [1, 1, 1, 1, 1] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "housingSpace": 30,
+      "hitpoints": 600,
+      "buildCost": 10000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 1,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/army-camp/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "housingSpace": 35,
+      "hitpoints": 750,
+      "buildCost": 25000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 2,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/army-camp/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "housingSpace": 40,
+      "hitpoints": 900,
+      "buildCost": 50000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/army-camp/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "housingSpace": 45,
+      "hitpoints": 1050,
+      "buildCost": 75000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 4,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/army-camp/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "housingSpace": 50,
+      "hitpoints": 1200,
+      "buildCost": 150000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 5,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/army-camp/normal/level-5.png"
+      }
+    }
+  ]
+}
