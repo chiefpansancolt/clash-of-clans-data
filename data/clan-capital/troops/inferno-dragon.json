@@ -1,0 +1,79 @@
+{
+  "id": "inferno-dragon",
+  "name": "Inferno Dragon",
+  "description": "Not getting upset over being alone anymore, the Inferno Dragon has learned to focus its rage into a very powerful beam that builds up over time!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "both",
+  "housingSpace": 15,
+  "movementSpeed": 13,
+  "attackSpeed": 0.128,
+  "range": 3,
+  "specialAbility": "Inferno Beam",
+  "images": {
+    "icon": "images/clan-capital/troops/inferno-dragon/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1700,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "infernoInitialDps": 65,
+          "infernoDpsAfter1_7s": 130,
+          "infernoDpsAfter3_2s": 1300
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/inferno-dragon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1900,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "infernoInitialDps": 70,
+          "infernoDpsAfter1_7s": 140,
+          "infernoDpsAfter3_2s": 1400
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/inferno-dragon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2100,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "infernoInitialDps": 75,
+          "infernoDpsAfter1_7s": 150,
+          "infernoDpsAfter3_2s": 1500
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/inferno-dragon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 2300,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "infernoInitialDps": 80,
+          "infernoDpsAfter1_7s": 160,
+          "infernoDpsAfter3_2s": 1600
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/inferno-dragon/normal/level-1.png"
+      }
+    }
+  ]
+}

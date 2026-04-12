@@ -1,0 +1,93 @@
+{
+  "id": "power-pekka",
+  "name": "Power P.E.K.K.A",
+  "description": "Unstable energy radiates from this powerful suit of dark armor, waiting to be unleashed!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 40,
+  "movementSpeed": 12,
+  "attackSpeed": 1.8,
+  "specialAbility": "Overcharge",
+  "images": {
+    "icon": "images/clan-capital/troops/power-pekka/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 6800,
+      "districtHallRequired": 1,
+      "deathDamage": 1000,
+      "stats": {
+        "normal": {
+          "dps": 680,
+          "damagePerShot": 1224
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/power-pekka/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 7600,
+      "districtHallRequired": 2,
+      "deathDamage": 1200,
+      "stats": {
+        "normal": {
+          "dps": 760,
+          "damagePerShot": 1368
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/power-pekka/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 8500,
+      "districtHallRequired": 3,
+      "deathDamage": 1400,
+      "stats": {
+        "normal": {
+          "dps": 840,
+          "damagePerShot": 1512
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/power-pekka/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 9400,
+      "districtHallRequired": 4,
+      "deathDamage": 1600,
+      "stats": {
+        "normal": {
+          "dps": 920,
+          "damagePerShot": 1656
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/power-pekka/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 10300,
+      "districtHallRequired": 5,
+      "deathDamage": 1800,
+      "stats": {
+        "normal": {
+          "dps": 1000,
+          "damagePerShot": 1800
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/power-pekka/normal/level-1.png"
+      }
+    }
+  ]
+}

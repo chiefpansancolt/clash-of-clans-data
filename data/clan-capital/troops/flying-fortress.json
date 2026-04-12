@@ -1,0 +1,100 @@
+{
+  "id": "flying-fortress",
+  "name": "Flying Fortress",
+  "description": "You'd think putting wings on a castle would result in disaster, but those rules don't apply to the Flying Fortress. With a payload of Skeleton Gliders, this aerial acropolis delivers punishing bombardments.",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "both",
+  "housingSpace": 100,
+  "movementSpeed": 9,
+  "attackSpeed": 2.0,
+  "range": 4.5,
+  "preferredTarget": "Defenses",
+  "specialAbility": "Skeleton Crew",
+  "images": {
+    "icon": "images/clan-capital/troops/flying-fortress/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 12000,
+      "districtHallRequired": 1,
+      "spawnedSkeletonGliders": 10,
+      "spawnedSkeletonsOnDeath": 22,
+      "stats": {
+        "normal": {
+          "dps": 300,
+          "damagePerShot": 600
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/flying-fortress/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 13500,
+      "districtHallRequired": 2,
+      "spawnedSkeletonGliders": 12,
+      "spawnedSkeletonsOnDeath": 24,
+      "stats": {
+        "normal": {
+          "dps": 325,
+          "damagePerShot": 650
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/flying-fortress/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 15000,
+      "districtHallRequired": 3,
+      "spawnedSkeletonGliders": 14,
+      "spawnedSkeletonsOnDeath": 26,
+      "stats": {
+        "normal": {
+          "dps": 350,
+          "damagePerShot": 700
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/flying-fortress/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 16500,
+      "districtHallRequired": 4,
+      "spawnedSkeletonGliders": 16,
+      "spawnedSkeletonsOnDeath": 28,
+      "stats": {
+        "normal": {
+          "dps": 375,
+          "damagePerShot": 750
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/flying-fortress/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 18000,
+      "districtHallRequired": 5,
+      "spawnedSkeletonGliders": 18,
+      "spawnedSkeletonsOnDeath": 30,
+      "stats": {
+        "normal": {
+          "dps": 400,
+          "damagePerShot": 800
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/flying-fortress/normal/level-1.png"
+      }
+    }
+  ]
+}

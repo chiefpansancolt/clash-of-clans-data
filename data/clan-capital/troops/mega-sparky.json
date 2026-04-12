@@ -1,0 +1,75 @@
+{
+  "id": "mega-sparky",
+  "name": "Mega Sparky",
+  "description": "With no fear, this seemingly unstoppable machine, slowly but surely, takes out defenses with thunderous electrical shockwaves. Will the nightmare never end?",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "splash",
+  "targetType": "ground",
+  "housingSpace": 100,
+  "movementSpeed": 8,
+  "attackSpeed": 4,
+  "range": 4,
+  "preferredTarget": "Defenses",
+  "images": {
+    "icon": "images/clan-capital/troops/mega-sparky/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 10000,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "dps": 400,
+          "damagePerShot": 1600
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/mega-sparky/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 11200,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "dps": 450,
+          "damagePerShot": 1800
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/mega-sparky/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 12400,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "dps": 500,
+          "damagePerShot": 2000
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/mega-sparky/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 13600,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "dps": 550,
+          "damagePerShot": 2200
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/mega-sparky/normal/level-1.png"
+      }
+    }
+  ]
+}

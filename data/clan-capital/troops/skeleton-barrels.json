@@ -1,0 +1,87 @@
+{
+  "id": "skeleton-barrels",
+  "name": "Skeleton Barrels",
+  "description": "Did someone say Barrel Parade? It's a Skeleton party in the sky, until all the balloons pop... then it's a Skeleton party on the ground!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "splash",
+  "targetType": "ground",
+  "housingSpace": 5,
+  "movementSpeed": 8,
+  "preferredTarget": "Defenses",
+  "images": {
+    "icon": "images/clan-capital/troops/skeleton-barrels/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 700,
+      "districtHallRequired": 1,
+      "spawnedSkeletons": 8,
+      "stats": {
+        "normal": {
+          "damagePerShot": 324
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/skeleton-barrels/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 800,
+      "districtHallRequired": 2,
+      "spawnedSkeletons": 9,
+      "stats": {
+        "normal": {
+          "damagePerShot": 486
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/skeleton-barrels/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 850,
+      "districtHallRequired": 3,
+      "spawnedSkeletons": 10,
+      "stats": {
+        "normal": {
+          "damagePerShot": 594
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/skeleton-barrels/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1050,
+      "districtHallRequired": 4,
+      "spawnedSkeletons": 11,
+      "stats": {
+        "normal": {
+          "damagePerShot": 708
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/skeleton-barrels/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1200,
+      "districtHallRequired": 5,
+      "spawnedSkeletons": 12,
+      "stats": {
+        "normal": {
+          "damagePerShot": 768
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/skeleton-barrels/normal/level-1.png"
+      }
+    }
+  ]
+}

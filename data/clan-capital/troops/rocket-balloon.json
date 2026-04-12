@@ -1,0 +1,95 @@
+{
+  "id": "rocket-balloon",
+  "name": "Rocket Balloon",
+  "description": "When terrain is working against you, a swarm of Rocket Balloons can probably get the job done... if their boosters don't run out first.",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "splash",
+  "targetType": "ground",
+  "housingSpace": 8,
+  "movementSpeed": 9,
+  "attackSpeed": 3.0,
+  "preferredTarget": "Defenses",
+  "specialAbility": "Boosters",
+  "boostDuration": 4,
+  "images": {
+    "icon": "images/clan-capital/troops/rocket-balloon/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 720,
+      "districtHallRequired": 1,
+      "deathDamage": 400,
+      "stats": {
+        "normal": {
+          "dps": 175,
+          "damagePerShot": 525
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/rocket-balloon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 800,
+      "districtHallRequired": 2,
+      "deathDamage": 450,
+      "stats": {
+        "normal": {
+          "dps": 200,
+          "damagePerShot": 600
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/rocket-balloon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 880,
+      "districtHallRequired": 3,
+      "deathDamage": 500,
+      "stats": {
+        "normal": {
+          "dps": 225,
+          "damagePerShot": 675
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/rocket-balloon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 960,
+      "districtHallRequired": 4,
+      "deathDamage": 550,
+      "stats": {
+        "normal": {
+          "dps": 250,
+          "damagePerShot": 750
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/rocket-balloon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1040,
+      "districtHallRequired": 5,
+      "deathDamage": 600,
+      "stats": {
+        "normal": {
+          "dps": 275,
+          "damagePerShot": 825
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/rocket-balloon/normal/level-1.png"
+      }
+    }
+  ]
+}

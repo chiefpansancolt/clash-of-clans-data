@@ -1,0 +1,90 @@
+{
+  "id": "battle-ram",
+  "name": "Battle Ram",
+  "description": "Four Barbarians holding a big log race ahead to batter down their target, dealing big bonus damage if they connect; then they fight on with their swords!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "splash",
+  "targetType": "ground",
+  "housingSpace": 5,
+  "movementSpeed": 16,
+  "range": 0.75,
+  "preferredTarget": "Walls",
+  "wallDamageMultiplier": 40,
+  "spawnedBarbarians": 4,
+  "images": {
+    "icon": "images/clan-capital/troops/battle-ram/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 800,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "damagePerShot": 125,
+          "damageVsWalls": 5000
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/battle-ram/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 900,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "damagePerShot": 163,
+          "damageVsWalls": 6520
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/battle-ram/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1000,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "damagePerShot": 200,
+          "damageVsWalls": 8000
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/battle-ram/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1100,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "damagePerShot": 238,
+          "damageVsWalls": 9520
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/battle-ram/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1200,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": {
+          "damagePerShot": 275,
+          "damageVsWalls": 11000
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/battle-ram/normal/level-1.png"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "hog-rider",
+  "name": "Hog Rider",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 5,
+  "movementSpeed": 20,
+  "attackSpeed": 1.0,
+  "range": 0.75,
+  "preferredTarget": "Defenses",
+  "images": {
+    "icon": "images/clan-capital/troops/hog-rider/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 880,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "dps": 130,
+          "damagePerShot": 130
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-rider/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 960,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "dps": 145,
+          "damagePerShot": 145
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-rider/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1040,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "dps": 160,
+          "damagePerShot": 160
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-rider/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1120,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "dps": 175,
+          "damagePerShot": 175
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-rider/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1200,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": {
+          "dps": 190,
+          "damagePerShot": 190
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-rider/normal/level-1.png"
+      }
+    }
+  ]
+}

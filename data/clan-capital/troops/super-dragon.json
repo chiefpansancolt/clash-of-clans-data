@@ -1,0 +1,90 @@
+{
+  "id": "super-dragon",
+  "name": "Super Dragon",
+  "description": "Sometimes having a fire inside of you isn't enough. The Super Dragon has fires on the inside, outside, and if he gets to do his thing, all around him!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "area",
+  "targetType": "both",
+  "housingSpace": 40,
+  "movementSpeed": 10,
+  "attackSpeed": 0.192,
+  "timeBetweenBursts": 1.8,
+  "range": 3,
+  "specialAbility": "Roast",
+  "images": {
+    "icon": "images/clan-capital/troops/super-dragon/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 5800,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "dps": 400,
+          "damagePerShot": 151.2
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-dragon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 6300,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "dps": 438,
+          "damagePerShot": 165.6
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-dragon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 6800,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "dps": 476,
+          "damagePerShot": 180
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-dragon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 7200,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "dps": 514,
+          "damagePerShot": 194.4
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-dragon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 7600,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": {
+          "dps": 552,
+          "damagePerShot": 208.8
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-dragon/normal/level-1.png"
+      }
+    }
+  ]
+}

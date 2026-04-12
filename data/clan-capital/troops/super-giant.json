@@ -1,0 +1,95 @@
+{
+  "id": "super-giant",
+  "name": "Super Giant",
+  "description": "Super Giants are bigger than their ordinary cousins and are great at punching their way through walls. The belt is from the annual village eating contest.",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 10,
+  "movementSpeed": 9,
+  "attackSpeed": 2.0,
+  "range": 0.75,
+  "preferredTarget": "Defenses",
+  "specialAbility": "Wall Buster",
+  "images": {
+    "icon": "images/clan-capital/troops/super-giant/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 3000,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "dps": 100,
+          "damagePerShot": 200,
+          "damageVsWalls": 1000
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-giant/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 3300,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "dps": 110,
+          "damagePerShot": 220,
+          "damageVsWalls": 1100
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-giant/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 3600,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "dps": 120,
+          "damagePerShot": 240,
+          "damageVsWalls": 1200
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-giant/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 4000,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "dps": 130,
+          "damagePerShot": 260,
+          "damageVsWalls": 1300
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-giant/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 4400,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": {
+          "dps": 140,
+          "damagePerShot": 280,
+          "damageVsWalls": 1400
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-giant/normal/level-1.png"
+      }
+    }
+  ]
+}

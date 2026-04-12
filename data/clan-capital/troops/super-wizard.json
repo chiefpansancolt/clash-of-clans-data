@@ -1,0 +1,95 @@
+{
+  "id": "super-wizard",
+  "name": "Super Wizard",
+  "description": "Super Wizard is positively charged with magical energy! He's either the smartest person in the room... or else he blows the whole room to bits.",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "both",
+  "housingSpace": 10,
+  "movementSpeed": 13,
+  "attackSpeed": 2.0,
+  "range": 3,
+  "preferredTarget": "None",
+  "specialAbility": "Chain Magic",
+  "images": {
+    "icon": "images/clan-capital/troops/super-wizard/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 600,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "dps": 160,
+          "damagePerShot": 320,
+          "chainDamagePerShot": 128
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-wizard/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 700,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "dps": 180,
+          "damagePerShot": 360,
+          "chainDamagePerShot": 144
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-wizard/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 800,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "dps": 200,
+          "damagePerShot": 400,
+          "chainDamagePerShot": 160
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-wizard/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 900,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "dps": 220,
+          "damagePerShot": 440,
+          "chainDamagePerShot": 176
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-wizard/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1000,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": {
+          "dps": 240,
+          "damagePerShot": 480,
+          "chainDamagePerShot": 192
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-wizard/normal/level-1.png"
+      }
+    }
+  ]
+}

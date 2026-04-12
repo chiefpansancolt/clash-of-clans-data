@@ -1,4 +1,3 @@
-import { Building, BuildingLevel } from './building';
 import { BuildTime, DonationCost, ResourceType } from './common';
 
 export interface HomeTroopLevelStats {
@@ -200,20 +199,57 @@ export interface BuilderTroop {
   levels: BuilderTroopLevel[];
 }
 
-export interface ClanCapitalTroopLevel extends BuildingLevel {
+export interface ClanCapitalTroopStats {
+  dps?: number;
+  damagePerShot?: number;
+  chainDamagePerShot?: number;
+  damageVsWalls?: number;
+  infernoInitialDps?: number;
+  infernoDpsAfter1_7s?: number;
+  infernoDpsAfter3_2s?: number;
+  drillInitialDps?: number;
+  drillDpsAfter1_5s?: number;
+  drillDpsAfter3s?: number;
+}
+
+export interface ClanCapitalTroopLevel {
+  level: number;
+  hitpoints: number;
   districtHallRequired: number;
+  deathDamage?: number;
+  spawnedSkeletons?: number;
+  spawnedSkeletonGliders?: number;
+  spawnedSkeletonsOnDeath?: number;
+  lastStandHitpoints?: number;
   stats: {
-    normal: TroopModeStats;
+    normal: ClanCapitalTroopStats;
   };
   images: {
     normal: string;
   };
 }
 
-export interface ClanCapitalTroop extends Building<ClanCapitalTroopLevel> {
-  range: number;
-  attackSpeed: number;
+export interface ClanCapitalTroop {
+  id: string;
+  name: string;
+  description?: string;
+  base: 'clan_capital';
+  category: 'troop';
   damageType: 'single' | 'splash' | 'area';
   targetType: 'ground' | 'air' | 'both';
   housingSpace: number;
+  movementSpeed: number;
+  attackSpeed?: number;
+  range?: number;
+  preferredTarget?: string;
+  specialAbility?: string;
+  cloakDuration?: number;
+  rageMovementSpeedIncrease?: number;
+  rageDamageIncrease?: number;
+  spawnedBarbarians?: number;
+  wallDamageMultiplier?: number;
+  boostDuration?: number;
+  timeBetweenBursts?: number;
+  images: { icon: string };
+  levels: ClanCapitalTroopLevel[];
 }

@@ -1,0 +1,91 @@
+{
+  "id": "sneaky-archer",
+  "name": "Sneaky Archer",
+  "description": "A squad of stealthy Archers is a surefire way to take out important targets. Until they get revealed, that is.",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "both",
+  "housingSpace": 2,
+  "movementSpeed": 14,
+  "attackSpeed": 1.0,
+  "range": 2.75,
+  "preferredTarget": "None",
+  "specialAbility": "Cloak",
+  "cloakDuration": 5,
+  "images": {
+    "icon": "images/clan-capital/troops/sneaky-archer/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 100,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "dps": 60,
+          "damagePerShot": 60
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/sneaky-archer/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 120,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "dps": 64,
+          "damagePerShot": 64
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/sneaky-archer/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 140,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "dps": 68,
+          "damagePerShot": 68
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/sneaky-archer/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 160,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "dps": 71,
+          "damagePerShot": 71
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/sneaky-archer/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 180,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": {
+          "dps": 74,
+          "damagePerShot": 74
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/sneaky-archer/normal/level-1.png"
+      }
+    }
+  ]
+}

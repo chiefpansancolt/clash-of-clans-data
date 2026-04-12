@@ -1,0 +1,89 @@
+{
+  "id": "minion-horde",
+  "name": "Minion Horde",
+  "description": "Six fast, unarmored flying attackers. Three's a crowd, six is a horde!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "both",
+  "housingSpace": 2,
+  "movementSpeed": 24,
+  "attackSpeed": 1.0,
+  "range": 1.5,
+  "preferredTarget": "None",
+  "images": {
+    "icon": "images/clan-capital/troops/minion-horde/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 60,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "dps": 56,
+          "damagePerShot": 56
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/minion-horde/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 70,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "dps": 62,
+          "damagePerShot": 62
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/minion-horde/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 80,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "dps": 68,
+          "damagePerShot": 68
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/minion-horde/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 90,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "dps": 74,
+          "damagePerShot": 74
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/minion-horde/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 100,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": {
+          "dps": 80,
+          "damagePerShot": 80
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/minion-horde/normal/level-1.png"
+      }
+    }
+  ]
+}

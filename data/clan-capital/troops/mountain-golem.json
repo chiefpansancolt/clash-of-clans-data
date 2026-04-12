@@ -1,0 +1,94 @@
+{
+  "id": "mountain-golem",
+  "name": "Mountain Golem",
+  "description": "This monstrous mountain may move as slow as molasses, but do not underestimate his mineralized mitts. Mountain Golem mauls his enemies with the might of...well...a mountain. Literally.",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "splash",
+  "targetType": "ground",
+  "housingSpace": 160,
+  "movementSpeed": 6,
+  "attackSpeed": 3.0,
+  "range": 2,
+  "specialAbility": "Crush",
+  "images": {
+    "icon": "images/clan-capital/troops/mountain-golem/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 30000,
+      "districtHallRequired": 1,
+      "deathDamage": 300,
+      "stats": {
+        "normal": {
+          "dps": 800,
+          "damagePerShot": 2400
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/mountain-golem/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 33500,
+      "districtHallRequired": 2,
+      "deathDamage": 350,
+      "stats": {
+        "normal": {
+          "dps": 900,
+          "damagePerShot": 2700
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/mountain-golem/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 37000,
+      "districtHallRequired": 3,
+      "deathDamage": 400,
+      "stats": {
+        "normal": {
+          "dps": 1000,
+          "damagePerShot": 3000
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/mountain-golem/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 40500,
+      "districtHallRequired": 4,
+      "deathDamage": 450,
+      "stats": {
+        "normal": {
+          "dps": 1100,
+          "damagePerShot": 3300
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/mountain-golem/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 44000,
+      "districtHallRequired": 5,
+      "deathDamage": 500,
+      "stats": {
+        "normal": {
+          "dps": 1200,
+          "damagePerShot": 3600
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/mountain-golem/normal/level-1.png"
+      }
+    }
+  ]
+}

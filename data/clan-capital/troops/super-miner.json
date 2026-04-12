@@ -1,0 +1,83 @@
+{
+  "id": "super-miner",
+  "name": "Super Miner",
+  "description": "Armed with a powerful drill and a magnificent moustache, Super Miner is ready to undermine any rival Village!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 25,
+  "movementSpeed": 24,
+  "attackSpeed": 0.25,
+  "range": 0.6,
+  "specialAbility": "Last Blast",
+  "images": {
+    "icon": "images/clan-capital/troops/super-miner/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 3300,
+      "districtHallRequired": 1,
+      "deathDamage": 1400,
+      "stats": {
+        "normal": {
+          "drillInitialDps": 160,
+          "drillDpsAfter1_5s": 340,
+          "drillDpsAfter3s": 630
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-miner/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 3500,
+      "districtHallRequired": 2,
+      "deathDamage": 1700,
+      "stats": {
+        "normal": {
+          "drillInitialDps": 170,
+          "drillDpsAfter1_5s": 370,
+          "drillDpsAfter3s": 660
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-miner/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 3700,
+      "districtHallRequired": 3,
+      "deathDamage": 2000,
+      "stats": {
+        "normal": {
+          "drillInitialDps": 180,
+          "drillDpsAfter1_5s": 400,
+          "drillDpsAfter3s": 690
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-miner/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 3900,
+      "districtHallRequired": 4,
+      "deathDamage": 2300,
+      "stats": {
+        "normal": {
+          "drillInitialDps": 190,
+          "drillDpsAfter1_5s": 430,
+          "drillDpsAfter3s": 720
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-miner/normal/level-1.png"
+      }
+    }
+  ]
+}

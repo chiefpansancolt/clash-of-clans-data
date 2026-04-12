@@ -1,0 +1,92 @@
+{
+  "id": "super-barbarian",
+  "name": "Super Barbarian",
+  "description": "Superior in health, power, speed and most importantly, hair, the Super Barbarians are what regular Barbarians dream of becoming!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 5,
+  "movementSpeed": 14,
+  "attackSpeed": 0.8,
+  "range": 0.45,
+  "preferredTarget": "None",
+  "specialAbility": "Rage",
+  "rageMovementSpeedIncrease": 16,
+  "rageDamageIncrease": 70,
+  "images": {
+    "icon": "images/clan-capital/troops/super-barbarian/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 800,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "dps": 120,
+          "damagePerShot": 96
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-barbarian/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 900,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "dps": 140,
+          "damagePerShot": 112
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-barbarian/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1000,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "dps": 160,
+          "damagePerShot": 128
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-barbarian/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1120,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "dps": 180,
+          "damagePerShot": 144
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-barbarian/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 1240,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": {
+          "dps": 200,
+          "damagePerShot": 160
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/super-barbarian/normal/level-1.png"
+      }
+    }
+  ]
+}

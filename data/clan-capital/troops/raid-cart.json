@@ -1,0 +1,94 @@
+{
+  "id": "raid-cart",
+  "name": "Raid Cart",
+  "description": "Another Cannon on wheels?! It might lack the element of surprise, but makes up for it with lots of bulk, added firepower and an escort of rowdy Barbarians!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 30,
+  "movementSpeed": 9,
+  "attackSpeed": 2.5,
+  "range": 4.5,
+  "specialAbility": "Last Stand",
+  "images": {
+    "icon": "images/clan-capital/troops/raid-cart/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 2800,
+      "districtHallRequired": 1,
+      "lastStandHitpoints": 1200,
+      "stats": {
+        "normal": {
+          "dps": 240,
+          "damagePerShot": 600
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/raid-cart/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 3100,
+      "districtHallRequired": 2,
+      "lastStandHitpoints": 1400,
+      "stats": {
+        "normal": {
+          "dps": 280,
+          "damagePerShot": 700
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/raid-cart/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 3400,
+      "districtHallRequired": 3,
+      "lastStandHitpoints": 1600,
+      "stats": {
+        "normal": {
+          "dps": 320,
+          "damagePerShot": 800
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/raid-cart/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 3700,
+      "districtHallRequired": 4,
+      "lastStandHitpoints": 1800,
+      "stats": {
+        "normal": {
+          "dps": 360,
+          "damagePerShot": 900
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/raid-cart/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 4000,
+      "districtHallRequired": 5,
+      "lastStandHitpoints": 2000,
+      "stats": {
+        "normal": {
+          "dps": 400,
+          "damagePerShot": 1000
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/raid-cart/normal/level-1.png"
+      }
+    }
+  ]
+}
