@@ -1,0 +1,11 @@
+{
+  "id": "book-of-fighting",
+  "name": "Book of Fighting",
+  "description": "Filled with very efficient training programs, this magical book can be used to instantly complete any ongoing troop upgrade. Works in both villages!",
+  "itemType": "book",
+  "effect": {
+    "type": "instant-complete",
+    "appliesTo": "troops"
+  },
+  "image": "images/magic-items/books/book-of-fighting.png"
+}

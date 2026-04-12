@@ -1,0 +1,12 @@
+{
+  "id": "resource-potion",
+  "name": "Resource Potion",
+  "description": "A haste spell turned into a potion, this magical elixir can greatly boost your resource collector efficiency for 1d. Works in Home Village.",
+  "itemType": "potion",
+  "effect": {
+    "type": "resource-collector-boost",
+    "multiplier": 2,
+    "durationDays": 1
+  },
+  "image": "images/magic-items/potions/resource-potion.png"
+}

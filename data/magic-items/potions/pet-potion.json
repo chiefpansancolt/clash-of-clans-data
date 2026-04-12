@@ -1,0 +1,13 @@
+{
+  "id": "pet-potion",
+  "name": "Pet Potion",
+  "description": "Containing everything a Pet needs for a healthy, glossy coat. This helps Pets upgrade 24x faster for 1h.",
+  "itemType": "potion",
+  "effect": {
+    "type": "time-reduction",
+    "multiplier": 24,
+    "durationHours": 1,
+    "appliesTo": "pets"
+  },
+  "image": "images/magic-items/potions/pet-potion.png"
+}

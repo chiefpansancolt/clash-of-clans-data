@@ -1,0 +1,11 @@
+{
+  "id": "super-potion",
+  "name": "Super Potion",
+  "description": "Dark Elixir brewed into a delicious golden form, best enjoyed in a hot, humid environment with a few close friends. The Super Potion can boost a Troop into its Super Troop version for 3 days.",
+  "itemType": "potion",
+  "effect": {
+    "type": "super-troop",
+    "durationDays": 3
+  },
+  "image": "images/magic-items/potions/super-potion.png"
+}

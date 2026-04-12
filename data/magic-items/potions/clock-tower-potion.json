@@ -1,0 +1,11 @@
+{
+  "id": "clock-tower-potion",
+  "name": "Clock Tower Potion",
+  "description": "This thick elixir made from ground-up magic cogs activates your Clock Tower boost for 30m. Works in Builder Base.",
+  "itemType": "potion",
+  "effect": {
+    "type": "clock-tower-boost",
+    "durationMinutes": 30
+  },
+  "image": "images/magic-items/potions/clock-tower-potion.png"
+}

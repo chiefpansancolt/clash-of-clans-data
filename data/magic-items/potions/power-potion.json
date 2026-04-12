@@ -1,0 +1,13 @@
+{
+  "id": "power-potion",
+  "name": "Power Potion",
+  "description": "This strong-smelling magical brew boosts Troops, Spells and Siege Machines to the maximum level allowed at your Town Hall level for 1h. Works in both villages!",
+  "itemType": "potion",
+  "effect": {
+    "type": "unit-level-boost",
+    "boostTo": "max-town-hall-level",
+    "durationHours": 1,
+    "appliesTo": ["troops", "spells", "siege-machines"]
+  },
+  "image": "images/magic-items/potions/power-potion.png"
+}

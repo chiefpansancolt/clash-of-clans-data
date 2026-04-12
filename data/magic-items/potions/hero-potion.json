@@ -1,0 +1,13 @@
+{
+  "id": "hero-potion",
+  "name": "Hero Potion",
+  "description": "This potent potion temporarily boosts all Heroes and Pets to the maximum level allowed at your Town Hall level for 1h. Works in both villages!",
+  "itemType": "potion",
+  "effect": {
+    "type": "unit-level-boost",
+    "boostTo": "max-town-hall-level",
+    "durationHours": 1,
+    "appliesTo": ["heroes", "pets"]
+  },
+  "image": "images/magic-items/potions/hero-potion.png"
+}

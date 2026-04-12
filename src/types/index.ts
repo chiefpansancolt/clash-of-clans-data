@@ -19,3 +19,5 @@ export * from './spell';
 export * from './troop';
 export * from './trap';
 export * from './wall';
+export * from './magic-item';
+export * from './calculator';

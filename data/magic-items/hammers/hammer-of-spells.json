@@ -1,0 +1,11 @@
+{
+  "id": "hammer-of-spells",
+  "name": "Hammer of Spells",
+  "description": "A swing of this magic hammer will instantly upgrade any spell to the next level. Works in the Home Village!",
+  "itemType": "hammer",
+  "effect": {
+    "type": "instant-upgrade",
+    "appliesTo": "spells"
+  },
+  "image": "images/magic-items/hammers/hammer-of-spells.png"
+}

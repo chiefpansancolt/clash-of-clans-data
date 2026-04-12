@@ -1,0 +1,13 @@
+{
+  "id": "research-potion",
+  "name": "Research Potion",
+  "description": "This healthy-looking beverage helps the mysterious Wizards inside the Laboratory research 24x faster for 1h. Works in Home Village!",
+  "itemType": "potion",
+  "effect": {
+    "type": "time-reduction",
+    "multiplier": 24,
+    "durationHours": 1,
+    "appliesTo": "research"
+  },
+  "image": "images/magic-items/potions/research-potion.png"
+}

@@ -10,5 +10,9 @@ module.exports = {
     '^@/common/(.*)$': '<rootDir>/src/common/$1',
     '^@/modules/(.*)$': '<rootDir>/src/modules/$1',
     '^@/data/(.*)$': '<rootDir>/data/$1',
+    '^@/calculators$': '<rootDir>/src/modules/calculators/index.ts',
+    '^@/calculators/(.*)$': '<rootDir>/src/modules/calculators/$1',
+    '^@/magic-items$': '<rootDir>/src/modules/magic-items/index.ts',
+    '^@/magic-items/(.*)$': '<rootDir>/src/modules/magic-items/$1',
   },
 };

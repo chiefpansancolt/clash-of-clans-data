@@ -1,0 +1,13 @@
+{
+  "id": "mighty-morsel",
+  "name": "Mighty Morsel",
+  "description": "A mighty meal that boosts Heroes, Pets and Equipment to the maximum level for your Town Hall for the next 3 battles. Works in the Home Village!",
+  "itemType": "snack",
+  "effect": {
+    "type": "combat-boost",
+    "boostTo": "max-town-hall-level",
+    "battles": 3,
+    "appliesTo": ["heroes", "pets", "equipment"]
+  },
+  "image": "images/magic-items/snacks/mighty-morsel.png"
+}

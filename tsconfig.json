@@ -24,6 +24,10 @@
       "@/types/*": ["src/types/*"],
       "@/common/*": ["src/common/*"],
       "@/modules/*": ["src/modules/*"],
+      "@/calculators": ["src/modules/calculators/index.ts"],
+      "@/calculators/*": ["src/modules/calculators/*"],
+      "@/magic-items": ["src/modules/magic-items/index.ts"],
+      "@/magic-items/*": ["src/modules/magic-items/*"],
       "@/data/*": ["data/*"],
       "@/images/*": ["images/*"]
     }

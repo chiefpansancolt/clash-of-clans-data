@@ -1,0 +1,12 @@
+{
+  "id": "wall-ring",
+  "name": "Wall Ring",
+  "description": "Punching a Wall Piece with this Ring on will instantly upgrade it, though higher level walls might require multiple rings to upgrade. Works in both villages!",
+  "itemType": "utility",
+  "effect": {
+    "type": "wall-upgrade",
+    "homeVillageGoldEquivalent": 1000000,
+    "builderBaseGoldEquivalent": 500000
+  },
+  "image": "images/magic-items/utilities/wall-ring.png"
+}

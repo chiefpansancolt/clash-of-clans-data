@@ -1,0 +1,11 @@
+{
+  "id": "book-of-spells",
+  "name": "Book of Spells",
+  "description": "Written by unknown wizards, this magical book can be used to instantly complete any ongoing spell upgrade. Works in Home Village.",
+  "itemType": "book",
+  "effect": {
+    "type": "instant-complete",
+    "appliesTo": "spells"
+  },
+  "image": "images/magic-items/books/book-of-spells.png"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "builder-star-jar",
+  "name": "Builder Star Jar",
+  "description": "Smashing this fragile jar full of stars instantly makes your Star Bonus available in the Builder Base.",
+  "itemType": "utility",
+  "effect": {
+    "type": "star-bonus-reset",
+    "appliesTo": "builder-base-star-bonus"
+  },
+  "image": "images/magic-items/utilities/builder-star-jar.png"
+}

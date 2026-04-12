@@ -1,0 +1,11 @@
+{
+  "id": "book-of-building",
+  "name": "Book of Building",
+  "description": "Supposedly authored by the Master Builder himself, this magical book can be used to instantly complete any building upgrade. Works in both villages!",
+  "itemType": "book",
+  "effect": {
+    "type": "instant-complete",
+    "appliesTo": "buildings"
+  },
+  "image": "images/magic-items/books/book-of-building.png"
+}

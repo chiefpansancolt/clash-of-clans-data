@@ -1,0 +1,11 @@
+{
+  "id": "hammer-of-fighting",
+  "name": "Hammer of Fighting",
+  "description": "A swing of this magic hammer will instantly upgrade any troop to the next level. Works in both villages!",
+  "itemType": "hammer",
+  "effect": {
+    "type": "instant-upgrade",
+    "appliesTo": "troops"
+  },
+  "image": "images/magic-items/hammers/hammer-of-fighting.png"
+}

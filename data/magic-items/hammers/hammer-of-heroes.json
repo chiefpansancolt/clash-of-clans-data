@@ -1,0 +1,11 @@
+{
+  "id": "hammer-of-heroes",
+  "name": "Hammer of Heroes",
+  "description": "A swing of this magic hammer will instantly upgrade any hero or pet to the next level. Works in both villages!",
+  "itemType": "hammer",
+  "effect": {
+    "type": "instant-upgrade",
+    "appliesTo": "heroes-and-pets"
+  },
+  "image": "images/magic-items/hammers/hammer-of-heroes.png"
+}

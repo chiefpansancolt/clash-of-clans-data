@@ -2,6 +2,13 @@
  * Runs all sample scripts. Each writes its output to its own output.txt file.
  * Run with: pnpm sample
  */
+import './calculators';
+import './magic-items';
+import './magic-items/snacks';
+import './magic-items/potions';
+import './magic-items/books';
+import './magic-items/hammers';
+import './magic-items/utilities';
 import './builder';
 import './builder/army-buildings';
 import './builder/army-buildings/army-camp';

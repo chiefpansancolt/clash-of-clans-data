@@ -1,0 +1,12 @@
+{
+  "id": "clan-castle-cake",
+  "name": "Clan Castle Cake",
+  "description": "A sweet deal! Add free reinforcements to your Clan Castle for 12h. To enjoy this treat, join a Clan and add reinforcements at your Clan Castle!",
+  "itemType": "snack",
+  "effect": {
+    "type": "clan-castle",
+    "durationHours": 12,
+    "appliesTo": "clan-castle-reinforcements"
+  },
+  "image": "images/magic-items/snacks/clan-castle-cake.png"
+}

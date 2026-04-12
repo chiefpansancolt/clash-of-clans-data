@@ -1,0 +1,11 @@
+{
+  "id": "hammer-of-building",
+  "name": "Hammer of Building",
+  "description": "A swing of this magic hammer will instantly upgrade any building to the next level. Works in both villages!",
+  "itemType": "hammer",
+  "effect": {
+    "type": "instant-upgrade",
+    "appliesTo": "buildings"
+  },
+  "image": "images/magic-items/hammers/hammer-of-building.png"
+}

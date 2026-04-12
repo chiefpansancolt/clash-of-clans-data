@@ -1,0 +1,13 @@
+{
+  "id": "builder-bite",
+  "name": "Builder Bite",
+  "description": "A hearty bite that makes your Builders work 2x as fast for 1h. Works in the Home Village! Sadly the Builder's Apprentice is a vegetarian and won't be boosted!",
+  "itemType": "snack",
+  "effect": {
+    "type": "time-reduction",
+    "multiplier": 2,
+    "durationHours": 1,
+    "appliesTo": "builders"
+  },
+  "image": "images/magic-items/snacks/builder-bite.png"
+}

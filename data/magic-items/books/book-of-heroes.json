@@ -1,0 +1,11 @@
+{
+  "id": "book-of-heroes",
+  "name": "Book of Heroes",
+  "description": "Full of heroic tales and sound advice, this magical book can be used to instantly complete any ongoing hero or pet upgrade timer. Works in both villages!",
+  "itemType": "book",
+  "effect": {
+    "type": "instant-complete",
+    "appliesTo": "heroes-and-pets"
+  },
+  "image": "images/magic-items/books/book-of-heroes.png"
+}

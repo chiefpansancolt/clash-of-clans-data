@@ -1,0 +1,13 @@
+{
+  "id": "power-pancakes",
+  "name": "Power Pancakes",
+  "description": "A hearty meal that boosts Troops, Spells and Siege machines to the maximum level for your Town Hall for the next 3 battles. Works in the Home Village!",
+  "itemType": "snack",
+  "effect": {
+    "type": "combat-boost",
+    "boostTo": "max-town-hall-level",
+    "battles": 3,
+    "appliesTo": ["troops", "spells", "siege-machines"]
+  },
+  "image": "images/magic-items/snacks/power-pancakes.png"
+}

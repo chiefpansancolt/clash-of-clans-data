@@ -1,0 +1,13 @@
+{
+  "id": "builder-potion",
+  "name": "Builder Potion",
+  "description": "Brewed by the Builder in case of emergency all-nighters, this invigorating potion allows your builders to work 10x faster for 1h. Works in Home Village!",
+  "itemType": "potion",
+  "effect": {
+    "type": "time-reduction",
+    "multiplier": 10,
+    "durationHours": 1,
+    "appliesTo": "builders"
+  },
+  "image": "images/magic-items/potions/builder-potion.png"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "study-soup",
+  "name": "Study Soup",
+  "description": "This bubbling broth makes your Laboratory research 4x as fast for 1h. Works in the Home Village!",
+  "itemType": "snack",
+  "effect": {
+    "type": "time-reduction",
+    "multiplier": 4,
+    "durationHours": 1,
+    "appliesTo": "research"
+  },
+  "image": "images/magic-items/snacks/study-soup.png"
+}

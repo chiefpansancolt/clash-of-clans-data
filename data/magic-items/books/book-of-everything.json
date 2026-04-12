@@ -1,0 +1,11 @@
+{
+  "id": "book-of-everything",
+  "name": "Book of Everything",
+  "description": "This extremely powerful magical encyclopedia can be used to instantly complete any ongoing upgrade. Works in both villages!",
+  "itemType": "book",
+  "effect": {
+    "type": "instant-complete",
+    "appliesTo": "any"
+  },
+  "image": "images/magic-items/books/book-of-everything.png"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "shovel-of-obstacles",
+  "name": "Shovel of Obstacles",
+  "description": "Strong but fragile, this magical shovel can be used to make a single obstacle permanently movable. Works in both villages!",
+  "itemType": "utility",
+  "effect": {
+    "type": "obstacle-move",
+    "targets": "single-obstacle"
+  },
+  "image": "images/magic-items/utilities/shovel-of-obstacles.png"
+}
