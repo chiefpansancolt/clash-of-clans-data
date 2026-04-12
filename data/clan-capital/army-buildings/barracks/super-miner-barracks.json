@@ -1,0 +1,59 @@
+{
+  "id": "super-miner-barracks",
+  "name": "Super Miner Barracks",
+  "base": "clan_capital",
+  "category": "army",
+  "size": "3x3",
+  "troopUnlocked": "Super Miner",
+  "availablePerDistrict": [{ "district": "goblinMines", "countPerDistrictHall": [1, 1, 1, 1] }],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1200,
+      "buildCost": 17500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 1,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/barracks/super-miner-barracks/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1400,
+      "buildCost": 50000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 2,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/barracks/super-miner-barracks/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1600,
+      "buildCost": 150000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/barracks/super-miner-barracks/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1800,
+      "buildCost": 300000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 4,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/barracks/super-miner-barracks/normal/level-4.png"
+      }
+    }
+  ]
+}

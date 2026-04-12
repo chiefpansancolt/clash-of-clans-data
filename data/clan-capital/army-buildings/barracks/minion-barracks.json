@@ -1,0 +1,73 @@
+{
+  "id": "minion-barracks",
+  "name": "Minion Barracks",
+  "base": "clan_capital",
+  "category": "army",
+  "size": "3x3",
+  "troopUnlocked": "Minion",
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [0, 1, 1, 1, 1] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 1200,
+      "buildCost": 5000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 2,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/barracks/minion-barracks/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 1400,
+      "buildCost": 12500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 2,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/barracks/minion-barracks/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 1600,
+      "buildCost": 50000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/barracks/minion-barracks/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 1800,
+      "buildCost": 125000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 4,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/barracks/minion-barracks/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 2000,
+      "buildCost": 250000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "districtHallRequired": 5,
+      "images": {
+        "normal": "images/clan-capital/army-buildings/barracks/minion-barracks/normal/level-5.png"
+      }
+    }
+  ]
+}

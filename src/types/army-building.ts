@@ -1,5 +1,11 @@
 import { Building, BuildingLevel } from './building';
-import { Base, BuilderHallAvailability, Category, TownHallAvailability } from './common';
+import {
+  Base,
+  BuilderHallAvailability,
+  Category,
+  DistrictAvailability,
+  TownHallAvailability,
+} from './common';
 
 export interface ArmyBuildingLevel extends BuildingLevel {
   housingSpace: number;
@@ -181,4 +187,34 @@ export interface HomePetHouseBuildingLevel extends BuildingLevel {
 
 export interface HomePetHouseBuilding extends Building<HomePetHouseBuildingLevel> {
   availablePerTownHall: TownHallAvailability[];
+}
+
+export interface ClanCapitalArmyBuildingLevel extends BuildingLevel {
+  housingSpace: number;
+  districtHallRequired: number;
+  images: { normal: string };
+}
+
+export interface ClanCapitalArmyBuilding extends Building<ClanCapitalArmyBuildingLevel> {
+  availablePerDistrict: DistrictAvailability[];
+}
+
+export interface ClanCapitalSpellStorageBuildingLevel extends BuildingLevel {
+  spellCapacity: number;
+  districtHallRequired: number;
+  images: { normal: string };
+}
+
+export interface ClanCapitalSpellStorageBuilding extends Building<ClanCapitalSpellStorageBuildingLevel> {
+  availablePerDistrict: DistrictAvailability[];
+}
+
+export interface ClanCapitalBarracksBuildingLevel extends BuildingLevel {
+  districtHallRequired: number;
+  images: { normal: string };
+}
+
+export interface ClanCapitalBarracksBuilding extends Building<ClanCapitalBarracksBuildingLevel> {
+  troopUnlocked: string;
+  availablePerDistrict: DistrictAvailability[];
 }
