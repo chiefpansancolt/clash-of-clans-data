@@ -18,5 +18,7 @@ module.exports = {
     '^@/season-pass/(.*)$': '<rootDir>/src/modules/season-pass/$1',
     '^@/clan$': '<rootDir>/src/modules/clan/index.ts',
     '^@/clan/(.*)$': '<rootDir>/src/modules/clan/$1',
+    '^@/achievements$': '<rootDir>/src/modules/achievements/index.ts',
+    '^@/achievements/(.*)$': '<rootDir>/src/modules/achievements/$1',
   },
 };

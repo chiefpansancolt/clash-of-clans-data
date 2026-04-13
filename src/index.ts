@@ -6,3 +6,4 @@ export * from './modules/calculators';
 export * from './modules/magic-items';
 export * from './modules/season-pass';
 export * from './modules/clan';
+export * from './modules/achievements';

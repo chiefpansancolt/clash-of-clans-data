@@ -1,0 +1,1488 @@
+{
+  "achievements": [
+    {
+      "id": "keep-your-account-safe",
+      "name": "Keep Your Account Safe!",
+      "base": "home",
+      "dataInvolved": "Village linked to Supercell ID",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 100,
+          "xpRewarded": 50,
+          "gemsRewarded": 50
+        }
+      ]
+    },
+    {
+      "id": "bigger-and-better",
+      "name": "Bigger & Better",
+      "base": "home",
+      "dataInvolved": "Town Hall level",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 3,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 5,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 8,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "discover-new-troops",
+      "name": "Discover New Troops",
+      "base": "home",
+      "dataInvolved": "Barracks level",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 2,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 5,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 9,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "bigger-coffers",
+      "name": "Bigger Coffers",
+      "base": "home",
+      "dataInvolved": "Highest Gold Storage level",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 2,
+          "xpRewarded": 10,
+          "gemsRewarded": 2
+        },
+        {
+          "tier": 2,
+          "requirement": 5,
+          "xpRewarded": 100,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 3,
+          "requirement": 10,
+          "xpRewarded": 1000,
+          "gemsRewarded": 10
+        }
+      ]
+    },
+    {
+      "id": "gold-grab",
+      "name": "Gold Grab",
+      "base": "home",
+      "dataInvolved": "Total Gold looted",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20000,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 1000000,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 100000000,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "elixir-escapade",
+      "name": "Elixir Escapade",
+      "base": "home",
+      "dataInvolved": "Total Elixir looted",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20000,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 1000000,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 100000000,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "heroic-heist",
+      "name": "Heroic Heist",
+      "base": "home",
+      "dataInvolved": "Total Dark Elixir looted",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20000,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 250000,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 1000000,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        },
+        {
+          "tier": 4,
+          "requirement": 15000,
+          "xpRewarded": 200,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 5,
+          "requirement": 50000,
+          "xpRewarded": 2000,
+          "gemsRewarded": 250
+        }
+      ]
+    },
+    {
+      "id": "nice-and-tidy",
+      "name": "Nice and Tidy",
+      "base": "home",
+      "dataInvolved": "Total Obstacles removed",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 5,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 50,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 500,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "empire-builder",
+      "name": "Empire Builder",
+      "base": "home",
+      "dataInvolved": "Clan Castle level",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 1,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 2,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 4,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "clan-war-wealth",
+      "name": "Clan War Wealth",
+      "base": "home",
+      "dataInvolved": "Total Gold collected from the Treasury",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 800000,
+          "xpRewarded": 100,
+          "gemsRewarded": 25
+        },
+        {
+          "tier": 2,
+          "requirement": 15000000,
+          "xpRewarded": 500,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 100000000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 500
+        }
+      ]
+    },
+    {
+      "id": "friend-in-need",
+      "name": "Friend in Need",
+      "base": "home",
+      "dataInvolved": "Total housing space of troops donated",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 100,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 5000,
+          "xpRewarded": 100,
+          "gemsRewarded": 25
+        },
+        {
+          "tier": 3,
+          "requirement": 25000,
+          "xpRewarded": 1000,
+          "gemsRewarded": 250
+        }
+      ]
+    },
+    {
+      "id": "sharing-is-caring",
+      "name": "Sharing is caring",
+      "base": "home",
+      "dataInvolved": "Total housing space of spells donated",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 100,
+          "xpRewarded": 20,
+          "gemsRewarded": 20
+        },
+        {
+          "tier": 2,
+          "requirement": 2000,
+          "xpRewarded": 200,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 10000,
+          "xpRewarded": 2000,
+          "gemsRewarded": 500
+        }
+      ]
+    },
+    {
+      "id": "siege-sharer",
+      "name": "Siege Sharer",
+      "base": "home",
+      "dataInvolved": "Total Siege Machines donated",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 50,
+          "xpRewarded": 20,
+          "gemsRewarded": 20
+        },
+        {
+          "tier": 2,
+          "requirement": 1000,
+          "xpRewarded": 200,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 5000,
+          "xpRewarded": 2000,
+          "gemsRewarded": 500
+        }
+      ]
+    },
+    {
+      "id": "war-hero",
+      "name": "War Hero",
+      "base": "home",
+      "dataInvolved": "Total stars gained in Clan Wars",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 10,
+          "xpRewarded": 50,
+          "gemsRewarded": 50
+        },
+        {
+          "tier": 2,
+          "requirement": 150,
+          "xpRewarded": 500,
+          "gemsRewarded": 200
+        },
+        {
+          "tier": 3,
+          "requirement": 1000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 1000
+        }
+      ]
+    },
+    {
+      "id": "war-league-legend",
+      "name": "War League Legend",
+      "base": "home",
+      "dataInvolved": "Stars gained in Clan War Leagues",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20,
+          "xpRewarded": 200,
+          "gemsRewarded": 20
+        },
+        {
+          "tier": 2,
+          "requirement": 100,
+          "xpRewarded": 1000,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 250,
+          "xpRewarded": 2500,
+          "gemsRewarded": 250
+        }
+      ]
+    },
+    {
+      "id": "games-champion",
+      "name": "Games Champion",
+      "base": "home",
+      "dataInvolved": "Total points scored in Clan Games",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 10000,
+          "xpRewarded": 20,
+          "gemsRewarded": 50
+        },
+        {
+          "tier": 2,
+          "requirement": 50000,
+          "xpRewarded": 200,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 100000,
+          "xpRewarded": 2000,
+          "gemsRewarded": 250
+        }
+      ]
+    },
+    {
+      "id": "unbreakable",
+      "name": "Unbreakable",
+      "base": "home",
+      "dataInvolved": "Total defensive victories in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 10,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 250,
+          "xpRewarded": 100,
+          "gemsRewarded": 50
+        },
+        {
+          "tier": 3,
+          "requirement": 500,
+          "xpRewarded": 1000,
+          "gemsRewarded": 100
+        }
+      ]
+    },
+    {
+      "id": "sweet-victory",
+      "name": "Sweet Victory!",
+      "base": "home",
+      "dataInvolved": "Highest Trophies reached",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 75,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 750,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 1250,
+          "xpRewarded": 1000,
+          "gemsRewarded": 450
+        }
+      ]
+    },
+    {
+      "id": "conqueror",
+      "name": "Conqueror",
+      "base": "home",
+      "dataInvolved": "Total Multiplayer Battles won",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 25,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 250,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 5000,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "league-all-star-obsolete",
+      "name": "League All-Star (Obsolete)",
+      "base": "home",
+      "dataInvolved": "Highest Trophy Leagues reached",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": "Crystal",
+          "xpRewarded": 100,
+          "gemsRewarded": 250
+        },
+        {
+          "tier": 2,
+          "requirement": "Master",
+          "xpRewarded": 500,
+          "gemsRewarded": 1000
+        },
+        {
+          "tier": 3,
+          "requirement": "Champion",
+          "xpRewarded": 2000,
+          "gemsRewarded": 2000
+        }
+      ]
+    },
+    {
+      "id": "league-follower",
+      "name": "League Follower",
+      "base": "home",
+      "dataInvolved": "Highest Leagues reached",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": "Barbarian 6",
+          "xpRewarded": 50,
+          "gemsRewarded": 50
+        },
+        {
+          "tier": 2,
+          "requirement": "Archer 9",
+          "xpRewarded": 100,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": "Wizard 12",
+          "xpRewarded": 250,
+          "gemsRewarded": 250
+        }
+      ]
+    },
+    {
+      "id": "league-enthusiast",
+      "name": "League Enthusiast",
+      "base": "home",
+      "dataInvolved": "Highest Leagues reached",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": "Valkyrie 15",
+          "xpRewarded": 50,
+          "gemsRewarded": 50
+        },
+        {
+          "tier": 2,
+          "requirement": "Witch 18",
+          "xpRewarded": 100,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": "Golem 21",
+          "xpRewarded": 250,
+          "gemsRewarded": 250
+        }
+      ]
+    },
+    {
+      "id": "league-superfan",
+      "name": "League Superfan",
+      "base": "home",
+      "dataInvolved": "Highest Leagues reached",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": "P.E.K.K.A 24",
+          "xpRewarded": 100,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 2,
+          "requirement": "Titan 27",
+          "xpRewarded": 250,
+          "gemsRewarded": 250
+        },
+        {
+          "tier": 3,
+          "requirement": "Dragon 28",
+          "xpRewarded": 500,
+          "gemsRewarded": 500
+        }
+      ]
+    },
+    {
+      "id": "league-fanatic",
+      "name": "League Fanatic",
+      "base": "home",
+      "dataInvolved": "Highest Leagues reached",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": "Dragon 29",
+          "xpRewarded": 100,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 2,
+          "requirement": "Dragon 30",
+          "xpRewarded": 250,
+          "gemsRewarded": 250
+        },
+        {
+          "tier": 3,
+          "requirement": "Electro 31",
+          "xpRewarded": 500,
+          "gemsRewarded": 500
+        }
+      ]
+    },
+    {
+      "id": "league-master",
+      "name": "League Master",
+      "base": "home",
+      "dataInvolved": "Highest Leagues reached",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": "Electro 32",
+          "xpRewarded": 250,
+          "gemsRewarded": 250
+        },
+        {
+          "tier": 2,
+          "requirement": "Electro 33",
+          "xpRewarded": 350,
+          "gemsRewarded": 350
+        },
+        {
+          "tier": 3,
+          "requirement": "Legend League",
+          "xpRewarded": 500,
+          "gemsRewarded": 500
+        }
+      ]
+    },
+    {
+      "id": "humiliator",
+      "name": "Humiliator",
+      "base": "home",
+      "dataInvolved": "Total Town Halls destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 10,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 100,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 2000,
+          "xpRewarded": 1000,
+          "gemsRewarded": 50
+        }
+      ]
+    },
+    {
+      "id": "not-so-easy-this-time",
+      "name": "Not So Easy This Time",
+      "base": "home",
+      "dataInvolved": "Total weaponized Town Halls destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 10,
+          "xpRewarded": 10,
+          "gemsRewarded": 20
+        },
+        {
+          "tier": 2,
+          "requirement": 100,
+          "xpRewarded": 800,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 2000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 250
+        }
+      ]
+    },
+    {
+      "id": "union-buster",
+      "name": "Union Buster",
+      "base": "home",
+      "dataInvolved": "Total Builder's Huts destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 25,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 250,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 2500,
+          "xpRewarded": 1000,
+          "gemsRewarded": 30
+        }
+      ]
+    },
+    {
+      "id": "bust-this",
+      "name": "Bust This!",
+      "base": "home",
+      "dataInvolved": "Total weaponized Builder's Huts destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 25,
+          "xpRewarded": 10,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": 250,
+          "xpRewarded": 100,
+          "gemsRewarded": 30
+        },
+        {
+          "tier": 3,
+          "requirement": 2500,
+          "xpRewarded": 1000,
+          "gemsRewarded": 100
+        }
+      ]
+    },
+    {
+      "id": "wall-buster",
+      "name": "Wall Buster",
+      "base": "home",
+      "dataInvolved": "Total Walls destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 10,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 100,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 2000,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "mortar-mauler",
+      "name": "Mortar Mauler",
+      "base": "home",
+      "dataInvolved": "Total Mortars destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 25,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 500,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 5000,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "x-bow-exterminator",
+      "name": "X-Bow Exterminator",
+      "base": "home",
+      "dataInvolved": "Total X-Bows destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 1,
+          "xpRewarded": 50,
+          "gemsRewarded": 50
+        },
+        {
+          "tier": 2,
+          "requirement": 250,
+          "xpRewarded": 100,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 2500,
+          "xpRewarded": 1000,
+          "gemsRewarded": 200
+        }
+      ]
+    },
+    {
+      "id": "firefighter",
+      "name": "Firefighter",
+      "base": "home",
+      "dataInvolved": "Total Inferno Towers destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 10,
+          "xpRewarded": 50,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 2,
+          "requirement": 250,
+          "xpRewarded": 500,
+          "gemsRewarded": 200
+        },
+        {
+          "tier": 3,
+          "requirement": 5000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 1000
+        }
+      ]
+    },
+    {
+      "id": "anti-artillery",
+      "name": "Anti-Artillery",
+      "base": "home",
+      "dataInvolved": "Total Eagle and Inferno Artilleries destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20,
+          "xpRewarded": 100,
+          "gemsRewarded": 150
+        },
+        {
+          "tier": 2,
+          "requirement": 200,
+          "xpRewarded": 800,
+          "gemsRewarded": 300
+        },
+        {
+          "tier": 3,
+          "requirement": 2000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 1000
+        }
+      ]
+    },
+    {
+      "id": "shattered-and-scattered",
+      "name": "Shattered and Scattered",
+      "base": "home",
+      "dataInvolved": "Total Scattershots destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 40,
+          "xpRewarded": 100,
+          "gemsRewarded": 150
+        },
+        {
+          "tier": 2,
+          "requirement": 400,
+          "xpRewarded": 800,
+          "gemsRewarded": 300
+        },
+        {
+          "tier": 3,
+          "requirement": 4000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 1000
+        }
+      ]
+    },
+    {
+      "id": "counterspell",
+      "name": "Counterspell",
+      "base": "home",
+      "dataInvolved": "Total Spell Towers destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 40,
+          "xpRewarded": 100,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 2,
+          "requirement": 400,
+          "xpRewarded": 800,
+          "gemsRewarded": 250
+        },
+        {
+          "tier": 3,
+          "requirement": 4000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 500
+        }
+      ]
+    },
+    {
+      "id": "monolith-masher",
+      "name": "Monolith Masher",
+      "base": "home",
+      "dataInvolved": "Total Monoliths destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20,
+          "xpRewarded": 100,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 2,
+          "requirement": 200,
+          "xpRewarded": 800,
+          "gemsRewarded": 250
+        },
+        {
+          "tier": 3,
+          "requirement": 2000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 500
+        }
+      ]
+    },
+    {
+      "id": "multi-archer-tower-terminator",
+      "name": "Multi-Archer Tower Terminator",
+      "base": "home",
+      "dataInvolved": "Total Multi-Archer Towers destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 50,
+          "xpRewarded": 100,
+          "gemsRewarded": 25
+        },
+        {
+          "tier": 2,
+          "requirement": 500,
+          "xpRewarded": 800,
+          "gemsRewarded": 75
+        },
+        {
+          "tier": 3,
+          "requirement": 5000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 200
+        }
+      ]
+    },
+    {
+      "id": "ricochet-cannon-crusher",
+      "name": "Ricochet Cannon Crusher",
+      "base": "home",
+      "dataInvolved": "Total Ricochet Cannons destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 50,
+          "xpRewarded": 100,
+          "gemsRewarded": 25
+        },
+        {
+          "tier": 2,
+          "requirement": 500,
+          "xpRewarded": 800,
+          "gemsRewarded": 75
+        },
+        {
+          "tier": 3,
+          "requirement": 5000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 200
+        }
+      ]
+    },
+    {
+      "id": "firespitter-finisher",
+      "name": "Firespitter Finisher",
+      "base": "home",
+      "dataInvolved": "Total Firespitters destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 40,
+          "xpRewarded": 100,
+          "gemsRewarded": 25
+        },
+        {
+          "tier": 2,
+          "requirement": 400,
+          "xpRewarded": 800,
+          "gemsRewarded": 75
+        },
+        {
+          "tier": 3,
+          "requirement": 4000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 200
+        }
+      ]
+    },
+    {
+      "id": "multi-gear-tower-trampler",
+      "name": "Multi-Gear Tower Trampler",
+      "base": "home",
+      "dataInvolved": "Total Multi-Gear Towers destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20,
+          "xpRewarded": 100,
+          "gemsRewarded": 25
+        },
+        {
+          "tier": 2,
+          "requirement": 200,
+          "xpRewarded": 800,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 2000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 200
+        }
+      ]
+    },
+    {
+      "id": "crafters-nightmare",
+      "name": "Crafter's Nightmare",
+      "base": "home",
+      "dataInvolved": "Total Crafted Defenses destroyed in Multiplayer Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20,
+          "xpRewarded": 100,
+          "gemsRewarded": 25
+        },
+        {
+          "tier": 2,
+          "requirement": 200,
+          "xpRewarded": 800,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 2000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 200
+        }
+      ]
+    },
+    {
+      "id": "get-those-goblins",
+      "name": "Get those Goblins!",
+      "base": "home",
+      "dataInvolved": "Stars gained in the Single Player Campaign",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 10,
+          "xpRewarded": 10,
+          "gemsRewarded": 5
+        },
+        {
+          "tier": 2,
+          "requirement": 50,
+          "xpRewarded": 100,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 3,
+          "requirement": 150,
+          "xpRewarded": 1000,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "supercharger",
+      "name": "Supercharger",
+      "base": "home",
+      "dataInvolved": "Total amount of Supercharges",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 5,
+          "xpRewarded": 10,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": 25,
+          "xpRewarded": 100,
+          "gemsRewarded": 30
+        },
+        {
+          "tier": 3,
+          "requirement": 75,
+          "xpRewarded": 1000,
+          "gemsRewarded": 50
+        }
+      ]
+    },
+    {
+      "id": "crafting-connoisseur",
+      "name": "Crafting Connoisseur",
+      "base": "home",
+      "dataInvolved": "Total amount of Crafted Defenses upgrade",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 5,
+          "xpRewarded": 10,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": 25,
+          "xpRewarded": 100,
+          "gemsRewarded": 30
+        },
+        {
+          "tier": 3,
+          "requirement": 75,
+          "xpRewarded": 1000,
+          "gemsRewarded": 50
+        }
+      ]
+    },
+    {
+      "id": "get-those-other-goblins",
+      "name": "Get those other Goblins!",
+      "base": "home",
+      "dataInvolved": "Stars gained in the Single Player Campaign",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 175,
+          "xpRewarded": 200,
+          "gemsRewarded": 20
+        },
+        {
+          "tier": 2,
+          "requirement": 200,
+          "xpRewarded": 500,
+          "gemsRewarded": 50
+        },
+        {
+          "tier": 3,
+          "requirement": 225,
+          "xpRewarded": 1000,
+          "gemsRewarded": 100
+        }
+      ]
+    },
+    {
+      "id": "get-even-more-goblins",
+      "name": "Get even more Goblins!",
+      "base": "home",
+      "dataInvolved": "Stars gained in the Single Player Campaign",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 240,
+          "xpRewarded": 500,
+          "gemsRewarded": 50
+        },
+        {
+          "tier": 2,
+          "requirement": 255,
+          "xpRewarded": 1000,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 270,
+          "xpRewarded": 2000,
+          "gemsRewarded": 150
+        }
+      ]
+    },
+    {
+      "id": "dragon-slayer",
+      "name": "Dragon Slayer",
+      "base": "home",
+      "dataInvolved": "Slay the Giant Dragon",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": "Yes",
+          "xpRewarded": 200,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "ungrateful-child",
+      "name": "Ungrateful Child",
+      "base": "home",
+      "dataInvolved": "Slay the M.O.M.M.A",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": "Yes",
+          "xpRewarded": 200,
+          "gemsRewarded": 20
+        }
+      ]
+    },
+    {
+      "id": "superb-work",
+      "name": "Superb Work",
+      "base": "home",
+      "dataInvolved": "Number of Super Troop boosts done",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20,
+          "xpRewarded": 10,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": 100,
+          "xpRewarded": 100,
+          "gemsRewarded": 30
+        },
+        {
+          "tier": 3,
+          "requirement": 250,
+          "xpRewarded": 1000,
+          "gemsRewarded": 100
+        }
+      ]
+    },
+    {
+      "id": "master-engineering",
+      "name": "Master Engineering",
+      "base": "builder",
+      "dataInvolved": "Builder Hall level",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 3,
+          "xpRewarded": 20,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": 5,
+          "xpRewarded": 200,
+          "gemsRewarded": 30
+        },
+        {
+          "tier": 3,
+          "requirement": 8,
+          "xpRewarded": 2000,
+          "gemsRewarded": 50
+        }
+      ]
+    },
+    {
+      "id": "hidden-treasures",
+      "name": "Hidden Treasures",
+      "base": "builder",
+      "dataInvolved": "Buildings rebuilt in the Builder Base",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": "Gem Mine",
+          "xpRewarded": 20,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": "Clock Tower",
+          "xpRewarded": 200,
+          "gemsRewarded": 30
+        },
+        {
+          "tier": 3,
+          "requirement": "Battle Machine",
+          "xpRewarded": 2000,
+          "gemsRewarded": 50
+        }
+      ]
+    },
+    {
+      "id": "high-gear",
+      "name": "High Gear",
+      "base": "builder",
+      "dataInvolved": "Total buildings geared up with the Master Builder",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 1,
+          "xpRewarded": 20,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": 2,
+          "xpRewarded": 200,
+          "gemsRewarded": 30
+        },
+        {
+          "tier": 3,
+          "requirement": 3,
+          "xpRewarded": 2000,
+          "gemsRewarded": 50
+        }
+      ]
+    },
+    {
+      "id": "next-generation-model",
+      "name": "Next Generation Model",
+      "base": "builder",
+      "dataInvolved": "Builder Barracks level",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 2,
+          "xpRewarded": 20,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": 7,
+          "xpRewarded": 200,
+          "gemsRewarded": 30
+        },
+        {
+          "tier": 3,
+          "requirement": 10,
+          "xpRewarded": 2000,
+          "gemsRewarded": 50
+        }
+      ]
+    },
+    {
+      "id": "un-build-it",
+      "name": "Un-Build It",
+      "base": "builder",
+      "dataInvolved": "Total Builder Halls destroyed in Versus Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 5,
+          "xpRewarded": 20,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": 100,
+          "xpRewarded": 200,
+          "gemsRewarded": 30
+        },
+        {
+          "tier": 3,
+          "requirement": 2000,
+          "xpRewarded": 2000,
+          "gemsRewarded": 50
+        }
+      ]
+    },
+    {
+      "id": "champion-builder",
+      "name": "Champion Builder",
+      "base": "builder",
+      "dataInvolved": "Highest Versus Trophies reached in Versus Battles",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 200,
+          "xpRewarded": 50,
+          "gemsRewarded": 10
+        },
+        {
+          "tier": 2,
+          "requirement": 1000,
+          "xpRewarded": 500,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 3000,
+          "xpRewarded": 5000,
+          "gemsRewarded": 1000
+        }
+      ]
+    },
+    {
+      "id": "aggressive-capitalism",
+      "name": "Aggressive Capitalism",
+      "base": "clan-capital",
+      "dataInvolved": "Loot Capital Gold during Raid Attacks",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 20000,
+          "xpRewarded": 10,
+          "gemsRewarded": 50
+        },
+        {
+          "tier": 2,
+          "requirement": 250000,
+          "xpRewarded": 100,
+          "gemsRewarded": 100
+        },
+        {
+          "tier": 3,
+          "requirement": 1000000,
+          "xpRewarded": 1000,
+          "gemsRewarded": 250
+        }
+      ]
+    },
+    {
+      "id": "most-valuable-clanmate",
+      "name": "Most Valuable Clanmate",
+      "base": "clan-capital",
+      "dataInvolved": "Contribute Capital Gold to updates in the Clan Capital",
+      "tiers": [
+        {
+          "tier": 1,
+          "requirement": 40000,
+          "xpRewarded": 20,
+          "gemsRewarded": 75
+        },
+        {
+          "tier": 2,
+          "requirement": 500000,
+          "xpRewarded": 200,
+          "gemsRewarded": 150
+        },
+        {
+          "tier": 3,
+          "requirement": 2000000,
+          "xpRewarded": 2000,
+          "gemsRewarded": 500
+        }
+      ]
+    }
+  ]
+}

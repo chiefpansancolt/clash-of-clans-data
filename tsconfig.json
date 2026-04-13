@@ -32,6 +32,8 @@
       "@/season-pass/*": ["src/modules/season-pass/*"],
       "@/clan": ["src/modules/clan/index.ts"],
       "@/clan/*": ["src/modules/clan/*"],
+      "@/achievements": ["src/modules/achievements/index.ts"],
+      "@/achievements/*": ["src/modules/achievements/*"],
       "@/data/*": ["data/*"],
       "@/images/*": ["images/*"]
     }
