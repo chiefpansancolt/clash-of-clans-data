@@ -96,6 +96,28 @@ for (const [label, t] of Object.entries(sampleTimes)) {
 }
 log('');
 
+// ── Gems Calculator ───────────────────────────────────────────────────────────
+
+log('=== calculators().gems() ===');
+log('');
+
+const gemSamples: BuildTime[] = [
+  { days: 0, hours: 0, minutes: 0, seconds: 0 },
+  { days: 0, hours: 0, minutes: 0, seconds: 1 },
+  { days: 0, hours: 0, minutes: 3, seconds: 0 },
+  { days: 0, hours: 1, minutes: 0, seconds: 0 },
+  { days: 1, hours: 0, minutes: 0, seconds: 0 },
+  { days: 5, hours: 6, minutes: 5, seconds: 1 },
+  { days: 14, hours: 0, minutes: 0, seconds: 0 },
+];
+
+log(`  ${'Time'.padEnd(20)} Gems`);
+for (const t of gemSamples) {
+  const gemCost = calc.gems().cost(t);
+  log(`  ${fmt(t).padEnd(20)} ${gemCost.toLocaleString()}`);
+}
+log('');
+
 // ── Helpers Calculator ────────────────────────────────────────────────────────
 
 log('=== calculators().helpers() ===');

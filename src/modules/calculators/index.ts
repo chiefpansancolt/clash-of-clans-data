@@ -1,8 +1,10 @@
 import { BuildBoostCalculator } from './boost';
+import { GemsCalculator } from './gems';
 import { HelpersCalculator } from './helpers';
 import { PotionsCalculator } from './potions';
 
 export { BuildBoostCalculator } from './boost';
+export { GemsCalculator } from './gems';
 export { HelpersCalculator } from './helpers';
 export { PotionsCalculator } from './potions';
 
@@ -14,6 +16,11 @@ export class Calculators {
   /** Build time and cost boost calculations (Builder Boost, Research Boost). */
   boost(): BuildBoostCalculator {
     return new BuildBoostCalculator();
+  }
+
+  /** Gem cost calculator — converts build/research time into gem cost. */
+  gems(): GemsCalculator {
+    return new GemsCalculator();
   }
 
   /** Helper Hut helper calculations (Lab Assistant, Builder's Apprentice, Alchemist, Prospector). */
