@@ -4,7 +4,6 @@
  * contributes one entry. Module objects inside a `modules` array are also
  * scanned, as are type objects inside a `types` array.
  */
-
 import * as fs from 'fs';
 import * as path from 'path';
 

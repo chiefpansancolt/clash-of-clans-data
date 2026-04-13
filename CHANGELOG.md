@@ -5,6 +5,42 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0] — 2026-04-13
+
+### Added
+
+#### `dataId` — Game Data ID Mapping
+
+Added a `dataId: number` field to every home village and builder base JSON entity, placed
+immediately after `id`. Maps each entity to its internal game identifier (e.g. Cannon → `1000008`,
+Barbarian King → `28000000`).
+
+- **Home Village** — all defenses, crafted defenses, guardians, walls, traps, town hall, resource
+  buildings, army buildings, other buildings, heroes, troops, spells, siege machines, pets, hero
+  equipment, helpers, siege machines, crafted defenses
+- **Builder Base** — all defenses, walls, traps, resource buildings, army buildings, builder hall,
+  heroes, troops
+
+#### Profile Parser (`src/parser/`)
+
+New standalone module for parsing raw game-state snapshot JSON (the format produced by the game API)
+into structured, human-readable data.
+
+- **`src/parser/index.ts`** — Pure `parseProfile(raw, lookup)` function. Accepts a `RawProfile`
+  (typed snapshot shape) and a `Map<number, string>` lookup. Returns a `ParsedProfile` with `home`
+  and `builder` sections, each containing labelled `ParsedSection` arrays. Handles:
+  - Name resolution with `[dataId]` fallback for unknown IDs
+  - Multi-level merging — same `dataId` at different upgrade levels collapses into one entry with a
+    `levels` array (e.g. Wall lv15 ×20 + lv16 ×305)
+  - Upgrading flag from `timer` field
+  - Gear-up flag from `gear_up` field
+  - Crafting station nested parsing — `types` array with per-type modules resolved to names and
+    levels
+  - Empty-section pruning — sections with no entries are omitted from output
+- **`src/parser/lookup.ts`** — `buildLookup(dataDir)` scans all JSON files in the data directory
+  recursively and builds a `Map<dataId, name>`, including top-level entity IDs and module-level IDs
+  nested inside `modules` arrays
+
 ## [0.1.0] — 2026-04-13
 
 Initial release.

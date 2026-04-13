@@ -143,10 +143,7 @@ function parseSection(
   return { label, entries };
 }
 
-function parseCraftingStation(
-  raw: RawCraftingStation,
-  lookup: Map<number, string>,
-): ParsedEntry {
+function parseCraftingStation(raw: RawCraftingStation, lookup: Map<number, string>): ParsedEntry {
   const craftedTypes: ParsedCraftedType[] = raw.types.map((t) => ({
     dataId: t.data,
     name: resolve(t.data, lookup),

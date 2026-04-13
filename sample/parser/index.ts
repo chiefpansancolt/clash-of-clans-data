@@ -4,16 +4,15 @@
  *
  * Usage:  pnpm tsx sample/parser/index.ts [path/to/profile.json]
  */
-
 import * as fs from 'fs';
 import * as path from 'path';
-import { buildLookup } from '../../src/parser/lookup';
 import {
-  parseProfile,
   type ParsedEntry,
   type ParsedProfile,
   type ParsedSection,
+  parseProfile,
 } from '../../src/parser';
+import { buildLookup } from '../../src/parser/lookup';
 import { createLogger } from '../helper';
 
 const { log, writeOutput } = createLogger();

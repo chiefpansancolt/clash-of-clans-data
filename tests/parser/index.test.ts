@@ -1,8 +1,8 @@
 import * as path from 'path';
-import mockProfile from './mock-profile.json';
-import { buildLookup } from '../../src/parser/lookup';
 import { parseProfile } from '../../src/parser';
 import type { RawProfile } from '../../src/parser';
+import { buildLookup } from '../../src/parser/lookup';
+import mockProfile from './mock-profile.json';
 
 const DATA_DIR = path.resolve(__dirname, '../../data');
 
