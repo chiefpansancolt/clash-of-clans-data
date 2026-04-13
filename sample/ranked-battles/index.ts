@@ -10,7 +10,9 @@ const rb = rankedBattles();
 log('=== rankedBattles().leagues() ===');
 log(`Total: ${rb.leagues().count()}`);
 log('');
-log(`  ${'League'.padEnd(22)} ${'Group'.padEnd(12)} ${'Atk/Wk'.padEnd(8)} ${'Promoted'.padEnd(10)} ${'Demoted'.padEnd(10)} Image`);
+log(
+  `  ${'League'.padEnd(22)} ${'Group'.padEnd(12)} ${'Atk/Wk'.padEnd(8)} ${'Promoted'.padEnd(10)} ${'Demoted'.padEnd(10)} Image`,
+);
 
 for (const league of rb.leagues().get()) {
   const atk = league.attacksPerWeek != null ? String(league.attacksPerWeek) : 'N/A';
@@ -35,7 +37,9 @@ for (const entry of rb.leagueFloor()) {
 
 log('');
 log('=== rankedBattles().difficultyModifiers() ===');
-log(`  ${'League'.padEnd(14)} ${'Modifier'.padEnd(10)} ${'Def DPS'.padEnd(10)} ${'Hero Bonus'.padEnd(12)} Atk Penalty`);
+log(
+  `  ${'League'.padEnd(14)} ${'Modifier'.padEnd(10)} ${'Def DPS'.padEnd(10)} ${'Hero Bonus'.padEnd(12)} Atk Penalty`,
+);
 for (const mod of rb.difficultyModifiers()) {
   const pen = mod.attackingHeroDpsHpPenalty != null ? `-${mod.attackingHeroDpsHpPenalty}%` : 'N/A';
   log(
@@ -47,18 +51,21 @@ for (const mod of rb.difficultyModifiers()) {
 
 log('');
 log('=== rankedBattles().loot() — sample TH18 ===');
-log(`  ${'League'.padEnd(16)} ${'Floor?'.padEnd(8)} ${'Max Loot G/E'.padEnd(14)} ${'League Bonus G/E'.padEnd(18)} ${'Star Bonus G/E'.padEnd(16)} Shiny / Glowy / Starry`);
+log(
+  `  ${'League'.padEnd(16)} ${'Floor?'.padEnd(8)} ${'Max Loot G/E'.padEnd(14)} ${'League Bonus G/E'.padEnd(18)} ${'Star Bonus G/E'.padEnd(16)} Shiny / Glowy / Starry`,
+);
 for (const entry of rb.loot(18)) {
   const floor = entry.underfloor ? 'below' : 'at/above';
-  const lootGE = entry.maxAvailableLoot.goldAndElixir != null
-    ? entry.maxAvailableLoot.goldAndElixir.toLocaleString()
-    : 'N/A';
-  const bonusGE = entry.maxLeagueBonus.goldAndElixir != null
-    ? entry.maxLeagueBonus.goldAndElixir.toLocaleString()
-    : 'N/A';
-  const starGE = entry.starBonus.goldAndElixir != null
-    ? entry.starBonus.goldAndElixir.toLocaleString()
-    : 'N/A';
+  const lootGE =
+    entry.maxAvailableLoot.goldAndElixir != null
+      ? entry.maxAvailableLoot.goldAndElixir.toLocaleString()
+      : 'N/A';
+  const bonusGE =
+    entry.maxLeagueBonus.goldAndElixir != null
+      ? entry.maxLeagueBonus.goldAndElixir.toLocaleString()
+      : 'N/A';
+  const starGE =
+    entry.starBonus.goldAndElixir != null ? entry.starBonus.goldAndElixir.toLocaleString() : 'N/A';
   const shiny = entry.starBonus.shinyOre ?? 'N/A';
   const glowy = entry.starBonus.glowyOre ?? 'N/A';
   const starry = entry.starBonus.starryOre ?? 'N/A';

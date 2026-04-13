@@ -117,7 +117,9 @@ log('Clock Tower Boost (1d remaining build)');
 log(`  ${'Level'.padEnd(8)} ${'Boost Duration'.padEnd(16)} ${'Time Gained'.padEnd(14)} Result`);
 for (let lvl = 1; lvl <= 10; lvl++) {
   const result = fmt(calc.clockTower().boost(clockTowerTime, lvl as 1));
-  log(`  Lv ${String(lvl).padStart(2)}    ${String(lvl * 2 + 12).padEnd(16)} ${String(lvl * 18 + 108).padEnd(14)} ${result}`);
+  log(
+    `  Lv ${String(lvl).padStart(2)}    ${String(lvl * 2 + 12).padEnd(16)} ${String(lvl * 18 + 108).padEnd(14)} ${result}`,
+  );
 }
 log('');
 

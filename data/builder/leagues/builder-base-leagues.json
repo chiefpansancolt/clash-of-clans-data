@@ -1,0 +1,800 @@
+[
+  {
+    "id": "wood-v",
+    "name": "Wood V",
+    "group": "Wood",
+    "tier": 5,
+    "trophyMin": 0,
+    "trophyMax": 99,
+    "image": "images/builder/leagues/wood-v.png",
+    "starBonus": { "starsRequired": 7, "reward": 5000 },
+    "battleResults": [
+      { "attackerGold": 1500, "defenderElixir": 7500 },
+      { "attackerGold": 3500, "defenderElixir": 5500 },
+      { "attackerGold": 5500, "defenderElixir": 3500 },
+      { "attackerGold": 7500, "defenderElixir": 1500 },
+      { "attackerGold": 7500, "defenderElixir": 1500 },
+      { "attackerGold": 7500, "defenderElixir": 1500 },
+      { "attackerGold": 7500, "defenderElixir": 1500 }
+    ]
+  },
+  {
+    "id": "wood-iv",
+    "name": "Wood IV",
+    "group": "Wood",
+    "tier": 4,
+    "trophyMin": 100,
+    "trophyMax": 199,
+    "image": "images/builder/leagues/wood-iv.png",
+    "starBonus": { "starsRequired": 7, "reward": 15000 },
+    "battleResults": [
+      { "attackerGold": 1500, "defenderElixir": 10500 },
+      { "attackerGold": 4500, "defenderElixir": 7500 },
+      { "attackerGold": 7500, "defenderElixir": 4500 },
+      { "attackerGold": 10500, "defenderElixir": 1500 },
+      { "attackerGold": 10500, "defenderElixir": 1500 },
+      { "attackerGold": 10500, "defenderElixir": 1500 },
+      { "attackerGold": 10500, "defenderElixir": 1500 }
+    ]
+  },
+  {
+    "id": "wood-iii",
+    "name": "Wood III",
+    "group": "Wood",
+    "tier": 3,
+    "trophyMin": 200,
+    "trophyMax": 299,
+    "image": "images/builder/leagues/wood-iii.png",
+    "starBonus": { "starsRequired": 7, "reward": 22500 },
+    "battleResults": [
+      { "attackerGold": 1500, "defenderElixir": 13500 },
+      { "attackerGold": 5500, "defenderElixir": 9500 },
+      { "attackerGold": 9500, "defenderElixir": 5500 },
+      { "attackerGold": 13500, "defenderElixir": 1500 },
+      { "attackerGold": 13500, "defenderElixir": 1500 },
+      { "attackerGold": 13500, "defenderElixir": 1500 },
+      { "attackerGold": 13500, "defenderElixir": 1500 }
+    ]
+  },
+  {
+    "id": "wood-ii",
+    "name": "Wood II",
+    "group": "Wood",
+    "tier": 2,
+    "trophyMin": 300,
+    "trophyMax": 399,
+    "image": "images/builder/leagues/wood-ii.png",
+    "starBonus": { "starsRequired": 7, "reward": 30000 },
+    "battleResults": [
+      { "attackerGold": 1500, "defenderElixir": 16500 },
+      { "attackerGold": 6500, "defenderElixir": 11500 },
+      { "attackerGold": 11500, "defenderElixir": 6500 },
+      { "attackerGold": 16500, "defenderElixir": 1500 },
+      { "attackerGold": 16500, "defenderElixir": 1500 },
+      { "attackerGold": 16500, "defenderElixir": 1500 },
+      { "attackerGold": 16500, "defenderElixir": 1500 }
+    ]
+  },
+  {
+    "id": "wood-i",
+    "name": "Wood I",
+    "group": "Wood",
+    "tier": 1,
+    "trophyMin": 400,
+    "trophyMax": 499,
+    "image": "images/builder/leagues/wood-i.png",
+    "starBonus": { "starsRequired": 7, "reward": 40000 },
+    "battleResults": [
+      { "attackerGold": 1500, "defenderElixir": 18000 },
+      { "attackerGold": 7000, "defenderElixir": 12500 },
+      { "attackerGold": 12500, "defenderElixir": 7000 },
+      { "attackerGold": 18000, "defenderElixir": 1500 },
+      { "attackerGold": 18000, "defenderElixir": 1500 },
+      { "attackerGold": 18000, "defenderElixir": 1500 },
+      { "attackerGold": 18000, "defenderElixir": 1500 }
+    ]
+  },
+  {
+    "id": "clay-v",
+    "name": "Clay V",
+    "group": "Clay",
+    "tier": 5,
+    "trophyMin": 500,
+    "trophyMax": 599,
+    "image": "images/builder/leagues/clay-v.png",
+    "starBonus": { "starsRequired": 7, "reward": 50000 },
+    "battleResults": [
+      { "attackerGold": 1500, "defenderElixir": 20000 },
+      { "attackerGold": 8000, "defenderElixir": 14000 },
+      { "attackerGold": 14000, "defenderElixir": 8000 },
+      { "attackerGold": 20000, "defenderElixir": 1500 },
+      { "attackerGold": 20000, "defenderElixir": 1500 },
+      { "attackerGold": 20000, "defenderElixir": 1500 },
+      { "attackerGold": 20000, "defenderElixir": 1500 }
+    ]
+  },
+  {
+    "id": "clay-iv",
+    "name": "Clay IV",
+    "group": "Clay",
+    "tier": 4,
+    "trophyMin": 600,
+    "trophyMax": 699,
+    "image": "images/builder/leagues/clay-iv.png",
+    "starBonus": { "starsRequired": 7, "reward": 60000 },
+    "battleResults": [
+      { "attackerGold": 1000, "defenderElixir": 22500 },
+      { "attackerGold": 8500, "defenderElixir": 16000 },
+      { "attackerGold": 15000, "defenderElixir": 9500 },
+      { "attackerGold": 21500, "defenderElixir": 2000 },
+      { "attackerGold": 21500, "defenderElixir": 2000 },
+      { "attackerGold": 21500, "defenderElixir": 2000 },
+      { "attackerGold": 21500, "defenderElixir": 2000 }
+    ]
+  },
+  {
+    "id": "clay-iii",
+    "name": "Clay III",
+    "group": "Clay",
+    "tier": 3,
+    "trophyMin": 700,
+    "trophyMax": 799,
+    "image": "images/builder/leagues/clay-iii.png",
+    "starBonus": { "starsRequired": 7, "reward": 70000 },
+    "battleResults": [
+      { "attackerGold": 1000, "defenderElixir": 25000 },
+      { "attackerGold": 10000, "defenderElixir": 18000 },
+      { "attackerGold": 17000, "defenderElixir": 11000 },
+      { "attackerGold": 24000, "defenderElixir": 2000 },
+      { "attackerGold": 24000, "defenderElixir": 2000 },
+      { "attackerGold": 24000, "defenderElixir": 2000 },
+      { "attackerGold": 24000, "defenderElixir": 2000 }
+    ]
+  },
+  {
+    "id": "clay-ii",
+    "name": "Clay II",
+    "group": "Clay",
+    "tier": 2,
+    "trophyMin": 800,
+    "trophyMax": 899,
+    "image": "images/builder/leagues/clay-ii.png",
+    "starBonus": { "starsRequired": 7, "reward": 80000 },
+    "battleResults": [
+      { "attackerGold": 500, "defenderElixir": 27500 },
+      { "attackerGold": 10500, "defenderElixir": 20000 },
+      { "attackerGold": 18000, "defenderElixir": 12500 },
+      { "attackerGold": 25500, "defenderElixir": 2500 },
+      { "attackerGold": 25500, "defenderElixir": 2500 },
+      { "attackerGold": 25500, "defenderElixir": 2500 },
+      { "attackerGold": 25500, "defenderElixir": 2500 }
+    ]
+  },
+  {
+    "id": "clay-i",
+    "name": "Clay I",
+    "group": "Clay",
+    "tier": 1,
+    "trophyMin": 900,
+    "trophyMax": 999,
+    "image": "images/builder/leagues/clay-i.png",
+    "starBonus": { "starsRequired": 7, "reward": 100000 },
+    "battleResults": [
+      { "attackerGold": 500, "defenderElixir": 30000 },
+      { "attackerGold": 12000, "defenderElixir": 18500 },
+      { "attackerGold": 20000, "defenderElixir": 10500 },
+      { "attackerGold": 28000, "defenderElixir": 2500 },
+      { "attackerGold": 28000, "defenderElixir": 2500 },
+      { "attackerGold": 28000, "defenderElixir": 2500 },
+      { "attackerGold": 28000, "defenderElixir": 2500 }
+    ]
+  },
+  {
+    "id": "stone-v",
+    "name": "Stone V",
+    "group": "Stone",
+    "tier": 5,
+    "trophyMin": 1000,
+    "trophyMax": 1099,
+    "image": "images/builder/leagues/stone-v.png",
+    "starBonus": { "starsRequired": 7, "reward": 120000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 34000 },
+      { "attackerGold": 13000, "defenderElixir": 21000 },
+      { "attackerGold": 22000, "defenderElixir": 12000 },
+      { "attackerGold": 31000, "defenderElixir": 3000 },
+      { "attackerGold": 31000, "defenderElixir": 3000 },
+      { "attackerGold": 31000, "defenderElixir": 3000 },
+      { "attackerGold": 31000, "defenderElixir": 3000 }
+    ]
+  },
+  {
+    "id": "stone-iv",
+    "name": "Stone IV",
+    "group": "Stone",
+    "tier": 4,
+    "trophyMin": 1100,
+    "trophyMax": 1199,
+    "image": "images/builder/leagues/stone-iv.png",
+    "starBonus": { "starsRequired": 7, "reward": 130000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 38000 },
+      { "attackerGold": 15000, "defenderElixir": 23000 },
+      { "attackerGold": 25000, "defenderElixir": 13000 },
+      { "attackerGold": 35000, "defenderElixir": 3000 },
+      { "attackerGold": 35000, "defenderElixir": 3000 },
+      { "attackerGold": 35000, "defenderElixir": 3000 },
+      { "attackerGold": 35000, "defenderElixir": 3000 }
+    ]
+  },
+  {
+    "id": "stone-iii",
+    "name": "Stone III",
+    "group": "Stone",
+    "tier": 3,
+    "trophyMin": 1200,
+    "trophyMax": 1299,
+    "image": "images/builder/leagues/stone-iii.png",
+    "starBonus": { "starsRequired": 7, "reward": 140000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 42000 },
+      { "attackerGold": 15000, "defenderElixir": 27000 },
+      { "attackerGold": 26000, "defenderElixir": 16000 },
+      { "attackerGold": 37000, "defenderElixir": 5000 },
+      { "attackerGold": 37000, "defenderElixir": 5000 },
+      { "attackerGold": 37000, "defenderElixir": 5000 },
+      { "attackerGold": 37000, "defenderElixir": 5000 }
+    ]
+  },
+  {
+    "id": "stone-ii",
+    "name": "Stone II",
+    "group": "Stone",
+    "tier": 2,
+    "trophyMin": 1300,
+    "trophyMax": 1399,
+    "image": "images/builder/leagues/stone-ii.png",
+    "starBonus": { "starsRequired": 7, "reward": 145000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 46000 },
+      { "attackerGold": 15000, "defenderElixir": 31000 },
+      { "attackerGold": 27000, "defenderElixir": 19000 },
+      { "attackerGold": 39000, "defenderElixir": 7000 },
+      { "attackerGold": 39000, "defenderElixir": 7000 },
+      { "attackerGold": 39000, "defenderElixir": 7000 },
+      { "attackerGold": 39000, "defenderElixir": 7000 }
+    ]
+  },
+  {
+    "id": "stone-i",
+    "name": "Stone I",
+    "group": "Stone",
+    "tier": 1,
+    "trophyMin": 1400,
+    "trophyMax": 1499,
+    "image": "images/builder/leagues/stone-i.png",
+    "starBonus": { "starsRequired": 7, "reward": 150000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 50000 },
+      { "attackerGold": 15000, "defenderElixir": 35000 },
+      { "attackerGold": 28000, "defenderElixir": 22000 },
+      { "attackerGold": 41000, "defenderElixir": 9000 },
+      { "attackerGold": 41000, "defenderElixir": 9000 },
+      { "attackerGold": 41000, "defenderElixir": 9000 },
+      { "attackerGold": 41000, "defenderElixir": 9000 }
+    ]
+  },
+  {
+    "id": "copper-v",
+    "name": "Copper V",
+    "group": "Copper",
+    "tier": 5,
+    "trophyMin": 1500,
+    "trophyMax": 1599,
+    "image": "images/builder/leagues/copper-v.png",
+    "starBonus": { "starsRequired": 8, "reward": 155000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 58500 },
+      { "attackerGold": 15000, "defenderElixir": 43500 },
+      { "attackerGold": 29000, "defenderElixir": 29500 },
+      { "attackerGold": 43000, "defenderElixir": 15500 },
+      { "attackerGold": 44000, "defenderElixir": 14500 },
+      { "attackerGold": 46000, "defenderElixir": 12500 },
+      { "attackerGold": 48000, "defenderElixir": 10500 }
+    ]
+  },
+  {
+    "id": "copper-iv",
+    "name": "Copper IV",
+    "group": "Copper",
+    "tier": 4,
+    "trophyMin": 1600,
+    "trophyMax": 1699,
+    "image": "images/builder/leagues/copper-iv.png",
+    "starBonus": { "starsRequired": 8, "reward": 160000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 67000 },
+      { "attackerGold": 15000, "defenderElixir": 52000 },
+      { "attackerGold": 31000, "defenderElixir": 36000 },
+      { "attackerGold": 47000, "defenderElixir": 20000 },
+      { "attackerGold": 49000, "defenderElixir": 18000 },
+      { "attackerGold": 51000, "defenderElixir": 16000 },
+      { "attackerGold": 55000, "defenderElixir": 12000 }
+    ]
+  },
+  {
+    "id": "copper-iii",
+    "name": "Copper III",
+    "group": "Copper",
+    "tier": 3,
+    "trophyMin": 1700,
+    "trophyMax": 1799,
+    "image": "images/builder/leagues/copper-iii.png",
+    "starBonus": { "starsRequired": 8, "reward": 170000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 75500 },
+      { "attackerGold": 15000, "defenderElixir": 60500 },
+      { "attackerGold": 33000, "defenderElixir": 42500 },
+      { "attackerGold": 49500, "defenderElixir": 26000 },
+      { "attackerGold": 52500, "defenderElixir": 23000 },
+      { "attackerGold": 55500, "defenderElixir": 20000 },
+      { "attackerGold": 60500, "defenderElixir": 15000 }
+    ]
+  },
+  {
+    "id": "copper-ii",
+    "name": "Copper II",
+    "group": "Copper",
+    "tier": 2,
+    "trophyMin": 1800,
+    "trophyMax": 1899,
+    "image": "images/builder/leagues/copper-ii.png",
+    "starBonus": { "starsRequired": 8, "reward": 180000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 83000 },
+      { "attackerGold": 15000, "defenderElixir": 68000 },
+      { "attackerGold": 34000, "defenderElixir": 49000 },
+      { "attackerGold": 51000, "defenderElixir": 32000 },
+      { "attackerGold": 55000, "defenderElixir": 28000 },
+      { "attackerGold": 60000, "defenderElixir": 23000 },
+      { "attackerGold": 65000, "defenderElixir": 18000 }
+    ]
+  },
+  {
+    "id": "copper-i",
+    "name": "Copper I",
+    "group": "Copper",
+    "tier": 1,
+    "trophyMin": 1900,
+    "trophyMax": 1999,
+    "image": "images/builder/leagues/copper-i.png",
+    "starBonus": { "starsRequired": 8, "reward": 190000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 91500 },
+      { "attackerGold": 15000, "defenderElixir": 76500 },
+      { "attackerGold": 34500, "defenderElixir": 57000 },
+      { "attackerGold": 52000, "defenderElixir": 39500 },
+      { "attackerGold": 57000, "defenderElixir": 34500 },
+      { "attackerGold": 63000, "defenderElixir": 28500 },
+      { "attackerGold": 69000, "defenderElixir": 22500 }
+    ]
+  },
+  {
+    "id": "brass-iii",
+    "name": "Brass III",
+    "group": "Brass",
+    "tier": 3,
+    "trophyMin": 2000,
+    "trophyMax": 2199,
+    "image": "images/builder/leagues/brass-iii.png",
+    "starBonus": { "starsRequired": 9, "reward": 200000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 100500 },
+      { "attackerGold": 15000, "defenderElixir": 85000 },
+      { "attackerGold": 35000, "defenderElixir": 65000 },
+      { "attackerGold": 53000, "defenderElixir": 47000 },
+      { "attackerGold": 59000, "defenderElixir": 41000 },
+      { "attackerGold": 66000, "defenderElixir": 34000 },
+      { "attackerGold": 73000, "defenderElixir": 27000 }
+    ]
+  },
+  {
+    "id": "brass-ii",
+    "name": "Brass II",
+    "group": "Brass",
+    "tier": 2,
+    "trophyMin": 2200,
+    "trophyMax": 2399,
+    "image": "images/builder/leagues/brass-ii.png",
+    "starBonus": { "starsRequired": 9, "reward": 210000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 105000 },
+      { "attackerGold": 15000, "defenderElixir": 90000 },
+      { "attackerGold": 35500, "defenderElixir": 69500 },
+      { "attackerGold": 54000, "defenderElixir": 51000 },
+      { "attackerGold": 60000, "defenderElixir": 45000 },
+      { "attackerGold": 69000, "defenderElixir": 36000 },
+      { "attackerGold": 77000, "defenderElixir": 28000 }
+    ]
+  },
+  {
+    "id": "brass-i",
+    "name": "Brass I",
+    "group": "Brass",
+    "tier": 1,
+    "trophyMin": 2400,
+    "trophyMax": 2599,
+    "image": "images/builder/leagues/brass-i.png",
+    "starBonus": { "starsRequired": 9, "reward": 225000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 110000 },
+      { "attackerGold": 15000, "defenderElixir": 95000 },
+      { "attackerGold": 36000, "defenderElixir": 74000 },
+      { "attackerGold": 55000, "defenderElixir": 55000 },
+      { "attackerGold": 61000, "defenderElixir": 49000 },
+      { "attackerGold": 71000, "defenderElixir": 39000 },
+      { "attackerGold": 81000, "defenderElixir": 29000 }
+    ]
+  },
+  {
+    "id": "iron-iii",
+    "name": "Iron III",
+    "group": "Iron",
+    "tier": 3,
+    "trophyMin": 2600,
+    "trophyMax": 2799,
+    "image": "images/builder/leagues/iron-iii.png",
+    "starBonus": { "starsRequired": 9, "reward": 240000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 115000 },
+      { "attackerGold": 15000, "defenderElixir": 100000 },
+      { "attackerGold": 36500, "defenderElixir": 78500 },
+      { "attackerGold": 56000, "defenderElixir": 59000 },
+      { "attackerGold": 62000, "defenderElixir": 53000 },
+      { "attackerGold": 72000, "defenderElixir": 43000 },
+      { "attackerGold": 85000, "defenderElixir": 30000 }
+    ]
+  },
+  {
+    "id": "iron-ii",
+    "name": "Iron II",
+    "group": "Iron",
+    "tier": 2,
+    "trophyMin": 2800,
+    "trophyMax": 2999,
+    "image": "images/builder/leagues/iron-ii.png",
+    "starBonus": { "starsRequired": 9, "reward": 255000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 120000 },
+      { "attackerGold": 15000, "defenderElixir": 105000 },
+      { "attackerGold": 37000, "defenderElixir": 83000 },
+      { "attackerGold": 57000, "defenderElixir": 63000 },
+      { "attackerGold": 63000, "defenderElixir": 57000 },
+      { "attackerGold": 73000, "defenderElixir": 47000 },
+      { "attackerGold": 88000, "defenderElixir": 32000 }
+    ]
+  },
+  {
+    "id": "iron-i",
+    "name": "Iron I",
+    "group": "Iron",
+    "tier": 1,
+    "trophyMin": 3000,
+    "trophyMax": 3199,
+    "image": "images/builder/leagues/iron-i.png",
+    "starBonus": { "starsRequired": 9, "reward": 270000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 125000 },
+      { "attackerGold": 15000, "defenderElixir": 110000 },
+      { "attackerGold": 37500, "defenderElixir": 87500 },
+      { "attackerGold": 57500, "defenderElixir": 67500 },
+      { "attackerGold": 63500, "defenderElixir": 61500 },
+      { "attackerGold": 73500, "defenderElixir": 51500 },
+      { "attackerGold": 90500, "defenderElixir": 34500 }
+    ]
+  },
+  {
+    "id": "steel-iii",
+    "name": "Steel III",
+    "group": "Steel",
+    "tier": 3,
+    "trophyMin": 3200,
+    "trophyMax": 3399,
+    "image": "images/builder/leagues/steel-iii.png",
+    "starBonus": { "starsRequired": 10, "reward": 285000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 130000 },
+      { "attackerGold": 15000, "defenderElixir": 115000 },
+      { "attackerGold": 38000, "defenderElixir": 92000 },
+      { "attackerGold": 58000, "defenderElixir": 72000 },
+      { "attackerGold": 64000, "defenderElixir": 66000 },
+      { "attackerGold": 74000, "defenderElixir": 56000 },
+      { "attackerGold": 93000, "defenderElixir": 37000 }
+    ]
+  },
+  {
+    "id": "steel-ii",
+    "name": "Steel II",
+    "group": "Steel",
+    "tier": 2,
+    "trophyMin": 3400,
+    "trophyMax": 3599,
+    "image": "images/builder/leagues/steel-ii.png",
+    "starBonus": { "starsRequired": 10, "reward": 300000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 135000 },
+      { "attackerGold": 15000, "defenderElixir": 120000 },
+      { "attackerGold": 38500, "defenderElixir": 96500 },
+      { "attackerGold": 58500, "defenderElixir": 76500 },
+      { "attackerGold": 65500, "defenderElixir": 69500 },
+      { "attackerGold": 75500, "defenderElixir": 59500 },
+      { "attackerGold": 96500, "defenderElixir": 38500 }
+    ]
+  },
+  {
+    "id": "steel-i",
+    "name": "Steel I",
+    "group": "Steel",
+    "tier": 1,
+    "trophyMin": 3600,
+    "trophyMax": 3799,
+    "image": "images/builder/leagues/steel-i.png",
+    "starBonus": { "starsRequired": 10, "reward": 315000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 140000 },
+      { "attackerGold": 15000, "defenderElixir": 125000 },
+      { "attackerGold": 39000, "defenderElixir": 101000 },
+      { "attackerGold": 59000, "defenderElixir": 81000 },
+      { "attackerGold": 67000, "defenderElixir": 73000 },
+      { "attackerGold": 77000, "defenderElixir": 63000 },
+      { "attackerGold": 100000, "defenderElixir": 40000 }
+    ]
+  },
+  {
+    "id": "titanium-iii",
+    "name": "Titanium III",
+    "group": "Titanium",
+    "tier": 3,
+    "trophyMin": 3800,
+    "trophyMax": 3999,
+    "image": "images/builder/leagues/titanium-iii.png",
+    "starBonus": { "starsRequired": 10, "reward": 330000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 144000 },
+      { "attackerGold": 15000, "defenderElixir": 129000 },
+      { "attackerGold": 39500, "defenderElixir": 104500 },
+      { "attackerGold": 59500, "defenderElixir": 84500 },
+      { "attackerGold": 68500, "defenderElixir": 75500 },
+      { "attackerGold": 78500, "defenderElixir": 65500 },
+      { "attackerGold": 103500, "defenderElixir": 40500 }
+    ]
+  },
+  {
+    "id": "titanium-ii",
+    "name": "Titanium II",
+    "group": "Titanium",
+    "tier": 2,
+    "trophyMin": 4000,
+    "trophyMax": 4199,
+    "image": "images/builder/leagues/titanium-ii.png",
+    "starBonus": { "starsRequired": 10, "reward": 345000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 148000 },
+      { "attackerGold": 15000, "defenderElixir": 133000 },
+      { "attackerGold": 40000, "defenderElixir": 108000 },
+      { "attackerGold": 60000, "defenderElixir": 88000 },
+      { "attackerGold": 70000, "defenderElixir": 78000 },
+      { "attackerGold": 80000, "defenderElixir": 68000 },
+      { "attackerGold": 107000, "defenderElixir": 41000 }
+    ]
+  },
+  {
+    "id": "titanium-i",
+    "name": "Titanium I",
+    "group": "Titanium",
+    "tier": 1,
+    "trophyMin": 4200,
+    "trophyMax": 4399,
+    "image": "images/builder/leagues/titanium-i.png",
+    "starBonus": { "starsRequired": 10, "reward": 360000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 152000 },
+      { "attackerGold": 15000, "defenderElixir": 137000 },
+      { "attackerGold": 40000, "defenderElixir": 112000 },
+      { "attackerGold": 60000, "defenderElixir": 92000 },
+      { "attackerGold": 71000, "defenderElixir": 81000 },
+      { "attackerGold": 82000, "defenderElixir": 70000 },
+      { "attackerGold": 110000, "defenderElixir": 42000 }
+    ]
+  },
+  {
+    "id": "platinum-iii",
+    "name": "Platinum III",
+    "group": "Platinum",
+    "tier": 3,
+    "trophyMin": 4400,
+    "trophyMax": 4599,
+    "image": "images/builder/leagues/platinum-iii.png",
+    "starBonus": { "starsRequired": 11, "reward": 380000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 156000 },
+      { "attackerGold": 15000, "defenderElixir": 141000 },
+      { "attackerGold": 40000, "defenderElixir": 116000 },
+      { "attackerGold": 60000, "defenderElixir": 96000 },
+      { "attackerGold": 72000, "defenderElixir": 84000 },
+      { "attackerGold": 82000, "defenderElixir": 72000 },
+      { "attackerGold": 110000, "defenderElixir": 43000 }
+    ]
+  },
+  {
+    "id": "platinum-ii",
+    "name": "Platinum II",
+    "group": "Platinum",
+    "tier": 2,
+    "trophyMin": 4600,
+    "trophyMax": 4799,
+    "image": "images/builder/leagues/platinum-ii.png",
+    "starBonus": { "starsRequired": 11, "reward": 400000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 160000 },
+      { "attackerGold": 15000, "defenderElixir": 145000 },
+      { "attackerGold": 40000, "defenderElixir": 120000 },
+      { "attackerGold": 60000, "defenderElixir": 100000 },
+      { "attackerGold": 73000, "defenderElixir": 87000 },
+      { "attackerGold": 86000, "defenderElixir": 74000 },
+      { "attackerGold": 116000, "defenderElixir": 44000 }
+    ]
+  },
+  {
+    "id": "platinum-i",
+    "name": "Platinum I",
+    "group": "Platinum",
+    "tier": 1,
+    "trophyMin": 4800,
+    "trophyMax": 4999,
+    "image": "images/builder/leagues/platinum-i.png",
+    "starBonus": { "starsRequired": 11, "reward": 420000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 164000 },
+      { "attackerGold": 15000, "defenderElixir": 149000 },
+      { "attackerGold": 40000, "defenderElixir": 124000 },
+      { "attackerGold": 60000, "defenderElixir": 104000 },
+      { "attackerGold": 74000, "defenderElixir": 90000 },
+      { "attackerGold": 88000, "defenderElixir": 76000 },
+      { "attackerGold": 119000, "defenderElixir": 45000 }
+    ]
+  },
+  {
+    "id": "emerald-iii",
+    "name": "Emerald III",
+    "group": "Emerald",
+    "tier": 3,
+    "trophyMin": 5000,
+    "trophyMax": 5199,
+    "image": "images/builder/leagues/emerald-iii.png",
+    "starBonus": { "starsRequired": 12, "reward": 440000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 168000 },
+      { "attackerGold": 15000, "defenderElixir": 153000 },
+      { "attackerGold": 40000, "defenderElixir": 128000 },
+      { "attackerGold": 60000, "defenderElixir": 108000 },
+      { "attackerGold": 75000, "defenderElixir": 93500 },
+      { "attackerGold": 90000, "defenderElixir": 78000 },
+      { "attackerGold": 122000, "defenderElixir": 46000 }
+    ]
+  },
+  {
+    "id": "emerald-ii",
+    "name": "Emerald II",
+    "group": "Emerald",
+    "tier": 2,
+    "trophyMin": 5200,
+    "trophyMax": 5399,
+    "image": "images/builder/leagues/emerald-ii.png",
+    "starBonus": { "starsRequired": 12, "reward": 460000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 174000 },
+      { "attackerGold": 15000, "defenderElixir": 159000 },
+      { "attackerGold": 40000, "defenderElixir": 134000 },
+      { "attackerGold": 60000, "defenderElixir": 114000 },
+      { "attackerGold": 76000, "defenderElixir": 98000 },
+      { "attackerGold": 92000, "defenderElixir": 82000 },
+      { "attackerGold": 125000, "defenderElixir": 49000 }
+    ]
+  },
+  {
+    "id": "emerald-i",
+    "name": "Emerald I",
+    "group": "Emerald",
+    "tier": 1,
+    "trophyMin": 5400,
+    "trophyMax": 5599,
+    "image": "images/builder/leagues/emerald-i.png",
+    "starBonus": { "starsRequired": 12, "reward": 480000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 180000 },
+      { "attackerGold": 15000, "defenderElixir": 165000 },
+      { "attackerGold": 40000, "defenderElixir": 140000 },
+      { "attackerGold": 60000, "defenderElixir": 120000 },
+      { "attackerGold": 77000, "defenderElixir": 103000 },
+      { "attackerGold": 94000, "defenderElixir": 86000 },
+      { "attackerGold": 128000, "defenderElixir": 52000 }
+    ]
+  },
+  {
+    "id": "ruby-iii",
+    "name": "Ruby III",
+    "group": "Ruby",
+    "tier": 3,
+    "trophyMin": 5600,
+    "trophyMax": 5799,
+    "image": "images/builder/leagues/ruby-iii.png",
+    "starBonus": { "starsRequired": 12, "reward": 500000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 186000 },
+      { "attackerGold": 15000, "defenderElixir": 171000 },
+      { "attackerGold": 40000, "defenderElixir": 146000 },
+      { "attackerGold": 60000, "defenderElixir": 126000 },
+      { "attackerGold": 78000, "defenderElixir": 108000 },
+      { "attackerGold": 96000, "defenderElixir": 90000 },
+      { "attackerGold": 131000, "defenderElixir": 55000 }
+    ]
+  },
+  {
+    "id": "ruby-ii",
+    "name": "Ruby II",
+    "group": "Ruby",
+    "tier": 2,
+    "trophyMin": 5800,
+    "trophyMax": 5999,
+    "image": "images/builder/leagues/ruby-ii.png",
+    "starBonus": { "starsRequired": 12, "reward": 520000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 192000 },
+      { "attackerGold": 15000, "defenderElixir": 177000 },
+      { "attackerGold": 40000, "defenderElixir": 152000 },
+      { "attackerGold": 60000, "defenderElixir": 132000 },
+      { "attackerGold": 79000, "defenderElixir": 113000 },
+      { "attackerGold": 98000, "defenderElixir": 94000 },
+      { "attackerGold": 134000, "defenderElixir": 58000 }
+    ]
+  },
+  {
+    "id": "ruby-i",
+    "name": "Ruby I",
+    "group": "Ruby",
+    "tier": 1,
+    "trophyMin": 6000,
+    "trophyMax": 6199,
+    "image": "images/builder/leagues/ruby-i.png",
+    "starBonus": { "starsRequired": 12, "reward": 540000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 198000 },
+      { "attackerGold": 15000, "defenderElixir": 183000 },
+      { "attackerGold": 40000, "defenderElixir": 158000 },
+      { "attackerGold": 60000, "defenderElixir": 138000 },
+      { "attackerGold": 80000, "defenderElixir": 118000 },
+      { "attackerGold": 99500, "defenderElixir": 99000 },
+      { "attackerGold": 137000, "defenderElixir": 61000 }
+    ]
+  },
+  {
+    "id": "diamond",
+    "name": "Diamond",
+    "group": "Diamond",
+    "tier": null,
+    "trophyMin": 6200,
+    "trophyMax": null,
+    "image": "images/builder/leagues/diamond.png",
+    "starBonus": { "starsRequired": 12, "reward": 560000 },
+    "battleResults": [
+      { "attackerGold": 0, "defenderElixir": 204000 },
+      { "attackerGold": 15000, "defenderElixir": 189000 },
+      { "attackerGold": 40000, "defenderElixir": 164000 },
+      { "attackerGold": 60000, "defenderElixir": 144000 },
+      { "attackerGold": 81000, "defenderElixir": 123000 },
+      { "attackerGold": 100000, "defenderElixir": 104000 },
+      { "attackerGold": 140000, "defenderElixir": 64000 }
+    ]
+  }
+]

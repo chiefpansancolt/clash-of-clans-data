@@ -26,3 +26,4 @@ export * from './clan';
 export * from './achievement';
 export * from './ranked-battles';
 export * from './clan-capital-league';
+export * from './builder-base-league';

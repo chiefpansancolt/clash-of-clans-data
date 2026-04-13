@@ -14,9 +14,7 @@ log(
 
 for (const league of leagues.get()) {
   const range =
-    league.trophyMax !== null
-      ? `${league.trophyMin}–${league.trophyMax}`
-      : `${league.trophyMin}+`;
+    league.trophyMax !== null ? `${league.trophyMin}–${league.trophyMax}` : `${league.trophyMin}+`;
   const tier = league.tier !== null ? String(league.tier) : '-';
   const ok = checkImage(league.id, league.image);
   log(

@@ -2,6 +2,7 @@ import { BuilderBaseArmyBuildings } from './army-buildings';
 import { BuilderBaseBuilderHall } from './builder-hall';
 import { BuilderBaseDefenses } from './defenses';
 import { BuilderBaseHeroes } from './heroes';
+import { allBuilderBaseLeagues, BuilderBaseLeagues } from './leagues';
 import { BuilderBaseOtherBuildings } from './other';
 import { BuilderBaseResourceBuildings } from './resource-buildings';
 import { BuilderBaseTraps } from './traps';
@@ -12,6 +13,7 @@ export { BuilderBaseArmyBuildings } from './army-buildings';
 export { BuilderBaseBuilderHall } from './builder-hall';
 export { BuilderBaseDefenses } from './defenses';
 export { BuilderBaseHeroes } from './heroes';
+export { BuilderBaseLeagues } from './leagues';
 export { BuilderBaseOtherBuildings } from './other';
 export { BuilderBaseResourceBuildings } from './resource-buildings';
 export { BuilderBaseTraps } from './traps';
@@ -63,6 +65,11 @@ export class BuilderBase {
   /** Returns a query over Builder Base heroes. */
   heroes(): BuilderBaseHeroes {
     return new BuilderBaseHeroes();
+  }
+
+  /** Returns a query over all Builder Base leagues. */
+  leagues(): BuilderBaseLeagues {
+    return allBuilderBaseLeagues();
   }
 }
 

@@ -3,7 +3,6 @@
  * Run with: pnpm sample
  */
 import './achievements';
-import './ranked-battles';
 import './builder';
 import './builder/army-buildings';
 import './builder/army-buildings/army-camp';
@@ -33,6 +32,7 @@ import './builder/defenses/x-bow';
 import './builder/heroes';
 import './builder/heroes/battle-copter';
 import './builder/heroes/battle-machine';
+import './builder/leagues';
 import './builder/other';
 import './builder/other/clock-tower';
 import './builder/resource-buildings';
@@ -118,6 +118,7 @@ import './clan-capital/defenses/super-dragon-post';
 import './clan-capital/defenses/super-giant-post';
 import './clan-capital/defenses/super-wizard-tower';
 import './clan-capital/district-hall';
+import './clan-capital/leagues';
 import './clan-capital/other';
 import './clan-capital/other/houses';
 import './clan-capital/other/houses/goblin-hall';
@@ -157,7 +158,6 @@ import './clan-capital/troops/super-giant';
 import './clan-capital/troops/super-miner';
 import './clan-capital/troops/super-wizard';
 import './clan-capital/walls';
-import './clan-capital/leagues';
 import './clan/levels';
 import './clan/war';
 import './home';
@@ -333,4 +333,5 @@ import './magic-items/hammers';
 import './magic-items/potions';
 import './magic-items/snacks';
 import './magic-items/utilities';
+import './ranked-battles';
 import './season-pass';
