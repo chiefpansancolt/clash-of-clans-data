@@ -3,22 +3,54 @@
   "name": "Clan Levels",
   "labels": [
     { "id": "clan-wars", "name": "Clan Wars", "image": "images/clan/labels/clan-wars.png" },
-    { "id": "clan-war-league", "name": "Clan War League", "image": "images/clan/labels/clan-war-league.png" },
-    { "id": "trophy-pushing", "name": "Trophy Pushing", "image": "images/clan/labels/trophy-pushing.png" },
-    { "id": "friendly-wars", "name": "Friendly Wars", "image": "images/clan/labels/friendly-wars.png" },
+    {
+      "id": "clan-war-league",
+      "name": "Clan War League",
+      "image": "images/clan/labels/clan-war-league.png"
+    },
+    {
+      "id": "trophy-pushing",
+      "name": "Trophy Pushing",
+      "image": "images/clan/labels/trophy-pushing.png"
+    },
+    {
+      "id": "friendly-wars",
+      "name": "Friendly Wars",
+      "image": "images/clan/labels/friendly-wars.png"
+    },
     { "id": "clan-games", "name": "Clan Games", "image": "images/clan/labels/clan-games.png" },
-    { "id": "builder-base", "name": "Builder Base", "image": "images/clan/labels/builder-base.png" },
-    { "id": "base-designing", "name": "Base Designing", "image": "images/clan/labels/base-designing.png" },
-    { "id": "international", "name": "International", "image": "images/clan/labels/international.png" },
+    {
+      "id": "builder-base",
+      "name": "Builder Base",
+      "image": "images/clan/labels/builder-base.png"
+    },
+    {
+      "id": "base-designing",
+      "name": "Base Designing",
+      "image": "images/clan/labels/base-designing.png"
+    },
+    {
+      "id": "international",
+      "name": "International",
+      "image": "images/clan/labels/international.png"
+    },
     { "id": "farming", "name": "Farming", "image": "images/clan/labels/farming.png" },
     { "id": "donations", "name": "Donations", "image": "images/clan/labels/donations.png" },
-    { "id": "clan-capital", "name": "Clan Capital", "image": "images/clan/labels/clan-capital.png" },
+    {
+      "id": "clan-capital",
+      "name": "Clan Capital",
+      "image": "images/clan/labels/clan-capital.png"
+    },
     { "id": "friendly", "name": "Friendly", "image": "images/clan/labels/friendly.png" },
     { "id": "talkative", "name": "Talkative", "image": "images/clan/labels/talkative.png" },
     { "id": "underdog", "name": "Underdog", "image": "images/clan/labels/underdog.png" },
     { "id": "relaxed", "name": "Relaxed", "image": "images/clan/labels/relaxed.png" },
     { "id": "competitive", "name": "Competitive", "image": "images/clan/labels/competitive.png" },
-    { "id": "newbie-friendly", "name": "Newbie Friendly", "image": "images/clan/labels/newbie-friendly.png" }
+    {
+      "id": "newbie-friendly",
+      "name": "Newbie Friendly",
+      "image": "images/clan/labels/newbie-friendly.png"
+    }
   ],
   "levels": [
     {

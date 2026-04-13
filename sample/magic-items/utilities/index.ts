@@ -25,7 +25,9 @@ for (const u of utilities.get()) {
     log(`effect:      ${sb.type} | applies to: ${sb.appliesTo}`);
   } else if (e.type === 'wall-upgrade') {
     const wu = e as WallUpgradeEffect;
-    log(`effect:      ${wu.type} | home village: ${wu.homeVillageGoldEquivalent.toLocaleString()} gold | builder base: ${wu.builderBaseGoldEquivalent.toLocaleString()} gold`);
+    log(
+      `effect:      ${wu.type} | home village: ${wu.homeVillageGoldEquivalent.toLocaleString()} gold | builder base: ${wu.builderBaseGoldEquivalent.toLocaleString()} gold`,
+    );
   }
 
   const ok = checkImage(u.id, u.image);

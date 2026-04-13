@@ -25,10 +25,14 @@ for (const p of potions.get()) {
   const e = p.effect;
   if (e.type === 'time-reduction') {
     const te = e as TimeReductionEffect;
-    log(`effect:      ${te.type} | ${te.multiplier}x speed | ${te.durationHours}h | applies to: ${te.appliesTo}`);
+    log(
+      `effect:      ${te.type} | ${te.multiplier}x speed | ${te.durationHours}h | applies to: ${te.appliesTo}`,
+    );
   } else if (e.type === 'unit-level-boost') {
     const ub = e as UnitLevelBoostEffect;
-    log(`effect:      ${ub.type} | boost to: ${ub.boostTo} | ${ub.durationHours}h | applies to: ${ub.appliesTo.join(', ')}`);
+    log(
+      `effect:      ${ub.type} | boost to: ${ub.boostTo} | ${ub.durationHours}h | applies to: ${ub.appliesTo.join(', ')}`,
+    );
   } else if (e.type === 'resource-collector-boost') {
     const rb = e as ResourceCollectorBoostEffect;
     log(`effect:      ${rb.type} | ${rb.multiplier}x speed | ${rb.durationDays}d`);

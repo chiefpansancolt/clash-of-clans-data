@@ -1,5 +1,5 @@
-import rawData from '@/data/achievements/achievements.json';
 import { QueryBase } from '@/common/query-base';
+import rawData from '@/data/achievements/achievements.json';
 import { Achievement, AchievementBase } from '@/types';
 
 const allAchievements: Achievement[] = rawData.achievements as unknown as Achievement[];

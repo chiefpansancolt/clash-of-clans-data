@@ -1,5 +1,5 @@
 import { magicItems } from '../../../src';
-import { CombatBoostEffect, TimeReductionEffect, ClanCastleEffect } from '../../../src/types';
+import { ClanCastleEffect, CombatBoostEffect, TimeReductionEffect } from '../../../src/types';
 import { checkImage, createLogger } from '../../helper';
 
 const { log, writeOutput } = createLogger();
@@ -19,10 +19,14 @@ for (const s of snacks.get()) {
   const e = s.effect;
   if (e.type === 'time-reduction') {
     const te = e as TimeReductionEffect;
-    log(`effect:      ${te.type} | ${te.multiplier}x speed | ${te.durationHours}h | applies to: ${te.appliesTo}`);
+    log(
+      `effect:      ${te.type} | ${te.multiplier}x speed | ${te.durationHours}h | applies to: ${te.appliesTo}`,
+    );
   } else if (e.type === 'combat-boost') {
     const ce = e as CombatBoostEffect;
-    log(`effect:      ${ce.type} | boost to: ${ce.boostTo} | ${ce.battles} battles | applies to: ${ce.appliesTo.join(', ')}`);
+    log(
+      `effect:      ${ce.type} | boost to: ${ce.boostTo} | ${ce.battles} battles | applies to: ${ce.appliesTo.join(', ')}`,
+    );
   } else if (e.type === 'clan-castle') {
     const cc = e as ClanCastleEffect;
     log(`effect:      ${cc.type} | ${cc.durationHours}h | applies to: ${cc.appliesTo}`);

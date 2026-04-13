@@ -1,4 +1,4 @@
-import { SeasonPassChallenges, createSeasonPassChallenges } from './challenges';
+import { createSeasonPassChallenges, SeasonPassChallenges } from './challenges';
 
 export { SeasonPassChallenges } from './challenges';
 

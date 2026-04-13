@@ -15,7 +15,9 @@ log('');
 for (const base of ['home', 'builder', 'clan-capital'] as const) {
   log(`--- ${base} ---`);
   for (const a of all.byBase(base).get()) {
-    const tierSummary = a.tiers.map((t) => `${t.requirement.toLocaleString()} (${t.gemsRewarded}💎)`).join(' / ');
+    const tierSummary = a.tiers
+      .map((t) => `${t.requirement.toLocaleString()} (${t.gemsRewarded}💎)`)
+      .join(' / ');
     log(`  ${a.name}`);
     log(`    Data: ${a.dataInvolved}`);
     log(`    Tiers: ${tierSummary}`);

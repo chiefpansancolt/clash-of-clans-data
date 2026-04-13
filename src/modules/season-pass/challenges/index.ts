@@ -1,5 +1,5 @@
-import rawData from '@/data/season-pass/challenges.json';
 import { QueryBase } from '@/common/query-base';
+import rawData from '@/data/season-pass/challenges.json';
 import { SeasonPassChallenge } from '@/types';
 
 const allChallenges: SeasonPassChallenge[] = rawData as unknown as SeasonPassChallenge[];

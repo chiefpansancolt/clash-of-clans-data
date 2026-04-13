@@ -13,7 +13,14 @@ import {
 } from '@/types';
 import { subtractHours } from '../utils';
 
-export type { AlchemistLevel, AlchemistResult, BuildersApprenticeLevel, LabAssistantLevel, ProspectorLevel, ProspectorResult };
+export type {
+  AlchemistLevel,
+  AlchemistResult,
+  BuildersApprenticeLevel,
+  LabAssistantLevel,
+  ProspectorLevel,
+  ProspectorResult,
+};
 
 /** Exchange rate: 150 Gold/Elixir = 1 Dark Elixir (fixed across all Alchemist levels). */
 const GOLD_ELIXIR_TO_DE_RATE = 150;

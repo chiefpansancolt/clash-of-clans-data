@@ -40,11 +40,15 @@ export class MagicItemBooks extends QueryBase<MagicBook> {
   }
 
   /** Filter to books that apply to the given upgrade type. */
-  byAppliesTo(appliesTo: 'troops' | 'buildings' | 'spells' | 'heroes-and-pets' | 'any'): MagicItemBooks {
+  byAppliesTo(
+    appliesTo: 'troops' | 'buildings' | 'spells' | 'heroes-and-pets' | 'any',
+  ): MagicItemBooks {
     return new MagicItemBooks(
       this.data.filter((b) => {
         const e = b.effect;
-        return e.type === 'instant-complete' && (e.appliesTo === appliesTo || e.appliesTo === 'any');
+        return (
+          e.type === 'instant-complete' && (e.appliesTo === appliesTo || e.appliesTo === 'any')
+        );
       }),
     );
   }

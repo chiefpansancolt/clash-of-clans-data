@@ -1,8 +1,8 @@
-import { MagicItemBooks, createMagicItemBooks } from './books';
-import { MagicItemHammers, createMagicItemHammers } from './hammers';
-import { MagicItemPotions, createMagicItemPotions } from './potions';
-import { MagicItemSnacks, createMagicItemSnacks } from './snacks';
-import { MagicItemUtilities, createMagicItemUtilities } from './utilities';
+import { createMagicItemBooks, MagicItemBooks } from './books';
+import { createMagicItemHammers, MagicItemHammers } from './hammers';
+import { createMagicItemPotions, MagicItemPotions } from './potions';
+import { createMagicItemSnacks, MagicItemSnacks } from './snacks';
+import { createMagicItemUtilities, MagicItemUtilities } from './utilities';
 
 export { MagicItemBooks } from './books';
 export { MagicItemHammers } from './hammers';

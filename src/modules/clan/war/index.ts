@@ -1,7 +1,8 @@
 import rawData from '@/data/clan/war.json';
-import { WarBaseLootEntry, WarBonusTier, WarBaseOreEntry } from '@/types';
+import { WarBaseLootEntry, WarBaseOreEntry, WarBonusTier } from '@/types';
 
-const allMaxWarBaseLoot: WarBaseLootEntry[] = rawData.maxWarBaseLoot as unknown as WarBaseLootEntry[];
+const allMaxWarBaseLoot: WarBaseLootEntry[] =
+  rawData.maxWarBaseLoot as unknown as WarBaseLootEntry[];
 const allWarBonus: WarBonusTier[] = rawData.warBonus as unknown as WarBonusTier[];
 const allMaxWarBaseOre: WarBaseOreEntry[] = rawData.maxWarBaseOre as unknown as WarBaseOreEntry[];
 

@@ -1,5 +1,5 @@
-import rawData from '@/data/clan/levels.json';
 import { QueryBase } from '@/common/query-base';
+import rawData from '@/data/clan/levels.json';
 import { ClanBadge, ClanLabel, ClanLevel } from '@/types';
 
 const allLevels: ClanLevel[] = rawData.levels as unknown as ClanLevel[];

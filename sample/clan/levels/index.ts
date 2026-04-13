@@ -12,8 +12,12 @@ log('');
 
 for (const l of levels.get()) {
   const ok = checkImage(String(l.level), l.image);
-  log(`Level ${l.level} [${l.badge.toUpperCase()}] — XP: ${l.xpRequired ?? 'N/A'} (cumulative: ${l.cumulativeXp ?? 'N/A'}) — image [${ok ? 'OK' : 'MISSING'}]`);
-  log(`  Donations: ${l.perks.donationLimit.troops}T / ${l.perks.donationLimit.spells}S / ${l.perks.donationLimit.siegeMachines}SM | +${l.perks.donationUpgradeLevels} lvl | Treasury +${l.perks.treasuryExtraStorage}% | War Bonus +${l.perks.warBonusExtraLoot}%`);
+  log(
+    `Level ${l.level} [${l.badge.toUpperCase()}] — XP: ${l.xpRequired ?? 'N/A'} (cumulative: ${l.cumulativeXp ?? 'N/A'}) — image [${ok ? 'OK' : 'MISSING'}]`,
+  );
+  log(
+    `  Donations: ${l.perks.donationLimit.troops}T / ${l.perks.donationLimit.spells}S / ${l.perks.donationLimit.siegeMachines}SM | +${l.perks.donationUpgradeLevels} lvl | Treasury +${l.perks.treasuryExtraStorage}% | War Bonus +${l.perks.warBonusExtraLoot}%`,
+  );
 }
 
 log('');

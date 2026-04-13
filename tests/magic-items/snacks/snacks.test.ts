@@ -1,5 +1,5 @@
 import { magicItems } from '@/magic-items';
-import { MagicSnack, TimeReductionEffect, CombatBoostEffect, ClanCastleEffect } from '@/types';
+import { ClanCastleEffect, CombatBoostEffect, MagicSnack, TimeReductionEffect } from '@/types';
 
 describe('magicItems().snacks()', () => {
   const snacks = magicItems().snacks();

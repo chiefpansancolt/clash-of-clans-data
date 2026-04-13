@@ -13,9 +13,7 @@
   {
     "id": "troop-upgrade",
     "name": "Start any troop upgrade",
-    "notes": [
-      "Can be done in either Home Village or Builder Base."
-    ],
+    "notes": ["Can be done in either Home Village or Builder Base."],
     "image": "images/season-pass/challenges/troop-upgrade.png"
   },
   {
@@ -38,9 +36,7 @@
   {
     "id": "star-bonus",
     "name": "Complete a Star Bonus",
-    "notes": [
-      "Can be done in either Home Village or Builder Base."
-    ],
+    "notes": ["Can be done in either Home Village or Builder Base."],
     "image": "images/season-pass/challenges/star-bonus.png"
   },
   {
