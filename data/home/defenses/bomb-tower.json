@@ -1,5 +1,6 @@
 {
   "id": "bomb-tower",
+  "dataId": 1000032,
   "name": "Bomb Tower",
   "description": "Bomb Towers bombard nearby ground troops and go up in a big BOOM when destroyed! Melee units best stand clear!",
   "base": "home",
@@ -7,20 +8,58 @@
   "size": "3x3",
   "targetType": "ground",
   "modes": {
-    "normal": { "range": 6, "attackSpeed": 1.1, "damageType": "splash", "splashRadius": 1.5 }
+    "normal": {
+      "range": 6,
+      "attackSpeed": 1.1,
+      "damageType": "splash",
+      "splashRadius": 1.5
+    }
   },
   "availablePerTownHall": [
-    { "townHallLevel": 8, "count": 1 },
-    { "townHallLevel": 9, "count": 1 },
-    { "townHallLevel": 10, "count": 2 },
-    { "townHallLevel": 11, "count": 2 },
-    { "townHallLevel": 12, "count": 2 },
-    { "townHallLevel": 13, "count": 2 },
-    { "townHallLevel": 14, "count": 2 },
-    { "townHallLevel": 15, "count": 2 },
-    { "townHallLevel": 16, "count": 2 },
-    { "townHallLevel": 17, "count": 2 },
-    { "townHallLevel": 18, "count": 2 }
+    {
+      "townHallLevel": 8,
+      "count": 1
+    },
+    {
+      "townHallLevel": 9,
+      "count": 1
+    },
+    {
+      "townHallLevel": 10,
+      "count": 2
+    },
+    {
+      "townHallLevel": 11,
+      "count": 2
+    },
+    {
+      "townHallLevel": 12,
+      "count": 2
+    },
+    {
+      "townHallLevel": 13,
+      "count": 2
+    },
+    {
+      "townHallLevel": 14,
+      "count": 2
+    },
+    {
+      "townHallLevel": 15,
+      "count": 2
+    },
+    {
+      "townHallLevel": 16,
+      "count": 2
+    },
+    {
+      "townHallLevel": 17,
+      "count": 2
+    },
+    {
+      "townHallLevel": 18,
+      "count": 2
+    }
   ],
   "levels": [
     {
@@ -28,156 +67,312 @@
       "hitpoints": 650,
       "buildCost": 700000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 8,
       "deathDamage": 150,
-      "stats": { "normal": { "dps": 24, "damagePerShot": 26.4 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 24,
+          "damagePerShot": 26.4
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 700,
       "buildCost": 1000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 254,
       "townHallRequired": 8,
       "deathDamage": 180,
-      "stats": { "normal": { "dps": 28, "damagePerShot": 30.8 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 28,
+          "damagePerShot": 30.8
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 750,
       "buildCost": 1300000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "townHallRequired": 9,
       "deathDamage": 220,
-      "stats": { "normal": { "dps": 32, "damagePerShot": 35.2 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 32,
+          "damagePerShot": 35.2
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 850,
       "buildCost": 1800000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 360,
       "townHallRequired": 10,
       "deathDamage": 260,
-      "stats": { "normal": { "dps": 40, "damagePerShot": 44 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 40,
+          "damagePerShot": 44
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-4.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 1050,
       "buildCost": 1900000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 388,
       "townHallRequired": 11,
       "deathDamage": 300,
-      "stats": { "normal": { "dps": 48, "damagePerShot": 52.8 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 48,
+          "damagePerShot": 52.8
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-5.png"
+      }
     },
     {
       "level": 6,
       "hitpoints": 1300,
       "buildCost": 2000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 11,
       "deathDamage": 350,
-      "stats": { "normal": { "dps": 56, "damagePerShot": 61.6 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 56,
+          "damagePerShot": 61.6
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-6.png"
+      }
     },
     {
       "level": 7,
       "hitpoints": 1600,
       "buildCost": 4000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 12,
       "deathDamage": 400,
-      "stats": { "normal": { "dps": 64, "damagePerShot": 70.4 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 64,
+          "damagePerShot": 70.4
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-7.png"
+      }
     },
     {
       "level": 8,
       "hitpoints": 1900,
       "buildCost": 5000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 13,
       "deathDamage": 450,
-      "stats": { "normal": { "dps": 72, "damagePerShot": 79.2 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-8.png" }
+      "stats": {
+        "normal": {
+          "dps": 72,
+          "damagePerShot": 79.2
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-8.png"
+      }
     },
     {
       "level": 9,
       "hitpoints": 2300,
       "buildCost": 6000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 623,
       "townHallRequired": 14,
       "deathDamage": 500,
-      "stats": { "normal": { "dps": 84, "damagePerShot": 92.4 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-9.png" }
+      "stats": {
+        "normal": {
+          "dps": 84,
+          "damagePerShot": 92.4
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-9.png"
+      }
     },
     {
       "level": 10,
       "hitpoints": 2500,
       "buildCost": 7000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 640,
       "townHallRequired": 15,
       "deathDamage": 550,
-      "stats": { "normal": { "dps": 94, "damagePerShot": 103.4 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 94,
+          "damagePerShot": 103.4
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-10.png"
+      }
     },
     {
       "level": 11,
       "hitpoints": 2700,
       "buildCost": 8500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "townHallRequired": 16,
       "deathDamage": 600,
-      "stats": { "normal": { "dps": 104, "damagePerShot": 114.4 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-11.png" }
+      "stats": {
+        "normal": {
+          "dps": 104,
+          "damagePerShot": 114.4
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-11.png"
+      }
     },
     {
       "level": 12,
       "hitpoints": 2900,
       "buildCost": 14500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 881,
       "townHallRequired": 17,
       "deathDamage": 650,
-      "stats": { "normal": { "dps": 114, "damagePerShot": 125.4 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-12.png" }
+      "stats": {
+        "normal": {
+          "dps": 114,
+          "damagePerShot": 125.4
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-12.png"
+      }
     },
     {
       "level": 13,
       "hitpoints": 3050,
       "buildCost": 25000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 13, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 13,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1059,
       "townHallRequired": 18,
       "deathDamage": 700,
-      "stats": { "normal": { "dps": 122, "damagePerShot": 134.2 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-13.png" }
+      "stats": {
+        "normal": {
+          "dps": 122,
+          "damagePerShot": 134.2
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-13.png"
+      }
     },
     {
       "level": 1,
@@ -185,11 +380,23 @@
       "hitpoints": 3050,
       "buildCost": 6000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 464,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 127, "damagePerShot": 139.7 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-13.png" }
+      "stats": {
+        "normal": {
+          "dps": 127,
+          "damagePerShot": 139.7
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-13.png"
+      }
     },
     {
       "level": 2,
@@ -197,11 +404,23 @@
       "hitpoints": 3150,
       "buildCost": 3000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 127, "damagePerShot": 139.7 } },
-      "images": { "normal": "images/home/defenses/bomb-tower/normal/level-13.png" }
+      "stats": {
+        "normal": {
+          "dps": 127,
+          "damagePerShot": 139.7
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/bomb-tower/normal/level-13.png"
+      }
     }
   ]
 }

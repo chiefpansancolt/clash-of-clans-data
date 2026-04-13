@@ -1,5 +1,6 @@
 {
   "id": "scattershot",
+  "dataId": 1000067,
   "name": "Scattershot",
   "description": "The Scattershot heaves very heavy bundles of poorly tied together rocks at whoever happens to be closest. The bundles break apart on impact and deal additional damage to the troops behind.",
   "base": "home",
@@ -16,12 +17,30 @@
     }
   },
   "availablePerTownHall": [
-    { "townHallLevel": 13, "count": 2 },
-    { "townHallLevel": 14, "count": 2 },
-    { "townHallLevel": 15, "count": 2 },
-    { "townHallLevel": 16, "count": 2 },
-    { "townHallLevel": 17, "count": 2 },
-    { "townHallLevel": 18, "count": 2 }
+    {
+      "townHallLevel": 13,
+      "count": 2
+    },
+    {
+      "townHallLevel": 14,
+      "count": 2
+    },
+    {
+      "townHallLevel": 15,
+      "count": 2
+    },
+    {
+      "townHallLevel": 16,
+      "count": 2
+    },
+    {
+      "townHallLevel": 17,
+      "count": 2
+    },
+    {
+      "townHallLevel": 18,
+      "count": 2
+    }
   ],
   "levels": [
     {
@@ -29,7 +48,12 @@
       "hitpoints": 3600,
       "buildCost": 8000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 13,
       "xpGained": 720,
       "stats": {
@@ -51,7 +75,12 @@
       "hitpoints": 4200,
       "buildCost": 9000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 13,
       "xpGained": 777,
       "stats": {
@@ -73,7 +102,12 @@
       "hitpoints": 4800,
       "buildCost": 11000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 14,
       "xpGained": 804,
       "stats": {
@@ -95,7 +129,12 @@
       "hitpoints": 5100,
       "buildCost": 11500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 15,
       "xpGained": 831,
       "stats": {
@@ -117,7 +156,12 @@
       "hitpoints": 5410,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 16,
       "xpGained": 856,
       "stats": {
@@ -139,7 +183,12 @@
       "hitpoints": 5600,
       "buildCost": 16500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 10, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 17,
       "xpGained": 952,
       "stats": {
@@ -162,7 +211,12 @@
       "hitpoints": 5600,
       "buildCost": 6000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 17,
       "xpGained": 464,
       "stats": {
@@ -185,7 +239,12 @@
       "hitpoints": 5750,
       "buildCost": 3500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 17,
       "xpGained": 587,
       "stats": {

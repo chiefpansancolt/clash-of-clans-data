@@ -1,5 +1,6 @@
 {
   "id": "grand-warden",
+  "dataId": 28000002,
   "name": "Grand Warden",
   "description": "This powerful master of magic supports Troops by blasting enemies with his Staff! The Grand Warden can even walk or fly over Walls! He'll make a majestic stand at his Hero Banner when defending.",
   "base": "home",
@@ -24,7 +25,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 1000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -35,7 +41,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 1000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -46,7 +57,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 1100000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -57,7 +73,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 1200000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -68,7 +89,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 1400000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 10,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 6,
@@ -79,7 +105,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 1500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 7,
@@ -90,7 +121,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 1700000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 14, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 14,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 8,
@@ -101,7 +137,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 1800000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 9,
@@ -112,7 +153,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 2000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 10,
@@ -123,7 +169,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 2300000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 11,
@@ -134,7 +185,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 2700000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 12,
@@ -145,7 +201,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 3000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 13,
@@ -156,7 +217,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 3400000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 14,
@@ -167,7 +233,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 3700000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 15,
@@ -178,7 +249,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 4100000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 16,
@@ -189,7 +265,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 4400000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 17,
@@ -200,7 +281,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 4800000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 18,
@@ -211,7 +297,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 5100000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 19,
@@ -222,7 +313,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 5500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 20,
@@ -233,7 +329,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 6000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 21,
@@ -244,7 +345,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 6100000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 22,
@@ -255,7 +361,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 6200000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 23,
@@ -266,7 +377,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 6300000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 24,
@@ -277,7 +393,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 6400000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 25,
@@ -288,7 +409,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 6500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 26,
@@ -299,7 +425,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 6600000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 27,
@@ -310,7 +441,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 6700000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 28,
@@ -321,7 +457,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 6800000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 29,
@@ -332,7 +473,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 6900000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 30,
@@ -343,7 +489,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 31,
@@ -354,7 +505,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7100000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 32,
@@ -365,7 +521,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7200000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 33,
@@ -376,7 +537,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7300000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 34,
@@ -387,7 +553,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7400000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 35,
@@ -398,7 +569,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 36,
@@ -409,7 +585,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7600000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 37,
@@ -420,7 +601,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7700000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 38,
@@ -431,7 +617,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7800000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 39,
@@ -442,7 +633,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 7900000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 40,
@@ -453,7 +649,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 8000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 41,
@@ -464,7 +665,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 8300000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 42,
@@ -475,7 +681,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 8600000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 43,
@@ -486,7 +697,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 8900000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 44,
@@ -497,7 +713,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 9200000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 45,
@@ -508,7 +729,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 9500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 46,
@@ -519,7 +745,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 9800000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 47,
@@ -530,7 +761,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 10100000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 48,
@@ -541,7 +777,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 10400000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 49,
@@ -552,7 +793,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 10700000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 50,
@@ -563,7 +809,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 11000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 51,
@@ -574,7 +825,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 11400000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 52,
@@ -585,7 +841,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 11800000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 53,
@@ -596,7 +857,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 12200000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 54,
@@ -607,7 +873,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 12600000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 55,
@@ -618,7 +889,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 13000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 56,
@@ -629,7 +905,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 13400000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 57,
@@ -640,7 +921,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 13800000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 58,
@@ -651,7 +937,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 14200000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 59,
@@ -662,7 +953,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 14600000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 60,
@@ -673,7 +969,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 15000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 61,
@@ -684,7 +985,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 15500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 62,
@@ -695,7 +1001,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 16000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 63,
@@ -706,7 +1017,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 16500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 64,
@@ -717,7 +1033,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 17000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 65,
@@ -728,7 +1049,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 17500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 66,
@@ -739,7 +1065,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 18000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 67,
@@ -750,7 +1081,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 18500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 68,
@@ -761,7 +1097,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 19000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 69,
@@ -772,7 +1113,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 19500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 70,
@@ -783,7 +1129,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 20000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 71,
@@ -794,7 +1145,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 20500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 72,
@@ -805,7 +1161,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 21000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 73,
@@ -816,7 +1177,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 21500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 74,
@@ -827,7 +1193,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 22000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 75,
@@ -838,7 +1209,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 22500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 76,
@@ -849,7 +1225,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 24000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 77,
@@ -860,7 +1241,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 25500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 78,
@@ -871,7 +1257,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 27000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 79,
@@ -882,7 +1273,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 28500000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 80,
@@ -893,7 +1289,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 30000000,
       "upgradeCostResource": "Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

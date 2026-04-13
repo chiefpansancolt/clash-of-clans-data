@@ -1,5 +1,6 @@
 {
   "id": "ice-block-spell",
+  "dataId": 26000109,
   "name": "Ice Block Spell",
   "description": "Cast this cool concoction to encase your ground and air Troops in ice that blocks almost all damage but Freezes their movement and attack!",
   "base": "home",

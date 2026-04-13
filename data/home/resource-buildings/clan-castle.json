@@ -1,5 +1,6 @@
 {
   "id": "clan-castle",
+  "dataId": 1000014,
   "name": "Clan Castle",
   "description": "The Clan Castle houses your Treasury and any reinforcement troops or spells sent by your clanmates.",
   "base": "home",
@@ -7,24 +8,78 @@
   "size": "3x3",
   "triggerRadius": 13,
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 1 },
-    { "townHallLevel": 2, "count": 1 },
-    { "townHallLevel": 3, "count": 1 },
-    { "townHallLevel": 4, "count": 1 },
-    { "townHallLevel": 5, "count": 1 },
-    { "townHallLevel": 6, "count": 1 },
-    { "townHallLevel": 7, "count": 1 },
-    { "townHallLevel": 8, "count": 1 },
-    { "townHallLevel": 9, "count": 1 },
-    { "townHallLevel": 10, "count": 1 },
-    { "townHallLevel": 11, "count": 1 },
-    { "townHallLevel": 12, "count": 1 },
-    { "townHallLevel": 13, "count": 1 },
-    { "townHallLevel": 14, "count": 1 },
-    { "townHallLevel": 15, "count": 1 },
-    { "townHallLevel": 16, "count": 1 },
-    { "townHallLevel": 17, "count": 1 },
-    { "townHallLevel": 18, "count": 1 }
+    {
+      "townHallLevel": 1,
+      "count": 1
+    },
+    {
+      "townHallLevel": 2,
+      "count": 1
+    },
+    {
+      "townHallLevel": 3,
+      "count": 1
+    },
+    {
+      "townHallLevel": 4,
+      "count": 1
+    },
+    {
+      "townHallLevel": 5,
+      "count": 1
+    },
+    {
+      "townHallLevel": 6,
+      "count": 1
+    },
+    {
+      "townHallLevel": 7,
+      "count": 1
+    },
+    {
+      "townHallLevel": 8,
+      "count": 1
+    },
+    {
+      "townHallLevel": 9,
+      "count": 1
+    },
+    {
+      "townHallLevel": 10,
+      "count": 1
+    },
+    {
+      "townHallLevel": 11,
+      "count": 1
+    },
+    {
+      "townHallLevel": 12,
+      "count": 1
+    },
+    {
+      "townHallLevel": 13,
+      "count": 1
+    },
+    {
+      "townHallLevel": 14,
+      "count": 1
+    },
+    {
+      "townHallLevel": 15,
+      "count": 1
+    },
+    {
+      "townHallLevel": 16,
+      "count": 1
+    },
+    {
+      "townHallLevel": 17,
+      "count": 1
+    },
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -36,7 +91,12 @@
       "labLevelCap": 5,
       "buildCost": 10000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 3,
       "images": {
@@ -52,7 +112,12 @@
       "labLevelCap": 6,
       "buildCost": 50000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 84,
       "townHallRequired": 4,
       "images": {
@@ -68,7 +133,12 @@
       "labLevelCap": 7,
       "buildCost": 600000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 6,
       "images": {
@@ -84,7 +154,12 @@
       "labLevelCap": 8,
       "buildCost": 1200000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "townHallRequired": 8,
       "images": {
@@ -100,7 +175,12 @@
       "labLevelCap": 9,
       "buildCost": 2000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 360,
       "townHallRequired": 9,
       "images": {
@@ -116,7 +196,12 @@
       "labLevelCap": 10,
       "buildCost": 3000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 10,
       "images": {
@@ -132,7 +217,12 @@
       "labLevelCap": 11,
       "buildCost": 5000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 11,
       "images": {
@@ -148,7 +238,12 @@
       "labLevelCap": 12,
       "buildCost": 5000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 12,
       "images": {
@@ -164,7 +259,12 @@
       "labLevelCap": 13,
       "buildCost": 8000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 13,
       "images": {
@@ -180,7 +280,12 @@
       "labLevelCap": 14,
       "buildCost": 10000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 14,
       "images": {
@@ -196,7 +301,12 @@
       "labLevelCap": 15,
       "buildCost": 12000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "townHallRequired": 15,
       "images": {
@@ -212,7 +322,12 @@
       "labLevelCap": 16,
       "buildCost": 14500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 881,
       "townHallRequired": 16,
       "images": {
@@ -228,7 +343,12 @@
       "labLevelCap": 16,
       "buildCost": 19000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 974,
       "townHallRequired": 17,
       "images": {
@@ -244,7 +364,12 @@
       "labLevelCap": 16,
       "buildCost": 28000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1099,
       "townHallRequired": 18,
       "images": {

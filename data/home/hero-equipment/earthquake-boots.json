@@ -1,5 +1,6 @@
 {
   "id": "earthquake-boots",
+  "dataId": 90000008,
   "name": "Earthquake Boots",
   "description": "Causes a powerful earthquake which destroys Walls and damages Buildings",
   "base": "home",

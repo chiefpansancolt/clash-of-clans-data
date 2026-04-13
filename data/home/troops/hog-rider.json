@@ -1,5 +1,6 @@
 {
   "id": "hog-rider",
+  "dataId": 4000011,
   "name": "Hog Rider",
   "description": "Having tamed the fierce leaping hog, the Hog Rider punishes those who hide behind their puny walls! Fueled by Dark Elixir, these warriors have never known defeat!",
   "base": "home",

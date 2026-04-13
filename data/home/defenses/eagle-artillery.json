@@ -1,5 +1,6 @@
 {
   "id": "eagle-artillery",
+  "dataId": 1000031,
   "name": "Eagle Artillery",
   "description": "The Eagle Artillery has nearly unlimited range and targets tough enemies with exploding shells. However, it won't activate until a large amount of troops have been deployed.",
   "base": "home",
@@ -19,12 +20,30 @@
     }
   },
   "availablePerTownHall": [
-    { "townHallLevel": 11, "count": 1 },
-    { "townHallLevel": 12, "count": 1 },
-    { "townHallLevel": 13, "count": 1 },
-    { "townHallLevel": 14, "count": 1 },
-    { "townHallLevel": 15, "count": 1 },
-    { "townHallLevel": 16, "count": 1 }
+    {
+      "townHallLevel": 11,
+      "count": 1
+    },
+    {
+      "townHallLevel": 12,
+      "count": 1
+    },
+    {
+      "townHallLevel": 13,
+      "count": 1
+    },
+    {
+      "townHallLevel": 14,
+      "count": 1
+    },
+    {
+      "townHallLevel": 15,
+      "count": 1
+    },
+    {
+      "townHallLevel": 16,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -32,11 +51,20 @@
       "hitpoints": 4000,
       "buildCost": 5000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 11,
       "xpGained": 587,
       "stats": {
-        "normal": { "dps": 67.5, "damagePerShot": 225, "shockwaveDamagePerHit": 20 }
+        "normal": {
+          "dps": 67.5,
+          "damagePerShot": 225,
+          "shockwaveDamagePerHit": 20
+        }
       },
       "images": {
         "normal": "images/home/defenses/eagle-artillery/normal/level-1.png",
@@ -49,11 +77,20 @@
       "hitpoints": 4400,
       "buildCost": 6000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 11,
       "xpGained": 657,
       "stats": {
-        "normal": { "dps": 75, "damagePerShot": 250, "shockwaveDamagePerHit": 25 }
+        "normal": {
+          "dps": 75,
+          "damagePerShot": 250,
+          "shockwaveDamagePerHit": 25
+        }
       },
       "images": {
         "normal": "images/home/defenses/eagle-artillery/normal/level-2.png",
@@ -66,11 +103,20 @@
       "hitpoints": 4800,
       "buildCost": 9000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 12,
       "xpGained": 777,
       "stats": {
-        "normal": { "dps": 82.5, "damagePerShot": 275, "shockwaveDamagePerHit": 30 }
+        "normal": {
+          "dps": 82.5,
+          "damagePerShot": 275,
+          "shockwaveDamagePerHit": 30
+        }
       },
       "images": {
         "normal": "images/home/defenses/eagle-artillery/normal/level-3.png",
@@ -83,11 +129,20 @@
       "hitpoints": 5200,
       "buildCost": 10000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 13,
       "xpGained": 804,
       "stats": {
-        "normal": { "dps": 105, "damagePerShot": 350, "shockwaveDamagePerHit": 35 }
+        "normal": {
+          "dps": 105,
+          "damagePerShot": 350,
+          "shockwaveDamagePerHit": 35
+        }
       },
       "images": {
         "normal": "images/home/defenses/eagle-artillery/normal/level-4.png",
@@ -100,11 +155,20 @@
       "hitpoints": 5600,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 14,
       "xpGained": 831,
       "stats": {
-        "normal": { "dps": 127.5, "damagePerShot": 425, "shockwaveDamagePerHit": 40 }
+        "normal": {
+          "dps": 127.5,
+          "damagePerShot": 425,
+          "shockwaveDamagePerHit": 40
+        }
       },
       "images": {
         "normal": "images/home/defenses/eagle-artillery/normal/level-5.png",
@@ -117,11 +181,20 @@
       "hitpoints": 5900,
       "buildCost": 13000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 15,
       "xpGained": 881,
       "stats": {
-        "normal": { "dps": 142.5, "damagePerShot": 475, "shockwaveDamagePerHit": 45 }
+        "normal": {
+          "dps": 142.5,
+          "damagePerShot": 475,
+          "shockwaveDamagePerHit": 45
+        }
       },
       "images": {
         "normal": "images/home/defenses/eagle-artillery/normal/level-6.png",
@@ -134,11 +207,20 @@
       "hitpoints": 6200,
       "buildCost": 14000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 16,
       "xpGained": 905,
       "stats": {
-        "normal": { "dps": 157.5, "damagePerShot": 525, "shockwaveDamagePerHit": 50 }
+        "normal": {
+          "dps": 157.5,
+          "damagePerShot": 525,
+          "shockwaveDamagePerHit": 50
+        }
       },
       "images": {
         "normal": "images/home/defenses/eagle-artillery/normal/level-7.png",

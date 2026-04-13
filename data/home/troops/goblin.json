@@ -1,5 +1,6 @@
 {
   "id": "goblin",
+  "dataId": 4000002,
   "name": "Goblin",
   "description": "These pesky little creatures only have eyes for one thing: LOOT! They are faster than a Spring Trap, and their hunger for resources is limitless.",
   "base": "home",

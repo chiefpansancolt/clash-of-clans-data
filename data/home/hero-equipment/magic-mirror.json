@@ -1,5 +1,6 @@
 {
   "id": "magic-mirror",
+  "dataId": 90000039,
   "name": "Magic Mirror",
   "description": "Summons clones of the Archer Queen",
   "base": "home",

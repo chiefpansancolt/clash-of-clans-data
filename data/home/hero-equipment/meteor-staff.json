@@ -1,5 +1,6 @@
 {
   "id": "meteor-staff",
+  "dataId": 90000049,
   "name": "Meteor Staff",
   "description": "Summons mysterious meteors that repeatedly strike the nearest Defense",
   "base": "home",

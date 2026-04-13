@@ -1,5 +1,6 @@
 {
   "id": "miner",
+  "dataId": 4000024,
   "name": "Miner",
   "description": "He digs underground, passing through Walls to attack your target buildings!",
   "base": "home",

@@ -1,5 +1,6 @@
 {
   "id": "heroic-torch",
+  "dataId": 90000019,
   "name": "Heroic Torch",
   "description": "Gives nearby Troops a burning desire to walk through Walls, move faster, and take less damage",
   "base": "home",

@@ -1,5 +1,6 @@
 {
   "id": "beta-minion",
+  "dataId": 4000033,
   "name": "Beta Minion",
   "description": "Attacks targets from a distance, glows in the dark, and is a maniac on the dance floor.",
   "base": "builder",
@@ -23,9 +24,16 @@
       "powerShotDamagePerHit": 60,
       "researchCost": 0,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 0,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -37,9 +45,16 @@
       "powerShotDamagePerHit": 75,
       "researchCost": 50000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -51,9 +66,16 @@
       "powerShotDamagePerHit": 75,
       "researchCost": 110000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-3.png"
+      }
     },
     {
       "level": 6,
@@ -65,9 +87,16 @@
       "powerShotDamagePerHit": 75,
       "researchCost": 220000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-3.png"
+      }
     },
     {
       "level": 7,
@@ -79,9 +108,16 @@
       "powerShotDamagePerHit": 75,
       "researchCost": 330000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-7.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -93,9 +129,16 @@
       "powerShotDamagePerHit": 90,
       "researchCost": 360000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-7.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-7.png"
+      }
     },
     {
       "level": 9,
@@ -107,9 +150,16 @@
       "powerShotDamagePerHit": 90,
       "researchCost": 900000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-7.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-7.png"
+      }
     },
     {
       "level": 10,
@@ -121,9 +171,16 @@
       "powerShotDamagePerHit": 90,
       "researchCost": 1100000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-7.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-7.png"
+      }
     },
     {
       "level": 11,
@@ -135,9 +192,16 @@
       "powerShotDamagePerHit": 90,
       "researchCost": 1300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-11.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -149,9 +213,16 @@
       "powerShotDamagePerHit": 110,
       "researchCost": 1500000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-11.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-11.png"
+      }
     },
     {
       "level": 13,
@@ -163,9 +234,16 @@
       "powerShotDamagePerHit": 110,
       "researchCost": 2300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-11.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-11.png"
+      }
     },
     {
       "level": 14,
@@ -177,9 +255,16 @@
       "powerShotDamagePerHit": 110,
       "researchCost": 2500000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-11.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-11.png"
+      }
     },
     {
       "level": 15,
@@ -191,9 +276,16 @@
       "powerShotDamagePerHit": 110,
       "researchCost": 3300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-15.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-15.png"
+      }
     },
     {
       "level": 16,
@@ -205,9 +297,16 @@
       "powerShotDamagePerHit": 130,
       "researchCost": 3500000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-15.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-15.png"
+      }
     },
     {
       "level": 17,
@@ -219,9 +318,16 @@
       "powerShotDamagePerHit": 130,
       "researchCost": 4000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-15.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-15.png"
+      }
     },
     {
       "level": 18,
@@ -233,9 +339,16 @@
       "powerShotDamagePerHit": 130,
       "researchCost": 4200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-15.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-15.png"
+      }
     },
     {
       "level": 19,
@@ -247,9 +360,16 @@
       "powerShotDamagePerHit": 130,
       "researchCost": 4800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-19.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-19.png"
+      }
     },
     {
       "level": 20,
@@ -261,9 +381,16 @@
       "powerShotDamagePerHit": 150,
       "researchCost": 5400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/beta-minion/normal/level-19.png" }
+      "images": {
+        "normal": "images/builder/troops/beta-minion/normal/level-19.png"
+      }
     }
   ]
 }

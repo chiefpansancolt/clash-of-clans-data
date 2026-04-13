@@ -1,5 +1,6 @@
 {
   "id": "boxer-giant",
+  "dataId": 4000034,
   "name": "Boxer Giant",
   "description": "Heavy-handed and built like an ox, these Giants have been practicing their haymaker punch!",
   "base": "builder",
@@ -25,9 +26,16 @@
       "powerPunchDamage": 550,
       "researchCost": 0,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 0,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -39,9 +47,16 @@
       "powerPunchDamage": 550,
       "researchCost": 60000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 5,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-3.png"
+      }
     },
     {
       "level": 5,
@@ -53,9 +68,16 @@
       "powerPunchDamage": 550,
       "researchCost": 120000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 10,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-3.png"
+      }
     },
     {
       "level": 6,
@@ -67,9 +89,16 @@
       "powerPunchDamage": 700,
       "researchCost": 240000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-3.png"
+      }
     },
     {
       "level": 7,
@@ -81,9 +110,16 @@
       "powerPunchDamage": 700,
       "researchCost": 350000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-3.png"
+      }
     },
     {
       "level": 8,
@@ -95,9 +131,16 @@
       "powerPunchDamage": 700,
       "researchCost": 380000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-8.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -109,9 +152,16 @@
       "powerPunchDamage": 700,
       "researchCost": 1000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-8.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-8.png"
+      }
     },
     {
       "level": 10,
@@ -123,9 +173,16 @@
       "powerPunchDamage": 950,
       "researchCost": 1200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-8.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-8.png"
+      }
     },
     {
       "level": 11,
@@ -137,9 +194,16 @@
       "powerPunchDamage": 950,
       "researchCost": 1300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-8.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-8.png"
+      }
     },
     {
       "level": 12,
@@ -151,9 +215,16 @@
       "powerPunchDamage": 950,
       "researchCost": 1500000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-12.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -165,9 +236,16 @@
       "powerPunchDamage": 950,
       "researchCost": 2300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-12.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-12.png"
+      }
     },
     {
       "level": 14,
@@ -179,9 +257,16 @@
       "powerPunchDamage": 1150,
       "researchCost": 2500000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-12.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-12.png"
+      }
     },
     {
       "level": 15,
@@ -193,9 +278,16 @@
       "powerPunchDamage": 1150,
       "researchCost": 3300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-12.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-12.png"
+      }
     },
     {
       "level": 16,
@@ -207,9 +299,16 @@
       "powerPunchDamage": 1150,
       "researchCost": 3500000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-16.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-16.png"
+      }
     },
     {
       "level": 17,
@@ -221,9 +320,16 @@
       "powerPunchDamage": 1150,
       "researchCost": 4000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-16.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-16.png"
+      }
     },
     {
       "level": 18,
@@ -235,9 +341,16 @@
       "powerPunchDamage": 1400,
       "researchCost": 4200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-16.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-16.png"
+      }
     },
     {
       "level": 19,
@@ -249,9 +362,16 @@
       "powerPunchDamage": 1400,
       "researchCost": 4800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-16.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-16.png"
+      }
     },
     {
       "level": 20,
@@ -263,9 +383,16 @@
       "powerPunchDamage": 1400,
       "researchCost": 5400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/boxer-giant/normal/level-20.png" }
+      "images": {
+        "normal": "images/builder/troops/boxer-giant/normal/level-20.png"
+      }
     }
   ]
 }

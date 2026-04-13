@@ -1,5 +1,6 @@
 {
   "id": "spiky-ball",
+  "dataId": 90000014,
   "name": "Spiky Ball",
   "description": "Shoots a Spiky Ball which bounces between buildings",
   "base": "home",
@@ -26,7 +27,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1000, "numberOfTargets": 2, "dpsIncrease": 35 }
+      "stats": {
+        "projectileDamagePerTarget": 1000,
+        "numberOfTargets": 2,
+        "dpsIncrease": 35
+      }
     },
     {
       "level": 2,
@@ -35,7 +40,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1000, "numberOfTargets": 2, "dpsIncrease": 38 }
+      "stats": {
+        "projectileDamagePerTarget": 1000,
+        "numberOfTargets": 2,
+        "dpsIncrease": 38
+      }
     },
     {
       "level": 3,
@@ -44,7 +53,11 @@
       "upgradeGlowingOre": 20,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1250, "numberOfTargets": 3, "dpsIncrease": 42 }
+      "stats": {
+        "projectileDamagePerTarget": 1250,
+        "numberOfTargets": 3,
+        "dpsIncrease": 42
+      }
     },
     {
       "level": 4,
@@ -53,7 +66,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1250, "numberOfTargets": 3, "dpsIncrease": 45 }
+      "stats": {
+        "projectileDamagePerTarget": 1250,
+        "numberOfTargets": 3,
+        "dpsIncrease": 45
+      }
     },
     {
       "level": 5,
@@ -62,7 +79,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1250, "numberOfTargets": 3, "dpsIncrease": 49 }
+      "stats": {
+        "projectileDamagePerTarget": 1250,
+        "numberOfTargets": 3,
+        "dpsIncrease": 49
+      }
     },
     {
       "level": 6,
@@ -71,7 +92,11 @@
       "upgradeGlowingOre": 100,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1500, "numberOfTargets": 4, "dpsIncrease": 52 }
+      "stats": {
+        "projectileDamagePerTarget": 1500,
+        "numberOfTargets": 4,
+        "dpsIncrease": 52
+      }
     },
     {
       "level": 7,
@@ -80,7 +105,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1500, "numberOfTargets": 4, "dpsIncrease": 55 }
+      "stats": {
+        "projectileDamagePerTarget": 1500,
+        "numberOfTargets": 4,
+        "dpsIncrease": 55
+      }
     },
     {
       "level": 8,
@@ -89,7 +118,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1500, "numberOfTargets": 4, "dpsIncrease": 58 }
+      "stats": {
+        "projectileDamagePerTarget": 1500,
+        "numberOfTargets": 4,
+        "dpsIncrease": 58
+      }
     },
     {
       "level": 9,
@@ -98,7 +131,11 @@
       "upgradeGlowingOre": 200,
       "upgradeStarryOre": 10,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1750, "numberOfTargets": 5, "dpsIncrease": 65 }
+      "stats": {
+        "projectileDamagePerTarget": 1750,
+        "numberOfTargets": 5,
+        "dpsIncrease": 65
+      }
     },
     {
       "level": 10,
@@ -107,7 +144,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1750, "numberOfTargets": 5, "dpsIncrease": 76 }
+      "stats": {
+        "projectileDamagePerTarget": 1750,
+        "numberOfTargets": 5,
+        "dpsIncrease": 76
+      }
     },
     {
       "level": 11,
@@ -116,7 +157,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 1750, "numberOfTargets": 5, "dpsIncrease": 88 }
+      "stats": {
+        "projectileDamagePerTarget": 1750,
+        "numberOfTargets": 5,
+        "dpsIncrease": 88
+      }
     },
     {
       "level": 12,
@@ -125,7 +170,11 @@
       "upgradeGlowingOre": 400,
       "upgradeStarryOre": 20,
       "blacksmithLevelRequired": 1,
-      "stats": { "projectileDamagePerTarget": 2000, "numberOfTargets": 6, "dpsIncrease": 101 }
+      "stats": {
+        "projectileDamagePerTarget": 2000,
+        "numberOfTargets": 6,
+        "dpsIncrease": 101
+      }
     },
     {
       "level": 13,
@@ -134,7 +183,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 3,
-      "stats": { "projectileDamagePerTarget": 2000, "numberOfTargets": 6, "dpsIncrease": 112 }
+      "stats": {
+        "projectileDamagePerTarget": 2000,
+        "numberOfTargets": 6,
+        "dpsIncrease": 112
+      }
     },
     {
       "level": 14,
@@ -143,7 +196,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 3,
-      "stats": { "projectileDamagePerTarget": 2000, "numberOfTargets": 6, "dpsIncrease": 124 }
+      "stats": {
+        "projectileDamagePerTarget": 2000,
+        "numberOfTargets": 6,
+        "dpsIncrease": 124
+      }
     },
     {
       "level": 15,
@@ -152,7 +209,11 @@
       "upgradeGlowingOre": 600,
       "upgradeStarryOre": 30,
       "blacksmithLevelRequired": 3,
-      "stats": { "projectileDamagePerTarget": 2250, "numberOfTargets": 6, "dpsIncrease": 135 }
+      "stats": {
+        "projectileDamagePerTarget": 2250,
+        "numberOfTargets": 6,
+        "dpsIncrease": 135
+      }
     },
     {
       "level": 16,
@@ -161,7 +222,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 5,
-      "stats": { "projectileDamagePerTarget": 2250, "numberOfTargets": 6, "dpsIncrease": 148 }
+      "stats": {
+        "projectileDamagePerTarget": 2250,
+        "numberOfTargets": 6,
+        "dpsIncrease": 148
+      }
     },
     {
       "level": 17,
@@ -170,7 +235,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 5,
-      "stats": { "projectileDamagePerTarget": 2250, "numberOfTargets": 6, "dpsIncrease": 159 }
+      "stats": {
+        "projectileDamagePerTarget": 2250,
+        "numberOfTargets": 6,
+        "dpsIncrease": 159
+      }
     },
     {
       "level": 18,
@@ -179,7 +248,11 @@
       "upgradeGlowingOre": 600,
       "upgradeStarryOre": 50,
       "blacksmithLevelRequired": 5,
-      "stats": { "projectileDamagePerTarget": 2500, "numberOfTargets": 7, "dpsIncrease": 171 }
+      "stats": {
+        "projectileDamagePerTarget": 2500,
+        "numberOfTargets": 7,
+        "dpsIncrease": 171
+      }
     },
     {
       "level": 19,
@@ -188,7 +261,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 7,
-      "stats": { "projectileDamagePerTarget": 2500, "numberOfTargets": 7, "dpsIncrease": 176 }
+      "stats": {
+        "projectileDamagePerTarget": 2500,
+        "numberOfTargets": 7,
+        "dpsIncrease": 176
+      }
     },
     {
       "level": 20,
@@ -197,7 +274,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 7,
-      "stats": { "projectileDamagePerTarget": 2500, "numberOfTargets": 7, "dpsIncrease": 182 }
+      "stats": {
+        "projectileDamagePerTarget": 2500,
+        "numberOfTargets": 7,
+        "dpsIncrease": 182
+      }
     },
     {
       "level": 21,
@@ -206,7 +287,11 @@
       "upgradeGlowingOre": 600,
       "upgradeStarryOre": 100,
       "blacksmithLevelRequired": 7,
-      "stats": { "projectileDamagePerTarget": 2750, "numberOfTargets": 7, "dpsIncrease": 188 }
+      "stats": {
+        "projectileDamagePerTarget": 2750,
+        "numberOfTargets": 7,
+        "dpsIncrease": 188
+      }
     },
     {
       "level": 22,
@@ -215,7 +300,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 8,
-      "stats": { "projectileDamagePerTarget": 2750, "numberOfTargets": 7, "dpsIncrease": 194 }
+      "stats": {
+        "projectileDamagePerTarget": 2750,
+        "numberOfTargets": 7,
+        "dpsIncrease": 194
+      }
     },
     {
       "level": 23,
@@ -224,7 +313,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 8,
-      "stats": { "projectileDamagePerTarget": 2750, "numberOfTargets": 7, "dpsIncrease": 199 }
+      "stats": {
+        "projectileDamagePerTarget": 2750,
+        "numberOfTargets": 7,
+        "dpsIncrease": 199
+      }
     },
     {
       "level": 24,
@@ -233,7 +326,11 @@
       "upgradeGlowingOre": 600,
       "upgradeStarryOre": 120,
       "blacksmithLevelRequired": 8,
-      "stats": { "projectileDamagePerTarget": 3000, "numberOfTargets": 7, "dpsIncrease": 205 }
+      "stats": {
+        "projectileDamagePerTarget": 3000,
+        "numberOfTargets": 7,
+        "dpsIncrease": 205
+      }
     },
     {
       "level": 25,
@@ -242,7 +339,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 9,
-      "stats": { "projectileDamagePerTarget": 3000, "numberOfTargets": 7, "dpsIncrease": 211 }
+      "stats": {
+        "projectileDamagePerTarget": 3000,
+        "numberOfTargets": 7,
+        "dpsIncrease": 211
+      }
     },
     {
       "level": 26,
@@ -251,7 +352,11 @@
       "upgradeGlowingOre": 0,
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 9,
-      "stats": { "projectileDamagePerTarget": 3000, "numberOfTargets": 7, "dpsIncrease": 217 }
+      "stats": {
+        "projectileDamagePerTarget": 3000,
+        "numberOfTargets": 7,
+        "dpsIncrease": 217
+      }
     },
     {
       "level": 27,
@@ -260,7 +365,11 @@
       "upgradeGlowingOre": 600,
       "upgradeStarryOre": 150,
       "blacksmithLevelRequired": 9,
-      "stats": { "projectileDamagePerTarget": 3250, "numberOfTargets": 8, "dpsIncrease": 222 }
+      "stats": {
+        "projectileDamagePerTarget": 3250,
+        "numberOfTargets": 8,
+        "dpsIncrease": 222
+      }
     }
   ]
 }

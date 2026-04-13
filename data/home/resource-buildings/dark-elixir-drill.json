@@ -1,29 +1,84 @@
 {
   "id": "dark-elixir-drill",
+  "dataId": 1000023,
   "name": "Dark Elixir Drill",
   "description": "Our Builders have finally figured a way to extract pure Dark Elixir, the rarest form of the magical substance.",
   "base": "home",
   "category": "resource",
   "size": "3x3",
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 0 },
-    { "townHallLevel": 2, "count": 0 },
-    { "townHallLevel": 3, "count": 0 },
-    { "townHallLevel": 4, "count": 0 },
-    { "townHallLevel": 5, "count": 0 },
-    { "townHallLevel": 6, "count": 0 },
-    { "townHallLevel": 7, "count": 1 },
-    { "townHallLevel": 8, "count": 2 },
-    { "townHallLevel": 9, "count": 3 },
-    { "townHallLevel": 10, "count": 3 },
-    { "townHallLevel": 11, "count": 3 },
-    { "townHallLevel": 12, "count": 3 },
-    { "townHallLevel": 13, "count": 3 },
-    { "townHallLevel": 14, "count": 3 },
-    { "townHallLevel": 15, "count": 3 },
-    { "townHallLevel": 16, "count": 3 },
-    { "townHallLevel": 17, "count": 3 },
-    { "townHallLevel": 18, "count": 3 }
+    {
+      "townHallLevel": 1,
+      "count": 0
+    },
+    {
+      "townHallLevel": 2,
+      "count": 0
+    },
+    {
+      "townHallLevel": 3,
+      "count": 0
+    },
+    {
+      "townHallLevel": 4,
+      "count": 0
+    },
+    {
+      "townHallLevel": 5,
+      "count": 0
+    },
+    {
+      "townHallLevel": 6,
+      "count": 0
+    },
+    {
+      "townHallLevel": 7,
+      "count": 1
+    },
+    {
+      "townHallLevel": 8,
+      "count": 2
+    },
+    {
+      "townHallLevel": 9,
+      "count": 3
+    },
+    {
+      "townHallLevel": 10,
+      "count": 3
+    },
+    {
+      "townHallLevel": 11,
+      "count": 3
+    },
+    {
+      "townHallLevel": 12,
+      "count": 3
+    },
+    {
+      "townHallLevel": 13,
+      "count": 3
+    },
+    {
+      "townHallLevel": 14,
+      "count": 3
+    },
+    {
+      "townHallLevel": 15,
+      "count": 3
+    },
+    {
+      "townHallLevel": 16,
+      "count": 3
+    },
+    {
+      "townHallLevel": 17,
+      "count": 3
+    },
+    {
+      "townHallLevel": 18,
+      "count": 3
+    }
   ],
   "levels": [
     {
@@ -33,10 +88,17 @@
       "productionRate": 20,
       "buildCost": 180000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 120,
       "townHallRequired": 7,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -45,10 +107,17 @@
       "productionRate": 30,
       "buildCost": 270000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 146,
       "townHallRequired": 7,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -57,10 +126,17 @@
       "productionRate": 45,
       "buildCost": 540000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 7,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -69,10 +145,17 @@
       "productionRate": 60,
       "buildCost": 900000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 254,
       "townHallRequired": 9,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -81,10 +164,17 @@
       "productionRate": 80,
       "buildCost": 1200000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "townHallRequired": 9,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -93,10 +183,17 @@
       "productionRate": 100,
       "buildCost": 1800000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 360,
       "townHallRequired": 9,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-6.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -105,10 +202,17 @@
       "productionRate": 120,
       "buildCost": 2100000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 388,
       "townHallRequired": 10,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -117,10 +221,17 @@
       "productionRate": 140,
       "buildCost": 2400000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 11,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-8.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -129,10 +240,17 @@
       "productionRate": 160,
       "buildCost": 3700000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 464,
       "townHallRequired": 12,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-9.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -141,10 +259,17 @@
       "productionRate": 180,
       "buildCost": 5300000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 14,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-10.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -153,10 +278,17 @@
       "productionRate": 200,
       "buildCost": 12000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 16,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-11.png"
+      }
     },
     {
       "level": 1,
@@ -165,11 +297,18 @@
       "productionRate": 209,
       "buildCost": 5100000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 18,
       "supercharge": true,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-11.png"
+      }
     },
     {
       "level": 2,
@@ -178,11 +317,18 @@
       "productionRate": 218,
       "buildCost": 4500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 18,
       "supercharge": true,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-11.png"
+      }
     },
     {
       "level": 3,
@@ -191,11 +337,18 @@
       "productionRate": 218,
       "buildCost": 3900000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "townHallRequired": 18,
       "supercharge": true,
-      "images": { "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/dark-elixir-drill/normal/level-11.png"
+      }
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "id": "noble-iron",
+  "dataId": 90000047,
   "name": "Noble Iron",
   "description": "Increases the speed, range, and power of the Minion Prince's first few attacks",
   "base": "home",

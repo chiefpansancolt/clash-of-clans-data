@@ -1,21 +1,52 @@
 {
   "id": "healing-hut",
+  "dataId": 1000082,
   "name": "Healing Hut",
   "description": "Brews up a hearty and nourishing cauldron of soup following Master Builder's grandma's recipe. Troops eat some on their way to the next stage of an attack, recovering some of their health.",
   "base": "builder",
   "category": "army",
   "size": "3x3",
   "availablePerBuilderHall": [
-    { "builderHallLevel": 1, "count": 0 },
-    { "builderHallLevel": 2, "count": 0 },
-    { "builderHallLevel": 3, "count": 0 },
-    { "builderHallLevel": 4, "count": 0 },
-    { "builderHallLevel": 5, "count": 0 },
-    { "builderHallLevel": 6, "count": 1 },
-    { "builderHallLevel": 7, "count": 1 },
-    { "builderHallLevel": 8, "count": 1 },
-    { "builderHallLevel": 9, "count": 1 },
-    { "builderHallLevel": 10, "count": 1 }
+    {
+      "builderHallLevel": 1,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 2,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -24,7 +55,12 @@
       "hitpoints": 600,
       "buildCost": 1500000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 328,
       "builderHallRequired": 6,
       "images": {
@@ -37,7 +73,12 @@
       "hitpoints": 690,
       "buildCost": 2000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 6,
       "images": {
@@ -50,7 +91,12 @@
       "hitpoints": 800,
       "buildCost": 2500000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "builderHallRequired": 7,
       "images": {
@@ -63,7 +109,12 @@
       "hitpoints": 910,
       "buildCost": 3250000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "builderHallRequired": 8,
       "images": {
@@ -76,7 +127,12 @@
       "hitpoints": 1050,
       "buildCost": 4000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "builderHallRequired": 9,
       "images": {
@@ -89,7 +145,12 @@
       "hitpoints": 1250,
       "buildCost": 5000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "builderHallRequired": 10,
       "images": {

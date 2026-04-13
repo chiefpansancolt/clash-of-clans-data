@@ -1,5 +1,6 @@
 {
   "id": "golem",
+  "dataId": 4000013,
   "name": "Golem",
   "description": "The mighty Golem loves to soak up damage! When destroyed, it explodes and splits into Golemites. The resulting Golemites have one-fifth the Golem's strength and hitpoints.",
   "base": "home",

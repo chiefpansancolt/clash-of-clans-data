@@ -1,5 +1,6 @@
 {
   "id": "multi-archer-tower",
+  "dataId": 1000084,
   "name": "Multi-Archer Tower",
   "description": "These Archers have teamed up to take out attackers faster and more furiously than ever. Teamwork makes the dream work!",
   "base": "home",
@@ -15,9 +16,18 @@
     }
   },
   "availablePerTownHall": [
-    { "townHallLevel": 16, "count": 2 },
-    { "townHallLevel": 17, "count": 3 },
-    { "townHallLevel": 18, "count": 3 }
+    {
+      "townHallLevel": 16,
+      "count": 2
+    },
+    {
+      "townHallLevel": 17,
+      "count": 3
+    },
+    {
+      "townHallLevel": 18,
+      "count": 3
+    }
   ],
   "levels": [
     {
@@ -25,44 +35,92 @@
       "hitpoints": 5000,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 16,
-      "stats": { "normal": { "dps": 100, "damagePerShot": 60 } },
-      "images": { "normal": "images/home/defenses/multi-archer-tower/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 100,
+          "damagePerShot": 60
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/multi-archer-tower/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 5200,
       "buildCost": 13000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "townHallRequired": 16,
-      "stats": { "normal": { "dps": 108, "damagePerShot": 65 } },
-      "images": { "normal": "images/home/defenses/multi-archer-tower/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 108,
+          "damagePerShot": 65
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/multi-archer-tower/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 5400,
       "buildCost": 17500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 10, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 963,
       "townHallRequired": 17,
-      "stats": { "normal": { "dps": 116, "damagePerShot": 70 } },
-      "images": { "normal": "images/home/defenses/multi-archer-tower/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 116,
+          "damagePerShot": 70
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/multi-archer-tower/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 5500,
       "buildCost": 27000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1099,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 121, "damagePerShot": 73 } },
-      "images": { "normal": "images/home/defenses/multi-archer-tower/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 121,
+          "damagePerShot": 73
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/multi-archer-tower/normal/level-4.png"
+      }
     },
     {
       "level": 1,
@@ -70,11 +128,23 @@
       "hitpoints": 5500,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 126, "damagePerShot": 76 } },
-      "images": { "normal": "images/home/defenses/multi-archer-tower/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 126,
+          "damagePerShot": 76
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/multi-archer-tower/normal/level-4.png"
+      }
     },
     {
       "level": 2,
@@ -82,11 +152,23 @@
       "hitpoints": 5600,
       "buildCost": 10000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 126, "damagePerShot": 76 } },
-      "images": { "normal": "images/home/defenses/multi-archer-tower/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 126,
+          "damagePerShot": 76
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/multi-archer-tower/normal/level-4.png"
+      }
     }
   ]
 }

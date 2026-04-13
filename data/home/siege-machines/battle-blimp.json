@@ -1,5 +1,6 @@
 {
   "id": "battle-blimp",
+  "dataId": 4000052,
   "name": "Battle Blimp",
   "description": "The Battle Blimp bypasses ground-based obstacles and delivers your Clan Castle troops directly into the heart of the enemy village, all while dropping bombs along the way. However, its thin hide makes it easier to shoot down. Immune to spell effects.",
   "base": "home",

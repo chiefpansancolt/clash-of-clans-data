@@ -1,5 +1,6 @@
 {
   "id": "raged-barbarian",
+  "dataId": 4000031,
   "name": "Raged Barbarian",
   "description": "Why is he so angry, speedy, and vicious? Nobody's brave enough to ask. Maybe it's because he can't find his sword?",
   "base": "builder",
@@ -24,9 +25,16 @@
       "rageDurationSeconds": 0,
       "researchCost": 0,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 0,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -37,9 +45,16 @@
       "rageDurationSeconds": 6,
       "researchCost": 3500,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 30 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 30
+      },
       "starLabRequired": 1,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -50,9 +65,16 @@
       "rageDurationSeconds": 6,
       "researchCost": 7000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 5, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0
+      },
       "starLabRequired": 2,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-1.png"
+      }
     },
     {
       "level": 4,
@@ -63,9 +85,16 @@
       "rageDurationSeconds": 8,
       "researchCost": 10000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 15, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 0
+      },
       "starLabRequired": 2,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-1.png"
+      }
     },
     {
       "level": 5,
@@ -76,9 +105,16 @@
       "rageDurationSeconds": 8,
       "researchCost": 90000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 5,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -89,9 +125,16 @@
       "rageDurationSeconds": 8,
       "researchCost": 180000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 10,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-5.png"
+      }
     },
     {
       "level": 7,
@@ -102,9 +145,16 @@
       "rageDurationSeconds": 8,
       "researchCost": 300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 15, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 15,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-5.png"
+      }
     },
     {
       "level": 8,
@@ -115,9 +165,16 @@
       "rageDurationSeconds": 10,
       "researchCost": 330000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-5.png"
+      }
     },
     {
       "level": 9,
@@ -128,9 +185,16 @@
       "rageDurationSeconds": 10,
       "researchCost": 700000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -141,9 +205,16 @@
       "rageDurationSeconds": 12,
       "researchCost": 900000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-9.png"
+      }
     },
     {
       "level": 11,
@@ -154,9 +225,16 @@
       "rageDurationSeconds": 12,
       "researchCost": 1000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-9.png"
+      }
     },
     {
       "level": 12,
@@ -167,9 +245,16 @@
       "rageDurationSeconds": 14,
       "researchCost": 1200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-9.png"
+      }
     },
     {
       "level": 13,
@@ -180,9 +265,16 @@
       "rageDurationSeconds": 14,
       "researchCost": 2000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -193,9 +285,16 @@
       "rageDurationSeconds": 16,
       "researchCost": 2200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-13.png"
+      }
     },
     {
       "level": 15,
@@ -206,9 +305,16 @@
       "rageDurationSeconds": 16,
       "researchCost": 3000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-13.png"
+      }
     },
     {
       "level": 16,
@@ -219,9 +325,16 @@
       "rageDurationSeconds": 18,
       "researchCost": 3200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-13.png"
+      }
     },
     {
       "level": 17,
@@ -232,9 +345,16 @@
       "rageDurationSeconds": 18,
       "researchCost": 3800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-17.png"
+      }
     },
     {
       "level": 18,
@@ -245,9 +365,16 @@
       "rageDurationSeconds": 20,
       "researchCost": 4000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-17.png"
+      }
     },
     {
       "level": 19,
@@ -258,9 +385,16 @@
       "rageDurationSeconds": 20,
       "researchCost": 4600000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-17.png"
+      }
     },
     {
       "level": 20,
@@ -271,9 +405,16 @@
       "rageDurationSeconds": 22,
       "researchCost": 5200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/raged-barbarian/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/raged-barbarian/normal/level-17.png"
+      }
     }
   ]
 }

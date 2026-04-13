@@ -1,5 +1,6 @@
 {
   "id": "seeking-shield",
+  "dataId": 90000006,
   "name": "Seeking Shield",
   "description": "Throws her shield which bounces between defenses, dealing damage",
   "base": "home",

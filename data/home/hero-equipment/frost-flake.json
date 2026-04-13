@@ -1,5 +1,6 @@
 {
   "id": "frost-flake",
+  "dataId": 90000050,
   "name": "Frost Flake",
   "description": "Flings flakes at the closest Defenses to freeze them",
   "base": "home",

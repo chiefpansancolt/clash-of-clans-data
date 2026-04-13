@@ -1,5 +1,6 @@
 {
   "id": "guard-post",
+  "dataId": 1000051,
   "name": "Guard Post",
   "description": "Houses troops to aid in defense! These rabble rousers are sure to slow down the enemy.",
   "base": "builder",
@@ -14,17 +15,44 @@
     }
   },
   "defendingTroops": [
-    { "name": "Raged Barbarian", "count": 1 },
-    { "name": "Sneaky Archer", "count": 1 }
+    {
+      "name": "Raged Barbarian",
+      "count": 1
+    },
+    {
+      "name": "Sneaky Archer",
+      "count": 1
+    }
   ],
   "availablePerBuilderHall": [
-    { "builderHallLevel": 4, "count": 1 },
-    { "builderHallLevel": 5, "count": 1 },
-    { "builderHallLevel": 6, "count": 1 },
-    { "builderHallLevel": 7, "count": 1 },
-    { "builderHallLevel": 8, "count": 1 },
-    { "builderHallLevel": 9, "count": 1 },
-    { "builderHallLevel": 10, "count": 1 }
+    {
+      "builderHallLevel": 4,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -33,11 +61,20 @@
       "hitpoints": 300,
       "buildCost": 200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 120,
       "builderHallRequired": 4,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-1.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -45,11 +82,20 @@
       "hitpoints": 350,
       "buildCost": 240000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 169,
       "builderHallRequired": 4,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-2.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -57,11 +103,20 @@
       "hitpoints": 400,
       "buildCost": 280000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "builderHallRequired": 4,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-3.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -69,11 +124,20 @@
       "hitpoints": 460,
       "buildCost": 320000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "builderHallRequired": 4,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-4.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -81,11 +145,20 @@
       "hitpoints": 550,
       "buildCost": 1000000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 5,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-5.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -93,11 +166,20 @@
       "hitpoints": 650,
       "buildCost": 1400000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "builderHallRequired": 6,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-6.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -105,11 +187,20 @@
       "hitpoints": 750,
       "buildCost": 2300000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "builderHallRequired": 7,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-7.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -117,11 +208,20 @@
       "hitpoints": 850,
       "buildCost": 3200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "builderHallRequired": 8,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-8.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -129,11 +229,20 @@
       "hitpoints": 1000,
       "buildCost": 4100000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 929,
       "builderHallRequired": 9,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-9.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -141,11 +250,20 @@
       "hitpoints": 1150,
       "buildCost": 5100000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 12,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1018,
       "builderHallRequired": 10,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/builder/defenses/guard-post/normal/level-10.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/builder/defenses/guard-post/normal/level-10.png"
+      }
     }
   ]
 }

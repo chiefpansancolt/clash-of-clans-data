@@ -1,5 +1,6 @@
 {
   "id": "wizard-tower",
+  "dataId": 1000011,
   "name": "Wizard Tower",
   "description": "The Ultimate Arcane Defense! Tower Wizards cast powerful area effect spells that target both flying and ground troops.",
   "base": "home",
@@ -7,23 +8,71 @@
   "size": "3x3",
   "targetType": "both",
   "modes": {
-    "normal": { "range": 7, "attackSpeed": 1.3, "damageType": "splash", "splashRadius": 1 }
+    "normal": {
+      "range": 7,
+      "attackSpeed": 1.3,
+      "damageType": "splash",
+      "splashRadius": 1
+    }
   },
   "availablePerTownHall": [
-    { "townHallLevel": 5, "count": 1 },
-    { "townHallLevel": 6, "count": 2 },
-    { "townHallLevel": 7, "count": 2 },
-    { "townHallLevel": 8, "count": 3 },
-    { "townHallLevel": 9, "count": 4 },
-    { "townHallLevel": 10, "count": 4 },
-    { "townHallLevel": 11, "count": 5 },
-    { "townHallLevel": 12, "count": 5 },
-    { "townHallLevel": 13, "count": 5 },
-    { "townHallLevel": 14, "count": 5 },
-    { "townHallLevel": 15, "count": 5 },
-    { "townHallLevel": 16, "count": 5 },
-    { "townHallLevel": 17, "count": 5 },
-    { "townHallLevel": 18, "count": 6, "countAfterMerges": 2 }
+    {
+      "townHallLevel": 5,
+      "count": 1
+    },
+    {
+      "townHallLevel": 6,
+      "count": 2
+    },
+    {
+      "townHallLevel": 7,
+      "count": 2
+    },
+    {
+      "townHallLevel": 8,
+      "count": 3
+    },
+    {
+      "townHallLevel": 9,
+      "count": 4
+    },
+    {
+      "townHallLevel": 10,
+      "count": 4
+    },
+    {
+      "townHallLevel": 11,
+      "count": 5
+    },
+    {
+      "townHallLevel": 12,
+      "count": 5
+    },
+    {
+      "townHallLevel": 13,
+      "count": 5
+    },
+    {
+      "townHallLevel": 14,
+      "count": 5
+    },
+    {
+      "townHallLevel": 15,
+      "count": 5
+    },
+    {
+      "townHallLevel": 16,
+      "count": 5
+    },
+    {
+      "townHallLevel": 17,
+      "count": 5
+    },
+    {
+      "townHallLevel": 18,
+      "count": 6,
+      "countAfterMerges": 2
+    }
   ],
   "levels": [
     {
@@ -31,187 +80,391 @@
       "hitpoints": 620,
       "buildCost": 100000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 5,
       "xpGained": 60,
-      "stats": { "normal": { "dps": 11, "damagePerShot": 14.3 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 11,
+          "damagePerShot": 14.3
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 650,
       "buildCost": 150000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 1, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 30,
+        "seconds": 0
+      },
       "townHallRequired": 5,
       "xpGained": 73,
-      "stats": { "normal": { "dps": 13, "damagePerShot": 16.9 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 13,
+          "damagePerShot": 16.9
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 680,
       "buildCost": 250000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 6,
       "xpGained": 120,
-      "stats": { "normal": { "dps": 16, "damagePerShot": 20.8 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 16,
+          "damagePerShot": 20.8
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 730,
       "buildCost": 400000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 7,
       "xpGained": 169,
-      "stats": { "normal": { "dps": 20, "damagePerShot": 26 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 20,
+          "damagePerShot": 26
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-4.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 840,
       "buildCost": 550000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 10,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 8,
       "xpGained": 189,
-      "stats": { "normal": { "dps": 24, "damagePerShot": 31.2 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 24,
+          "damagePerShot": 31.2
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-5.png"
+      }
     },
     {
       "level": 6,
       "hitpoints": 960,
       "buildCost": 660000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 8,
       "xpGained": 207,
-      "stats": { "normal": { "dps": 32, "damagePerShot": 41.6 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 32,
+          "damagePerShot": 41.6
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-6.png"
+      }
     },
     {
       "level": 7,
       "hitpoints": 1200,
       "buildCost": 1000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 9,
       "xpGained": 254,
-      "stats": { "normal": { "dps": 40, "damagePerShot": 52 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 40,
+          "damagePerShot": 52
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-7.png"
+      }
     },
     {
       "level": 8,
       "hitpoints": 1440,
       "buildCost": 1100000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 10,
       "xpGained": 268,
-      "stats": { "normal": { "dps": 45, "damagePerShot": 58.5 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-8.png" }
+      "stats": {
+        "normal": {
+          "dps": 45,
+          "damagePerShot": 58.5
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-8.png"
+      }
     },
     {
       "level": 9,
       "hitpoints": 1600,
       "buildCost": 1300000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 10,
       "xpGained": 293,
-      "stats": { "normal": { "dps": 50, "damagePerShot": 65 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-9.png" }
+      "stats": {
+        "normal": {
+          "dps": 50,
+          "damagePerShot": 65
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-9.png"
+      }
     },
     {
       "level": 10,
       "hitpoints": 1900,
       "buildCost": 2000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 11,
       "xpGained": 328,
-      "stats": { "normal": { "dps": 62, "damagePerShot": 80.6 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 62,
+          "damagePerShot": 80.6
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-10.png"
+      }
     },
     {
       "level": 11,
       "hitpoints": 2120,
       "buildCost": 2500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 12,
       "xpGained": 360,
-      "stats": { "normal": { "dps": 70, "damagePerShot": 91 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-11.png" }
+      "stats": {
+        "normal": {
+          "dps": 70,
+          "damagePerShot": 91
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-11.png"
+      }
     },
     {
       "level": 12,
       "hitpoints": 2240,
       "buildCost": 2600000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 13,
       "xpGained": 388,
-      "stats": { "normal": { "dps": 78, "damagePerShot": 101.4 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-12.png" }
+      "stats": {
+        "normal": {
+          "dps": 78,
+          "damagePerShot": 101.4
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-12.png"
+      }
     },
     {
       "level": 13,
       "hitpoints": 2500,
       "buildCost": 3000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 13,
       "xpGained": 415,
-      "stats": { "normal": { "dps": 84, "damagePerShot": 109.2 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-13.png" }
+      "stats": {
+        "normal": {
+          "dps": 84,
+          "damagePerShot": 109.2
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-13.png"
+      }
     },
     {
       "level": 14,
       "hitpoints": 2800,
       "buildCost": 4500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 14,
       "xpGained": 509,
-      "stats": { "normal": { "dps": 90, "damagePerShot": 117 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-14.png" }
+      "stats": {
+        "normal": {
+          "dps": 90,
+          "damagePerShot": 117
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-14.png"
+      }
     },
     {
       "level": 15,
       "hitpoints": 3000,
       "buildCost": 5500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 15,
       "xpGained": 587,
-      "stats": { "normal": { "dps": 95, "damagePerShot": 123.5 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-15.png" }
+      "stats": {
+        "normal": {
+          "dps": 95,
+          "damagePerShot": 123.5
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-15.png"
+      }
     },
     {
       "level": 16,
       "hitpoints": 3150,
       "buildCost": 8000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 16,
       "xpGained": 623,
-      "stats": { "normal": { "dps": 102, "damagePerShot": 132.6 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-16.png" }
+      "stats": {
+        "normal": {
+          "dps": 102,
+          "damagePerShot": 132.6
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-16.png"
+      }
     },
     {
       "level": 17,
       "hitpoints": 3300,
       "buildCost": 14000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 17,
       "xpGained": 856,
-      "stats": { "normal": { "dps": 110, "damagePerShot": 143 } },
-      "images": { "normal": "images/home/defenses/wizard-tower/normal/level-17.png" }
+      "stats": {
+        "normal": {
+          "dps": 110,
+          "damagePerShot": 143
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/wizard-tower/normal/level-17.png"
+      }
     }
   ]
 }

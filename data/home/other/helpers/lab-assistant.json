@@ -1,24 +1,87 @@
 {
   "id": "lab-assistant",
+  "dataId": 93000001,
   "name": "Lab Assistant",
   "base": "home",
   "category": "other",
   "recruitmentCost": 0,
   "recruitmentCostResource": "Gems",
   "townHallRequired": 9,
-  "images": { "normal": "images/home/other/helpers/lab-assistant/normal.png" },
+  "images": {
+    "normal": "images/home/other/helpers/lab-assistant/normal.png"
+  },
   "levels": [
-    { "level": 1, "workRate": 1, "upgradeCost": 0, "townHallRequired": 9 },
-    { "level": 2, "workRate": 2, "upgradeCost": 500, "townHallRequired": 10 },
-    { "level": 3, "workRate": 3, "upgradeCost": 500, "townHallRequired": 10 },
-    { "level": 4, "workRate": 4, "upgradeCost": 500, "townHallRequired": 11 },
-    { "level": 5, "workRate": 5, "upgradeCost": 750, "townHallRequired": 12 },
-    { "level": 6, "workRate": 6, "upgradeCost": 750, "townHallRequired": 12 },
-    { "level": 7, "workRate": 7, "upgradeCost": 750, "townHallRequired": 13 },
-    { "level": 8, "workRate": 8, "upgradeCost": 750, "townHallRequired": 13 },
-    { "level": 9, "workRate": 9, "upgradeCost": 1000, "townHallRequired": 14 },
-    { "level": 10, "workRate": 10, "upgradeCost": 1000, "townHallRequired": 14 },
-    { "level": 11, "workRate": 11, "upgradeCost": 1000, "townHallRequired": 15 },
-    { "level": 12, "workRate": 12, "upgradeCost": 1000, "townHallRequired": 16 }
+    {
+      "level": 1,
+      "workRate": 1,
+      "upgradeCost": 0,
+      "townHallRequired": 9
+    },
+    {
+      "level": 2,
+      "workRate": 2,
+      "upgradeCost": 500,
+      "townHallRequired": 10
+    },
+    {
+      "level": 3,
+      "workRate": 3,
+      "upgradeCost": 500,
+      "townHallRequired": 10
+    },
+    {
+      "level": 4,
+      "workRate": 4,
+      "upgradeCost": 500,
+      "townHallRequired": 11
+    },
+    {
+      "level": 5,
+      "workRate": 5,
+      "upgradeCost": 750,
+      "townHallRequired": 12
+    },
+    {
+      "level": 6,
+      "workRate": 6,
+      "upgradeCost": 750,
+      "townHallRequired": 12
+    },
+    {
+      "level": 7,
+      "workRate": 7,
+      "upgradeCost": 750,
+      "townHallRequired": 13
+    },
+    {
+      "level": 8,
+      "workRate": 8,
+      "upgradeCost": 750,
+      "townHallRequired": 13
+    },
+    {
+      "level": 9,
+      "workRate": 9,
+      "upgradeCost": 1000,
+      "townHallRequired": 14
+    },
+    {
+      "level": 10,
+      "workRate": 10,
+      "upgradeCost": 1000,
+      "townHallRequired": 14
+    },
+    {
+      "level": 11,
+      "workRate": 11,
+      "upgradeCost": 1000,
+      "townHallRequired": 15
+    },
+    {
+      "level": 12,
+      "workRate": 12,
+      "upgradeCost": 1000,
+      "townHallRequired": 16
+    }
   ]
 }

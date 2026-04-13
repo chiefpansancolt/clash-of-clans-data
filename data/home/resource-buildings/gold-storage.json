@@ -1,29 +1,84 @@
 {
   "id": "gold-storage",
+  "dataId": 1000005,
   "name": "Gold Storage",
   "description": "All your precious gold is stored here. Don't let sneaky goblins anywhere near! Upgrade the storage to increase its capacity and durability against attack.",
   "base": "home",
   "category": "resource",
   "size": "3x3",
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 1 },
-    { "townHallLevel": 2, "count": 1 },
-    { "townHallLevel": 3, "count": 2 },
-    { "townHallLevel": 4, "count": 2 },
-    { "townHallLevel": 5, "count": 2 },
-    { "townHallLevel": 6, "count": 2 },
-    { "townHallLevel": 7, "count": 2 },
-    { "townHallLevel": 8, "count": 3 },
-    { "townHallLevel": 9, "count": 4 },
-    { "townHallLevel": 10, "count": 4 },
-    { "townHallLevel": 11, "count": 4 },
-    { "townHallLevel": 12, "count": 4 },
-    { "townHallLevel": 13, "count": 4 },
-    { "townHallLevel": 14, "count": 4 },
-    { "townHallLevel": 15, "count": 4 },
-    { "townHallLevel": 16, "count": 4 },
-    { "townHallLevel": 17, "count": 4 },
-    { "townHallLevel": 18, "count": 4 }
+    {
+      "townHallLevel": 1,
+      "count": 1
+    },
+    {
+      "townHallLevel": 2,
+      "count": 1
+    },
+    {
+      "townHallLevel": 3,
+      "count": 2
+    },
+    {
+      "townHallLevel": 4,
+      "count": 2
+    },
+    {
+      "townHallLevel": 5,
+      "count": 2
+    },
+    {
+      "townHallLevel": 6,
+      "count": 2
+    },
+    {
+      "townHallLevel": 7,
+      "count": 2
+    },
+    {
+      "townHallLevel": 8,
+      "count": 3
+    },
+    {
+      "townHallLevel": 9,
+      "count": 4
+    },
+    {
+      "townHallLevel": 10,
+      "count": 4
+    },
+    {
+      "townHallLevel": 11,
+      "count": 4
+    },
+    {
+      "townHallLevel": 12,
+      "count": 4
+    },
+    {
+      "townHallLevel": 13,
+      "count": 4
+    },
+    {
+      "townHallLevel": 14,
+      "count": 4
+    },
+    {
+      "townHallLevel": 15,
+      "count": 4
+    },
+    {
+      "townHallLevel": 16,
+      "count": 4
+    },
+    {
+      "townHallLevel": 17,
+      "count": 4
+    },
+    {
+      "townHallLevel": 18,
+      "count": 4
+    }
   ],
   "levels": [
     {
@@ -32,10 +87,17 @@
       "capacity": 1500,
       "buildCost": 300,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 10 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 10
+      },
       "xpGained": 3,
       "townHallRequired": 1,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -43,10 +105,17 @@
       "capacity": 3000,
       "buildCost": 750,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 2, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 0
+      },
       "xpGained": 10,
       "townHallRequired": 2,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -54,10 +123,17 @@
       "capacity": 6000,
       "buildCost": 1500,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 5, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0
+      },
       "xpGained": 17,
       "townHallRequired": 2,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -65,10 +141,17 @@
       "capacity": 12000,
       "buildCost": 3000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 15, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 0
+      },
       "xpGained": 30,
       "townHallRequired": 3,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -76,10 +159,17 @@
       "capacity": 25000,
       "buildCost": 6000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "xpGained": 42,
       "townHallRequired": 3,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -87,10 +177,17 @@
       "capacity": 45000,
       "buildCost": 12000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 60,
       "townHallRequired": 3,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-6.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -98,10 +195,17 @@
       "capacity": 100000,
       "buildCost": 25000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 84,
       "townHallRequired": 4,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -109,10 +213,17 @@
       "capacity": 225000,
       "buildCost": 50000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 103,
       "townHallRequired": 4,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-8.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -120,10 +231,17 @@
       "capacity": 450000,
       "buildCost": 100000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 120,
       "townHallRequired": 5,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-9.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -131,10 +249,17 @@
       "capacity": 850000,
       "buildCost": 250000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 5,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 134,
       "townHallRequired": 6,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-10.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -142,10 +267,17 @@
       "capacity": 1750000,
       "buildCost": 500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 146,
       "townHallRequired": 7,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -153,10 +285,17 @@
       "capacity": 2000000,
       "buildCost": 1000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 11,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-12.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -164,10 +303,17 @@
       "capacity": 3000000,
       "buildCost": 1800000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "townHallRequired": 12,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-13.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -175,10 +321,17 @@
       "capacity": 4000000,
       "buildCost": 2800000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 13,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-14.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-14.png"
+      }
     },
     {
       "level": 15,
@@ -186,10 +339,17 @@
       "capacity": 4500000,
       "buildCost": 3000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 14,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-15.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-15.png"
+      }
     },
     {
       "level": 16,
@@ -197,10 +357,17 @@
       "capacity": 5000000,
       "buildCost": 4000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 15,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-16.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-16.png"
+      }
     },
     {
       "level": 17,
@@ -208,10 +375,17 @@
       "capacity": 5500000,
       "buildCost": 5500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "townHallRequired": 16,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-17.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-17.png"
+      }
     },
     {
       "level": 18,
@@ -219,10 +393,17 @@
       "capacity": 6000000,
       "buildCost": 10000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 17,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-18.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-18.png"
+      }
     },
     {
       "level": 19,
@@ -230,10 +411,17 @@
       "capacity": 6500000,
       "buildCost": 18000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 12, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 12,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1039,
       "townHallRequired": 18,
-      "images": { "normal": "images/home/resource-buildings/gold-storage/normal/level-19.png" }
+      "images": {
+        "normal": "images/home/resource-buildings/gold-storage/normal/level-19.png"
+      }
     }
   ]
 }

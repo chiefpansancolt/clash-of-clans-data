@@ -1,5 +1,6 @@
 {
   "id": "action-figure",
+  "dataId": 90000048,
   "name": "Action Figure",
   "description": "Summons Giant Giant to fight by the Archer Queen's side",
   "base": "home",

@@ -1,5 +1,6 @@
 {
   "id": "electro-dragon",
+  "dataId": 4000059,
   "name": "Electro Dragon",
   "description": "Possessing iron-tough scales and a breath of devastating lightning, the Electro Dragon's favorite thing is raining destruction from above. When vanquished, the Electro Dragon even pummels the ground with lightning strikes! (6 lightning bolts on death, each dealing the listed death damage to a random target.)",
   "base": "home",

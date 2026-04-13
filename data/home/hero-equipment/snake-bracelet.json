@@ -1,5 +1,6 @@
 {
   "id": "snake-bracelet",
+  "dataId": 90000032,
   "name": "Snake Bracelet",
   "description": "Summons snakes that fight by your side when taking damage",
   "base": "home",

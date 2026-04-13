@@ -1,5 +1,6 @@
 {
   "id": "druid",
+  "dataId": 4000123,
   "name": "Druid",
   "description": "The Druid has complicated emotions. One moment he's calmly helping heal his fellow Troops, and the next he's turned into a very angry Bear.",
   "base": "home",

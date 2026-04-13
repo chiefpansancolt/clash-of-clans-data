@@ -1,5 +1,6 @@
 {
   "id": "hero-hall",
+  "dataId": 1000071,
   "name": "Hero Hall",
   "description": "This fancy Hall honors your Village's mightiest warriors! Visit the Hero Hall for all your heroic essentials, and to upgrade Heroes. Upgrade the Hero Hall to unlock more Heroes!",
   "base": "home",
@@ -10,11 +11,18 @@
       "level": 1,
       "unlockedHero": "Barbarian King",
       "heroSlots": 1,
-      "heroLevelCaps": { "barbarianKing": 10 },
+      "heroLevelCaps": {
+        "barbarianKing": 10
+      },
       "hitpoints": 2000,
       "buildCost": 800000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "townHallRequired": 7,
       "images": {
@@ -26,11 +34,19 @@
       "level": 2,
       "unlockedHero": "Archer Queen",
       "heroSlots": 1,
-      "heroLevelCaps": { "barbarianKing": 20, "archerQueen": 10 },
+      "heroLevelCaps": {
+        "barbarianKing": 20,
+        "archerQueen": 10
+      },
       "hitpoints": 2400,
       "buildCost": 1600000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 8,
       "images": {
@@ -42,11 +58,20 @@
       "level": 3,
       "unlockedHero": "Minion Prince",
       "heroSlots": 2,
-      "heroLevelCaps": { "barbarianKing": 30, "archerQueen": 30, "minionPrince": 10 },
+      "heroLevelCaps": {
+        "barbarianKing": 30,
+        "archerQueen": 30,
+        "minionPrince": 10
+      },
       "hitpoints": 2800,
       "buildCost": 2300000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 9,
       "images": {
@@ -58,11 +83,20 @@
       "level": 4,
       "unlockedHero": null,
       "heroSlots": 2,
-      "heroLevelCaps": { "barbarianKing": 40, "archerQueen": 40, "minionPrince": 20 },
+      "heroLevelCaps": {
+        "barbarianKing": 40,
+        "archerQueen": 40,
+        "minionPrince": 20
+      },
       "hitpoints": 3200,
       "buildCost": 2500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 10,
       "images": {
@@ -83,7 +117,12 @@
       "hitpoints": 3600,
       "buildCost": 4500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 623,
       "townHallRequired": 11,
       "images": {
@@ -104,7 +143,12 @@
       "hitpoints": 3800,
       "buildCost": 5500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 12,
       "images": {
@@ -126,7 +170,12 @@
       "hitpoints": 4200,
       "buildCost": 8500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 13,
       "images": {
@@ -148,7 +197,12 @@
       "hitpoints": 4600,
       "buildCost": 9500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 749,
       "townHallRequired": 14,
       "images": {
@@ -171,7 +225,12 @@
       "hitpoints": 5000,
       "buildCost": 11000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 15,
       "images": {
@@ -194,7 +253,12 @@
       "hitpoints": 5400,
       "buildCost": 13000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "townHallRequired": 16,
       "images": {
@@ -217,7 +281,12 @@
       "hitpoints": 5800,
       "buildCost": 17000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 905,
       "townHallRequired": 17,
       "images": {
@@ -240,7 +309,12 @@
       "hitpoints": 6000,
       "buildCost": 26000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 13, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 13,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1080,
       "townHallRequired": 18,
       "images": {
@@ -250,23 +324,77 @@
     }
   ],
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 0 },
-    { "townHallLevel": 2, "count": 0 },
-    { "townHallLevel": 3, "count": 0 },
-    { "townHallLevel": 4, "count": 0 },
-    { "townHallLevel": 5, "count": 0 },
-    { "townHallLevel": 6, "count": 0 },
-    { "townHallLevel": 7, "count": 1 },
-    { "townHallLevel": 8, "count": 1 },
-    { "townHallLevel": 9, "count": 1 },
-    { "townHallLevel": 10, "count": 1 },
-    { "townHallLevel": 11, "count": 1 },
-    { "townHallLevel": 12, "count": 1 },
-    { "townHallLevel": 13, "count": 1 },
-    { "townHallLevel": 14, "count": 1 },
-    { "townHallLevel": 15, "count": 1 },
-    { "townHallLevel": 16, "count": 1 },
-    { "townHallLevel": 17, "count": 1 },
-    { "townHallLevel": 18, "count": 1 }
+    {
+      "townHallLevel": 1,
+      "count": 0
+    },
+    {
+      "townHallLevel": 2,
+      "count": 0
+    },
+    {
+      "townHallLevel": 3,
+      "count": 0
+    },
+    {
+      "townHallLevel": 4,
+      "count": 0
+    },
+    {
+      "townHallLevel": 5,
+      "count": 0
+    },
+    {
+      "townHallLevel": 6,
+      "count": 0
+    },
+    {
+      "townHallLevel": 7,
+      "count": 1
+    },
+    {
+      "townHallLevel": 8,
+      "count": 1
+    },
+    {
+      "townHallLevel": 9,
+      "count": 1
+    },
+    {
+      "townHallLevel": 10,
+      "count": 1
+    },
+    {
+      "townHallLevel": 11,
+      "count": 1
+    },
+    {
+      "townHallLevel": 12,
+      "count": 1
+    },
+    {
+      "townHallLevel": 13,
+      "count": 1
+    },
+    {
+      "townHallLevel": 14,
+      "count": 1
+    },
+    {
+      "townHallLevel": 15,
+      "count": 1
+    },
+    {
+      "townHallLevel": 16,
+      "count": 1
+    },
+    {
+      "townHallLevel": 17,
+      "count": 1
+    },
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
   ]
 }

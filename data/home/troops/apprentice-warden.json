@@ -1,5 +1,6 @@
 {
   "id": "apprentice-warden",
+  "dataId": 4000097,
   "name": "Apprentice Warden",
   "description": "Despite his grand ambitions, Apprentice Warden is still just a student. Supports troops with his magical Life Aura and less-magical slingshot.",
   "base": "home",

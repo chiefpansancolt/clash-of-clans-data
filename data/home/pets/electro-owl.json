@@ -1,5 +1,6 @@
 {
   "id": "electro-owl",
+  "dataId": 73000002,
   "name": "Electro Owl",
   "description": "Electro Owl zaps enemy defenses into dust from great distance. He's mostly made of feathers though, so better keep him well protected!",
   "base": "home",
@@ -28,7 +29,12 @@
       "townHallRequired": 14,
       "upgradeCost": 0,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -39,7 +45,12 @@
       "townHallRequired": 14,
       "upgradeCost": 30000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -50,7 +61,12 @@
       "townHallRequired": 14,
       "upgradeCost": 45000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -61,7 +77,12 @@
       "townHallRequired": 14,
       "upgradeCost": 60000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -72,7 +93,12 @@
       "townHallRequired": 14,
       "upgradeCost": 75000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 6,
@@ -83,7 +109,12 @@
       "townHallRequired": 14,
       "upgradeCost": 90000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 7,
@@ -94,7 +125,12 @@
       "townHallRequired": 14,
       "upgradeCost": 105000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 8,
@@ -105,7 +141,12 @@
       "townHallRequired": 14,
       "upgradeCost": 120000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 9,
@@ -116,7 +157,12 @@
       "townHallRequired": 14,
       "upgradeCost": 135000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 10,
@@ -127,7 +173,12 @@
       "townHallRequired": 14,
       "upgradeCost": 150000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 11,
@@ -138,7 +189,12 @@
       "townHallRequired": 16,
       "upgradeCost": 165000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 12,
@@ -149,7 +205,12 @@
       "townHallRequired": 16,
       "upgradeCost": 180000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 13,
@@ -160,7 +221,12 @@
       "townHallRequired": 16,
       "upgradeCost": 195000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 14,
@@ -171,7 +237,12 @@
       "townHallRequired": 16,
       "upgradeCost": 210000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 15,
@@ -182,7 +253,12 @@
       "townHallRequired": 16,
       "upgradeCost": 225000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

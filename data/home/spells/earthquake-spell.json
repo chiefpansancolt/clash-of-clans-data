@@ -1,5 +1,6 @@
 {
   "id": "earthquake-spell",
+  "dataId": 26000010,
   "name": "Earthquake Spell",
   "description": "Weaken Walls and buildings with crippling earthquakes! Earthquake Spells damage structures based on their maximum hitpoints. Repeated Earthquakes deal decreasing damage to the same buildings, but increasing damage to the same Walls. No Wall can withstand the might of four Earthquake Spells!",
   "base": "home",

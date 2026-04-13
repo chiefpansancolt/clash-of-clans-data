@@ -1,21 +1,52 @@
 {
   "id": "bob-control",
+  "dataId": 1000064,
   "name": "B.O.B Control",
   "description": "Control center for Master Builder's latest invention! Once fully upgraded, B.O.B becomes an additional builder in the Home Village!",
   "base": "builder",
   "category": "resource",
   "size": "2x2",
   "availablePerBuilderHall": [
-    { "builderHallLevel": 1, "count": 0 },
-    { "builderHallLevel": 2, "count": 0 },
-    { "builderHallLevel": 3, "count": 0 },
-    { "builderHallLevel": 4, "count": 0 },
-    { "builderHallLevel": 5, "count": 0 },
-    { "builderHallLevel": 6, "count": 0 },
-    { "builderHallLevel": 7, "count": 0 },
-    { "builderHallLevel": 8, "count": 0 },
-    { "builderHallLevel": 9, "count": 1 },
-    { "builderHallLevel": 10, "count": 1 }
+    {
+      "builderHallLevel": 1,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 2,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -24,7 +55,12 @@
       "capacity": 0,
       "buildCost": 100000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "builderHallRequired": 9,
       "images": {
@@ -37,7 +73,12 @@
       "capacity": 0,
       "buildCost": 0,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "builderHallRequired": 9,
       "images": {
@@ -50,7 +91,12 @@
       "capacity": 0,
       "buildCost": 0,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "builderHallRequired": 9,
       "images": {
@@ -63,7 +109,12 @@
       "capacity": 0,
       "buildCost": 0,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "builderHallRequired": 9,
       "images": {
@@ -76,7 +127,12 @@
       "capacity": 0,
       "buildCost": 0,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "builderHallRequired": 9,
       "images": {

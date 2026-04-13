@@ -1,21 +1,52 @@
 {
   "id": "star-laboratory",
+  "dataId": 1000046,
   "name": "Star Laboratory",
   "description": "The Star Laboratory searches the heavens for secrets to unlock a troop's full potential. Improve troop hitpoints, damage and housing space in addition to special troop abilities!",
   "base": "builder",
   "category": "army",
   "size": "4x4",
   "availablePerBuilderHall": [
-    { "builderHallLevel": 1, "count": 1 },
-    { "builderHallLevel": 2, "count": 1 },
-    { "builderHallLevel": 3, "count": 1 },
-    { "builderHallLevel": 4, "count": 1 },
-    { "builderHallLevel": 5, "count": 1 },
-    { "builderHallLevel": 6, "count": 1 },
-    { "builderHallLevel": 7, "count": 1 },
-    { "builderHallLevel": 8, "count": 1 },
-    { "builderHallLevel": 9, "count": 1 },
-    { "builderHallLevel": 10, "count": 1 }
+    {
+      "builderHallLevel": 1,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 2,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -24,7 +55,12 @@
       "housingSpace": 0,
       "buildCost": 0,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "builderHallRequired": 1,
       "images": {
@@ -37,7 +73,12 @@
       "housingSpace": 0,
       "buildCost": 15000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 10, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      },
       "xpGained": 24,
       "builderHallRequired": 2,
       "images": {
@@ -50,7 +91,12 @@
       "housingSpace": 0,
       "buildCost": 50000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "xpGained": 42,
       "builderHallRequired": 3,
       "images": {
@@ -63,7 +109,12 @@
       "housingSpace": 0,
       "buildCost": 300000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 169,
       "builderHallRequired": 4,
       "images": {
@@ -76,7 +127,12 @@
       "housingSpace": 0,
       "buildCost": 700000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "builderHallRequired": 5,
       "images": {
@@ -89,7 +145,12 @@
       "housingSpace": 0,
       "buildCost": 1000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 6,
       "images": {
@@ -102,7 +163,12 @@
       "housingSpace": 0,
       "buildCost": 2000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "builderHallRequired": 7,
       "images": {
@@ -115,7 +181,12 @@
       "housingSpace": 0,
       "buildCost": 3000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "builderHallRequired": 8,
       "images": {
@@ -128,7 +199,12 @@
       "housingSpace": 0,
       "buildCost": 4000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "builderHallRequired": 9,
       "images": {
@@ -141,7 +217,12 @@
       "housingSpace": 0,
       "buildCost": 5000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 929,
       "builderHallRequired": 10,
       "images": {

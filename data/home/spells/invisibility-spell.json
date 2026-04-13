@@ -1,5 +1,6 @@
 {
   "id": "invisibility-spell",
+  "dataId": 26000035,
   "name": "Invisibility Spell",
   "description": "Invisibility Spell makes EVERYTHING except for Walls and Siege Machines invisible and untargetable within its radius.",
   "base": "home",

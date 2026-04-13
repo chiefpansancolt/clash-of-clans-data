@@ -1,5 +1,6 @@
 {
   "id": "stun-blaster",
+  "dataId": 90000056,
   "name": "Stun Blaster",
   "description": "Blasts a shockwave that stuns and damages nearby enemies and buildings.",
   "base": "home",

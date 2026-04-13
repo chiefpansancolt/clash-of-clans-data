@@ -1,5 +1,6 @@
 {
   "id": "dark-orb",
+  "dataId": 90000043,
   "name": "Dark Orb",
   "description": "Damages and slows down everything it touches",
   "base": "home",

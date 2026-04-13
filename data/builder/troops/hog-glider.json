@@ -1,5 +1,6 @@
 {
   "id": "hog-glider",
+  "dataId": 4000070,
   "name": "Hog Glider",
   "description": "The real riders in the sky. They have a good track record in getting over walls, but are not very good at avoiding crashes.",
   "base": "builder",
@@ -17,73 +18,115 @@
       "level": 15,
       "hitpoints": 600,
       "damagePerShot": 180,
-      "stunDuration": 5.0,
+      "stunDuration": 5,
       "unitsPerCamp": 2,
       "researchCost": 0,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 0,
-      "images": { "normal": "images/builder/troops/hog-glider/normal/level-15.png" }
+      "images": {
+        "normal": "images/builder/troops/hog-glider/normal/level-15.png"
+      }
     },
     {
       "level": 16,
       "hitpoints": 650,
       "damagePerShot": 220,
-      "stunDuration": 5.0,
+      "stunDuration": 5,
       "unitsPerCamp": 2,
       "researchCost": 4000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/hog-glider/normal/level-15.png" }
+      "images": {
+        "normal": "images/builder/troops/hog-glider/normal/level-15.png"
+      }
     },
     {
       "level": 17,
       "hitpoints": 650,
       "damagePerShot": 220,
-      "stunDuration": 5.0,
+      "stunDuration": 5,
       "unitsPerCamp": 2,
       "researchCost": 4200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/hog-glider/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/hog-glider/normal/level-17.png"
+      }
     },
     {
       "level": 18,
       "hitpoints": 650,
       "damagePerShot": 220,
-      "stunDuration": 6.0,
+      "stunDuration": 6,
       "unitsPerCamp": 2,
       "researchCost": 4400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/hog-glider/normal/level-18.png" }
+      "images": {
+        "normal": "images/builder/troops/hog-glider/normal/level-18.png"
+      }
     },
     {
       "level": 19,
       "hitpoints": 650,
       "damagePerShot": 220,
-      "stunDuration": 6.0,
+      "stunDuration": 6,
       "unitsPerCamp": 2,
       "researchCost": 5400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/hog-glider/normal/level-19.png" }
+      "images": {
+        "normal": "images/builder/troops/hog-glider/normal/level-19.png"
+      }
     },
     {
       "level": 20,
       "hitpoints": 700,
       "damagePerShot": 260,
-      "stunDuration": 6.0,
+      "stunDuration": 6,
       "unitsPerCamp": 2,
       "researchCost": 5800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/hog-glider/normal/level-20.png" }
+      "images": {
+        "normal": "images/builder/troops/hog-glider/normal/level-20.png"
+      }
     }
   ]
 }

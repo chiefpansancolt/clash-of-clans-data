@@ -1,5 +1,6 @@
 {
   "id": "minion",
+  "dataId": 4000010,
   "name": "Minion",
   "description": "This terror of the skies was born out of Dark Elixir. Undetectable by the Seeking Air Mine, Minions materialize with ease, but are fragile in our world.",
   "base": "home",

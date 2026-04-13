@@ -1,5 +1,6 @@
 {
   "id": "hidden-tesla",
+  "dataId": 1000043,
   "name": "Hidden Tesla",
   "description": "Part tower, part trap, completely shocking! Zap air and ground foes alike with the power of science!",
   "base": "builder",
@@ -15,14 +16,38 @@
     }
   },
   "availablePerBuilderHall": [
-    { "builderHallLevel": 3, "count": 1 },
-    { "builderHallLevel": 4, "count": 1 },
-    { "builderHallLevel": 5, "count": 1 },
-    { "builderHallLevel": 6, "count": 2 },
-    { "builderHallLevel": 7, "count": 3 },
-    { "builderHallLevel": 8, "count": 3 },
-    { "builderHallLevel": 9, "count": 3 },
-    { "builderHallLevel": 10, "count": 3 }
+    {
+      "builderHallLevel": 3,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 3
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 3
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 3
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 3
+    }
   ],
   "levels": [
     {
@@ -30,110 +55,230 @@
       "hitpoints": 300,
       "buildCost": 50000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "xpGained": 42,
       "builderHallRequired": 3,
-      "stats": { "normal": { "dps": 60, "damagePerShot": 36 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 60,
+          "damagePerShot": 36
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 350,
       "buildCost": 100000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 103,
       "builderHallRequired": 3,
-      "stats": { "normal": { "dps": 66, "damagePerShot": 40 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 66,
+          "damagePerShot": 40
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 400,
       "buildCost": 150000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 5,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 134,
       "builderHallRequired": 3,
-      "stats": { "normal": { "dps": 73, "damagePerShot": 44 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 73,
+          "damagePerShot": 44
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 460,
       "buildCost": 280000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 10,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 189,
       "builderHallRequired": 4,
-      "stats": { "normal": { "dps": 80, "damagePerShot": 48 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 80,
+          "damagePerShot": 48
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-4.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 550,
       "buildCost": 700000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "builderHallRequired": 5,
-      "stats": { "normal": { "dps": 88, "damagePerShot": 53 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 88,
+          "damagePerShot": 53
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-5.png"
+      }
     },
     {
       "level": 6,
       "hitpoints": 650,
       "buildCost": 1300000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 6,
-      "stats": { "normal": { "dps": 96, "damagePerShot": 58 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 96,
+          "damagePerShot": 58
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-6.png"
+      }
     },
     {
       "level": 7,
       "hitpoints": 750,
       "buildCost": 2100000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "builderHallRequired": 7,
-      "stats": { "normal": { "dps": 106, "damagePerShot": 64 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 106,
+          "damagePerShot": 64
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-7.png"
+      }
     },
     {
       "level": 8,
       "hitpoints": 850,
       "buildCost": 3100000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "builderHallRequired": 8,
-      "stats": { "normal": { "dps": 116, "damagePerShot": 70 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-8.png" }
+      "stats": {
+        "normal": {
+          "dps": 116,
+          "damagePerShot": 70
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-8.png"
+      }
     },
     {
       "level": 9,
       "hitpoints": 1000,
       "buildCost": 4100000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "builderHallRequired": 9,
-      "stats": { "normal": { "dps": 128, "damagePerShot": 77 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-9.png" }
+      "stats": {
+        "normal": {
+          "dps": 128,
+          "damagePerShot": 77
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-9.png"
+      }
     },
     {
       "level": 10,
       "hitpoints": 1150,
       "buildCost": 5100000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 929,
       "builderHallRequired": 10,
-      "stats": { "normal": { "dps": 141, "damagePerShot": 85 } },
-      "images": { "normal": "images/builder/defenses/hidden-tesla/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 141,
+          "damagePerShot": 85
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/hidden-tesla/normal/level-10.png"
+      }
     }
   ]
 }

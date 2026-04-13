@@ -1,5 +1,6 @@
 {
   "id": "metal-pants",
+  "dataId": 90000044,
   "name": "Metal Pants",
   "description": "Creates a protective barrier that blocks almost all damage temporarily",
   "base": "home",

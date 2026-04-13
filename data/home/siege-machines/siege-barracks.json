@@ -1,5 +1,6 @@
 {
   "id": "siege-barracks",
+  "dataId": 4000075,
   "name": "Siege Barracks",
   "description": "The Siege Barracks parachutes down gracefully to first release a menagerie of P.E.K.K.As and Wizards and then the Clan Castle troops. How they all managed to squeeze inside is a mystery not really worth investigating.",
   "base": "home",

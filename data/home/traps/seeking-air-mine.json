@@ -1,5 +1,6 @@
 {
   "id": "seeking-air-mine",
+  "dataId": 12000006,
   "name": "Seeking Air Mine",
   "description": "Is it a bird? Is it a plane? Well, it makes no difference as the Seeking Air Mine will blow it sky high. This trap does devastating damage to a single air unit.",
   "base": "home",
@@ -14,100 +15,210 @@
       "damage": 1500,
       "buildCost": 12000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 7,
-      "images": { "normal": "images/home/traps/seeking-air-mine/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/traps/seeking-air-mine/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "damage": 1800,
       "buildCost": 600000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 9,
-      "images": { "normal": "images/home/traps/seeking-air-mine/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/traps/seeking-air-mine/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "damage": 2100,
       "buildCost": 1200000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "townHallRequired": 10,
-      "images": { "normal": "images/home/traps/seeking-air-mine/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/traps/seeking-air-mine/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "damage": 2500,
       "buildCost": 2500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 360,
       "townHallRequired": 13,
-      "images": { "normal": "images/home/traps/seeking-air-mine/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/traps/seeking-air-mine/normal/level-4.png"
+      }
     },
     {
       "level": 5,
       "damage": 2800,
       "buildCost": 5000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 15,
-      "images": { "normal": "images/home/traps/seeking-air-mine/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/traps/seeking-air-mine/normal/level-5.png"
+      }
     },
     {
       "level": 6,
       "damage": 3000,
       "buildCost": 6500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 623,
       "townHallRequired": 16,
-      "images": { "normal": "images/home/traps/seeking-air-mine/normal/level-6.png" }
+      "images": {
+        "normal": "images/home/traps/seeking-air-mine/normal/level-6.png"
+      }
     },
     {
       "level": 7,
       "damage": 3200,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 689,
       "townHallRequired": 17,
-      "images": { "normal": "images/home/traps/seeking-air-mine/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/traps/seeking-air-mine/normal/level-7.png"
+      }
     },
     {
       "level": 8,
       "damage": 3350,
       "buildCost": 19000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 11, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 11,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 996,
       "townHallRequired": 18,
-      "images": { "normal": "images/home/traps/seeking-air-mine/normal/level-8.png" }
+      "images": {
+        "normal": "images/home/traps/seeking-air-mine/normal/level-8.png"
+      }
     }
   ],
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 0 },
-    { "townHallLevel": 2, "count": 0 },
-    { "townHallLevel": 3, "count": 0 },
-    { "townHallLevel": 4, "count": 0 },
-    { "townHallLevel": 5, "count": 0 },
-    { "townHallLevel": 6, "count": 0 },
-    { "townHallLevel": 7, "count": 1 },
-    { "townHallLevel": 8, "count": 2 },
-    { "townHallLevel": 9, "count": 4 },
-    { "townHallLevel": 10, "count": 5 },
-    { "townHallLevel": 11, "count": 5 },
-    { "townHallLevel": 12, "count": 6 },
-    { "townHallLevel": 13, "count": 7 },
-    { "townHallLevel": 14, "count": 8 },
-    { "townHallLevel": 15, "count": 8 },
-    { "townHallLevel": 16, "count": 8 },
-    { "townHallLevel": 17, "count": 9 },
-    { "townHallLevel": 18, "count": 9 }
+    {
+      "townHallLevel": 1,
+      "count": 0
+    },
+    {
+      "townHallLevel": 2,
+      "count": 0
+    },
+    {
+      "townHallLevel": 3,
+      "count": 0
+    },
+    {
+      "townHallLevel": 4,
+      "count": 0
+    },
+    {
+      "townHallLevel": 5,
+      "count": 0
+    },
+    {
+      "townHallLevel": 6,
+      "count": 0
+    },
+    {
+      "townHallLevel": 7,
+      "count": 1
+    },
+    {
+      "townHallLevel": 8,
+      "count": 2
+    },
+    {
+      "townHallLevel": 9,
+      "count": 4
+    },
+    {
+      "townHallLevel": 10,
+      "count": 5
+    },
+    {
+      "townHallLevel": 11,
+      "count": 5
+    },
+    {
+      "townHallLevel": 12,
+      "count": 6
+    },
+    {
+      "townHallLevel": 13,
+      "count": 7
+    },
+    {
+      "townHallLevel": 14,
+      "count": 8
+    },
+    {
+      "townHallLevel": 15,
+      "count": 8
+    },
+    {
+      "townHallLevel": 16,
+      "count": 8
+    },
+    {
+      "townHallLevel": 17,
+      "count": 9
+    },
+    {
+      "townHallLevel": 18,
+      "count": 9
+    }
   ]
 }

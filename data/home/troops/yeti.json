@@ -1,5 +1,6 @@
 {
   "id": "yeti",
+  "dataId": 4000053,
   "name": "Yeti",
   "description": "The heavy-hitting furry fellow digs cold weather and his Yetimite buddies. Hurt him, and you'll make the Yetimites real angry.",
   "base": "home",

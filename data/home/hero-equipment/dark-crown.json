@@ -1,5 +1,6 @@
 {
   "id": "dark-crown",
+  "dataId": 90000035,
   "name": "Dark Crown",
   "description": "Boosts health and damage a total of 3 times when allies are defeated",
   "base": "home",

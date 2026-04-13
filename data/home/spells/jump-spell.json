@@ -1,5 +1,6 @@
 {
   "id": "jump-spell",
+  "dataId": 26000003,
   "name": "Jump Spell",
   "description": "Walls slowing you down? Try making a shortcut! Cast this spell near enemy walls to create a route straight over them. Your troops will jump over affected walls pieces as if they weren't even there!",
   "base": "home",

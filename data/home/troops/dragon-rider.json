@@ -1,5 +1,6 @@
 {
   "id": "dragon-rider",
+  "dataId": 4000065,
   "name": "Dragon Rider",
   "description": "This aerial engine of destruction readily and frankly, quite excitedly lays waste to any defense it comes across. The skeleton onboard swears he's not touching the controls.",
   "base": "home",

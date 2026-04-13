@@ -1,5 +1,6 @@
 {
   "id": "headhunter",
+  "dataId": 4000082,
   "name": "Headhunter",
   "description": "Headhunter has just one job: taking out enemy heroes. As her other job, she works at the village apothecary. She's lightweight enough to jump over walls and her poisoned weapons make her targets move and attack slower.",
   "base": "home",

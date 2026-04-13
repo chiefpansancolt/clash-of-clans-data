@@ -1,5 +1,6 @@
 {
   "id": "overgrowth-spell",
+  "dataId": 26000070,
   "name": "Overgrowth Spell",
   "description": "Ever wish you could ignore a whole chunk of that enemy base? The Overgrowth Spell traps nearby Buildings in tough roots, stopping Defenses attacking. Troops ignore trapped Buildings.",
   "base": "home",

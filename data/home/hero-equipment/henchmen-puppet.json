@@ -1,5 +1,6 @@
 {
   "id": "henchmen-puppet",
+  "dataId": 90000042,
   "name": "Henchmen Puppet",
   "description": "Summons flying bodyguards to support the Minion Prince",
   "base": "home",

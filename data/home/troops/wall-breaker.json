@@ -1,5 +1,6 @@
 {
   "id": "wall-breaker",
+  "dataId": 4000004,
   "name": "Wall Breaker",
   "description": "Nothing warms a Wall Breaker's cold and undead heart like blowing up walls. A squad of them will make way for your ground units, and they will do it with a BANG!",
   "base": "home",

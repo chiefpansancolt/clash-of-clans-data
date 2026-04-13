@@ -1,5 +1,6 @@
 {
   "id": "clone-spell",
+  "dataId": 26000016,
   "name": "Clone Spell",
   "description": "Turn this Spell into a pop-up army! Clone Spells create a circle of spawning that creates limited-lifetime copies of troops that enter it. It will only spawn up to a maximum housing space of troops.",
   "base": "home",

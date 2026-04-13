@@ -1,5 +1,6 @@
 {
   "id": "sneaky-archer",
+  "dataId": 4000032,
   "name": "Sneaky Archer",
   "description": "Cloaked under cover of moonlight, Archers can take out targets before ever being seen. Their weakness? Overconfidence.",
   "base": "builder",
@@ -23,9 +24,16 @@
       "cloakDurationSeconds": 0,
       "researchCost": 0,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 0,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -36,9 +44,16 @@
       "cloakDurationSeconds": 3,
       "researchCost": 5000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 3, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 0
+      },
       "starLabRequired": 1,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-1.png"
+      }
     },
     {
       "level": 3,
@@ -49,9 +64,16 @@
       "cloakDurationSeconds": 3,
       "researchCost": 8000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 10, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      },
       "starLabRequired": 2,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-1.png"
+      }
     },
     {
       "level": 4,
@@ -62,9 +84,16 @@
       "cloakDurationSeconds": 4,
       "researchCost": 12000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "starLabRequired": 2,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-1.png"
+      }
     },
     {
       "level": 5,
@@ -75,9 +104,16 @@
       "cloakDurationSeconds": 4,
       "researchCost": 100000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -88,9 +124,16 @@
       "cloakDurationSeconds": 5,
       "researchCost": 200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 11, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 11,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 3,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-5.png"
+      }
     },
     {
       "level": 7,
@@ -101,9 +144,16 @@
       "cloakDurationSeconds": 5,
       "researchCost": 320000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-5.png"
+      }
     },
     {
       "level": 8,
@@ -114,9 +164,16 @@
       "cloakDurationSeconds": 6,
       "researchCost": 350000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 21, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 21,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-5.png"
+      }
     },
     {
       "level": 9,
@@ -127,9 +184,16 @@
       "cloakDurationSeconds": 6,
       "researchCost": 800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -140,9 +204,16 @@
       "cloakDurationSeconds": 6,
       "researchCost": 1000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-9.png"
+      }
     },
     {
       "level": 11,
@@ -153,9 +224,16 @@
       "cloakDurationSeconds": 6,
       "researchCost": 1100000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-9.png"
+      }
     },
     {
       "level": 12,
@@ -166,9 +244,16 @@
       "cloakDurationSeconds": 7,
       "researchCost": 1300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-9.png"
+      }
     },
     {
       "level": 13,
@@ -179,9 +264,16 @@
       "cloakDurationSeconds": 7,
       "researchCost": 2100000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -192,9 +284,16 @@
       "cloakDurationSeconds": 8,
       "researchCost": 2300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-13.png"
+      }
     },
     {
       "level": 15,
@@ -205,9 +304,16 @@
       "cloakDurationSeconds": 8,
       "researchCost": 3100000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-13.png"
+      }
     },
     {
       "level": 16,
@@ -218,9 +324,16 @@
       "cloakDurationSeconds": 9,
       "researchCost": 3300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-13.png"
+      }
     },
     {
       "level": 17,
@@ -231,9 +344,16 @@
       "cloakDurationSeconds": 9,
       "researchCost": 3900000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-17.png"
+      }
     },
     {
       "level": 18,
@@ -244,9 +364,16 @@
       "cloakDurationSeconds": 10,
       "researchCost": 4100000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-17.png"
+      }
     },
     {
       "level": 19,
@@ -257,9 +384,16 @@
       "cloakDurationSeconds": 10,
       "researchCost": 4700000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-17.png"
+      }
     },
     {
       "level": 20,
@@ -270,9 +404,16 @@
       "cloakDurationSeconds": 11,
       "researchCost": 5300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/sneaky-archer/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/sneaky-archer/normal/level-17.png"
+      }
     }
   ]
 }

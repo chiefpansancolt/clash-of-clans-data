@@ -1,5 +1,6 @@
 {
   "id": "healing-spell",
+  "dataId": 26000001,
   "name": "Healing Spell",
   "description": "Heal your Troops to keep them in the fight! Cast this spell to create a Ring of Healing. Your units will be healed while they are inside this ring.",
   "base": "home",

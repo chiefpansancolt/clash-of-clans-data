@@ -1,5 +1,6 @@
 {
   "id": "lava-launcher",
+  "dataId": 103000010,
   "name": "Lava Launcher",
   "description": "A hot delivery From Builder Base. Lava Launcher spits straight fire at a single target from afar! Its piping-hot projectiles play a dangerous game of The Floor is Lava where ground troops always lose.",
   "base": "home",
@@ -11,6 +12,7 @@
   "modules": [
     {
       "name": "Hitpoints",
+      "dataId": 102000030,
       "controls": "Maximum hitpoints",
       "upgrades": [
         {
@@ -18,7 +20,12 @@
           "stat": 1200,
           "buildCost": 0,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 0,
           "sparkyStones": 0
         },
@@ -27,7 +34,12 @@
           "stat": 1600,
           "buildCost": 30000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 4,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 120,
           "sparkyStones": 8
         },
@@ -36,7 +48,12 @@
           "stat": 2000,
           "buildCost": 40000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 6,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 146,
           "sparkyStones": 8
         },
@@ -45,7 +62,12 @@
           "stat": 2400,
           "buildCost": 50000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 8,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 169,
           "sparkyStones": 8
         },
@@ -54,7 +76,12 @@
           "stat": 2800,
           "buildCost": 60000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 10,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 189,
           "sparkyStones": 8
         },
@@ -63,7 +90,12 @@
           "stat": 3200,
           "buildCost": 70000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 12,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 207,
           "sparkyStones": 8
         },
@@ -72,7 +104,12 @@
           "stat": 3600,
           "buildCost": 80000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 1,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 293,
           "sparkyStones": 8
         },
@@ -81,7 +118,12 @@
           "stat": 4000,
           "buildCost": 90000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 2,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 415,
           "sparkyStones": 8
         },
@@ -90,7 +132,12 @@
           "stat": 4600,
           "buildCost": 100000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 4,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 587,
           "sparkyStones": 8
         },
@@ -99,7 +146,12 @@
           "stat": 5200,
           "buildCost": 110000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 8,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 831,
           "sparkyStones": 8
         }
@@ -107,6 +159,7 @@
     },
     {
       "name": "Damage",
+      "dataId": 102000031,
       "controls": "DPS (lava burn damage scales proportionally)",
       "upgrades": [
         {
@@ -114,7 +167,12 @@
           "stat": 80,
           "buildCost": 0,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 0,
           "sparkyStones": 0
         },
@@ -123,7 +181,12 @@
           "stat": 83,
           "buildCost": 35000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 6,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 146,
           "sparkyStones": 8
         },
@@ -132,7 +195,12 @@
           "stat": 87,
           "buildCost": 45000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 8,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 169,
           "sparkyStones": 8
         },
@@ -141,7 +209,12 @@
           "stat": 91,
           "buildCost": 55000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 10,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 189,
           "sparkyStones": 8
         },
@@ -150,7 +223,12 @@
           "stat": 95,
           "buildCost": 65000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 12,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 207,
           "sparkyStones": 8
         },
@@ -159,7 +237,12 @@
           "stat": 99,
           "buildCost": 75000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 0, "hours": 14, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 14,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 224,
           "sparkyStones": 8
         },
@@ -168,7 +251,12 @@
           "stat": 104,
           "buildCost": 85000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 1, "hours": 2, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 1,
+            "hours": 2,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 305,
           "sparkyStones": 8
         },
@@ -177,7 +265,12 @@
           "stat": 109,
           "buildCost": 95000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 2, "hours": 4, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 2,
+            "hours": 4,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 432,
           "sparkyStones": 8
         },
@@ -186,7 +279,12 @@
           "stat": 115,
           "buildCost": 105000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 4, "hours": 6, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 4,
+            "hours": 6,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 605,
           "sparkyStones": 8
         },
@@ -195,7 +293,12 @@
           "stat": 121,
           "buildCost": 115000,
           "buildCostResource": "Dark Elixir",
-          "buildTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 8,
+            "hours": 12,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 856,
           "sparkyStones": 8
         }
@@ -203,6 +306,7 @@
     },
     {
       "name": "Range",
+      "dataId": 102000032,
       "controls": "Maximum range in tiles (minimum range is always 6)",
       "upgrades": [
         {
@@ -210,7 +314,12 @@
           "stat": 11,
           "buildCost": 0,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 0,
           "sparkyStones": 0
         },
@@ -219,7 +328,12 @@
           "stat": 12,
           "buildCost": 4000000,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 8,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 169,
           "sparkyStones": 8
         },
@@ -228,7 +342,12 @@
           "stat": 13,
           "buildCost": 5000000,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 10,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 189,
           "sparkyStones": 8
         },
@@ -237,7 +356,12 @@
           "stat": 14,
           "buildCost": 6000000,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 0, "hours": 11, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 11,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 198,
           "sparkyStones": 8
         },
@@ -246,7 +370,12 @@
           "stat": 15,
           "buildCost": 7500000,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 0, "hours": 13, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 13,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 216,
           "sparkyStones": 8
         },
@@ -255,7 +384,12 @@
           "stat": 16,
           "buildCost": 9000000,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 0, "hours": 15, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 0,
+            "hours": 15,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 232,
           "sparkyStones": 8
         },
@@ -264,7 +398,12 @@
           "stat": 17,
           "buildCost": 10500000,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 1, "hours": 3, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 1,
+            "hours": 3,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 311,
           "sparkyStones": 8
         },
@@ -273,7 +412,12 @@
           "stat": 18,
           "buildCost": 12000000,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 2,
+            "hours": 6,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 440,
           "sparkyStones": 8
         },
@@ -282,7 +426,12 @@
           "stat": 19,
           "buildCost": 13500000,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 4,
+            "hours": 12,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 623,
           "sparkyStones": 8
         },
@@ -291,7 +440,12 @@
           "stat": 20,
           "buildCost": 15000000,
           "buildCostResource": "Elixir",
-          "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+          "buildTime": {
+            "days": 9,
+            "hours": 0,
+            "minutes": 0,
+            "seconds": 0
+          },
           "xpGained": 881,
           "sparkyStones": 8
         }

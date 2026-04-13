@@ -1,5 +1,6 @@
 {
   "id": "pekka",
+  "dataId": 4000009,
   "name": "P.E.K.K.A",
   "description": "Is P.E.K.K.A a knight? A samurai? A robot? No one knows! P.E.K.K.A's armor absorbs even the mightiest of blows.",
   "base": "home",

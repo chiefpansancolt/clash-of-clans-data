@@ -1,5 +1,6 @@
 {
   "id": "super-wizard-tower",
+  "dataId": 1000102,
   "name": "Super Wizard Tower",
   "description": "Super Wizard's first strike can shock up to fifteen nearby enemies. Chained targets take less damage.",
   "base": "home",
@@ -14,61 +15,110 @@
       "maxChainTargets": 15
     }
   },
-  "availablePerTownHall": [{ "townHallLevel": 18, "count": 2 }],
+  "availablePerTownHall": [
+    {
+      "townHallLevel": 18,
+      "count": 2
+    }
+  ],
   "levels": [
     {
       "level": 1,
       "hitpoints": 6000,
       "buildCost": 29000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 13, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 13,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1059,
       "townHallRequired": 18,
       "stats": {
-        "normal": { "dps": 290, "damagePerShot": 377, "secondaryChainDamagePerShot": 150.8 }
+        "normal": {
+          "dps": 290,
+          "damagePerShot": 377,
+          "secondaryChainDamagePerShot": 150.8
+        }
       },
-      "images": { "normal": "images/home/defenses/super-wizard-tower/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/defenses/super-wizard-tower/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 6300,
       "buildCost": 30000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1099,
       "townHallRequired": 18,
       "stats": {
-        "normal": { "dps": 320, "damagePerShot": 416, "secondaryChainDamagePerShot": 166.4 }
+        "normal": {
+          "dps": 320,
+          "damagePerShot": 416,
+          "secondaryChainDamagePerShot": 166.4
+        }
       },
-      "images": { "normal": "images/home/defenses/super-wizard-tower/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/defenses/super-wizard-tower/normal/level-2.png"
+      }
     },
     {
       "level": 1,
       "hitpoints": 6300,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 18,
       "supercharge": true,
       "stats": {
-        "normal": { "dps": 327, "damagePerShot": 425.1, "secondaryChainDamagePerShot": 170.04 }
+        "normal": {
+          "dps": 327,
+          "damagePerShot": 425.1,
+          "secondaryChainDamagePerShot": 170.04
+        }
       },
-      "images": { "normal": "images/home/defenses/super-wizard-tower/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/defenses/super-wizard-tower/normal/level-2.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 6450,
       "buildCost": 14000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 18,
       "supercharge": true,
       "stats": {
-        "normal": { "dps": 327, "damagePerShot": 425.1, "secondaryChainDamagePerShot": 170.04 }
+        "normal": {
+          "dps": 327,
+          "damagePerShot": 425.1,
+          "secondaryChainDamagePerShot": 170.04
+        }
       },
-      "images": { "normal": "images/home/defenses/super-wizard-tower/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/defenses/super-wizard-tower/normal/level-2.png"
+      }
     }
   ]
 }

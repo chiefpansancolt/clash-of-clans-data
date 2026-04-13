@@ -1,5 +1,6 @@
 {
   "id": "spell-tower",
+  "dataId": 1000072,
   "name": "Spell Tower",
   "description": "For years, Wizards alone brought magic to the battlefield one fireball at a time. Now they've developed a fully automated way to give your village more ways to mess up attackers with magic!",
   "base": "home",
@@ -37,10 +38,22 @@
     }
   },
   "availablePerTownHall": [
-    { "townHallLevel": 15, "count": 2 },
-    { "townHallLevel": 16, "count": 2 },
-    { "townHallLevel": 17, "count": 2 },
-    { "townHallLevel": 18, "count": 2 }
+    {
+      "townHallLevel": 15,
+      "count": 2
+    },
+    {
+      "townHallLevel": 16,
+      "count": 2
+    },
+    {
+      "townHallLevel": 17,
+      "count": 2
+    },
+    {
+      "townHallLevel": 18,
+      "count": 2
+    }
   ],
   "levels": [
     {
@@ -49,10 +62,17 @@
       "hitpoints": 2500,
       "buildCost": 9000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 15,
-      "stats": { "normal": {} },
+      "stats": {
+        "normal": {}
+      },
       "images": {
         "normal": "images/home/defenses/spell-tower/normal/level-1.png"
       }
@@ -63,10 +83,17 @@
       "hitpoints": 2800,
       "buildCost": 11000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "townHallRequired": 15,
-      "stats": { "normal": {} },
+      "stats": {
+        "normal": {}
+      },
       "images": {
         "normal": "images/home/defenses/spell-tower/normal/level-2.png",
         "poison": "images/home/defenses/spell-tower/poison/level-2.png"
@@ -78,10 +105,17 @@
       "hitpoints": 3100,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 8, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 856,
       "townHallRequired": 15,
-      "stats": { "normal": {} },
+      "stats": {
+        "normal": {}
+      },
       "images": {
         "normal": "images/home/defenses/spell-tower/normal/level-3.png",
         "poison": "images/home/defenses/spell-tower/poison/level-3.png",
@@ -94,10 +128,17 @@
       "hitpoints": 3200,
       "buildCost": 27000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1099,
       "townHallRequired": 17,
-      "stats": { "normal": {} },
+      "stats": {
+        "normal": {}
+      },
       "images": {
         "normal": "images/home/defenses/spell-tower/normal/level-4.png",
         "poison": "images/home/defenses/spell-tower/poison/level-4.png",

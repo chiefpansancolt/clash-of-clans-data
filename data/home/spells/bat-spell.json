@@ -1,5 +1,6 @@
 {
   "id": "bat-spell",
+  "dataId": 26000028,
   "name": "Bat Spell",
   "description": "Summon an army of Bats anywhere on the battlefield! Deploy aerial reinforcements wherever you need them most. Bats do not trigger Traps.",
   "base": "home",

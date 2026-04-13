@@ -1,5 +1,6 @@
 {
   "id": "electrofire-wizard",
+  "dataId": 4000106,
   "name": "Electrofire Wizard",
   "description": "Master of Magic, Sorcerer of Style, the Electrofire Wizard incinerates single targets or zaps multiple foes with charged electricity.",
   "base": "builder",
@@ -28,7 +29,12 @@
       "unitsPerCamp": 1,
       "researchCost": 0,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 0,
       "images": {
         "normal": "images/builder/troops/electrofire-wizard/normal/level-17.png",
@@ -46,7 +52,12 @@
       "unitsPerCamp": 1,
       "researchCost": 4400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
       "images": {
         "normal": "images/builder/troops/electrofire-wizard/normal/level-17.png",
@@ -64,7 +75,12 @@
       "unitsPerCamp": 1,
       "researchCost": 5400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
       "images": {
         "normal": "images/builder/troops/electrofire-wizard/normal/level-19.png",
@@ -82,7 +98,12 @@
       "unitsPerCamp": 1,
       "researchCost": 5800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
       "images": {
         "normal": "images/builder/troops/electrofire-wizard/normal/level-19.png",

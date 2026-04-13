@@ -1,21 +1,52 @@
 {
   "id": "gold-mine",
+  "dataId": 1000037,
   "name": "Gold Mine",
   "description": "The Gold Mine produces gold. Upgrade it to boost its production and gold storage capacity.",
   "base": "builder",
   "category": "resource",
   "size": "3x3",
   "availablePerBuilderHall": [
-    { "builderHallLevel": 1, "count": 1 },
-    { "builderHallLevel": 2, "count": 1 },
-    { "builderHallLevel": 3, "count": 1 },
-    { "builderHallLevel": 4, "count": 1 },
-    { "builderHallLevel": 5, "count": 1 },
-    { "builderHallLevel": 6, "count": 2 },
-    { "builderHallLevel": 7, "count": 2 },
-    { "builderHallLevel": 8, "count": 3 },
-    { "builderHallLevel": 9, "count": 3 },
-    { "builderHallLevel": 10, "count": 3 }
+    {
+      "builderHallLevel": 1,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 2,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 3
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 3
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 3
+    }
   ],
   "levels": [
     {
@@ -25,7 +56,12 @@
       "productionRate": 1000,
       "buildCost": 1000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 10, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      },
       "xpGained": 24,
       "builderHallRequired": 1,
       "images": {
@@ -39,7 +75,12 @@
       "productionRate": 1200,
       "buildCost": 5000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 20, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 0
+      },
       "xpGained": 34,
       "builderHallRequired": 3,
       "images": {
@@ -53,7 +94,12 @@
       "productionRate": 1500,
       "buildCost": 10000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 40, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 0
+      },
       "xpGained": 48,
       "builderHallRequired": 3,
       "images": {
@@ -67,7 +113,12 @@
       "productionRate": 1800,
       "buildCost": 30000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 84,
       "builderHallRequired": 4,
       "images": {
@@ -81,7 +132,12 @@
       "productionRate": 2100,
       "buildCost": 60000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 146,
       "builderHallRequired": 5,
       "images": {
@@ -95,7 +151,12 @@
       "productionRate": 2500,
       "buildCost": 100000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "builderHallRequired": 6,
       "images": {
@@ -109,7 +170,12 @@
       "productionRate": 3000,
       "buildCost": 200000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 360,
       "builderHallRequired": 7,
       "images": {
@@ -123,7 +189,12 @@
       "productionRate": 3500,
       "buildCost": 300000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 8,
       "images": {
@@ -137,7 +208,12 @@
       "productionRate": 4000,
       "buildCost": 400000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 464,
       "builderHallRequired": 9,
       "images": {
@@ -151,7 +227,12 @@
       "productionRate": 4500,
       "buildCost": 800000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "builderHallRequired": 10,
       "images": {

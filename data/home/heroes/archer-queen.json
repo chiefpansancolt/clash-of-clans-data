@@ -1,5 +1,6 @@
 {
   "id": "archer-queen",
+  "dataId": 28000001,
   "name": "Archer Queen",
   "description": "Towering above all other Archers, this graceful huntress is a master of destructive force. Although her health is modest, she snipes targets from afar with her powerful X-bow. As a defender she guards the village with a vengeance.",
   "base": "home",
@@ -24,7 +25,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 0,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -35,7 +41,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 5000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -46,7 +57,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 5500,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -57,7 +73,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 6000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -68,7 +89,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 6500,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 10,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 6,
@@ -79,7 +105,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 7000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 7,
@@ -90,7 +121,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 7500,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 14, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 14,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 8,
@@ -101,7 +137,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 8000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 9,
@@ -112,7 +153,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 8500,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 18, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 10,
@@ -123,7 +169,12 @@
       "heroHallLevelRequired": 2,
       "upgradeCost": 10000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 11,
@@ -134,7 +185,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 10500,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 22, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 22,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 12,
@@ -145,7 +201,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 11000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 13,
@@ -156,7 +217,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 11500,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 14,
@@ -167,7 +233,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 12000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 15,
@@ -178,7 +249,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 12500,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 16,
@@ -189,7 +265,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 13000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 17,
@@ -200,7 +281,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 13500,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 18,
@@ -211,7 +297,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 14000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 19,
@@ -222,7 +313,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 14500,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 20,
@@ -233,7 +329,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 15000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 21,
@@ -244,7 +345,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 17000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 22,
@@ -255,7 +361,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 19000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 23,
@@ -266,7 +377,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 21000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 24,
@@ -277,7 +393,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 23000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 25,
@@ -288,7 +409,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 25000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 26,
@@ -299,7 +425,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 27000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 27,
@@ -310,7 +441,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 29000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 28,
@@ -321,7 +457,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 31000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 29,
@@ -332,7 +473,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 33000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 30,
@@ -343,7 +489,12 @@
       "heroHallLevelRequired": 3,
       "upgradeCost": 35000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 31,
@@ -354,7 +505,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 37000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 32,
@@ -365,7 +521,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 39000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 33,
@@ -376,7 +537,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 41000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 34,
@@ -387,7 +553,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 43000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 35,
@@ -398,7 +569,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 45000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 6, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 36,
@@ -409,7 +585,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 47000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 37,
@@ -420,7 +601,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 49000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 38,
@@ -431,7 +617,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 51000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 39,
@@ -442,7 +633,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 53000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 40,
@@ -453,7 +649,12 @@
       "heroHallLevelRequired": 4,
       "upgradeCost": 55000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 41,
@@ -464,7 +665,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 58000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 42,
@@ -475,7 +681,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 61000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 43,
@@ -486,7 +697,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 64000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 44,
@@ -497,7 +713,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 67000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 45,
@@ -508,7 +729,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 70000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 46,
@@ -519,7 +745,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 73000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 47,
@@ -530,7 +761,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 76000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 48,
@@ -541,7 +777,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 79000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 49,
@@ -552,7 +793,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 82000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 50,
@@ -563,7 +809,12 @@
       "heroHallLevelRequired": 5,
       "upgradeCost": 85000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 51,
@@ -574,7 +825,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 86000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 52,
@@ -585,7 +841,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 87000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 53,
@@ -596,7 +857,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 88000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 54,
@@ -607,7 +873,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 89000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 55,
@@ -618,7 +889,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 90000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 56,
@@ -629,7 +905,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 93000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 57,
@@ -640,7 +921,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 96000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 58,
@@ -651,7 +937,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 99000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 59,
@@ -662,7 +953,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 102000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 60,
@@ -673,7 +969,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 105000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 61,
@@ -684,7 +985,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 107000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 62,
@@ -695,7 +1001,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 109000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 63,
@@ -706,7 +1017,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 111000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 64,
@@ -717,7 +1033,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 113000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 65,
@@ -728,7 +1049,12 @@
       "heroHallLevelRequired": 6,
       "upgradeCost": 115000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 66,
@@ -739,7 +1065,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 117000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 67,
@@ -750,7 +1081,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 119000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 68,
@@ -761,7 +1097,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 121000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 69,
@@ -772,7 +1113,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 123000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 70,
@@ -783,7 +1129,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 125000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 71,
@@ -794,7 +1145,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 130000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 72,
@@ -805,7 +1161,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 135000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 73,
@@ -816,7 +1177,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 140000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 74,
@@ -827,7 +1193,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 145000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 75,
@@ -838,7 +1209,12 @@
       "heroHallLevelRequired": 7,
       "upgradeCost": 150000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 76,
@@ -849,7 +1225,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 155000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 77,
@@ -860,7 +1241,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 160000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 78,
@@ -871,7 +1257,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 165000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 79,
@@ -882,7 +1273,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 170000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 80,
@@ -893,7 +1289,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 175000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 81,
@@ -904,7 +1305,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 180000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 82,
@@ -915,7 +1321,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 185000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 83,
@@ -926,7 +1337,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 190000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 84,
@@ -937,7 +1353,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 195000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 85,
@@ -948,7 +1369,12 @@
       "heroHallLevelRequired": 8,
       "upgradeCost": 200000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 86,
@@ -959,7 +1385,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 215000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 87,
@@ -970,7 +1401,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 225000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 88,
@@ -981,7 +1417,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 235000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 89,
@@ -992,7 +1433,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 245000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 90,
@@ -1003,7 +1449,12 @@
       "heroHallLevelRequired": 9,
       "upgradeCost": 255000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 91,
@@ -1014,7 +1465,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 280000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 92,
@@ -1025,7 +1481,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 290000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 93,
@@ -1036,7 +1497,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 300000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 94,
@@ -1047,7 +1513,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 310000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 95,
@@ -1058,7 +1529,12 @@
       "heroHallLevelRequired": 10,
       "upgradeCost": 320000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 96,
@@ -1069,7 +1545,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 340000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 97,
@@ -1080,7 +1561,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 350000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 98,
@@ -1091,7 +1577,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 360000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 99,
@@ -1102,7 +1593,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 370000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 100,
@@ -1113,7 +1609,12 @@
       "heroHallLevelRequired": 11,
       "upgradeCost": 380000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 101,
@@ -1124,7 +1625,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 400000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 102,
@@ -1135,7 +1641,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 410000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 103,
@@ -1146,7 +1657,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 420000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 104,
@@ -1157,7 +1673,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 430000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 105,
@@ -1168,7 +1689,12 @@
       "heroHallLevelRequired": 12,
       "upgradeCost": 450000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

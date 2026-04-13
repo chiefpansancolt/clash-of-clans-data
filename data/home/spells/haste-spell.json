@@ -1,5 +1,6 @@
 {
   "id": "haste-spell",
+  "dataId": 26000011,
   "name": "Haste Spell",
   "description": "Put some hustle in even your heaviest units! Haste Spells lack the damage boost of Rage Spells, but provide an even better boost to movement speed. A lower storage space also allows you to take more of them into battle!",
   "base": "home",

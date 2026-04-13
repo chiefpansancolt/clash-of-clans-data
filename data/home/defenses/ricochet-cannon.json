@@ -1,5 +1,6 @@
 {
   "id": "ricochet-cannon",
+  "dataId": 1000085,
   "name": "Ricochet Cannon",
   "description": "Builder has used one weird trick to develop a devastating cannonball that will ricochet and hit a second target.",
   "base": "home",
@@ -15,9 +16,18 @@
     }
   },
   "availablePerTownHall": [
-    { "townHallLevel": 16, "count": 2 },
-    { "townHallLevel": 17, "count": 3 },
-    { "townHallLevel": 18, "count": 3 }
+    {
+      "townHallLevel": 16,
+      "count": 2
+    },
+    {
+      "townHallLevel": 17,
+      "count": 3
+    },
+    {
+      "townHallLevel": 18,
+      "count": 3
+    }
   ],
   "levels": [
     {
@@ -25,7 +35,12 @@
       "hitpoints": 5400,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 16,
       "stats": {
@@ -44,7 +59,12 @@
       "hitpoints": 5700,
       "buildCost": 13000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "townHallRequired": 16,
       "stats": {
@@ -63,7 +83,12 @@
       "hitpoints": 6000,
       "buildCost": 17500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 10, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 963,
       "townHallRequired": 17,
       "stats": {
@@ -82,7 +107,12 @@
       "hitpoints": 6100,
       "buildCost": 26500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 13, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 13,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1080,
       "townHallRequired": 18,
       "stats": {
@@ -102,7 +132,12 @@
       "hitpoints": 6100,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 18,
       "stats": {
@@ -122,7 +157,12 @@
       "hitpoints": 6250,
       "buildCost": 10000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 18,
       "stats": {

@@ -1,5 +1,6 @@
 {
   "id": "giant-bomb",
+  "dataId": 12000002,
   "name": "Giant Bomb",
   "description": "When you're looking for a Big Boom, you need the Giant Bomb. A much more powerful version of the Bomb that deals heavy splash damage to all nearby ground troops.",
   "base": "home",
@@ -15,10 +16,17 @@
       "damageRadius": 3,
       "buildCost": 12500,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 6,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -26,10 +34,17 @@
       "damageRadius": 3.5,
       "buildCost": 75000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 60,
       "townHallRequired": 6,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -37,10 +52,17 @@
       "damageRadius": 3.5,
       "buildCost": 220000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 103,
       "townHallRequired": 8,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -48,10 +70,17 @@
       "damageRadius": 4,
       "buildCost": 750000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 169,
       "townHallRequired": 10,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -59,10 +88,17 @@
       "damageRadius": 4,
       "buildCost": 900000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 10,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 189,
       "townHallRequired": 11,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -70,10 +106,17 @@
       "damageRadius": 4,
       "buildCost": 1300000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 11, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 11,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 198,
       "townHallRequired": 13,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-6.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -81,10 +124,17 @@
       "damageRadius": 4,
       "buildCost": 1500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 13,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -92,10 +142,17 @@
       "damageRadius": 4,
       "buildCost": 2000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "townHallRequired": 14,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-8.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -103,10 +160,17 @@
       "damageRadius": 4,
       "buildCost": 3200000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 15,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-9.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -114,10 +178,17 @@
       "damageRadius": 4,
       "buildCost": 5500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 16,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-10.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -125,30 +196,91 @@
       "damageRadius": 4,
       "buildCost": 10000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "townHallRequired": 17,
-      "images": { "normal": "images/home/traps/giant-bomb/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-11.png"
+      }
     }
   ],
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 0 },
-    { "townHallLevel": 2, "count": 0 },
-    { "townHallLevel": 3, "count": 0 },
-    { "townHallLevel": 4, "count": 0 },
-    { "townHallLevel": 5, "count": 0 },
-    { "townHallLevel": 6, "count": 1 },
-    { "townHallLevel": 7, "count": 2 },
-    { "townHallLevel": 8, "count": 3 },
-    { "townHallLevel": 9, "count": 4 },
-    { "townHallLevel": 10, "count": 5 },
-    { "townHallLevel": 11, "count": 5 },
-    { "townHallLevel": 12, "count": 6 },
-    { "townHallLevel": 13, "count": 6 },
-    { "townHallLevel": 14, "count": 7 },
-    { "townHallLevel": 15, "count": 7 },
-    { "townHallLevel": 16, "count": 7 },
-    { "townHallLevel": 17, "count": 8 },
-    { "townHallLevel": 18, "count": 8 }
+    {
+      "townHallLevel": 1,
+      "count": 0
+    },
+    {
+      "townHallLevel": 2,
+      "count": 0
+    },
+    {
+      "townHallLevel": 3,
+      "count": 0
+    },
+    {
+      "townHallLevel": 4,
+      "count": 0
+    },
+    {
+      "townHallLevel": 5,
+      "count": 0
+    },
+    {
+      "townHallLevel": 6,
+      "count": 1
+    },
+    {
+      "townHallLevel": 7,
+      "count": 2
+    },
+    {
+      "townHallLevel": 8,
+      "count": 3
+    },
+    {
+      "townHallLevel": 9,
+      "count": 4
+    },
+    {
+      "townHallLevel": 10,
+      "count": 5
+    },
+    {
+      "townHallLevel": 11,
+      "count": 5
+    },
+    {
+      "townHallLevel": 12,
+      "count": 6
+    },
+    {
+      "townHallLevel": 13,
+      "count": 6
+    },
+    {
+      "townHallLevel": 14,
+      "count": 7
+    },
+    {
+      "townHallLevel": 15,
+      "count": 7
+    },
+    {
+      "townHallLevel": 16,
+      "count": 7
+    },
+    {
+      "townHallLevel": 17,
+      "count": 8
+    },
+    {
+      "townHallLevel": 18,
+      "count": 8
+    }
   ]
 }

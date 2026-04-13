@@ -1,5 +1,6 @@
 {
   "id": "wall",
+  "dataId": 1000010,
   "name": "Wall",
   "description": "Walls are great for keeping your village safe and your enemies in the line of fire.",
   "base": "home",
@@ -12,10 +13,17 @@
       "buildCost": 0,
       "buildCostResource": "Gold",
       "wallRings": 0,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 2,
-      "images": { "normal": "images/home/defenses/wall/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -23,10 +31,17 @@
       "buildCost": 1000,
       "buildCostResource": "Gold",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 2,
-      "images": { "normal": "images/home/defenses/wall/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -34,10 +49,17 @@
       "buildCost": 5000,
       "buildCostResource": "Gold",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 3,
-      "images": { "normal": "images/home/defenses/wall/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -45,10 +67,17 @@
       "buildCost": 10000,
       "buildCostResource": "Gold",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 4,
-      "images": { "normal": "images/home/defenses/wall/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -56,10 +85,17 @@
       "buildCost": 20000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 5,
-      "images": { "normal": "images/home/defenses/wall/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -67,10 +103,17 @@
       "buildCost": 30000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 6,
-      "images": { "normal": "images/home/defenses/wall/normal/level-6.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -78,10 +121,17 @@
       "buildCost": 50000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 7,
-      "images": { "normal": "images/home/defenses/wall/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -89,10 +139,17 @@
       "buildCost": 75000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 8,
-      "images": { "normal": "images/home/defenses/wall/normal/level-8.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -100,10 +157,17 @@
       "buildCost": 100000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 9,
-      "images": { "normal": "images/home/defenses/wall/normal/level-9.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -111,10 +175,17 @@
       "buildCost": 200000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 9,
-      "images": { "normal": "images/home/defenses/wall/normal/level-10.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -122,10 +193,17 @@
       "buildCost": 500000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 10,
-      "images": { "normal": "images/home/defenses/wall/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -133,10 +211,17 @@
       "buildCost": 1000000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 1,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 11,
-      "images": { "normal": "images/home/defenses/wall/normal/level-12.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -144,10 +229,17 @@
       "buildCost": 1500000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 2,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 12,
-      "images": { "normal": "images/home/defenses/wall/normal/level-13.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -155,10 +247,17 @@
       "buildCost": 2000000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 2,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 13,
-      "images": { "normal": "images/home/defenses/wall/normal/level-14.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-14.png"
+      }
     },
     {
       "level": 15,
@@ -166,10 +265,17 @@
       "buildCost": 3000000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 3,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 14,
-      "images": { "normal": "images/home/defenses/wall/normal/level-15.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-15.png"
+      }
     },
     {
       "level": 16,
@@ -177,10 +283,17 @@
       "buildCost": 4000000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 4,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 15,
-      "images": { "normal": "images/home/defenses/wall/normal/level-16.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-16.png"
+      }
     },
     {
       "level": 17,
@@ -188,10 +301,17 @@
       "buildCost": 5000000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 5,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 16,
-      "images": { "normal": "images/home/defenses/wall/normal/level-17.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-17.png"
+      }
     },
     {
       "level": 18,
@@ -199,10 +319,17 @@
       "buildCost": 7000000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 7,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 17,
-      "images": { "normal": "images/home/defenses/wall/normal/level-18.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-18.png"
+      }
     },
     {
       "level": 19,
@@ -210,30 +337,91 @@
       "buildCost": 10000000,
       "buildCostResource": "Gold or Elixir",
       "wallRings": 10,
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 18,
-      "images": { "normal": "images/home/defenses/wall/normal/level-19.png" }
+      "images": {
+        "normal": "images/home/defenses/wall/normal/level-19.png"
+      }
     }
   ],
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 0 },
-    { "townHallLevel": 2, "count": 25 },
-    { "townHallLevel": 3, "count": 50 },
-    { "townHallLevel": 4, "count": 75 },
-    { "townHallLevel": 5, "count": 100 },
-    { "townHallLevel": 6, "count": 125 },
-    { "townHallLevel": 7, "count": 175 },
-    { "townHallLevel": 8, "count": 225 },
-    { "townHallLevel": 9, "count": 250 },
-    { "townHallLevel": 10, "count": 275 },
-    { "townHallLevel": 11, "count": 300 },
-    { "townHallLevel": 12, "count": 300 },
-    { "townHallLevel": 13, "count": 300 },
-    { "townHallLevel": 14, "count": 325 },
-    { "townHallLevel": 15, "count": 325 },
-    { "townHallLevel": 16, "count": 325 },
-    { "townHallLevel": 17, "count": 325 },
-    { "townHallLevel": 18, "count": 325 }
+    {
+      "townHallLevel": 1,
+      "count": 0
+    },
+    {
+      "townHallLevel": 2,
+      "count": 25
+    },
+    {
+      "townHallLevel": 3,
+      "count": 50
+    },
+    {
+      "townHallLevel": 4,
+      "count": 75
+    },
+    {
+      "townHallLevel": 5,
+      "count": 100
+    },
+    {
+      "townHallLevel": 6,
+      "count": 125
+    },
+    {
+      "townHallLevel": 7,
+      "count": 175
+    },
+    {
+      "townHallLevel": 8,
+      "count": 225
+    },
+    {
+      "townHallLevel": 9,
+      "count": 250
+    },
+    {
+      "townHallLevel": 10,
+      "count": 275
+    },
+    {
+      "townHallLevel": 11,
+      "count": 300
+    },
+    {
+      "townHallLevel": 12,
+      "count": 300
+    },
+    {
+      "townHallLevel": 13,
+      "count": 300
+    },
+    {
+      "townHallLevel": 14,
+      "count": 325
+    },
+    {
+      "townHallLevel": 15,
+      "count": 325
+    },
+    {
+      "townHallLevel": 16,
+      "count": 325
+    },
+    {
+      "townHallLevel": 17,
+      "count": 325
+    },
+    {
+      "townHallLevel": 18,
+      "count": 325
+    }
   ]
 }

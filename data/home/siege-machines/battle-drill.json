@@ -1,5 +1,6 @@
 {
   "id": "battle-drill",
+  "dataId": 4000092,
   "name": "Battle Drill",
   "description": "A fine example of goblin ingenuity, the Battle Drill burrows underground towards the nearest defense. On arrival it pops up to stun and demolish with its dastardly drill.",
   "base": "home",

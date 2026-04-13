@@ -1,5 +1,6 @@
 {
   "id": "baby-dragon",
+  "dataId": 4000023,
   "name": "Baby Dragon",
   "description": "This fire-breathing hatchling is shy around other air units, but leave it alone and it'll throw a fit! When not around other air units, Baby Dragons become enraged and gain bonus damage and attack speed.",
   "base": "home",

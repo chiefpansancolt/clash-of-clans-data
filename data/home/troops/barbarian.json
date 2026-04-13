@@ -1,5 +1,6 @@
 {
   "id": "barbarian",
+  "dataId": 4000000,
   "name": "Barbarian",
   "description": "This fearless warrior relies on his bulging muscles and striking mustache to wreak havoc in enemy villages. Release a horde of Barbarians and enjoy the mayhem!",
   "base": "home",

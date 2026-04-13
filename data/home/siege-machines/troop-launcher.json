@@ -1,5 +1,6 @@
 {
   "id": "troop-launcher",
+  "dataId": 4000135,
   "name": "Troop Launcher",
   "description": "This immobile machine launches barrel loads of Troops and Clan Castle Troops at your allies in battle to support them. Each barrel can hold multiple Troops, including one Clan Castle Troop. There's only a few barrels inside, so make them count!",
   "base": "home",

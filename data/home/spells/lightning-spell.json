@@ -1,5 +1,6 @@
 {
   "id": "lightning-spell",
+  "dataId": 26000000,
   "name": "Lightning Spell",
   "description": "Electrocute your enemies with a bolt of lightning! Cast this spell at the enemy village to damage and stun buildings and units inside a small area.",
   "base": "home",

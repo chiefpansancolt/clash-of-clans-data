@@ -1,5 +1,6 @@
 {
   "id": "smasher",
+  "dataId": 107000001,
   "name": "Smasher",
   "description": "This tanky Guardian deals splash damage to ground and air troops. Smasher is a seriously sore loser, raging when the Town Hall is destroyed and leaving rage in his wake when defeated.",
   "base": "home",
@@ -19,62 +20,127 @@
   "specialAbility": "Sore Loser",
   "rageSpeedIncrease": 12,
   "rageDamageIncrease": 60,
-  "availablePerTownHall": [{ "townHallLevel": 18, "count": 1 }],
+  "availablePerTownHall": [
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
+  ],
   "levels": [
     {
       "level": 1,
       "hitpoints": 12000,
       "buildCost": 0,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 500, "damagePerShot": 900 } },
-      "images": { "normal": "images/home/guardians/smasher/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 500,
+          "damagePerShot": 900
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/smasher/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 13000,
       "buildCost": 18000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 550, "damagePerShot": 990 } },
-      "images": { "normal": "images/home/guardians/smasher/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 550,
+          "damagePerShot": 990
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/smasher/normal/level-1.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 14000,
       "buildCost": 22000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 881,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 600, "damagePerShot": 1080 } },
-      "images": { "normal": "images/home/guardians/smasher/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 600,
+          "damagePerShot": 1080
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/smasher/normal/level-1.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 15000,
       "buildCost": 26000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 974,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 650, "damagePerShot": 1170 } },
-      "images": { "normal": "images/home/guardians/smasher/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 650,
+          "damagePerShot": 1170
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/smasher/normal/level-1.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 16000,
       "buildCost": 28000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 13, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 13,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1059,
       "townHallRequired": 18,
-      "stats": { "normal": { "dps": 700, "damagePerShot": 1260 } },
-      "images": { "normal": "images/home/guardians/smasher/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 700,
+          "damagePerShot": 1260
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/smasher/normal/level-1.png"
+      }
     }
   ]
 }

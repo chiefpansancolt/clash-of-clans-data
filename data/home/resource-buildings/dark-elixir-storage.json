@@ -1,29 +1,84 @@
 {
   "id": "dark-elixir-storage",
+  "dataId": 1000024,
   "name": "Dark Elixir Storage",
   "description": "The power of Dark Elixir could not be contained in a regularly shaped Elixir vat. As it's three times as powerful, we had to invent a cubical form of storage!",
   "base": "home",
   "category": "resource",
   "size": "3x3",
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 0 },
-    { "townHallLevel": 2, "count": 0 },
-    { "townHallLevel": 3, "count": 0 },
-    { "townHallLevel": 4, "count": 0 },
-    { "townHallLevel": 5, "count": 0 },
-    { "townHallLevel": 6, "count": 0 },
-    { "townHallLevel": 7, "count": 1 },
-    { "townHallLevel": 8, "count": 1 },
-    { "townHallLevel": 9, "count": 1 },
-    { "townHallLevel": 10, "count": 1 },
-    { "townHallLevel": 11, "count": 1 },
-    { "townHallLevel": 12, "count": 1 },
-    { "townHallLevel": 13, "count": 1 },
-    { "townHallLevel": 14, "count": 1 },
-    { "townHallLevel": 15, "count": 1 },
-    { "townHallLevel": 16, "count": 1 },
-    { "townHallLevel": 17, "count": 1 },
-    { "townHallLevel": 18, "count": 1 }
+    {
+      "townHallLevel": 1,
+      "count": 0
+    },
+    {
+      "townHallLevel": 2,
+      "count": 0
+    },
+    {
+      "townHallLevel": 3,
+      "count": 0
+    },
+    {
+      "townHallLevel": 4,
+      "count": 0
+    },
+    {
+      "townHallLevel": 5,
+      "count": 0
+    },
+    {
+      "townHallLevel": 6,
+      "count": 0
+    },
+    {
+      "townHallLevel": 7,
+      "count": 1
+    },
+    {
+      "townHallLevel": 8,
+      "count": 1
+    },
+    {
+      "townHallLevel": 9,
+      "count": 1
+    },
+    {
+      "townHallLevel": 10,
+      "count": 1
+    },
+    {
+      "townHallLevel": 11,
+      "count": 1
+    },
+    {
+      "townHallLevel": 12,
+      "count": 1
+    },
+    {
+      "townHallLevel": 13,
+      "count": 1
+    },
+    {
+      "townHallLevel": 14,
+      "count": 1
+    },
+    {
+      "townHallLevel": 15,
+      "count": 1
+    },
+    {
+      "townHallLevel": 16,
+      "count": 1
+    },
+    {
+      "townHallLevel": 17,
+      "count": 1
+    },
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -32,7 +87,12 @@
       "capacity": 10000,
       "buildCost": 250000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 169,
       "townHallRequired": 7,
       "images": {
@@ -45,7 +105,12 @@
       "capacity": 17500,
       "buildCost": 500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 240,
       "townHallRequired": 7,
       "images": {
@@ -58,7 +123,12 @@
       "capacity": 40000,
       "buildCost": 1000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "townHallRequired": 8,
       "images": {
@@ -71,7 +141,12 @@
       "capacity": 75000,
       "buildCost": 1500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 360,
       "townHallRequired": 8,
       "images": {
@@ -84,7 +159,12 @@
       "capacity": 140000,
       "buildCost": 2000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 1, "hours": 16, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 379,
       "townHallRequired": 9,
       "images": {
@@ -97,7 +177,12 @@
       "capacity": 180000,
       "buildCost": 2400000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 9,
       "images": {
@@ -110,7 +195,12 @@
       "capacity": 220000,
       "buildCost": 3800000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 12,
       "images": {
@@ -123,7 +213,12 @@
       "capacity": 280000,
       "buildCost": 5400000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 549,
       "townHallRequired": 13,
       "images": {
@@ -136,7 +231,12 @@
       "capacity": 330000,
       "buildCost": 6600000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 14,
       "images": {
@@ -149,7 +249,12 @@
       "capacity": 360000,
       "buildCost": 8000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 623,
       "townHallRequired": 15,
       "images": {
@@ -162,7 +267,12 @@
       "capacity": 390000,
       "buildCost": 10000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "townHallRequired": 16,
       "images": {
@@ -175,7 +285,12 @@
       "capacity": 420000,
       "buildCost": 16000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 881,
       "townHallRequired": 17,
       "images": {
@@ -188,7 +303,12 @@
       "capacity": 450000,
       "buildCost": 25000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 13, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 13,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1059,
       "townHallRequired": 18,
       "images": {

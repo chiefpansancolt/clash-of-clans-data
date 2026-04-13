@@ -1,5 +1,6 @@
 {
   "id": "fire-heart",
+  "dataId": 90000052,
   "name": "Fire Heart",
   "description": "Slowly regenerates health and bursts into damaging Flames when Dragon Duke falls",
   "base": "home",

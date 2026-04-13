@@ -1,5 +1,6 @@
 {
   "id": "vampstache",
+  "dataId": 90000011,
   "name": "Vampstache",
   "description": "Every time the Barbarian King attacks, he heals himself",
   "base": "home",

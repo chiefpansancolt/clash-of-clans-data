@@ -1,5 +1,6 @@
 {
   "id": "healer",
+  "dataId": 4000007,
   "name": "Healer",
   "base": "home",
   "category": "troop",

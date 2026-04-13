@@ -1,5 +1,6 @@
 {
   "id": "cannon",
+  "dataId": 1000008,
   "name": "Cannon",
   "description": "Cannons are great for point defense. Upgrade Cannons to increase their firepower, but beware that your Defenses cannot shoot while being upgraded!",
   "base": "home",
@@ -24,30 +25,92 @@
   "gearUp": {
     "cost": 1000000,
     "costResource": "Gold",
-    "time": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+    "time": {
+      "days": 2,
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 0
+    },
     "requiresLevel": 7,
     "requiresBuilderBuilding": "Double Cannon",
     "requiresBuilderBuildingLevel": 4
   },
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 2 },
-    { "townHallLevel": 2, "count": 2 },
-    { "townHallLevel": 3, "count": 2 },
-    { "townHallLevel": 4, "count": 2 },
-    { "townHallLevel": 5, "count": 3 },
-    { "townHallLevel": 6, "count": 3 },
-    { "townHallLevel": 7, "count": 5 },
-    { "townHallLevel": 8, "count": 5 },
-    { "townHallLevel": 9, "count": 5 },
-    { "townHallLevel": 10, "count": 6 },
-    { "townHallLevel": 11, "count": 7 },
-    { "townHallLevel": 12, "count": 7 },
-    { "townHallLevel": 13, "count": 7 },
-    { "townHallLevel": 14, "count": 7 },
-    { "townHallLevel": 15, "count": 7 },
-    { "townHallLevel": 16, "count": 7, "countAfterMerges": 3 },
-    { "townHallLevel": 17, "count": 7, "countAfterMerges": 0 },
-    { "townHallLevel": 18, "count": 7, "countAfterMerges": 0 }
+    {
+      "townHallLevel": 1,
+      "count": 2
+    },
+    {
+      "townHallLevel": 2,
+      "count": 2
+    },
+    {
+      "townHallLevel": 3,
+      "count": 2
+    },
+    {
+      "townHallLevel": 4,
+      "count": 2
+    },
+    {
+      "townHallLevel": 5,
+      "count": 3
+    },
+    {
+      "townHallLevel": 6,
+      "count": 3
+    },
+    {
+      "townHallLevel": 7,
+      "count": 5
+    },
+    {
+      "townHallLevel": 8,
+      "count": 5
+    },
+    {
+      "townHallLevel": 9,
+      "count": 5
+    },
+    {
+      "townHallLevel": 10,
+      "count": 6
+    },
+    {
+      "townHallLevel": 11,
+      "count": 7
+    },
+    {
+      "townHallLevel": 12,
+      "count": 7
+    },
+    {
+      "townHallLevel": 13,
+      "count": 7
+    },
+    {
+      "townHallLevel": 14,
+      "count": 7
+    },
+    {
+      "townHallLevel": 15,
+      "count": 7
+    },
+    {
+      "townHallLevel": 16,
+      "count": 7,
+      "countAfterMerges": 3
+    },
+    {
+      "townHallLevel": 17,
+      "count": 7,
+      "countAfterMerges": 0
+    },
+    {
+      "townHallLevel": 18,
+      "count": 7,
+      "countAfterMerges": 0
+    }
   ],
   "levels": [
     {
@@ -55,11 +118,19 @@
       "hitpoints": 300,
       "buildCost": 250,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 5 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5
+      },
       "townHallRequired": 1,
       "xpGained": 2,
       "stats": {
-        "normal": { "dps": 7, "damagePerShot": 5.6 }
+        "normal": {
+          "dps": 7,
+          "damagePerShot": 5.6
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-1.png"
@@ -70,11 +141,19 @@
       "hitpoints": 360,
       "buildCost": 1000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 30 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 30
+      },
       "townHallRequired": 1,
       "xpGained": 5,
       "stats": {
-        "normal": { "dps": 10, "damagePerShot": 8 }
+        "normal": {
+          "dps": 10,
+          "damagePerShot": 8
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-2.png"
@@ -85,11 +164,19 @@
       "hitpoints": 420,
       "buildCost": 4000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 2, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 0
+      },
       "townHallRequired": 2,
       "xpGained": 10,
       "stats": {
-        "normal": { "dps": 13, "damagePerShot": 10.4 }
+        "normal": {
+          "dps": 13,
+          "damagePerShot": 10.4
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-3.png"
@@ -100,11 +187,19 @@
       "hitpoints": 500,
       "buildCost": 16000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 20, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 0
+      },
       "townHallRequired": 3,
       "xpGained": 34,
       "stats": {
-        "normal": { "dps": 17, "damagePerShot": 13.6 }
+        "normal": {
+          "dps": 17,
+          "damagePerShot": 13.6
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-4.png"
@@ -115,11 +210,19 @@
       "hitpoints": 600,
       "buildCost": 50000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "townHallRequired": 4,
       "xpGained": 42,
       "stats": {
-        "normal": { "dps": 23, "damagePerShot": 18.4 }
+        "normal": {
+          "dps": 23,
+          "damagePerShot": 18.4
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-5.png"
@@ -130,11 +233,19 @@
       "hitpoints": 660,
       "buildCost": 60000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 5,
       "xpGained": 60,
       "stats": {
-        "normal": { "dps": 30, "damagePerShot": 24 }
+        "normal": {
+          "dps": 30,
+          "damagePerShot": 24
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-6.png"
@@ -145,12 +256,23 @@
       "hitpoints": 730,
       "buildCost": 100000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 6,
       "xpGained": 84,
       "stats": {
-        "normal": { "dps": 40, "damagePerShot": 32 },
-        "gearedUpBurst": { "dps": 80, "damagePerShot": 43.52 }
+        "normal": {
+          "dps": 40,
+          "damagePerShot": 32
+        },
+        "gearedUpBurst": {
+          "dps": 80,
+          "damagePerShot": 43.52
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-7.png",
@@ -163,12 +285,23 @@
       "hitpoints": 800,
       "buildCost": 160000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 7,
       "xpGained": 103,
       "stats": {
-        "normal": { "dps": 48, "damagePerShot": 38.4 },
-        "gearedUpBurst": { "dps": 95, "damagePerShot": 52.22 }
+        "normal": {
+          "dps": 48,
+          "damagePerShot": 38.4
+        },
+        "gearedUpBurst": {
+          "dps": 95,
+          "damagePerShot": 52.22
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-8.png",
@@ -181,12 +314,23 @@
       "hitpoints": 880,
       "buildCost": 250000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 3, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 30,
+        "seconds": 0
+      },
       "townHallRequired": 8,
       "xpGained": 112,
       "stats": {
-        "normal": { "dps": 56, "damagePerShot": 44.8 },
-        "gearedUpBurst": { "dps": 111, "damagePerShot": 60.92 }
+        "normal": {
+          "dps": 56,
+          "damagePerShot": 44.8
+        },
+        "gearedUpBurst": {
+          "dps": 111,
+          "damagePerShot": 60.92
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-9.png",
@@ -199,12 +343,23 @@
       "hitpoints": 960,
       "buildCost": 330000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 4, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 8,
       "xpGained": 120,
       "stats": {
-        "normal": { "dps": 64, "damagePerShot": 51.2 },
-        "gearedUpBurst": { "dps": 127, "damagePerShot": 69.63 }
+        "normal": {
+          "dps": 64,
+          "damagePerShot": 51.2
+        },
+        "gearedUpBurst": {
+          "dps": 127,
+          "damagePerShot": 69.63
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-10.png",
@@ -217,12 +372,23 @@
       "hitpoints": 1060,
       "buildCost": 500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 4, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 4,
+        "minutes": 30,
+        "seconds": 0
+      },
       "townHallRequired": 9,
       "xpGained": 127,
       "stats": {
-        "normal": { "dps": 74, "damagePerShot": 59.2 },
-        "gearedUpBurst": { "dps": 147, "damagePerShot": 80.51 }
+        "normal": {
+          "dps": 74,
+          "damagePerShot": 59.2
+        },
+        "gearedUpBurst": {
+          "dps": 147,
+          "damagePerShot": 80.51
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-11.png",
@@ -235,12 +401,23 @@
       "hitpoints": 1160,
       "buildCost": 600000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 5,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 10,
       "xpGained": 134,
       "stats": {
-        "normal": { "dps": 85, "damagePerShot": 68 },
-        "gearedUpBurst": { "dps": 170, "damagePerShot": 92.48 }
+        "normal": {
+          "dps": 85,
+          "damagePerShot": 68
+        },
+        "gearedUpBurst": {
+          "dps": 170,
+          "damagePerShot": 92.48
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-12.png",
@@ -253,12 +430,23 @@
       "hitpoints": 1260,
       "buildCost": 660000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 10,
       "xpGained": 146,
       "stats": {
-        "normal": { "dps": 95, "damagePerShot": 76 },
-        "gearedUpBurst": { "dps": 190, "damagePerShot": 103.36 }
+        "normal": {
+          "dps": 95,
+          "damagePerShot": 76
+        },
+        "gearedUpBurst": {
+          "dps": 190,
+          "damagePerShot": 103.36
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-13.png",
@@ -271,12 +459,23 @@
       "hitpoints": 1380,
       "buildCost": 1000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 11,
       "xpGained": 169,
       "stats": {
-        "normal": { "dps": 100, "damagePerShot": 80 },
-        "gearedUpBurst": { "dps": 200, "damagePerShot": 108.8 }
+        "normal": {
+          "dps": 100,
+          "damagePerShot": 80
+        },
+        "gearedUpBurst": {
+          "dps": 200,
+          "damagePerShot": 108.8
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-14.png",
@@ -289,12 +488,23 @@
       "hitpoints": 1500,
       "buildCost": 1200000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 10, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 10,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 11,
       "xpGained": 189,
       "stats": {
-        "normal": { "dps": 105, "damagePerShot": 84 },
-        "gearedUpBurst": { "dps": 210, "damagePerShot": 114.24 }
+        "normal": {
+          "dps": 105,
+          "damagePerShot": 84
+        },
+        "gearedUpBurst": {
+          "dps": 210,
+          "damagePerShot": 114.24
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-15.png",
@@ -307,12 +517,23 @@
       "hitpoints": 1620,
       "buildCost": 1300000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 11, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 11,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 12,
       "xpGained": 198,
       "stats": {
-        "normal": { "dps": 110, "damagePerShot": 88 },
-        "gearedUpBurst": { "dps": 220, "damagePerShot": 119.68 }
+        "normal": {
+          "dps": 110,
+          "damagePerShot": 88
+        },
+        "gearedUpBurst": {
+          "dps": 220,
+          "damagePerShot": 119.68
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-16.png",
@@ -325,12 +546,23 @@
       "hitpoints": 1740,
       "buildCost": 1500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 12,
       "xpGained": 207,
       "stats": {
-        "normal": { "dps": 115, "damagePerShot": 92 },
-        "gearedUpBurst": { "dps": 230, "damagePerShot": 125.12 }
+        "normal": {
+          "dps": 115,
+          "damagePerShot": 92
+        },
+        "gearedUpBurst": {
+          "dps": 230,
+          "damagePerShot": 125.12
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-17.png",
@@ -343,12 +575,23 @@
       "hitpoints": 1870,
       "buildCost": 1800000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 13,
       "xpGained": 240,
       "stats": {
-        "normal": { "dps": 125, "damagePerShot": 100 },
-        "gearedUpBurst": { "dps": 250, "damagePerShot": 136 }
+        "normal": {
+          "dps": 125,
+          "damagePerShot": 100
+        },
+        "gearedUpBurst": {
+          "dps": 250,
+          "damagePerShot": 136
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-18.png",
@@ -361,12 +604,23 @@
       "hitpoints": 2000,
       "buildCost": 2000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 13,
       "xpGained": 268,
       "stats": {
-        "normal": { "dps": 135, "damagePerShot": 108 },
-        "gearedUpBurst": { "dps": 270, "damagePerShot": 146.88 }
+        "normal": {
+          "dps": 135,
+          "damagePerShot": 108
+        },
+        "gearedUpBurst": {
+          "dps": 270,
+          "damagePerShot": 146.88
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-19.png",
@@ -379,12 +633,23 @@
       "hitpoints": 2150,
       "buildCost": 2600000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 14,
       "xpGained": 293,
       "stats": {
-        "normal": { "dps": 150, "damagePerShot": 120 },
-        "gearedUpBurst": { "dps": 300, "damagePerShot": 163.2 }
+        "normal": {
+          "dps": 150,
+          "damagePerShot": 120
+        },
+        "gearedUpBurst": {
+          "dps": 300,
+          "damagePerShot": 163.2
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-20.png",
@@ -397,12 +662,23 @@
       "hitpoints": 2250,
       "buildCost": 3000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "townHallRequired": 15,
       "xpGained": 360,
       "stats": {
-        "normal": { "dps": 160, "damagePerShot": 128 },
-        "gearedUpBurst": { "dps": 320, "damagePerShot": 174.08 }
+        "normal": {
+          "dps": 160,
+          "damagePerShot": 128
+        },
+        "gearedUpBurst": {
+          "dps": 320,
+          "damagePerShot": 174.08
+        }
       },
       "images": {
         "normal": "images/home/defenses/cannon/normal/level-21.png",

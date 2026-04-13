@@ -1,5 +1,6 @@
 {
   "id": "barbarian-puppet",
+  "dataId": 90000000,
   "name": "Barbarian Puppet",
   "description": "Summons a pack of raged Barbarians",
   "base": "home",
@@ -96,7 +97,7 @@
       "stats": {
         "summonedBarbarians": 20,
         "barbarianDamageIncrease": "+140%",
-        "barbarianSpeedIncrease": 16.0
+        "barbarianSpeedIncrease": 16
       }
     },
     {
@@ -110,7 +111,7 @@
       "stats": {
         "summonedBarbarians": 20,
         "barbarianDamageIncrease": "+140%",
-        "barbarianSpeedIncrease": 16.0
+        "barbarianSpeedIncrease": 16
       }
     },
     {
@@ -124,7 +125,7 @@
       "stats": {
         "summonedBarbarians": 20,
         "barbarianDamageIncrease": "+140%",
-        "barbarianSpeedIncrease": 16.0
+        "barbarianSpeedIncrease": 16
       }
     },
     {

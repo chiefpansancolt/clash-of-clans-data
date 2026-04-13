@@ -1,5 +1,6 @@
 {
   "id": "diggy",
+  "dataId": 73000008,
   "name": "Diggy",
   "description": "Diggy is an introvert and spends a lot of time hiding underground. Still when it comes to battle, he'll do his part, coming up to attack buildings and aid his Hero. If his Hero's taken out, he'll seek out a new one for support, scritches.",
   "base": "home",
@@ -27,7 +28,12 @@
       "townHallRequired": 15,
       "upgradeCost": 0,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -39,7 +45,12 @@
       "townHallRequired": 15,
       "upgradeCost": 90000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -51,7 +62,12 @@
       "townHallRequired": 15,
       "upgradeCost": 105000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -63,7 +79,12 @@
       "townHallRequired": 15,
       "upgradeCost": 120000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -75,7 +96,12 @@
       "townHallRequired": 15,
       "upgradeCost": 130000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 6,
@@ -87,7 +113,12 @@
       "townHallRequired": 15,
       "upgradeCost": 140000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 7,
@@ -99,7 +130,12 @@
       "townHallRequired": 15,
       "upgradeCost": 150000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 8,
@@ -111,7 +147,12 @@
       "townHallRequired": 15,
       "upgradeCost": 160000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 9,
@@ -123,7 +164,12 @@
       "townHallRequired": 15,
       "upgradeCost": 170000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 10,
@@ -135,7 +181,12 @@
       "townHallRequired": 15,
       "upgradeCost": 180000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

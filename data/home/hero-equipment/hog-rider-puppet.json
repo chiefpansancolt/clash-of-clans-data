@@ -1,5 +1,6 @@
 {
   "id": "hog-rider-puppet",
+  "dataId": 90000009,
   "name": "Hog Rider Puppet",
   "description": "Summons a stamede of Hog Riders",
   "base": "home",

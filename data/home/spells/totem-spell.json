@@ -1,5 +1,6 @@
 {
   "id": "totem-spell",
+  "dataId": 26000120,
   "name": "Totem Spell",
   "description": "Hey, look over there! Distract ground and air Defenses by dropping a Totem Spell. Nearby enemies will focus their attack on the Totem, taking the heat off other troops. Forged from dense cosmic rock, the Totem also damages and stuns the area in which it lands.",
   "base": "home",

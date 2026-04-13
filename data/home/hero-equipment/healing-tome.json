@@ -1,5 +1,6 @@
 {
   "id": "healing-tome",
+  "dataId": 90000034,
   "name": "Healing Tome",
   "description": "Heals the Grand Warden and all nearby friendly units",
   "base": "home",

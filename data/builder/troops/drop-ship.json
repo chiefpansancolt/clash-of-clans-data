@@ -1,5 +1,6 @@
 {
   "id": "drop-ship",
+  "dataId": 4000038,
   "name": "Drop Ship",
   "description": "Packed to the brim with bones instead of bombs. Skeletons leap out of these balloons directly next to the enemy!",
   "base": "builder",
@@ -25,9 +26,16 @@
       "unitsPerCamp": 1,
       "researchCost": 0,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 0,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-11.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -38,9 +46,16 @@
       "unitsPerCamp": 1,
       "researchCost": 2400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-11.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-11.png"
+      }
     },
     {
       "level": 13,
@@ -51,9 +66,16 @@
       "unitsPerCamp": 1,
       "researchCost": 2600000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -64,9 +86,16 @@
       "unitsPerCamp": 1,
       "researchCost": 2800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-13.png"
+      }
     },
     {
       "level": 15,
@@ -77,9 +106,16 @@
       "unitsPerCamp": 1,
       "researchCost": 3600000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-15.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-15.png"
+      }
     },
     {
       "level": 16,
@@ -90,9 +126,16 @@
       "unitsPerCamp": 1,
       "researchCost": 3800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-15.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-15.png"
+      }
     },
     {
       "level": 17,
@@ -103,9 +146,16 @@
       "unitsPerCamp": 1,
       "researchCost": 4300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-17.png"
+      }
     },
     {
       "level": 18,
@@ -116,9 +166,16 @@
       "unitsPerCamp": 1,
       "researchCost": 4500000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-17.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-17.png"
+      }
     },
     {
       "level": 19,
@@ -129,9 +186,16 @@
       "unitsPerCamp": 1,
       "researchCost": 5500000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-19.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-19.png"
+      }
     },
     {
       "level": 20,
@@ -142,9 +206,16 @@
       "unitsPerCamp": 1,
       "researchCost": 5700000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/drop-ship/normal/level-19.png" }
+      "images": {
+        "normal": "images/builder/troops/drop-ship/normal/level-19.png"
+      }
     }
   ]
 }

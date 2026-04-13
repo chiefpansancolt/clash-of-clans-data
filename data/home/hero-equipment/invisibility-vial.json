@@ -1,5 +1,6 @@
 {
   "id": "invisibility-vial",
+  "dataId": 90000003,
   "name": "Invisibility Vial",
   "description": "Turns the Queen invisible and gives her stronger attacks",
   "base": "home",

@@ -1,5 +1,6 @@
 {
   "id": "rage-vial",
+  "dataId": 90000001,
   "name": "Rage Vial",
   "description": "Casts Rage on the Barbarian King",
   "base": "home",
@@ -24,7 +25,7 @@
       "blacksmithLevelRequired": 0,
       "stats": {
         "damageIncrease": "+120%",
-        "movementSpeedIncrease": 18.0,
+        "movementSpeedIncrease": 18,
         "dpsIncrease": 17
       }
     },
@@ -37,7 +38,7 @@
       "blacksmithLevelRequired": 1,
       "stats": {
         "damageIncrease": "+120%",
-        "movementSpeedIncrease": 18.0,
+        "movementSpeedIncrease": 18,
         "dpsIncrease": 22
       }
     },
@@ -167,7 +168,7 @@
       "blacksmithLevelRequired": 3,
       "stats": {
         "damageIncrease": "+145%",
-        "movementSpeedIncrease": 32.0,
+        "movementSpeedIncrease": 32,
         "dpsIncrease": 79
       }
     },
@@ -180,7 +181,7 @@
       "blacksmithLevelRequired": 5,
       "stats": {
         "damageIncrease": "+145%",
-        "movementSpeedIncrease": 32.0,
+        "movementSpeedIncrease": 32,
         "dpsIncrease": 86
       }
     },
@@ -193,7 +194,7 @@
       "blacksmithLevelRequired": 5,
       "stats": {
         "damageIncrease": "+145%",
-        "movementSpeedIncrease": 32.0,
+        "movementSpeedIncrease": 32,
         "dpsIncrease": 94
       }
     },

@@ -1,5 +1,6 @@
 {
   "id": "giant-arrow",
+  "dataId": 90000017,
   "name": "Giant Arrow",
   "description": "Shoots a giant piercing arrow that crosses the entire village",
   "base": "home",

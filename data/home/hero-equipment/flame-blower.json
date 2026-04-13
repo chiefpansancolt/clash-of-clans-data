@@ -1,5 +1,6 @@
 {
   "id": "flame-blower",
+  "dataId": 90000057,
   "name": "Flame Blower",
   "description": "Blows scorching fire that damages enemies and buildings",
   "base": "home",

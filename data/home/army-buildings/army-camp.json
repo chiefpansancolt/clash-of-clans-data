@@ -1,29 +1,84 @@
 {
   "id": "army-camp",
+  "dataId": 1000000,
   "name": "Army Camp",
   "description": "Your troops are stationed in Army Camps. Build more camps and upgrade them to muster a powerful army.",
   "base": "home",
   "category": "army",
   "size": "4x4",
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 1 },
-    { "townHallLevel": 2, "count": 1 },
-    { "townHallLevel": 3, "count": 2 },
-    { "townHallLevel": 4, "count": 2 },
-    { "townHallLevel": 5, "count": 3 },
-    { "townHallLevel": 6, "count": 3 },
-    { "townHallLevel": 7, "count": 4 },
-    { "townHallLevel": 8, "count": 4 },
-    { "townHallLevel": 9, "count": 4 },
-    { "townHallLevel": 10, "count": 4 },
-    { "townHallLevel": 11, "count": 4 },
-    { "townHallLevel": 12, "count": 4 },
-    { "townHallLevel": 13, "count": 4 },
-    { "townHallLevel": 14, "count": 4 },
-    { "townHallLevel": 15, "count": 4 },
-    { "townHallLevel": 16, "count": 4 },
-    { "townHallLevel": 17, "count": 4 },
-    { "townHallLevel": 18, "count": 4 }
+    {
+      "townHallLevel": 1,
+      "count": 1
+    },
+    {
+      "townHallLevel": 2,
+      "count": 1
+    },
+    {
+      "townHallLevel": 3,
+      "count": 2
+    },
+    {
+      "townHallLevel": 4,
+      "count": 2
+    },
+    {
+      "townHallLevel": 5,
+      "count": 3
+    },
+    {
+      "townHallLevel": 6,
+      "count": 3
+    },
+    {
+      "townHallLevel": 7,
+      "count": 4
+    },
+    {
+      "townHallLevel": 8,
+      "count": 4
+    },
+    {
+      "townHallLevel": 9,
+      "count": 4
+    },
+    {
+      "townHallLevel": 10,
+      "count": 4
+    },
+    {
+      "townHallLevel": 11,
+      "count": 4
+    },
+    {
+      "townHallLevel": 12,
+      "count": 4
+    },
+    {
+      "townHallLevel": 13,
+      "count": 4
+    },
+    {
+      "townHallLevel": 14,
+      "count": 4
+    },
+    {
+      "townHallLevel": 15,
+      "count": 4
+    },
+    {
+      "townHallLevel": 16,
+      "count": 4
+    },
+    {
+      "townHallLevel": 17,
+      "count": 4
+    },
+    {
+      "townHallLevel": 18,
+      "count": 4
+    }
   ],
   "levels": [
     {
@@ -32,10 +87,17 @@
       "housingSpace": 20,
       "buildCost": 200,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 1, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 0
+      },
       "xpGained": 7,
       "townHallRequired": 1,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -43,10 +105,17 @@
       "housingSpace": 30,
       "buildCost": 2000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 5, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0
+      },
       "xpGained": 17,
       "townHallRequired": 2,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -54,10 +123,17 @@
       "housingSpace": 35,
       "buildCost": 10000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "xpGained": 42,
       "townHallRequired": 3,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -65,10 +141,17 @@
       "housingSpace": 40,
       "buildCost": 100000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 84,
       "townHallRequired": 4,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -76,10 +159,17 @@
       "housingSpace": 45,
       "buildCost": 250000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 146,
       "townHallRequired": 5,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -87,10 +177,17 @@
       "housingSpace": 50,
       "buildCost": 500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 6,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-6.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -98,10 +195,17 @@
       "housingSpace": 55,
       "buildCost": 1500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 9,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-7.png"
+      }
     },
     {
       "level": 8,
@@ -109,10 +213,17 @@
       "housingSpace": 60,
       "buildCost": 2500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 10,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-8.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -120,10 +231,17 @@
       "housingSpace": 65,
       "buildCost": 4200000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 549,
       "townHallRequired": 11,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-9.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-9.png"
+      }
     },
     {
       "level": 10,
@@ -131,10 +249,17 @@
       "housingSpace": 70,
       "buildCost": 4500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 12,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-10.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -142,10 +267,17 @@
       "housingSpace": 75,
       "buildCost": 7500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "townHallRequired": 13,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-11.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-11.png"
+      }
     },
     {
       "level": 12,
@@ -153,10 +285,17 @@
       "housingSpace": 80,
       "buildCost": 10000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 15,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-12.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -164,10 +303,17 @@
       "housingSpace": 85,
       "buildCost": 17000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 929,
       "townHallRequired": 17,
-      "images": { "normal": "images/home/army-buildings/army-camp/normal/level-13.png" }
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-13.png"
+      }
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "id": "log-launcher",
+  "dataId": 4000087,
   "name": "Log Launcher",
   "description": "While the Log Launcher certainly isn't the fastest or the sturdiest, it is definitely among the meanest. The trunk-throwing contraption pummels everything in front of it with endless logs to open up a path to the enemy Town Hall. Immune to spell effects.",
   "base": "home",

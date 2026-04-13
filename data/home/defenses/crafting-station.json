@@ -1,5 +1,6 @@
 {
   "id": "crafting-station",
+  "dataId": 1000097,
   "name": "Crafting Station",
   "description": "A mysterious machine that can be loaded with one of three powerful crafted defenses. Swap freely between them, then upgrade each one's three modules to make them even stronger!",
   "base": "home",
@@ -7,18 +8,32 @@
   "size": "3x3",
   "targetType": "both",
   "modes": {},
-  "availablePerTownHall": [{ "townHallLevel": 18, "count": 1 }],
+  "availablePerTownHall": [
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
+  ],
   "levels": [
     {
       "level": 1,
       "hitpoints": 1000,
       "buildCost": 0,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 18,
-      "stats": { "normal": {} },
-      "images": { "normal": "images/home/defenses/crafting-station/normal/level-1.png" }
+      "stats": {
+        "normal": {}
+      },
+      "images": {
+        "normal": "images/home/defenses/crafting-station/normal/level-1.png"
+      }
     }
   ]
 }

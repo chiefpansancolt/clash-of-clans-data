@@ -1,5 +1,6 @@
 {
   "id": "builder-hall",
+  "dataId": 1000034,
   "name": "Builder Hall",
   "base": "builder",
   "category": "builder-hall",
@@ -11,100 +12,170 @@
       "hitpoints": 650,
       "buildCost": 0,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "maxBuildings": 0,
-      "images": { "normal": "images/builder/builder-hall/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 800,
       "buildCost": 3500,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 5 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5
+      },
       "xpGained": 2,
       "maxBuildings": 10,
-      "images": { "normal": "images/builder/builder-hall/normal/level-2.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 975,
       "buildCost": 30000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 60,
       "maxBuildings": 18,
-      "images": { "normal": "images/builder/builder-hall/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 1150,
       "buildCost": 200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "maxBuildings": 23,
-      "images": { "normal": "images/builder/builder-hall/normal/level-4.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-4.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 1350,
       "buildCost": 400000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "maxBuildings": 27,
-      "images": { "normal": "images/builder/builder-hall/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-5.png"
+      }
     },
     {
       "level": 6,
       "hitpoints": 1600,
       "buildCost": 1200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "maxBuildings": 39,
-      "images": { "normal": "images/builder/builder-hall/normal/level-6.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-6.png"
+      }
     },
     {
       "level": 7,
       "hitpoints": 1850,
       "buildCost": 1800000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "maxBuildings": 44,
-      "images": { "normal": "images/builder/builder-hall/normal/level-7.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-7.png"
+      }
     },
     {
       "level": 8,
       "hitpoints": 2150,
       "buildCost": 2800000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "maxBuildings": 50,
-      "images": { "normal": "images/builder/builder-hall/normal/level-8.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-8.png"
+      }
     },
     {
       "level": 9,
       "hitpoints": 2450,
       "buildCost": 3800000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "maxBuildings": 54,
-      "images": { "normal": "images/builder/builder-hall/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-9.png"
+      }
     },
     {
       "level": 10,
       "hitpoints": 2750,
       "buildCost": 4800000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "maxBuildings": 55,
-      "images": { "normal": "images/builder/builder-hall/normal/level-10.png" }
+      "images": {
+        "normal": "images/builder/builder-hall/normal/level-10.png"
+      }
     }
   ]
 }

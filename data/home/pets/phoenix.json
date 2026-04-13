@@ -1,5 +1,6 @@
 {
   "id": "phoenix",
+  "dataId": 73000004,
   "name": "Phoenix",
   "description": "A true friend will egg you on when things get rough. Phoenix starts the battle as a helpless egg, but at the moment her Hero might go down, she hatches. The furious fiery fowl then gives temporary invulnerability to its Hero and engages nearby enemies.",
   "base": "home",
@@ -28,7 +29,12 @@
       "townHallRequired": 15,
       "upgradeCost": 0,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -40,7 +46,12 @@
       "townHallRequired": 15,
       "upgradeCost": 80000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -52,7 +63,12 @@
       "townHallRequired": 15,
       "upgradeCost": 95000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -64,7 +80,12 @@
       "townHallRequired": 15,
       "upgradeCost": 110000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -76,7 +97,12 @@
       "townHallRequired": 15,
       "upgradeCost": 125000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 6,
@@ -88,7 +114,12 @@
       "townHallRequired": 15,
       "upgradeCost": 140000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 7,
@@ -100,7 +131,12 @@
       "townHallRequired": 15,
       "upgradeCost": 155000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 8,
@@ -112,7 +148,12 @@
       "townHallRequired": 15,
       "upgradeCost": 170000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 9,
@@ -124,7 +165,12 @@
       "townHallRequired": 15,
       "upgradeCost": 180000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 10,
@@ -136,7 +182,12 @@
       "townHallRequired": 15,
       "upgradeCost": 190000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

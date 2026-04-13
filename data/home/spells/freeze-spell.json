@@ -1,5 +1,6 @@
 {
   "id": "freeze-spell",
+  "dataId": 26000005,
   "name": "Freeze Spell",
   "description": "When the going gets hot, stay frosty! The Freeze Spell sends out a cryogenic blast that temporarily immobilizes enemy troops and disables defensive buildings within its radius.",
   "base": "home",
@@ -33,7 +34,7 @@
     },
     {
       "level": 2,
-      "spellDuration": 3.0,
+      "spellDuration": 3,
       "laboratoryRequired": 7,
       "townHallRequired": 9,
       "researchCost": 1200000,
@@ -61,7 +62,7 @@
     },
     {
       "level": 4,
-      "spellDuration": 4.0,
+      "spellDuration": 4,
       "laboratoryRequired": 8,
       "townHallRequired": 10,
       "researchCost": 3000000,
@@ -89,7 +90,7 @@
     },
     {
       "level": 6,
-      "spellDuration": 5.0,
+      "spellDuration": 5,
       "laboratoryRequired": 9,
       "townHallRequired": 11,
       "researchCost": 6000000,

@@ -1,5 +1,6 @@
 {
   "id": "healer-puppet",
+  "dataId": 90000020,
   "name": "Healer Puppet",
   "description": "Summons a flock of Healers",
   "base": "home",

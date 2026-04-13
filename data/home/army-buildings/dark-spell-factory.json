@@ -1,29 +1,84 @@
 {
   "id": "dark-spell-factory",
+  "dataId": 1000029,
   "name": "Dark Spell Factory",
   "description": "Only the most brilliant or reckless Master Wizards dabble in Dark Elixir brewery. Their compact Dark Spells require keen insight to master, but provide unique tactical advantages.",
   "base": "home",
   "category": "army",
   "size": "3x3",
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 0 },
-    { "townHallLevel": 2, "count": 0 },
-    { "townHallLevel": 3, "count": 0 },
-    { "townHallLevel": 4, "count": 0 },
-    { "townHallLevel": 5, "count": 0 },
-    { "townHallLevel": 6, "count": 0 },
-    { "townHallLevel": 7, "count": 0 },
-    { "townHallLevel": 8, "count": 1 },
-    { "townHallLevel": 9, "count": 1 },
-    { "townHallLevel": 10, "count": 1 },
-    { "townHallLevel": 11, "count": 1 },
-    { "townHallLevel": 12, "count": 1 },
-    { "townHallLevel": 13, "count": 1 },
-    { "townHallLevel": 14, "count": 1 },
-    { "townHallLevel": 15, "count": 1 },
-    { "townHallLevel": 16, "count": 1 },
-    { "townHallLevel": 17, "count": 1 },
-    { "townHallLevel": 18, "count": 1 }
+    {
+      "townHallLevel": 1,
+      "count": 0
+    },
+    {
+      "townHallLevel": 2,
+      "count": 0
+    },
+    {
+      "townHallLevel": 3,
+      "count": 0
+    },
+    {
+      "townHallLevel": 4,
+      "count": 0
+    },
+    {
+      "townHallLevel": 5,
+      "count": 0
+    },
+    {
+      "townHallLevel": 6,
+      "count": 0
+    },
+    {
+      "townHallLevel": 7,
+      "count": 0
+    },
+    {
+      "townHallLevel": 8,
+      "count": 1
+    },
+    {
+      "townHallLevel": 9,
+      "count": 1
+    },
+    {
+      "townHallLevel": 10,
+      "count": 1
+    },
+    {
+      "townHallLevel": 11,
+      "count": 1
+    },
+    {
+      "townHallLevel": 12,
+      "count": 1
+    },
+    {
+      "townHallLevel": 13,
+      "count": 1
+    },
+    {
+      "townHallLevel": 14,
+      "count": 1
+    },
+    {
+      "townHallLevel": 15,
+      "count": 1
+    },
+    {
+      "townHallLevel": 16,
+      "count": 1
+    },
+    {
+      "townHallLevel": 17,
+      "count": 1
+    },
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -33,10 +88,17 @@
       "spellStorageCapacity": 1,
       "buildCost": 130000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 146,
       "townHallRequired": 8,
-      "images": { "normal": "images/home/army-buildings/dark-spell-factory/normal/level-1.png" }
+      "images": {
+        "normal": "images/home/army-buildings/dark-spell-factory/normal/level-1.png"
+      }
     },
     {
       "level": 2,
@@ -45,10 +107,17 @@
       "spellStorageCapacity": 1,
       "buildCost": 260000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 8,
-      "images": { "normal": "images/home/army-buildings/dark-spell-factory/normal/level-2.png" }
+      "images": {
+        "normal": "images/home/army-buildings/dark-spell-factory/normal/level-2.png"
+      }
     },
     {
       "level": 3,
@@ -57,10 +126,17 @@
       "spellStorageCapacity": 1,
       "buildCost": 600000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 9,
-      "images": { "normal": "images/home/army-buildings/dark-spell-factory/normal/level-3.png" }
+      "images": {
+        "normal": "images/home/army-buildings/dark-spell-factory/normal/level-3.png"
+      }
     },
     {
       "level": 4,
@@ -69,10 +145,17 @@
       "spellStorageCapacity": 1,
       "buildCost": 1200000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 9,
-      "images": { "normal": "images/home/army-buildings/dark-spell-factory/normal/level-4.png" }
+      "images": {
+        "normal": "images/home/army-buildings/dark-spell-factory/normal/level-4.png"
+      }
     },
     {
       "level": 5,
@@ -81,10 +164,17 @@
       "spellStorageCapacity": 1,
       "buildCost": 2500000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "townHallRequired": 10,
-      "images": { "normal": "images/home/army-buildings/dark-spell-factory/normal/level-5.png" }
+      "images": {
+        "normal": "images/home/army-buildings/dark-spell-factory/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -93,10 +183,17 @@
       "spellStorageCapacity": 1,
       "buildCost": 4000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 12,
-      "images": { "normal": "images/home/army-buildings/dark-spell-factory/normal/level-6.png" }
+      "images": {
+        "normal": "images/home/army-buildings/dark-spell-factory/normal/level-6.png"
+      }
     },
     {
       "level": 7,
@@ -105,10 +202,17 @@
       "spellStorageCapacity": 1,
       "buildCost": 11000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 14,
-      "images": { "normal": "images/home/army-buildings/dark-spell-factory/normal/level-7.png" }
+      "images": {
+        "normal": "images/home/army-buildings/dark-spell-factory/normal/level-7.png"
+      }
     }
   ]
 }

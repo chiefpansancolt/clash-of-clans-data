@@ -1,5 +1,6 @@
 {
   "id": "lava-hound",
+  "dataId": 4000017,
   "name": "Lava Hound",
   "base": "home",
   "category": "troop",

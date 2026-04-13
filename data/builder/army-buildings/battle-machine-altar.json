@@ -1,21 +1,52 @@
 {
   "id": "battle-machine-altar",
+  "dataId": 1000053,
   "name": "Battle Machine Altar",
   "description": "The Master Builder's prize invention smashes enemy buildings to bits. What better way is there to show who's the best builder around? Unlock the Electric Hammer ability to give opponents a real pounding!",
   "base": "builder",
   "category": "army",
   "size": "3x3",
   "availablePerBuilderHall": [
-    { "builderHallLevel": 1, "count": 0 },
-    { "builderHallLevel": 2, "count": 0 },
-    { "builderHallLevel": 3, "count": 0 },
-    { "builderHallLevel": 4, "count": 0 },
-    { "builderHallLevel": 5, "count": 1 },
-    { "builderHallLevel": 6, "count": 1 },
-    { "builderHallLevel": 7, "count": 1 },
-    { "builderHallLevel": 8, "count": 1 },
-    { "builderHallLevel": 9, "count": 1 },
-    { "builderHallLevel": 10, "count": 1 }
+    {
+      "builderHallLevel": 1,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 2,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -24,7 +55,12 @@
       "housingSpace": 0,
       "buildCost": 900000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "builderHallRequired": 5,
       "images": {

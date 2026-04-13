@@ -1,5 +1,6 @@
 {
   "id": "electro-boots",
+  "dataId": 90000040,
   "name": "Electro Boots",
   "description": "Periodically damages everything around the Royal Champion",
   "base": "home",

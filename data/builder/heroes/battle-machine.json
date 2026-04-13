@@ -1,5 +1,6 @@
 {
   "id": "battle-machine",
+  "dataId": 28000003,
   "name": "Battle Machine",
   "description": "The Master Builder's prize invention smashes enemy buildings to bits. What better way is there to show who's the best builder around? Unlock the Electric Hammer ability to give opponents a real pounding!",
   "base": "builder",
@@ -219,7 +220,12 @@
       "builderHallLevelRequired": 5,
       "upgradeCost": 900000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -230,7 +236,12 @@
       "builderHallLevelRequired": 5,
       "upgradeCost": 1000000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -241,7 +252,12 @@
       "builderHallLevelRequired": 5,
       "upgradeCost": 1100000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -252,7 +268,12 @@
       "builderHallLevelRequired": 5,
       "upgradeCost": 1200000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -263,7 +284,12 @@
       "builderHallLevelRequired": 5,
       "upgradeCost": 1300000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 6,
@@ -274,7 +300,12 @@
       "builderHallLevelRequired": 6,
       "upgradeCost": 1500000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 7,
@@ -285,7 +316,12 @@
       "builderHallLevelRequired": 6,
       "upgradeCost": 1600000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 8,
@@ -296,7 +332,12 @@
       "builderHallLevelRequired": 6,
       "upgradeCost": 1700000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 9,
@@ -307,7 +348,12 @@
       "builderHallLevelRequired": 6,
       "upgradeCost": 1800000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 10,
@@ -318,7 +364,12 @@
       "builderHallLevelRequired": 6,
       "upgradeCost": 1900000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 11,
@@ -329,7 +380,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 2100000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 12,
@@ -340,7 +396,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 2200000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 13,
@@ -351,7 +412,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 2300000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 14,
@@ -362,7 +428,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 2400000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 15,
@@ -373,7 +444,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 2500000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 16,
@@ -384,7 +460,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 2600000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 17,
@@ -395,7 +476,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 2700000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 18,
@@ -406,7 +492,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 2800000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 19,
@@ -417,7 +508,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 2900000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 20,
@@ -428,7 +524,12 @@
       "builderHallLevelRequired": 7,
       "upgradeCost": 3000000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 21,
@@ -439,7 +540,12 @@
       "builderHallLevelRequired": 8,
       "upgradeCost": 3100000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 22,
@@ -450,7 +556,12 @@
       "builderHallLevelRequired": 8,
       "upgradeCost": 3200000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 23,
@@ -461,7 +572,12 @@
       "builderHallLevelRequired": 8,
       "upgradeCost": 3300000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 24,
@@ -472,7 +588,12 @@
       "builderHallLevelRequired": 8,
       "upgradeCost": 3400000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 25,
@@ -483,7 +604,12 @@
       "builderHallLevelRequired": 8,
       "upgradeCost": 3500000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 26,
@@ -494,7 +620,12 @@
       "builderHallLevelRequired": 9,
       "upgradeCost": 3600000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 27,
@@ -505,7 +636,12 @@
       "builderHallLevelRequired": 9,
       "upgradeCost": 3700000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 28,
@@ -516,7 +652,12 @@
       "builderHallLevelRequired": 9,
       "upgradeCost": 3800000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 29,
@@ -527,7 +668,12 @@
       "builderHallLevelRequired": 9,
       "upgradeCost": 3900000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 30,
@@ -538,7 +684,12 @@
       "builderHallLevelRequired": 9,
       "upgradeCost": 4000000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 31,
@@ -549,7 +700,12 @@
       "builderHallLevelRequired": 10,
       "upgradeCost": 4100000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 32,
@@ -560,7 +716,12 @@
       "builderHallLevelRequired": 10,
       "upgradeCost": 4200000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 33,
@@ -571,7 +732,12 @@
       "builderHallLevelRequired": 10,
       "upgradeCost": 4300000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 34,
@@ -582,7 +748,12 @@
       "builderHallLevelRequired": 10,
       "upgradeCost": 4400000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 35,
@@ -593,7 +764,12 @@
       "builderHallLevelRequired": 10,
       "upgradeCost": 4500000,
       "upgradeCostResource": "Builder Elixir",
-      "upgradeTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "id": "lavaloon-puppet",
+  "dataId": 90000041,
   "name": "Lavaloon Puppet",
   "base": "home",
   "category": "hero-equipment",

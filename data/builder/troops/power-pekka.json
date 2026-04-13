@@ -1,5 +1,6 @@
 {
   "id": "power-pekka",
+  "dataId": 4000036,
   "name": "Power P.E.K.K.A",
   "description": "Unstable energy radiates from this powerful suit of dark armor, waiting to be unleashed!",
   "base": "builder",
@@ -22,9 +23,16 @@
       "unitsPerCamp": 1,
       "researchCost": 0,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 0,
-      "images": { "normal": "images/builder/troops/power-pekka/normal/level-13.png" }
+      "images": {
+        "normal": "images/builder/troops/power-pekka/normal/level-13.png"
+      }
     },
     {
       "level": 14,
@@ -35,9 +43,16 @@
       "unitsPerCamp": 1,
       "researchCost": 3600000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/power-pekka/normal/level-14.png" }
+      "images": {
+        "normal": "images/builder/troops/power-pekka/normal/level-14.png"
+      }
     },
     {
       "level": 15,
@@ -48,9 +63,16 @@
       "unitsPerCamp": 1,
       "researchCost": 3800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/power-pekka/normal/level-14.png" }
+      "images": {
+        "normal": "images/builder/troops/power-pekka/normal/level-14.png"
+      }
     },
     {
       "level": 16,
@@ -61,9 +83,16 @@
       "unitsPerCamp": 1,
       "researchCost": 4000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/power-pekka/normal/level-16.png" }
+      "images": {
+        "normal": "images/builder/troops/power-pekka/normal/level-16.png"
+      }
     },
     {
       "level": 17,
@@ -74,9 +103,16 @@
       "unitsPerCamp": 1,
       "researchCost": 4600000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/power-pekka/normal/level-16.png" }
+      "images": {
+        "normal": "images/builder/troops/power-pekka/normal/level-16.png"
+      }
     },
     {
       "level": 18,
@@ -87,9 +123,16 @@
       "unitsPerCamp": 1,
       "researchCost": 4800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/power-pekka/normal/level-18.png" }
+      "images": {
+        "normal": "images/builder/troops/power-pekka/normal/level-18.png"
+      }
     },
     {
       "level": 19,
@@ -100,9 +143,16 @@
       "unitsPerCamp": 1,
       "researchCost": 5600000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/power-pekka/normal/level-18.png" }
+      "images": {
+        "normal": "images/builder/troops/power-pekka/normal/level-18.png"
+      }
     },
     {
       "level": 20,
@@ -113,9 +163,16 @@
       "unitsPerCamp": 1,
       "researchCost": 5800000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/power-pekka/normal/level-20.png" }
+      "images": {
+        "normal": "images/builder/troops/power-pekka/normal/level-20.png"
+      }
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "id": "mine",
+  "dataId": 12000014,
   "name": "Mine",
   "description": "Plan an explosive surprise for troops that get too close. Choose air or ground!",
   "base": "builder",
@@ -9,16 +10,46 @@
   "damageRadius": 5,
   "targetType": "both",
   "availablePerBuilderHall": [
-    { "builderHallLevel": 1, "count": 0 },
-    { "builderHallLevel": 2, "count": 0 },
-    { "builderHallLevel": 3, "count": 2 },
-    { "builderHallLevel": 4, "count": 3 },
-    { "builderHallLevel": 5, "count": 4 },
-    { "builderHallLevel": 6, "count": 5 },
-    { "builderHallLevel": 7, "count": 5 },
-    { "builderHallLevel": 8, "count": 5 },
-    { "builderHallLevel": 9, "count": 5 },
-    { "builderHallLevel": 10, "count": 6 }
+    {
+      "builderHallLevel": 1,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 2,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 3
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 4
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 5
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 5
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 5
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 5
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 6
+    }
   ],
   "levels": [
     {
@@ -26,7 +57,12 @@
       "damage": 80,
       "buildCost": 5000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "builderHallRequired": 3,
       "images": {
@@ -39,7 +75,12 @@
       "damage": 90,
       "buildCost": 10000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "xpGained": 42,
       "builderHallRequired": 3,
       "images": {
@@ -52,7 +93,12 @@
       "damage": 100,
       "buildCost": 15000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 60,
       "builderHallRequired": 3,
       "images": {
@@ -65,7 +111,12 @@
       "damage": 110,
       "buildCost": 25000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 84,
       "builderHallRequired": 4,
       "images": {
@@ -78,7 +129,12 @@
       "damage": 120,
       "buildCost": 50000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 146,
       "builderHallRequired": 5,
       "images": {
@@ -91,7 +147,12 @@
       "damage": 130,
       "buildCost": 80000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "builderHallRequired": 6,
       "images": {
@@ -104,7 +165,12 @@
       "damage": 140,
       "buildCost": 120000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "builderHallRequired": 7,
       "images": {
@@ -117,7 +183,12 @@
       "damage": 150,
       "buildCost": 250000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 360,
       "builderHallRequired": 8,
       "images": {
@@ -130,7 +201,12 @@
       "damage": 165,
       "buildCost": 500000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 9,
       "images": {
@@ -143,7 +219,12 @@
       "damage": 180,
       "buildCost": 1500000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 464,
       "builderHallRequired": 10,
       "images": {

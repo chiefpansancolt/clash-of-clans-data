@@ -1,5 +1,6 @@
 {
   "id": "eternal-tome",
+  "dataId": 90000004,
   "name": "Eternal Tome",
   "description": "Grand Warden and all nearby friendly units become immune to damage",
   "base": "home",

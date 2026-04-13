@@ -1,5 +1,6 @@
 {
   "id": "valkyrie",
+  "dataId": 4000012,
   "name": "Valkyrie",
   "description": "A master of the two-handed axe, this glorious warrior runs between nearby buildings and can shred several troops or buildings at once with her whirlwind blow!",
   "base": "home",

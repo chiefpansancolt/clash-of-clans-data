@@ -1,5 +1,6 @@
 {
   "id": "revive-spell",
+  "dataId": 26000098,
   "name": "Revive Spell",
   "description": "The Healer's own special recipe! The Revive Spell brings a defeated Hero in its range back into the fight with some health. Bring this Spell into battle, and a floating golden heart will appear above any defeated Hero that can be revived. Upgrade the Revive Spell to increase the amount of health Heroes regain.",
   "base": "home",

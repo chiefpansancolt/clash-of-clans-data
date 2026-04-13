@@ -1,5 +1,6 @@
 {
   "id": "sneezy",
+  "dataId": 73000016,
   "name": "Sneezy",
   "description": "Her nose is blocked and loaded! Sneezy hangs behind her Hero due to allergies and sneezes tanky air Boogers that target Buildings. She goes on attack when her Hero falls!",
   "base": "home",
@@ -29,7 +30,12 @@
       "townHallRequired": 17,
       "upgradeCost": 0,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 2,
@@ -40,7 +46,12 @@
       "townHallRequired": 17,
       "upgradeCost": 200000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 3,
@@ -51,7 +62,12 @@
       "townHallRequired": 17,
       "upgradeCost": 220000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 4,
@@ -62,7 +78,12 @@
       "townHallRequired": 17,
       "upgradeCost": 240000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 5,
@@ -73,7 +94,12 @@
       "townHallRequired": 17,
       "upgradeCost": 260000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 6,
@@ -84,7 +110,12 @@
       "townHallRequired": 17,
       "upgradeCost": 280000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 7,
@@ -95,7 +126,12 @@
       "townHallRequired": 17,
       "upgradeCost": 300000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 8,
@@ -106,7 +142,12 @@
       "townHallRequired": 17,
       "upgradeCost": 320000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 9,
@@ -117,7 +158,12 @@
       "townHallRequired": 17,
       "upgradeCost": 340000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     },
     {
       "level": 10,
@@ -128,7 +174,12 @@
       "townHallRequired": 17,
       "upgradeCost": 360000,
       "upgradeCostResource": "Dark Elixir",
-      "upgradeTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 }
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

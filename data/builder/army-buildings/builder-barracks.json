@@ -1,21 +1,52 @@
 {
   "id": "builder-barracks",
+  "dataId": 1000040,
   "name": "Builder Barracks",
   "description": "The Builder Barracks trains troops for Builder Battles! You can also quickly swap troops immediately before attacking. Upgrade the Builder Barracks to unlock more troop types!",
   "base": "builder",
   "category": "army",
   "size": "3x3",
   "availablePerBuilderHall": [
-    { "builderHallLevel": 1, "count": 1 },
-    { "builderHallLevel": 2, "count": 1 },
-    { "builderHallLevel": 3, "count": 1 },
-    { "builderHallLevel": 4, "count": 1 },
-    { "builderHallLevel": 5, "count": 1 },
-    { "builderHallLevel": 6, "count": 1 },
-    { "builderHallLevel": 7, "count": 1 },
-    { "builderHallLevel": 8, "count": 1 },
-    { "builderHallLevel": 9, "count": 1 },
-    { "builderHallLevel": 10, "count": 1 }
+    {
+      "builderHallLevel": 1,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 2,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -24,7 +55,12 @@
       "hitpoints": 300,
       "buildCost": 0,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "builderHallRequired": 1,
       "images": {
@@ -37,7 +73,12 @@
       "hitpoints": 350,
       "buildCost": 4000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 1, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 0
+      },
       "xpGained": 7,
       "builderHallRequired": 2,
       "images": {
@@ -50,7 +91,12 @@
       "hitpoints": 400,
       "buildCost": 10000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 10, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      },
       "xpGained": 24,
       "builderHallRequired": 3,
       "images": {
@@ -63,7 +109,12 @@
       "hitpoints": 460,
       "buildCost": 25000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "xpGained": 42,
       "builderHallRequired": 3,
       "images": {
@@ -76,7 +127,12 @@
       "hitpoints": 550,
       "buildCost": 100000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 103,
       "builderHallRequired": 4,
       "images": {
@@ -89,7 +145,12 @@
       "hitpoints": 650,
       "buildCost": 150000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 146,
       "builderHallRequired": 4,
       "images": {
@@ -102,7 +163,12 @@
       "hitpoints": 750,
       "buildCost": 300000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 9, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 9,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 180,
       "builderHallRequired": 5,
       "images": {
@@ -115,7 +181,12 @@
       "hitpoints": 850,
       "buildCost": 500000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "builderHallRequired": 6,
       "images": {
@@ -128,7 +199,12 @@
       "hitpoints": 1000,
       "buildCost": 1000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 7,
       "images": {
@@ -141,7 +217,12 @@
       "hitpoints": 1150,
       "buildCost": 1500000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "builderHallRequired": 8,
       "images": {
@@ -154,7 +235,12 @@
       "hitpoints": 1300,
       "buildCost": 2000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "builderHallRequired": 9,
       "images": {
@@ -167,7 +253,12 @@
       "hitpoints": 1450,
       "buildCost": 3000000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "builderHallRequired": 10,
       "images": {

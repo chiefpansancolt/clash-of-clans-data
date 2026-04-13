@@ -1,5 +1,6 @@
 {
   "id": "battle-copter-altar",
+  "dataId": 1000080,
   "name": "Battle Copter Altar",
   "description": "Get to the Copter! Tired of hammering through Walls, Master Builder's next-generation flying machine lets him soar over them. The Battle Copter attacks from afar with its powerful cannons; or can get up close and personal when using its Bomb Rush ability.",
   "base": "builder",
@@ -7,16 +8,46 @@
   "size": "3x3",
   "housingSpace": 0,
   "availablePerBuilderHall": [
-    { "builderHallLevel": 1, "count": 0 },
-    { "builderHallLevel": 2, "count": 0 },
-    { "builderHallLevel": 3, "count": 0 },
-    { "builderHallLevel": 4, "count": 0 },
-    { "builderHallLevel": 5, "count": 0 },
-    { "builderHallLevel": 6, "count": 0 },
-    { "builderHallLevel": 7, "count": 0 },
-    { "builderHallLevel": 8, "count": 1 },
-    { "builderHallLevel": 9, "count": 1 },
-    { "builderHallLevel": 10, "count": 1 }
+    {
+      "builderHallLevel": 1,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 2,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -24,7 +55,12 @@
       "hitpoints": 250,
       "buildCost": 2500000,
       "buildCostResource": "Builder Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "builderHallRequired": 8,
       "images": {

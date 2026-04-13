@@ -1,5 +1,6 @@
 {
   "id": "life-gem",
+  "dataId": 90000005,
   "name": "Life Gem",
   "description": "Nearby friendly units gain extra hitpoints",
   "base": "home",

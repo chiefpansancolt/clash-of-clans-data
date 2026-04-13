@@ -1,5 +1,6 @@
 {
   "id": "skeleton-spell",
+  "dataId": 26000017,
   "name": "Skeleton Spell",
   "description": "Summon an army of Skeletons anywhere on the battlefield! Put a few extra swords when and where you need them most. Skeletons do not trigger traps.",
   "base": "home",

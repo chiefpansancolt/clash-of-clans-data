@@ -1,5 +1,6 @@
 {
   "id": "bowler",
+  "dataId": 4000022,
   "name": "Bowler",
   "description": "This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders bounce off of their target and hit again behind it for a double strike!",
   "base": "home",

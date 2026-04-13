@@ -1,5 +1,6 @@
 {
   "id": "rocket-backpack",
+  "dataId": 90000053,
   "name": "Rocket Backpack",
   "description": "Dashes across the center of the village breathing Fire and avoiding attacks",
   "base": "home",

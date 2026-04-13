@@ -1,5 +1,6 @@
 {
   "id": "furnace",
+  "dataId": 4000150,
   "name": "Furnace",
   "description": "The Furnace doesn't move, but it does spawn Firemites over time that target Buildings. These curious little guys leave pools of fire where they visit!",
   "base": "home",

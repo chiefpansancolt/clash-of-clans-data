@@ -1,5 +1,6 @@
 {
   "id": "frozen-arrow",
+  "dataId": 90000015,
   "name": "Frozen Arrow",
   "description": "Icy arrows slow down the targets they hit",
   "base": "home",

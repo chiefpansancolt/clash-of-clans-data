@@ -1,21 +1,52 @@
 {
   "id": "elixir-storage",
+  "dataId": 1000036,
   "name": "Elixir Storage",
   "description": "These storages contain the elixir pumped from underground. Upgrade them to increase the maximum amount of elixir you can store.",
   "base": "builder",
   "category": "resource",
   "size": "3x3",
   "availablePerBuilderHall": [
-    { "builderHallLevel": 1, "count": 0 },
-    { "builderHallLevel": 2, "count": 0 },
-    { "builderHallLevel": 3, "count": 1 },
-    { "builderHallLevel": 4, "count": 1 },
-    { "builderHallLevel": 5, "count": 2 },
-    { "builderHallLevel": 6, "count": 2 },
-    { "builderHallLevel": 7, "count": 2 },
-    { "builderHallLevel": 8, "count": 2 },
-    { "builderHallLevel": 9, "count": 2 },
-    { "builderHallLevel": 10, "count": 2 }
+    {
+      "builderHallLevel": 1,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 2,
+      "count": 0
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 2
+    }
   ],
   "levels": [
     {
@@ -24,7 +55,12 @@
       "capacity": 70000,
       "buildCost": 20000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 30, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
       "xpGained": 42,
       "builderHallRequired": 3,
       "images": {
@@ -37,7 +73,12 @@
       "capacity": 150000,
       "buildCost": 80000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 60,
       "builderHallRequired": 3,
       "images": {
@@ -50,7 +91,12 @@
       "capacity": 250000,
       "buildCost": 200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 103,
       "builderHallRequired": 3,
       "images": {
@@ -63,7 +109,12 @@
       "capacity": 350000,
       "buildCost": 300000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 6, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 146,
       "builderHallRequired": 4,
       "images": {
@@ -76,7 +127,12 @@
       "capacity": 600000,
       "buildCost": 600000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "builderHallRequired": 5,
       "images": {
@@ -89,7 +145,12 @@
       "capacity": 800000,
       "buildCost": 1000000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "builderHallRequired": 6,
       "images": {
@@ -102,7 +163,12 @@
       "capacity": 1200000,
       "buildCost": 1500000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 7,
       "images": {
@@ -115,7 +181,12 @@
       "capacity": 1600000,
       "buildCost": 2000000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "builderHallRequired": 8,
       "images": {
@@ -128,7 +199,12 @@
       "capacity": 2000000,
       "buildCost": 2500000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "builderHallRequired": 9,
       "images": {
@@ -141,7 +217,12 @@
       "capacity": 2500000,
       "buildCost": 3200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "builderHallRequired": 10,
       "images": {

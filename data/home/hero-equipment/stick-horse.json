@@ -1,5 +1,6 @@
 {
   "id": "stick-horse",
+  "dataId": 90000051,
   "name": "Stick Horse",
   "description": "Gallop over walls and get increased movement and attack speed after being deployed",
   "base": "home",

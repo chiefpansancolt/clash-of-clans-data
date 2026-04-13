@@ -1,5 +1,6 @@
 {
   "id": "lava-launcher",
+  "dataId": 1000063,
   "name": "Lava Launcher",
   "description": "Hurls molten rock over great distances. Sets the ground on fire, which really turns up the heat for enemy ground troops!",
   "base": "builder",
@@ -19,8 +20,14 @@
     }
   },
   "availablePerBuilderHall": [
-    { "builderHallLevel": 9, "count": 1 },
-    { "builderHallLevel": 10, "count": 1 }
+    {
+      "builderHallLevel": 9,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -28,7 +35,12 @@
       "hitpoints": 500,
       "buildCost": 3000000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 9,
       "stats": {
@@ -40,14 +52,21 @@
           "burnDamagePerTick": 6
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-1.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 575,
       "buildCost": 3100000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "builderHallRequired": 9,
       "stats": {
@@ -59,14 +78,21 @@
           "burnDamagePerTick": 7
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-2.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 660,
       "buildCost": 3200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "builderHallRequired": 9,
       "stats": {
@@ -78,14 +104,21 @@
           "burnDamagePerTick": 8
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-3.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 760,
       "buildCost": 3400000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "builderHallRequired": 9,
       "stats": {
@@ -97,14 +130,21 @@
           "burnDamagePerTick": 9
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-4.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-4.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 875,
       "buildCost": 3700000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "builderHallRequired": 9,
       "stats": {
@@ -116,14 +156,21 @@
           "burnDamagePerTick": 10
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-5.png"
+      }
     },
     {
       "level": 6,
       "hitpoints": 1050,
       "buildCost": 4000000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "builderHallRequired": 9,
       "stats": {
@@ -135,14 +182,21 @@
           "burnDamagePerTick": 11
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-6.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-6.png"
+      }
     },
     {
       "level": 7,
       "hitpoints": 1250,
       "buildCost": 4300000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "builderHallRequired": 9,
       "stats": {
@@ -154,14 +208,21 @@
           "burnDamagePerTick": 12
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-7.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-7.png"
+      }
     },
     {
       "level": 8,
       "hitpoints": 1450,
       "buildCost": 4600000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 929,
       "builderHallRequired": 9,
       "stats": {
@@ -173,14 +234,21 @@
           "burnDamagePerTick": 13
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-8.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-8.png"
+      }
     },
     {
       "level": 9,
       "hitpoints": 1650,
       "buildCost": 4900000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 974,
       "builderHallRequired": 9,
       "stats": {
@@ -192,14 +260,21 @@
           "burnDamagePerTick": 14
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-9.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-9.png"
+      }
     },
     {
       "level": 10,
       "hitpoints": 1850,
       "buildCost": 5900000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 12,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1018,
       "builderHallRequired": 10,
       "stats": {
@@ -211,7 +286,9 @@
           "burnDamagePerTick": 15
         }
       },
-      "images": { "normal": "images/builder/defenses/lava-launcher/normal/level-10.png" }
+      "images": {
+        "normal": "images/builder/defenses/lava-launcher/normal/level-10.png"
+      }
     }
   ]
 }

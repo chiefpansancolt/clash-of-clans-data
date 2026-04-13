@@ -1,5 +1,6 @@
 {
   "id": "giant-gauntlet",
+  "dataId": 90000010,
   "name": "Giant Gauntlet",
   "description": "Barbarian King becomes gigantic, doing area damage and taking less damage",
   "base": "home",

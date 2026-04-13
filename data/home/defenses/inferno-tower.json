@@ -1,5 +1,6 @@
 {
   "id": "inferno-tower",
+  "dataId": 1000027,
   "name": "Inferno Tower",
   "description": "Set the Inferno Tower's Dark Elixir fueled flame to build up unbelievable damage to single targets, or to constantly roast multiple targets at once.",
   "base": "home",
@@ -7,19 +8,54 @@
   "size": "2x2",
   "targetType": "both",
   "modes": {
-    "normal": { "range": 9, "attackSpeed": 0.128, "damageType": "single" },
-    "multiTarget": { "range": 10, "attackSpeed": 0.128, "damageType": "multiple" }
+    "normal": {
+      "range": 9,
+      "attackSpeed": 0.128,
+      "damageType": "single"
+    },
+    "multiTarget": {
+      "range": 10,
+      "attackSpeed": 0.128,
+      "damageType": "multiple"
+    }
   },
   "availablePerTownHall": [
-    { "townHallLevel": 10, "count": 2 },
-    { "townHallLevel": 11, "count": 2 },
-    { "townHallLevel": 12, "count": 3 },
-    { "townHallLevel": 13, "count": 3 },
-    { "townHallLevel": 14, "count": 3 },
-    { "townHallLevel": 15, "count": 3 },
-    { "townHallLevel": 16, "count": 3 },
-    { "townHallLevel": 17, "count": 3 },
-    { "townHallLevel": 18, "count": 3 }
+    {
+      "townHallLevel": 10,
+      "count": 2
+    },
+    {
+      "townHallLevel": 11,
+      "count": 2
+    },
+    {
+      "townHallLevel": 12,
+      "count": 3
+    },
+    {
+      "townHallLevel": 13,
+      "count": 3
+    },
+    {
+      "townHallLevel": 14,
+      "count": 3
+    },
+    {
+      "townHallLevel": 15,
+      "count": 3
+    },
+    {
+      "townHallLevel": 16,
+      "count": 3
+    },
+    {
+      "townHallLevel": 17,
+      "count": 3
+    },
+    {
+      "townHallLevel": 18,
+      "count": 3
+    }
   ],
   "levels": [
     {
@@ -27,12 +63,26 @@
       "hitpoints": 1500,
       "buildCost": 1000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 10,
       "stats": {
-        "normal": { "dps": 800, "damagePerShot": 102.4, "dpsInitial": 30, "dpsAfter1p5s": 80 },
-        "multiTarget": { "dps": 30, "damagePerShot": 3.84, "numberOfTargets": 5 }
+        "normal": {
+          "dps": 800,
+          "damagePerShot": 102.4,
+          "dpsInitial": 30,
+          "dpsAfter1p5s": 80
+        },
+        "multiTarget": {
+          "dps": 30,
+          "damagePerShot": 3.84,
+          "numberOfTargets": 5
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-1.png",
@@ -46,12 +96,26 @@
       "hitpoints": 1800,
       "buildCost": 1200000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "townHallRequired": 10,
       "stats": {
-        "normal": { "dps": 1000, "damagePerShot": 128, "dpsInitial": 35, "dpsAfter1p5s": 100 },
-        "multiTarget": { "dps": 35, "damagePerShot": 4.48, "numberOfTargets": 5 }
+        "normal": {
+          "dps": 1000,
+          "damagePerShot": 128,
+          "dpsInitial": 35,
+          "dpsAfter1p5s": 100
+        },
+        "multiTarget": {
+          "dps": 35,
+          "damagePerShot": 4.48,
+          "numberOfTargets": 5
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-2.png",
@@ -65,12 +129,26 @@
       "hitpoints": 2100,
       "buildCost": 2400000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 10,
       "stats": {
-        "normal": { "dps": 1200, "damagePerShot": 153.6, "dpsInitial": 40, "dpsAfter1p5s": 120 },
-        "multiTarget": { "dps": 40, "damagePerShot": 5.12, "numberOfTargets": 5 }
+        "normal": {
+          "dps": 1200,
+          "damagePerShot": 153.6,
+          "dpsInitial": 40,
+          "dpsAfter1p5s": 120
+        },
+        "multiTarget": {
+          "dps": 40,
+          "damagePerShot": 5.12,
+          "numberOfTargets": 5
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-3.png",
@@ -84,12 +162,26 @@
       "hitpoints": 2400,
       "buildCost": 3400000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 464,
       "townHallRequired": 11,
       "stats": {
-        "normal": { "dps": 1400, "damagePerShot": 179.2, "dpsInitial": 45, "dpsAfter1p5s": 140 },
-        "multiTarget": { "dps": 45, "damagePerShot": 5.76, "numberOfTargets": 5 }
+        "normal": {
+          "dps": 1400,
+          "damagePerShot": 179.2,
+          "dpsInitial": 45,
+          "dpsAfter1p5s": 140
+        },
+        "multiTarget": {
+          "dps": 45,
+          "damagePerShot": 5.76,
+          "numberOfTargets": 5
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-4.png",
@@ -103,12 +195,26 @@
       "hitpoints": 2700,
       "buildCost": 4200000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 11,
       "stats": {
-        "normal": { "dps": 1500, "damagePerShot": 192, "dpsInitial": 50, "dpsAfter1p5s": 150 },
-        "multiTarget": { "dps": 50, "damagePerShot": 6.4, "numberOfTargets": 5 }
+        "normal": {
+          "dps": 1500,
+          "damagePerShot": 192,
+          "dpsInitial": 50,
+          "dpsAfter1p5s": 150
+        },
+        "multiTarget": {
+          "dps": 50,
+          "damagePerShot": 6.4,
+          "numberOfTargets": 5
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-5.png",
@@ -122,12 +228,26 @@
       "hitpoints": 3000,
       "buildCost": 6000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 12,
       "stats": {
-        "normal": { "dps": 1600, "damagePerShot": 204.8, "dpsInitial": 55, "dpsAfter1p5s": 160 },
-        "multiTarget": { "dps": 55, "damagePerShot": 7.04, "numberOfTargets": 5 }
+        "normal": {
+          "dps": 1600,
+          "damagePerShot": 204.8,
+          "dpsInitial": 55,
+          "dpsAfter1p5s": 160
+        },
+        "multiTarget": {
+          "dps": 55,
+          "damagePerShot": 7.04,
+          "numberOfTargets": 5
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-6.png",
@@ -141,12 +261,26 @@
       "hitpoints": 3300,
       "buildCost": 8000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "townHallRequired": 13,
       "stats": {
-        "normal": { "dps": 1800, "damagePerShot": 230.4, "dpsInitial": 65, "dpsAfter1p5s": 180 },
-        "multiTarget": { "dps": 65, "damagePerShot": 8.32, "numberOfTargets": 5 }
+        "normal": {
+          "dps": 1800,
+          "damagePerShot": 230.4,
+          "dpsInitial": 65,
+          "dpsAfter1p5s": 180
+        },
+        "multiTarget": {
+          "dps": 65,
+          "damagePerShot": 8.32,
+          "numberOfTargets": 5
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-7.png",
@@ -160,12 +294,26 @@
       "hitpoints": 3700,
       "buildCost": 9500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 14,
       "stats": {
-        "normal": { "dps": 2100, "damagePerShot": 268.8, "dpsInitial": 80, "dpsAfter1p5s": 210 },
-        "multiTarget": { "dps": 80, "damagePerShot": 10.24, "numberOfTargets": 6 }
+        "normal": {
+          "dps": 2100,
+          "damagePerShot": 268.8,
+          "dpsInitial": 80,
+          "dpsAfter1p5s": 210
+        },
+        "multiTarget": {
+          "dps": 80,
+          "damagePerShot": 10.24,
+          "numberOfTargets": 6
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-8.png",
@@ -179,12 +327,26 @@
       "hitpoints": 4000,
       "buildCost": 10000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 749,
       "townHallRequired": 15,
       "stats": {
-        "normal": { "dps": 2300, "damagePerShot": 294.4, "dpsInitial": 100, "dpsAfter1p5s": 230 },
-        "multiTarget": { "dps": 100, "damagePerShot": 12.8, "numberOfTargets": 6 }
+        "normal": {
+          "dps": 2300,
+          "damagePerShot": 294.4,
+          "dpsInitial": 100,
+          "dpsAfter1p5s": 230
+        },
+        "multiTarget": {
+          "dps": 100,
+          "damagePerShot": 12.8,
+          "numberOfTargets": 6
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-9.png",
@@ -198,12 +360,26 @@
       "hitpoints": 4400,
       "buildCost": 11000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 16,
       "stats": {
-        "normal": { "dps": 2600, "damagePerShot": 332.8, "dpsInitial": 120, "dpsAfter1p5s": 260 },
-        "multiTarget": { "dps": 120, "damagePerShot": 15.36, "numberOfTargets": 6 }
+        "normal": {
+          "dps": 2600,
+          "damagePerShot": 332.8,
+          "dpsInitial": 120,
+          "dpsAfter1p5s": 260
+        },
+        "multiTarget": {
+          "dps": 120,
+          "damagePerShot": 15.36,
+          "numberOfTargets": 6
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-10.png",
@@ -217,12 +393,26 @@
       "hitpoints": 4800,
       "buildCost": 16000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 12,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1018,
       "townHallRequired": 17,
       "stats": {
-        "normal": { "dps": 2900, "damagePerShot": 371.2, "dpsInitial": 140, "dpsAfter1p5s": 290 },
-        "multiTarget": { "dps": 140, "damagePerShot": 17.92, "numberOfTargets": 6 }
+        "normal": {
+          "dps": 2900,
+          "damagePerShot": 371.2,
+          "dpsInitial": 140,
+          "dpsAfter1p5s": 290
+        },
+        "multiTarget": {
+          "dps": 140,
+          "damagePerShot": 17.92,
+          "numberOfTargets": 6
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-11.png",
@@ -236,12 +426,26 @@
       "hitpoints": 5100,
       "buildCost": 26500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 13, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 13,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1080,
       "townHallRequired": 18,
       "stats": {
-        "normal": { "dps": 3300, "damagePerShot": 422.4, "dpsInitial": 155, "dpsAfter1p5s": 330 },
-        "multiTarget": { "dps": 155, "damagePerShot": 19.84, "numberOfTargets": 6 }
+        "normal": {
+          "dps": 3300,
+          "damagePerShot": 422.4,
+          "dpsInitial": 155,
+          "dpsAfter1p5s": 330
+        },
+        "multiTarget": {
+          "dps": 155,
+          "damagePerShot": 19.84,
+          "numberOfTargets": 6
+        }
       },
       "images": {
         "normal": "images/home/defenses/inferno-tower/normal/level-12.png",

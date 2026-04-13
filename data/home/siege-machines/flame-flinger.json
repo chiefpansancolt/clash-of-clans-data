@@ -1,5 +1,6 @@
 {
   "id": "flame-flinger",
+  "dataId": 4000091,
   "name": "Flame Flinger",
   "description": "This little charmer flings bundles of Fire Spirits that both hit hard and leave behind a burning mess. Its long range helps it stay out of trouble, but beware of longer range defenses and traps! Immune to spell effects.",
   "base": "home",
@@ -27,7 +28,7 @@
       "damagePerSecond": 124,
       "damagePerHit": 225,
       "flameMaxDps": 80,
-      "lifetime": 100.0,
+      "lifetime": 100,
       "hitpoints": 1700,
       "laboratoryRequired": 0,
       "townHallRequired": 15,

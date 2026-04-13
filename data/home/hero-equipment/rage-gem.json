@@ -1,5 +1,6 @@
 {
   "id": "rage-gem",
+  "dataId": 90000024,
   "name": "Rage Gem",
   "description": "Nearby friendly units do extra damage",
   "base": "home",

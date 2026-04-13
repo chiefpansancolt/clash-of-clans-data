@@ -1,5 +1,6 @@
 {
   "id": "stone-slammer",
+  "dataId": 4000062,
   "name": "Stone Slammer",
   "description": "The Stone Slammer is a heavy-duty, flying mountain that targets defensive buildings by flattening them with giant boulders and causes earthquakes. Immune to spell effects.",
   "base": "home",

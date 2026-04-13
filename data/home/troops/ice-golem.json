@@ -1,5 +1,6 @@
 {
   "id": "ice-golem",
+  "dataId": 4000058,
   "name": "Ice Golem",
   "description": "The Ice Golem has a chilling personality and absolutely zero sense of humour. He frosts over everything he touches, freezes his surroundings when destroyed and ices up when talked to at a party. On defense his freeze effect is smaller and has a shorter duration.",
   "base": "home",
@@ -37,8 +38,8 @@
         "minutes": 0,
         "seconds": 0
       },
-      "deathFreezeTimeOnOffense": 4.0,
-      "deathFreezeTimeOnDefense": 2.0,
+      "deathFreezeTimeOnOffense": 4,
+      "deathFreezeTimeOnDefense": 2,
       "stats": {
         "normal": {
           "dps": 24,
@@ -137,8 +138,8 @@
         "minutes": 0,
         "seconds": 0
       },
-      "deathFreezeTimeOnOffense": 7.0,
-      "deathFreezeTimeOnDefense": 3.0,
+      "deathFreezeTimeOnOffense": 7,
+      "deathFreezeTimeOnDefense": 3,
       "stats": {
         "normal": {
           "dps": 40,
@@ -187,7 +188,7 @@
         "minutes": 0,
         "seconds": 0
       },
-      "deathFreezeTimeOnOffense": 8.0,
+      "deathFreezeTimeOnOffense": 8,
       "deathFreezeTimeOnDefense": 3.5,
       "stats": {
         "normal": {
@@ -237,7 +238,7 @@
         "minutes": 0,
         "seconds": 0
       },
-      "deathFreezeTimeOnOffense": 9.0,
+      "deathFreezeTimeOnOffense": 9,
       "deathFreezeTimeOnDefense": 3.5,
       "stats": {
         "normal": {

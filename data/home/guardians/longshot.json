@@ -1,5 +1,6 @@
 {
   "id": "longshot",
+  "dataId": 107000000,
   "name": "Longshot",
   "description": "Use your head! Longshot fires explosive bolts from her cranium at long range, peppering attackers with delightful dollops of splash damage.",
   "base": "home",
@@ -18,67 +19,132 @@
     "triggerRadius": 19
   },
   "specialAbility": "Final Blow",
-  "availablePerTownHall": [{ "townHallLevel": 18, "count": 1 }],
+  "availablePerTownHall": [
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
+  ],
   "levels": [
     {
       "level": 1,
       "hitpoints": 7000,
       "buildCost": 0,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 18,
       "deathDamage": 1000,
-      "stats": { "normal": { "dps": 330, "damagePerShot": 594 } },
-      "images": { "normal": "images/home/guardians/longshot/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 330,
+          "damagePerShot": 594
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/longshot/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 8000,
       "buildCost": 18000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 18,
       "deathDamage": 1000,
-      "stats": { "normal": { "dps": 360, "damagePerShot": 648 } },
-      "images": { "normal": "images/home/guardians/longshot/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 360,
+          "damagePerShot": 648
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/longshot/normal/level-1.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 9000,
       "buildCost": 22000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 9, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 881,
       "townHallRequired": 18,
       "deathDamage": 1000,
-      "stats": { "normal": { "dps": 390, "damagePerShot": 702 } },
-      "images": { "normal": "images/home/guardians/longshot/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 390,
+          "damagePerShot": 702
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/longshot/normal/level-1.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 10000,
       "buildCost": 26000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 11, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 974,
       "townHallRequired": 18,
       "deathDamage": 1000,
-      "stats": { "normal": { "dps": 420, "damagePerShot": 756 } },
-      "images": { "normal": "images/home/guardians/longshot/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 420,
+          "damagePerShot": 756
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/longshot/normal/level-1.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 11000,
       "buildCost": 28000000,
       "buildCostResource": "Elixir",
-      "buildTime": { "days": 13, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 13,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1059,
       "townHallRequired": 18,
       "deathDamage": 1000,
-      "stats": { "normal": { "dps": 450, "damagePerShot": 810 } },
-      "images": { "normal": "images/home/guardians/longshot/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 450,
+          "damagePerShot": 810
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/longshot/normal/level-1.png"
+      }
     }
   ]
 }

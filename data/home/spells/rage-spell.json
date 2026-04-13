@@ -1,5 +1,6 @@
 {
   "id": "rage-spell",
+  "dataId": 26000002,
   "name": "Rage Spell",
   "description": "Enrage your units to make them bigger, faster and stronger! Cast this to create a Ring of Rage! Your units will gain speed and attack power while they are inside this ring.",
   "base": "home",

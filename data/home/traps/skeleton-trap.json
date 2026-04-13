@@ -1,5 +1,6 @@
 {
   "id": "skeleton-trap",
+  "dataId": 12000008,
   "name": "Skeleton Trap",
   "description": "Ambush and distract unsuspecting foes with a surprise skirmish of short-lived, but sneaky skeleton troops! Skeleton Traps can be configured to pursue ground or air troops.",
   "base": "home",
@@ -17,7 +18,12 @@
       "skeletonLevel": 1,
       "buildCost": 6000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 8,
       "images": {
@@ -32,7 +38,12 @@
       "skeletonLevel": 1,
       "buildCost": 250000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 5,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 134,
       "townHallRequired": 8,
       "images": {
@@ -47,7 +58,12 @@
       "skeletonLevel": 1,
       "buildCost": 400000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 8, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 169,
       "townHallRequired": 9,
       "images": {
@@ -62,7 +78,12 @@
       "skeletonLevel": 1,
       "buildCost": 1000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "townHallRequired": 10,
       "images": {
@@ -77,7 +98,12 @@
       "skeletonLevel": 2,
       "buildCost": 18000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 18,
       "images": {
@@ -87,23 +113,77 @@
     }
   ],
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 0 },
-    { "townHallLevel": 2, "count": 0 },
-    { "townHallLevel": 3, "count": 0 },
-    { "townHallLevel": 4, "count": 0 },
-    { "townHallLevel": 5, "count": 0 },
-    { "townHallLevel": 6, "count": 0 },
-    { "townHallLevel": 7, "count": 0 },
-    { "townHallLevel": 8, "count": 2 },
-    { "townHallLevel": 9, "count": 2 },
-    { "townHallLevel": 10, "count": 3 },
-    { "townHallLevel": 11, "count": 3 },
-    { "townHallLevel": 12, "count": 3 },
-    { "townHallLevel": 13, "count": 3 },
-    { "townHallLevel": 14, "count": 4 },
-    { "townHallLevel": 15, "count": 4 },
-    { "townHallLevel": 16, "count": 4 },
-    { "townHallLevel": 17, "count": 4 },
-    { "townHallLevel": 18, "count": 4 }
+    {
+      "townHallLevel": 1,
+      "count": 0
+    },
+    {
+      "townHallLevel": 2,
+      "count": 0
+    },
+    {
+      "townHallLevel": 3,
+      "count": 0
+    },
+    {
+      "townHallLevel": 4,
+      "count": 0
+    },
+    {
+      "townHallLevel": 5,
+      "count": 0
+    },
+    {
+      "townHallLevel": 6,
+      "count": 0
+    },
+    {
+      "townHallLevel": 7,
+      "count": 0
+    },
+    {
+      "townHallLevel": 8,
+      "count": 2
+    },
+    {
+      "townHallLevel": 9,
+      "count": 2
+    },
+    {
+      "townHallLevel": 10,
+      "count": 3
+    },
+    {
+      "townHallLevel": 11,
+      "count": 3
+    },
+    {
+      "townHallLevel": 12,
+      "count": 3
+    },
+    {
+      "townHallLevel": 13,
+      "count": 3
+    },
+    {
+      "townHallLevel": 14,
+      "count": 4
+    },
+    {
+      "townHallLevel": 15,
+      "count": 4
+    },
+    {
+      "townHallLevel": 16,
+      "count": 4
+    },
+    {
+      "townHallLevel": 17,
+      "count": 4
+    },
+    {
+      "townHallLevel": 18,
+      "count": 4
+    }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "id": "revenge-tower",
+  "dataId": 1000086,
   "name": "Revenge Tower",
   "description": "If you destroy its building friends, the Revenge Tower will look for you, it will find you, and it will smite you. As fellow buildings fall, it grows stronger and angrier!",
   "base": "home",
@@ -26,20 +27,37 @@
       "chainRange": 2
     }
   },
-  "availablePerTownHall": [{ "townHallLevel": 18, "count": 1 }],
+  "availablePerTownHall": [
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
+  ],
   "levels": [
     {
       "level": 1,
       "hitpoints": 5800,
       "buildCost": 430000,
       "buildCostResource": "Dark Elixir",
-      "buildTime": { "days": 13, "hours": 0, "minutes": 0, "seconds": 5 },
+      "buildTime": {
+        "days": 13,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 5
+      },
       "xpGained": 1059,
       "townHallRequired": 18,
       "stats": {
         "normal": {},
-        "stage1": { "dps": 375, "damagePerShot": 450 },
-        "stage2": { "dps": 375, "damagePerShot": 225, "secondaryChainDamagePerShot": 135 },
+        "stage1": {
+          "dps": 375,
+          "damagePerShot": 450
+        },
+        "stage2": {
+          "dps": 375,
+          "damagePerShot": 225,
+          "secondaryChainDamagePerShot": 135
+        },
         "stage3": {
           "dps": 642,
           "damagePerShot": 225,
@@ -59,13 +77,25 @@
       "hitpoints": 6200,
       "buildCost": 460000,
       "buildCostResource": "Dark Elixir",
-      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1099,
       "townHallRequired": 18,
       "stats": {
         "normal": {},
-        "stage1": { "dps": 416, "damagePerShot": 500 },
-        "stage2": { "dps": 416, "damagePerShot": 250, "secondaryChainDamagePerShot": 150 },
+        "stage1": {
+          "dps": 416,
+          "damagePerShot": 500
+        },
+        "stage2": {
+          "dps": 416,
+          "damagePerShot": 250,
+          "secondaryChainDamagePerShot": 150
+        },
         "stage3": {
           "dps": 714,
           "damagePerShot": 250,

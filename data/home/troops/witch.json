@@ -1,5 +1,6 @@
 {
   "id": "witch",
+  "dataId": 4000015,
   "name": "Witch",
   "description": "The Witch never fights alone, constantly raising dead warriors from past battles to lead her attacks. Upgraded Witches raise more skeletons at a time.",
   "base": "home",

@@ -1,5 +1,6 @@
 {
   "id": "giant",
+  "dataId": 4000003,
   "name": "Giant",
   "description": "These big guys may seem calm, but show them a Cannon or Archer Tower and you'll see their fury unleashed! Slow yet durable, these warriors are best used to soak up hits.",
   "base": "home",

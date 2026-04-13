@@ -1,5 +1,6 @@
 {
   "id": "double-cannon",
+  "dataId": 1000041,
   "name": "Double Cannon",
   "description": "Double cannons, double shots per cannon, It's a double-double dose of trouble!",
   "base": "builder",
@@ -16,15 +17,42 @@
     }
   },
   "availablePerBuilderHall": [
-    { "builderHallLevel": 2, "count": 1 },
-    { "builderHallLevel": 3, "count": 1 },
-    { "builderHallLevel": 4, "count": 1 },
-    { "builderHallLevel": 5, "count": 2 },
-    { "builderHallLevel": 6, "count": 2 },
-    { "builderHallLevel": 7, "count": 2 },
-    { "builderHallLevel": 8, "count": 3 },
-    { "builderHallLevel": 9, "count": 3 },
-    { "builderHallLevel": 10, "count": 3 }
+    {
+      "builderHallLevel": 2,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 3,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 3
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 3
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 3
+    }
   ],
   "levels": [
     {
@@ -32,110 +60,230 @@
       "hitpoints": 600,
       "buildCost": 20000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 10, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      },
       "xpGained": 24,
       "builderHallRequired": 2,
-      "stats": { "normal": { "dps": 91, "damagePerShot": 50 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 91,
+          "damagePerShot": 50
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 690,
       "buildCost": 50000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 1, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 60,
       "builderHallRequired": 3,
-      "stats": { "normal": { "dps": 101, "damagePerShot": 55 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 101,
+          "damagePerShot": 55
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 800,
       "buildCost": 80000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 3, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 3,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 103,
       "builderHallRequired": 3,
-      "stats": { "normal": { "dps": 112, "damagePerShot": 61 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 112,
+          "damagePerShot": 61
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 910,
       "buildCost": 300000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "builderHallRequired": 4,
-      "stats": { "normal": { "dps": 123, "damagePerShot": 67 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 123,
+          "damagePerShot": 67
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-4.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 1050,
       "buildCost": 900000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "builderHallRequired": 5,
-      "stats": { "normal": { "dps": 136, "damagePerShot": 74 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 136,
+          "damagePerShot": 74
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-5.png"
+      }
     },
     {
       "level": 6,
       "hitpoints": 1250,
       "buildCost": 1400000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 6,
-      "stats": { "normal": { "dps": 148, "damagePerShot": 81 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 148,
+          "damagePerShot": 81
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-6.png"
+      }
     },
     {
       "level": 7,
       "hitpoints": 1450,
       "buildCost": 2200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "builderHallRequired": 7,
-      "stats": { "normal": { "dps": 163, "damagePerShot": 89 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 163,
+          "damagePerShot": 89
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-7.png"
+      }
     },
     {
       "level": 8,
       "hitpoints": 1700,
       "buildCost": 3200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "builderHallRequired": 8,
-      "stats": { "normal": { "dps": 180, "damagePerShot": 98 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-8.png" }
+      "stats": {
+        "normal": {
+          "dps": 180,
+          "damagePerShot": 98
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-8.png"
+      }
     },
     {
       "level": 9,
       "hitpoints": 1950,
       "buildCost": 4200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "builderHallRequired": 9,
-      "stats": { "normal": { "dps": 198, "damagePerShot": 108 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-9.png" }
+      "stats": {
+        "normal": {
+          "dps": 198,
+          "damagePerShot": 108
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-9.png"
+      }
     },
     {
       "level": 10,
       "hitpoints": 2200,
       "buildCost": 5200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 929,
       "builderHallRequired": 10,
-      "stats": { "normal": { "dps": 220, "damagePerShot": 120 } },
-      "images": { "normal": "images/builder/defenses/double-cannon/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 220,
+          "damagePerShot": 120
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/double-cannon/normal/level-10.png"
+      }
     }
   ]
 }

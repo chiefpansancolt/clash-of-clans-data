@@ -1,5 +1,6 @@
 {
   "id": "fireball",
+  "dataId": 90000022,
   "name": "Fireball",
   "description": "Throws a giant exploding fireball at the closest defense",
   "base": "home",

@@ -1,5 +1,6 @@
 {
   "id": "bomber",
+  "dataId": 4000035,
   "name": "Bomber",
   "description": "With an appetite for destruction and high quality special effects, Bombers blow up anything in sight with bonus damage to Walls!",
   "base": "builder",
@@ -27,9 +28,16 @@
       "bouncingBombDamageVsWalls": 1200,
       "researchCost": 0,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 0,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-5.png"
+      }
     },
     {
       "level": 6,
@@ -42,9 +50,16 @@
       "bouncingBombDamageVsWalls": 1500,
       "researchCost": 320000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 16, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 16,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-5.png"
+      }
     },
     {
       "level": 7,
@@ -57,9 +72,16 @@
       "bouncingBombDamageVsWalls": 1500,
       "researchCost": 340000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 0, "hours": 20, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 0,
+        "hours": 20,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-5.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-5.png"
+      }
     },
     {
       "level": 8,
@@ -72,9 +94,16 @@
       "bouncingBombDamageVsWalls": 1800,
       "researchCost": 360000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 4,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-8.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-8.png"
+      }
     },
     {
       "level": 9,
@@ -87,9 +116,16 @@
       "bouncingBombDamageVsWalls": 1800,
       "researchCost": 900000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 1, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 1,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-8.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-8.png"
+      }
     },
     {
       "level": 10,
@@ -102,9 +138,16 @@
       "bouncingBombDamageVsWalls": 2100,
       "researchCost": 1000000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 5,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-10.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-10.png"
+      }
     },
     {
       "level": 11,
@@ -117,9 +160,16 @@
       "bouncingBombDamageVsWalls": 2100,
       "researchCost": 1200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-10.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-10.png"
+      }
     },
     {
       "level": 12,
@@ -132,9 +182,16 @@
       "bouncingBombDamageVsWalls": 2400,
       "researchCost": 1400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 2, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 2,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 6,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-12.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-12.png"
+      }
     },
     {
       "level": 13,
@@ -147,9 +204,16 @@
       "bouncingBombDamageVsWalls": 2400,
       "researchCost": 2200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 3, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 3,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-12.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-12.png"
+      }
     },
     {
       "level": 14,
@@ -162,9 +226,16 @@
       "bouncingBombDamageVsWalls": 2700,
       "researchCost": 2400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 4, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 7,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-14.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-14.png"
+      }
     },
     {
       "level": 15,
@@ -177,9 +248,16 @@
       "bouncingBombDamageVsWalls": 2700,
       "researchCost": 3200000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-14.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-14.png"
+      }
     },
     {
       "level": 16,
@@ -192,9 +270,16 @@
       "bouncingBombDamageVsWalls": 3000,
       "researchCost": 3400000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 8,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-14.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-14.png"
+      }
     },
     {
       "level": 17,
@@ -207,9 +292,16 @@
       "bouncingBombDamageVsWalls": 3000,
       "researchCost": 3900000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-14.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-14.png"
+      }
     },
     {
       "level": 18,
@@ -222,9 +314,16 @@
       "bouncingBombDamageVsWalls": 3300,
       "researchCost": 4100000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 9,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-18.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-18.png"
+      }
     },
     {
       "level": 19,
@@ -237,9 +336,16 @@
       "bouncingBombDamageVsWalls": 3300,
       "researchCost": 4700000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-18.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-18.png"
+      }
     },
     {
       "level": 20,
@@ -252,9 +358,16 @@
       "bouncingBombDamageVsWalls": 3600,
       "researchCost": 5300000,
       "researchCostResource": "Builder Elixir",
-      "researchTime": { "days": 6, "hours": 12, "minutes": 0, "seconds": 0 },
+      "researchTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "starLabRequired": 10,
-      "images": { "normal": "images/builder/troops/bomber/normal/level-20.png" }
+      "images": {
+        "normal": "images/builder/troops/bomber/normal/level-20.png"
+      }
     }
   ]
 }

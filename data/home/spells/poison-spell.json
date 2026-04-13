@@ -1,5 +1,6 @@
 {
   "id": "poison-spell",
+  "dataId": 26000009,
   "name": "Poison Spell",
   "description": "Give your army the upper hand against enemy troops with this deadly poison! Defending units that linger in a Poison Spell's toxic cloud will move slower, attack slower and take damage with increasing severity over time. Poison Spells do not affect structures.",
   "base": "home",

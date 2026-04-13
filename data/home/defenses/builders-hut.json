@@ -1,5 +1,6 @@
 {
   "id": "builders-hut",
+  "dataId": 1000015,
   "name": "Builder's Hut",
   "description": "Nothing gets done around here without Builders! You can hire more Builders to start multiple construction projects, or speed up their work by using green gems.",
   "base": "home",
@@ -19,31 +20,105 @@
     }
   },
   "placementCosts": [
-    { "instance": 1, "cost": 0, "costResource": "Gold" },
-    { "instance": 2, "cost": 250, "costResource": "Gems" },
-    { "instance": 3, "cost": 500, "costResource": "Gems" },
-    { "instance": 4, "cost": 1000, "costResource": "Gems" },
-    { "instance": 5, "cost": 2000, "costResource": "Gems" }
+    {
+      "instance": 1,
+      "cost": 0,
+      "costResource": "Gold"
+    },
+    {
+      "instance": 2,
+      "cost": 250,
+      "costResource": "Gems"
+    },
+    {
+      "instance": 3,
+      "cost": 500,
+      "costResource": "Gems"
+    },
+    {
+      "instance": 4,
+      "cost": 1000,
+      "costResource": "Gems"
+    },
+    {
+      "instance": 5,
+      "cost": 2000,
+      "costResource": "Gems"
+    }
   ],
   "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 5 },
-    { "townHallLevel": 2, "count": 5 },
-    { "townHallLevel": 3, "count": 5 },
-    { "townHallLevel": 4, "count": 5 },
-    { "townHallLevel": 5, "count": 5 },
-    { "townHallLevel": 6, "count": 5 },
-    { "townHallLevel": 7, "count": 5 },
-    { "townHallLevel": 8, "count": 5 },
-    { "townHallLevel": 9, "count": 5 },
-    { "townHallLevel": 10, "count": 5 },
-    { "townHallLevel": 11, "count": 5 },
-    { "townHallLevel": 12, "count": 5 },
-    { "townHallLevel": 13, "count": 5 },
-    { "townHallLevel": 14, "count": 5 },
-    { "townHallLevel": 15, "count": 5 },
-    { "townHallLevel": 16, "count": 5 },
-    { "townHallLevel": 17, "count": 5 },
-    { "townHallLevel": 18, "count": 5 }
+    {
+      "townHallLevel": 1,
+      "count": 5
+    },
+    {
+      "townHallLevel": 2,
+      "count": 5
+    },
+    {
+      "townHallLevel": 3,
+      "count": 5
+    },
+    {
+      "townHallLevel": 4,
+      "count": 5
+    },
+    {
+      "townHallLevel": 5,
+      "count": 5
+    },
+    {
+      "townHallLevel": 6,
+      "count": 5
+    },
+    {
+      "townHallLevel": 7,
+      "count": 5
+    },
+    {
+      "townHallLevel": 8,
+      "count": 5
+    },
+    {
+      "townHallLevel": 9,
+      "count": 5
+    },
+    {
+      "townHallLevel": 10,
+      "count": 5
+    },
+    {
+      "townHallLevel": 11,
+      "count": 5
+    },
+    {
+      "townHallLevel": 12,
+      "count": 5
+    },
+    {
+      "townHallLevel": 13,
+      "count": 5
+    },
+    {
+      "townHallLevel": 14,
+      "count": 5
+    },
+    {
+      "townHallLevel": 15,
+      "count": 5
+    },
+    {
+      "townHallLevel": 16,
+      "count": 5
+    },
+    {
+      "townHallLevel": 17,
+      "count": 5
+    },
+    {
+      "townHallLevel": 18,
+      "count": 5
+    }
   ],
   "levels": [
     {
@@ -51,7 +126,12 @@
       "hitpoints": 250,
       "buildCost": 0,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 0,
       "townHallRequired": 1,
       "stats": {
@@ -66,12 +146,23 @@
       "hitpoints": 1000,
       "buildCost": 3000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "townHallRequired": 14,
       "stats": {
-        "normal": { "dps": 80, "damagePerShot": 32 },
-        "builder": { "repairPerSecond": 50, "repairPerHit": 37.5 }
+        "normal": {
+          "dps": 80,
+          "damagePerShot": 32
+        },
+        "builder": {
+          "repairPerSecond": 50,
+          "repairPerHit": 37.5
+        }
       },
       "images": {
         "normal": "images/home/defenses/builders-hut/normal/level-2.png",
@@ -83,12 +174,23 @@
       "hitpoints": 1300,
       "buildCost": 4000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 3,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 509,
       "townHallRequired": 14,
       "stats": {
-        "normal": { "dps": 100, "damagePerShot": 40 },
-        "builder": { "repairPerSecond": 60, "repairPerHit": 45 }
+        "normal": {
+          "dps": 100,
+          "damagePerShot": 40
+        },
+        "builder": {
+          "repairPerSecond": 60,
+          "repairPerHit": 45
+        }
       },
       "images": {
         "normal": "images/home/defenses/builders-hut/normal/level-3.png",
@@ -100,12 +202,23 @@
       "hitpoints": 1600,
       "buildCost": 6000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 14,
       "stats": {
-        "normal": { "dps": 120, "damagePerShot": 48 },
-        "builder": { "repairPerSecond": 70, "repairPerHit": 52.5 }
+        "normal": {
+          "dps": 120,
+          "damagePerShot": 48
+        },
+        "builder": {
+          "repairPerSecond": 70,
+          "repairPerHit": 52.5
+        }
       },
       "images": {
         "normal": "images/home/defenses/builders-hut/normal/level-4.png",
@@ -117,12 +230,23 @@
       "hitpoints": 1800,
       "buildCost": 7000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 5, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 657,
       "townHallRequired": 15,
       "stats": {
-        "normal": { "dps": 135, "damagePerShot": 54 },
-        "builder": { "repairPerSecond": 80, "repairPerHit": 60 }
+        "normal": {
+          "dps": 135,
+          "damagePerShot": 54
+        },
+        "builder": {
+          "repairPerSecond": 80,
+          "repairPerHit": 60
+        }
       },
       "images": {
         "normal": "images/home/defenses/builders-hut/normal/level-5.png",
@@ -134,12 +258,23 @@
       "hitpoints": 1900,
       "buildCost": 8000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 5, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 689,
       "townHallRequired": 16,
       "stats": {
-        "normal": { "dps": 150, "damagePerShot": 60 },
-        "builder": { "repairPerSecond": 85, "repairPerHit": 63.75 }
+        "normal": {
+          "dps": 150,
+          "damagePerShot": 60
+        },
+        "builder": {
+          "repairPerSecond": 85,
+          "repairPerHit": 63.75
+        }
       },
       "images": {
         "normal": "images/home/defenses/builders-hut/normal/level-6.png",
@@ -151,12 +286,23 @@
       "hitpoints": 2000,
       "buildCost": 15500000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 9, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 9,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 905,
       "townHallRequired": 17,
       "stats": {
-        "normal": { "dps": 165, "damagePerShot": 66 },
-        "builder": { "repairPerSecond": 90, "repairPerHit": 67.5 }
+        "normal": {
+          "dps": 165,
+          "damagePerShot": 66
+        },
+        "builder": {
+          "repairPerSecond": 90,
+          "repairPerHit": 67.5
+        }
       },
       "images": {
         "normal": "images/home/defenses/builders-hut/normal/level-7.png",
@@ -169,12 +315,23 @@
       "hitpoints": 2000,
       "buildCost": 10000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 587,
       "townHallRequired": 17,
       "stats": {
-        "normal": { "dps": 172, "damagePerShot": 68.8 },
-        "builder": { "repairPerSecond": 90, "repairPerHit": 67.5 }
+        "normal": {
+          "dps": 172,
+          "damagePerShot": 68.8
+        },
+        "builder": {
+          "repairPerSecond": 90,
+          "repairPerHit": 67.5
+        }
       },
       "images": {
         "normal": "images/home/defenses/builders-hut/normal/level-7.png",
@@ -187,12 +344,23 @@
       "hitpoints": 2050,
       "buildCost": 5000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 17,
       "stats": {
-        "normal": { "dps": 172, "damagePerShot": 68.8 },
-        "builder": { "repairPerSecond": 90, "repairPerHit": 67.5 }
+        "normal": {
+          "dps": 172,
+          "damagePerShot": 68.8
+        },
+        "builder": {
+          "repairPerSecond": 90,
+          "repairPerHit": 67.5
+        }
       },
       "images": {
         "normal": "images/home/defenses/builders-hut/normal/level-7.png",

@@ -1,5 +1,6 @@
 {
   "id": "rocket-spear",
+  "dataId": 90000013,
   "name": "Rocket Spear",
   "description": "Her next few spear throws are stronger and longer-ranged",
   "base": "home",

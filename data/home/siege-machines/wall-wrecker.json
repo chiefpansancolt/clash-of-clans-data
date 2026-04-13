@@ -1,5 +1,6 @@
 {
   "id": "wall-wrecker",
+  "dataId": 4000051,
   "name": "Wall Wrecker",
   "description": "The Wall Wrecker exists for two simple purposes: smash through anything that it comes across and deliver the Clan Castle troops straight to the heart of the village. Built from heavy-duty materials, it can take a pummeling before breaking down. Immune to spell effects.",
   "base": "home",

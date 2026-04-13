@@ -1,5 +1,6 @@
 {
   "id": "recall-spell",
+  "dataId": 26000053,
   "name": "Recall Spell",
   "description": "Attack going badly? Need to come in from another direction? The Recall Spell summons back Troops, Heroes and Pets to the deployment bar. You can then send the recalled units back out for a second strike.",
   "base": "home",

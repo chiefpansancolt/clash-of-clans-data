@@ -1,5 +1,6 @@
 {
   "id": "multi-gear-tower",
+  "dataId": 1000079,
   "name": "Multi-Gear Tower",
   "description": "The Multi-Gear Tower is a powerful combination of two classic Defenses! Choose the attack mode that suits you and let the destruction begin! Targets air and ground units.",
   "base": "home",
@@ -22,8 +23,14 @@
     }
   },
   "availablePerTownHall": [
-    { "townHallLevel": 17, "count": 1 },
-    { "townHallLevel": 18, "count": 1 }
+    {
+      "townHallLevel": 17,
+      "count": 1
+    },
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
   ],
   "levels": [
     {
@@ -31,12 +38,23 @@
       "hitpoints": 4000,
       "buildCost": 17000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 929,
       "townHallRequired": 17,
       "stats": {
-        "normal": { "dps": 350, "damagePerShot": 350 },
-        "fastAttack": { "dps": 650, "damagePerShot": 156 }
+        "normal": {
+          "dps": 350,
+          "damagePerShot": 350
+        },
+        "fastAttack": {
+          "dps": 650,
+          "damagePerShot": 156
+        }
       },
       "images": {
         "normal": "images/home/defenses/multi-gear-tower/normal/level-1.png",
@@ -48,12 +66,23 @@
       "hitpoints": 4200,
       "buildCost": 18000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 10, "hours": 18, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 18,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 963,
       "townHallRequired": 17,
       "stats": {
-        "normal": { "dps": 370, "damagePerShot": 370 },
-        "fastAttack": { "dps": 690, "damagePerShot": 165.6 }
+        "normal": {
+          "dps": 370,
+          "damagePerShot": 370
+        },
+        "fastAttack": {
+          "dps": 690,
+          "damagePerShot": 165.6
+        }
       },
       "images": {
         "normal": "images/home/defenses/multi-gear-tower/normal/level-2.png",
@@ -65,12 +94,23 @@
       "hitpoints": 4350,
       "buildCost": 28000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 14, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1099,
       "townHallRequired": 18,
       "stats": {
-        "normal": { "dps": 390, "damagePerShot": 390 },
-        "fastAttack": { "dps": 710, "damagePerShot": 170.4 }
+        "normal": {
+          "dps": 390,
+          "damagePerShot": 390
+        },
+        "fastAttack": {
+          "dps": 710,
+          "damagePerShot": 170.4
+        }
       },
       "images": {
         "normal": "images/home/defenses/multi-gear-tower/normal/level-3.png",
@@ -83,12 +123,23 @@
       "hitpoints": 4350,
       "buildCost": 12000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "townHallRequired": 18,
       "stats": {
-        "normal": { "dps": 400, "damagePerShot": 400 },
-        "fastAttack": { "dps": 720, "damagePerShot": 172.8 }
+        "normal": {
+          "dps": 400,
+          "damagePerShot": 400
+        },
+        "fastAttack": {
+          "dps": 720,
+          "damagePerShot": 172.8
+        }
       },
       "images": {
         "normal": "images/home/defenses/multi-gear-tower/normal/level-3.png",
@@ -101,12 +152,23 @@
       "hitpoints": 4500,
       "buildCost": 10000000,
       "buildCostResource": "Gold",
-      "buildTime": { "days": 7, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 777,
       "townHallRequired": 18,
       "stats": {
-        "normal": { "dps": 400, "damagePerShot": 400 },
-        "fastAttack": { "dps": 720, "damagePerShot": 172.8 }
+        "normal": {
+          "dps": 400,
+          "damagePerShot": 400
+        },
+        "fastAttack": {
+          "dps": 720,
+          "damagePerShot": 172.8
+        }
       },
       "images": {
         "normal": "images/home/defenses/multi-gear-tower/normal/level-3.png",

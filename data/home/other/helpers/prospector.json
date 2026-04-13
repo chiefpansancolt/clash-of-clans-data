@@ -1,12 +1,15 @@
 {
   "id": "prospector",
+  "dataId": 93000002,
   "name": "Prospector",
   "base": "home",
   "category": "other",
   "recruitmentCost": 2200,
   "recruitmentCostResource": "Season Challenge Points",
   "townHallRequired": 10,
-  "images": { "normal": "images/home/other/helpers/prospector/normal.png" },
+  "images": {
+    "normal": "images/home/other/helpers/prospector/normal.png"
+  },
   "levels": [
     {
       "level": 1,

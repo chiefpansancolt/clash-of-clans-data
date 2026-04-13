@@ -1,5 +1,6 @@
 {
   "id": "royal-gem",
+  "dataId": 90000007,
   "name": "Royal Gem",
   "description": "Heals the Royal Champion by an extra large amount",
   "base": "home",

@@ -1,5 +1,6 @@
 {
   "id": "crusher",
+  "dataId": 1000055,
   "name": "Crusher",
   "description": "The Crusher REALLY likes its personal space. This hulking stone slams ground units with a mighty wallop!",
   "base": "builder",
@@ -15,14 +16,38 @@
     }
   },
   "availablePerBuilderHall": [
-    { "builderHallLevel": 3, "count": 1 },
-    { "builderHallLevel": 4, "count": 1 },
-    { "builderHallLevel": 5, "count": 1 },
-    { "builderHallLevel": 6, "count": 2 },
-    { "builderHallLevel": 7, "count": 2 },
-    { "builderHallLevel": 8, "count": 2 },
-    { "builderHallLevel": 9, "count": 2 },
-    { "builderHallLevel": 10, "count": 2 }
+    {
+      "builderHallLevel": 3,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 4,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 5,
+      "count": 1
+    },
+    {
+      "builderHallLevel": 6,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 7,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 8,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 9,
+      "count": 2
+    },
+    {
+      "builderHallLevel": 10,
+      "count": 2
+    }
   ],
   "levels": [
     {
@@ -30,110 +55,230 @@
       "hitpoints": 1000,
       "buildCost": 120000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 2, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 2,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 84,
       "builderHallRequired": 3,
-      "stats": { "normal": { "dps": 125, "damagePerShot": 438 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-1.png" }
+      "stats": {
+        "normal": {
+          "dps": 125,
+          "damagePerShot": 438
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-1.png"
+      }
     },
     {
       "level": 2,
       "hitpoints": 1100,
       "buildCost": 180000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 5, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 5,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 134,
       "builderHallRequired": 3,
-      "stats": { "normal": { "dps": 138, "damagePerShot": 483 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-2.png" }
+      "stats": {
+        "normal": {
+          "dps": 138,
+          "damagePerShot": 483
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-2.png"
+      }
     },
     {
       "level": 3,
       "hitpoints": 1250,
       "buildCost": 220000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 0, "hours": 12, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 0,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 207,
       "builderHallRequired": 3,
-      "stats": { "normal": { "dps": 152, "damagePerShot": 532 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-3.png" }
+      "stats": {
+        "normal": {
+          "dps": 152,
+          "damagePerShot": 532
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-3.png"
+      }
     },
     {
       "level": 4,
       "hitpoints": 1400,
       "buildCost": 350000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 1, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 1,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 293,
       "builderHallRequired": 4,
-      "stats": { "normal": { "dps": 167, "damagePerShot": 585 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-4.png" }
+      "stats": {
+        "normal": {
+          "dps": 167,
+          "damagePerShot": 585
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-4.png"
+      }
     },
     {
       "level": 5,
       "hitpoints": 1600,
       "buildCost": 1200000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 2, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 2,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 415,
       "builderHallRequired": 5,
-      "stats": { "normal": { "dps": 184, "damagePerShot": 644 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-5.png" }
+      "stats": {
+        "normal": {
+          "dps": 184,
+          "damagePerShot": 644
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-5.png"
+      }
     },
     {
       "level": 6,
       "hitpoints": 1850,
       "buildCost": 1500000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 4, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 581,
       "builderHallRequired": 6,
-      "stats": { "normal": { "dps": 202, "damagePerShot": 707 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-6.png" }
+      "stats": {
+        "normal": {
+          "dps": 202,
+          "damagePerShot": 707
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-6.png"
+      }
     },
     {
       "level": 7,
       "hitpoints": 2100,
       "buildCost": 2400000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 6, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 720,
       "builderHallRequired": 7,
-      "stats": { "normal": { "dps": 222, "damagePerShot": 777 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-7.png" }
+      "stats": {
+        "normal": {
+          "dps": 222,
+          "damagePerShot": 777
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-7.png"
+      }
     },
     {
       "level": 8,
       "hitpoints": 2350,
       "buildCost": 3400000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 8, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 831,
       "builderHallRequired": 8,
-      "stats": { "normal": { "dps": 244, "damagePerShot": 854 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-8.png" }
+      "stats": {
+        "normal": {
+          "dps": 244,
+          "damagePerShot": 854
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-8.png"
+      }
     },
     {
       "level": 9,
       "hitpoints": 2600,
       "buildCost": 4400000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 10, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 929,
       "builderHallRequired": 9,
-      "stats": { "normal": { "dps": 269, "damagePerShot": 942 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-9.png" }
+      "stats": {
+        "normal": {
+          "dps": 269,
+          "damagePerShot": 942
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-9.png"
+      }
     },
     {
       "level": 10,
       "hitpoints": 2900,
       "buildCost": 5400000,
       "buildCostResource": "Builder Gold",
-      "buildTime": { "days": 12, "hours": 0, "minutes": 0, "seconds": 0 },
+      "buildTime": {
+        "days": 12,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
       "xpGained": 1018,
       "builderHallRequired": 10,
-      "stats": { "normal": { "dps": 296, "damagePerShot": 1036 } },
-      "images": { "normal": "images/builder/defenses/crusher/normal/level-10.png" }
+      "stats": {
+        "normal": {
+          "dps": 296,
+          "damagePerShot": 1036
+        }
+      },
+      "images": {
+        "normal": "images/builder/defenses/crusher/normal/level-10.png"
+      }
     }
   ]
 }

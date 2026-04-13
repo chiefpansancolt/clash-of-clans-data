@@ -1,5 +1,6 @@
 {
   "id": "archer-puppet",
+  "dataId": 90000002,
   "name": "Archer Puppet",
   "description": "Summons a gang of invisible Archers",
   "base": "home",

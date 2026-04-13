@@ -1,5 +1,6 @@
 {
   "id": "wizard",
+  "dataId": 4000006,
   "name": "Wizard",
   "description": "The Wizard is a terrifying presence on the battlefield. Pair him up with some of his fellows and cast concentrated blasts of destruction on anything, land or sky!",
   "base": "home",
