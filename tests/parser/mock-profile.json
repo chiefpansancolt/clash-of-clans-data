@@ -1,0 +1,90 @@
+{
+  "tag": "#MOCKTEST",
+  "timestamp": 1700000000,
+  "helpers": [
+    { "data": 93000000, "lvl": 6, "helper_cooldown": 72981 },
+    { "data": 93000001, "lvl": 4, "helper_cooldown": 72981 },
+    { "data": 93000002, "lvl": 7 }
+  ],
+  "guardians": [
+    { "data": 107000000, "lvl": 1 },
+    { "data": 107000001, "lvl": 2 }
+  ],
+  "buildings": [
+    { "data": 1000001, "lvl": 16, "cnt": 1 },
+    { "data": 1000014, "lvl": 12, "timer": 86400 },
+    { "data": 1000013, "lvl": 15, "gear_up": 1 },
+    { "data": 1000013, "lvl": 15, "cnt": 2 },
+    { "data": 1000010, "lvl": 14, "cnt": 50 },
+    { "data": 1000010, "lvl": 15, "cnt": 200 },
+    { "data": 1000000, "lvl": 12, "cnt": 3 },
+    {
+      "data": 1000097,
+      "types": [
+        {
+          "data": 103000008,
+          "modules": [
+            { "data": 102000024, "lvl": 2 },
+            { "data": 102000025, "lvl": 2 },
+            { "data": 102000026, "lvl": 1 }
+          ]
+        },
+        {
+          "data": 103000009,
+          "modules": [
+            { "data": 102000027, "lvl": 1 },
+            { "data": 102000028, "lvl": 1 },
+            { "data": 102000029, "lvl": 1 }
+          ]
+        }
+      ]
+    },
+    { "data": 9999999, "lvl": 5 }
+  ],
+  "traps": [
+    { "data": 12000000, "lvl": 11, "cnt": 6 },
+    { "data": 12000001, "lvl": 10, "cnt": 8 },
+    { "data": 12000016, "lvl": 2, "timer": 3600 }
+  ],
+  "units": [
+    { "data": 4000000, "lvl": 10 },
+    { "data": 4000001, "lvl": 11 },
+    { "data": 4000023, "lvl": 9, "timer": 14400, "helper_recurrent": true }
+  ],
+  "siege_machines": [
+    { "data": 4000051, "lvl": 4 },
+    { "data": 4000052, "lvl": 3 }
+  ],
+  "heroes": [
+    { "data": 28000000, "lvl": 80 },
+    { "data": 28000001, "lvl": 75, "timer": 43200 }
+  ],
+  "spells": [
+    { "data": 26000000, "lvl": 10 },
+    { "data": 26000002, "lvl": 5 }
+  ],
+  "pets": [
+    { "data": 73000000, "lvl": 10 },
+    { "data": 73000001, "lvl": 8 }
+  ],
+  "equipment": [
+    { "data": 90000000, "lvl": 15 },
+    { "data": 90000001, "lvl": 12 }
+  ],
+  "buildings2": [
+    { "data": 1000034, "lvl": 9, "cnt": 1 },
+    { "data": 1000041, "lvl": 8, "cnt": 2 },
+    { "data": 1000033, "lvl": 9, "cnt": 100 }
+  ],
+  "traps2": [
+    { "data": 12000010, "lvl": 4, "cnt": 5 },
+    { "data": 12000011, "lvl": 8, "cnt": 3 }
+  ],
+  "units2": [
+    { "data": 4000031, "lvl": 18 },
+    { "data": 4000032, "lvl": 17 }
+  ],
+  "heroes2": [
+    { "data": 28000003, "lvl": 30 }
+  ]
+}
