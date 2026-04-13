@@ -6,6 +6,11 @@ export type BoostTier = 10 | 15 | 20;
 /** Resource types that can have their build or research cost reduced by a boost. */
 export type BuildCostResource = 'Gold' | 'Elixir' | 'Dark Elixir';
 
+// ── Clock Tower ───────────────────────────────────────────────────────────────
+
+/** Valid Clock Tower levels (1–10). */
+export type ClockTowerLevel = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
+
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
 /** Valid Lab Assistant levels (1–12). */
