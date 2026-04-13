@@ -157,6 +157,7 @@ import './clan-capital/troops/super-giant';
 import './clan-capital/troops/super-miner';
 import './clan-capital/troops/super-wizard';
 import './clan-capital/walls';
+import './clan-capital/leagues';
 import './clan/levels';
 import './clan/war';
 import './home';

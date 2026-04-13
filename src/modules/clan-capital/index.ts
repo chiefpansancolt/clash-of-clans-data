@@ -2,6 +2,7 @@ import { ClanCapitalArmyBuildings } from './army-buildings';
 import { ClanCapitalDefenses } from './defenses';
 import { ClanCapitalCapitalHall } from './halls/capital-hall';
 import { ClanCapitalDistrictHall } from './halls/district-hall';
+import { allClanCapitalLeagues, ClanCapitalLeagues } from './leagues';
 import { ClanCapitalOther } from './other';
 import { ClanCapitalSpells } from './spells';
 import { ClanCapitalTroops } from './troops';
@@ -15,6 +16,7 @@ export {
 export { ClanCapitalCapitalHall } from './halls/capital-hall';
 export { ClanCapitalDefenses } from './defenses';
 export { ClanCapitalDistrictHall } from './halls/district-hall';
+export { ClanCapitalLeagues } from './leagues';
 export { ClanCapitalHouses, ClanCapitalOther } from './other';
 export { ClanCapitalSpells } from './spells';
 export { ClanCapitalTroops } from './troops';
@@ -58,6 +60,11 @@ export class ClanCapital {
   /** Returns a query over Clan Capital wall data. */
   walls(): ClanCapitalWalls {
     return new ClanCapitalWalls();
+  }
+
+  /** Returns a query over all Clan Capital Raid Weekend leagues. */
+  leagues(): ClanCapitalLeagues {
+    return allClanCapitalLeagues();
   }
 }
 

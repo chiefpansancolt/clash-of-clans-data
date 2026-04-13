@@ -1,0 +1,232 @@
+[
+  {
+    "id": "unranked",
+    "name": "Unranked",
+    "group": "Unranked",
+    "tier": null,
+    "trophyMin": 0,
+    "trophyMax": 199,
+    "clanXpEarned": 0,
+    "image": "images/clan-capital/leagues/unranked.png"
+  },
+  {
+    "id": "bronze-iii",
+    "name": "Bronze III",
+    "group": "Bronze",
+    "tier": 3,
+    "trophyMin": 200,
+    "trophyMax": 399,
+    "clanXpEarned": 25,
+    "image": "images/clan-capital/leagues/bronze-iii.png"
+  },
+  {
+    "id": "bronze-ii",
+    "name": "Bronze II",
+    "group": "Bronze",
+    "tier": 2,
+    "trophyMin": 400,
+    "trophyMax": 599,
+    "clanXpEarned": 50,
+    "image": "images/clan-capital/leagues/bronze-ii.png"
+  },
+  {
+    "id": "bronze-i",
+    "name": "Bronze I",
+    "group": "Bronze",
+    "tier": 1,
+    "trophyMin": 600,
+    "trophyMax": 799,
+    "clanXpEarned": 75,
+    "image": "images/clan-capital/leagues/bronze-i.png"
+  },
+  {
+    "id": "silver-iii",
+    "name": "Silver III",
+    "group": "Silver",
+    "tier": 3,
+    "trophyMin": 800,
+    "trophyMax": 999,
+    "clanXpEarned": 100,
+    "image": "images/clan-capital/leagues/silver-iii.png"
+  },
+  {
+    "id": "silver-ii",
+    "name": "Silver II",
+    "group": "Silver",
+    "tier": 2,
+    "trophyMin": 1000,
+    "trophyMax": 1199,
+    "clanXpEarned": 125,
+    "image": "images/clan-capital/leagues/silver-ii.png"
+  },
+  {
+    "id": "silver-i",
+    "name": "Silver I",
+    "group": "Silver",
+    "tier": 1,
+    "trophyMin": 1200,
+    "trophyMax": 1399,
+    "clanXpEarned": 150,
+    "image": "images/clan-capital/leagues/silver-i.png"
+  },
+  {
+    "id": "gold-iii",
+    "name": "Gold III",
+    "group": "Gold",
+    "tier": 3,
+    "trophyMin": 1400,
+    "trophyMax": 1599,
+    "clanXpEarned": 175,
+    "image": "images/clan-capital/leagues/gold-iii.png"
+  },
+  {
+    "id": "gold-ii",
+    "name": "Gold II",
+    "group": "Gold",
+    "tier": 2,
+    "trophyMin": 1600,
+    "trophyMax": 1799,
+    "clanXpEarned": 200,
+    "image": "images/clan-capital/leagues/gold-ii.png"
+  },
+  {
+    "id": "gold-i",
+    "name": "Gold I",
+    "group": "Gold",
+    "tier": 1,
+    "trophyMin": 1800,
+    "trophyMax": 1999,
+    "clanXpEarned": 225,
+    "image": "images/clan-capital/leagues/gold-i.png"
+  },
+  {
+    "id": "crystal-iii",
+    "name": "Crystal III",
+    "group": "Crystal",
+    "tier": 3,
+    "trophyMin": 2000,
+    "trophyMax": 2199,
+    "clanXpEarned": 250,
+    "image": "images/clan-capital/leagues/crystal-iii.png"
+  },
+  {
+    "id": "crystal-ii",
+    "name": "Crystal II",
+    "group": "Crystal",
+    "tier": 2,
+    "trophyMin": 2200,
+    "trophyMax": 2399,
+    "clanXpEarned": 275,
+    "image": "images/clan-capital/leagues/crystal-ii.png"
+  },
+  {
+    "id": "crystal-i",
+    "name": "Crystal I",
+    "group": "Crystal",
+    "tier": 1,
+    "trophyMin": 2400,
+    "trophyMax": 2599,
+    "clanXpEarned": 300,
+    "image": "images/clan-capital/leagues/crystal-i.png"
+  },
+  {
+    "id": "master-iii",
+    "name": "Master III",
+    "group": "Master",
+    "tier": 3,
+    "trophyMin": 2600,
+    "trophyMax": 2799,
+    "clanXpEarned": 350,
+    "image": "images/clan-capital/leagues/master-iii.png"
+  },
+  {
+    "id": "master-ii",
+    "name": "Master II",
+    "group": "Master",
+    "tier": 2,
+    "trophyMin": 2800,
+    "trophyMax": 2999,
+    "clanXpEarned": 400,
+    "image": "images/clan-capital/leagues/master-ii.png"
+  },
+  {
+    "id": "master-i",
+    "name": "Master I",
+    "group": "Master",
+    "tier": 1,
+    "trophyMin": 3000,
+    "trophyMax": 3199,
+    "clanXpEarned": 450,
+    "image": "images/clan-capital/leagues/master-i.png"
+  },
+  {
+    "id": "champion-iii",
+    "name": "Champion III",
+    "group": "Champion",
+    "tier": 3,
+    "trophyMin": 3200,
+    "trophyMax": 3499,
+    "clanXpEarned": 500,
+    "image": "images/clan-capital/leagues/champion-iii.png"
+  },
+  {
+    "id": "champion-ii",
+    "name": "Champion II",
+    "group": "Champion",
+    "tier": 2,
+    "trophyMin": 3500,
+    "trophyMax": 3799,
+    "clanXpEarned": 550,
+    "image": "images/clan-capital/leagues/champion-ii.png"
+  },
+  {
+    "id": "champion-i",
+    "name": "Champion I",
+    "group": "Champion",
+    "tier": 1,
+    "trophyMin": 3800,
+    "trophyMax": 4099,
+    "clanXpEarned": 600,
+    "image": "images/clan-capital/leagues/champion-i.png"
+  },
+  {
+    "id": "titan-iii",
+    "name": "Titan III",
+    "group": "Titan",
+    "tier": 3,
+    "trophyMin": 4100,
+    "trophyMax": 4399,
+    "clanXpEarned": 650,
+    "image": "images/clan-capital/leagues/titan-iii.png"
+  },
+  {
+    "id": "titan-ii",
+    "name": "Titan II",
+    "group": "Titan",
+    "tier": 2,
+    "trophyMin": 4400,
+    "trophyMax": 4699,
+    "clanXpEarned": 700,
+    "image": "images/clan-capital/leagues/titan-ii.png"
+  },
+  {
+    "id": "titan-i",
+    "name": "Titan I",
+    "group": "Titan",
+    "tier": 1,
+    "trophyMin": 4700,
+    "trophyMax": 4999,
+    "clanXpEarned": 750,
+    "image": "images/clan-capital/leagues/titan-i.png"
+  },
+  {
+    "id": "legend",
+    "name": "Legend",
+    "group": "Legend",
+    "tier": null,
+    "trophyMin": 5000,
+    "trophyMax": null,
+    "clanXpEarned": 800,
+    "image": "images/clan-capital/leagues/legend.png"
+  }
+]
