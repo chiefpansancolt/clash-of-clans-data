@@ -4,6 +4,9 @@
  */
 import './calculators';
 import './season-pass';
+import './clan';
+import './clan/levels';
+import './clan/war';
 import './magic-items';
 import './magic-items/snacks';
 import './magic-items/potions';

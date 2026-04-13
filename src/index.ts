@@ -5,3 +5,4 @@ export * from './modules/clan-capital';
 export * from './modules/calculators';
 export * from './modules/magic-items';
 export * from './modules/season-pass';
+export * from './modules/clan';

@@ -30,6 +30,8 @@
       "@/magic-items/*": ["src/modules/magic-items/*"],
       "@/season-pass": ["src/modules/season-pass/index.ts"],
       "@/season-pass/*": ["src/modules/season-pass/*"],
+      "@/clan": ["src/modules/clan/index.ts"],
+      "@/clan/*": ["src/modules/clan/*"],
       "@/data/*": ["data/*"],
       "@/images/*": ["images/*"]
     }

@@ -1,0 +1,1383 @@
+{
+  "id": "clan-war",
+  "name": "Clan War",
+  "maxWarBaseLoot": [
+    {
+      "townHallLevel": 3,
+      "goldAndElixir": 6250,
+      "darkElixir": 0
+    },
+    {
+      "townHallLevel": 4,
+      "goldAndElixir": 12500,
+      "darkElixir": 0
+    },
+    {
+      "townHallLevel": 5,
+      "goldAndElixir": 20000,
+      "darkElixir": 0
+    },
+    {
+      "townHallLevel": 6,
+      "goldAndElixir": 30000,
+      "darkElixir": 0
+    },
+    {
+      "townHallLevel": 7,
+      "goldAndElixir": 40000,
+      "darkElixir": 125
+    },
+    {
+      "townHallLevel": 8,
+      "goldAndElixir": 55000,
+      "darkElixir": 200
+    },
+    {
+      "townHallLevel": 9,
+      "goldAndElixir": 70000,
+      "darkElixir": 330
+    },
+    {
+      "townHallLevel": 10,
+      "goldAndElixir": 90000,
+      "darkElixir": 500
+    },
+    {
+      "townHallLevel": 11,
+      "goldAndElixir": 110000,
+      "darkElixir": 600
+    },
+    {
+      "townHallLevel": 12,
+      "goldAndElixir": 120000,
+      "darkElixir": 650
+    },
+    {
+      "townHallLevel": 13,
+      "goldAndElixir": 130000,
+      "darkElixir": 700
+    },
+    {
+      "townHallLevel": 14,
+      "goldAndElixir": 140000,
+      "darkElixir": 750
+    },
+    {
+      "townHallLevel": 15,
+      "goldAndElixir": 150000,
+      "darkElixir": 800
+    },
+    {
+      "townHallLevel": 16,
+      "goldAndElixir": 160000,
+      "darkElixir": 850
+    },
+    {
+      "townHallLevel": 17,
+      "goldAndElixir": 170000,
+      "darkElixir": 1000
+    },
+    {
+      "townHallLevel": 18,
+      "goldAndElixir": 180000,
+      "darkElixir": 1150
+    }
+  ],
+  "warBonus": [
+    {
+      "clanLevelRange": "1-2",
+      "label": "Level 1-2 Clan",
+      "minClanLevel": 1,
+      "byTownHall": [
+        {
+          "townHallLevel": 3,
+          "victory": {
+            "goldAndElixir": 43750,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 25000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 21875,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 4,
+          "victory": {
+            "goldAndElixir": 87500,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 50000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 43750,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 5,
+          "victory": {
+            "goldAndElixir": 140000,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 80000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 70000,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 6,
+          "victory": {
+            "goldAndElixir": 210000,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 120000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 105000,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 7,
+          "victory": {
+            "goldAndElixir": 280000,
+            "darkElixir": 875
+          },
+          "draw": {
+            "goldAndElixir": 160000,
+            "darkElixir": 500
+          },
+          "defeat": {
+            "goldAndElixir": 140000,
+            "darkElixir": 437
+          }
+        },
+        {
+          "townHallLevel": 8,
+          "victory": {
+            "goldAndElixir": 385000,
+            "darkElixir": 1400
+          },
+          "draw": {
+            "goldAndElixir": 220000,
+            "darkElixir": 800
+          },
+          "defeat": {
+            "goldAndElixir": 192500,
+            "darkElixir": 700
+          }
+        },
+        {
+          "townHallLevel": 9,
+          "victory": {
+            "goldAndElixir": 490000,
+            "darkElixir": 2310
+          },
+          "draw": {
+            "goldAndElixir": 280000,
+            "darkElixir": 1320
+          },
+          "defeat": {
+            "goldAndElixir": 245000,
+            "darkElixir": 1155
+          }
+        },
+        {
+          "townHallLevel": 10,
+          "victory": {
+            "goldAndElixir": 630000,
+            "darkElixir": 3500
+          },
+          "draw": {
+            "goldAndElixir": 360000,
+            "darkElixir": 2000
+          },
+          "defeat": {
+            "goldAndElixir": 315000,
+            "darkElixir": 1750
+          }
+        },
+        {
+          "townHallLevel": 11,
+          "victory": {
+            "goldAndElixir": 770000,
+            "darkElixir": 4200
+          },
+          "draw": {
+            "goldAndElixir": 440000,
+            "darkElixir": 2400
+          },
+          "defeat": {
+            "goldAndElixir": 385000,
+            "darkElixir": 2100
+          }
+        },
+        {
+          "townHallLevel": 12,
+          "victory": {
+            "goldAndElixir": 840000,
+            "darkElixir": 4550
+          },
+          "draw": {
+            "goldAndElixir": 480000,
+            "darkElixir": 2600
+          },
+          "defeat": {
+            "goldAndElixir": 420000,
+            "darkElixir": 2275
+          }
+        },
+        {
+          "townHallLevel": 13,
+          "victory": {
+            "goldAndElixir": 910000,
+            "darkElixir": 4900
+          },
+          "draw": {
+            "goldAndElixir": 520000,
+            "darkElixir": 2800
+          },
+          "defeat": {
+            "goldAndElixir": 455000,
+            "darkElixir": 2450
+          }
+        },
+        {
+          "townHallLevel": 14,
+          "victory": {
+            "goldAndElixir": 980000,
+            "darkElixir": 5250
+          },
+          "draw": {
+            "goldAndElixir": 560000,
+            "darkElixir": 3000
+          },
+          "defeat": {
+            "goldAndElixir": 490000,
+            "darkElixir": 2625
+          }
+        },
+        {
+          "townHallLevel": 15,
+          "victory": {
+            "goldAndElixir": 1050000,
+            "darkElixir": 5600
+          },
+          "draw": {
+            "goldAndElixir": 600000,
+            "darkElixir": 3200
+          },
+          "defeat": {
+            "goldAndElixir": 525000,
+            "darkElixir": 2800
+          }
+        },
+        {
+          "townHallLevel": 16,
+          "victory": {
+            "goldAndElixir": 1120000,
+            "darkElixir": 5950
+          },
+          "draw": {
+            "goldAndElixir": 640000,
+            "darkElixir": 3400
+          },
+          "defeat": {
+            "goldAndElixir": 560000,
+            "darkElixir": 2975
+          }
+        },
+        {
+          "townHallLevel": 17,
+          "victory": {
+            "goldAndElixir": 1190000,
+            "darkElixir": 7000
+          },
+          "draw": {
+            "goldAndElixir": 680000,
+            "darkElixir": 4000
+          },
+          "defeat": {
+            "goldAndElixir": 595000,
+            "darkElixir": 3500
+          }
+        },
+        {
+          "townHallLevel": 18,
+          "victory": {
+            "goldAndElixir": 1260000,
+            "darkElixir": 8050
+          },
+          "draw": {
+            "goldAndElixir": 720000,
+            "darkElixir": 4600
+          },
+          "defeat": {
+            "goldAndElixir": 630000,
+            "darkElixir": 4025
+          }
+        }
+      ],
+      "maxClanLevel": 2
+    },
+    {
+      "clanLevelRange": "3-4",
+      "label": "Level 3-4 Clan",
+      "minClanLevel": 3,
+      "byTownHall": [
+        {
+          "townHallLevel": 3,
+          "victory": {
+            "goldAndElixir": 48125,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 27500,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 24062,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 4,
+          "victory": {
+            "goldAndElixir": 96250,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 55000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 48125,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 5,
+          "victory": {
+            "goldAndElixir": 154000,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 88000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 77000,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 6,
+          "victory": {
+            "goldAndElixir": 231000,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 132000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 115500,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 7,
+          "victory": {
+            "goldAndElixir": 308000,
+            "darkElixir": 962
+          },
+          "draw": {
+            "goldAndElixir": 176000,
+            "darkElixir": 550
+          },
+          "defeat": {
+            "goldAndElixir": 154000,
+            "darkElixir": 481
+          }
+        },
+        {
+          "townHallLevel": 8,
+          "victory": {
+            "goldAndElixir": 423500,
+            "darkElixir": 1540
+          },
+          "draw": {
+            "goldAndElixir": 242000,
+            "darkElixir": 880
+          },
+          "defeat": {
+            "goldAndElixir": 211750,
+            "darkElixir": 770
+          }
+        },
+        {
+          "townHallLevel": 9,
+          "victory": {
+            "goldAndElixir": 539000,
+            "darkElixir": 2541
+          },
+          "draw": {
+            "goldAndElixir": 308000,
+            "darkElixir": 1452
+          },
+          "defeat": {
+            "goldAndElixir": 269500,
+            "darkElixir": 1220
+          }
+        },
+        {
+          "townHallLevel": 10,
+          "victory": {
+            "goldAndElixir": 693000,
+            "darkElixir": 3850
+          },
+          "draw": {
+            "goldAndElixir": 396000,
+            "darkElixir": 2200
+          },
+          "defeat": {
+            "goldAndElixir": 346500,
+            "darkElixir": 1925
+          }
+        },
+        {
+          "townHallLevel": 11,
+          "victory": {
+            "goldAndElixir": 847000,
+            "darkElixir": 4620
+          },
+          "draw": {
+            "goldAndElixir": 484000,
+            "darkElixir": 2640
+          },
+          "defeat": {
+            "goldAndElixir": 423500,
+            "darkElixir": 2310
+          }
+        },
+        {
+          "townHallLevel": 12,
+          "victory": {
+            "goldAndElixir": 924000,
+            "darkElixir": 5005
+          },
+          "draw": {
+            "goldAndElixir": 528000,
+            "darkElixir": 2860
+          },
+          "defeat": {
+            "goldAndElixir": 462000,
+            "darkElixir": 2502
+          }
+        },
+        {
+          "townHallLevel": 13,
+          "victory": {
+            "goldAndElixir": 1001000,
+            "darkElixir": 5390
+          },
+          "draw": {
+            "goldAndElixir": 572000,
+            "darkElixir": 3080
+          },
+          "defeat": {
+            "goldAndElixir": 500500,
+            "darkElixir": 2695
+          }
+        },
+        {
+          "townHallLevel": 14,
+          "victory": {
+            "goldAndElixir": 1078000,
+            "darkElixir": 5775
+          },
+          "draw": {
+            "goldAndElixir": 616000,
+            "darkElixir": 3300
+          },
+          "defeat": {
+            "goldAndElixir": 539000,
+            "darkElixir": 2887
+          }
+        },
+        {
+          "townHallLevel": 15,
+          "victory": {
+            "goldAndElixir": 1155000,
+            "darkElixir": 6160
+          },
+          "draw": {
+            "goldAndElixir": 660000,
+            "darkElixir": 3520
+          },
+          "defeat": {
+            "goldAndElixir": 577500,
+            "darkElixir": 3080
+          }
+        },
+        {
+          "townHallLevel": 16,
+          "victory": {
+            "goldAndElixir": 1232000,
+            "darkElixir": 6545
+          },
+          "draw": {
+            "goldAndElixir": 704000,
+            "darkElixir": 3740
+          },
+          "defeat": {
+            "goldAndElixir": 616000,
+            "darkElixir": 3272
+          }
+        },
+        {
+          "townHallLevel": 17,
+          "victory": {
+            "goldAndElixir": 1309000,
+            "darkElixir": 7700
+          },
+          "draw": {
+            "goldAndElixir": 748000,
+            "darkElixir": 4400
+          },
+          "defeat": {
+            "goldAndElixir": 654500,
+            "darkElixir": 3850
+          }
+        },
+        {
+          "townHallLevel": 18,
+          "victory": {
+            "goldAndElixir": 1386000,
+            "darkElixir": 8855
+          },
+          "draw": {
+            "goldAndElixir": 792000,
+            "darkElixir": 5060
+          },
+          "defeat": {
+            "goldAndElixir": 693000,
+            "darkElixir": 4427
+          }
+        }
+      ],
+      "maxClanLevel": 4
+    },
+    {
+      "clanLevelRange": "5-6",
+      "label": "Level 5-6 Clan",
+      "minClanLevel": 5,
+      "byTownHall": [
+        {
+          "townHallLevel": 3,
+          "victory": {
+            "goldAndElixir": 50312,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 28750,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 25156,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 4,
+          "victory": {
+            "goldAndElixir": 100625,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 57500,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 50312,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 5,
+          "victory": {
+            "goldAndElixir": 161000,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 92000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 80500,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 6,
+          "victory": {
+            "goldAndElixir": 241500,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 138000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 120750,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 7,
+          "victory": {
+            "goldAndElixir": 322000,
+            "darkElixir": 1006
+          },
+          "draw": {
+            "goldAndElixir": 184000,
+            "darkElixir": 575
+          },
+          "defeat": {
+            "goldAndElixir": 161000,
+            "darkElixir": 503
+          }
+        },
+        {
+          "townHallLevel": 8,
+          "victory": {
+            "goldAndElixir": 442750,
+            "darkElixir": 1610
+          },
+          "draw": {
+            "goldAndElixir": 253000,
+            "darkElixir": 920
+          },
+          "defeat": {
+            "goldAndElixir": 221375,
+            "darkElixir": 805
+          }
+        },
+        {
+          "townHallLevel": 9,
+          "victory": {
+            "goldAndElixir": 563500,
+            "darkElixir": 2656
+          },
+          "draw": {
+            "goldAndElixir": 322500,
+            "darkElixir": 1518
+          },
+          "defeat": {
+            "goldAndElixir": 281750,
+            "darkElixir": 1328
+          }
+        },
+        {
+          "townHallLevel": 10,
+          "victory": {
+            "goldAndElixir": 724500,
+            "darkElixir": 4025
+          },
+          "draw": {
+            "goldAndElixir": 414000,
+            "darkElixir": 2300
+          },
+          "defeat": {
+            "goldAndElixir": 362250,
+            "darkElixir": 2012
+          }
+        },
+        {
+          "townHallLevel": 11,
+          "victory": {
+            "goldAndElixir": 885500,
+            "darkElixir": 4830
+          },
+          "draw": {
+            "goldAndElixir": 506000,
+            "darkElixir": 2760
+          },
+          "defeat": {
+            "goldAndElixir": 442750,
+            "darkElixir": 2415
+          }
+        },
+        {
+          "townHallLevel": 12,
+          "victory": {
+            "goldAndElixir": 966000,
+            "darkElixir": 5232
+          },
+          "draw": {
+            "goldAndElixir": 552000,
+            "darkElixir": 2990
+          },
+          "defeat": {
+            "goldAndElixir": 483000,
+            "darkElixir": 2616
+          }
+        },
+        {
+          "townHallLevel": 13,
+          "victory": {
+            "goldAndElixir": 1046500,
+            "darkElixir": 5635
+          },
+          "draw": {
+            "goldAndElixir": 598000,
+            "darkElixir": 3220
+          },
+          "defeat": {
+            "goldAndElixir": 523250,
+            "darkElixir": 2817
+          }
+        },
+        {
+          "townHallLevel": 14,
+          "victory": {
+            "goldAndElixir": 1127000,
+            "darkElixir": 6037
+          },
+          "draw": {
+            "goldAndElixir": 644000,
+            "darkElixir": 3450
+          },
+          "defeat": {
+            "goldAndElixir": 563500,
+            "darkElixir": 3018
+          }
+        },
+        {
+          "townHallLevel": 15,
+          "victory": {
+            "goldAndElixir": 1207500,
+            "darkElixir": 6440
+          },
+          "draw": {
+            "goldAndElixir": 690000,
+            "darkElixir": 3680
+          },
+          "defeat": {
+            "goldAndElixir": 603750,
+            "darkElixir": 3220
+          }
+        },
+        {
+          "townHallLevel": 16,
+          "victory": {
+            "goldAndElixir": 1288000,
+            "darkElixir": 6842
+          },
+          "draw": {
+            "goldAndElixir": 736000,
+            "darkElixir": 3910
+          },
+          "defeat": {
+            "goldAndElixir": 644000,
+            "darkElixir": 3421
+          }
+        },
+        {
+          "townHallLevel": 17,
+          "victory": {
+            "goldAndElixir": 1368500,
+            "darkElixir": 8050
+          },
+          "draw": {
+            "goldAndElixir": 782000,
+            "darkElixir": 4600
+          },
+          "defeat": {
+            "goldAndElixir": 684250,
+            "darkElixir": 4025
+          }
+        },
+        {
+          "townHallLevel": 18,
+          "victory": {
+            "goldAndElixir": 1449000,
+            "darkElixir": 9257
+          },
+          "draw": {
+            "goldAndElixir": 828000,
+            "darkElixir": 5290
+          },
+          "defeat": {
+            "goldAndElixir": 724500,
+            "darkElixir": 4628
+          }
+        }
+      ],
+      "maxClanLevel": 6
+    },
+    {
+      "clanLevelRange": "7-8",
+      "label": "Level 7-8 Clan",
+      "minClanLevel": 7,
+      "byTownHall": [
+        {
+          "townHallLevel": 3,
+          "victory": {
+            "goldAndElixir": 52500,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 30000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 26250,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 4,
+          "victory": {
+            "goldAndElixir": 105000,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 60000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 52500,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 5,
+          "victory": {
+            "goldAndElixir": 168000,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 96000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 84000,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 6,
+          "victory": {
+            "goldAndElixir": 252000,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 144000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 126000,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 7,
+          "victory": {
+            "goldAndElixir": 336000,
+            "darkElixir": 1050
+          },
+          "draw": {
+            "goldAndElixir": 192000,
+            "darkElixir": 600
+          },
+          "defeat": {
+            "goldAndElixir": 168000,
+            "darkElixir": 525
+          }
+        },
+        {
+          "townHallLevel": 8,
+          "victory": {
+            "goldAndElixir": 462000,
+            "darkElixir": 1680
+          },
+          "draw": {
+            "goldAndElixir": 264000,
+            "darkElixir": 960
+          },
+          "defeat": {
+            "goldAndElixir": 231000,
+            "darkElixir": 840
+          }
+        },
+        {
+          "townHallLevel": 9,
+          "victory": {
+            "goldAndElixir": 588000,
+            "darkElixir": 2772
+          },
+          "draw": {
+            "goldAndElixir": 336000,
+            "darkElixir": 1584
+          },
+          "defeat": {
+            "goldAndElixir": 294000,
+            "darkElixir": 1336
+          }
+        },
+        {
+          "townHallLevel": 10,
+          "victory": {
+            "goldAndElixir": 756000,
+            "darkElixir": 4200
+          },
+          "draw": {
+            "goldAndElixir": 432000,
+            "darkElixir": 2400
+          },
+          "defeat": {
+            "goldAndElixir": 378000,
+            "darkElixir": 2100
+          }
+        },
+        {
+          "townHallLevel": 11,
+          "victory": {
+            "goldAndElixir": 924000,
+            "darkElixir": 5040
+          },
+          "draw": {
+            "goldAndElixir": 528000,
+            "darkElixir": 2880
+          },
+          "defeat": {
+            "goldAndElixir": 462000,
+            "darkElixir": 2520
+          }
+        },
+        {
+          "townHallLevel": 12,
+          "victory": {
+            "goldAndElixir": 1008000,
+            "darkElixir": 5460
+          },
+          "draw": {
+            "goldAndElixir": 576000,
+            "darkElixir": 3120
+          },
+          "defeat": {
+            "goldAndElixir": 504000,
+            "darkElixir": 2730
+          }
+        },
+        {
+          "townHallLevel": 13,
+          "victory": {
+            "goldAndElixir": 1092000,
+            "darkElixir": 5880
+          },
+          "draw": {
+            "goldAndElixir": 624000,
+            "darkElixir": 3360
+          },
+          "defeat": {
+            "goldAndElixir": 546000,
+            "darkElixir": 2940
+          }
+        },
+        {
+          "townHallLevel": 14,
+          "victory": {
+            "goldAndElixir": 1176000,
+            "darkElixir": 6300
+          },
+          "draw": {
+            "goldAndElixir": 672000,
+            "darkElixir": 3600
+          },
+          "defeat": {
+            "goldAndElixir": 588000,
+            "darkElixir": 3150
+          }
+        },
+        {
+          "townHallLevel": 15,
+          "victory": {
+            "goldAndElixir": 1260000,
+            "darkElixir": 6720
+          },
+          "draw": {
+            "goldAndElixir": 720000,
+            "darkElixir": 3840
+          },
+          "defeat": {
+            "goldAndElixir": 630000,
+            "darkElixir": 3360
+          }
+        },
+        {
+          "townHallLevel": 16,
+          "victory": {
+            "goldAndElixir": 1344000,
+            "darkElixir": 7140
+          },
+          "draw": {
+            "goldAndElixir": 768000,
+            "darkElixir": 4080
+          },
+          "defeat": {
+            "goldAndElixir": 672000,
+            "darkElixir": 3570
+          }
+        },
+        {
+          "townHallLevel": 17,
+          "victory": {
+            "goldAndElixir": 1428000,
+            "darkElixir": 8400
+          },
+          "draw": {
+            "goldAndElixir": 816000,
+            "darkElixir": 4800
+          },
+          "defeat": {
+            "goldAndElixir": 714000,
+            "darkElixir": 4200
+          }
+        },
+        {
+          "townHallLevel": 18,
+          "victory": {
+            "goldAndElixir": 1512000,
+            "darkElixir": 9660
+          },
+          "draw": {
+            "goldAndElixir": 864000,
+            "darkElixir": 5520
+          },
+          "defeat": {
+            "goldAndElixir": 756000,
+            "darkElixir": 4830
+          }
+        }
+      ],
+      "maxClanLevel": 8
+    },
+    {
+      "clanLevelRange": "9+",
+      "label": "Level 9+ Clan",
+      "minClanLevel": 9,
+      "byTownHall": [
+        {
+          "townHallLevel": 3,
+          "victory": {
+            "goldAndElixir": 54687,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 31250,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 27343,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 4,
+          "victory": {
+            "goldAndElixir": 109375,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 62500,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 54687,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 5,
+          "victory": {
+            "goldAndElixir": 175000,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 100000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 87500,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 6,
+          "victory": {
+            "goldAndElixir": 262500,
+            "darkElixir": 0
+          },
+          "draw": {
+            "goldAndElixir": 150000,
+            "darkElixir": 0
+          },
+          "defeat": {
+            "goldAndElixir": 131250,
+            "darkElixir": 0
+          }
+        },
+        {
+          "townHallLevel": 7,
+          "victory": {
+            "goldAndElixir": 350000,
+            "darkElixir": 1093
+          },
+          "draw": {
+            "goldAndElixir": 200000,
+            "darkElixir": 625
+          },
+          "defeat": {
+            "goldAndElixir": 175000,
+            "darkElixir": 546
+          }
+        },
+        {
+          "townHallLevel": 8,
+          "victory": {
+            "goldAndElixir": 481250,
+            "darkElixir": 1750
+          },
+          "draw": {
+            "goldAndElixir": 275000,
+            "darkElixir": 1000
+          },
+          "defeat": {
+            "goldAndElixir": 240625,
+            "darkElixir": 875
+          }
+        },
+        {
+          "townHallLevel": 9,
+          "victory": {
+            "goldAndElixir": 612500,
+            "darkElixir": 2887
+          },
+          "draw": {
+            "goldAndElixir": 350000,
+            "darkElixir": 1650
+          },
+          "defeat": {
+            "goldAndElixir": 306250,
+            "darkElixir": 1443
+          }
+        },
+        {
+          "townHallLevel": 10,
+          "victory": {
+            "goldAndElixir": 787500,
+            "darkElixir": 4375
+          },
+          "draw": {
+            "goldAndElixir": 450000,
+            "darkElixir": 2500
+          },
+          "defeat": {
+            "goldAndElixir": 393750,
+            "darkElixir": 2187
+          }
+        },
+        {
+          "townHallLevel": 11,
+          "victory": {
+            "goldAndElixir": 962500,
+            "darkElixir": 5250
+          },
+          "draw": {
+            "goldAndElixir": 550000,
+            "darkElixir": 3000
+          },
+          "defeat": {
+            "goldAndElixir": 481250,
+            "darkElixir": 2625
+          }
+        },
+        {
+          "townHallLevel": 12,
+          "victory": {
+            "goldAndElixir": 1050000,
+            "darkElixir": 5687
+          },
+          "draw": {
+            "goldAndElixir": 600000,
+            "darkElixir": 3250
+          },
+          "defeat": {
+            "goldAndElixir": 525000,
+            "darkElixir": 2843
+          }
+        },
+        {
+          "townHallLevel": 13,
+          "victory": {
+            "goldAndElixir": 1137500,
+            "darkElixir": 6125
+          },
+          "draw": {
+            "goldAndElixir": 650000,
+            "darkElixir": 3500
+          },
+          "defeat": {
+            "goldAndElixir": 568750,
+            "darkElixir": 3062
+          }
+        },
+        {
+          "townHallLevel": 14,
+          "victory": {
+            "goldAndElixir": 1225000,
+            "darkElixir": 6562
+          },
+          "draw": {
+            "goldAndElixir": 700000,
+            "darkElixir": 3750
+          },
+          "defeat": {
+            "goldAndElixir": 612500,
+            "darkElixir": 3281
+          }
+        },
+        {
+          "townHallLevel": 15,
+          "victory": {
+            "goldAndElixir": 1312500,
+            "darkElixir": 7000
+          },
+          "draw": {
+            "goldAndElixir": 750000,
+            "darkElixir": 4000
+          },
+          "defeat": {
+            "goldAndElixir": 656250,
+            "darkElixir": 3500
+          }
+        },
+        {
+          "townHallLevel": 16,
+          "victory": {
+            "goldAndElixir": 1400000,
+            "darkElixir": 7437
+          },
+          "draw": {
+            "goldAndElixir": 800000,
+            "darkElixir": 4250
+          },
+          "defeat": {
+            "goldAndElixir": 700000,
+            "darkElixir": 3718
+          }
+        },
+        {
+          "townHallLevel": 17,
+          "victory": {
+            "goldAndElixir": 1487500,
+            "darkElixir": 8750
+          },
+          "draw": {
+            "goldAndElixir": 850000,
+            "darkElixir": 5000
+          },
+          "defeat": {
+            "goldAndElixir": 743750,
+            "darkElixir": 4375
+          }
+        },
+        {
+          "townHallLevel": 18,
+          "victory": {
+            "goldAndElixir": 1575000,
+            "darkElixir": 10062
+          },
+          "draw": {
+            "goldAndElixir": 900000,
+            "darkElixir": 5750
+          },
+          "defeat": {
+            "goldAndElixir": 787500,
+            "darkElixir": 5031
+          }
+        }
+      ]
+    }
+  ],
+  "maxWarBaseOre": [
+    {
+      "townHallLevel": 8,
+      "shinyOre": 380,
+      "glowyOre": 15,
+      "starryOre": null
+    },
+    {
+      "townHallLevel": 9,
+      "shinyOre": 410,
+      "glowyOre": 18,
+      "starryOre": null
+    },
+    {
+      "townHallLevel": 10,
+      "shinyOre": 460,
+      "glowyOre": 21,
+      "starryOre": 3
+    },
+    {
+      "townHallLevel": 11,
+      "shinyOre": 560,
+      "glowyOre": 24,
+      "starryOre": 3
+    },
+    {
+      "townHallLevel": 12,
+      "shinyOre": 610,
+      "glowyOre": 27,
+      "starryOre": 4
+    },
+    {
+      "townHallLevel": 13,
+      "shinyOre": 710,
+      "glowyOre": 30,
+      "starryOre": 4
+    },
+    {
+      "townHallLevel": 14,
+      "shinyOre": 810,
+      "glowyOre": 33,
+      "starryOre": 5
+    },
+    {
+      "townHallLevel": 15,
+      "shinyOre": 960,
+      "glowyOre": 36,
+      "starryOre": 5
+    },
+    {
+      "townHallLevel": "16-18",
+      "shinyOre": 1110,
+      "glowyOre": 39,
+      "starryOre": 6
+    }
+  ]
+}
