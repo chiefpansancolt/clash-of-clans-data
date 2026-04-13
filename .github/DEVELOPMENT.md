@@ -1,6 +1,7 @@
 # Development Guide
 
-This guide covers architecture, conventions, and the step-by-step workflow for adding new game data to this repository.
+This guide covers architecture, conventions, and the step-by-step workflow for adding new game data
+to this repository.
 
 ---
 
@@ -21,10 +22,14 @@ This guide covers architecture, conventions, and the step-by-step workflow for a
 The package is built around three layers:
 
 1. **JSON data files** (`data/`) — plain structured JSON, one file per entity, no logic
-2. **Module files** (`src/modules/`) — TypeScript modules that load JSON and expose a typed query API
-3. **Type definitions** (`src/types/`) — TypeScript interfaces that describe the shape of every entity
+2. **Module files** (`src/modules/`) — TypeScript modules that load JSON and expose a typed query
+   API
+3. **Type definitions** (`src/types/`) — TypeScript interfaces that describe the shape of every
+   entity
 
-All data access flows through base-level factory functions (`home()`, `builder()`, `clanCapital()`, `clan()`) that return namespace objects. Each namespace exposes category methods (`.defenses()`, `.troops()`, etc.) that return chainable query objects.
+All data access flows through base-level factory functions (`home()`, `builder()`, `clanCapital()`,
+`clan()`) that return namespace objects. Each namespace exposes category methods (`.defenses()`,
+`.troops()`, etc.) that return chainable query objects.
 
 ---
 
@@ -111,7 +116,8 @@ Building<L>                    ← root interface (id, name, base, category, lev
   …
 ```
 
-Each concrete type has a corresponding `*Level` interface describing the per-level data (hitpoints, buildCost, stats, images, etc.).
+Each concrete type has a corresponding `*Level` interface describing the per-level data (hitpoints,
+buildCost, stats, images, etc.).
 
 Key shared interfaces (in `src/types/common.ts`):
 
@@ -132,15 +138,16 @@ Every category is a class that extends `QueryBase<T>`:
 // src/common/query-base.ts
 abstract class QueryBase<T extends { id: string; name: string }> {
   constructor(protected readonly data: T[]) {}
-  get(): T[]                          // return all items
-  first(): T | undefined              // return first item
-  find(id: string): T | undefined     // find by id
-  findByName(name: string): T | undefined  // case-insensitive name search
-  count(): number                     // item count
+  get(): T[]; // return all items
+  first(): T | undefined; // return first item
+  find(id: string): T | undefined; // find by id
+  findByName(name: string): T | undefined; // case-insensitive name search
+  count(): number; // item count
 }
 ```
 
 A category class adds:
+
 - **Per-item accessor methods** — return a new instance wrapping a single item
 - **Filter methods** — return a new instance with a filtered subset
 
@@ -154,9 +161,7 @@ export class HomeVillageDefenses extends QueryBase<HomeDefense> {
   // Filter method (JSDoc required)
   /** Filter to defenses with splash damage. */
   byDamageType(type: DamageType): HomeVillageDefenses {
-    return new HomeVillageDefenses(
-      this.data.filter((d) => d.modes.normal?.damageType === type),
-    );
+    return new HomeVillageDefenses(this.data.filter((d) => d.modes.normal?.damageType === type));
   }
 }
 ```
@@ -164,7 +169,7 @@ export class HomeVillageDefenses extends QueryBase<HomeDefense> {
 All methods return the same class type so filters chain:
 
 ```typescript
-home().defenses().byTownHall(12).hasGearUp().byDamageType('splash').get();
+home().defenses().byTownHall(12).hasGearUp().byDamageType("splash").get();
 ```
 
 ---
@@ -175,7 +180,8 @@ Follow these steps in order. Each step is required.
 
 ### Step 1 — Source the data
 
-Paste the wiki HTML for the entity into `building-data.html`. This file is the single source of truth — Claude reads it directly to extract stats. Do not delete it.
+Paste the wiki HTML for the entity into `building-data.html`. This file is the single source of
+truth — Claude reads it directly to extract stats. Do not delete it.
 
 ### Step 2 — Create the JSON data file
 
@@ -192,9 +198,7 @@ Paste the wiki HTML for the entity into `building-data.html`. This file is the s
   "modes": {
     "normal": { "range": 9, "attackSpeed": 0.8, "damageType": "single" }
   },
-  "availablePerTownHall": [
-    { "townHallLevel": 1, "count": 1 }
-  ],
+  "availablePerTownHall": [{ "townHallLevel": 1, "count": 1 }],
   "levels": [
     {
       "level": 1,
@@ -212,7 +216,9 @@ Paste the wiki HTML for the entity into `building-data.html`. This file is the s
 ```
 
 Rules:
-- Constants shared across all levels (range, attackSpeed, damageType) go in `modes` — never in each level
+
+- Constants shared across all levels (range, attackSpeed, damageType) go in `modes` — never in each
+  level
 - `buildTime` always uses `{ days, hours, minutes, seconds }` — instant builds use all zeros
 - Image paths follow `images/{base}/{category}/{kebab-name}/{variant}/level-{N}.png`
 
@@ -223,8 +229,8 @@ Verify the structure matches an existing JSON file in the same category.
 **Path:** `src/modules/{base}/{category}/{kebab-name}/index.ts`
 
 ```typescript
-import rawData from '@/data/{base}/{category}/{kebab-name}.json';
-import { TypeName } from '@/types';
+import rawData from "@/data/{base}/{category}/{kebab-name}.json";
+import { TypeName } from "@/types";
 
 export const camelNameData: TypeName = rawData as unknown as TypeName;
 ```
@@ -241,7 +247,7 @@ Edit `src/modules/{base}/{category}/index.ts`:
 3. Add a per-item accessor method to the class
 
 ```typescript
-import { camelNameData } from './kebab-name';
+import { camelNameData } from "./kebab-name";
 
 const allDefenses = [...existingItems, camelNameData];
 
@@ -260,13 +266,15 @@ Do **not** add `export * from './kebab-name'` — per-item modules are internal.
 **Path:** `tests/modules/{base}/{category}/{kebab-name}.test.ts`
 
 Required assertions:
+
 - `id`, `name`, `base`, `category` identity checks
 - Level count
 - First and last level key stats
 - All levels have a valid image path
 - Any category-specific fields (`targetType`, `damageType`, `rarity`, etc.)
 
-Also update the namespace test (`tests/modules/{base}/{category}/{category}.test.ts`) to increment `count()` by 1.
+Also update the namespace test (`tests/modules/{base}/{category}/{category}.test.ts`) to increment
+`count()` by 1.
 
 ### Step 6 — Run tests
 
@@ -298,8 +306,8 @@ After downloading, run `pnpm sample` and check that the entity reports `N OK, 0 
 **Path:** `sample/{base}/{category}/{kebab-name}/index.ts`
 
 ```typescript
-import { home } from '../../../src';
-import { createLogger } from '../../helper';
+import { home } from "../../../src";
+import { createLogger } from "../../helper";
 
 const { log, writeOutput } = createLogger();
 const item = home().defenses().camelName().first()!;
@@ -311,7 +319,8 @@ log(`Levels: ${item.levels.length}`);
 writeOutput(__dirname);
 ```
 
-Import depth: `sample/{base}/{category}/{name}/index.ts` is 3 levels below `sample/` → import from `'../../../helper'`.
+Import depth: `sample/{base}/{category}/{name}/index.ts` is 3 levels below `sample/` → import from
+`'../../../helper'`.
 
 Also add `import './path/to/new-sample'` to `sample/index.ts`.
 
@@ -319,18 +328,18 @@ Also add `import './path/to/new-sample'` to `sample/index.ts`.
 
 ## Scripts Reference
 
-| Command              | Description                                              |
-| -------------------- | -------------------------------------------------------- |
-| `pnpm build`         | Build ESM + CJS + `.d.ts` via tsup                       |
-| `pnpm dev`           | Build in watch mode                                      |
-| `pnpm lint`          | `tsc --noEmit && eslint .`                               |
-| `pnpm format`        | Prettier write (`*.ts`, `*.md`, `*.json`)                |
-| `pnpm format:check`  | Prettier check (no write — used in CI)                   |
-| `pnpm test`          | Jest test suite                                          |
-| `pnpm test:watch`    | Jest in watch mode                                       |
-| `pnpm test:coverage` | Jest with coverage report                                |
-| `pnpm sample`        | Run all sample scripts and validate image paths          |
-| `pnpm typecheck`     | TypeScript type-check only (no emit)                     |
+| Command              | Description                                     |
+| -------------------- | ----------------------------------------------- |
+| `pnpm build`         | Build ESM + CJS + `.d.ts` via tsup              |
+| `pnpm dev`           | Build in watch mode                             |
+| `pnpm lint`          | `tsc --noEmit && eslint .`                      |
+| `pnpm format`        | Prettier write (`*.ts`, `*.md`, `*.json`)       |
+| `pnpm format:check`  | Prettier check (no write — used in CI)          |
+| `pnpm test`          | Jest test suite                                 |
+| `pnpm test:watch`    | Jest in watch mode                              |
+| `pnpm test:coverage` | Jest with coverage report                       |
+| `pnpm sample`        | Run all sample scripts and validate image paths |
+| `pnpm typecheck`     | TypeScript type-check only (no emit)            |
 
 ---
 
@@ -341,9 +350,10 @@ Also add `import './path/to/new-sample'` to `sample/index.ts`.
 Always use `@/` aliases inside `src/` — never relative paths:
 
 ```typescript
-import { HomeDefense } from '@/types';           // not '../../types'
-import rawData from '@/data/home/defenses/cannon.json';
-import { cannonData } from '@/modules/home/defenses/cannon';
+// not '../../types'
+import rawData from "@/data/home/defenses/cannon.json";
+import { cannonData } from "@/modules/home/defenses/cannon";
+import { HomeDefense } from "@/types";
 ```
 
 ### ID format
@@ -371,14 +381,17 @@ export class HomeVillageDefenses extends QueryBase<HomeDefense> {
 
 ### No extra exports
 
-Per-item module files export only their `*Data` constant. The category namespace re-exports only its class. `src/index.ts` re-exports base namespaces — never individual building modules.
+Per-item module files export only their `*Data` constant. The category namespace re-exports only its
+class. `src/index.ts` re-exports base namespaces — never individual building modules.
 
 ### TypeScript strict mode
 
-No `any`. Use `as unknown as TypeName` when casting raw JSON imports. Index signatures (`[key: string]: unknown`) are only used in typed stubs that will be expanded later.
+No `any`. Use `as unknown as TypeName` when casting raw JSON imports. Index signatures
+(`[key: string]: unknown`) are only used in typed stubs that will be expanded later.
 
 ### Testing
 
-- Import through the public API (`home().defenses().cannon()`) — not by importing `cannonData` directly
+- Import through the public API (`home().defenses().cannon()`) — not by importing `cannonData`
+  directly
 - Use `testQueryBaseContract` and `testFilterImmutability` from `tests/helpers.ts`
 - Never hit a real API or network in unit tests

@@ -83,10 +83,14 @@ Initial release.
 
 #### Home Village — Hero Equipment (37)
 
-- Barbarian King: Barbarian Puppet, Spiky Ball, Giant Gauntlet, Earthquake Boots, Vampstache, Giant Arrow, Rage Gem, Henchmen Puppet, Metal Pants, Noble Iron, Rocket Spear
-- Archer Queen: Archer Puppet, Giant Arrow, Invisibility Vial, Healer Puppet, Frozen Arrow, Magic Mirror, Action Figure, Life Gem, Rocket Backpack, Seeking Shield
-- Grand Warden: Eternal Tome, Healing Tome, Rage Vial, Giant Gauntlet, Fireball, Haste Vial, Fire Heart
-- Royal Champion: Royal Gem, Seeking Shield, Hog Rider Puppet, Lavaloon Puppet, Frost Flake, Meteor Staff, Stun Blaster
+- Barbarian King: Barbarian Puppet, Spiky Ball, Giant Gauntlet, Earthquake Boots, Vampstache, Giant
+  Arrow, Rage Gem, Henchmen Puppet, Metal Pants, Noble Iron, Rocket Spear
+- Archer Queen: Archer Puppet, Giant Arrow, Invisibility Vial, Healer Puppet, Frozen Arrow, Magic
+  Mirror, Action Figure, Life Gem, Rocket Backpack, Seeking Shield
+- Grand Warden: Eternal Tome, Healing Tome, Rage Vial, Giant Gauntlet, Fireball, Haste Vial, Fire
+  Heart
+- Royal Champion: Royal Gem, Seeking Shield, Hog Rider Puppet, Lavaloon Puppet, Frost Flake, Meteor
+  Staff, Stun Blaster
 - Minion Prince: Dark Crown, Dark Orb, Flame Blower, Snake Bracelet, Heroic Torch
 - Dragon Duke: Electro Boots, Stick Horse
 
@@ -145,7 +149,8 @@ Initial release.
 
 #### Builder Base — Resource Buildings (7)
 
-- Gold Mine, Gold Storage, Elixir Collector, Elixir Storage, Gem Mine, B.O.B Control, Builder's Apprentice Hut
+- Gold Mine, Gold Storage, Elixir Collector, Elixir Storage, Gem Mine, B.O.B Control, Builder's
+  Apprentice Hut
 
 #### Builder Base — Army Buildings (8)
 
@@ -188,12 +193,11 @@ Initial release.
 #### Clan Capital — Army Buildings
 
 - Army Camp, Spell Storage
-- Barracks: Super Barbarian, Sneaky Archer, Super Giant, Battle Ram, Super Wizard,
-  Rocket Balloon, Hog Raider, Super Dragon, Skeleton Barrel, Hog Glider, Super Miner,
-  Inferno Dragon, Power P.E.K.K.A, Minion, Super Valkyrie, Raid Cart, Mega Sparky,
-  Mountain Golem, Flying Fortress
-- Spell Factories: Rage Spell, Heal Spell, Frost Spell, Jump Spell, Lightning Spell,
-  Graveyard Spell, Endless Haste Spell
+- Barracks: Super Barbarian, Sneaky Archer, Super Giant, Battle Ram, Super Wizard, Rocket Balloon,
+  Hog Raider, Super Dragon, Skeleton Barrel, Hog Glider, Super Miner, Inferno Dragon, Power
+  P.E.K.K.A, Minion, Super Valkyrie, Raid Cart, Mega Sparky, Mountain Golem, Flying Fortress
+- Spell Factories: Rage Spell, Heal Spell, Frost Spell, Jump Spell, Lightning Spell, Graveyard
+  Spell, Endless Haste Spell
 
 #### Clan Capital — Halls & Walls
 
@@ -207,9 +211,12 @@ Initial release.
 
 #### Clan Data
 
-- **Clan Levels** — 20 levels with XP requirements, cumulative XP, badge tiers (Bronze → Legend), and unlocked perks (donation limits, donation upgrade levels, treasury extra storage, war bonus extra loot)
+- **Clan Levels** — 20 levels with XP requirements, cumulative XP, badge tiers (Bronze → Legend),
+  and unlocked perks (donation limits, donation upgrade levels, treasury extra storage, war bonus
+  extra loot)
 - **Clan Labels** — 17 searchable labels (Clan Wars, Trophy Pushing, Farming, Donations, etc.)
-- **Clan War** — max war base loot (TH3–18), war bonus tiers by clan level (5 tiers), max war base ore (TH8–18)
+- **Clan War** — max war base loot (TH3–18), war bonus tiers by clan level (5 tiers), max war base
+  ore (TH8–18)
 
 ---
 
@@ -244,7 +251,8 @@ Initial release.
 ### Infrastructure
 
 - Fluent query API with `QueryBase<T>` — `get()`, `first()`, `find()`, `findByName()`, `count()`
-- Chainable filter methods on all category namespaces (`byTownHall`, `byDamageType`, `hasGearUp`, `byHero`, `byRarity`, etc.)
+- Chainable filter methods on all category namespaces (`byTownHall`, `byDamageType`, `hasGearUp`,
+  `byHero`, `byRarity`, etc.)
 - Dual ESM + CJS build via tsup
 - Full TypeScript strict mode with path aliases (`@/types`, `@/modules`, `@/data`)
 - Jest test suite (354 test suites, 6,248 tests)
