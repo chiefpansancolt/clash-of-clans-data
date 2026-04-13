@@ -26,21 +26,21 @@ jobs:
           registry-url: https://npm.pkg.github.com
           scope: "@chiefpansancolt"
       - run: pnpm install --frozen-lockfile
+        env:
+          HUSKY: 0
       - run: pnpm build
       - name: Scope package for GitHub Packages
         run: |
-          name=$(node -p 'require("./package.json").name')
-          node -e "
-            const pkg = require('./package.json');
-            pkg.name = '@chiefpansancolt/${name}';
-            pkg.publishConfig = { registry: 'https://npm.pkg.github.com' };
-            require('fs').writeFileSync('package.json', JSON.stringify(pkg, null, 2) + '\n');
-          "
+          name=$(jq -r '.name' package.json)
+          jq --arg scoped "@chiefpansancolt/${name}" \
+            '.name = $scoped | .publishConfig = {"registry": "https://npm.pkg.github.com"}' \
+            package.json > package.tmp.json
+          mv package.tmp.json package.json
       - name: Check if version exists on GitHub Packages
         id: check
         run: |
-          version=$(node -p 'require("./package.json").version')
-          scoped=$(node -p 'require("./package.json").name')
+          version=$(jq -r '.version' package.json)
+          scoped=$(jq -r '.name' package.json)
           if npm view "${scoped}@${version}" version --registry=https://npm.pkg.github.com 2>/dev/null; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
             echo "Version ${version} already published to GitHub Packages — skipping"
@@ -71,12 +71,14 @@ jobs:
           cache: pnpm
           registry-url: https://registry.npmjs.org
       - run: pnpm install --frozen-lockfile
+        env:
+          HUSKY: 0
       - run: pnpm build
       - name: Check if version exists on npm
         id: check
         run: |
-          version=$(node -p 'require("./package.json").version')
-          name=$(node -p 'require("./package.json").name')
+          version=$(jq -r '.version' package.json)
+          name=$(jq -r '.name' package.json)
           if npm view "${name}@${version}" version --registry=https://registry.npmjs.org 2>/dev/null; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
             echo "Version ${version} already published to npm — skipping"
@@ -101,7 +103,7 @@ jobs:
       - uses: actions/checkout@v6
       - name: Get version from package.json
         id: version
-        run: echo "version=$(node -p 'require("./package.json").version')" >> "$GITHUB_OUTPUT"
+        run: echo "version=$(jq -r '.version' package.json)" >> "$GITHUB_OUTPUT"
       - name: Check if release already exists
         id: check
         run: |
