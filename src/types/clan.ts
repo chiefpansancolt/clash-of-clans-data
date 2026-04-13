@@ -1,5 +1,13 @@
 /** Badge tier displayed on a clan's profile. */
-export type ClanBadge = 'bronze' | 'silver' | 'gold' | 'crystal' | 'master' | 'champion' | 'titan' | 'legend';
+export type ClanBadge =
+  | 'bronze'
+  | 'silver'
+  | 'gold'
+  | 'crystal'
+  | 'master'
+  | 'champion'
+  | 'titan'
+  | 'legend';
 
 /** Donation limits unlocked at a given clan level. */
 export interface ClanDonationLimit {

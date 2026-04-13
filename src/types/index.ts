@@ -24,3 +24,4 @@ export * from './calculator';
 export * from './season-pass';
 export * from './clan';
 export * from './achievement';
+export * from './ranked-battles';

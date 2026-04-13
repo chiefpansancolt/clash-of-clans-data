@@ -149,12 +149,20 @@ describe('rankedBattles().loot()', () => {
     expect(rankedBattles().loot(14)).toHaveLength(35);
   });
 
-  it('TH13 returns 28 entries (Skeleton 1–Archer 7 not available in source)', () => {
-    expect(rankedBattles().loot(13)).toHaveLength(28);
+  it('TH13 returns 35 entries', () => {
+    expect(rankedBattles().loot(13)).toHaveLength(35);
+  });
+
+  it('TH8 returns 34 entries (Skeleton 1 not available in source)', () => {
+    expect(rankedBattles().loot(8)).toHaveLength(34);
+  });
+
+  it('TH7 returns 35 entries', () => {
+    expect(rankedBattles().loot(7)).toHaveLength(35);
   });
 
   it('unknown TH returns empty array', () => {
-    expect(rankedBattles().loot(7)).toHaveLength(0);
+    expect(rankedBattles().loot(6)).toHaveLength(0);
   });
 
   it('TH18 Unranked entry has null maxAvailableLoot and valid star bonus', () => {
@@ -187,5 +195,46 @@ describe('rankedBattles().loot()', () => {
     const entries = rankedBattles().loot(16);
     const golem21 = entries.find((e) => e.leagueId === 'golem-21')!;
     expect(golem21.underfloor).toBe(false);
+  });
+
+  it('TH7 has no underfloor entries (Skeleton 1 is the floor)', () => {
+    const entries = rankedBattles().loot(7);
+    expect(entries.filter((e) => e.underfloor)).toHaveLength(0);
+  });
+
+  it('TH7 Skeleton 1 is at-floor with valid loot', () => {
+    const entries = rankedBattles().loot(7);
+    const sk1 = entries.find((e) => e.leagueId === 'skeleton-1')!;
+    expect(sk1).toBeDefined();
+    expect(sk1.underfloor).toBe(false);
+    expect(sk1.maxAvailableLoot.goldAndElixir).toBeGreaterThan(0);
+    expect(sk1.maxAvailableLoot.darkElixir).toBeGreaterThan(0);
+  });
+});
+
+describe('rankedBattles().lowerThBonuses()', () => {
+  const bonuses = rankedBattles().lowerThBonuses();
+
+  it('returns 5 entries (TH2–6)', () => {
+    expect(bonuses).toHaveLength(5);
+  });
+
+  it('first entry is TH2', () => {
+    expect(bonuses[0].townHallLevel).toBe(2);
+    expect(bonuses[0].maxLeagueBonus).toBe(300);
+    expect(bonuses[0].starBonus).toBe(30000);
+  });
+
+  it('last entry is TH6', () => {
+    const last = bonuses[bonuses.length - 1];
+    expect(last.townHallLevel).toBe(6);
+    expect(last.maxLeagueBonus).toBe(700);
+    expect(last.starBonus).toBe(150000);
+  });
+
+  it('TH6 has higher star bonus than TH2', () => {
+    const th2 = bonuses.find((b) => b.townHallLevel === 2)!;
+    const th6 = bonuses.find((b) => b.townHallLevel === 6)!;
+    expect(th6.starBonus).toBeGreaterThan(th2.starBonus);
   });
 });

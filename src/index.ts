@@ -7,3 +7,4 @@ export * from './modules/magic-items';
 export * from './modules/season-pass';
 export * from './modules/clan';
 export * from './modules/achievements';
+export * from './modules/ranked-battles';

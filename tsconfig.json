@@ -34,6 +34,8 @@
       "@/clan/*": ["src/modules/clan/*"],
       "@/achievements": ["src/modules/achievements/index.ts"],
       "@/achievements/*": ["src/modules/achievements/*"],
+      "@/ranked-battles": ["src/modules/ranked-battles/index.ts"],
+      "@/ranked-battles/*": ["src/modules/ranked-battles/*"],
       "@/data/*": ["data/*"],
       "@/images/*": ["images/*"]
     }

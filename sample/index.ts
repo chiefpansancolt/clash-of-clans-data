@@ -2,18 +2,8 @@
  * Runs all sample scripts. Each writes its output to its own output.txt file.
  * Run with: pnpm sample
  */
-import './calculators';
-import './season-pass';
-import './clan';
-import './clan/levels';
-import './clan/war';
 import './achievements';
-import './magic-items';
-import './magic-items/snacks';
-import './magic-items/potions';
-import './magic-items/books';
-import './magic-items/hammers';
-import './magic-items/utilities';
+import './ranked-battles';
 import './builder';
 import './builder/army-buildings';
 import './builder/army-buildings/army-camp';
@@ -72,6 +62,8 @@ import './builder/troops/raged-barbarian';
 import './builder/troops/sneaky-archer';
 import './builder/walls';
 import './builder/walls/wall';
+import './calculators';
+import './clan';
 import './clan-capital';
 import './clan-capital/army-buildings';
 import './clan-capital/army-buildings/army-camp';
@@ -165,6 +157,8 @@ import './clan-capital/troops/super-giant';
 import './clan-capital/troops/super-miner';
 import './clan-capital/troops/super-wizard';
 import './clan-capital/walls';
+import './clan/levels';
+import './clan/war';
 import './home';
 import './home/army-buildings';
 import './home/army-buildings/army-camp';
@@ -332,3 +326,10 @@ import './home/troops/wizard';
 import './home/troops/yeti';
 import './home/walls';
 import './home/walls/wall';
+import './magic-items';
+import './magic-items/books';
+import './magic-items/hammers';
+import './magic-items/potions';
+import './magic-items/snacks';
+import './magic-items/utilities';
+import './season-pass';

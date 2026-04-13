@@ -20,5 +20,7 @@ module.exports = {
     '^@/clan/(.*)$': '<rootDir>/src/modules/clan/$1',
     '^@/achievements$': '<rootDir>/src/modules/achievements/index.ts',
     '^@/achievements/(.*)$': '<rootDir>/src/modules/achievements/$1',
+    '^@/ranked-battles$': '<rootDir>/src/modules/ranked-battles/index.ts',
+    '^@/ranked-battles/(.*)$': '<rootDir>/src/modules/ranked-battles/$1',
   },
 };
