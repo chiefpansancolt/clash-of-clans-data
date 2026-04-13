@@ -1,0 +1,285 @@
+{
+  "id": "clan-levels",
+  "name": "Clan Levels",
+  "labels": [
+    { "id": "clan-wars", "name": "Clan Wars", "image": "images/clan/labels/clan-wars.png" },
+    { "id": "clan-war-league", "name": "Clan War League", "image": "images/clan/labels/clan-war-league.png" },
+    { "id": "trophy-pushing", "name": "Trophy Pushing", "image": "images/clan/labels/trophy-pushing.png" },
+    { "id": "friendly-wars", "name": "Friendly Wars", "image": "images/clan/labels/friendly-wars.png" },
+    { "id": "clan-games", "name": "Clan Games", "image": "images/clan/labels/clan-games.png" },
+    { "id": "builder-base", "name": "Builder Base", "image": "images/clan/labels/builder-base.png" },
+    { "id": "base-designing", "name": "Base Designing", "image": "images/clan/labels/base-designing.png" },
+    { "id": "international", "name": "International", "image": "images/clan/labels/international.png" },
+    { "id": "farming", "name": "Farming", "image": "images/clan/labels/farming.png" },
+    { "id": "donations", "name": "Donations", "image": "images/clan/labels/donations.png" },
+    { "id": "clan-capital", "name": "Clan Capital", "image": "images/clan/labels/clan-capital.png" },
+    { "id": "friendly", "name": "Friendly", "image": "images/clan/labels/friendly.png" },
+    { "id": "talkative", "name": "Talkative", "image": "images/clan/labels/talkative.png" },
+    { "id": "underdog", "name": "Underdog", "image": "images/clan/labels/underdog.png" },
+    { "id": "relaxed", "name": "Relaxed", "image": "images/clan/labels/relaxed.png" },
+    { "id": "competitive", "name": "Competitive", "image": "images/clan/labels/competitive.png" },
+    { "id": "newbie-friendly", "name": "Newbie Friendly", "image": "images/clan/labels/newbie-friendly.png" }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "xpRequired": null,
+      "cumulativeXp": null,
+      "badge": "bronze",
+      "image": "images/clan/badges/level-1.png",
+      "perks": {
+        "donationLimit": { "troops": 6, "spells": 1, "siegeMachines": 1 },
+        "donationUpgradeLevels": 0,
+        "treasuryExtraStorage": 0,
+        "warBonusExtraLoot": 0
+      }
+    },
+    {
+      "level": 2,
+      "xpRequired": 500,
+      "cumulativeXp": 500,
+      "badge": "bronze",
+      "image": "images/clan/badges/level-1.png",
+      "perks": {
+        "donationLimit": { "troops": 10, "spells": 1, "siegeMachines": 1 },
+        "donationUpgradeLevels": 0,
+        "treasuryExtraStorage": 10,
+        "warBonusExtraLoot": 0
+      }
+    },
+    {
+      "level": 3,
+      "xpRequired": 1200,
+      "cumulativeXp": 1700,
+      "badge": "bronze",
+      "image": "images/clan/badges/level-1.png",
+      "perks": {
+        "donationLimit": { "troops": 10, "spells": 2, "siegeMachines": 1 },
+        "donationUpgradeLevels": 0,
+        "treasuryExtraStorage": 10,
+        "warBonusExtraLoot": 10
+      }
+    },
+    {
+      "level": 4,
+      "xpRequired": 1900,
+      "cumulativeXp": 3600,
+      "badge": "bronze",
+      "image": "images/clan/badges/level-1.png",
+      "perks": {
+        "donationLimit": { "troops": 15, "spells": 2, "siegeMachines": 1 },
+        "donationUpgradeLevels": 0,
+        "treasuryExtraStorage": 20,
+        "warBonusExtraLoot": 10
+      }
+    },
+    {
+      "level": 5,
+      "xpRequired": 3100,
+      "cumulativeXp": 6700,
+      "badge": "silver",
+      "image": "images/clan/badges/level-5.png",
+      "perks": {
+        "donationLimit": { "troops": 15, "spells": 3, "siegeMachines": 1 },
+        "donationUpgradeLevels": 1,
+        "treasuryExtraStorage": 20,
+        "warBonusExtraLoot": 15
+      }
+    },
+    {
+      "level": 6,
+      "xpRequired": 3800,
+      "cumulativeXp": 10500,
+      "badge": "silver",
+      "image": "images/clan/badges/level-5.png",
+      "perks": {
+        "donationLimit": { "troops": 25, "spells": 3, "siegeMachines": 2 },
+        "donationUpgradeLevels": 1,
+        "treasuryExtraStorage": 30,
+        "warBonusExtraLoot": 15
+      }
+    },
+    {
+      "level": 7,
+      "xpRequired": 4500,
+      "cumulativeXp": 15000,
+      "badge": "silver",
+      "image": "images/clan/badges/level-5.png",
+      "perks": {
+        "donationLimit": { "troops": 25, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 1,
+        "treasuryExtraStorage": 30,
+        "warBonusExtraLoot": 20
+      }
+    },
+    {
+      "level": 8,
+      "xpRequired": 5200,
+      "cumulativeXp": 20200,
+      "badge": "silver",
+      "image": "images/clan/badges/level-5.png",
+      "perks": {
+        "donationLimit": { "troops": 40, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 1,
+        "treasuryExtraStorage": 40,
+        "warBonusExtraLoot": 20
+      }
+    },
+    {
+      "level": 9,
+      "xpRequired": 5900,
+      "cumulativeXp": 26100,
+      "badge": "silver",
+      "image": "images/clan/badges/level-5.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 1,
+        "treasuryExtraStorage": 40,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 10,
+      "xpRequired": 7900,
+      "cumulativeXp": 34000,
+      "badge": "gold",
+      "image": "images/clan/badges/level-10.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 11,
+      "xpRequired": 8600,
+      "cumulativeXp": 42600,
+      "badge": "gold",
+      "image": "images/clan/badges/level-10.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 12,
+      "xpRequired": 9300,
+      "cumulativeXp": 51900,
+      "badge": "crystal",
+      "image": "images/clan/badges/level-12.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 13,
+      "xpRequired": 10000,
+      "cumulativeXp": 61900,
+      "badge": "crystal",
+      "image": "images/clan/badges/level-12.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 14,
+      "xpRequired": 10700,
+      "cumulativeXp": 72600,
+      "badge": "master",
+      "image": "images/clan/badges/level-14.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 15,
+      "xpRequired": 15700,
+      "cumulativeXp": 88300,
+      "badge": "master",
+      "image": "images/clan/badges/level-14.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 16,
+      "xpRequired": 16400,
+      "cumulativeXp": 104700,
+      "badge": "champion",
+      "image": "images/clan/badges/level-16.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 17,
+      "xpRequired": 17100,
+      "cumulativeXp": 121800,
+      "badge": "champion",
+      "image": "images/clan/badges/level-16.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 18,
+      "xpRequired": 17800,
+      "cumulativeXp": 139600,
+      "badge": "titan",
+      "image": "images/clan/badges/level-18.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 19,
+      "xpRequired": 18500,
+      "cumulativeXp": 158100,
+      "badge": "titan",
+      "image": "images/clan/badges/level-18.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    },
+    {
+      "level": 20,
+      "xpRequired": 23500,
+      "cumulativeXp": 181600,
+      "badge": "legend",
+      "image": "images/clan/badges/level-20.png",
+      "perks": {
+        "donationLimit": { "troops": 55, "spells": 4, "siegeMachines": 2 },
+        "donationUpgradeLevels": 2,
+        "treasuryExtraStorage": 50,
+        "warBonusExtraLoot": 25
+      }
+    }
+  ]
+}
