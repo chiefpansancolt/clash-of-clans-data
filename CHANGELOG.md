@@ -5,6 +5,37 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.0] — 2026-04-14
+
+### Added
+
+#### Level Count APIs
+
+New `levelCountAtTownHall`, `levelCountAtBuilderHall`, and `levelCountAtClanCapital` methods that
+compute the total number of upgradeable level slots available at a given hall level, broken down by
+category. Useful for progress tracking and upgrade completion ratios.
+
+- **`home().levelCountAtTownHall(thLevel)`** — Returns a `TownHallLevelCounts` breakdown across:
+  `structures`, `traps`, `superCharge`, `lab`, `heroes`, `guardians`, `equipment`, `pets`, `walls`,
+  `total`
+- **`builder().levelCountAtBuilderHall(bhLevel)`** — Returns a `BuilderHallLevelCounts` breakdown
+  across: `structures`, `traps`, `starLab`, `heroes`, `walls`, `total`
+- **`clanCapital().levelCountAtClanCapital(chLevel)`** — Returns a `ClanCapitalLevelCounts`
+  breakdown with per-district `{ structures, walls, total }` objects for all 9 zones (Capital Peak +
+  8 districts), plus top-level `troops`, `spells`, and `total`
+
+#### Ranked Battles — `byName` Search
+
+Added `byName(query: string)` partial-match filter to `RankedBattlesLeagues`. Case-insensitive
+substring search — e.g. `byName('Dragon')` returns Dragon 28, 29, 30; `byName('Dragon 30')` returns
+only Dragon 30.
+
+#### Images
+
+- Added `images/other/trophy.png` and `images/other/xp.png`
+- Moved images from `images/other/` to `images/season-pass/pass-items/` and
+  `images/season-pass/other`
+
 ## [0.3.0] - 2026-04-14
 
 ### Fixes
