@@ -24,6 +24,17 @@ for (const league of rb.leagues().get()) {
   );
 }
 
+// ── byName search ────────────────────────────────────────────────────────────
+
+log('');
+log('=== rankedBattles().leagues().byName() ===');
+
+const searches = ['Dragon', 'Dragon 30', 'electro', 'legend'];
+for (const query of searches) {
+  const results = rb.leagues().byName(query).get();
+  log(`  byName("${query}") → ${results.map((l) => l.name).join(', ') || '(no results)'}`);
+}
+
 // ── League Floor ──────────────────────────────────────────────────────────────
 
 log('');

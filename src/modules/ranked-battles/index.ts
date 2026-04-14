@@ -26,6 +26,16 @@ export class RankedBattlesLeagues extends QueryBase<RankedBattleLeague> {
     return new RankedBattlesLeagues(this.data.filter((l) => l.leagueGroup === group));
   }
 
+  /**
+   * Filter leagues by a partial, case-insensitive name search.
+   * e.g. `byName('Dragon')` returns Dragon 28, 29, 30.
+   *      `byName('Dragon 30')` returns only Dragon 30.
+   */
+  byName(query: string): RankedBattlesLeagues {
+    const q = query.toLowerCase();
+    return new RankedBattlesLeagues(this.data.filter((l) => l.name.toLowerCase().includes(q)));
+  }
+
   /** Filter to leagues that have a difficulty modifier (Electro 32, 33, Legend). */
   withDifficultyModifier(): RankedBattlesLeagues {
     const modifierIds = new Set(allDifficultyModifiers.map((m) => m.leagueId));
