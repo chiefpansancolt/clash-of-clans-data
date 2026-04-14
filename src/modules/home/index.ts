@@ -1,3 +1,10 @@
+import {
+  thEffectiveCount,
+  thStructureCount,
+  thSuperChargeCount,
+} from '@/common/level-count-helpers';
+import type { TownHallAvailability, TownHallLevelCounts } from '@/types';
+import type { THCountableBuilding } from '@/types/level-count-helpers';
 import { HomeVillageArmyBuildings } from './army-buildings';
 import { HomeVillageCraftedDefenses } from './crafted-defenses';
 import { HomeVillageDefenses } from './defenses';
@@ -125,6 +132,121 @@ export class HomeVillage {
   /** Returns a query over other buildings (Bob's Hut) and helpers (Helper Hut, Lab Assistant, etc.). */
   otherBuildings(): HomeVillageOtherBuildings {
     return new HomeVillageOtherBuildings();
+  }
+
+  /**
+   * Computes the total number of upgradeable level slots available at a given Town Hall level,
+   * broken down by category. Useful for progress tracking and upgrade completion ratios.
+   *
+   * @param thLevel - Town Hall level (1–18)
+   */
+  levelCountAtTownHall(thLevel: number): TownHallLevelCounts {
+    const allStructures: THCountableBuilding[] = [
+      ...(this.defenses().get() as unknown as THCountableBuilding[]),
+      ...(this.armyBuildings().get() as unknown as THCountableBuilding[]), // army camp
+      this.armyBuildings().barracks().first()! as unknown as THCountableBuilding,
+      this.armyBuildings().darkBarracks().first()! as unknown as THCountableBuilding,
+      this.armyBuildings().laboratory().first()! as unknown as THCountableBuilding,
+      this.armyBuildings().spellFactory().first()! as unknown as THCountableBuilding,
+      this.armyBuildings().darkSpellFactory().first()! as unknown as THCountableBuilding,
+      this.armyBuildings().heroHall().first()! as unknown as THCountableBuilding,
+      this.armyBuildings().blacksmith().first()! as unknown as THCountableBuilding,
+      this.armyBuildings().workshop().first()! as unknown as THCountableBuilding,
+      this.armyBuildings().petHouse().first()! as unknown as THCountableBuilding,
+      ...(this.resourceBuildings().get() as unknown as THCountableBuilding[]),
+      this.resourceBuildings().clanCastle().first()! as unknown as THCountableBuilding,
+    ];
+    const structures = allStructures.reduce((sum, b) => sum + thStructureCount(b, thLevel), 0);
+
+    const traps = (this.traps().get() as unknown as THCountableBuilding[]).reduce(
+      (sum, t) => sum + thStructureCount(t, thLevel),
+      0,
+    );
+
+    const superChargeBuildings: THCountableBuilding[] = [
+      ...(this.defenses().get() as unknown as THCountableBuilding[]),
+      ...(this.resourceBuildings().get() as unknown as THCountableBuilding[]),
+    ];
+    const superCharge = superChargeBuildings.reduce(
+      (sum, b) => sum + thSuperChargeCount(b, thLevel),
+      0,
+    );
+
+    const lab = [
+      ...this.troops()
+        .get()
+        .flatMap((t) => t.levels),
+      ...this.spells()
+        .get()
+        .flatMap((s) => s.levels),
+      ...this.siegeMachines()
+        .get()
+        .flatMap((sm) => sm.levels),
+    ].filter((l) => l.townHallRequired <= thLevel).length;
+
+    const heroHall = this.armyBuildings().heroHall().first()!;
+    const eligibleHeroHallLevels = heroHall.levels.filter((l) => l.townHallRequired <= thLevel);
+    const maxHeroHallLevelData =
+      eligibleHeroHallLevels.length > 0
+        ? eligibleHeroHallLevels[eligibleHeroHallLevels.length - 1]
+        : null;
+    const heroes = maxHeroHallLevelData
+      ? (Object.values(maxHeroHallLevelData.heroLevelCaps) as (number | undefined)[]).reduce(
+          (sum: number, cap) => sum + (cap ?? 0),
+          0,
+        )
+      : 0;
+
+    const guardians = (this.guardians().get() as unknown as THCountableBuilding[]).reduce(
+      (sum, g) => sum + thStructureCount(g, thLevel),
+      0,
+    );
+
+    const blacksmith = this.armyBuildings().blacksmith().first()!;
+    const blacksmithAvailable =
+      thEffectiveCount(blacksmith.availablePerTownHall as TownHallAvailability[], thLevel) > 0;
+    const maxBlacksmithLevel = blacksmithAvailable
+      ? blacksmith.levels
+          .filter((l) => l.townHallRequired <= thLevel)
+          .reduce((m, l) => Math.max(m, l.level), 0)
+      : -1;
+    const equipment =
+      maxBlacksmithLevel >= 0
+        ? this.heroEquipment()
+            .get()
+            .flatMap((eq) => eq.levels)
+            .filter((l) => l.blacksmithLevelRequired <= maxBlacksmithLevel).length
+        : 0;
+
+    const pets = this.pets()
+      .get()
+      .flatMap((p) => p.levels)
+      .filter((l) => l.townHallRequired <= thLevel).length;
+
+    const wall = this.walls().wall().first()!;
+    const wallCount = thEffectiveCount(
+      wall.availablePerTownHall as TownHallAvailability[],
+      thLevel,
+    );
+    const maxWallLevel = wall.levels
+      .filter((l) => l.townHallRequired <= thLevel)
+      .reduce((m, l) => Math.max(m, l.level), 0);
+    const walls = wallCount * maxWallLevel;
+
+    const total =
+      structures + traps + superCharge + lab + heroes + guardians + equipment + pets + walls;
+    return {
+      structures,
+      traps,
+      superCharge,
+      lab,
+      heroes,
+      guardians,
+      equipment,
+      pets,
+      walls,
+      total,
+    };
   }
 }
 

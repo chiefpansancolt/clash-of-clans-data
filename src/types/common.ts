@@ -78,3 +78,77 @@ export interface DistrictAvailability {
   district: ClanCapitalDistrict;
   countPerDistrictHall: number[];
 }
+
+export interface BuilderHallLevelCounts {
+  /** count × maxLevel for defenses, army buildings, and resource buildings */
+  structures: number;
+  /** count × maxLevel for traps */
+  traps: number;
+  /** sum of all troop levels where starLabRequired <= max Star Lab level at bhLevel */
+  starLab: number;
+  /** sum of all hero levels where builderHallLevelRequired <= bhLevel */
+  heroes: number;
+  /** wallCount × max wall tier level at bhLevel */
+  walls: number;
+  /** sum of all five categories */
+  total: number;
+}
+
+export interface ClanCapitalDistrictCounts {
+  /** sum of count × maxLevel for all buildings in this district/zone */
+  structures: number;
+  /** wallCount × max wall level available in this district/zone */
+  walls: number;
+  /** structures + walls */
+  total: number;
+}
+
+export interface ClanCapitalLevelCounts {
+  /** Capital Peak zone: buildings gated by capitalHallLevel, walls gated by capitalHallLevel */
+  capitalPeak: ClanCapitalDistrictCounts;
+  /** Barbarian Camp district (unlocks at Capital Hall 2) */
+  barbarianCamp: ClanCapitalDistrictCounts;
+  /** Wizard Valley district (unlocks at Capital Hall 3) */
+  wizardValley: ClanCapitalDistrictCounts;
+  /** Balloon Lagoon district (unlocks at Capital Hall 4) */
+  balloonLagoon: ClanCapitalDistrictCounts;
+  /** Builder's Workshop district (unlocks at Capital Hall 5) */
+  buildersWorkshop: ClanCapitalDistrictCounts;
+  /** Dragon Cliffs district (unlocks at Capital Hall 6) */
+  dragonCliffs: ClanCapitalDistrictCounts;
+  /** Golem Quarry district (unlocks at Capital Hall 7) */
+  golemQuarry: ClanCapitalDistrictCounts;
+  /** Skeleton Park district (unlocks at Capital Hall 8) */
+  skeletonPark: ClanCapitalDistrictCounts;
+  /** Goblin Mines district (unlocks at Capital Hall 9) */
+  goblinMines: ClanCapitalDistrictCounts;
+  /** sum of max troop levels where districtHallRequired <= max DH level available */
+  troops: number;
+  /** sum of max spell levels where districtHallRequired <= max DH level available */
+  spells: number;
+  /** sum of all categories */
+  total: number;
+}
+
+export interface TownHallLevelCounts {
+  /** count × maxNormalLevel for defenses, army buildings, and resource buildings */
+  structures: number;
+  /** count × maxLevel for traps */
+  traps: number;
+  /** count × #superchargeLevel for defenses and resource buildings */
+  superCharge: number;
+  /** sum of all troop + spell + siege machine levels where townHallRequired <= thLevel */
+  lab: number;
+  /** sum of heroLevelCaps from the max Hero Hall level available at thLevel */
+  heroes: number;
+  /** count × maxLevel for guardians */
+  guardians: number;
+  /** sum of all hero equipment levels where blacksmithLevelRequired <= max blacksmith level at thLevel */
+  equipment: number;
+  /** sum of all pet levels where townHallRequired <= thLevel */
+  pets: number;
+  /** wallCount × max wall tier level at thLevel */
+  walls: number;
+  /** sum of all nine categories */
+  total: number;
+}
