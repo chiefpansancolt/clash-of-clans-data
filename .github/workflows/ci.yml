@@ -23,9 +23,8 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-      - run: pnpm install --frozen-lockfile
-        env:
-          HUSKY: 0
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: pnpm rebuild esbuild unrs-resolver
       - run: pnpm format:check
       - run: pnpm lint
 
@@ -42,9 +41,8 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-      - run: pnpm install --frozen-lockfile
-        env:
-          HUSKY: 0
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: pnpm rebuild esbuild unrs-resolver
       - run: pnpm test:coverage
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v6
@@ -65,7 +63,6 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-      - run: pnpm install --frozen-lockfile
-        env:
-          HUSKY: 0
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: pnpm rebuild esbuild unrs-resolver
       - run: pnpm build
