@@ -16,6 +16,9 @@
   "wallDamageMultiplier": 15,
   "explodingRange": 1.6,
   "specialAbility": "Bouncing Bomb",
+  "images": {
+    "icon": "images/builder/troops/bomber/icon.png"
+  },
   "levels": [
     {
       "level": 5,

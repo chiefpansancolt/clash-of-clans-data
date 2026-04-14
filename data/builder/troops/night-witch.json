@@ -13,6 +13,9 @@
   "targetType": "both",
   "builderBarracksRequired": 8,
   "specialAbility": "Bat Swarm",
+  "images": {
+    "icon": "images/builder/troops/night-witch/icon.png"
+  },
   "levels": [
     {
       "level": 9,

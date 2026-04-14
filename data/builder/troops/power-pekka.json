@@ -13,6 +13,9 @@
   "targetType": "ground",
   "builderBarracksRequired": 10,
   "specialAbility": "Overcharge",
+  "images": {
+    "icon": "images/builder/troops/power-pekka/icon.png"
+  },
   "levels": [
     {
       "level": 13,

@@ -17,6 +17,9 @@
   "mortarRange": 8.5,
   "mortarAttackSpeed": 2.5,
   "mortarDamageType": "splash",
+  "images": {
+    "icon": "images/builder/troops/cannon-cart/icon.png"
+  },
   "levels": [
     {
       "level": 7,

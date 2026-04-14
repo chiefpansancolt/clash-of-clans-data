@@ -14,6 +14,9 @@
   "builderBarracksRequired": 2,
   "specialAbility": "Cloak",
   "preferredTarget": "None",
+  "images": {
+    "icon": "images/builder/troops/sneaky-archer/icon.png"
+  },
   "levels": [
     {
       "level": 1,

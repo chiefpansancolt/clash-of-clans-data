@@ -16,6 +16,9 @@
   "skeletonsSummoned": 3,
   "skeletonsMax": 9,
   "skeletonSummonCooldown": 3.5,
+  "images": {
+    "icon": "images/builder/troops/drop-ship/icon.png"
+  },
   "levels": [
     {
       "level": 11,

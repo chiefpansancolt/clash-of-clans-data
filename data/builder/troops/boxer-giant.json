@@ -15,6 +15,9 @@
   "preferredTarget": "Defenses",
   "specialAbility": "Boxer Block",
   "passiveAbility": "Power Punch",
+  "images": {
+    "icon": "images/builder/troops/boxer-giant/icon.png"
+  },
   "levels": [
     {
       "level": 3,

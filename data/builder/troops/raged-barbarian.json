@@ -15,6 +15,9 @@
   "specialAbility": "Rage",
   "rageSpeedIncrease": 16,
   "rageDamageIncrease": 70,
+  "images": {
+    "icon": "images/builder/troops/raged-barbarian/icon.png"
+  },
   "levels": [
     {
       "level": 1,

@@ -17,6 +17,9 @@
   "electroAttackSpeed": 3.5,
   "electroNumberOfTargets": 4,
   "electroChainDamageDecay": -0.2,
+  "images": {
+    "icon": "images/builder/troops/electrofire-wizard/icon.png"
+  },
   "levels": [
     {
       "level": 17,

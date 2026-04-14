@@ -13,6 +13,9 @@
   "targetType": "both",
   "builderBarracksRequired": 4,
   "specialAbility": "Power Shot",
+  "images": {
+    "icon": "images/builder/troops/beta-minion/icon.png"
+  },
   "levels": [
     {
       "level": 3,

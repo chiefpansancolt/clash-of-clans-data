@@ -13,6 +13,9 @@
   "builderBarracksRequired": 11,
   "preferredTarget": "Defenses",
   "specialAbility": "Stunning Glide",
+  "images": {
+    "icon": "images/builder/troops/hog-glider/icon.png"
+  },
   "levels": [
     {
       "level": 15,
