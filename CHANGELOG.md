@@ -31,6 +31,8 @@ building has no upgrade levels — it is always level 1 and you simply build add
 
 ### Added
 
+- Supercharge Icon image.
+
 #### `TownHallLevelCounts` — `craftedDefenses` bucket
 
 New `craftedDefenses` field on `TownHallLevelCounts` returned by `home().levelCountAtTownHall()`.
