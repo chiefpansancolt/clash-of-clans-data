@@ -223,6 +223,14 @@ export class HomeVillage {
       .flatMap((p) => p.levels)
       .filter((l) => l.townHallRequired <= thLevel).length;
 
+    const craftedDefenses =
+      thLevel >= 18
+        ? this.craftedDefenses()
+            .current()
+            .get()
+            .reduce((sum, d) => sum + d.modules.reduce((mSum, m) => mSum + m.upgrades.length, 0), 0)
+        : 0;
+
     const wall = this.walls().wall().first()!;
     const wallCount = thEffectiveCount(
       wall.availablePerTownHall as TownHallAvailability[],
@@ -234,7 +242,16 @@ export class HomeVillage {
     const walls = wallCount * maxWallLevel;
 
     const total =
-      structures + traps + superCharge + lab + heroes + guardians + equipment + pets + walls;
+      structures +
+      traps +
+      superCharge +
+      lab +
+      heroes +
+      guardians +
+      equipment +
+      pets +
+      craftedDefenses +
+      walls;
     return {
       structures,
       traps,
@@ -244,6 +261,7 @@ export class HomeVillage {
       guardians,
       equipment,
       pets,
+      craftedDefenses,
       walls,
       total,
     };

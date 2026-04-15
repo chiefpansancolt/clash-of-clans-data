@@ -147,8 +147,10 @@ export interface TownHallLevelCounts {
   equipment: number;
   /** sum of all pet levels where townHallRequired <= thLevel */
   pets: number;
+  /** sum of all module upgrade levels across all currently active crafted defenses */
+  craftedDefenses: number;
   /** wallCount × max wall tier level at thLevel */
   walls: number;
-  /** sum of all nine categories */
+  /** sum of all ten categories */
   total: number;
 }

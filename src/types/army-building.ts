@@ -2,8 +2,10 @@ import { Building, BuildingLevel } from './building';
 import {
   Base,
   BuilderHallAvailability,
+  BuildTime,
   Category,
   DistrictAvailability,
+  ResourceType,
   TownHallAvailability,
 } from './common';
 
@@ -27,6 +29,36 @@ export interface BuilderArmyBuildingLevel extends ArmyBuildingLevel {
 }
 
 export interface BuilderArmyBuilding extends Building<BuilderArmyBuildingLevel> {
+  availablePerBuilderHall: BuilderHallAvailability[];
+}
+
+// Builder Army Camp is a single-level building (never upgrades).
+// Each additional copy has its own construction cost tracked in `instances`.
+export interface BuilderArmyCampLevel {
+  level: number;
+  hitpoints: number;
+  housingSpace: number;
+  images: { normal: string };
+}
+
+export interface BuilderArmyCampInstance {
+  instance: number;
+  buildCost: number;
+  buildCostResource: ResourceType;
+  buildTime: BuildTime;
+  xpGained: number;
+  builderHallRequired: number;
+}
+
+export interface BuilderArmyCampBuilding {
+  id: string;
+  name: string;
+  description?: string;
+  base: Base;
+  category: Category;
+  size: string;
+  levels: BuilderArmyCampLevel[];
+  instances: BuilderArmyCampInstance[];
   availablePerBuilderHall: BuilderHallAvailability[];
 }
 

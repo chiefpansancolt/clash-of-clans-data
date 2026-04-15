@@ -49,8 +49,8 @@ describe('BuilderBase#levelCountAtBuilderHall', () => {
 
   // ── BH5 known values ───────────────────────────────────────────────────────
 
-  it('BH5 total is 820', () => {
-    expect(builder().levelCountAtBuilderHall(5).total).toBe(820);
+  it('BH5 total is 808', () => {
+    expect(builder().levelCountAtBuilderHall(5).total).toBe(808);
   });
 
   it('BH5 heroes > 0 (Battle Machine unlocks at BH5)', () => {
@@ -78,7 +78,7 @@ describe('BuilderBase#levelCountAtBuilderHall', () => {
     );
   });
 
-  it('BH10 total is 2750', () => {
-    expect(builder().levelCountAtBuilderHall(10).total).toBe(2750);
+  it('BH10 total is 2720', () => {
+    expect(builder().levelCountAtBuilderHall(10).total).toBe(2720);
   });
 });

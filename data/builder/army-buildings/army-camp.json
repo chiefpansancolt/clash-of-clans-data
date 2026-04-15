@@ -53,6 +53,14 @@
       "level": 1,
       "hitpoints": 300,
       "housingSpace": 0,
+      "images": {
+        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
+      }
+    }
+  ],
+  "instances": [
+    {
+      "instance": 1,
       "buildCost": 0,
       "buildCostResource": "Builder Elixir",
       "buildTime": {
@@ -62,15 +70,10 @@
         "seconds": 0
       },
       "xpGained": 0,
-      "builderHallRequired": 1,
-      "images": {
-        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
-      }
+      "builderHallRequired": 1
     },
     {
-      "level": 2,
-      "hitpoints": 300,
-      "housingSpace": 0,
+      "instance": 2,
       "buildCost": 12000,
       "buildCostResource": "Builder Elixir",
       "buildTime": {
@@ -80,15 +83,10 @@
         "seconds": 0
       },
       "xpGained": 17,
-      "builderHallRequired": 2,
-      "images": {
-        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
-      }
+      "builderHallRequired": 2
     },
     {
-      "level": 3,
-      "hitpoints": 300,
-      "housingSpace": 0,
+      "instance": 3,
       "buildCost": 180000,
       "buildCostResource": "Builder Elixir",
       "buildTime": {
@@ -98,15 +96,10 @@
         "seconds": 0
       },
       "xpGained": 103,
-      "builderHallRequired": 3,
-      "images": {
-        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
-      }
+      "builderHallRequired": 3
     },
     {
-      "level": 4,
-      "hitpoints": 300,
-      "housingSpace": 0,
+      "instance": 4,
       "buildCost": 350000,
       "buildCostResource": "Builder Elixir",
       "buildTime": {
@@ -116,15 +109,10 @@
         "seconds": 0
       },
       "xpGained": 169,
-      "builderHallRequired": 4,
-      "images": {
-        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
-      }
+      "builderHallRequired": 4
     },
     {
-      "level": 5,
-      "hitpoints": 300,
-      "housingSpace": 0,
+      "instance": 5,
       "buildCost": 2000000,
       "buildCostResource": "Builder Elixir",
       "buildTime": {
@@ -134,15 +122,10 @@
         "seconds": 0
       },
       "xpGained": 509,
-      "builderHallRequired": 6,
-      "images": {
-        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
-      }
+      "builderHallRequired": 6
     },
     {
-      "level": 6,
-      "hitpoints": 300,
-      "housingSpace": 0,
+      "instance": 6,
       "buildCost": 3000000,
       "buildCostResource": "Builder Elixir",
       "buildTime": {
@@ -152,10 +135,7 @@
         "seconds": 0
       },
       "xpGained": 720,
-      "builderHallRequired": 7,
-      "images": {
-        "normal": "images/builder/army-buildings/army-camp/normal/level-1.png"
-      }
+      "builderHallRequired": 7
     }
   ]
 }

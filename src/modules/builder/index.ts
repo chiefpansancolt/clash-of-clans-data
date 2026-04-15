@@ -2,6 +2,7 @@ import { bhStructureCount } from '@/common/level-count-helpers';
 import type { BuilderHallLevelCounts } from '@/types';
 import type { BHCountableBuilding } from '@/types/level-count-helpers';
 import { BuilderBaseArmyBuildings } from './army-buildings';
+import { armyCampData } from './army-buildings/army-camp';
 import { BuilderBaseBuilderHall } from './builder-hall';
 import { BuilderBaseDefenses } from './defenses';
 import { BuilderBaseHeroes } from './heroes';
@@ -87,7 +88,12 @@ export class BuilderBase {
       ...(this.armyBuildings().get() as unknown as BHCountableBuilding[]),
       ...(this.resourceBuildings().get() as unknown as BHCountableBuilding[]),
     ];
-    const structures = allStructures.reduce((sum, b) => sum + bhStructureCount(b, bhLevel), 0);
+    // Army Camp has no upgrade levels — count each instance that can be built at this BH level.
+    const armyCampInstances = armyCampData.instances.filter(
+      (i) => i.builderHallRequired <= bhLevel,
+    ).length;
+    const structures =
+      allStructures.reduce((sum, b) => sum + bhStructureCount(b, bhLevel), 0) + armyCampInstances;
 
     const traps = (this.traps().get() as unknown as BHCountableBuilding[]).reduce(
       (sum, t) => sum + bhStructureCount(t, bhLevel),

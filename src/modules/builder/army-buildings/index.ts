@@ -1,5 +1,10 @@
 import { QueryBase } from '@/common/query-base';
-import { BuilderArmyBuilding, BuilderBarracksBuilding, BuilderHealingHutBuilding } from '@/types';
+import {
+  BuilderArmyBuilding,
+  BuilderArmyCampBuilding,
+  BuilderBarracksBuilding,
+  BuilderHealingHutBuilding,
+} from '@/types';
 import { armyCampData } from './army-camp';
 import { battleCopterAltarData } from './battle-copter-altar';
 import { battleMachineAltarData } from './battle-machine-altar';
@@ -13,7 +18,29 @@ type BuilderArmyBuildingItem =
   | BuilderBarracksBuilding
   | BuilderHealingHutBuilding;
 
-const allArmyBuildings: BuilderArmyBuildingItem[] = [
+// Army Camp has a unique structure (instances instead of upgrade levels) so it
+// lives in a dedicated query class rather than the shared union.
+export class BuilderBaseArmyCamp extends QueryBase<BuilderArmyCampBuilding> {
+  constructor(data: BuilderArmyCampBuilding[] = [armyCampData]) {
+    super(data);
+  }
+
+  /**
+   * Returns a new query with each camp's `instances` filtered to those
+   * unlockable at or before the given Builder Hall level.
+   * Mirrors how `byBuilderHall` on other buildings filters by level.
+   */
+  byBuilderHall(level: number): BuilderBaseArmyCamp {
+    return new BuilderBaseArmyCamp(
+      this.data.map((camp) => ({
+        ...camp,
+        instances: camp.instances.filter((i) => i.builderHallRequired <= level),
+      })) as BuilderArmyCampBuilding[],
+    );
+  }
+}
+
+const allArmyBuildings: (BuilderArmyBuildingItem | BuilderArmyCampBuilding)[] = [
   builderBarracksData,
   armyCampData,
   starLaboratoryData,
@@ -28,7 +55,7 @@ const allArmyBuildings: BuilderArmyBuildingItem[] = [
  * Returned by `builder().armyBuildings()`.
  */
 export class BuilderBaseArmyBuildings extends QueryBase<BuilderArmyBuildingItem> {
-  constructor(data: BuilderArmyBuildingItem[] = allArmyBuildings) {
+  constructor(data: BuilderArmyBuildingItem[] = allArmyBuildings as BuilderArmyBuildingItem[]) {
     super(data);
   }
 
@@ -36,8 +63,8 @@ export class BuilderBaseArmyBuildings extends QueryBase<BuilderArmyBuildingItem>
     return new BuilderBaseArmyBuildings([builderBarracksData]);
   }
 
-  armyCamp(): BuilderBaseArmyBuildings {
-    return new BuilderBaseArmyBuildings([armyCampData]);
+  armyCamp(): BuilderBaseArmyCamp {
+    return new BuilderBaseArmyCamp();
   }
 
   starLaboratory(): BuilderBaseArmyBuildings {

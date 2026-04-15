@@ -70,6 +70,7 @@ const cols = [
   'guardians',
   'equipment',
   'pets',
+  'craftedDefenses',
   'walls',
   'total',
 ] as const;
@@ -113,6 +114,7 @@ const siegeMachines = h.siegeMachines().get();
 const guardians = h.guardians().get();
 const heroEquipment = h.heroEquipment().get();
 const pets = h.pets().get();
+const currentCraftedDefenses = h.craftedDefenses().current().get();
 const wall = h.walls().wall().first()!;
 
 const armyBuildingList = [
@@ -303,6 +305,17 @@ for (const th of thLevels) {
   if (petsTotal === 0) log(`  (none at this TH level)`);
   log(`  ${DIV}`);
   log(`  ${S('Total', 44)}${N(petsTotal, 8)}`);
+
+  // ── Crafted Defenses ─────────────────────────────────────────────────────────
+  const craftedDefensesTotal = h.levelCountAtTownHall(th).craftedDefenses;
+  labHeader('Crafted Defenses (current phase)', craftedDefensesTotal);
+  for (const d of currentCraftedDefenses) {
+    for (const m of d.modules) {
+      labRow(`${d.name} — ${m.name}`, m.upgrades.length);
+    }
+  }
+  log(`  ${DIV}`);
+  log(`  ${S('Total', 44)}${N(craftedDefensesTotal, 8)}`);
 
   // ── Walls ────────────────────────────────────────────────────────────────────
   const wallCount = getCountAt(wall.availablePerTownHall, th);

@@ -13,11 +13,12 @@ describe('HomeVillage#levelCountAtTownHall', () => {
     expect(counts).toHaveProperty('guardians');
     expect(counts).toHaveProperty('equipment');
     expect(counts).toHaveProperty('pets');
+    expect(counts).toHaveProperty('craftedDefenses');
     expect(counts).toHaveProperty('walls');
     expect(counts).toHaveProperty('total');
   });
 
-  it('total equals the sum of all nine categories', () => {
+  it('total equals the sum of all ten categories', () => {
     for (const th of [1, 5, 10, 15, 18]) {
       const c = home().levelCountAtTownHall(th);
       const sum =
@@ -29,6 +30,7 @@ describe('HomeVillage#levelCountAtTownHall', () => {
         c.guardians +
         c.equipment +
         c.pets +
+        c.craftedDefenses +
         c.walls;
       expect(c.total).toBe(sum);
     }
@@ -122,7 +124,17 @@ describe('HomeVillage#levelCountAtTownHall', () => {
     );
   });
 
-  it('TH18 total is 9838', () => {
-    expect(home().levelCountAtTownHall(18).total).toBe(9838);
+  it('TH18 total is 9928', () => {
+    expect(home().levelCountAtTownHall(18).total).toBe(9928);
+  });
+
+  it('craftedDefenses is 0 below TH18', () => {
+    for (const th of [1, 5, 10, 15, 17]) {
+      expect(home().levelCountAtTownHall(th).craftedDefenses).toBe(0);
+    }
+  });
+
+  it('craftedDefenses is 90 at TH18 (3 current defenses × 3 modules × 10 upgrades)', () => {
+    expect(home().levelCountAtTownHall(18).craftedDefenses).toBe(90);
   });
 });

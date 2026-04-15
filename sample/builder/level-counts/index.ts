@@ -1,4 +1,5 @@
 import { builder } from '../../../src';
+import { armyCampData } from '../../../src/modules/builder/army-buildings/army-camp';
 import { createLogger } from '../../helper';
 
 const { log, writeOutput } = createLogger();
@@ -108,6 +109,14 @@ for (const bh of bhLevels) {
       row(building.name, count, maxLevel, contrib);
       structuresTotal += contrib;
     }
+  }
+  // Army Camp has no upgrade levels — each instance built counts as 1.
+  const armyCampInstanceCount = armyCampData.instances.filter(
+    (i) => i.builderHallRequired <= bh,
+  ).length;
+  if (armyCampInstanceCount > 0) {
+    row(armyCampData.name, armyCampInstanceCount, 1, armyCampInstanceCount);
+    structuresTotal += armyCampInstanceCount;
   }
   log(`  ${DIV}`);
   log(`  ${S('Total', 32)}${N('', 7)}${N('', 8)}${N(structuresTotal, 10)}`);

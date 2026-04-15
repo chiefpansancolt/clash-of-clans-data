@@ -5,6 +5,41 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] - 2026-04-15
+
+### Changed
+
+#### Builder Base — Army Camp restructured
+
+The Builder Base Army Camp JSON and type have been restructured to correctly reflect that the
+building has no upgrade levels — it is always level 1 and you simply build additional copies.
+
+- **`levels`** now contains a single entry (level 1 stats: hitpoints, housing space, image). Build
+  cost fields (`buildCost`, `buildTime`, `xpGained`, `builderHallRequired`) have been removed from
+  the level record.
+- **`instances`** — new array of `BuilderArmyCampInstance` objects, one per copy of the camp you can
+  construct. Each instance carries `instance`, `buildCost`, `buildCostResource`, `buildTime`,
+  `xpGained`, and `builderHallRequired`.
+- **`BuilderArmyCampBuilding`** — new dedicated interface (not extending `Building<L>`) with the
+  `instances` field. Replaces the previous `BuilderArmyBuilding` typing for Army Camp.
+- **`BuilderBaseArmyCamp`** — new dedicated query class (`QueryBase<BuilderArmyCampBuilding>`)
+  returned by `builder().armyBuildings().armyCamp()`. Supports `byBuilderHall(level)` which filters
+  `instances` to those unlockable at or before the given BH level.
+- **`levelCountAtBuilderHall`** — updated to count Army Camp instances directly (one per constructed
+  copy) rather than the previous inflated `count × maxLevel` formula. BH5 total: 820 → 808, BH10
+  total: 2750 → 2720.
+
+### Added
+
+#### `TownHallLevelCounts` — `craftedDefenses` bucket
+
+New `craftedDefenses` field on `TownHallLevelCounts` returned by `home().levelCountAtTownHall()`.
+
+- Counts the sum of all module upgrade levels across all currently active (phase 3) crafted
+  defenses: Roaster, Air Bombs, Lava Launcher — 3 defenses × 3 modules × 10 upgrades = **90**.
+- Only included at **TH18**; returns 0 at all lower TH levels.
+- TH18 total updated: 9838 → 9928.
+
 ## [0.4.0] — 2026-04-14
 
 ### Added
