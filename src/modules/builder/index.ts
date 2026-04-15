@@ -3,6 +3,7 @@ import type { BuilderHallLevelCounts } from '@/types';
 import type { BHCountableBuilding } from '@/types/level-count-helpers';
 import { BuilderBaseArmyBuildings } from './army-buildings';
 import { armyCampData } from './army-buildings/army-camp';
+import { reinforcementCampData } from './army-buildings/reinforcement-camp';
 import { BuilderBaseBuilderHall } from './builder-hall';
 import { BuilderBaseDefenses } from './defenses';
 import { BuilderBaseHeroes } from './heroes';
@@ -88,12 +89,17 @@ export class BuilderBase {
       ...(this.armyBuildings().get() as unknown as BHCountableBuilding[]),
       ...(this.resourceBuildings().get() as unknown as BHCountableBuilding[]),
     ];
-    // Army Camp has no upgrade levels — count each instance that can be built at this BH level.
+    // Army Camp and Reinforcement Camp have no upgrade levels — count each instance built.
     const armyCampInstances = armyCampData.instances.filter(
       (i) => i.builderHallRequired <= bhLevel,
     ).length;
+    const reinforcementCampInstances = reinforcementCampData.instances.filter(
+      (i) => i.builderHallRequired <= bhLevel,
+    ).length;
     const structures =
-      allStructures.reduce((sum, b) => sum + bhStructureCount(b, bhLevel), 0) + armyCampInstances;
+      allStructures.reduce((sum, b) => sum + bhStructureCount(b, bhLevel), 0) +
+      armyCampInstances +
+      reinforcementCampInstances;
 
     const traps = (this.traps().get() as unknown as BHCountableBuilding[]).reduce(
       (sum, t) => sum + bhStructureCount(t, bhLevel),

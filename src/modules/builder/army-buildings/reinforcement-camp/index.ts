@@ -1,4 +1,5 @@
 import rawData from '@/data/builder/army-buildings/reinforcement-camp.json';
-import { BuilderArmyBuilding } from '@/types';
+import { BuilderArmyCampBuilding } from '@/types';
 
-export const reinforcementCampData: BuilderArmyBuilding = rawData as unknown as BuilderArmyBuilding;
+export const reinforcementCampData: BuilderArmyCampBuilding =
+  rawData as unknown as BuilderArmyCampBuilding;

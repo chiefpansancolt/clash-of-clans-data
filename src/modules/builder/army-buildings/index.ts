@@ -13,6 +13,26 @@ import { healingHutData } from './healing-hut';
 import { reinforcementCampData } from './reinforcement-camp';
 import { starLaboratoryData } from './star-laboratory';
 
+// Reinforcement Camp shares the same instances-based structure as Army Camp.
+export class BuilderBaseReinforcementCamp extends QueryBase<BuilderArmyCampBuilding> {
+  constructor(data: BuilderArmyCampBuilding[] = [reinforcementCampData]) {
+    super(data);
+  }
+
+  /**
+   * Returns a new query with each camp's `instances` filtered to those
+   * unlockable at or before the given Builder Hall level.
+   */
+  byBuilderHall(level: number): BuilderBaseReinforcementCamp {
+    return new BuilderBaseReinforcementCamp(
+      this.data.map((camp) => ({
+        ...camp,
+        instances: camp.instances.filter((i) => i.builderHallRequired <= level),
+      })) as BuilderArmyCampBuilding[],
+    );
+  }
+}
+
 type BuilderArmyBuildingItem =
   | BuilderArmyBuilding
   | BuilderBarracksBuilding
@@ -46,7 +66,7 @@ const allArmyBuildings: (BuilderArmyBuildingItem | BuilderArmyCampBuilding)[] = 
   starLaboratoryData,
   battleMachineAltarData,
   battleCopterAltarData,
-  reinforcementCampData,
+  reinforcementCampData as unknown as BuilderArmyCampBuilding,
   healingHutData,
 ];
 
@@ -79,8 +99,8 @@ export class BuilderBaseArmyBuildings extends QueryBase<BuilderArmyBuildingItem>
     return new BuilderBaseArmyBuildings([battleCopterAltarData]);
   }
 
-  reinforcementCamp(): BuilderBaseArmyBuildings {
-    return new BuilderBaseArmyBuildings([reinforcementCampData]);
+  reinforcementCamp(): BuilderBaseReinforcementCamp {
+    return new BuilderBaseReinforcementCamp();
   }
 
   healingHut(): BuilderBaseArmyBuildings {

@@ -10,49 +10,68 @@ describe('Reinforcement Camp [Builder Base]', () => {
     expect(camp.category).toBe('army');
   });
 
-  it('has 2 levels', () => {
-    expect(camp.levels).toHaveLength(2);
+  it('has 1 level (building never upgrades)', () => {
+    expect(camp.levels).toHaveLength(1);
   });
 
   it('has correct level 1 stats', () => {
     const lv1 = camp.levels[0];
     expect(lv1.level).toBe(1);
     expect(lv1.hitpoints).toBe(300);
-    expect(lv1.buildCost).toBe(0);
-    expect(lv1.buildCostResource).toBe('Builder Elixir');
-    expect(lv1.xpGained).toBe(0);
-    expect(lv1.builderHallRequired).toBe(6);
+    expect(lv1.images.normal).toMatch(
+      /^images\/builder\/army-buildings\/reinforcement-camp\/normal\/level-1\.png$/,
+    );
   });
 
-  it('has correct level 2 stats', () => {
-    const lv2 = camp.levels[1];
-    expect(lv2.level).toBe(2);
-    expect(lv2.hitpoints).toBe(300);
-    expect(lv2.buildCost).toBe(4000000);
-    expect(lv2.buildCostResource).toBe('Builder Elixir');
-    expect(lv2.xpGained).toBe(929);
-    expect(lv2.builderHallRequired).toBe(9);
+  it('has 2 instances', () => {
+    expect(camp.instances).toHaveLength(2);
   });
 
-  it('all levels have valid image paths', () => {
-    for (const lvl of camp.levels) {
-      expect(lvl.images.normal).toMatch(
-        /^images\/builder\/army-buildings\/reinforcement-camp\/normal\/level-\d+\.png$/,
-      );
-    }
+  it('has correct first instance (free, BH6)', () => {
+    const inst1 = camp.instances[0];
+    expect(inst1.instance).toBe(1);
+    expect(inst1.buildCost).toBe(0);
+    expect(inst1.buildCostResource).toBe('Builder Elixir');
+    expect(inst1.xpGained).toBe(0);
+    expect(inst1.builderHallRequired).toBe(6);
   });
 
-  it('is not available at BH1-5', () => {
-    for (let bh = 1; bh <= 5; bh++) {
-      expect(camp.availablePerBuilderHall.find((e) => e.builderHallLevel === bh)?.count).toBe(0);
-    }
+  it('has correct second instance (2nd camp, BH9)', () => {
+    const inst2 = camp.instances[1];
+    expect(inst2.instance).toBe(2);
+    expect(inst2.buildCost).toBe(4000000);
+    expect(inst2.buildCostResource).toBe('Builder Elixir');
+    expect(inst2.xpGained).toBe(929);
+    expect(inst2.builderHallRequired).toBe(9);
   });
 
-  it('is available at BH6 with count 1', () => {
-    expect(camp.availablePerBuilderHall).toContainEqual({ builderHallLevel: 6, count: 1 });
+  it('availablePerBuilderHall counts are correct', () => {
+    expect(camp.availablePerBuilderHall.find((e) => e.builderHallLevel === 5)?.count).toBe(0);
+    expect(camp.availablePerBuilderHall.find((e) => e.builderHallLevel === 6)?.count).toBe(1);
+    expect(camp.availablePerBuilderHall.find((e) => e.builderHallLevel === 9)?.count).toBe(2);
+    expect(camp.availablePerBuilderHall.find((e) => e.builderHallLevel === 10)?.count).toBe(2);
   });
 
-  it('is available at BH9 with count 2', () => {
-    expect(camp.availablePerBuilderHall).toContainEqual({ builderHallLevel: 9, count: 2 });
+  describe('byBuilderHall()', () => {
+    it('BH5 returns 0 instances', () => {
+      const filtered = builder().armyBuildings().reinforcementCamp().byBuilderHall(5).first()!;
+      expect(filtered.instances).toHaveLength(0);
+    });
+
+    it('BH6 returns 1 instance', () => {
+      const filtered = builder().armyBuildings().reinforcementCamp().byBuilderHall(6).first()!;
+      expect(filtered.instances).toHaveLength(1);
+      expect(filtered.instances[0].instance).toBe(1);
+    });
+
+    it('BH9 returns 2 instances (all camps)', () => {
+      const filtered = builder().armyBuildings().reinforcementCamp().byBuilderHall(9).first()!;
+      expect(filtered.instances).toHaveLength(2);
+    });
+
+    it('BH10 returns 2 instances (no change past BH9)', () => {
+      const filtered = builder().armyBuildings().reinforcementCamp().byBuilderHall(10).first()!;
+      expect(filtered.instances).toHaveLength(2);
+    });
   });
 });

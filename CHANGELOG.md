@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.0] - 2026-04-15
+
+### Changed
+
+#### Builder Base — Reinforcement Camp restructured
+
+The Reinforcement Camp JSON and type follow the same `instances`-based pattern as Army Camp — the
+building has no upgrade levels and you simply build additional copies.
+
+- **`levels`** now contains a single entry (level 1 stats: hitpoints, image). Build cost fields
+  (`buildCost`, `buildTime`, `xpGained`, `builderHallRequired`) have been removed from the level
+  record. Top-level `housingSpace` field removed.
+- **`instances`** — new array of two `BuilderArmyCampInstance` objects, one per copy of the camp you
+  can construct. Each instance carries `instance`, `buildCost`, `buildCostResource`, `buildTime`,
+  `xpGained`, and `builderHallRequired`.
+- Reuses existing `BuilderArmyCampBuilding` / `BuilderArmyCampInstance` types — no duplicate types
+  introduced.
+- **`BuilderBaseReinforcementCamp`** — new dedicated query class
+  (`QueryBase<BuilderArmyCampBuilding>`) returned by
+  `builder().armyBuildings().reinforcementCamp()`. Supports `byBuilderHall(level)` which filters
+  `instances` to those unlockable at or before the given BH level.
+- **`levelCountAtBuilderHall`** — now counts Reinforcement Camp instances directly (one per
+  constructed copy) rather than the previous `count × maxLevel` formula. BH10 total updated: 2720
+  → 2718.
+
 ## [0.6.0] - 2026-04-15
 
 ### Fix

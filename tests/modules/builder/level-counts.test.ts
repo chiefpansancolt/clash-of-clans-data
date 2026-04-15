@@ -78,7 +78,7 @@ describe('BuilderBase#levelCountAtBuilderHall', () => {
     );
   });
 
-  it('BH10 total is 2720', () => {
-    expect(builder().levelCountAtBuilderHall(10).total).toBe(2720);
+  it('BH10 total is 2718', () => {
+    expect(builder().levelCountAtBuilderHall(10).total).toBe(2718);
   });
 });

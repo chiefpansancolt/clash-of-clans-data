@@ -1,5 +1,6 @@
 import { builder } from '../../../src';
 import { armyCampData } from '../../../src/modules/builder/army-buildings/army-camp';
+import { reinforcementCampData } from '../../../src/modules/builder/army-buildings/reinforcement-camp';
 import { createLogger } from '../../helper';
 
 const { log, writeOutput } = createLogger();
@@ -110,13 +111,25 @@ for (const bh of bhLevels) {
       structuresTotal += contrib;
     }
   }
-  // Army Camp has no upgrade levels — each instance built counts as 1.
+  // Army Camp and Reinforcement Camp have no upgrade levels — each instance built counts as 1.
   const armyCampInstanceCount = armyCampData.instances.filter(
     (i) => i.builderHallRequired <= bh,
   ).length;
   if (armyCampInstanceCount > 0) {
     row(armyCampData.name, armyCampInstanceCount, 1, armyCampInstanceCount);
     structuresTotal += armyCampInstanceCount;
+  }
+  const reinforcementCampInstanceCount = reinforcementCampData.instances.filter(
+    (i) => i.builderHallRequired <= bh,
+  ).length;
+  if (reinforcementCampInstanceCount > 0) {
+    row(
+      reinforcementCampData.name,
+      reinforcementCampInstanceCount,
+      1,
+      reinforcementCampInstanceCount,
+    );
+    structuresTotal += reinforcementCampInstanceCount;
   }
   log(`  ${DIV}`);
   log(`  ${S('Total', 32)}${N('', 7)}${N('', 8)}${N(structuresTotal, 10)}`);

@@ -6,7 +6,6 @@
   "base": "builder",
   "category": "army",
   "size": "3x3",
-  "housingSpace": 0,
   "availablePerBuilderHall": [
     {
       "builderHallLevel": 1,
@@ -53,6 +52,14 @@
     {
       "level": 1,
       "hitpoints": 300,
+      "images": {
+        "normal": "images/builder/army-buildings/reinforcement-camp/normal/level-1.png"
+      }
+    }
+  ],
+  "instances": [
+    {
+      "instance": 1,
       "buildCost": 0,
       "buildCostResource": "Builder Elixir",
       "buildTime": {
@@ -62,14 +69,10 @@
         "seconds": 0
       },
       "xpGained": 0,
-      "builderHallRequired": 6,
-      "images": {
-        "normal": "images/builder/army-buildings/reinforcement-camp/normal/level-1.png"
-      }
+      "builderHallRequired": 6
     },
     {
-      "level": 2,
-      "hitpoints": 300,
+      "instance": 2,
       "buildCost": 4000000,
       "buildCostResource": "Builder Elixir",
       "buildTime": {
@@ -79,10 +82,7 @@
         "seconds": 0
       },
       "xpGained": 929,
-      "builderHallRequired": 9,
-      "images": {
-        "normal": "images/builder/army-buildings/reinforcement-camp/normal/level-1.png"
-      }
+      "builderHallRequired": 9
     }
   ]
 }

@@ -19,12 +19,28 @@ for (const e of a.availablePerBuilderHall) {
 }
 log('');
 
-log('--- Level Stats ---');
+log('--- Level Stats (building has 1 level — never upgrades) ---');
 for (const lvl of a.levels) {
+  log(`lv${lvl.level} | hp: ${lvl.hitpoints}`);
+}
+log('');
+
+log('--- Instances (each copy built separately) ---');
+for (const inst of a.instances) {
   log(
-    `lv${lvl.level} | hp: ${lvl.hitpoints} | bh${lvl.builderHallRequired} | cost: ${lvl.buildCost.toLocaleString()} | time: ${formatBuildTime(lvl.buildTime)} | xp: ${lvl.xpGained}`,
+    `instance ${inst.instance} | bh${inst.builderHallRequired} | cost: ${inst.buildCost.toLocaleString()} ${inst.buildCostResource} | time: ${formatBuildTime(inst.buildTime)} | xp: ${inst.xpGained}`,
   );
 }
+log('');
+
+log('--- byBuilderHall(6) ---');
+const atBH6 = builder().armyBuildings().reinforcementCamp().byBuilderHall(6).first()!;
+log(`instances: ${atBH6.instances.length}`);
+log('');
+
+log('--- byBuilderHall(9) ---');
+const atBH9 = builder().armyBuildings().reinforcementCamp().byBuilderHall(9).first()!;
+log(`instances: ${atBH9.instances.length}`);
 log('');
 
 log('--- Image Validation ---');
