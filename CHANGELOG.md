@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.0] - 2026-04-15
+
+### Fix
+
+- Swap the dataId for B.O.B's Hut and B.O.B's Control. This will resolve the lvl counts and loading
+  for parser.
+
 ## [0.5.0] - 2026-04-15
 
 ### Changed

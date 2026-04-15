@@ -1,6 +1,6 @@
 {
   "id": "bob-control",
-  "dataId": 1000064,
+  "dataId": 1000065,
   "name": "B.O.B Control",
   "description": "Control center for Master Builder's latest invention! Once fully upgraded, B.O.B becomes an additional builder in the Home Village!",
   "base": "builder",
