@@ -595,7 +595,7 @@
             "xpGained": 0,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-1.png",
-              "townHall": "images/home/town-hall/normal/level-17-1.png"
+              "townHall": "images/home/town-hall/weapons/inferno-artillery/level-1.png"
             }
           },
           {
@@ -613,7 +613,7 @@
             "xpGained": 720,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-2.png",
-              "townHall": "images/home/town-hall/normal/level-17-2.png"
+              "townHall": "images/home/town-hall/weapons/inferno-artillery/level-2.png"
             }
           },
           {
@@ -631,7 +631,7 @@
             "xpGained": 777,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-3.png",
-              "townHall": "images/home/town-hall/normal/level-17-3.png"
+              "townHall": "images/home/town-hall/weapons/inferno-artillery/level-3.png"
             }
           },
           {
@@ -649,7 +649,7 @@
             "xpGained": 831,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-4.png",
-              "townHall": "images/home/town-hall/normal/level-17-4.png"
+              "townHall": "images/home/town-hall/weapons/inferno-artillery/level-4.png"
             }
           },
           {
@@ -667,7 +667,7 @@
             "xpGained": 929,
             "images": {
               "normal": "images/home/town-hall/weapons/inferno-artillery/level-5.png",
-              "townHall": "images/home/town-hall/normal/level-17-5.png"
+              "townHall": "images/home/town-hall/weapons/inferno-artillery/level-5.png"
             }
           }
         ]

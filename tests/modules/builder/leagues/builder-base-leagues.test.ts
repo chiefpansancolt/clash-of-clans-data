@@ -122,6 +122,31 @@ describe('builder().leagues().byGroup()', () => {
   });
 });
 
+describe('builder().leagues().byName()', () => {
+  it('byName("Iron") returns 3 leagues', () => {
+    expect(builder().leagues().byName('Iron').count()).toBe(3);
+  });
+
+  it('byName("Iron III") returns exactly 1 league', () => {
+    const result = builder().leagues().byName('Iron III').get();
+    expect(result).toHaveLength(1);
+    expect(result[0].id).toBe('iron-iii');
+  });
+
+  it('byName is case-insensitive', () => {
+    expect(builder().leagues().byName('diamond').count()).toBe(1);
+    expect(builder().leagues().byName('DIAMOND').count()).toBe(1);
+  });
+
+  it('byName("Wood") returns 5 leagues', () => {
+    expect(builder().leagues().byName('Wood').count()).toBe(5);
+  });
+
+  it('byName with no match returns empty', () => {
+    expect(builder().leagues().byName('Legend').count()).toBe(0);
+  });
+});
+
 describe('builder().leagues().atTrophies()', () => {
   it('returns Wood V for 0 trophies', () => {
     expect(builder().leagues().atTrophies(0)?.id).toBe('wood-v');

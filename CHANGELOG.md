@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.8.0] - 2026-04-15
+
+### Added
+
+#### `pnpm validate-images` — Image Validation Script
+
+New standalone script (`scripts/validate-images.ts`) that checks every image path referenced across
+all `data/**/*.json` files against the filesystem in one pass. **Development only — `scripts/` is
+not included in the published package.**
+
+- Recursively walks all JSON values — picks up image paths wherever they live (`levels[].images`,
+  weapon images, etc.) without needing to know the schema.
+- Reports missing files grouped by source JSON file, with the source file printed inline on each
+  error line for easy grepping.
+- Exits 0 when all references are valid, 1 if any are missing — CI-friendly.
+- Run with `pnpm validate-images`.
+
+#### Builder Base Leagues — `byName` Search
+
+Added `byName(query: string)` partial-match filter to `BuilderBaseLeagues`. Case-insensitive
+substring search — mirrors the same filter on `RankedBattlesLeagues`.
+
+### Fix
+
+- Missing Spiky Ball Hero Equipment image
+- Missing Inferno Tower Weapon image for TH13
+- Miss typed image urls for th17 weapon images
+
 ## [0.7.0] - 2026-04-15
 
 ### Changed

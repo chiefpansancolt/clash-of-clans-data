@@ -15,6 +15,16 @@ export class BuilderBaseLeagues extends QueryBase<BuilderBaseLeague> {
   }
 
   /**
+   * Filter leagues by a partial, case-insensitive name search.
+   * e.g. `byName('Iron')` returns Iron III, Iron II, Iron I.
+   *      `byName('Iron I')` returns only Iron I.
+   */
+  byName(query: string): BuilderBaseLeagues {
+    const q = query.toLowerCase();
+    return new BuilderBaseLeagues(this.data.filter((l) => l.name.toLowerCase().includes(q)));
+  }
+
+  /**
    * Return the league that contains the given trophy count, or `undefined` if out of range.
    * Diamond league matches any value ≥ 6200.
    */

@@ -40,6 +40,6 @@
       "@/images/*": ["images/*"]
     }
   },
-  "include": ["src", "sample", "tests"],
+  "include": ["src", "sample", "tests", "scripts"],
   "exclude": ["node_modules", "dist"]
 }
