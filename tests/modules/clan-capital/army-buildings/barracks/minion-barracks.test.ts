@@ -19,8 +19,8 @@ describe('minionBarracks() [Clan Capital]', () => {
     expect(b.size).toBe('3x3');
   });
 
-  it('troopUnlocked is Minion', () => {
-    expect(b.troopUnlocked).toBe('Minion');
+  it('troopUnlocked is Minion Horde', () => {
+    expect(b.troopUnlocked).toBe('Minion Horde');
   });
 
   it('has 5 levels', () => {

@@ -19,8 +19,8 @@ describe('skeletonBarrelBarracks() [Clan Capital]', () => {
     expect(b.size).toBe('3x3');
   });
 
-  it('troopUnlocked is Skeleton Barrel', () => {
-    expect(b.troopUnlocked).toBe('Skeleton Barrel');
+  it('troopUnlocked is Skeleton Barrels', () => {
+    expect(b.troopUnlocked).toBe('Skeleton Barrels');
   });
 
   it('has 5 levels', () => {

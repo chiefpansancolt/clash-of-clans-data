@@ -1,6 +1,7 @@
 {
   "id": "minion-horde",
   "name": "Minion Horde",
+  "unitName": "Minion",
   "description": "Six fast, unarmored flying attackers. Three's a crowd, six is a horde!",
   "base": "clan_capital",
   "category": "troop",

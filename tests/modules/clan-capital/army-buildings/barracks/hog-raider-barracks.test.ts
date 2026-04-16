@@ -19,8 +19,8 @@ describe('hogRaiderBarracks() [Clan Capital]', () => {
     expect(b.size).toBe('3x3');
   });
 
-  it('troopUnlocked is Hog Raider', () => {
-    expect(b.troopUnlocked).toBe('Hog Raider');
+  it('troopUnlocked is Hog Raiders', () => {
+    expect(b.troopUnlocked).toBe('Hog Raiders');
   });
 
   it('has 5 levels', () => {

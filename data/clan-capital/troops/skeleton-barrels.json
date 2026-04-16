@@ -1,6 +1,7 @@
 {
   "id": "skeleton-barrels",
   "name": "Skeleton Barrels",
+  "unitName": "Skeleton Barrel",
   "description": "Did someone say Barrel Parade? It's a Skeleton party in the sky, until all the balloons pop... then it's a Skeleton party on the ground!",
   "base": "clan_capital",
   "category": "troop",

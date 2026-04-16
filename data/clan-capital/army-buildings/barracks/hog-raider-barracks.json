@@ -4,7 +4,7 @@
   "base": "clan_capital",
   "category": "army",
   "size": "3x3",
-  "troopUnlocked": "Hog Raider",
+  "troopUnlocked": "Hog Raiders",
   "availablePerDistrict": [{ "district": "dragonCliffs", "countPerDistrictHall": [1, 1, 1, 1, 1] }],
   "levels": [
     {

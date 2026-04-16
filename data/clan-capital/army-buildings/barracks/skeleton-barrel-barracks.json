@@ -4,7 +4,7 @@
   "base": "clan_capital",
   "category": "army",
   "size": "3x3",
-  "troopUnlocked": "Skeleton Barrel",
+  "troopUnlocked": "Skeleton Barrels",
   "availablePerDistrict": [
     { "district": "balloonLagoon", "countPerDistrictHall": [1, 1, 1, 1, 1] }
   ],

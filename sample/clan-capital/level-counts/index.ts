@@ -62,10 +62,17 @@ type CCBuildingLike = {
   levels: { level: number; districtHallRequired?: number; capitalHallRequired?: number }[];
 };
 
+type BarracksLike = CCBuildingLike & {
+  troopUnlocked: string;
+};
+type SpellFactoryLike = CCBuildingLike & {
+  spellUnlocked: string;
+};
+
 const defenses = cc.defenses().get() as unknown as CCBuildingLike[];
 const armyBuildings = cc.armyBuildings().get() as unknown as CCBuildingLike[];
-const barracks = cc.armyBuildings().barracks().get() as unknown as CCBuildingLike[];
-const spellFactories = cc.armyBuildings().spellFactories().get() as unknown as CCBuildingLike[];
+const barracks = cc.armyBuildings().barracks().get() as unknown as BarracksLike[];
+const spellFactories = cc.armyBuildings().spellFactories().get() as unknown as SpellFactoryLike[];
 const traps = cc.traps().get() as unknown as CCBuildingLike[];
 const allDistrictBuildings = [
   ...defenses,
@@ -241,24 +248,36 @@ for (const ch of chLevels) {
 
   // ── Troops ──────────────────────────────────────────────────────────────────
   const globalMaxDH = Math.max(...districts.map((d) => getMaxDHLevel(d, ch)));
-  labHeader(`Troops  (max DH level: ${globalMaxDH})`, counts.troops);
+  const troopDH: Record<string, number> = {};
+  for (const b of barracks) {
+    const district = b.availablePerDistrict[0]?.district;
+    if (district && b.troopUnlocked) troopDH[b.troopUnlocked] = getMaxDHLevel(district, ch);
+  }
+  labHeader(`Troops  (per barracks district)`, counts.troops);
   for (const t of troops) {
+    const dh = troopDH[t.name] ?? 0;
     const maxLevel = t.levels
-      .filter((l) => l.districtHallRequired <= globalMaxDH)
+      .filter((l) => (l.districtHallRequired ?? 0) <= dh)
       .reduce((m, l) => Math.max(m, l.level), 0);
-    if (maxLevel > 0) labRow(t.name, maxLevel);
+    if (maxLevel > 0) labRow(`${t.name} (DH${dh})`, maxLevel);
   }
   if (counts.troops === 0) log(`  (none)`);
   log(`  ${DIV}`);
   log(`  ${S('Total', 44)}${N(counts.troops, 8)}`);
 
   // ── Spells ──────────────────────────────────────────────────────────────────
-  labHeader(`Spells  (max DH level: ${globalMaxDH})`, counts.spells);
+  const spellDH: Record<string, number> = {};
+  for (const f of spellFactories) {
+    const district = f.availablePerDistrict[0]?.district;
+    if (district && f.spellUnlocked) spellDH[f.spellUnlocked] = getMaxDHLevel(district, ch);
+  }
+  labHeader(`Spells  (per factory district)`, counts.spells);
   for (const s of spells) {
+    const dh = spellDH[s.name] ?? globalMaxDH;
     const maxLevel = s.levels
-      .filter((l) => l.districtHallRequired <= globalMaxDH)
+      .filter((l) => (l.districtHallRequired ?? 0) <= dh)
       .reduce((m, l) => Math.max(m, l.level), 0);
-    if (maxLevel > 0) labRow(s.name, maxLevel);
+    if (maxLevel > 0) labRow(`${s.name} (DH${dh})`, maxLevel);
   }
   if (counts.spells === 0) log(`  (none)`);
   log(`  ${DIV}`);

@@ -1,0 +1,163 @@
+{
+  "id": "hog-raiders",
+  "name": "Hog Raiders",
+  "unitName": "Hog Glider",
+  "description": "A beautiful reunion of Riders and Gliders, it's the Hog Raiding Party!",
+  "base": "clan_capital",
+  "category": "troop",
+  "damageType": "single",
+  "targetType": "ground",
+  "housingSpace": 5,
+  "movementSpeed": 18,
+  "range": 0.25,
+  "preferredTarget": "Defenses",
+  "specialAbility": "Stunning Glide",
+  "images": {
+    "icon": "images/clan-capital/troops/hog-raiders/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 650,
+      "districtHallRequired": 1,
+      "stats": {
+        "normal": {
+          "damagePerShot": 120
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-raiders/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 700,
+      "districtHallRequired": 2,
+      "stats": {
+        "normal": {
+          "damagePerShot": 130
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-raiders/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 750,
+      "districtHallRequired": 3,
+      "stats": {
+        "normal": {
+          "damagePerShot": 140
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-raiders/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 800,
+      "districtHallRequired": 4,
+      "stats": {
+        "normal": {
+          "damagePerShot": 150
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-raiders/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 850,
+      "districtHallRequired": 5,
+      "stats": {
+        "normal": {
+          "damagePerShot": 160
+        }
+      },
+      "images": {
+        "normal": "images/clan-capital/troops/hog-raiders/normal/level-1.png"
+      }
+    }
+  ],
+  "subUnits": [
+    {
+      "name": "Hog Rider",
+      "damageType": "single",
+      "targetType": "ground",
+      "movementSpeed": 20,
+      "attackSpeed": 1.0,
+      "range": 0.75,
+      "preferredTarget": "Defenses",
+      "levels": [
+        {
+          "level": 1,
+          "hitpoints": 880,
+          "stats": {
+            "normal": {
+              "dps": 130,
+              "damagePerShot": 130
+            }
+          },
+          "images": {
+            "normal": "images/clan-capital/troops/hog-raiders/sub-units/hog-rider/level-1.png"
+          }
+        },
+        {
+          "level": 2,
+          "hitpoints": 960,
+          "stats": {
+            "normal": {
+              "dps": 145,
+              "damagePerShot": 145
+            }
+          },
+          "images": {
+            "normal": "images/clan-capital/troops/hog-raiders/sub-units/hog-rider/level-1.png"
+          }
+        },
+        {
+          "level": 3,
+          "hitpoints": 1040,
+          "stats": {
+            "normal": {
+              "dps": 160,
+              "damagePerShot": 160
+            }
+          },
+          "images": {
+            "normal": "images/clan-capital/troops/hog-raiders/sub-units/hog-rider/level-1.png"
+          }
+        },
+        {
+          "level": 4,
+          "hitpoints": 1120,
+          "stats": {
+            "normal": {
+              "dps": 175,
+              "damagePerShot": 175
+            }
+          },
+          "images": {
+            "normal": "images/clan-capital/troops/hog-raiders/sub-units/hog-rider/level-1.png"
+          }
+        },
+        {
+          "level": 5,
+          "hitpoints": 1200,
+          "stats": {
+            "normal": {
+              "dps": 190,
+              "damagePerShot": 190
+            }
+          },
+          "images": {
+            "normal": "images/clan-capital/troops/hog-raiders/sub-units/hog-rider/level-1.png"
+          }
+        }
+      ]
+    }
+  ]
+}

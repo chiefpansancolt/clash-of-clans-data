@@ -190,11 +190,36 @@ export class ClanCapital {
 
     const globalMaxDHLevel = Math.max(...Object.values(dhLevels));
 
+    // Map each troop name to the DH level of its barracks' district.
+    // Falls back to globalMaxDHLevel for troops with no barracks data.
+    const troopDistrictDH: Record<string, number> = {};
+    for (const barracks of this.armyBuildings().barracks().get()) {
+      const district = barracks.availablePerDistrict[0]?.district as
+        | keyof typeof dhLevels
+        | undefined;
+      if (district && barracks.troopUnlocked) {
+        troopDistrictDH[barracks.troopUnlocked] = dhLevels[district] ?? 0;
+      }
+    }
+
+    // Map each spell name to the DH level of its spell factory's district.
+    // Falls back to globalMaxDHLevel for spells with no factory data.
+    const spellDistrictDH: Record<string, number> = {};
+    for (const factory of this.armyBuildings().spellFactories().get()) {
+      const district = factory.availablePerDistrict[0]?.district as
+        | keyof typeof dhLevels
+        | undefined;
+      if (district && factory.spellUnlocked) {
+        spellDistrictDH[factory.spellUnlocked] = dhLevels[district] ?? 0;
+      }
+    }
+
     const troops = this.troops()
       .get()
       .reduce((sum, t) => {
+        const dhLevel = troopDistrictDH[t.name] ?? 0;
         const maxLevel = t.levels
-          .filter((l) => l.districtHallRequired <= globalMaxDHLevel)
+          .filter((l) => l.districtHallRequired <= dhLevel)
           .reduce((m, l) => Math.max(m, l.level), 0);
         return sum + maxLevel;
       }, 0);
@@ -202,8 +227,9 @@ export class ClanCapital {
     const spells = this.spells()
       .get()
       .reduce((sum, s) => {
+        const dhLevel = spellDistrictDH[s.name] ?? globalMaxDHLevel;
         const maxLevel = s.levels
-          .filter((l) => l.districtHallRequired <= globalMaxDHLevel)
+          .filter((l) => l.districtHallRequired <= dhLevel)
           .reduce((m, l) => Math.max(m, l.level), 0);
         return sum + maxLevel;
       }, 0);

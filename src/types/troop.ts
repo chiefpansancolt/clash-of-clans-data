@@ -229,10 +229,36 @@ export interface ClanCapitalTroopLevel {
   };
 }
 
+export interface ClanCapitalTroopSubUnitLevel {
+  level: number;
+  hitpoints: number;
+  stats: {
+    normal: ClanCapitalTroopStats;
+  };
+  images: {
+    normal: string;
+  };
+}
+
+export interface ClanCapitalTroopSubUnit {
+  name: string;
+  damageType: 'single' | 'splash' | 'area';
+  targetType: 'ground' | 'air' | 'both';
+  movementSpeed: number;
+  attackSpeed?: number;
+  range?: number;
+  preferredTarget?: string;
+  levels: ClanCapitalTroopSubUnitLevel[];
+}
+
 export interface ClanCapitalTroop {
   id: string;
   name: string;
   description?: string;
+  /** Individual unit name when the troop deploys multiple units (e.g. "Minion" for Minion Horde). Absent for single-unit troops. */
+  unitName?: string;
+  /** Additional units deployed alongside the primary unit, each with their own level data. */
+  subUnits?: ClanCapitalTroopSubUnit[];
   base: 'clan_capital';
   category: 'troop';
   damageType: 'single' | 'splash' | 'area';

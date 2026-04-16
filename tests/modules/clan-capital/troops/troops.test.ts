@@ -2,7 +2,7 @@ import { clanCapital } from '@/modules/clan-capital';
 
 describe('troops() [Clan Capital]', () => {
   it('returns all troops', () => {
-    expect(clanCapital().troops().count()).toBe(18);
+    expect(clanCapital().troops().count()).toBe(17);
   });
 
   it('superBarbarian() returns 1 troop', () => {
@@ -49,12 +49,8 @@ describe('troops() [Clan Capital]', () => {
     expect(clanCapital().troops().powerPekka().count()).toBe(1);
   });
 
-  it('hogGlider() returns 1 troop', () => {
-    expect(clanCapital().troops().hogGlider().count()).toBe(1);
-  });
-
-  it('hogRider() returns 1 troop', () => {
-    expect(clanCapital().troops().hogRider().count()).toBe(1);
+  it('hogRaiders() returns 1 troop', () => {
+    expect(clanCapital().troops().hogRaiders().count()).toBe(1);
   });
 
   it('infernoDragon() returns 1 troop', () => {

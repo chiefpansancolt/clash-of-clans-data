@@ -143,8 +143,8 @@ describe('ClanCapital#levelCountAtClanCapital', () => {
 
   // ── CH10 known values ──────────────────────────────────────────────────────
 
-  it('CH10 total is 10315', () => {
-    expect(clanCapital().levelCountAtClanCapital(10).total).toBe(10315);
+  it('CH10 total is 10310', () => {
+    expect(clanCapital().levelCountAtClanCapital(10).total).toBe(10310);
   });
 
   it('CH10 skeletonPark total is 732', () => {

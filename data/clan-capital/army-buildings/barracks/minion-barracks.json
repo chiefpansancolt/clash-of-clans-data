@@ -4,7 +4,7 @@
   "base": "clan_capital",
   "category": "army",
   "size": "3x3",
-  "troopUnlocked": "Minion",
+  "troopUnlocked": "Minion Horde",
   "availablePerDistrict": [
     { "district": "barbarianCamp", "countPerDistrictHall": [0, 1, 1, 1, 1] }
   ],

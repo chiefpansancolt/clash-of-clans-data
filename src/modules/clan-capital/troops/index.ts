@@ -2,8 +2,7 @@ import { QueryBase } from '@/common/query-base';
 import { ClanCapitalTroop } from '@/types';
 import { battleRamData } from './battle-ram';
 import { flyingFortressData } from './flying-fortress';
-import { hogGliderData } from './hog-glider';
-import { hogRiderData } from './hog-rider';
+import { hogRaidersData } from './hog-raiders';
 import { infernoDragonData } from './inferno-dragon';
 import { megaSparkyData } from './mega-sparky';
 import { minionHordeData } from './minion-horde';
@@ -33,8 +32,7 @@ const allTroops: ClanCapitalTroop[] = [
   flyingFortressData,
   raidCartData,
   powerPekkaData,
-  hogGliderData,
-  hogRiderData,
+  hogRaidersData,
   infernoDragonData,
   megaSparkyData,
   mountainGolemData,
@@ -95,12 +93,8 @@ class ClanCapitalTroops extends QueryBase<ClanCapitalTroop> {
     return new ClanCapitalTroops([powerPekkaData]);
   }
 
-  hogGlider(): ClanCapitalTroops {
-    return new ClanCapitalTroops([hogGliderData]);
-  }
-
-  hogRider(): ClanCapitalTroops {
-    return new ClanCapitalTroops([hogRiderData]);
+  hogRaiders(): ClanCapitalTroops {
+    return new ClanCapitalTroops([hogRaidersData]);
   }
 
   infernoDragon(): ClanCapitalTroops {
