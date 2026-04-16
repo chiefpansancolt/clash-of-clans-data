@@ -309,10 +309,14 @@ for (const th of thLevels) {
   // ── Crafted Defenses ─────────────────────────────────────────────────────────
   const craftedDefensesTotal = h.levelCountAtTownHall(th).craftedDefenses;
   labHeader('Crafted Defenses (current phase)', craftedDefensesTotal);
-  for (const d of currentCraftedDefenses) {
-    for (const m of d.modules) {
-      labRow(`${d.name} — ${m.name}`, m.upgrades.length);
+  if (craftedDefensesTotal > 0) {
+    for (const d of currentCraftedDefenses) {
+      for (const m of d.modules) {
+        labRow(`${d.name} — ${m.name}`, m.upgrades.length);
+      }
     }
+  } else {
+    log(`  (none at this TH level)`);
   }
   log(`  ${DIV}`);
   log(`  ${S('Total', 44)}${N(craftedDefensesTotal, 8)}`);

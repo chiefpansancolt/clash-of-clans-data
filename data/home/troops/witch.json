@@ -108,7 +108,7 @@
     {
       "level": 1,
       "hitpoints": 300,
-      "townHallRequired": 1,
+      "townHallRequired": 9,
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Dark Elixir",

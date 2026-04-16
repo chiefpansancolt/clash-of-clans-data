@@ -24,7 +24,7 @@
     {
       "level": 1,
       "hitpoints": 500,
-      "townHallRequired": 1,
+      "townHallRequired": 6,
       "laboratoryRequired": 0,
       "researchCost": 0,
       "researchCostResource": "Elixir",
