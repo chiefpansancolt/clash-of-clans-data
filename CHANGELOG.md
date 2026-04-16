@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.0] - 2026-04-15
+
+### Fix
+
+#### Troops — Corrected level 1 `townHallRequired` values
+
+All home village troops had `townHallRequired: 1` on their level-1 entry regardless of when the
+troop actually becomes trainable. This caused `levelCountAtTownHall` to count troops like P.E.K.K.A,
+Dragon Rider, and dark-elixir troops as available at TH1, inflating the `lab` bucket at low Town
+Hall levels.
+
+Each troop's level-1 `townHallRequired` has been updated to the actual Town Hall at which that troop
+first becomes trainable. Higher-level entries were already correct.
+
+### Added
+
+#### Ore Images
+
+Added images for the three ore types to `images/other/ore/`:
+
+- `shiny-ore.png`
+- `glowy-ore.png`
+- `starry-ore.png`
+
 ## [0.8.0] - 2026-04-15
 
 ### Added
