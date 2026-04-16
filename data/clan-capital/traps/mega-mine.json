@@ -1,0 +1,105 @@
+{
+  "id": "mega-mine",
+  "name": "Mega Mine",
+  "description": "A hidden dose of heavy destruction. Choose air or ground!",
+  "base": "clan_capital",
+  "category": "trap",
+  "size": "2x2",
+  "triggerRadius": 2,
+  "damageRadius": 4,
+  "damageType": "splash",
+  "targetType": "both",
+  "favoriteTarget": "Any",
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 4 },
+    { "capitalHallLevel": 3, "count": 5 },
+    { "capitalHallLevel": 4, "count": 6 },
+    { "capitalHallLevel": 5, "count": 7 },
+    { "capitalHallLevel": 6, "count": 8 },
+    { "capitalHallLevel": 7, "count": 9 },
+    { "capitalHallLevel": 8, "count": 10 },
+    { "capitalHallLevel": 9, "count": 11 },
+    { "capitalHallLevel": 10, "count": 12 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [0, 2, 3, 4, 4] },
+    { "district": "wizardValley", "countPerDistrictHall": [2, 4, 5, 6, 6] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [0, 0, 1, 2, 3] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [0, 0, 1, 2, 3] },
+    { "district": "skeletonPark", "countPerDistrictHall": [2, 3, 3, 3] },
+    { "district": "goblinMines", "countPerDistrictHall": [1, 2, 3, 3] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "damage": 400,
+      "buildCost": 2000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 2,
+      "districtHallRequired": 1,
+      "images": {
+        "normal": "images/clan-capital/traps/mega-mine/normal/level-1.png",
+        "air": "images/clan-capital/traps/mega-mine/air/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "damage": 450,
+      "buildCost": 4000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 3,
+      "districtHallRequired": 2,
+      "images": {
+        "normal": "images/clan-capital/traps/mega-mine/normal/level-2.png",
+        "air": "images/clan-capital/traps/mega-mine/air/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "damage": 500,
+      "buildCost": 8000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/traps/mega-mine/normal/level-3.png",
+        "air": "images/clan-capital/traps/mega-mine/air/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "damage": 550,
+      "buildCost": 15000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 7,
+      "districtHallRequired": 4,
+      "images": {
+        "normal": "images/clan-capital/traps/mega-mine/normal/level-4.png",
+        "air": "images/clan-capital/traps/mega-mine/air/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "damage": 600,
+      "buildCost": 25000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 5,
+      "images": {
+        "normal": "images/clan-capital/traps/mega-mine/normal/level-5.png",
+        "air": "images/clan-capital/traps/mega-mine/air/level-5.png"
+      }
+    }
+  ]
+}

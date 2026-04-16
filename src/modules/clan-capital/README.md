@@ -1,6 +1,6 @@
 # Clan Capital Module
 
-The `clanCapital` module is the entry point for all Clan Capital game data — defenses, army
+The `clanCapital` module is the entry point for all Clan Capital game data — defenses, traps, army
 buildings (barracks and spell factories), spells, troops, walls, other buildings (houses), the
 Capital Hall, District Halls, and Raid Weekend leagues. All data is accessed through a fluent,
 chainable query API that wraps typed JSON records.
@@ -23,6 +23,12 @@ console.log(defenses.length); // 21
 
 // Air-targeting defenses only
 const airDefenses = clanCapital().defenses().byTargetType("air").get();
+
+// All traps targeting both ground and air
+const bothTraps = clanCapital().traps().byTargetType("both").get();
+
+// Traps available in Goblin Mines
+const goblinMinesTraps = clanCapital().traps().byDistrict("goblinMines").get();
 
 // Find a specific troop
 const superBarbarian = clanCapital().troops().superBarbarian().first()!;
@@ -106,6 +112,42 @@ clanCapital().defenses().reflector();
 | ------------------------------ | ----------------------------------------------------------------------------------- |
 | `byTargetType(type)`           | Filter by target type: `'ground'`, `'air'`, `'both'`                                |
 | `byCapitalHall(level: number)` | Defenses with at least one level available at or below the given Capital Hall level |
+
+---
+
+### `clanCapital().traps()` — `ClanCapitalTraps`
+
+5 Clan Capital traps spread across the districts.
+
+**Per-building accessors** (each returns `ClanCapitalTraps` wrapping one trap):
+
+```ts
+clanCapital().traps().mine();
+clanCapital().traps().megaMine();
+clanCapital().traps().logTrap();
+clanCapital().traps().zapTrap();
+clanCapital().traps().spearTrap();
+```
+
+**Filter methods**:
+
+| Method                         | Description                                          |
+| ------------------------------ | ---------------------------------------------------- |
+| `byTargetType(type)`           | Filter by target type: `'ground'`, `'air'`, `'both'` |
+| `byDistrict(district: string)` | Filter to traps available in the given district      |
+
+**Trap overview**:
+
+| Trap       | Size | Target | Damage Type      | Levels | Districts available in                                                       |
+| ---------- | ---- | ------ | ---------------- | ------ | ---------------------------------------------------------------------------- |
+| Mine       | 1×1  | Both   | Splash           | 5      | All 8 districts                                                              |
+| Mega Mine  | 2×2  | Both   | Splash           | 5      | 6 districts (excl. Dragon Cliffs, Golem Quarry)                              |
+| Log Trap   | 2×2  | Ground | Splash           | 5      | 7 districts (excl. Barbarian Camp)                                           |
+| Zap Trap   | 1×1  | Both   | Single           | 5      | Builder's Workshop, Dragon Cliffs, Golem Quarry, Skeleton Park, Goblin Mines |
+| Spear Trap | 2×2  | Both   | Single (×spears) | 4      | Goblin Mines only                                                            |
+
+The Spear Trap fires multiple spears per trigger — the per-level `projectileCount` field records how
+many spears are launched (4 at level 1, up to 7 at level 4).
 
 ---
 
@@ -269,7 +311,7 @@ console.log(counts.spells); // sum of max spell levels
 
 ```ts
 interface ClanCapitalDistrictCounts {
-  structures: number; // sum of (count × maxLevel) for all buildings in the district
+  structures: number; // sum of (count × maxLevel) for all buildings and traps in the district
   walls: number; // wallCount × max wall tier level in the district
   total: number; // structures + walls
 }
@@ -295,8 +337,8 @@ interface ClanCapitalLevelCounts {
 | Capital Hall | `total` | Notes                                          |
 | ------------ | ------- | ---------------------------------------------- |
 | CH1          | 92      | Capital Peak only: 12 structures + 80 walls    |
-| CH2          | ~167    | Adds Barbarian Camp (25 structures + 50 walls) |
-| CH10         | 9,658   | All districts active                           |
+| CH2          | 167     | Adds Barbarian Camp (27 structures + 50 walls) |
+| CH10         | 10,315  | All districts active                           |
 
 ---
 
@@ -352,5 +394,41 @@ interface ClanCapitalDefense {
   availablePerCapitalHall?: { capitalHallLevel: number; count: number }[];
   availablePerDistrict?: { district: string; count: number }[];
   levels: ClanCapitalDefenseLevel[];
+}
+
+interface ClanCapitalTrapLevel {
+  level: number;
+  damage: number;
+  projectileCount?: number; // spears fired per trigger (Spear Trap only)
+  buildCost: number;
+  buildCostResource: "Capital Gold";
+  buildTime: BuildTime;
+  xpGained: number;
+  capitalHallRequired: number;
+  districtHallRequired: number;
+  images: {
+    normal: string; // e.g. "images/clan-capital/traps/mine/normal/level-1.png"
+    air?: string; // alternate air-mode image (Mine, Mega Mine)
+  };
+}
+
+interface ClanCapitalTrap {
+  id: string; // e.g. "mine", "log-trap"
+  name: string; // e.g. "Mine", "Log Trap"
+  description?: string;
+  base: "clan_capital";
+  category: "trap";
+  size: string;
+  triggerRadius: number; // activation radius in tiles
+  damageRadius?: number; // blast radius in tiles (Mine, Mega Mine)
+  damageType: "splash" | "single";
+  targetType: "ground" | "air" | "both";
+  favoriteTarget?: string;
+  availablePerCapitalHall?: { capitalHallLevel: number; count: number }[];
+  availablePerDistrict: {
+    district: string;
+    countPerDistrictHall: number[]; // index 0 = DH1, index 1 = DH2, etc.
+  }[];
+  levels: ClanCapitalTrapLevel[];
 }
 ```

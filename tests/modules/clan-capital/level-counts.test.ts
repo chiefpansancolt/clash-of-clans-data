@@ -107,10 +107,10 @@ describe('ClanCapital#levelCountAtClanCapital', () => {
 
   // ── District unlock progression ────────────────────────────────────────────
 
-  it('CH2 barbarianCamp unlocks with total 75', () => {
+  it('CH2 barbarianCamp unlocks with total 77', () => {
     const c = clanCapital().levelCountAtClanCapital(2);
-    expect(c.barbarianCamp.total).toBe(75);
-    expect(c.barbarianCamp.structures).toBe(25);
+    expect(c.barbarianCamp.total).toBe(77);
+    expect(c.barbarianCamp.structures).toBe(27);
     expect(c.barbarianCamp.walls).toBe(50);
   });
 
@@ -118,10 +118,10 @@ describe('ClanCapital#levelCountAtClanCapital', () => {
     expect(clanCapital().levelCountAtClanCapital(2).wizardValley.total).toBe(0);
   });
 
-  it('CH3 wizardValley unlocks with total 109', () => {
+  it('CH3 wizardValley unlocks with total 115', () => {
     const c = clanCapital().levelCountAtClanCapital(3);
-    expect(c.wizardValley.total).toBe(109);
-    expect(c.wizardValley.structures).toBe(29);
+    expect(c.wizardValley.total).toBe(115);
+    expect(c.wizardValley.structures).toBe(35);
     expect(c.wizardValley.walls).toBe(80);
   });
 
@@ -143,16 +143,16 @@ describe('ClanCapital#levelCountAtClanCapital', () => {
 
   // ── CH10 known values ──────────────────────────────────────────────────────
 
-  it('CH10 total is 9658', () => {
-    expect(clanCapital().levelCountAtClanCapital(10).total).toBe(9658);
+  it('CH10 total is 10315', () => {
+    expect(clanCapital().levelCountAtClanCapital(10).total).toBe(10315);
   });
 
-  it('CH10 skeletonPark total is 640', () => {
-    expect(clanCapital().levelCountAtClanCapital(10).skeletonPark.total).toBe(640);
+  it('CH10 skeletonPark total is 732', () => {
+    expect(clanCapital().levelCountAtClanCapital(10).skeletonPark.total).toBe(732);
   });
 
-  it('CH10 goblinMines total is 628', () => {
-    expect(clanCapital().levelCountAtClanCapital(10).goblinMines.total).toBe(628);
+  it('CH10 goblinMines total is 708', () => {
+    expect(clanCapital().levelCountAtClanCapital(10).goblinMines.total).toBe(708);
   });
 
   it('CH10 all districts have non-zero totals', () => {

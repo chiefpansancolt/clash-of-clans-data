@@ -1,0 +1,103 @@
+{
+  "id": "zap-trap",
+  "name": "Zap Trap",
+  "description": "Passing troops are very shocked when there's a Zap Trap nearby.",
+  "base": "clan_capital",
+  "category": "trap",
+  "size": "1x1",
+  "triggerRadius": 5,
+  "damageType": "single",
+  "targetType": "both",
+  "favoriteTarget": "None",
+  "levels": [
+    {
+      "level": 1,
+      "damage": 1000,
+      "buildCost": 2500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 1,
+      "images": { "normal": "images/clan-capital/traps/zap-trap/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "damage": 1400,
+      "buildCost": 5000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 5,
+      "districtHallRequired": 2,
+      "images": { "normal": "images/clan-capital/traps/zap-trap/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "damage": 1600,
+      "buildCost": 10000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 3,
+      "images": { "normal": "images/clan-capital/traps/zap-trap/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "damage": 1800,
+      "buildCost": 18000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 4,
+      "images": { "normal": "images/clan-capital/traps/zap-trap/normal/level-4.png" }
+    },
+    {
+      "level": 5,
+      "damage": 2000,
+      "buildCost": 30000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "images": { "normal": "images/clan-capital/traps/zap-trap/normal/level-5.png" }
+    }
+  ],
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 0 },
+    { "capitalHallLevel": 4, "count": 0 },
+    { "capitalHallLevel": 5, "count": 1 },
+    { "capitalHallLevel": 6, "count": 2 },
+    { "capitalHallLevel": 7, "count": 3 },
+    { "capitalHallLevel": 8, "count": 4 },
+    { "capitalHallLevel": 9, "count": 5 },
+    { "capitalHallLevel": 10, "count": 5 }
+  ],
+  "availablePerDistrict": [
+    {
+      "district": "buildersWorkshop",
+      "countPerDistrictHall": [4, 5, 6, 6, 6]
+    },
+    {
+      "district": "dragonCliffs",
+      "countPerDistrictHall": [3, 4, 5, 5, 5]
+    },
+    {
+      "district": "golemQuarry",
+      "countPerDistrictHall": [3, 4, 5, 6, 6]
+    },
+    {
+      "district": "skeletonPark",
+      "countPerDistrictHall": [1, 1, 3, 4]
+    },
+    {
+      "district": "goblinMines",
+      "countPerDistrictHall": [2, 3, 4, 4]
+    }
+  ]
+}

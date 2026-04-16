@@ -22,6 +22,7 @@ import { ClanCapitalDistrictHall } from './halls/district-hall';
 import { allClanCapitalLeagues, ClanCapitalLeagues } from './leagues';
 import { ClanCapitalOther } from './other';
 import { ClanCapitalSpells } from './spells';
+import { ClanCapitalTraps } from './traps';
 import { ClanCapitalTroops } from './troops';
 import { ClanCapitalWalls } from './walls';
 
@@ -37,6 +38,7 @@ export { ClanCapitalLeagues } from './leagues';
 export { ClanCapitalHouses, ClanCapitalOther } from './other';
 export { ClanCapitalSpells } from './spells';
 export { ClanCapitalTroops } from './troops';
+export { ClanCapitalTraps } from './traps';
 export { ClanCapitalWalls } from './walls';
 
 /** Namespace for all Clan Capital entity queries. Use the {@link clanCapital} factory to create an instance. */
@@ -74,6 +76,11 @@ export class ClanCapital {
     return new ClanCapitalTroops();
   }
 
+  /** Returns a query over all Clan Capital traps. */
+  traps(): ClanCapitalTraps {
+    return new ClanCapitalTraps();
+  }
+
   /** Returns a query over Clan Capital wall data. */
   walls(): ClanCapitalWalls {
     return new ClanCapitalWalls();
@@ -96,6 +103,7 @@ export class ClanCapital {
       ...(this.armyBuildings().get() as unknown as CCBuildingWithDistrict[]),
       ...(this.armyBuildings().barracks().get() as unknown as CCBuildingWithDistrict[]),
       ...(this.armyBuildings().spellFactories().get() as unknown as CCBuildingWithDistrict[]),
+      ...(this.traps().get() as unknown as CCBuildingWithDistrict[]),
     ];
 
     const capitalPeakBuildings: CCBuildingWithCapitalHall[] = (

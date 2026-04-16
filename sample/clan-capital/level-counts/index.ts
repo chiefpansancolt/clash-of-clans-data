@@ -28,25 +28,28 @@ const districtKeys = [
 
 type DistrictKey = (typeof districtKeys)[number];
 
-const colWidth = 12;
-const labelWidth = 5;
+const colWidth = 7;
+const labelWidth = 20;
 const topCols = ['troops', 'spells', 'total'] as const;
+
+const allCounts = chLevels.map((ch) => ({ ch, counts: cc.levelCountAtClanCapital(ch) }));
 
 log('=== clanCapital().levelCountAtClanCapital(chLevel) — Summary ===');
 log('');
-log(
-  'CH'.padEnd(labelWidth) +
-    districtKeys.map((c) => c.padStart(colWidth)).join('') +
-    topCols.map((c) => c.padStart(colWidth)).join(''),
-);
-log('-'.repeat(labelWidth + (districtKeys.length + topCols.length) * colWidth));
+log(''.padEnd(labelWidth) + chLevels.map((ch) => `CH${ch}`.padStart(colWidth)).join(''));
+log('-'.repeat(labelWidth + chLevels.length * colWidth));
 
-for (const ch of chLevels) {
-  const counts = cc.levelCountAtClanCapital(ch);
+for (const k of districtKeys) {
   log(
-    `CH${String(ch).padEnd(labelWidth - 2)}` +
-      districtKeys.map((k) => String(counts[k].total).padStart(colWidth)).join('') +
-      topCols.map((k) => String(counts[k]).padStart(colWidth)).join(''),
+    k.padEnd(labelWidth) +
+      allCounts.map(({ counts }) => String(counts[k].total).padStart(colWidth)).join(''),
+  );
+}
+log('-'.repeat(labelWidth + chLevels.length * colWidth));
+for (const k of topCols) {
+  log(
+    k.padEnd(labelWidth) +
+      allCounts.map(({ counts }) => String(counts[k]).padStart(colWidth)).join(''),
   );
 }
 
@@ -63,7 +66,14 @@ const defenses = cc.defenses().get() as unknown as CCBuildingLike[];
 const armyBuildings = cc.armyBuildings().get() as unknown as CCBuildingLike[];
 const barracks = cc.armyBuildings().barracks().get() as unknown as CCBuildingLike[];
 const spellFactories = cc.armyBuildings().spellFactories().get() as unknown as CCBuildingLike[];
-const allDistrictBuildings = [...defenses, ...armyBuildings, ...barracks, ...spellFactories];
+const traps = cc.traps().get() as unknown as CCBuildingLike[];
+const allDistrictBuildings = [
+  ...defenses,
+  ...armyBuildings,
+  ...barracks,
+  ...spellFactories,
+  ...traps,
+];
 const capitalPeakBuildings = defenses.filter(
   (b) => b.availablePerCapitalHall && b.availablePerCapitalHall.some((e) => e.count > 0),
 );

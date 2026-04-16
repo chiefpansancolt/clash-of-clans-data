@@ -1,4 +1,11 @@
-import { BuilderHallAvailability, BuildTime, ResourceType, TownHallAvailability } from './common';
+import {
+  BuilderHallAvailability,
+  BuildTime,
+  CapitalHallAvailability,
+  DistrictAvailability,
+  ResourceType,
+  TownHallAvailability,
+} from './common';
 
 export interface TrapLevel {
   level: number;
@@ -62,4 +69,34 @@ export interface BuilderTrap {
   targetType: 'ground' | 'air' | 'both';
   levels: BuilderTrapLevel[];
   availablePerBuilderHall: BuilderHallAvailability[];
+}
+
+export interface ClanCapitalTrapLevel {
+  level: number;
+  damage: number;
+  projectileCount?: number;
+  buildCost: number;
+  buildCostResource: ResourceType;
+  buildTime: BuildTime;
+  xpGained: number;
+  capitalHallRequired: number;
+  districtHallRequired: number;
+  images: { normal: string; air?: string };
+}
+
+export interface ClanCapitalTrap {
+  id: string;
+  name: string;
+  description?: string;
+  base: 'clan_capital';
+  category: 'trap';
+  size: string;
+  triggerRadius: number;
+  damageRadius?: number;
+  damageType: 'splash' | 'single';
+  targetType: 'ground' | 'air' | 'both';
+  favoriteTarget?: string;
+  levels: ClanCapitalTrapLevel[];
+  availablePerCapitalHall?: CapitalHallAvailability[];
+  availablePerDistrict: DistrictAvailability[];
 }

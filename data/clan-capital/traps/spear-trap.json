@@ -1,0 +1,68 @@
+{
+  "id": "spear-trap",
+  "name": "Spear Trap",
+  "description": "Awaits a group of units to pass by and become the unwilling recipients of a flock of lethally spiky spears.",
+  "base": "clan_capital",
+  "category": "trap",
+  "size": "2x2",
+  "triggerRadius": 10,
+  "damageType": "single",
+  "targetType": "both",
+  "favoriteTarget": "Any",
+  "levels": [
+    {
+      "level": 1,
+      "damage": 120,
+      "projectileCount": 4,
+      "buildCost": 3000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 1,
+      "images": { "normal": "images/clan-capital/traps/spear-trap/normal/level-1.png" }
+    },
+    {
+      "level": 2,
+      "damage": 140,
+      "projectileCount": 5,
+      "buildCost": 6000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 2,
+      "images": { "normal": "images/clan-capital/traps/spear-trap/normal/level-2.png" }
+    },
+    {
+      "level": 3,
+      "damage": 160,
+      "projectileCount": 6,
+      "buildCost": 12000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 3,
+      "images": { "normal": "images/clan-capital/traps/spear-trap/normal/level-3.png" }
+    },
+    {
+      "level": 4,
+      "damage": 180,
+      "projectileCount": 7,
+      "buildCost": 20000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 4,
+      "images": { "normal": "images/clan-capital/traps/spear-trap/normal/level-4.png" }
+    }
+  ],
+  "availablePerDistrict": [
+    {
+      "district": "goblinMines",
+      "countPerDistrictHall": [3, 4, 5, 6]
+    }
+  ]
+}

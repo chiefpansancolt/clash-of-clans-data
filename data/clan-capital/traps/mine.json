@@ -1,0 +1,107 @@
+{
+  "id": "mine",
+  "name": "Mine",
+  "description": "Plan an explosive surprise for troops that get too close. Choose air or ground!",
+  "base": "clan_capital",
+  "category": "trap",
+  "size": "1x1",
+  "triggerRadius": 1.5,
+  "damageRadius": 3,
+  "damageType": "splash",
+  "targetType": "both",
+  "favoriteTarget": "Any",
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 2 },
+    { "capitalHallLevel": 2, "count": 4 },
+    { "capitalHallLevel": 3, "count": 6 },
+    { "capitalHallLevel": 4, "count": 8 },
+    { "capitalHallLevel": 5, "count": 8 },
+    { "capitalHallLevel": 6, "count": 8 },
+    { "capitalHallLevel": 7, "count": 8 },
+    { "capitalHallLevel": 8, "count": 8 },
+    { "capitalHallLevel": 9, "count": 8 },
+    { "capitalHallLevel": 10, "count": 8 }
+  ],
+  "availablePerDistrict": [
+    { "district": "barbarianCamp", "countPerDistrictHall": [2, 4, 6, 7, 8] },
+    { "district": "wizardValley", "countPerDistrictHall": [4, 4, 5, 6, 6] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [6, 8, 9, 10, 10] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [5, 6, 7, 7, 7] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [2, 4, 5, 6, 7] },
+    { "district": "golemQuarry", "countPerDistrictHall": [3, 4, 5, 5, 5] },
+    { "district": "skeletonPark", "countPerDistrictHall": [7, 8, 9, 9] },
+    { "district": "goblinMines", "countPerDistrictHall": [3, 3, 3, 4] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "damage": 120,
+      "buildCost": 1000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 1,
+      "districtHallRequired": 1,
+      "images": {
+        "normal": "images/clan-capital/traps/mine/normal/level-1.png",
+        "air": "images/clan-capital/traps/mine/air/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "damage": 140,
+      "buildCost": 2000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 2,
+      "districtHallRequired": 2,
+      "images": {
+        "normal": "images/clan-capital/traps/mine/normal/level-2.png",
+        "air": "images/clan-capital/traps/mine/air/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "damage": 160,
+      "buildCost": 4000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/traps/mine/normal/level-3.png",
+        "air": "images/clan-capital/traps/mine/air/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "damage": 180,
+      "buildCost": 9000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 4,
+      "images": {
+        "normal": "images/clan-capital/traps/mine/normal/level-4.png",
+        "air": "images/clan-capital/traps/mine/air/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "damage": 200,
+      "buildCost": 15000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 9,
+      "districtHallRequired": 5,
+      "images": {
+        "normal": "images/clan-capital/traps/mine/normal/level-5.png",
+        "air": "images/clan-capital/traps/mine/air/level-5.png"
+      }
+    }
+  ]
+}

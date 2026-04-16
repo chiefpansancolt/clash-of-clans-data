@@ -14,6 +14,7 @@ log(`    barracks          ${cc.armyBuildings().barracks().count()}`);
 log(`    spellFactories    ${cc.armyBuildings().spellFactories().count()}`);
 log(`  spells              ${cc.spells().count()}`);
 log(`  troops              ${cc.troops().count()}`);
+log(`  traps               ${cc.traps().count()}`);
 log(`  walls               ${cc.walls().count()}`);
 log(`  other (houses)      ${cc.other().houses().count()}`);
 

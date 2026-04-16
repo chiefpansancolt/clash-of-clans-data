@@ -1,0 +1,99 @@
+{
+  "id": "log-trap",
+  "name": "Log Trap",
+  "base": "clan_capital",
+  "category": "trap",
+  "size": "2x2",
+  "triggerRadius": 9,
+  "damageType": "splash",
+  "targetType": "ground",
+  "favoriteTarget": "Any",
+  "availablePerCapitalHall": [
+    { "capitalHallLevel": 1, "count": 0 },
+    { "capitalHallLevel": 2, "count": 0 },
+    { "capitalHallLevel": 3, "count": 0 },
+    { "capitalHallLevel": 4, "count": 1 },
+    { "capitalHallLevel": 5, "count": 2 },
+    { "capitalHallLevel": 6, "count": 3 },
+    { "capitalHallLevel": 7, "count": 4 },
+    { "capitalHallLevel": 8, "count": 4 },
+    { "capitalHallLevel": 9, "count": 4 },
+    { "capitalHallLevel": 10, "count": 4 }
+  ],
+  "availablePerDistrict": [
+    { "district": "wizardValley", "countPerDistrictHall": [0, 1, 1, 1, 1] },
+    { "district": "balloonLagoon", "countPerDistrictHall": [4, 4, 4, 4, 4] },
+    { "district": "buildersWorkshop", "countPerDistrictHall": [5, 6, 7, 8, 8] },
+    { "district": "dragonCliffs", "countPerDistrictHall": [2, 2, 2, 2, 2] },
+    { "district": "golemQuarry", "countPerDistrictHall": [4, 5, 6, 6, 6] },
+    { "district": "skeletonPark", "countPerDistrictHall": [4, 6, 7, 7] },
+    { "district": "goblinMines", "countPerDistrictHall": [2, 2, 2, 3] }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "damage": 400,
+      "buildCost": 1500,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 1,
+      "images": {
+        "normal": "images/clan-capital/traps/log-trap/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "damage": 450,
+      "buildCost": 3000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 4,
+      "districtHallRequired": 2,
+      "images": {
+        "normal": "images/clan-capital/traps/log-trap/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "damage": 500,
+      "buildCost": 6000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 6,
+      "districtHallRequired": 3,
+      "images": {
+        "normal": "images/clan-capital/traps/log-trap/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "damage": 550,
+      "buildCost": 12000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 8,
+      "districtHallRequired": 4,
+      "images": {
+        "normal": "images/clan-capital/traps/log-trap/normal/level-4.png"
+      }
+    },
+    {
+      "level": 5,
+      "damage": 600,
+      "buildCost": 20000,
+      "buildCostResource": "Capital Gold",
+      "buildTime": { "days": 0, "hours": 0, "minutes": 0, "seconds": 0 },
+      "xpGained": 0,
+      "capitalHallRequired": 10,
+      "districtHallRequired": 5,
+      "images": {
+        "normal": "images/clan-capital/traps/log-trap/normal/level-5.png"
+      }
+    }
+  ]
+}
