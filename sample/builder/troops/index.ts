@@ -9,10 +9,11 @@ log('=== builder().troops() ===');
 log(`total troops: ${all.count()}`);
 log('');
 
-log('Name                         Housing  Target  Levels');
+log('Name                         Housing  Target  MaxLvl');
 for (const t of all.get()) {
+  const maxLevel = t.levels[t.levels.length - 1].level;
   log(
-    `  ${t.name.padEnd(28)} ${String(t.housingSpace).padStart(7)}  ${t.targetType.padEnd(6)}  ${t.levels.length}`,
+    `  ${t.name.padEnd(28)} ${String(t.housingSpace).padStart(7)}  ${t.targetType.padEnd(6)}  ${maxLevel}`,
   );
 }
 
