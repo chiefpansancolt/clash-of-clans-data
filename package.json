@@ -1,6 +1,6 @@
 {
   "name": "clash-of-clans-data",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "A comprehensive, fully-typed dataset for Clash of Clans — structured JSON data",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
