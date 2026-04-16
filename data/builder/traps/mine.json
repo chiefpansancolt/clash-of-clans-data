@@ -1,6 +1,6 @@
 {
   "id": "mine",
-  "dataId": 12000014,
+  "dataId": 12000013,
   "name": "Mine",
   "description": "Plan an explosive surprise for troops that get too close. Choose air or ground!",
   "base": "builder",

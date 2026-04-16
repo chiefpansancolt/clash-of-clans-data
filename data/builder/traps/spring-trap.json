@@ -1,6 +1,6 @@
 {
   "id": "spring-trap",
-  "dataId": 12000013,
+  "dataId": 12000010,
   "name": "Spring Trap",
   "description": "This bouncy little number launches a small Troop out of battle! Big Troops with higher Housing Space are pushed back and damaged.",
   "base": "builder",

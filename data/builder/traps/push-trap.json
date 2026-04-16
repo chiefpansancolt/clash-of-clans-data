@@ -1,6 +1,6 @@
 {
   "id": "push-trap",
-  "dataId": 12000010,
+  "dataId": 12000011,
   "name": "Push Trap",
   "description": "Toss ground troops in a direction you choose. Heave ho!",
   "base": "builder",
