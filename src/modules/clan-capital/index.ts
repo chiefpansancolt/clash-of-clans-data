@@ -16,6 +16,7 @@ import type {
 } from '@/types/level-count-helpers';
 import { ClanCapitalArmyBuildings } from './army-buildings';
 import { ClanCapitalDefenses } from './defenses';
+import { ClanCapitalForge } from './forge';
 import { ClanCapitalCapitalHall } from './halls/capital-hall';
 import { districtHallData } from './halls/district-hall';
 import { ClanCapitalDistrictHall } from './halls/district-hall';
@@ -40,6 +41,7 @@ export { ClanCapitalSpells } from './spells';
 export { ClanCapitalTroops } from './troops';
 export { ClanCapitalTraps } from './traps';
 export { ClanCapitalWalls } from './walls';
+export { ClanCapitalForge } from './forge';
 
 /** Namespace for all Clan Capital entity queries. Use the {@link clanCapital} factory to create an instance. */
 export class ClanCapital {
@@ -89,6 +91,11 @@ export class ClanCapital {
   /** Returns a query over all Clan Capital Raid Weekend leagues. */
   leagues(): ClanCapitalLeagues {
     return allClanCapitalLeagues();
+  }
+
+  /** Returns Forge data — daily forge, auto forge, forge rates, available slots, and crafting time. */
+  forge(): ClanCapitalForge {
+    return new ClanCapitalForge();
   }
 
   /**

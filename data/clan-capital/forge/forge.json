@@ -1,0 +1,183 @@
+{
+  "dailyForge": [
+    { "townHallLevel": 6, "capitalGoldObtained": 150 },
+    { "townHallLevel": 7, "capitalGoldObtained": 200 },
+    { "townHallLevel": 8, "capitalGoldObtained": 250 },
+    { "townHallLevel": 9, "capitalGoldObtained": 300 },
+    { "townHallLevel": 10, "capitalGoldObtained": 350 },
+    { "townHallLevel": 11, "capitalGoldObtained": 400 },
+    { "townHallLevel": 12, "capitalGoldObtained": 450 },
+    { "townHallLevel": 13, "capitalGoldObtained": 500 },
+    { "townHallLevel": 14, "capitalGoldObtained": 550 },
+    { "townHallLevel": 15, "capitalGoldObtained": 600 },
+    { "townHallLevel": 16, "capitalGoldObtained": 650 },
+    { "townHallLevel": 17, "capitalGoldObtained": 700 },
+    { "townHallLevel": 18, "capitalGoldObtained": 750 }
+  ],
+  "craftingTime": { "days": 3, "hours": 0, "minutes": 0, "seconds": 0 },
+  "availableForges": [
+    { "slots": 1, "townHallRequired": 9 },
+    { "slots": 2, "townHallRequired": 11 },
+    { "slots": 3, "townHallRequired": 12 },
+    { "slots": 4, "townHallRequired": 14 }
+  ],
+  "autoForge": {
+    "home": [
+      {
+        "townHallLevel": 7,
+        "goldElixirCost": 3000000,
+        "goldElixirCostGoldPass": 1500000,
+        "capitalGoldObtained": 1000
+      },
+      {
+        "townHallLevel": 8,
+        "goldElixirCost": 3000000,
+        "goldElixirCostGoldPass": 1500000,
+        "capitalGoldObtained": 1000
+      },
+      {
+        "townHallLevel": 9,
+        "goldElixirCost": 3000000,
+        "goldElixirCostGoldPass": 1500000,
+        "capitalGoldObtained": 1000
+      },
+      {
+        "townHallLevel": 10,
+        "goldElixirCost": 3600000,
+        "goldElixirCostGoldPass": 1800000,
+        "capitalGoldObtained": 1200
+      },
+      {
+        "townHallLevel": 11,
+        "goldElixirCost": 4200000,
+        "goldElixirCostGoldPass": 2100000,
+        "capitalGoldObtained": 1400
+      },
+      {
+        "townHallLevel": 12,
+        "goldElixirCost": 4800000,
+        "goldElixirCostGoldPass": 2400000,
+        "capitalGoldObtained": 1600
+      },
+      {
+        "townHallLevel": 13,
+        "goldElixirCost": 6000000,
+        "goldElixirCostGoldPass": 3000000,
+        "darkElixirCost": 60000,
+        "darkElixirCostGoldPass": 30000,
+        "capitalGoldObtained": 2000
+      },
+      {
+        "townHallLevel": 14,
+        "goldElixirCost": 7200000,
+        "goldElixirCostGoldPass": 3600000,
+        "darkElixirCost": 72000,
+        "darkElixirCostGoldPass": 36000,
+        "capitalGoldObtained": 2400
+      },
+      {
+        "townHallLevel": 15,
+        "goldElixirCost": 7200000,
+        "goldElixirCostGoldPass": 3600000,
+        "darkElixirCost": 72000,
+        "darkElixirCostGoldPass": 36000,
+        "capitalGoldObtained": 2400
+      },
+      {
+        "townHallLevel": 16,
+        "goldElixirCost": 7200000,
+        "goldElixirCostGoldPass": 3600000,
+        "darkElixirCost": 72000,
+        "darkElixirCostGoldPass": 36000,
+        "capitalGoldObtained": 2400
+      },
+      {
+        "townHallLevel": 17,
+        "goldElixirCost": 7200000,
+        "goldElixirCostGoldPass": 3600000,
+        "darkElixirCost": 72000,
+        "darkElixirCostGoldPass": 36000,
+        "capitalGoldObtained": 2400
+      },
+      {
+        "townHallLevel": 18,
+        "goldElixirCost": 7200000,
+        "goldElixirCostGoldPass": 3600000,
+        "darkElixirCost": 72000,
+        "darkElixirCostGoldPass": 36000,
+        "capitalGoldObtained": 2400
+      }
+    ],
+    "builder": [
+      {
+        "builderHallLevel": 8,
+        "builderGoldElixirCost": 1800000,
+        "builderGoldElixirCostGoldPass": 900000,
+        "capitalGoldObtained": 1200
+      },
+      {
+        "builderHallLevel": 9,
+        "builderGoldElixirCost": 2400000,
+        "builderGoldElixirCostGoldPass": 1200000,
+        "capitalGoldObtained": 1600
+      },
+      {
+        "builderHallLevel": 10,
+        "builderGoldElixirCost": 2400000,
+        "builderGoldElixirCostGoldPass": 1200000,
+        "capitalGoldObtained": 1600
+      }
+    ]
+  },
+  "forge": {
+    "home": [
+      { "townHallLevel": 7, "goldElixirCost": 3000000, "capitalGoldObtained": 1000 },
+      { "townHallLevel": 8, "goldElixirCost": 3000000, "capitalGoldObtained": 1000 },
+      { "townHallLevel": 9, "goldElixirCost": 3000000, "capitalGoldObtained": 1000 },
+      { "townHallLevel": 10, "goldElixirCost": 3600000, "capitalGoldObtained": 1200 },
+      { "townHallLevel": 11, "goldElixirCost": 4200000, "capitalGoldObtained": 1400 },
+      { "townHallLevel": 12, "goldElixirCost": 4800000, "capitalGoldObtained": 1600 },
+      {
+        "townHallLevel": 13,
+        "goldElixirCost": 6000000,
+        "darkElixirCost": 60000,
+        "capitalGoldObtained": 2000
+      },
+      {
+        "townHallLevel": 14,
+        "goldElixirCost": 7200000,
+        "darkElixirCost": 72000,
+        "capitalGoldObtained": 2400
+      },
+      {
+        "townHallLevel": 15,
+        "goldElixirCost": 7200000,
+        "darkElixirCost": 72000,
+        "capitalGoldObtained": 2400
+      },
+      {
+        "townHallLevel": 16,
+        "goldElixirCost": 7200000,
+        "darkElixirCost": 72000,
+        "capitalGoldObtained": 2400
+      },
+      {
+        "townHallLevel": 17,
+        "goldElixirCost": 7200000,
+        "darkElixirCost": 72000,
+        "capitalGoldObtained": 2400
+      },
+      {
+        "townHallLevel": 18,
+        "goldElixirCost": 7200000,
+        "darkElixirCost": 72000,
+        "capitalGoldObtained": 2400
+      }
+    ],
+    "builder": [
+      { "builderHallLevel": 8, "builderGoldElixirCost": 1800000, "capitalGoldObtained": 1200 },
+      { "builderHallLevel": 9, "builderGoldElixirCost": 2400000, "capitalGoldObtained": 1600 },
+      { "builderHallLevel": 10, "builderGoldElixirCost": 2400000, "capitalGoldObtained": 1600 }
+    ]
+  }
+}

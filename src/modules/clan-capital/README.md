@@ -185,7 +185,7 @@ clanCapital().armyBuildings().spellFactories().find("rage-spell-factory");
 
 ### `clanCapital().troops()` — `ClanCapitalTroops`
 
-18 Clan Capital troops, each trained in its own barracks.
+17 Clan Capital troops, each trained in its own barracks.
 
 **Per-building accessors**:
 
@@ -201,13 +201,33 @@ clanCapital().troops().skeletonBarrels();
 clanCapital().troops().flyingFortress();
 clanCapital().troops().raidCart();
 clanCapital().troops().powerPekka();
-clanCapital().troops().hogGlider();
-clanCapital().troops().hogRider();
+clanCapital().troops().hogRaiders();
 clanCapital().troops().infernoDragon();
 clanCapital().troops().megaSparky();
 clanCapital().troops().mountainGolem();
 clanCapital().troops().superDragon();
 clanCapital().troops().superMiner();
+```
+
+**`unitName` field** — troops that deploy as a group carry an optional `unitName` identifying the
+individual unit:
+
+| Troop            | `unitName`          |
+| ---------------- | ------------------- |
+| Minion Horde     | `"Minion"`          |
+| Skeleton Barrels | `"Skeleton Barrel"` |
+| Hog Raiders      | `"Hog Glider"`      |
+
+**`subUnits` field** — troops composed of multiple distinct unit types embed their secondary units
+here. Each sub-unit has its own `name`, `damageType`, `targetType`, `movementSpeed`, `attackSpeed?`,
+`range?`, `preferredTarget?`, and `levels[]`:
+
+```ts
+const hogRaiders = clanCapital().troops().hogRaiders().first()!;
+hogRaiders.unitName; // "Hog Glider" — primary unit
+hogRaiders.levels; // Hog Glider level data
+hogRaiders.subUnits![0].name; // "Hog Rider"
+hogRaiders.subUnits![0].levels; // Hog Rider level data
 ```
 
 ---
@@ -291,6 +311,73 @@ clanCapital().leagues().atTrophies(2800); // league for 2800 trophies
 
 ---
 
+### `clanCapital().forge()` — `ClanCapitalForge`
+
+Clan Capital Forge data — daily forge rewards, auto forge and forge resource conversion rates,
+available manual forge slots, and crafting time.
+
+```ts
+const forge = clanCapital().forge();
+
+// Daily forge reward at a specific TH level
+forge.dailyForgeAtTownHall(12)?.capitalGoldObtained; // 450
+
+// All daily forge entries (TH6–18)
+forge.dailyForge();
+
+// Crafting time shared by Auto Forge and Forge
+forge.craftingTime(); // { days: 3, hours: 0, minutes: 0, seconds: 0 }
+
+// How many manual forge slots are available at TH11
+forge.availableForgesAtTownHall(11); // 2
+
+// All slot tiers and their TH requirements
+forge.availableForges();
+
+// Auto Forge conversion rate at TH10 (includes Gold Pass price)
+forge.autoForgeAtTownHall(10);
+// { townHallLevel: 10, goldElixirCost: 3600000, goldElixirCostGoldPass: 1800000, capitalGoldObtained: 1200 }
+
+// Auto Forge conversion rate at BH9
+forge.autoForgeAtBuilderHall(9);
+// { builderHallLevel: 9, builderGoldElixirCost: 2400000, builderGoldElixirCostGoldPass: 1200000, capitalGoldObtained: 1600 }
+
+// Forge (full cost, no Gold Pass discount) at TH13
+forge.forgeAtTownHall(13);
+// { townHallLevel: 13, goldElixirCost: 6000000, darkElixirCost: 60000, capitalGoldObtained: 2000 }
+
+// All Auto Forge and Forge rates (home + builder)
+forge.autoForge(); // { home: [...], builder: [...] }
+forge.forgeRates(); // { home: [...], builder: [...] }
+```
+
+**Methods**:
+
+| Method                          | Description                                                                      |
+| ------------------------------- | -------------------------------------------------------------------------------- |
+| `dailyForge()`                  | All daily forge entries (TH6–18)                                                 |
+| `dailyForgeAtTownHall(th)`      | Daily forge entry for a specific Town Hall level                                 |
+| `craftingTime()`                | 3-day crafting time shared by Auto Forge and Forge                               |
+| `availableForges()`             | All slot tiers with TH level required to unlock                                  |
+| `availableForgesAtTownHall(th)` | Number of manual forge slots available at a given TH level                       |
+| `autoForge()`                   | All Auto Forge rates `{ home: [...], builder: [...] }`                           |
+| `autoForgeAtTownHall(th)`       | Auto Forge home village entry for a specific TH level (includes Gold Pass price) |
+| `autoForgeAtBuilderHall(bh)`    | Auto Forge builder base entry for a specific BH level (includes Gold Pass price) |
+| `forgeRates()`                  | All Forge rates `{ home: [...], builder: [...] }` (no Gold Pass discount)        |
+| `forgeAtTownHall(th)`           | Forge home village entry for a specific TH level                                 |
+| `forgeAtBuilderHall(bh)`        | Forge builder base entry for a specific BH level                                 |
+
+**Notes**:
+
+- Auto Forge has a 50% Gold Pass discount (`goldElixirCostGoldPass`, `darkElixirCostGoldPass`,
+  `builderGoldElixirCostGoldPass`)
+- Forge has no Gold Pass discount — standard cost only
+- Dark Elixir conversion is available from TH13+
+- Builder base conversions use Builder Gold / Builder Elixir (BH8–10)
+- Available manual forge slots: 1 at TH9, 2 at TH11, 3 at TH12, 4 at TH14
+
+---
+
 ## `levelCountAtClanCapital(capitalHallLevel)`
 
 Computes the total number of upgradeable level slots at a given Capital Hall level, broken down by
@@ -338,7 +425,7 @@ interface ClanCapitalLevelCounts {
 | ------------ | ------- | ---------------------------------------------- |
 | CH1          | 92      | Capital Peak only: 12 structures + 80 walls    |
 | CH2          | 167     | Adds Barbarian Camp (27 structures + 50 walls) |
-| CH10         | 10,315  | All districts active                           |
+| CH10         | 10,310  | All districts active                           |
 
 ---
 
