@@ -1,25 +1,34 @@
 import { BuildTime } from '@/types';
 import { toTotalSeconds } from '../utils';
 
-/**
- * 1000 gems per week (7 days).
- * Expressed as integer math: gems = ceil(totalSeconds * 1000 / SECONDS_PER_WEEK).
- */
-const SECONDS_PER_WEEK = 7 * 24 * 3600; // 604800
+// Tiered anchor points: 0s=0, 1min=1, 1hr=20, 1day=260, 7days=1000
+const TIERS = [
+  { seconds: 0, gems: 0 },
+  { seconds: 60, gems: 1 },
+  { seconds: 3600, gems: 20 },
+  { seconds: 86400, gems: 260 },
+  { seconds: 604800, gems: 1000 },
+] as const;
 
-/**
- * Calculator for converting build/research time into gem cost.
- * Rate: 1000 gems per week, proportional and rounded up. Zero time costs 0 gems.
- */
 export class GemsCalculator {
-  /**
-   * Returns the gem cost to instantly complete a given build or research time.
-   * Formula: `ceil(totalSeconds * 1000 / 604800)`, with 0 seconds → 0 gems.
-   * Examples: 1 hour → 6 gems, 1 day → 143 gems, 7 days → 1000 gems.
-   */
   cost(time: BuildTime): number {
-    const totalSeconds = toTotalSeconds(time);
-    if (totalSeconds === 0) return 0;
-    return Math.ceil((totalSeconds * 1000) / SECONDS_PER_WEEK);
+    const s = toTotalSeconds(time);
+    if (s <= 0) return 0;
+    if (s < 60) return 1;
+
+    for (let i = 1; i < TIERS.length; i++) {
+      if (s <= TIERS[i].seconds) {
+        const t0 = TIERS[i - 1];
+        const t1 = TIERS[i];
+        const progress = (s - t0.seconds) / (t1.seconds - t0.seconds);
+        return Math.floor(t0.gems + progress * (t1.gems - t0.gems));
+      }
+    }
+
+    // Beyond 7 days: extrapolate at the final tier's rate
+    const last = TIERS[TIERS.length - 1];
+    const prev = TIERS[TIERS.length - 2];
+    const ratePerSecond = (last.gems - prev.gems) / (last.seconds - prev.seconds);
+    return Math.floor(last.gems + (s - last.seconds) * ratePerSecond);
   }
 }
