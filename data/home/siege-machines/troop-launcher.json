@@ -33,7 +33,7 @@
       "laboratoryRequired": 0,
       "townHallRequired": 17,
       "researchCost": 0,
-      "researchCostResource": "Gold",
+      "researchCostResource": "Elixir",
       "researchTime": {
         "days": 0,
         "hours": 0,
@@ -59,7 +59,7 @@
       "laboratoryRequired": 14,
       "townHallRequired": 17,
       "researchCost": 8500000,
-      "researchCostResource": "Gold",
+      "researchCostResource": "Elixir",
       "researchTime": {
         "days": 6,
         "hours": 0,
@@ -85,7 +85,7 @@
       "laboratoryRequired": 14,
       "townHallRequired": 17,
       "researchCost": 10000000,
-      "researchCostResource": "Gold",
+      "researchCostResource": "Elixir",
       "researchTime": {
         "days": 9,
         "hours": 0,
@@ -111,7 +111,7 @@
       "laboratoryRequired": 15,
       "townHallRequired": 17,
       "researchCost": 17000000,
-      "researchCostResource": "Gold",
+      "researchCostResource": "Elixir",
       "researchTime": {
         "days": 9,
         "hours": 0,
