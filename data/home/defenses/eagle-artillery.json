@@ -43,6 +43,14 @@
     {
       "townHallLevel": 16,
       "count": 1
+    },
+    {
+      "townHallLevel": 17,
+      "count": 0
+    },
+    {
+      "townHallLevel": 18,
+      "count": 0
     }
   ],
   "levels": [
