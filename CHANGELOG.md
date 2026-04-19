@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.16.0] - 2026-04-18
+
+### Fix
+
+- Fix Lava hound images for levels
+- Fix Siege Machine Resource Type showing Gold instead of Elixir.
+- Fix Gem Calculator not calculator proper for lower than 7 day time.
+
 ## [0.15.0] - 2026-04-18
 
 ### Fix
