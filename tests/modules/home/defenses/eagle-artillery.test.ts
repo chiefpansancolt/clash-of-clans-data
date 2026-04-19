@@ -154,14 +154,10 @@ describe('eagleArtillery()', () => {
     ).toBeUndefined();
   });
 
-  it('is not available at TH17-18', () => {
-    expect(
-      home()
-        .defenses()
-        .eagleArtillery()
-        .first()!
-        .availablePerTownHall.find((a) => a.townHallLevel >= 17),
-    ).toBeUndefined();
+  it('has count 0 at TH17 and TH18', () => {
+    const avail = home().defenses().eagleArtillery().first()!.availablePerTownHall;
+    expect(avail.find((a) => a.townHallLevel === 17)?.count).toBe(0);
+    expect(avail.find((a) => a.townHallLevel === 18)?.count).toBe(0);
   });
 
   it('level 1 is available at TH11', () => {

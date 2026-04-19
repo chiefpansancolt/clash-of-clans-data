@@ -50,7 +50,7 @@ describe('apprenticeWarden()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(13);
   });
 
   it('level 2: Lab 11 (TH13), 90000 Dark Elixir / 6d, DPS 185, DPH 166.5, aura 22%, HP 1650', () => {
@@ -117,8 +117,8 @@ describe('troops() with apprentice warden', () => {
     expect(home().troops().withSuperTroop().find('apprentice-warden')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes apprentice warden (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('apprentice-warden')).toBeDefined();
+  it('byTownHall(13) includes apprentice warden (level 1 unlocks at TH13)', () => {
+    expect(home().troops().byTownHall(13).find('apprentice-warden')).toBeDefined();
   });
 
   it('byTownHall(13) includes apprentice warden (level 2 at TH13)', () => {

@@ -59,7 +59,7 @@ describe('druid()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(14);
   });
 
   it('level 2: Lab 12 (TH14), 125000 Dark Elixir / 9d, HPS 85, hero healing 89.25, HP 1400', () => {
@@ -137,8 +137,8 @@ describe('troops() with druid', () => {
     expect(home().troops().withSuperTroop().find('druid')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes druid (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('druid')).toBeDefined();
+  it('byTownHall(14) includes druid (level 1 unlocks at TH14)', () => {
+    expect(home().troops().byTownHall(14).find('druid')).toBeDefined();
   });
 
   it('byTownHall(14) includes druid (level 2 at TH14)', () => {

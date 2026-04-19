@@ -50,7 +50,7 @@ describe('babyDragon()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(9);
   });
 
   it('level 2: Lab 7 (TH9), 1.5M Elixir / 1d 6h', () => {
@@ -218,8 +218,8 @@ describe('troops() with babyDragon', () => {
     expect(home().troops().withSuperTroop().find('baby-dragon')).toBeDefined();
   });
 
-  it('byTownHall(1) includes baby-dragon (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('baby-dragon')).toBeDefined();
+  it('byTownHall(9) includes baby-dragon (level 1 unlocks at TH9)', () => {
+    expect(home().troops().byTownHall(9).find('baby-dragon')).toBeDefined();
   });
 
   it('byTownHall(9) includes baby-dragon (level 2 at TH9)', () => {

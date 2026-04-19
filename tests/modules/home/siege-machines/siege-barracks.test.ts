@@ -44,7 +44,7 @@ describe('siegeBarracks()', () => {
     expect(lvl.laboratoryRequired).toBe(0);
     expect(lvl.townHallRequired).toBe(13);
     expect(lvl.researchCost).toBe(0);
-    expect(lvl.researchCostResource).toBe('Gold');
+    expect(lvl.researchCostResource).toBe('Elixir');
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   });
 

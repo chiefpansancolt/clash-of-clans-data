@@ -38,16 +38,16 @@ describe('HomeVillage#levelCountAtTownHall', () => {
 
   // ── TH1 known values ───────────────────────────────────────────────────────
 
-  it('TH1 total is 50', () => {
-    expect(home().levelCountAtTownHall(1).total).toBe(50);
+  it('TH1 total is 22', () => {
+    expect(home().levelCountAtTownHall(1).total).toBe(22);
   });
 
   it('TH1 structures is 19', () => {
     expect(home().levelCountAtTownHall(1).structures).toBe(19);
   });
 
-  it('TH1 lab is 31', () => {
-    expect(home().levelCountAtTownHall(1).lab).toBe(31);
+  it('TH1 lab is 3', () => {
+    expect(home().levelCountAtTownHall(1).lab).toBe(3);
   });
 
   it('TH1 traps is 0 (no traps unlock at TH1)', () => {

@@ -48,7 +48,7 @@ describe('pekka()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(8);
   });
 
   it('levels 2 and 3 both require Lab 6 (TH8)', () => {
@@ -150,8 +150,8 @@ describe('troops() with pekka', () => {
     expect(home().troops().withSuperTroop().find('pekka')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes pekka (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('pekka')).toBeDefined();
+  it('byTownHall(8) includes pekka (level 1 unlocks at TH8)', () => {
+    expect(home().troops().byTownHall(8).find('pekka')).toBeDefined();
   });
 
   it('byTownHall(8) includes pekka (level 2 at TH8)', () => {

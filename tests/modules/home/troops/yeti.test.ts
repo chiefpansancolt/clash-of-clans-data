@@ -44,7 +44,7 @@ describe('yeti()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(12);
   });
 
   it('level 2: Lab 10 (TH12), 5M / 3d', () => {
@@ -162,8 +162,8 @@ describe('troops() with yeti', () => {
     expect(home().troops().withSuperTroop().find('yeti')).toBeDefined();
   });
 
-  it('byTownHall(1) includes yeti (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('yeti')).toBeDefined();
+  it('byTownHall(12) includes yeti (level 1 unlocks at TH12)', () => {
+    expect(home().troops().byTownHall(12).find('yeti')).toBeDefined();
   });
 
   it('byTownHall(12) includes yeti (level 2 at TH12)', () => {

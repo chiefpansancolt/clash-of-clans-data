@@ -44,7 +44,7 @@ describe('bowler()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(10);
   });
 
   it('level 2: Lab 8 (TH10), 32500 Dark Elixir / 2d, DPH 158.4', () => {
@@ -193,8 +193,8 @@ describe('troops() with bowler', () => {
     expect(home().troops().withSuperTroop().find('bowler')).toBeDefined();
   });
 
-  it('byTownHall(1) includes bowler (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('bowler')).toBeDefined();
+  it('byTownHall(10) includes bowler (level 1 unlocks at TH10)', () => {
+    expect(home().troops().byTownHall(10).find('bowler')).toBeDefined();
   });
 
   it('byTownHall(10) includes bowler (level 2 at TH10)', () => {

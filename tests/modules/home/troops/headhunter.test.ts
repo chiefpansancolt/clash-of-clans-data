@@ -53,7 +53,7 @@ describe('headhunter()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(12);
   });
 
   it('level 1 poison: max DPS 220, speed decrease 40%, attack rate decrease 55%', () => {
@@ -127,8 +127,8 @@ describe('troops() with headhunter', () => {
     expect(home().troops().withSuperTroop().find('headhunter')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes headhunter (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('headhunter')).toBeDefined();
+  it('byTownHall(12) includes headhunter (level 1 unlocks at TH12)', () => {
+    expect(home().troops().byTownHall(12).find('headhunter')).toBeDefined();
   });
 
   it('byTownHall(12) includes headhunter (level 2 at TH12)', () => {

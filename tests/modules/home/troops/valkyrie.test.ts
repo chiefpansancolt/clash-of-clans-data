@@ -44,7 +44,7 @@ describe('valkyrie()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(8);
   });
 
   it('level 2: Lab 6 (TH8), 3000 Dark Elixir / 8h', () => {
@@ -173,8 +173,8 @@ describe('troops() with valkyrie', () => {
     expect(home().troops().withSuperTroop().find('valkyrie')).toBeDefined();
   });
 
-  it('byTownHall(1) includes valkyrie (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('valkyrie')).toBeDefined();
+  it('byTownHall(8) includes valkyrie (level 1 unlocks at TH8)', () => {
+    expect(home().troops().byTownHall(8).find('valkyrie')).toBeDefined();
   });
 
   it('byTownHall(8) includes valkyrie (level 2 at TH8)', () => {

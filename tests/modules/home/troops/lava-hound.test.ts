@@ -47,7 +47,7 @@ describe('lavaHound()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(9);
   });
 
   it('level 2: Lab 7 (TH9), 14000 Dark Elixir / 2d, 10 pups offense, 9 defense', () => {
@@ -221,8 +221,8 @@ describe('troops() with lavaHound', () => {
     expect(home().troops().withSuperTroop().find('lava-hound')).toBeDefined();
   });
 
-  it('byTownHall(1) includes lava-hound (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('lava-hound')).toBeDefined();
+  it('byTownHall(9) includes lava-hound (level 1 unlocks at TH9)', () => {
+    expect(home().troops().byTownHall(9).find('lava-hound')).toBeDefined();
   });
 
   it('byTownHall(9) includes lava-hound (level 2 at TH9)', () => {

@@ -49,7 +49,7 @@ describe('dragon()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(7);
   });
 
   it('level 2 requires Lab 5 (TH7), research 1M Elixir / 18h', () => {
@@ -206,8 +206,8 @@ describe('troops() with dragon', () => {
     expect(home().troops().withSuperTroop().find('dragon')).toBeDefined();
   });
 
-  it('byTownHall(1) includes dragon (level 1 is TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('dragon')).toBeDefined();
+  it('byTownHall(7) includes dragon (level 1 unlocks at TH7)', () => {
+    expect(home().troops().byTownHall(7).find('dragon')).toBeDefined();
   });
 
   it('byTownHall(0) does not include dragon', () => {

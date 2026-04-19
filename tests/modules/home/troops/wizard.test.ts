@@ -45,7 +45,7 @@ describe('wizard()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(5);
   });
 
   it('level 2 requires Lab 3 (TH5), research 120000 Elixir / 4h', () => {
@@ -191,7 +191,7 @@ describe('troops() with wizard', () => {
     expect(home().troops().withSuperTroop().find('wizard')).toBeDefined();
   });
 
-  it('byTownHall(5) includes wizard (level 1 is TH1)', () => {
+  it('byTownHall(5) includes wizard (level 1 unlocks at TH5)', () => {
     expect(home().troops().byTownHall(5).find('wizard')).toBeDefined();
   });
 

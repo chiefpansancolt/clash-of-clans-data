@@ -44,7 +44,7 @@ describe('minion()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(7);
   });
 
   it('level 2: Lab 5 (TH7), 1000 Dark Elixir / 6h', () => {
@@ -173,8 +173,8 @@ describe('troops() with minion', () => {
     expect(home().troops().withSuperTroop().find('minion')).toBeDefined();
   });
 
-  it('byTownHall(1) includes minion (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('minion')).toBeDefined();
+  it('byTownHall(7) includes minion (level 1 unlocks at TH7)', () => {
+    expect(home().troops().byTownHall(7).find('minion')).toBeDefined();
   });
 
   it('byTownHall(7) includes minion (level 2 at TH7)', () => {

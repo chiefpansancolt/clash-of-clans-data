@@ -46,7 +46,7 @@ describe('balloon()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(4);
   });
 
   it('level 2 requires Lab 2 (TH4), research 100000 Elixir / 4h', () => {
@@ -182,7 +182,7 @@ describe('troops() with balloon', () => {
     expect(home().troops().withSuperTroop().find('balloon')).toBeDefined();
   });
 
-  it('byTownHall(4) includes balloon (level 1 is TH1)', () => {
+  it('byTownHall(4) includes balloon (level 1 unlocks at TH4)', () => {
     expect(home().troops().byTownHall(4).find('balloon')).toBeDefined();
   });
 

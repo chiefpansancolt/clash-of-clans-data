@@ -51,7 +51,7 @@ describe('healer()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(6);
   });
 
   it('level 1 has no dps or damagePerShot', () => {
@@ -130,8 +130,8 @@ describe('troops() with healer', () => {
     expect(home().troops().withSuperTroop().find('healer')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes healer (level 1 is TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('healer')).toBeDefined();
+  it('byTownHall(6) includes healer (level 1 unlocks at TH6)', () => {
+    expect(home().troops().byTownHall(6).find('healer')).toBeDefined();
   });
 
   it('byTownHall(0) does not include healer', () => {

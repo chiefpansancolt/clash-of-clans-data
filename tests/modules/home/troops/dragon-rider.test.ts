@@ -45,7 +45,7 @@ describe('dragonRider()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(13);
   });
 
   it('level 2: Lab 11 (TH13), 7.5M / 6d, DPS 370, HP 4400', () => {
@@ -117,8 +117,8 @@ describe('troops() with dragonRider', () => {
     expect(home().troops().withSuperTroop().find('dragon-rider')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes dragon-rider (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('dragon-rider')).toBeDefined();
+  it('byTownHall(13) includes dragon-rider (level 1 unlocks at TH13)', () => {
+    expect(home().troops().byTownHall(13).find('dragon-rider')).toBeDefined();
   });
 
   it('byTownHall(13) includes dragon-rider (level 2 at TH13)', () => {

@@ -129,7 +129,9 @@ describe('townHall()', () => {
         .townHall()
         .first()!
         .levels[16].weapon!.levels.forEach((l, i) => {
-          expect(l.images.townHall).toBe(`images/home/town-hall/normal/level-17-${i + 1}.png`);
+          expect(l.images.townHall).toBe(
+            `images/home/town-hall/weapons/inferno-artillery/level-${i + 1}.png`,
+          );
         });
     });
   });

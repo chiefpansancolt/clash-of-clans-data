@@ -44,7 +44,7 @@ describe('thrower()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(16);
   });
 
   it('level 2: Lab 14 (TH16), 16M Elixir / 9d 12h, DPS 210, HP 2350', () => {
@@ -106,8 +106,8 @@ describe('troops() with thrower', () => {
     expect(home().troops().withSuperTroop().find('thrower')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes thrower (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('thrower')).toBeDefined();
+  it('byTownHall(16) includes thrower (level 1 unlocks at TH16)', () => {
+    expect(home().troops().byTownHall(16).find('thrower')).toBeDefined();
   });
 
   it('byTownHall(16) includes thrower (level 2 at TH16)', () => {

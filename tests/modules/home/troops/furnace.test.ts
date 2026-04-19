@@ -52,7 +52,7 @@ describe('furnace()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(15);
   });
 
   it('level 2: Lab 13 (TH15), 200000 Dark Elixir / 12d, 20 firemites, HP 1620', () => {
@@ -113,8 +113,8 @@ describe('troops() with furnace', () => {
     expect(home().troops().withSuperTroop().find('furnace')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes furnace (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('furnace')).toBeDefined();
+  it('byTownHall(15) includes furnace (level 1 unlocks at TH15)', () => {
+    expect(home().troops().byTownHall(15).find('furnace')).toBeDefined();
   });
 
   it('byTownHall(15) includes furnace (level 2 at TH15)', () => {

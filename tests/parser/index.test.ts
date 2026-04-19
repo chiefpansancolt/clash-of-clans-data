@@ -433,10 +433,10 @@ describe('parseProfile — builder traps', () => {
     expect(result.builder.find((s) => s.label === 'Traps')).toBeDefined();
   });
 
-  it('Push Trap has count 5', () => {
+  it('Spring Trap has count 5', () => {
     const section = result.builder.find((s) => s.label === 'Traps')!;
     const pt = section.entries.find((e) => e.dataId === 12000010);
-    expect(pt!.name).toBe('Push Trap');
+    expect(pt!.name).toBe('Spring Trap');
     expect(pt!.levels[0].count).toBe(5);
   });
 });

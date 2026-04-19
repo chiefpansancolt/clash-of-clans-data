@@ -50,7 +50,7 @@ describe('rootRider()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(15);
   });
 
   it('level 2: Lab 13 (TH15), 15M / 8d, DPS 105, HP 6350', () => {
@@ -109,8 +109,8 @@ describe('troops() with rootRider', () => {
     expect(home().troops().withSuperTroop().find('root-rider')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes root-rider (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('root-rider')).toBeDefined();
+  it('byTownHall(15) includes root-rider (level 1 unlocks at TH15)', () => {
+    expect(home().troops().byTownHall(15).find('root-rider')).toBeDefined();
   });
 
   it('byTownHall(15) includes root-rider (level 2 at TH15)', () => {

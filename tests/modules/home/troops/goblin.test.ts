@@ -45,7 +45,7 @@ describe('goblin()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(2);
   });
 
   it('level 2 requires Lab 1 (TH3), research 45000 Elixir / 2h', () => {
@@ -170,7 +170,7 @@ describe('troops() with goblin', () => {
     expect(home().troops().withSuperTroop().find('goblin')).toBeDefined();
   });
 
-  it('byTownHall(1) includes goblin (level 1 is TH1)', () => {
-    expect(home().troops().byTownHall(1).find('goblin')).toBeDefined();
+  it('byTownHall(2) includes goblin (level 1 unlocks at TH2)', () => {
+    expect(home().troops().byTownHall(2).find('goblin')).toBeDefined();
   });
 });

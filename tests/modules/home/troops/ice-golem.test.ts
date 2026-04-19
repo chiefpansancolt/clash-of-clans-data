@@ -60,7 +60,7 @@ describe('iceGolem()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(11);
   });
 
   it('level 2: Lab 9 (TH11), 27500 Dark Elixir / 2d, freeze 4.75s / 2.25s', () => {
@@ -167,8 +167,8 @@ describe('troops() with iceGolem', () => {
     expect(home().troops().withSuperTroop().find('ice-golem')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes ice-golem (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('ice-golem')).toBeDefined();
+  it('byTownHall(11) includes ice-golem (level 1 unlocks at TH11)', () => {
+    expect(home().troops().byTownHall(11).find('ice-golem')).toBeDefined();
   });
 
   it('byTownHall(11) includes ice-golem (level 2 at TH11)', () => {

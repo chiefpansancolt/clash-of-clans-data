@@ -44,7 +44,7 @@ describe('meteorGolem()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(17);
   });
 
   it('level 2: Lab 15 (TH17), 28M Elixir / 14d, DPS 500, HP 14500', () => {
@@ -95,8 +95,8 @@ describe('troops() with meteorGolem', () => {
     expect(home().troops().withSuperTroop().find('meteor-golem')).toBeUndefined();
   });
 
-  it('byTownHall(1) includes meteor-golem (level 1 TH1 convention)', () => {
-    expect(home().troops().byTownHall(1).find('meteor-golem')).toBeDefined();
+  it('byTownHall(17) includes meteor-golem (level 1 unlocks at TH17)', () => {
+    expect(home().troops().byTownHall(17).find('meteor-golem')).toBeDefined();
   });
 
   it('byTownHall(17) includes meteor-golem (level 2 at TH17)', () => {

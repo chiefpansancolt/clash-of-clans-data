@@ -46,7 +46,7 @@ describe('wallBreaker()', () => {
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
-    expect(lvl.townHallRequired).toBe(1);
+    expect(lvl.townHallRequired).toBe(3);
   });
 
   it('level 2 requires Lab 2 (TH4), research 80000 Elixir / 3h', () => {
@@ -175,7 +175,7 @@ describe('troops() with wallBreaker', () => {
     expect(home().troops().withSuperTroop().find('wall-breaker')).toBeDefined();
   });
 
-  it('byTownHall(1) includes wallBreaker (level 1 is TH1)', () => {
-    expect(home().troops().byTownHall(1).find('wall-breaker')).toBeDefined();
+  it('byTownHall(3) includes wallBreaker (level 1 unlocks at TH3)', () => {
+    expect(home().troops().byTownHall(3).find('wall-breaker')).toBeDefined();
   });
 });
