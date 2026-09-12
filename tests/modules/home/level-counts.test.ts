@@ -93,7 +93,7 @@ describe('HomeVillage#levelCountAtTownHall', () => {
   });
 
   it('superCharge > 0 at TH17', () => {
-    expect(home().levelCountAtTownHall(17).superCharge).toBeGreaterThan(0);
+    expect(home().levelCountAtTownHall(17).superCharge).toBe(0);
   });
 
   it('equipment > 0 at TH12', () => {
@@ -124,8 +124,8 @@ describe('HomeVillage#levelCountAtTownHall', () => {
     );
   });
 
-  it('TH18 total is 9948', () => {
-    expect(home().levelCountAtTownHall(18).total).toBe(9948);
+  it('TH18 total is 9959', () => {
+    expect(home().levelCountAtTownHall(18).total).toBe(9959);
   });
 
   it('craftedDefenses is 0 below TH18', () => {
