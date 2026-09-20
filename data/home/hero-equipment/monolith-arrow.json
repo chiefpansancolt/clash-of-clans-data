@@ -1,6 +1,6 @@
 {
   "id": "monolith-arrow",
-  "dataId": "90000059",
+  "dataId": 90000059,
   "name": "Monolith Arrow",
   "description": "Monolith Arrow's extra damage decreases when more than 180 and 250 housing spaces of units are deployed",
   "base": "home",
