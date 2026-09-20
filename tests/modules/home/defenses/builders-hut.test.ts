@@ -8,8 +8,8 @@ describe('buildersHut()', () => {
     expect(result.name).toBe("Builder's Hut");
   });
 
-  it('has 8 levels', () => {
-    expect(home().defenses().buildersHut().first()!.levels).toHaveLength(8);
+  it('has 10 levels', () => {
+    expect(home().defenses().buildersHut().first()!.levels).toHaveLength(10);
   });
 
   it('targets both ground and air', () => {

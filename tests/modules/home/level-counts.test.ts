@@ -124,8 +124,8 @@ describe('HomeVillage#levelCountAtTownHall', () => {
     );
   });
 
-  it('TH18 total is 9959', () => {
-    expect(home().levelCountAtTownHall(18).total).toBe(9959);
+  it('TH18 total is 9971', () => {
+    expect(home().levelCountAtTownHall(18).total).toBe(9971);
   });
 
   it('craftedDefenses is 0 below TH18', () => {
