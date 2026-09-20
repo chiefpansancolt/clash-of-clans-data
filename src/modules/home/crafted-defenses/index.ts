@@ -2,10 +2,13 @@ import { QueryBase } from '@/common/query-base';
 import { CraftedDefense } from '@/types';
 import { airBombsData } from './air-bombs';
 import { bombHiveData } from './bomb-hive';
+import { cakeAPultData } from './cake-a-pult';
 import { crusherMortarData } from './crusher-mortar';
 import { flameSpinnerData } from './flame-spinner';
 import { heroBellData } from './hero-bell';
+import { heroHunterData } from './hero-hunter';
 import { hookTowerData } from './hook-tower';
+import { hotCandleData } from './hot-candle';
 import { lavaLauncherData } from './lava-launcher';
 import { lightBeamData } from './light-beam';
 import { roasterData } from './roaster';
@@ -16,6 +19,7 @@ import { roasterData } from './roaster';
  * Phase 1 (former): Hook Tower, Flame Spinner, Crusher Mortar
  * Phase 2 (former): Hero Bell, Bomb Hive, Light Beam
  * Phase 3 (current): Roaster, Air Bombs, Lava Launcher
+ * Phase 4 (current): Hot Candle, Hero Hunter, Cake-A-Pult
  */
 const allCraftedDefenses: CraftedDefense[] = [
   hookTowerData,
@@ -27,6 +31,9 @@ const allCraftedDefenses: CraftedDefense[] = [
   roasterData,
   airBombsData,
   lavaLauncherData,
+  hotCandleData,
+  heroHunterData,
+  cakeAPultData,
 ];
 
 /**
@@ -64,6 +71,15 @@ export class HomeVillageCraftedDefenses extends QueryBase<CraftedDefense> {
   }
   lavaLauncher(): HomeVillageCraftedDefenses {
     return new HomeVillageCraftedDefenses([lavaLauncherData]);
+  }
+  hotCandle(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([hotCandleData]);
+  }
+  heroHunter(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([heroHunterData]);
+  }
+  cakeAPult(): HomeVillageCraftedDefenses {
+    return new HomeVillageCraftedDefenses([cakeAPultData]);
   }
 
   /** Filter to a specific crafting phase (1, 2, 3, …). */

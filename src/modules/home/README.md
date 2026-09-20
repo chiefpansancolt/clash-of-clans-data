@@ -110,7 +110,7 @@ home().defenses().craftingStation();
 
 ### `home().craftedDefenses()` — `HomeVillageCraftedDefenses`
 
-9 crafted defense buildings, grouped into phases (Phase 1, 2, and 3).
+12 crafted defense buildings, grouped into phases (Phase 1, 2, 3, and 4).
 
 **Per-building accessors**:
 
@@ -124,6 +124,9 @@ home().craftedDefenses().lightBeam();
 home().craftedDefenses().roaster();
 home().craftedDefenses().airBombs();
 home().craftedDefenses().lavaLauncher();
+home().craftedDefenses().hotCandle();
+home().craftedDefenses().heroHunter();
+home().craftedDefenses().cakeAPult();
 ```
 
 **Filter methods**:
