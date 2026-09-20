@@ -151,7 +151,7 @@
       "researchCostResource": "Elixir",
       "researchTime": {
         "days": 1,
-        "hours": 6,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },

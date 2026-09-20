@@ -99,9 +99,9 @@ describe('elixirCollector() levels', () => {
     );
   });
 
-  it('level 17 buildTime is 4d', () => {
+  it('level 17 buildTime is 2d', () => {
     expect(home().resourceBuildings().elixirCollector().first()!.levels[16].buildTime).toEqual({
-      days: 4,
+      days: 2,
       hours: 0,
       minutes: 0,
       seconds: 0,

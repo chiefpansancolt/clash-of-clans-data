@@ -43,14 +43,14 @@ describe('overgrowthSpell()', () => {
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 2: spellDuration 23, Lab 10, TH12, 62500 Dark Elixir, 5d 12h', () => {
+  it('level 2: spellDuration 23, Lab 10, TH12, 62500 Dark Elixir, 5d', () => {
     const lvl = home().spells().overgrowthSpell().first()!.levels[1];
     expect(lvl.level).toBe(2);
     expect(lvl.spellDuration).toBe(23);
     expect(lvl.laboratoryRequired).toBe(10);
     expect(lvl.townHallRequired).toBe(12);
     expect(lvl.researchCost).toBe(62500);
-    expect(lvl.researchTime).toEqual({ days: 5, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 5, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('level 4: spellDuration 25, Lab 14, TH16, 175000 Dark Elixir, 10d', () => {

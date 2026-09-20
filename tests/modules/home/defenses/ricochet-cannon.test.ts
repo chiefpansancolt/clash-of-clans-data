@@ -103,10 +103,10 @@ describe('ricochetCannon() levels', () => {
     expect(home().defenses().ricochetCannon().first()!.levels[0].supercharge).toBeFalsy();
   });
 
-  it('level 3 buildTime is 10d 18h', () => {
+  it('level 3 buildTime is 9d', () => {
     expect(home().defenses().ricochetCannon().first()!.levels[2].buildTime).toEqual({
-      days: 10,
-      hours: 18,
+      days: 9,
+      hours: 0,
       minutes: 0,
       seconds: 0,
     });

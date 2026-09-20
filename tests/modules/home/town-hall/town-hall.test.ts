@@ -40,7 +40,7 @@ describe('townHall()', () => {
     expect(l18.level).toBe(18);
     expect(l18.hitpoints).toBe(10800);
     expect(l18.buildCost).toBe(25000000);
-    expect(l18.buildTime).toEqual({ days: 14, hours: 0, minutes: 0, seconds: 0 });
+    expect(l18.buildTime).toEqual({ days: 12, hours: 0, minutes: 0, seconds: 0 });
     expect(l18.xpGained).toBe(1099);
     expect(l18.maxBuildings).toBe(94);
     expect(l18.maxTraps).toBe(47);

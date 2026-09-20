@@ -242,8 +242,8 @@
       "buildCostResource": "Elixir",
       "buildTime": {
         "days": 0,
-        "hours": 2,
-        "minutes": 0,
+        "hours": 1,
+        "minutes": 30,
         "seconds": 0
       },
       "xpGained": 84,
@@ -261,7 +261,7 @@
       "buildCostResource": "Elixir",
       "buildTime": {
         "days": 0,
-        "hours": 3,
+        "hours": 2,
         "minutes": 0,
         "seconds": 0
       },
@@ -280,7 +280,7 @@
       "buildCostResource": "Elixir",
       "buildTime": {
         "days": 0,
-        "hours": 4,
+        "hours": 3,
         "minutes": 0,
         "seconds": 0
       },
@@ -299,7 +299,7 @@
       "buildCostResource": "Elixir",
       "buildTime": {
         "days": 0,
-        "hours": 6,
+        "hours": 4,
         "minutes": 0,
         "seconds": 0
       },
@@ -318,7 +318,7 @@
       "buildCostResource": "Elixir",
       "buildTime": {
         "days": 0,
-        "hours": 8,
+        "hours": 5,
         "minutes": 0,
         "seconds": 0
       },
@@ -337,7 +337,7 @@
       "buildCostResource": "Elixir",
       "buildTime": {
         "days": 0,
-        "hours": 10,
+        "hours": 6,
         "minutes": 0,
         "seconds": 0
       },
@@ -356,7 +356,7 @@
       "buildCostResource": "Elixir",
       "buildTime": {
         "days": 0,
-        "hours": 18,
+        "hours": 10,
         "minutes": 0,
         "seconds": 0
       },
@@ -374,7 +374,7 @@
       "buildCost": 2000000,
       "buildCostResource": "Elixir",
       "buildTime": {
-        "days": 2,
+        "days": 1,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -393,7 +393,7 @@
       "buildCost": 8000000,
       "buildCostResource": "Elixir",
       "buildTime": {
-        "days": 4,
+        "days": 2,
         "hours": 0,
         "minutes": 0,
         "seconds": 0

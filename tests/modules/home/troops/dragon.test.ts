@@ -62,7 +62,7 @@ describe('dragon()', () => {
     expect(lvl.researchTime).toEqual({ days: 0, hours: 18, minutes: 0, seconds: 0 });
   });
 
-  it('level 4 requires Lab 7 (TH9), DPS 210, DPH 262.5, HP 2700, 3M Elixir / 3d', () => {
+  it('level 4 requires Lab 7 (TH9), DPS 210, DPH 262.5, HP 2700, 3M Elixir / 2d', () => {
     const lvl = home().troops().dragon().first()!.levels[3];
     expect(lvl.level).toBe(4);
     expect(lvl.laboratoryRequired).toBe(7);
@@ -71,7 +71,7 @@ describe('dragon()', () => {
     expect(lvl.stats.normal.damagePerShot).toBe(262.5);
     expect(lvl.hitpoints).toBe(2700);
     expect(lvl.researchCost).toBe(3000000);
-    expect(lvl.researchTime).toEqual({ days: 3, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 2, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('level 7 requires Lab 10 (TH12), DPS 310, DPH 387.5, HP 3900, 5M Elixir / 4d 12h', () => {

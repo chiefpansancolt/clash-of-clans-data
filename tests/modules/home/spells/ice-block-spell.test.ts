@@ -55,7 +55,7 @@ describe('iceBlockSpell()', () => {
     expect(lvl.researchTime).toEqual({ days: 11, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 5: incomingDamageReduction 94, Lab 15, TH17, 320000 Dark Elixir, 16d', () => {
+  it('level 5: incomingDamageReduction 94, Lab 15, TH17, 320000 Dark Elixir, 14d', () => {
     const lvl = home().spells().iceBlockSpell().first()!.levels[4];
     expect(lvl.level).toBe(5);
     expect(lvl.incomingDamageReduction).toBe(94);
@@ -63,7 +63,7 @@ describe('iceBlockSpell()', () => {
     expect(lvl.laboratoryRequired).toBe(15);
     expect(lvl.townHallRequired).toBe(17);
     expect(lvl.researchCost).toBe(320000);
-    expect(lvl.researchTime).toEqual({ days: 16, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 14, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('returns a HomeVillageSpells instance', () => {

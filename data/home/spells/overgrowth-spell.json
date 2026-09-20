@@ -42,7 +42,7 @@
       "researchCostResource": "Dark Elixir",
       "researchTime": {
         "days": 5,
-        "hours": 12,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       }

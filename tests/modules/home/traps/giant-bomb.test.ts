@@ -56,7 +56,7 @@ describe('giantBomb()', () => {
     expect(l11.damage).toBe(475);
     expect(l11.damageRadius).toBe(4);
     expect(l11.buildCost).toBe(10000000);
-    expect(l11.buildTime).toEqual({ days: 5, hours: 0, minutes: 0, seconds: 0 });
+    expect(l11.buildTime).toEqual({ days: 4, hours: 0, minutes: 0, seconds: 0 });
     expect(l11.xpGained).toBe(657);
     expect(l11.townHallRequired).toBe(17);
   });

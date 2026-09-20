@@ -99,7 +99,7 @@
       "researchCost": 3000000,
       "researchCostResource": "Elixir",
       "researchTime": {
-        "days": 3,
+        "days": 2,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -123,7 +123,7 @@
       "researchCostResource": "Elixir",
       "researchTime": {
         "days": 3,
-        "hours": 12,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },

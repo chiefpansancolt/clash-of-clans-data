@@ -102,10 +102,10 @@ describe('barracks() levels', () => {
     expect(home().armyBuildings().barracks().first()!.levels[18].buildCost).toBe(26000000);
   });
 
-  it('level 19 buildTime is 14d', () => {
+  it('level 19 buildTime is 10d 12h', () => {
     expect(home().armyBuildings().barracks().first()!.levels[18].buildTime).toEqual({
-      days: 14,
-      hours: 0,
+      days: 10,
+      hours: 12,
       minutes: 0,
       seconds: 0,
     });

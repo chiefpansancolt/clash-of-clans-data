@@ -906,7 +906,7 @@
       "upgradeCost": 13400000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
-        "days": 5,
+        "days": 4,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -922,7 +922,7 @@
       "upgradeCost": 13800000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
-        "days": 5,
+        "days": 4,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -938,7 +938,7 @@
       "upgradeCost": 14200000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
-        "days": 5,
+        "days": 4,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -954,7 +954,7 @@
       "upgradeCost": 14600000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
-        "days": 5,
+        "days": 4,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -970,7 +970,7 @@
       "upgradeCost": 15000000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
-        "days": 5,
+        "days": 4,
         "hours": 0,
         "minutes": 0,
         "seconds": 0

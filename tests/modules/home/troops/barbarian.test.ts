@@ -70,14 +70,14 @@ describe('barbarian()', () => {
     expect(lvl.townHallRequired).toBe(14);
   });
 
-  it('level 12 stats: DPS 48, DPH 48, HP 290, research 8M Elixir / 4d 12h', () => {
+  it('level 12 stats: DPS 48, DPH 48, HP 290, research 8M Elixir / 4d', () => {
     const lvl = home().troops().barbarian().first()!.levels[11];
     expect(lvl.level).toBe(12);
     expect(lvl.stats.normal.dps).toBe(48);
     expect(lvl.stats.normal.damagePerShot).toBe(48);
     expect(lvl.hitpoints).toBe(290);
     expect(lvl.researchCost).toBe(8000000);
-    expect(lvl.researchTime).toEqual({ days: 4, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 4, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(14);
     expect(lvl.townHallRequired).toBe(16);
   });

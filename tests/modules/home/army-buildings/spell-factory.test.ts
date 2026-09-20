@@ -97,9 +97,9 @@ describe('spellFactory() levels', () => {
     expect(home().armyBuildings().spellFactory().first()!.levels[8].buildCost).toBe(24000000);
   });
 
-  it('level 9 buildTime is 13d', () => {
+  it('level 9 buildTime is 9d', () => {
     expect(home().armyBuildings().spellFactory().first()!.levels[8].buildTime).toEqual({
-      days: 13,
+      days: 9,
       hours: 0,
       minutes: 0,
       seconds: 0,
