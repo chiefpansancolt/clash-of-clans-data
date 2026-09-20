@@ -7,6 +7,7 @@ import { darkCrownData } from './dark-crown';
 import { darkOrbData } from './dark-orb';
 import { earthquakeBootsData } from './earthquake-boots';
 import { electroBootsData } from './electro-boots';
+import { electroFangsData } from './electro-fangs';
 import { eternalTomeData } from './eternal-tome';
 import { fireHeartData } from './fire-heart';
 import { fireballData } from './fireball';
@@ -27,9 +28,11 @@ import { lifeGemData } from './life-gem';
 import { magicMirrorData } from './magic-mirror';
 import { metalPantsData } from './metal-pants';
 import { meteorStaffData } from './meteor-staff';
+import { monolithArrowData } from './monolith-arrow';
 import { nobleIronData } from './noble-iron';
 import { rageGemData } from './rage-gem';
 import { rageVialData } from './rage-vial';
+import { revengeDeckData } from './revenge-deck';
 import { rocketBackpackData } from './rocket-backpack';
 import { rocketSpearData } from './rocket-spear';
 import { royalGemData } from './royal-gem';
@@ -79,6 +82,9 @@ const allHeroEquipment: HeroEquipment[] = [
   frostFlakeData,
   stunBlasterData,
   rocketBackpackData,
+  revengeDeckData,
+  monolithArrowData,
+  electroFangsData,
   rocketSpearData,
 ];
 
@@ -241,6 +247,18 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
 
   rocketBackpack(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([rocketBackpackData]);
+  }
+
+  electroFangs(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([electroFangsData]);
+  }
+
+  monolithArrow(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([monolithArrowData]);
+  }
+
+  revengeDeck(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([revengeDeckData]);
   }
 
   rocketSpear(): HomeVillageHeroEquipment {

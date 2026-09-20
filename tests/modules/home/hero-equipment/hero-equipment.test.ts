@@ -8,8 +8,8 @@ import { testFilterImmutability } from '../../../helpers';
  * updating when new equipment is added — not every individual test file.
  */
 describe('heroEquipment() namespace', () => {
-  it('has 39 equipment', () => {
-    expect(home().heroEquipment().count()).toBe(39);
+  it('has 42 equipment', () => {
+    expect(home().heroEquipment().count()).toBe(42);
   });
 
   it('byHero("barbarian-king") returns only BK equipment', () => {
@@ -44,8 +44,8 @@ describe('heroEquipment() namespace', () => {
     expect(home().heroEquipment().byBlacksmith(0).count()).toBeGreaterThan(0);
   });
 
-  it('byBlacksmith(9) returns all equipment', () => {
-    expect(home().heroEquipment().byBlacksmith(9).count()).toBe(home().heroEquipment().count());
+  it('byBlacksmith(10) returns all equipment', () => {
+    expect(home().heroEquipment().byBlacksmith(10).count()).toBe(home().heroEquipment().count());
   });
 });
 
