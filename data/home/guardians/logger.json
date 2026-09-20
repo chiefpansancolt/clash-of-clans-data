@@ -1,0 +1,149 @@
+{
+  "id": "logger",
+  "dataId": 107000008,
+  "name": "Logger",
+  "description": "A hardened meteorite hunk with a fascination for forestry. When Logger isn’t petting his mustache woodpeckers, he’s lobbing bouncing logs that push and crush all troop types. The timber may be slow, but it strikes with the full force of nature!",
+  "base": "home",
+  "category": "guardian",
+  "size": "N/A",
+  "guardianType": "logger",
+  "targetType": "both",
+  "mode": {
+    "attackSpeed": 2.5,
+    "damageType": "splash",
+    "range": 7,
+    "movementSpeed": 8,
+    "searchRadius": 14,
+    "triggerRadius": 15,
+    "pushbackRange": 1
+  },
+  "specialAbility": "Rolling Log",
+  "availablePerTownHall": [
+    {
+      "townHallLevel": 18,
+      "count": 1
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 8000,
+      "buildCost": 0,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 0,
+      "townHallRequired": 18,
+      "postHitTileRange": 7,
+      "stats": {
+        "normal": {
+          "dps": 230,
+          "damagePerShot": 575
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/logger/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 9000,
+      "buildCost": 18000000,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 777,
+      "townHallRequired": 18,
+      "postHitTileRange": 7,
+      "stats": {
+        "normal": {
+          "dps": 260,
+          "damagePerShot": 650
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/logger/normal/level-1.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 10000,
+      "buildCost": 22000000,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 9,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 881,
+      "townHallRequired": 18,
+      "postHitTileRange": 7,
+      "stats": {
+        "normal": {
+          "dps": 290,
+          "damagePerShot": 725
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/logger/normal/level-1.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 11000,
+      "buildCost": 26000000,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 974,
+      "townHallRequired": 18,
+      "postHitTileRange": 8,
+      "stats": {
+        "normal": {
+          "dps": 320,
+          "damagePerShot": 800
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/logger/normal/level-1.png"
+      }
+    },
+    {
+      "level": 5,
+      "hitpoints": 12000,
+      "buildCost": 28000000,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 13,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 1059,
+      "townHallRequired": 18,
+      "postHitTileRange": 8,
+      "stats": {
+        "normal": {
+          "dps": 350,
+          "damagePerShot": 875
+        }
+      },
+      "images": {
+        "normal": "images/home/guardians/logger/normal/level-1.png"
+      }
+    }
+  ]
+}

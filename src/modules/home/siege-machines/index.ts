@@ -8,6 +8,7 @@ import { siegeBarracksData } from './siege-barracks';
 import { stoneSlammerData } from './stone-slammer';
 import { troopLauncherData } from './troop-launcher';
 import { wallWreckerData } from './wall-wrecker';
+import { skyWagonData } from './sky-wagon';
 
 const allSiegeMachines: SiegeMachine[] = [
   wallWreckerData,
@@ -18,6 +19,7 @@ const allSiegeMachines: SiegeMachine[] = [
   flameFlingerData,
   battleDrillData,
   troopLauncherData,
+  skyWagonData,
 ];
 
 /**
@@ -59,6 +61,10 @@ export class HomeVillageSiegeMachines extends QueryBase<SiegeMachine> {
 
   troopLauncher(): HomeVillageSiegeMachines {
     return new HomeVillageSiegeMachines([troopLauncherData]);
+  }
+
+  skyWagon(): HomeVillageSiegeMachines {
+    return new HomeVillageSiegeMachines([skyWagonData]);
   }
 
   /** Filter to siege machines unlocked at or below the given Workshop level. */

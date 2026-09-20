@@ -9,7 +9,7 @@ describe('firespitter()', () => {
   });
 
   it('has 3 levels', () => {
-    expect(home().defenses().firespitter().first()!.levels).toHaveLength(3);
+    expect(home().defenses().firespitter().first()!.levels).toHaveLength(5);
   });
 
   it('targets both ground and air', () => {
@@ -140,20 +140,52 @@ describe('firespitter() levels', () => {
     expect(home().defenses().firespitter().first()!.levels[2].townHallRequired).toBe(18);
   });
 
-  it('has no supercharge levels', () => {
-    expect(
-      home()
-        .defenses()
-        .firespitter()
-        .first()!
-        .levels.every((l) => !l.supercharge),
-    ).toBe(true);
-  });
-
   it('all levels have a normal image', () => {
     for (const lvl of home().defenses().firespitter().first()!.levels) {
       expect(lvl.images.normal).toBeTruthy();
     }
+  });
+});
+
+describe('firespitter() supercharge', () => {
+  it('supercharge 1 and 2 are supercharge levels', () => {
+    expect(
+      home().defenses().firespitter().first()!.levels[3].supercharge,
+    ).toBe(true);
+
+    expect(
+      home().defenses().firespitter().first()!.levels[3].level,
+    ).toBe(1);
+
+    expect(
+      home().defenses().firespitter().first()!.levels[4].supercharge,
+    ).toBe(true);
+
+    expect(
+      home().defenses().firespitter().first()!.levels[4].level,
+    ).toBe(2);
+  });
+
+  it('supercharge 1 dps is 473', () => {
+    expect(
+      home().defenses().firespitter().first()!.levels[3].stats.normal.dps,
+    ).toBe(473);
+  });
+
+  it('supercharge 2 hitpoints are 5550', () => {
+    expect(
+      home().defenses().firespitter().first()!.levels[4].hitpoints,
+    ).toBe(5550);
+  });
+
+  it('supercharge levels require TH18', () => {
+    expect(
+      home().defenses().firespitter().first()!.levels[3].townHallRequired,
+    ).toBe(18);
+
+    expect(
+      home().defenses().firespitter().first()!.levels[4].townHallRequired,
+    ).toBe(18);
   });
 });
 

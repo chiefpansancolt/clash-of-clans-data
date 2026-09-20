@@ -6,16 +6,16 @@ import { testFilterImmutability } from '../../../helpers';
  * Only this file needs updating when a new troop is added.
  */
 describe('troops() namespace', () => {
-  it('has 31 troops', () => {
-    expect(home().troops().count()).toBe(31);
+  it('has 32 troops', () => {
+    expect(home().troops().count()).toBe(32);
   });
 
   it('byType("regular") returns 19 troops', () => {
     expect(home().troops().byType('regular').count()).toBe(19);
   });
 
-  it('byType("dark") returns 12 troops', () => {
-    expect(home().troops().byType('dark').count()).toBe(12);
+  it('byType("dark") returns 13 troops', () => {
+    expect(home().troops().byType('dark').count()).toBe(13);
   });
 
   it('byType counts sum to total', () => {

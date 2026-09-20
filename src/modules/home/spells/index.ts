@@ -17,6 +17,7 @@ import { recallSpellData } from './recall-spell';
 import { reviveSpellData } from './revive-spell';
 import { skeletonSpellData } from './skeleton-spell';
 import { totemSpellData } from './totem-spell';
+import { angrySpellData } from './angry-spell';
 
 const allSpells: HomeSpell[] = [
   lightningSpellData,
@@ -36,6 +37,7 @@ const allSpells: HomeSpell[] = [
   batSpellData,
   overgrowthSpellData,
   iceBlockSpellData,
+  angrySpellData,
 ];
 
 /**
@@ -113,6 +115,10 @@ export class HomeVillageSpells extends QueryBase<HomeSpell> {
 
   iceBlockSpell(): HomeVillageSpells {
     return new HomeVillageSpells([iceBlockSpellData]);
+  }
+
+  angrySpell(): HomeVillageSpells {
+    return new HomeVillageSpells([angrySpellData]);
   }
 
   /** Filter by spell type — `'regular'` (brewed in Spell Factory) or `'dark'` (Dark Spell Factory). */

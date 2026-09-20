@@ -1,0 +1,145 @@
+{
+  "id": "sky-wagon",
+  "dataId": 4000188,
+  "name": "Sky Wagon",
+  "description": "Tell walls to take a hike and drop troops from above. Sky Wagon delivery services are fast, reliable and destructive! Though its wooden body can't withstand a lot of damage, its mastery of the skies and immunity to spells more than make up for it.",
+  "base": "home",
+  "category": "siege-machine",
+  "housingSpace": 1,
+  "donationCost": {
+    "amount": 45000,
+    "resource": "Elixir",
+    "gemsOrRaidMedals": 15
+  },
+  "workshopLevelRequired": 9,
+  "preferredTarget": "Defenses",
+  "attackType": "Area Splash (Ground Only)",
+  "movementSpeed": 16,
+  "attackSpeed": 8,
+  "range": 5.5,
+  "images": {
+    "icon": "images/home/siege-machines/sky-wagon/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "damagePerSecond": 1,
+      "damagePerHit": 8,
+      "hitpoints": 3600,
+      "barrelCount": 4,
+      "troopsSpawnedPerBarrel": {
+        "minions": 2,
+        "balloons": 1,
+        "babyDragons": 1
+      },
+      "troopLevels": {
+        "minions": 10,
+        "balloons": 9,
+        "babyDragons": 8
+      },
+      "laboratoryRequired": 0,
+      "townHallRequired": 17,
+      "researchCost": 0,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/sky-wagon/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "damagePerSecond": 2,
+      "damagePerHit": 16,
+      "hitpoints": 3800,
+      "barrelCount": 4,
+      "troopsSpawnedPerBarrel": {
+        "minions": 3,
+        "balloons": 1,
+        "babyDragons": 1
+      },
+      "troopLevels": {
+        "minions": 11,
+        "balloons": 10,
+        "babyDragons": 9
+      },
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 22000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/sky-wagon/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "damagePerSecond": 3,
+      "damagePerHit": 24,
+      "hitpoints": 4000,
+      "barrelCount": 5,
+      "troopsSpawnedPerBarrel": {
+        "minions": 4,
+        "balloons": 1,
+        "babyDragons": 1
+      },
+      "troopLevels": {
+        "minions": 12,
+        "balloons": 11,
+        "babyDragons": 10
+      },
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 26000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 13,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/sky-wagon/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "damagePerSecond": 4,
+      "damagePerHit": 32,
+      "hitpoints": 4200,
+      "barrelCount": 5,
+      "troopsSpawnedPerBarrel": {
+        "minions": 4,
+        "balloons": 1,
+        "babyDragons": 1
+      },
+      "troopLevels": {
+        "minions": 13,
+        "balloons": 12,
+        "babyDragons": 11
+      },
+      "laboratoryRequired": 16,
+      "townHallRequired": 18,
+      "researchCost": 29000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 16,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/sky-wagon/normal/level-4.png"
+      }
+    }
+  ]
+}

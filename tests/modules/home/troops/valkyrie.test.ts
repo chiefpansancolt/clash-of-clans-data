@@ -8,8 +8,8 @@ describe('valkyrie()', () => {
     expect(v.name).toBe('Valkyrie');
   });
 
-  it('has 11 levels', () => {
-    expect(home().troops().valkyrie().first()!.levels).toHaveLength(11);
+  it('has 12 levels', () => {
+    expect(home().troops().valkyrie().first()!.levels).toHaveLength(12);
   });
 
   it('is a dark splash troop targeting ground', () => {
@@ -93,6 +93,18 @@ describe('valkyrie()', () => {
     expect(lvl.stats.normal.dps).toBe(238);
     expect(lvl.stats.normal.damagePerShot).toBe(428.4);
     expect(lvl.hitpoints).toBe(2600);
+  });
+
+  it('level 12: Lab 15 (TH17), 340000 Dark Elixir / 14d, DPS 255, DPH 459, HP 2900', () => {
+    const lvl = home().troops().valkyrie().first()!.levels[11];
+    expect(lvl.level).toBe(12);
+    expect(lvl.laboratoryRequired).toBe(15);
+    expect(lvl.townHallRequired).toBe(17);
+    expect(lvl.researchCost).toBe(340000);
+    expect(lvl.researchTime).toEqual({ days: 14, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.stats.normal.dps).toBe(255);
+    expect(lvl.stats.normal.damagePerShot).toBe(459);
+    expect(lvl.hitpoints).toBe(2900);
   });
 
   it('returns a HomeVillageTroops instance', () => {

@@ -286,13 +286,31 @@
       "buildCost": 20000000,
       "buildCostResource": "Elixir",
       "buildTime": {
-        "days": 12,
+        "days": 9,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
-      "xpGained": 1018,
+      "xpGained": 881,
       "townHallRequired": 15,
+      "images": {
+        "normal": "images/home/army-buildings/dark-barracks/normal/level-12.png"
+      }
+    },
+    {
+      "level": 13,
+      "hitpoints": 1100,
+      "unlockedUnit": "Ruin Witch",
+      "buildCost": 23000000,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 929,
+      "townHallRequired": 16,
       "images": {
         "normal": "images/home/army-buildings/dark-barracks/normal/level-12.png"
       }

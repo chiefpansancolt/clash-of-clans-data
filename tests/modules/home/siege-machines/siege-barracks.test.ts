@@ -9,8 +9,8 @@ describe('siegeBarracks()', () => {
     expect(m.name).toBe('Siege Barracks');
   });
 
-  it('has 5 levels', () => {
-    expect(home().siegeMachines().siegeBarracks().first()!.levels).toHaveLength(5);
+  it('has 6 levels', () => {
+    expect(home().siegeMachines().siegeBarracks().first()!.levels).toHaveLength(6);
   });
 
   it('is a siege-machine in home base', () => {
@@ -48,7 +48,7 @@ describe('siegeBarracks()', () => {
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 3: 1 pekka, 10 wizards, HP 4100, Lab 10, TH13, 5,000,000 Gold, 4d', () => {
+  it('level 3: 1 pekka, 10 wizards, HP 4100, Lab 10, TH13, 5,000,000 Elixir, 4d', () => {
     const lvl = home().siegeMachines().siegeBarracks().first()!.levels[2];
     expect(lvl.level).toBe(3);
     expect(lvl.pekkasSpawned).toBe(1);
@@ -60,7 +60,7 @@ describe('siegeBarracks()', () => {
     expect(lvl.researchTime).toEqual({ days: 4, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 5: 2 pekkas, 11 wizards, HP 4800, Lab 14, TH16, 18,000,000 Gold, 12d', () => {
+  it('level 5: 2 pekkas, 11 wizards, HP 4800, Lab 14, TH16, 18,000,000 Elixir, 12d', () => {
     const lvl = home().siegeMachines().siegeBarracks().first()!.levels[4];
     expect(lvl.level).toBe(5);
     expect(lvl.pekkasSpawned).toBe(2);
@@ -70,6 +70,19 @@ describe('siegeBarracks()', () => {
     expect(lvl.townHallRequired).toBe(16);
     expect(lvl.researchCost).toBe(18000000);
     expect(lvl.researchTime).toEqual({ days: 12, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 6: 2 pekkas, 12 wizards, HP 5200, Lab 16, TH17, 26,000,000 Elixir, 13d 12h', () => {
+    const lvl = home().siegeMachines().siegeBarracks().first()!.levels[5];
+    expect(lvl.level).toBe(6);
+    expect(lvl.pekkasSpawned).toBe(2);
+    expect(lvl.wizardsSpawned).toBe(12);
+    expect(lvl.hitpoints).toBe(5200);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.townHallRequired).toBe(17);
+    expect(lvl.researchCost).toBe(26000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 13, hours: 12, minutes: 0, seconds: 0 });
   });
 
   it('all levels have normal images', () => {

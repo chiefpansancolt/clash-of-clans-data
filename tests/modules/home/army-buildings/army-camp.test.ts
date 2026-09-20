@@ -8,8 +8,8 @@ describe('armyCamp()', () => {
     expect(result.name).toBe('Army Camp');
   });
 
-  it('has 13 levels', () => {
-    expect(home().armyBuildings().armyCamp().first()!.levels).toHaveLength(13);
+  it('has 14 levels', () => {
+    expect(home().armyBuildings().armyCamp().first()!.levels).toHaveLength(14);
   });
 
   it('base is home', () => {
@@ -98,21 +98,50 @@ describe('armyCamp() levels', () => {
     expect(home().armyBuildings().armyCamp().first()!.levels[12].buildCost).toBe(17000000);
   });
 
-  it('level 13 buildTime is 10d', () => {
+  it('level 13 buildTime is 7d 12h', () => {
     expect(home().armyBuildings().armyCamp().first()!.levels[12].buildTime).toEqual({
-      days: 10,
+      days: 7,
+      hours: 12,
+      minutes: 0,
+      seconds: 0,
+    });
+  });
+
+  it('level 13 xpGained is 804', () => {
+    expect(home().armyBuildings().armyCamp().first()!.levels[12].xpGained).toBe(804);
+  });
+
+  it('level 13 townHallRequired is 17', () => {
+    expect(home().armyBuildings().armyCamp().first()!.levels[12].townHallRequired).toBe(17);
+  });
+
+  it('level 14 hitpoints is 950', () => {
+    expect(home().armyBuildings().armyCamp().first()!.levels[13].hitpoints).toBe(950);
+  });
+
+  it('level 14 housingSpace is 88', () => {
+    expect(home().armyBuildings().armyCamp().first()!.levels[13].housingSpace).toBe(88);
+  });
+
+  it('level 14 buildCost is 26000000 Elixir', () => {
+    expect(home().armyBuildings().armyCamp().first()!.levels[13].buildCost).toBe(26000000);
+  });
+
+  it('level 14 buildTime is 15d', () => {
+    expect(home().armyBuildings().armyCamp().first()!.levels[13].buildTime).toEqual({
+      days: 15,
       hours: 0,
       minutes: 0,
       seconds: 0,
     });
   });
 
-  it('level 13 xpGained is 929', () => {
-    expect(home().armyBuildings().armyCamp().first()!.levels[12].xpGained).toBe(929);
+  it('level 14 xpGained is 1138', () => {
+    expect(home().armyBuildings().armyCamp().first()!.levels[13].xpGained).toBe(1138);
   });
 
-  it('level 13 townHallRequired is 17', () => {
-    expect(home().armyBuildings().armyCamp().first()!.levels[12].townHallRequired).toBe(17);
+  it('level 14 townHallRequired is 17', () => {
+    expect(home().armyBuildings().armyCamp().first()!.levels[13].townHallRequired).toBe(18);
   });
 
   it('all levels have a normal image', () => {

@@ -2,8 +2,9 @@ import { QueryBase } from '@/common/query-base';
 import { Guardian } from '@/types';
 import { longshotData } from './longshot';
 import { smasherData } from './smasher';
+import { loggerData } from './logger';
 
-const allGuardians: Guardian[] = [longshotData, smasherData];
+const allGuardians: Guardian[] = [longshotData, smasherData, loggerData];
 
 /**
  * Query class for all Home Village Guardians.
@@ -19,6 +20,9 @@ export class HomeVillageGuardians extends QueryBase<Guardian> {
   }
   smasher(): HomeVillageGuardians {
     return new HomeVillageGuardians([smasherData]);
+  }
+  logger(): HomeVillageGuardians {
+    return new HomeVillageGuardians([loggerData]);
   }
 
   /** Filter to a specific guardian variant by type (e.g. 'longshot', 'smasher'). */

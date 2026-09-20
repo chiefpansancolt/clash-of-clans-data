@@ -8,8 +8,8 @@ describe('scattershot()', () => {
     expect(result.name).toBe('Scattershot');
   });
 
-  it('has 6 levels', () => {
-    expect(home().defenses().scattershot().first()!.levels).toHaveLength(8);
+  it('has 7 levels', () => {
+    expect(home().defenses().scattershot().first()!.levels).toHaveLength(9);
   });
 
   it('level 1 has correct hitpoints', () => {
@@ -110,23 +110,23 @@ describe('scattershot()', () => {
   });
 
   it('supercharge 1 and 2 are supercharge levels', () => {
-    expect(home().defenses().scattershot().first()!.levels[6].supercharge).toBe(true);
-    expect(home().defenses().scattershot().first()!.levels[6].level).toBe(1);
     expect(home().defenses().scattershot().first()!.levels[7].supercharge).toBe(true);
-    expect(home().defenses().scattershot().first()!.levels[7].level).toBe(2);
+    expect(home().defenses().scattershot().first()!.levels[7].level).toBe(1);
+    expect(home().defenses().scattershot().first()!.levels[8].supercharge).toBe(true);
+    expect(home().defenses().scattershot().first()!.levels[8].level).toBe(2);
   });
 
-  it('supercharge 1 dps is 188', () => {
-    expect(home().defenses().scattershot().first()!.levels[6].stats.normal.dps).toBe(188);
+  it('supercharge 1 dps is 193', () => {
+    expect(home().defenses().scattershot().first()!.levels[7].stats.normal.dps).toBe(193);
   });
 
-  it('supercharge 2 hp increased to 5750', () => {
-    expect(home().defenses().scattershot().first()!.levels[7].hitpoints).toBe(5750);
+  it('supercharge 2 hp increased to 5950', () => {
+    expect(home().defenses().scattershot().first()!.levels[8].hitpoints).toBe(5950);
   });
 
   it('supercharge levels require TH17', () => {
-    expect(home().defenses().scattershot().first()!.levels[6].townHallRequired).toBe(17);
-    expect(home().defenses().scattershot().first()!.levels[7].townHallRequired).toBe(17);
+    expect(home().defenses().scattershot().first()!.levels[7].townHallRequired).toBe(18);
+    expect(home().defenses().scattershot().first()!.levels[8].townHallRequired).toBe(18);
   });
 
   it('all levels have normal and depleted image variants', () => {

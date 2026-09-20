@@ -8,8 +8,8 @@ describe('xBow()', () => {
     expect(result.name).toBe('X-Bow');
   });
 
-  it('has 12 levels', () => {
-    expect(home().defenses().xBow().first()!.levels).toHaveLength(14);
+  it('has 13 levels', () => {
+    expect(home().defenses().xBow().first()!.levels).toHaveLength(15);
   });
 
   it('level 1 has correct hitpoints', () => {
@@ -84,6 +84,41 @@ describe('xBow()', () => {
     expect(home().defenses().xBow().first()!.levels[11].stats.normal.dps).toBe(235);
   });
 
+  it('level 13 has correct hitpoints', () => {
+    expect(
+      home().defenses().xBow().first()!.levels[12].hitpoints,
+    ).toBe(5000);
+  });
+
+  it('level 13 normal dps is 245', () => {
+    expect(
+      home().defenses().xBow().first()!.levels[12].stats.normal.dps,
+    ).toBe(245);
+  });
+
+  it('level 13 has correct build cost', () => {
+    expect(
+      home().defenses().xBow().first()!.levels[12].buildCost,
+    ).toBe(26000000);
+  });
+
+  it('level 13 build time is 13d 12h', () => {
+    const bt = home().defenses().xBow().first()!.levels[12].buildTime;
+
+    expect(bt).toEqual({
+      days: 13,
+      hours: 12,
+      minutes: 0,
+      seconds: 0,
+    });
+  });
+
+  it('level 13 requires TH18', () => {
+    expect(
+      home().defenses().xBow().first()!.levels[12].townHallRequired,
+    ).toBe(18);
+  });
+
   it('every level has xpGained', () => {
     home()
       .defenses()
@@ -112,23 +147,23 @@ describe('xBow()', () => {
   });
 
   it('supercharge 1 and 2 are supercharge levels', () => {
-    expect(home().defenses().xBow().first()!.levels[12].supercharge).toBe(true);
-    expect(home().defenses().xBow().first()!.levels[12].level).toBe(1);
     expect(home().defenses().xBow().first()!.levels[13].supercharge).toBe(true);
-    expect(home().defenses().xBow().first()!.levels[13].level).toBe(2);
+    expect(home().defenses().xBow().first()!.levels[13].level).toBe(1);
+    expect(home().defenses().xBow().first()!.levels[14].supercharge).toBe(true);
+    expect(home().defenses().xBow().first()!.levels[14].level).toBe(2);
   });
 
-  it('supercharge 1 dps is 245', () => {
-    expect(home().defenses().xBow().first()!.levels[12].stats.normal.dps).toBe(245);
+  it('supercharge 1 dps is 255', () => {
+    expect(home().defenses().xBow().first()!.levels[13].stats.normal.dps).toBe(255);
   });
 
-  it('supercharge 2 hp increased to 4900', () => {
-    expect(home().defenses().xBow().first()!.levels[13].hitpoints).toBe(4900);
+  it('supercharge 2 hp increased to 5100', () => {
+    expect(home().defenses().xBow().first()!.levels[14].hitpoints).toBe(5100);
   });
 
   it('supercharge levels require TH17', () => {
-    expect(home().defenses().xBow().first()!.levels[12].townHallRequired).toBe(17);
-    expect(home().defenses().xBow().first()!.levels[13].townHallRequired).toBe(17);
+    expect(home().defenses().xBow().first()!.levels[13].townHallRequired).toBe(18);
+    expect(home().defenses().xBow().first()!.levels[14].townHallRequired).toBe(18);
   });
 
   it('TH9 has 2 x-bows available', () => {

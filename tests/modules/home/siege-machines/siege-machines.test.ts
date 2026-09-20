@@ -6,8 +6,8 @@ import { testFilterImmutability } from '../../../helpers';
  * Only this file needs updating when a new siege machine is added.
  */
 describe('siegeMachines() namespace', () => {
-  it('has 8 siege machines', () => {
-    expect(home().siegeMachines().count()).toBe(8);
+  it('has 9 siege machines', () => {
+    expect(home().siegeMachines().count()).toBe(9);
   });
 
   it('byWorkshop returns only machines unlockable at that level', () => {
@@ -25,8 +25,8 @@ describe('siegeMachines() namespace', () => {
     expect(th12.length).toBeGreaterThan(0);
   });
 
-  it('byWorkshop(8) returns all siege machines', () => {
-    expect(home().siegeMachines().byWorkshop(8).count()).toBe(home().siegeMachines().count());
+  it('byWorkshop(9) returns all siege machines', () => {
+    expect(home().siegeMachines().byWorkshop(9).count()).toBe(home().siegeMachines().count());
   });
 });
 

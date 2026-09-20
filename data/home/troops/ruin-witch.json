@@ -1,0 +1,123 @@
+{
+  "id": "ruin-witch",
+  "dataId": 4000109,
+  "name": "Ruin Witch",
+  "description": "After Ruin Witch lost her powers in an unusual alchemy accident, Master Builder crafted an ingenious invention to keep her summoning pursuits alive. The Debrisbuster 5000 vacuums the remains of fallen buildings and spits out battle-ready Ruin Knights.",
+  "base": "home",
+  "category": "troop",
+  "troopType": "dark",
+  "housingSpace": 26,
+  "movementSpeed": 12,
+  "attackSpeed": 2,
+  "range": 0.8,
+  "damageType": "single",
+  "targetType": "ground",
+  "preferredTarget": "Rubble",
+  "specialAbility": "Summons Ruin Knights",
+  "barrackLevelRequired": 13,
+  "images": {
+    "icon": "images/home/troops/ruin-witch/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "hitpoints": 2300,
+      "ruinKnightLevel": 1,
+      "maximumRuinKnightsSummoned": 8,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 25,
+          "damagePerShot": 50
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/ruin-witch/normal/level-1.png"
+      }
+    },
+    {
+      "level": 2,
+      "hitpoints": 2550,
+      "ruinKnightLevel": 2,
+      "maximumRuinKnightsSummoned": 8,
+      "townHallRequired": 16,
+      "laboratoryRequired": 14,
+      "researchCost": 220000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 26,
+          "damagePerShot": 52
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/ruin-witch/normal/level-2.png"
+      }
+    },
+    {
+      "level": 3,
+      "hitpoints": 2800,
+      "ruinKnightLevel": 3,
+      "maximumRuinKnightsSummoned": 8,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 300000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 12,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 27,
+          "damagePerShot": 54
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/ruin-witch/normal/level-3.png"
+      }
+    },
+    {
+      "level": 4,
+      "hitpoints": 3050,
+      "ruinKnightLevel": 4,
+      "maximumRuinKnightsSummoned": 8,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 380000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 15,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 28,
+          "damagePerShot": 56
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/ruin-witch/normal/level-4.png"
+      }
+    }
+  ]
+}

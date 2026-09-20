@@ -370,6 +370,29 @@
       "images": {
         "normal": "images/home/troops/valkyrie/normal/level-11.png"
       }
+    },
+    {
+      "level": 12,
+      "hitpoints": 2900,
+      "townHallRequired": 17,
+      "laboratoryRequired": 15,
+      "researchCost": 340000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 255,
+          "damagePerShot": 459
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/valkyrie/normal/level-12.png"
+      }
     }
   ]
 }

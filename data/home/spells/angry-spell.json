@@ -1,0 +1,87 @@
+{
+  "id": "angry-spell",
+  "dataId": 26000123,
+  "name": "Angry Spell",
+  "description": "Distilled from the jelly of the Pet House's grumpiest resident, the Angry Spell infuriates troops within its ironically sweet-smelling radius, making them target defenses temporarily..",
+  "base": "home",
+  "category": "spell",
+  "spellType": "dark",
+  "radius": 6,
+  "housingSpace": 1,
+  "donationCost": {
+    "amount": 190,
+    "resource": "Dark Elixir",
+    "gemsOrRaidMedals": 3
+  },
+  "spellFactoryLevelRequired": 8,
+  "targetType": "both",
+  "images": {
+    "icon": "images/home/spells/angry-spell/icon.png"
+  },
+  "levels": [
+    {
+      "level": 1,
+      "angerDuration": 7,
+      "spellDuration": 5,
+      "movementSpeedIncrease": 35,
+      "laboratoryRequired": 0,
+      "townHallRequired": 15,
+      "researchCost": 0,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 0,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 2,
+      "angerDuration": 8,
+      "spellDuration": 5,
+      "movementSpeedIncrease": 35,
+      "laboratoryRequired": 14,
+      "townHallRequired": 16,
+      "researchCost": 150000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 9,
+        "hours": 8,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 3,
+      "angerDuration": 10,
+      "spellDuration": 5,
+      "movementSpeedIncrease": 35,
+      "laboratoryRequired": 15,
+      "townHallRequired": 17,
+      "researchCost": 250000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 12,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 4,
+      "angerDuration": 12,
+      "spellDuration": 5,
+      "movementSpeedIncrease": 35,
+      "laboratoryRequired": 16,
+      "townHallRequired": 18,
+      "researchCost": 400000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 15,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    }
+  ]
+}

@@ -31,6 +31,7 @@ import { wallBreakerData } from './wall-breaker';
 import { witchData } from './witch';
 import { wizardData } from './wizard';
 import { yetiData } from './yeti';
+import { ruinWitchData } from './ruin-witch';
 
 const allTroops: HomeTroop[] = [
   apprenticeWardenData,
@@ -64,6 +65,7 @@ const allTroops: HomeTroop[] = [
   bowlerData,
   iceGolemData,
   headhunterData,
+  ruinWitchData,
 ];
 
 /**
@@ -197,6 +199,10 @@ export class HomeVillageTroops extends QueryBase<HomeTroop> {
 
   headhunter(): HomeVillageTroops {
     return new HomeVillageTroops([headhunterData]);
+  }
+
+  ruinWitch(): HomeVillageTroops {
+    return new HomeVillageTroops([ruinWitchData]);
   }
 
   /** Filter by troop type — `'regular'` (trained in Barracks) or `'dark'` (Dark Barracks). */

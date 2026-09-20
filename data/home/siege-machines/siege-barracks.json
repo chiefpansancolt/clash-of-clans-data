@@ -112,6 +112,25 @@
       "images": {
         "normal": "images/home/siege-machines/siege-barracks/normal/level-5.png"
       }
+    },
+    {
+      "level": 6,
+      "pekkasSpawned": 2,
+      "wizardsSpawned": 12,
+      "hitpoints": 5200,
+      "laboratoryRequired": 16,
+      "townHallRequired": 17,
+      "researchCost": 26000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 13,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/siege-barracks/normal/level-6.png"
+      }
     }
   ]
 }

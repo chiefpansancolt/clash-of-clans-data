@@ -9,8 +9,8 @@ describe('archerQueen()', () => {
     expect(h.name).toBe('Archer Queen');
   });
 
-  it('has 105 levels', () => {
-    expect(home().heroes().archerQueen().first()!.levels).toHaveLength(105);
+  it('has 110 levels', () => {
+    expect(home().heroes().archerQueen().first()!.levels).toHaveLength(110);
   });
 
   it('is a hero in home base', () => {
@@ -79,6 +79,18 @@ describe('archerQueen()', () => {
     expect(lvl.healthRecovery).toBe(430);
     expect(lvl.heroHallLevelRequired).toBe(12);
     expect(lvl.upgradeCost).toBe(450000);
+    expect(lvl.upgradeTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 110: DPS 810, DPH 607.5, HP 3476, healthRecovery 445, heroHall 12, 490,000 DE, 8d', () => {
+    const lvl = home().heroes().archerQueen().first()!.levels[109];
+    expect(lvl.level).toBe(110);
+    expect(lvl.damagePerSecond).toBe(810);
+    expect(lvl.damagePerHit).toBe(607.5);
+    expect(lvl.hitpoints).toBe(3576);
+    expect(lvl.healthRecovery).toBe(445);
+    expect(lvl.heroHallLevelRequired).toBe(12);
+    expect(lvl.upgradeCost).toBe(490000);
     expect(lvl.upgradeTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
   });
 

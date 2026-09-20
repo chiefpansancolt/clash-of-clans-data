@@ -24,6 +24,8 @@ export interface HomeTroopLevel {
   skeletonsPerSummon?: number;
   maxSkeletons?: number;
   skeletonLevel?: number;
+    ruinKnightLevel?: number;
+  maximumRuinKnightsSummoned?: number;
   pupsOnOffense?: number;
   pupsOnDefense?: number;
   deathFreezeTimeOnOffense?: number;

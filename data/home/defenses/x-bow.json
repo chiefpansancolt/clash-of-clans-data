@@ -146,12 +146,12 @@
       "buildCost": 2500000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 3,
-        "hours": 0,
+        "days": 2,
+        "hours": 12,
         "minutes": 0,
         "seconds": 0
       },
-      "xpGained": 509,
+      "xpGained": 464,
       "townHallRequired": 10,
       "stats": {
         "normal": {
@@ -173,11 +173,11 @@
       "buildCostResource": "Gold",
       "buildTime": {
         "days": 3,
-        "hours": 12,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
-      "xpGained": 549,
+      "xpGained": 509,
       "townHallRequired": 11,
       "stats": {
         "normal": {
@@ -198,12 +198,12 @@
       "buildCost": 5000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 4,
-        "hours": 0,
+        "days": 3,
+        "hours": 12,
         "minutes": 0,
         "seconds": 0
       },
-      "xpGained": 587,
+      "xpGained": 549,
       "townHallRequired": 12,
       "stats": {
         "normal": {
@@ -225,11 +225,11 @@
       "buildCostResource": "Gold",
       "buildTime": {
         "days": 4,
-        "hours": 6,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
-      "xpGained": 605,
+      "xpGained": 587,
       "townHallRequired": 13,
       "stats": {
         "normal": {
@@ -354,12 +354,12 @@
       "buildCost": 16000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 10,
-        "hours": 12,
+        "days": 8,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
-      "xpGained": 952,
+      "xpGained": 831,
       "townHallRequired": 17,
       "stats": {
         "normal": {
@@ -375,19 +375,18 @@
       }
     },
     {
-      "level": 1,
-      "supercharge": true,
-      "hitpoints": 4800,
-      "buildCost": 7000000,
+      "level": 13,
+      "hitpoints": 5000,
+      "buildCost": 26000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 3,
-        "hours": 0,
+        "days": 13,
+        "hours": 12,
         "minutes": 0,
         "seconds": 0
       },
-      "xpGained": 509,
-      "townHallRequired": 17,
+      "xpGained": 1080,
+      "townHallRequired": 18,
       "stats": {
         "normal": {
           "dps": 245,
@@ -395,37 +394,64 @@
         }
       },
       "images": {
-        "normal": "images/home/defenses/x-bow/normal/level-12.png",
-        "airAndGround": "images/home/defenses/x-bow/air-and-ground/level-12.png",
-        "groundDepleted": "images/home/defenses/x-bow/ground-depleted/level-12.png",
-        "airAndGroundDepleted": "images/home/defenses/x-bow/air-and-ground-depleted/level-12.png"
+        "normal": "images/home/defenses/x-bow/normal/level-13.png",
+        "airAndGround": "images/home/defenses/x-bow/air-and-ground/level-13.png",
+        "groundDepleted": "images/home/defenses/x-bow/ground-depleted/level-13.png",
+        "airAndGroundDepleted": "images/home/defenses/x-bow/air-and-ground-depleted/level-13.png"
+      }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 5000,
+      "buildCost": 9000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 5,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 689,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 255,
+          "damagePerShot": 32.64
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/x-bow/normal/level-13.png",
+        "airAndGround": "images/home/defenses/x-bow/air-and-ground/level-13.png",
+        "groundDepleted": "images/home/defenses/x-bow/ground-depleted/level-13.png",
+        "airAndGroundDepleted": "images/home/defenses/x-bow/air-and-ground-depleted/level-13.png"
       }
     },
     {
       "level": 2,
       "supercharge": true,
-      "hitpoints": 4900,
-      "buildCost": 4000000,
+      "hitpoints": 5100,
+      "buildCost": 7000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 4,
+        "days": 7,
         "hours": 12,
         "minutes": 0,
         "seconds": 0
       },
-      "xpGained": 623,
-      "townHallRequired": 17,
+      "xpGained": 804,
+      "townHallRequired": 18,
       "stats": {
         "normal": {
-          "dps": 245,
-          "damagePerShot": 31.36
+          "dps": 255,
+          "damagePerShot": 32.64
         }
       },
       "images": {
-        "normal": "images/home/defenses/x-bow/normal/level-12.png",
-        "airAndGround": "images/home/defenses/x-bow/air-and-ground/level-12.png",
-        "groundDepleted": "images/home/defenses/x-bow/ground-depleted/level-12.png",
-        "airAndGroundDepleted": "images/home/defenses/x-bow/air-and-ground-depleted/level-12.png"
+        "normal": "images/home/defenses/x-bow/normal/level-13.png",
+        "airAndGround": "images/home/defenses/x-bow/air-and-ground/level-13.png",
+        "groundDepleted": "images/home/defenses/x-bow/ground-depleted/level-13.png",
+        "airAndGroundDepleted": "images/home/defenses/x-bow/air-and-ground-depleted/level-13.png"
       }
     }
   ]

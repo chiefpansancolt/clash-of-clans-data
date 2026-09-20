@@ -20,6 +20,12 @@ export interface SiegeMachineLevel {
     giants?: number;
     wallBreakers?: number;
   };
+  troopLevels?: {
+    barbarians?: number;
+    archers?: number;
+    giants?: number;
+    wallBreakers?: number;
+  };
   lifetime?: number;
   hitpoints: number;
   laboratoryRequired: number;

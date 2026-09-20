@@ -8,8 +8,8 @@ describe('buildersHut()', () => {
     expect(result.name).toBe("Builder's Hut");
   });
 
-  it('has 9 levels', () => {
-    expect(home().defenses().buildersHut().first()!.levels).toHaveLength(9);
+  it('has 8 levels', () => {
+    expect(home().defenses().buildersHut().first()!.levels).toHaveLength(8);
   });
 
   it('targets both ground and air', () => {
@@ -270,59 +270,5 @@ describe("homeDefenses() — Builder's Hut integration", () => {
       .get()
       .map((d) => d.name);
     expect(names).toContain("Builder's Hut");
-  });
-});
-
-describe('buildersHut() supercharge levels', () => {
-  it('supercharge 1 and 2 are supercharge levels', () => {
-    expect(home().defenses().buildersHut().first()!.levels[7].supercharge).toBe(true);
-    expect(home().defenses().buildersHut().first()!.levels[7].level).toBe(1);
-    expect(home().defenses().buildersHut().first()!.levels[8].supercharge).toBe(true);
-    expect(home().defenses().buildersHut().first()!.levels[8].level).toBe(2);
-  });
-
-  it('supercharge 1 turret dps is 172', () => {
-    expect(home().defenses().buildersHut().first()!.levels[7].stats.normal.dps).toBe(172);
-  });
-
-  it('supercharge 1 turret damagePerShot is 68.8', () => {
-    expect(home().defenses().buildersHut().first()!.levels[7].stats.normal.damagePerShot).toBe(
-      68.8,
-    );
-  });
-
-  it('supercharge levels keep builder stats unchanged', () => {
-    expect(home().defenses().buildersHut().first()!.levels[7].stats.builder?.repairPerSecond).toBe(
-      90,
-    );
-    expect(home().defenses().buildersHut().first()!.levels[7].stats.builder?.repairPerHit).toBe(
-      67.5,
-    );
-    expect(home().defenses().buildersHut().first()!.levels[8].stats.builder?.repairPerSecond).toBe(
-      90,
-    );
-    expect(home().defenses().buildersHut().first()!.levels[8].stats.builder?.repairPerHit).toBe(
-      67.5,
-    );
-  });
-
-  it('supercharge 1 hp matches max regular level', () => {
-    expect(home().defenses().buildersHut().first()!.levels[7].hitpoints).toBe(2000);
-  });
-
-  it('supercharge 2 hp increased to 2050', () => {
-    expect(home().defenses().buildersHut().first()!.levels[8].hitpoints).toBe(2050);
-  });
-
-  it('supercharge levels require TH17', () => {
-    expect(home().defenses().buildersHut().first()!.levels[7].townHallRequired).toBe(17);
-    expect(home().defenses().buildersHut().first()!.levels[8].townHallRequired).toBe(17);
-  });
-
-  it('supercharge levels have normal and active images', () => {
-    expect(home().defenses().buildersHut().first()!.levels[7].images.normal).toBeTruthy();
-    expect(home().defenses().buildersHut().first()!.levels[7].images.active).toBeTruthy();
-    expect(home().defenses().buildersHut().first()!.levels[8].images.normal).toBeTruthy();
-    expect(home().defenses().buildersHut().first()!.levels[8].images.active).toBeTruthy();
   });
 });

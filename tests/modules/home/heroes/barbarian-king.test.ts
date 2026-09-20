@@ -9,8 +9,8 @@ describe('barbarianKing()', () => {
     expect(h.name).toBe('Barbarian King');
   });
 
-  it('has 105 levels', () => {
-    expect(home().heroes().barbarianKing().first()!.levels).toHaveLength(105);
+  it('has 110 levels', () => {
+    expect(home().heroes().barbarianKing().first()!.levels).toHaveLength(110);
   });
 
   it('is a hero in home base', () => {
@@ -79,6 +79,18 @@ describe('barbarianKing()', () => {
     expect(lvl.healthRecovery).toBe(3100);
     expect(lvl.heroHallLevelRequired).toBe(12);
     expect(lvl.upgradeCost).toBe(450000);
+    expect(lvl.upgradeTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 110: DPS 713, HP 13350, healthRecovery 3100, heroHall 12, 490,000 DE, 8d', () => {
+    const lvl = home().heroes().barbarianKing().first()!.levels[109];
+    expect(lvl.level).toBe(110);
+    expect(lvl.damagePerSecond).toBe(713);
+    expect(lvl.damagePerHit).toBe(855.6);
+    expect(lvl.hitpoints).toBe(13350);
+    expect(lvl.healthRecovery).toBe(3100);
+    expect(lvl.heroHallLevelRequired).toBe(12);
+    expect(lvl.upgradeCost).toBe(490000);
     expect(lvl.upgradeTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
   });
 

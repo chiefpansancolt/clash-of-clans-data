@@ -9,8 +9,8 @@ describe('grandWarden()', () => {
     expect(h.name).toBe('Grand Warden');
   });
 
-  it('has 80 levels', () => {
-    expect(home().heroes().grandWarden().first()!.levels).toHaveLength(80);
+  it('has 85 levels', () => {
+    expect(home().heroes().grandWarden().first()!.levels).toHaveLength(85);
   });
 
   it('is a hero in home base', () => {
@@ -70,7 +70,7 @@ describe('grandWarden()', () => {
     expect(lvl.upgradeTime).toEqual({ days: 3, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 80: DPS 339, DPH 610.2, HP 2584, healthRecovery 275, heroHall 12, 30,000,000 Elixir, 8d', () => {
+  it('level 80: DPS 339, DPH 610.2, HP 2584, healthRecovery 275, heroHall 12, 27,500,000 Elixir, 8d', () => {
     const lvl = home().heroes().grandWarden().first()!.levels[79];
     expect(lvl.level).toBe(80);
     expect(lvl.damagePerSecond).toBe(339);
@@ -78,7 +78,19 @@ describe('grandWarden()', () => {
     expect(lvl.hitpoints).toBe(2584);
     expect(lvl.healthRecovery).toBe(275);
     expect(lvl.heroHallLevelRequired).toBe(12);
-    expect(lvl.upgradeCost).toBe(30000000);
+    expect(lvl.upgradeCost).toBe(27500000);
+    expect(lvl.upgradeTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 85: DPS 354, DPH 637.2, HP 2669, healthRecovery 285, heroHall 12, 30,500,000 Elixir, 8d', () => {
+    const lvl = home().heroes().grandWarden().first()!.levels[84];
+    expect(lvl.level).toBe(85);
+    expect(lvl.damagePerSecond).toBe(354);
+    expect(lvl.damagePerHit).toBe(637.2);
+    expect(lvl.hitpoints).toBe(2669);
+    expect(lvl.healthRecovery).toBe(285);
+    expect(lvl.heroHallLevelRequired).toBe(12);
+    expect(lvl.upgradeCost).toBe(30500000);
     expect(lvl.upgradeTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
   });
 

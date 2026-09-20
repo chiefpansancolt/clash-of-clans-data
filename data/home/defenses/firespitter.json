@@ -95,6 +95,54 @@
       "images": {
         "normal": "images/home/defenses/firespitter/normal/level-3.png"
       }
+    },
+     {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 5300,
+      "buildCost": 14000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 749,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 473,
+          "damagePerHit": 53.08
+        }
+      },
+        "images": {
+        "normal": "images/home/defenses/firespitter/normal/level-3.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 5550,
+      "buildCost": 12000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 804,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 473,
+          "damagePerShot": 53.08
+        }
+      },
+        "images": {
+        "normal": "images/home/defenses/firespitter/normal/level-3.png"
+      }
     }
   ]
 }

@@ -6,8 +6,8 @@ import { testFilterImmutability } from '../../../helpers';
  * Only this file needs updating when a new guardian is added.
  */
 describe('guardians() namespace', () => {
-  it('has 2 guardians', () => {
-    expect(home().guardians().count()).toBe(2);
+  it('has 3 guardians', () => {
+    expect(home().guardians().count()).toBe(3);
   });
 
   it('byGuardianType("longshot") returns 1 guardian', () => {
@@ -18,9 +18,23 @@ describe('guardians() namespace', () => {
     expect(home().guardians().byGuardianType('smasher').count()).toBe(1);
   });
 
+  it('byGuardianType("logger") returns 1 guardian', () => {
+    expect(home().guardians().byGuardianType('logger').count()).toBe(1);
+  });
+
   it('byGuardianType returns only guardians of that type', () => {
     const ls = home().guardians().byGuardianType('longshot').get();
     expect(ls.every((g) => g.guardianType === 'longshot')).toBe(true);
+  });
+
+  it('byGuardianType returns only smasher guardians', () => {
+    const smasher = home().guardians().byGuardianType('smasher').get();
+    expect(smasher.every((g) => g.guardianType === 'smasher')).toBe(true);
+  });
+
+  it('byGuardianType returns only logger guardians', () => {
+    const logger = home().guardians().byGuardianType('logger').get();
+    expect(logger.every((g) => g.guardianType === 'logger')).toBe(true);
   });
 
   it('byTownHall(17) excludes all guardians (all require TH18)', () => {

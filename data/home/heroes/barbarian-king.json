@@ -1695,6 +1695,86 @@
         "minutes": 0,
         "seconds": 0
       }
+    },
+    {
+      "level": 106,
+      "damagePerSecond": 685,
+      "damagePerHit": 822,
+      "hitpoints": 12850,
+      "healthRecovery": 3100,
+      "heroHallLevelRequired": 12,
+      "upgradeCost": 460000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 107,
+      "damagePerSecond": 692,
+      "damagePerHit": 830.4,
+      "hitpoints": 12975,
+      "healthRecovery": 3100,
+      "heroHallLevelRequired": 12,
+      "upgradeCost": 470000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 108,
+      "damagePerSecond": 699,
+      "damagePerHit": 838.8,
+      "hitpoints": 13100,
+      "healthRecovery": 3100,
+      "heroHallLevelRequired": 12,
+      "upgradeCost": 475000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 109,
+      "damagePerSecond": 706,
+      "damagePerHit": 847.2,
+      "hitpoints": 13225,
+      "healthRecovery": 3100,
+      "heroHallLevelRequired": 12,
+      "upgradeCost": 485000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 110,
+      "damagePerSecond": 713,
+      "damagePerHit": 855.6,
+      "hitpoints": 13350,
+      "healthRecovery": 3100,
+      "heroHallLevelRequired": 12,
+      "upgradeCost": 490000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

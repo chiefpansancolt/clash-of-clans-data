@@ -12,11 +12,13 @@ export interface GuardianMode {
   patrolRadius?: number;
   searchRadius?: number;
   triggerRadius: number;
+  pushbackRange?: number;
 }
 
 export interface GuardianLevel extends BuildingLevel {
   townHallRequired: number;
   deathDamage?: number;
+  postHitTileRange?: number;
   stats: {
     normal: DefenseModeStats;
   };
@@ -41,4 +43,7 @@ export interface SmasherGuardian extends Guardian {
   guardianType: 'smasher';
   rageSpeedIncrease: number;
   rageDamageIncrease: number;
+}
+export interface LoggerGuardian extends Guardian {
+  guardianType: 'logger';
 }

@@ -213,6 +213,25 @@
       "images": {
         "normal": "images/home/army-buildings/dark-spell-factory/normal/level-7.png"
       }
+    },
+    {
+      "level": 8,
+      "hitpoints": 1070,
+      "unlockedSpell": "Angry Spell",
+      "spellStorageCapacity": 1,
+      "buildCost": 18000000,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 929,
+      "townHallRequired": 15,
+      "images": {
+        "normal": "images/home/army-buildings/dark-spell-factory/normal/level-8.png"
+      }
     }
   ]
 }

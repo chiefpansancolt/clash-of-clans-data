@@ -8,8 +8,8 @@ describe('darkBarracks()', () => {
     expect(result.name).toBe('Dark Barracks');
   });
 
-  it('has 12 levels', () => {
-    expect(home().armyBuildings().darkBarracks().first()!.levels).toHaveLength(12);
+  it('has 13 levels', () => {
+    expect(home().armyBuildings().darkBarracks().first()!.levels).toHaveLength(13);
   });
 
   it('base is home', () => {
@@ -102,21 +102,50 @@ describe('darkBarracks() levels', () => {
     expect(home().armyBuildings().darkBarracks().first()!.levels[11].buildCost).toBe(20000000);
   });
 
-  it('level 12 buildTime is 12d', () => {
+  it('level 12 buildTime is 9d', () => {
     expect(home().armyBuildings().darkBarracks().first()!.levels[11].buildTime).toEqual({
-      days: 12,
+      days: 9,
       hours: 0,
       minutes: 0,
       seconds: 0,
     });
   });
 
-  it('level 12 xpGained is 1018', () => {
-    expect(home().armyBuildings().darkBarracks().first()!.levels[11].xpGained).toBe(1018);
+  it('level 12 xpGained is 881', () => {
+    expect(home().armyBuildings().darkBarracks().first()!.levels[11].xpGained).toBe(881);
   });
 
   it('level 12 townHallRequired is 15', () => {
     expect(home().armyBuildings().darkBarracks().first()!.levels[11].townHallRequired).toBe(15);
+  });
+
+  it('level 13 hitpoints is 1100', () => {
+    expect(home().armyBuildings().darkBarracks().first()!.levels[12].hitpoints).toBe(1100);
+  });
+
+  it('level 13 unlockedUnit is Ruin Witch', () => {
+    expect(home().armyBuildings().darkBarracks().first()!.levels[12].unlockedUnit).toBe('Ruin Witch');
+  });
+
+  it('level 13 buildCost is 23000000 Elixir', () => {
+    expect(home().armyBuildings().darkBarracks().first()!.levels[12].buildCost).toBe(23000000);
+  });
+
+  it('level 13 buildTime is 10d', () => {
+    expect(home().armyBuildings().darkBarracks().first()!.levels[12].buildTime).toEqual({
+      days: 10,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+    });
+  });
+
+    it('level 13 xpGained is 929', () => {
+    expect(home().armyBuildings().darkBarracks().first()!.levels[12].xpGained).toBe(929);
+  });
+
+  it('level 13 townHallRequired is 16', () => {
+    expect(home().armyBuildings().darkBarracks().first()!.levels[12].townHallRequired).toBe(16);
   });
 
   it('all levels have a normal image', () => {

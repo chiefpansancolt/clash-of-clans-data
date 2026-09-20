@@ -1223,7 +1223,7 @@
       "hitpoints": 2516,
       "healthRecovery": 265,
       "heroHallLevelRequired": 12,
-      "upgradeCost": 24000000,
+      "upgradeCost": 23500000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
         "days": 8,
@@ -1239,7 +1239,7 @@
       "hitpoints": 2533,
       "healthRecovery": 265,
       "heroHallLevelRequired": 12,
-      "upgradeCost": 25500000,
+      "upgradeCost": 24500000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
         "days": 8,
@@ -1255,7 +1255,7 @@
       "hitpoints": 2550,
       "healthRecovery": 265,
       "heroHallLevelRequired": 12,
-      "upgradeCost": 27000000,
+      "upgradeCost": 25500000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
         "days": 8,
@@ -1271,7 +1271,7 @@
       "hitpoints": 2567,
       "healthRecovery": 265,
       "heroHallLevelRequired": 12,
-      "upgradeCost": 28500000,
+      "upgradeCost": 26500000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
         "days": 8,
@@ -1287,7 +1287,87 @@
       "hitpoints": 2584,
       "healthRecovery": 275,
       "heroHallLevelRequired": 12,
+      "upgradeCost": 27500000,
+      "upgradeCostResource": "Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 81,
+      "damagePerSecond": 342,
+      "damagePerHit": 615.6,
+      "hitpoints": 2601,
+      "healthRecovery": 275,
+      "heroHallLevelRequired": 12,
+      "upgradeCost": 28500000,
+      "upgradeCostResource": "Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 82,
+      "damagePerSecond": 345,
+      "damagePerHit": 621,
+      "hitpoints": 2618,
+      "healthRecovery": 275,
+      "heroHallLevelRequired": 12,
+      "upgradeCost": 29000000,
+      "upgradeCostResource": "Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 83,
+      "damagePerSecond": 348,
+      "damagePerHit": 626.4,
+      "hitpoints": 2635,
+      "healthRecovery": 275,
+      "heroHallLevelRequired": 12,
+      "upgradeCost": 29500000,
+      "upgradeCostResource": "Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 84,
+      "damagePerSecond": 351,
+      "damagePerHit": 631.8,
+      "hitpoints": 2652,
+      "healthRecovery": 275,
+      "heroHallLevelRequired": 12,
       "upgradeCost": 30000000,
+      "upgradeCostResource": "Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 85,
+      "damagePerSecond": 354,
+      "damagePerHit": 637.2,
+      "hitpoints": 2669,
+      "healthRecovery": 285,
+      "heroHallLevelRequired": 12,
+      "upgradeCost": 30500000,
       "upgradeCostResource": "Elixir",
       "upgradeTime": {
         "days": 8,

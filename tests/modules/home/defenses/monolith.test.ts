@@ -8,8 +8,8 @@ describe('monolith()', () => {
     expect(result.name).toBe('Monolith');
   });
 
-  it('has 6 levels', () => {
-    expect(home().defenses().monolith().first()!.levels).toHaveLength(6);
+  it('has 5 levels', () => {
+    expect(home().defenses().monolith().first()!.levels).toHaveLength(5);
   });
 
   it('targets both ground and air', () => {
@@ -114,40 +114,68 @@ describe('monolith() levels', () => {
     expect(home().defenses().monolith().first()!.levels[3].supercharge).toBeFalsy();
   });
 
-  it('supercharge 1 is the first supercharge level', () => {
-    expect(home().defenses().monolith().first()!.levels[4].supercharge).toBe(true);
-    expect(home().defenses().monolith().first()!.levels[4].level).toBe(1);
+  it('level 5 has correct hitpoints', () => {
+    expect(
+      home().defenses().monolith().first()!.levels[4].hitpoints
+    ).toBe(5959);
   });
 
-  it('supercharge 1 has dps of 219', () => {
-    expect(home().defenses().monolith().first()!.levels[4].stats.normal.dps).toBe(219);
+  it('level 5 has correct dps', () => {
+    expect(
+      home().defenses().monolith().first()!.levels[4].stats.normal.dps
+    ).toBe(225);
   });
 
-  it('supercharge 1 hitpoints equal regular level 4', () => {
-    expect(home().defenses().monolith().first()!.levels[4].hitpoints).toBe(5656);
+  it('level 5 has correct damagePerShot', () => {
+    expect(
+      home().defenses().monolith().first()!.levels[4].stats.normal.damagePerShot
+    ).toBe(337.5);
   });
 
-  it('supercharge 1 buildCost is 150000 Dark Elixir', () => {
-    expect(home().defenses().monolith().first()!.levels[4].buildCost).toBe(150000);
-    expect(home().defenses().monolith().first()!.levels[4].buildCostResource).toBe('Dark Elixir');
+  it('level 5 has bonusDamagePercent of 15%', () => {
+    expect(
+      home().defenses().monolith().first()!.levels[4].stats.normal
+        .bonusDamagePercent
+    ).toBe(15);
   });
 
-  it('supercharge 2 is the second supercharge level', () => {
-    expect(home().defenses().monolith().first()!.levels[5].supercharge).toBe(true);
-    expect(home().defenses().monolith().first()!.levels[5].level).toBe(2);
+  it('level 5 buildCost is 470000 Dark Elixir', () => {
+    expect(
+      home().defenses().monolith().first()!.levels[4].buildCost
+    ).toBe(470000);
+
+    expect(
+      home().defenses().monolith().first()!.levels[4].buildCostResource
+    ).toBe('Dark Elixir');
   });
 
-  it('supercharge 2 hitpoints increased from supercharge 1', () => {
-    expect(home().defenses().monolith().first()!.levels[5].hitpoints).toBe(5858);
+  it('level 5 buildTime is 15d', () => {
+    expect(
+      home().defenses().monolith().first()!.levels[4].buildTime
+    ).toEqual({
+      days: 15,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+    });
   });
 
-  it('supercharge 2 dps matches supercharge 1', () => {
-    expect(home().defenses().monolith().first()!.levels[5].stats.normal.dps).toBe(219);
+  it('level 5 xpGained is 1138', () => {
+    expect(
+      home().defenses().monolith().first()!.levels[4].xpGained
+    ).toBe(1138);
   });
 
-  it('supercharge 1 and 2 have same damagePerShot', () => {
-    expect(home().defenses().monolith().first()!.levels[4].stats.normal.damagePerShot).toBe(328.5);
-    expect(home().defenses().monolith().first()!.levels[5].stats.normal.damagePerShot).toBe(328.5);
+  it('level 5 townHallRequired is 18', () => {
+    expect(
+      home().defenses().monolith().first()!.levels[4].townHallRequired
+    ).toBe(18);
+  });
+
+  it('level 5 is not a supercharge', () => {
+    expect(
+      home().defenses().monolith().first()!.levels[4].supercharge
+    ).toBeFalsy();
   });
 
   it('bonusDamagePercent increases with regular levels', () => {

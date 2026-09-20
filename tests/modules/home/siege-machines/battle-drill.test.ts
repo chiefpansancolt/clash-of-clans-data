@@ -9,8 +9,8 @@ describe('battleDrill()', () => {
     expect(m.name).toBe('Battle Drill');
   });
 
-  it('has 5 levels', () => {
-    expect(home().siegeMachines().battleDrill().first()!.levels).toHaveLength(5);
+  it('has 6 levels', () => {
+    expect(home().siegeMachines().battleDrill().first()!.levels).toHaveLength(6);
   });
 
   it('is a siege-machine in home base', () => {
@@ -49,7 +49,7 @@ describe('battleDrill()', () => {
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 3: DPS 510, DPA 867, HP 5400, Lab 13, TH16, 8,500,000 Gold, 5d', () => {
+  it('level 3: DPS 510, DPA 867, HP 5400, Lab 13, TH16, 8,500,000 Elixir, 5d', () => {
     const lvl = home().siegeMachines().battleDrill().first()!.levels[2];
     expect(lvl.level).toBe(3);
     expect(lvl.damagePerSecond).toBe(510);
@@ -61,7 +61,7 @@ describe('battleDrill()', () => {
     expect(lvl.researchTime).toEqual({ days: 5, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 5: DPS 590, DPA 1003, HP 6300, Lab 15, TH17, 17,000,000 Gold, 9d', () => {
+  it('level 5: DPS 590, DPA 1003, HP 6300, Lab 15, TH17, 17,000,000 Elixir, 9d', () => {
     const lvl = home().siegeMachines().battleDrill().first()!.levels[4];
     expect(lvl.level).toBe(5);
     expect(lvl.damagePerSecond).toBe(590);
@@ -71,6 +71,19 @@ describe('battleDrill()', () => {
     expect(lvl.townHallRequired).toBe(17);
     expect(lvl.researchCost).toBe(17000000);
     expect(lvl.researchTime).toEqual({ days: 9, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 6: DPS 630, DPA 1071, HP 6800, Lab 16, TH17, 26,000,000 Elixir, 13d 12h', () => {
+    const lvl = home().siegeMachines().battleDrill().first()!.levels[5];
+    expect(lvl.level).toBe(6);
+    expect(lvl.damagePerSecond).toBe(630);
+    expect(lvl.damagePerHit).toBe(1071);
+    expect(lvl.hitpoints).toBe(6800);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.townHallRequired).toBe(17);
+    expect(lvl.researchCost).toBe(26000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 13, hours: 12, minutes: 0, seconds: 0 });
   });
 
   it('all levels have normal images', () => {

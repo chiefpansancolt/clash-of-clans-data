@@ -304,15 +304,33 @@
       "buildCost": 17000000,
       "buildCostResource": "Elixir",
       "buildTime": {
-        "days": 10,
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 804,
+      "townHallRequired": 17,
+      "images": {
+        "normal": "images/home/army-buildings/army-camp/normal/level-13.png"
+      }
+    },
+    {
+      "level": 14,
+      "hitpoints": 950,
+      "housingSpace": 88,
+      "buildCost": 26000000,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 15,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
-      "xpGained": 929,
-      "townHallRequired": 17,
+      "xpGained": 1138,
+      "townHallRequired": 18,
       "images": {
-        "normal": "images/home/army-buildings/army-camp/normal/level-13.png"
+        "normal": "images/home/army-buildings/army-camp/normal/level-14.png"
       }
     }
   ]

@@ -8,7 +8,9 @@ export interface HomeSpellLevel {
   totalHealingOnHeroes?: number;
   damageIncrease?: number;
   speedIncrease?: number;
+  movementSpeedIncrease?: number;
   spellDuration?: number;
+  angerDuration?: number;
   clonedCapacity?: number;
   recalledCapacity?: number;
   heroHealPercent?: number;

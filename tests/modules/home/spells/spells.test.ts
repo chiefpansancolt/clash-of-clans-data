@@ -6,16 +6,16 @@ import { testFilterImmutability } from '../../../helpers';
  * Only this file needs updating when a new spell is added.
  */
 describe('spells() namespace', () => {
-  it('has 17 spells', () => {
-    expect(home().spells().count()).toBe(17);
+  it('has 18 spells', () => {
+    expect(home().spells().count()).toBe(18);
   });
 
   it('byType("regular") returns 10 spells', () => {
     expect(home().spells().byType('regular').count()).toBe(10);
   });
 
-  it('byType("dark") returns 7 spells', () => {
-    expect(home().spells().byType('dark').count()).toBe(7);
+  it('byType("dark") returns 8 spells', () => {
+    expect(home().spells().byType('dark').count()).toBe(8);
   });
 
   it('byType counts sum to total', () => {

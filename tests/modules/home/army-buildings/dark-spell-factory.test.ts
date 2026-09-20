@@ -8,8 +8,8 @@ describe('darkSpellFactory()', () => {
     expect(result.name).toBe('Dark Spell Factory');
   });
 
-  it('has 7 levels', () => {
-    expect(home().armyBuildings().darkSpellFactory().first()!.levels).toHaveLength(7);
+  it('has 8 levels', () => {
+    expect(home().armyBuildings().darkSpellFactory().first()!.levels).toHaveLength(8);
   });
 
   it('base is home', () => {
@@ -115,6 +115,37 @@ describe('darkSpellFactory() levels', () => {
 
   it('level 7 townHallRequired is 14', () => {
     expect(home().armyBuildings().darkSpellFactory().first()!.levels[6].townHallRequired).toBe(14);
+  });
+
+    it('level 8 hitpoints is 1070', () => {
+    expect(home().armyBuildings().darkSpellFactory().first()!.levels[7].hitpoints).toBe(1070);
+  });
+
+  it('level 8 unlockedSpell is Angry Spell', () => {
+    expect(home().armyBuildings().darkSpellFactory().first()!.levels[7].unlockedSpell).toBe(
+      'Angry Spell',
+    );
+  });
+
+  it('level 8 buildCost is 18000000 Elixir', () => {
+    expect(home().armyBuildings().darkSpellFactory().first()!.levels[7].buildCost).toBe(18000000);
+  });
+
+  it('level 8 buildTime is 10d', () => {
+    expect(home().armyBuildings().darkSpellFactory().first()!.levels[7].buildTime).toEqual({
+      days: 10,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+    });
+  });
+
+  it('level 8 xpGained is 929', () => {
+    expect(home().armyBuildings().darkSpellFactory().first()!.levels[7].xpGained).toBe(929);
+  });
+
+  it('level 8 townHallRequired is 15', () => {
+    expect(home().armyBuildings().darkSpellFactory().first()!.levels[7].townHallRequired).toBe(15);
   });
 
   it('all levels have a normal image', () => {
