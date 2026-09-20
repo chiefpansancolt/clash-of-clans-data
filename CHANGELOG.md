@@ -5,6 +5,38 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.17.0] - 2026-09-20
+
+### Added
+
+April and June 2026 content update, contributed by [@0053ishav](https://github.com/0053ishav) in
+[#51](https://github.com/chiefpansancolt/clash-of-clans-data/pull/51) (closes
+[#50](https://github.com/chiefpansancolt/clash-of-clans-data/issues/50)):
+
+- **Ruin Witch** troop (June 2026) with data, images, and query module
+- **Angry Spell** (June 2026) with data, icon, and query module
+- **Logger** guardian (April 2026) with data, images, and query module
+- **Sky Wagon** siege machine (April 2026) with data, images, and query module
+- Level 6 for **Battle Drill**, **Siege Barracks**, and **Battle Blimp**, with images
+- New entities registered in their query namespaces, with updated types, samples, and tests
+
+### Changed
+
+- Updated home village data for Army Camp (level 14), Dark Barracks (level 13), Dark Spell Factory
+  (level 8), Builder's Hut (level 8), Monolith, Scattershot, X-Bow, Firespitter, Valkyrie, Barbarian
+  King, Archer Queen, and Grand Warden, with new level images where applicable
+- Updated all development dependencies to their latest versions (TypeScript stays on 6.x because
+  `@typescript-eslint` and `ts-jest` do not yet support 7.x)
+- Added a pnpm override for `esbuild` (`^0.28.2`) to resolve a security advisory and cleared all
+  known `pnpm audit` vulnerabilities
+- Updated GitHub Actions: `actions/checkout` v7, `actions/setup-node` v7, `codecov/codecov-action`
+  v7
+- Dependabot now runs monthly instead of weekly
+
+### Fix
+
+- Fixed Prettier formatting issues across source, tests, data, and samples
+
 ## [0.16.0] - 2026-04-18
 
 ### Fix
