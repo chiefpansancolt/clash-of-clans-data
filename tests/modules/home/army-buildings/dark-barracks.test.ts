@@ -124,7 +124,9 @@ describe('darkBarracks() levels', () => {
   });
 
   it('level 13 unlockedUnit is Ruin Witch', () => {
-    expect(home().armyBuildings().darkBarracks().first()!.levels[12].unlockedUnit).toBe('Ruin Witch');
+    expect(home().armyBuildings().darkBarracks().first()!.levels[12].unlockedUnit).toBe(
+      'Ruin Witch',
+    );
   });
 
   it('level 13 buildCost is 23000000 Elixir', () => {
@@ -140,7 +142,7 @@ describe('darkBarracks() levels', () => {
     });
   });
 
-    it('level 13 xpGained is 929', () => {
+  it('level 13 xpGained is 929', () => {
     expect(home().armyBuildings().darkBarracks().first()!.levels[12].xpGained).toBe(929);
   });
 

@@ -115,44 +115,31 @@ describe('monolith() levels', () => {
   });
 
   it('level 5 has correct hitpoints', () => {
-    expect(
-      home().defenses().monolith().first()!.levels[4].hitpoints
-    ).toBe(5959);
+    expect(home().defenses().monolith().first()!.levels[4].hitpoints).toBe(5959);
   });
 
   it('level 5 has correct dps', () => {
-    expect(
-      home().defenses().monolith().first()!.levels[4].stats.normal.dps
-    ).toBe(225);
+    expect(home().defenses().monolith().first()!.levels[4].stats.normal.dps).toBe(225);
   });
 
   it('level 5 has correct damagePerShot', () => {
-    expect(
-      home().defenses().monolith().first()!.levels[4].stats.normal.damagePerShot
-    ).toBe(337.5);
+    expect(home().defenses().monolith().first()!.levels[4].stats.normal.damagePerShot).toBe(337.5);
   });
 
   it('level 5 has bonusDamagePercent of 15%', () => {
-    expect(
-      home().defenses().monolith().first()!.levels[4].stats.normal
-        .bonusDamagePercent
-    ).toBe(15);
+    expect(home().defenses().monolith().first()!.levels[4].stats.normal.bonusDamagePercent).toBe(
+      15,
+    );
   });
 
   it('level 5 buildCost is 470000 Dark Elixir', () => {
-    expect(
-      home().defenses().monolith().first()!.levels[4].buildCost
-    ).toBe(470000);
+    expect(home().defenses().monolith().first()!.levels[4].buildCost).toBe(470000);
 
-    expect(
-      home().defenses().monolith().first()!.levels[4].buildCostResource
-    ).toBe('Dark Elixir');
+    expect(home().defenses().monolith().first()!.levels[4].buildCostResource).toBe('Dark Elixir');
   });
 
   it('level 5 buildTime is 15d', () => {
-    expect(
-      home().defenses().monolith().first()!.levels[4].buildTime
-    ).toEqual({
+    expect(home().defenses().monolith().first()!.levels[4].buildTime).toEqual({
       days: 15,
       hours: 0,
       minutes: 0,
@@ -161,21 +148,15 @@ describe('monolith() levels', () => {
   });
 
   it('level 5 xpGained is 1138', () => {
-    expect(
-      home().defenses().monolith().first()!.levels[4].xpGained
-    ).toBe(1138);
+    expect(home().defenses().monolith().first()!.levels[4].xpGained).toBe(1138);
   });
 
   it('level 5 townHallRequired is 18', () => {
-    expect(
-      home().defenses().monolith().first()!.levels[4].townHallRequired
-    ).toBe(18);
+    expect(home().defenses().monolith().first()!.levels[4].townHallRequired).toBe(18);
   });
 
   it('level 5 is not a supercharge', () => {
-    expect(
-      home().defenses().monolith().first()!.levels[4].supercharge
-    ).toBeFalsy();
+    expect(home().defenses().monolith().first()!.levels[4].supercharge).toBeFalsy();
   });
 
   it('bonusDamagePercent increases with regular levels', () => {

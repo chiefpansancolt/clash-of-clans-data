@@ -25,13 +25,13 @@ import { minerData } from './miner';
 import { minionData } from './minion';
 import { pekkaData } from './pekka';
 import { rootRiderData } from './root-rider';
+import { ruinWitchData } from './ruin-witch';
 import { throwerData } from './thrower';
 import { valkyrieData } from './valkyrie';
 import { wallBreakerData } from './wall-breaker';
 import { witchData } from './witch';
 import { wizardData } from './wizard';
 import { yetiData } from './yeti';
-import { ruinWitchData } from './ruin-witch';
 
 const allTroops: HomeTroop[] = [
   apprenticeWardenData,

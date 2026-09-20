@@ -34,9 +34,7 @@ export class BuilderBaseReinforcementCamp extends QueryBase<BuilderArmyCampBuild
 }
 
 type BuilderArmyBuildingItem =
-  | BuilderArmyBuilding
-  | BuilderBarracksBuilding
-  | BuilderHealingHutBuilding;
+  BuilderArmyBuilding | BuilderBarracksBuilding | BuilderHealingHutBuilding;
 
 // Army Camp has a unique structure (instances instead of upgrade levels) so it
 // lives in a dedicated query class rather than the shared union.

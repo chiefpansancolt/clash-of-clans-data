@@ -5,10 +5,10 @@ import { battleDrillData } from './battle-drill';
 import { flameFlingerData } from './flame-flinger';
 import { logLauncherData } from './log-launcher';
 import { siegeBarracksData } from './siege-barracks';
+import { skyWagonData } from './sky-wagon';
 import { stoneSlammerData } from './stone-slammer';
 import { troopLauncherData } from './troop-launcher';
 import { wallWreckerData } from './wall-wrecker';
-import { skyWagonData } from './sky-wagon';
 
 const allSiegeMachines: SiegeMachine[] = [
   wallWreckerData,

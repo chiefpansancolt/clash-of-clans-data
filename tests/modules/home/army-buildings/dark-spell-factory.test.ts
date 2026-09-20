@@ -117,7 +117,7 @@ describe('darkSpellFactory() levels', () => {
     expect(home().armyBuildings().darkSpellFactory().first()!.levels[6].townHallRequired).toBe(14);
   });
 
-    it('level 8 hitpoints is 1070', () => {
+  it('level 8 hitpoints is 1070', () => {
     expect(home().armyBuildings().darkSpellFactory().first()!.levels[7].hitpoints).toBe(1070);
   });
 

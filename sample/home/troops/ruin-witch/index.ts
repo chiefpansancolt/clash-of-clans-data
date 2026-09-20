@@ -21,9 +21,7 @@ log(`barracks lvl:               ${rw.barrackLevelRequired}`);
 log('');
 
 log('--- All Levels ---');
-log(
-  'Lvl   DPS   DPH     HP  Knights  KnightLvl   Research Cost       Research Time  Lab  TH',
-);
+log('Lvl   DPS   DPH     HP  Knights  KnightLvl   Research Cost       Research Time  Lab  TH');
 
 for (const lvl of rw.levels) {
   const rt =
@@ -35,9 +33,7 @@ for (const lvl of rw.levels) {
       .filter(Boolean)
       .join(' ') || 'N/A';
 
-  const cost = lvl.researchCost
-    ? lvl.researchCost.toLocaleString()
-    : 'N/A';
+  const cost = lvl.researchCost ? lvl.researchCost.toLocaleString() : 'N/A';
 
   const n = lvl.stats.normal;
 

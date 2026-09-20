@@ -1,8 +1,8 @@
 import { QueryBase } from '@/common/query-base';
 import { Guardian } from '@/types';
+import { loggerData } from './logger';
 import { longshotData } from './longshot';
 import { smasherData } from './smasher';
-import { loggerData } from './logger';
 
 const allGuardians: Guardian[] = [longshotData, smasherData, loggerData];
 

@@ -149,43 +149,27 @@ describe('firespitter() levels', () => {
 
 describe('firespitter() supercharge', () => {
   it('supercharge 1 and 2 are supercharge levels', () => {
-    expect(
-      home().defenses().firespitter().first()!.levels[3].supercharge,
-    ).toBe(true);
+    expect(home().defenses().firespitter().first()!.levels[3].supercharge).toBe(true);
 
-    expect(
-      home().defenses().firespitter().first()!.levels[3].level,
-    ).toBe(1);
+    expect(home().defenses().firespitter().first()!.levels[3].level).toBe(1);
 
-    expect(
-      home().defenses().firespitter().first()!.levels[4].supercharge,
-    ).toBe(true);
+    expect(home().defenses().firespitter().first()!.levels[4].supercharge).toBe(true);
 
-    expect(
-      home().defenses().firespitter().first()!.levels[4].level,
-    ).toBe(2);
+    expect(home().defenses().firespitter().first()!.levels[4].level).toBe(2);
   });
 
   it('supercharge 1 dps is 473', () => {
-    expect(
-      home().defenses().firespitter().first()!.levels[3].stats.normal.dps,
-    ).toBe(473);
+    expect(home().defenses().firespitter().first()!.levels[3].stats.normal.dps).toBe(473);
   });
 
   it('supercharge 2 hitpoints are 5550', () => {
-    expect(
-      home().defenses().firespitter().first()!.levels[4].hitpoints,
-    ).toBe(5550);
+    expect(home().defenses().firespitter().first()!.levels[4].hitpoints).toBe(5550);
   });
 
   it('supercharge levels require TH18', () => {
-    expect(
-      home().defenses().firespitter().first()!.levels[3].townHallRequired,
-    ).toBe(18);
+    expect(home().defenses().firespitter().first()!.levels[3].townHallRequired).toBe(18);
 
-    expect(
-      home().defenses().firespitter().first()!.levels[4].townHallRequired,
-    ).toBe(18);
+    expect(home().defenses().firespitter().first()!.levels[4].townHallRequired).toBe(18);
   });
 });
 

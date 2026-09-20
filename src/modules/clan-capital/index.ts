@@ -202,8 +202,7 @@ export class ClanCapital {
     const troopDistrictDH: Record<string, number> = {};
     for (const barracks of this.armyBuildings().barracks().get()) {
       const district = barracks.availablePerDistrict[0]?.district as
-        | keyof typeof dhLevels
-        | undefined;
+        keyof typeof dhLevels | undefined;
       if (district && barracks.troopUnlocked) {
         troopDistrictDH[barracks.troopUnlocked] = dhLevels[district] ?? 0;
       }
@@ -214,8 +213,7 @@ export class ClanCapital {
     const spellDistrictDH: Record<string, number> = {};
     for (const factory of this.armyBuildings().spellFactories().get()) {
       const district = factory.availablePerDistrict[0]?.district as
-        | keyof typeof dhLevels
-        | undefined;
+        keyof typeof dhLevels | undefined;
       if (district && factory.spellUnlocked) {
         spellDistrictDH[factory.spellUnlocked] = dhLevels[district] ?? 0;
       }

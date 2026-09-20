@@ -85,21 +85,15 @@ describe('xBow()', () => {
   });
 
   it('level 13 has correct hitpoints', () => {
-    expect(
-      home().defenses().xBow().first()!.levels[12].hitpoints,
-    ).toBe(5000);
+    expect(home().defenses().xBow().first()!.levels[12].hitpoints).toBe(5000);
   });
 
   it('level 13 normal dps is 245', () => {
-    expect(
-      home().defenses().xBow().first()!.levels[12].stats.normal.dps,
-    ).toBe(245);
+    expect(home().defenses().xBow().first()!.levels[12].stats.normal.dps).toBe(245);
   });
 
   it('level 13 has correct build cost', () => {
-    expect(
-      home().defenses().xBow().first()!.levels[12].buildCost,
-    ).toBe(26000000);
+    expect(home().defenses().xBow().first()!.levels[12].buildCost).toBe(26000000);
   });
 
   it('level 13 build time is 13d 12h', () => {
@@ -114,9 +108,7 @@ describe('xBow()', () => {
   });
 
   it('level 13 requires TH18', () => {
-    expect(
-      home().defenses().xBow().first()!.levels[12].townHallRequired,
-    ).toBe(18);
+    expect(home().defenses().xBow().first()!.levels[12].townHallRequired).toBe(18);
   });
 
   it('every level has xpGained', () => {

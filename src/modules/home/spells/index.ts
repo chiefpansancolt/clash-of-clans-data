@@ -1,5 +1,6 @@
 import { QueryBase } from '@/common/query-base';
 import { HomeSpell } from '@/types';
+import { angrySpellData } from './angry-spell';
 import { batSpellData } from './bat-spell';
 import { cloneSpellData } from './clone-spell';
 import { earthquakeSpellData } from './earthquake-spell';
@@ -17,7 +18,6 @@ import { recallSpellData } from './recall-spell';
 import { reviveSpellData } from './revive-spell';
 import { skeletonSpellData } from './skeleton-spell';
 import { totemSpellData } from './totem-spell';
-import { angrySpellData } from './angry-spell';
 
 const allSpells: HomeSpell[] = [
   lightningSpellData,

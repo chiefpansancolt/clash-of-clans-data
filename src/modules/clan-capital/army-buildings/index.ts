@@ -10,9 +10,7 @@ import { ClanCapitalSpellFactories } from './spell-factories';
 import { spellStorageData } from './spell-storage';
 
 type ClanCapitalArmyBuildingItem =
-  | ClanCapitalArmyBuilding
-  | ClanCapitalSpellStorageBuilding
-  | ClanCapitalBarracksBuilding;
+  ClanCapitalArmyBuilding | ClanCapitalSpellStorageBuilding | ClanCapitalBarracksBuilding;
 
 const allArmyBuildings: ClanCapitalArmyBuildingItem[] = [armyCampData, spellStorageData];
 

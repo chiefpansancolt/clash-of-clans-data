@@ -16,9 +16,7 @@ log(`spellFactory lvl:     ${s.spellFactoryLevelRequired} (Dark)`);
 log('');
 
 log('--- All Levels ---');
-log(
-  'Lvl  Anger  Spell  Move%   Research Cost       Research Time  Lab  TH',
-);
+log('Lvl  Anger  Spell  Move%   Research Cost       Research Time  Lab  TH');
 
 for (const lvl of s.levels) {
   const rt =
@@ -30,9 +28,7 @@ for (const lvl of s.levels) {
       .filter(Boolean)
       .join(' ') || 'N/A';
 
-  const cost = lvl.researchCost
-    ? lvl.researchCost.toLocaleString()
-    : 'N/A';
+  const cost = lvl.researchCost ? lvl.researchCost.toLocaleString() : 'N/A';
 
   log(
     `  ${String(lvl.level).padStart(2)}  ${String(lvl.angerDuration).padStart(5)}s  ${String(lvl.spellDuration).padStart(5)}s  ${String(lvl.movementSpeedIncrease).padStart(5)}%  ${cost.padStart(16)}  ${rt.padStart(13)}   ${lvl.laboratoryRequired}   ${lvl.townHallRequired}`,

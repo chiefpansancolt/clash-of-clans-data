@@ -96,7 +96,7 @@
         "normal": "images/home/defenses/firespitter/normal/level-3.png"
       }
     },
-     {
+    {
       "level": 1,
       "supercharge": true,
       "hitpoints": 5300,
@@ -116,7 +116,7 @@
           "damagePerHit": 53.08
         }
       },
-        "images": {
+      "images": {
         "normal": "images/home/defenses/firespitter/normal/level-3.png"
       }
     },
@@ -140,7 +140,7 @@
           "damagePerShot": 53.08
         }
       },
-        "images": {
+      "images": {
         "normal": "images/home/defenses/firespitter/normal/level-3.png"
       }
     }

@@ -18,9 +18,7 @@ log('');
 
 log('--- Mode ---');
 const m = logger.mode;
-log(
-  `range: ${m.range} | attackSpeed: ${m.attackSpeed}s | damageType: ${m.damageType}`,
-);
+log(`range: ${m.range} | attackSpeed: ${m.attackSpeed}s | damageType: ${m.damageType}`);
 log(
   `movementSpeed: ${m.movementSpeed} | searchRadius: ${m.searchRadius} | triggerRadius: ${m.triggerRadius} | pushbackRange: ${m.pushbackRange}`,
 );
