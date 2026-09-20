@@ -9,8 +9,8 @@ describe('diggy()', () => {
     expect(p.name).toBe('Diggy');
   });
 
-  it('has 10 levels', () => {
-    expect(home().pets().diggy().first()!.levels).toHaveLength(10);
+  it('has 15 levels', () => {
+    expect(home().pets().diggy().first()!.levels).toHaveLength(15);
   });
 
   it('is a pet in home base', () => {
