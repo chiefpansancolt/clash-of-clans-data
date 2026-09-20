@@ -249,6 +249,33 @@
       "images": {
         "normal": "images/home/army-buildings/blacksmith/normal/level-9.png"
       }
+    },
+    {
+      "level": 10,
+      "equipmentUnlocked": "Electro Fangs",
+      "oreCapacity": {
+        "shinyOre": 50000,
+        "glowyOre": 5000,
+        "starryOre": 1000
+      },
+      "maxEquipmentLevel": {
+        "common": 18,
+        "epic": 27
+      },
+      "hitpoints": 1600,
+      "buildCost": 18000000,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 10,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 929,
+      "townHallRequired": 17,
+      "images": {
+        "normal": "images/home/army-buildings/blacksmith/normal/level-9.png"
+      }
     }
   ],
   "availablePerTownHall": [
