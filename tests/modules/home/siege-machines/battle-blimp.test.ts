@@ -74,7 +74,7 @@ describe('battleBlimp()', () => {
     expect(lvl.researchTime).toEqual({ days: 9, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 6: DPS 300, HP 5500, deathDamage 1200, Lab 16, TH17, 26,000,000 Elixir, 13d 12h', () => {
+  it('level 6: DPS 300, HP 5500, deathDamage 1200, Lab 16, TH18, 26,000,000 Elixir, 13d 12h', () => {
     const lvl = home().siegeMachines().battleBlimp().first()!.levels[5];
     expect(lvl.level).toBe(6);
     expect(lvl.damagePerSecond).toBe(300);
@@ -82,7 +82,7 @@ describe('battleBlimp()', () => {
     expect(lvl.damageWhenDestroyed).toBe(1200);
     expect(lvl.hitpoints).toBe(5500);
     expect(lvl.laboratoryRequired).toBe(16);
-    expect(lvl.townHallRequired).toBe(17);
+    expect(lvl.townHallRequired).toBe(18);
     expect(lvl.researchCost).toBe(26000000);
     expect(lvl.researchCostResource).toBe('Elixir');
     expect(lvl.researchTime).toEqual({ days: 13, hours: 12, minutes: 0, seconds: 0 });

@@ -73,17 +73,17 @@ describe('battleDrill()', () => {
     expect(lvl.researchTime).toEqual({ days: 9, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 6: DPS 630, DPA 1071, HP 6800, Lab 16, TH17, 26,000,000 Elixir, 13d 12h', () => {
+  it('level 6: DPS 640, DPA 1088, HP 6900, Lab 16, TH18, 28,000,000 Elixir, 15d 12h', () => {
     const lvl = home().siegeMachines().battleDrill().first()!.levels[5];
     expect(lvl.level).toBe(6);
-    expect(lvl.damagePerSecond).toBe(630);
-    expect(lvl.damagePerHit).toBe(1071);
-    expect(lvl.hitpoints).toBe(6800);
+    expect(lvl.damagePerSecond).toBe(640);
+    expect(lvl.damagePerHit).toBe(1088);
+    expect(lvl.hitpoints).toBe(6900);
     expect(lvl.laboratoryRequired).toBe(16);
-    expect(lvl.townHallRequired).toBe(17);
-    expect(lvl.researchCost).toBe(26000000);
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.researchCost).toBe(28000000);
     expect(lvl.researchCostResource).toBe('Elixir');
-    expect(lvl.researchTime).toEqual({ days: 13, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 15, hours: 12, minutes: 0, seconds: 0 });
   });
 
   it('all levels have normal images', () => {

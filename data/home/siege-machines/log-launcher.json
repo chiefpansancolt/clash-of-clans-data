@@ -130,6 +130,28 @@
       "images": {
         "normal": "images/home/siege-machines/log-launcher/normal/level-5.png"
       }
+    },
+    {
+      "level": 6,
+      "damagePerSecond": 230,
+      "damagePerHit": 690,
+      "damageVsWalls": 2760,
+      "pointBlankDamage": 3600,
+      "lifetime": 37.17,
+      "hitpoints": 5800,
+      "laboratoryRequired": 16,
+      "townHallRequired": 18,
+      "researchCost": 27000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 15,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "images": {
+        "normal": "images/home/siege-machines/log-launcher/normal/level-6.png"
+      }
     }
   ]
 }
