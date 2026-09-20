@@ -20,8 +20,8 @@ describe('lavaLauncher()', () => {
     expect(home().craftedDefenses().lavaLauncher().first()!.craftingPhase).toBe(3);
   });
 
-  it('isCurrent is true', () => {
-    expect(home().craftedDefenses().lavaLauncher().first()!.isCurrent).toBe(true);
+  it('isCurrent is false', () => {
+    expect(home().craftedDefenses().lavaLauncher().first()!.isCurrent).toBe(false);
   });
 
   it('targetType is ground', () => {
@@ -146,12 +146,12 @@ describe('lavaLauncher() integration with homeCraftedDefenses()', () => {
     expect(home().craftedDefenses().byPhase(3).find('lava-launcher')).toBeDefined();
   });
 
-  it('is found by current()', () => {
-    expect(home().craftedDefenses().current().find('lava-launcher')).toBeDefined();
+  it('is found by former()', () => {
+    expect(home().craftedDefenses().former().find('lava-launcher')).toBeDefined();
   });
 
-  it('is not found by former()', () => {
-    expect(home().craftedDefenses().former().find('lava-launcher')).toBeUndefined();
+  it('is not found by current()', () => {
+    expect(home().craftedDefenses().current().find('lava-launcher')).toBeUndefined();
   });
 
   it('is found by byTargetType("ground")', () => {

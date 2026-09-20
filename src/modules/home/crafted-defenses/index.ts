@@ -18,7 +18,7 @@ import { roasterData } from './roaster';
  *
  * Phase 1 (former): Hook Tower, Flame Spinner, Crusher Mortar
  * Phase 2 (former): Hero Bell, Bomb Hive, Light Beam
- * Phase 3 (current): Roaster, Air Bombs, Lava Launcher
+ * Phase 3 (former): Roaster, Air Bombs, Lava Launcher
  * Phase 4 (current): Hot Candle, Hero Hunter, Cake-A-Pult
  */
 const allCraftedDefenses: CraftedDefense[] = [

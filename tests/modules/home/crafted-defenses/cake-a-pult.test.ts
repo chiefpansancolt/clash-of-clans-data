@@ -28,6 +28,14 @@ describe('cakeAPult()', () => {
     expect(home().craftedDefenses().cakeAPult().first()!.isCurrent).toBe(true);
   });
 
+  it('is found by current()', () => {
+    expect(home().craftedDefenses().current().find('cake-a-pult')).toBeDefined();
+  });
+
+  it('is not found by former()', () => {
+    expect(home().craftedDefenses().former().find('cake-a-pult')).toBeUndefined();
+  });
+
   it('targetType is both', () => {
     expect(home().craftedDefenses().cakeAPult().first()!.targetType).toBe('both');
   });

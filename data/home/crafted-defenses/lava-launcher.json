@@ -7,7 +7,7 @@
   "category": "crafted-defense",
   "size": "4x4",
   "craftingPhase": 3,
-  "isCurrent": true,
+  "isCurrent": false,
   "targetType": "ground",
   "modules": [
     {
