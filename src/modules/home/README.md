@@ -537,9 +537,7 @@ interface HomeDefenseLevel extends BuildingLevel {
   deathDamage?: number;
   stats: {
     normal: { dps?: number; damagePerShot?: number /* … */ };
-    gearedUpBurst?: {
-      /* … */
-    };
+    gearedUpBurst?: {/* … */};
     // … other mode variants
   };
   images: {

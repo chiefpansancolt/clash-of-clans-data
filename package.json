@@ -53,18 +53,18 @@
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "@types/jest": "^30.0.0",
-    "@types/node": "^25.6.0",
-    "@typescript-eslint/eslint-plugin": "^8.58.2",
-    "@typescript-eslint/parser": "^8.58.2",
-    "eslint": "^10.2.0",
+    "@types/node": "^26.6.2",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "eslint": "^10.11.0",
     "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
-    "jest": "^30.3.0",
-    "prettier": "^3.8.2",
-    "ts-jest": "^29.4.9",
+    "jest": "^30.5.2",
+    "prettier": "^3.9.8",
+    "ts-jest": "^29.4.12",
     "tsup": "^8.5.1",
-    "tsx": "^4.21.0",
-    "typescript": "^6.0.2"
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3"
   },
   "files": [
     "dist",
@@ -78,6 +78,9 @@
     "onlyBuiltDependencies": [
       "esbuild",
       "unrs-resolver"
-    ]
+    ],
+    "overrides": {
+      "esbuild": "^0.28.2"
+    }
   }
 }
