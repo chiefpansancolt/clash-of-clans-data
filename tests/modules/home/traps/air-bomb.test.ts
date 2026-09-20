@@ -72,7 +72,7 @@ describe('airBomb()', () => {
     expect(home().traps().airBomb().first()!.availablePerTownHall).toHaveLength(18);
   });
 
-  it('TH1-4 have 0, TH5 has 2, TH8 has 4, TH10 has 5, TH12 has 6, TH14 has 7', () => {
+  it('TH1-4 have 0, TH5 has 2, TH8 has 4, TH10 has 5, TH12 has 6, TH14 has 7, TH18 has 8', () => {
     const apt = home().traps().airBomb().first()!.availablePerTownHall;
     expect(apt.find((e) => e.townHallLevel === 4)?.count).toBe(0);
     expect(apt.find((e) => e.townHallLevel === 5)?.count).toBe(2);
@@ -80,6 +80,7 @@ describe('airBomb()', () => {
     expect(apt.find((e) => e.townHallLevel === 10)?.count).toBe(5);
     expect(apt.find((e) => e.townHallLevel === 12)?.count).toBe(6);
     expect(apt.find((e) => e.townHallLevel === 14)?.count).toBe(7);
-    expect(apt.find((e) => e.townHallLevel === 18)?.count).toBe(7);
+    expect(apt.find((e) => e.townHallLevel === 17)?.count).toBe(7);
+    expect(apt.find((e) => e.townHallLevel === 18)?.count).toBe(8);
   });
 });
