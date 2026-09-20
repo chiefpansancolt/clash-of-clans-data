@@ -110,6 +110,21 @@
         "minutes": 0,
         "seconds": 0
       }
+    },
+    {
+      "level": 7,
+      "damageIncrease": 190,
+      "speedIncrease": 32,
+      "laboratoryRequired": 16,
+      "townHallRequired": 18,
+      "researchCost": 26000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

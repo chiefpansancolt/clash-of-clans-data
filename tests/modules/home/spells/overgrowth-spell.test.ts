@@ -9,8 +9,8 @@ describe('overgrowthSpell()', () => {
     expect(s.name).toBe('Overgrowth Spell');
   });
 
-  it('has 4 levels', () => {
-    expect(home().spells().overgrowthSpell().first()!.levels).toHaveLength(4);
+  it('has 5 levels', () => {
+    expect(home().spells().overgrowthSpell().first()!.levels).toHaveLength(5);
   });
 
   it('is a dark spell', () => {
@@ -61,6 +61,17 @@ describe('overgrowthSpell()', () => {
     expect(lvl.townHallRequired).toBe(16);
     expect(lvl.researchCost).toBe(175000);
     expect(lvl.researchTime).toEqual({ days: 10, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 5: Lab 16, TH18, 26s duration, 360000 Dark Elixir, 16d', () => {
+    const lvl = home().spells().overgrowthSpell().first()!.levels[4];
+    expect(lvl.level).toBe(5);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.spellDuration).toBe(26);
+    expect(lvl.researchCost).toBe(360000);
+    expect(lvl.researchCostResource).toBe('Dark Elixir');
+    expect(lvl.researchTime).toEqual({ days: 16, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('returns a HomeVillageSpells instance', () => {

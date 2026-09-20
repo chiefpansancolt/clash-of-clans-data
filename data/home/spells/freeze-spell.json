@@ -115,6 +115,20 @@
         "minutes": 0,
         "seconds": 0
       }
+    },
+    {
+      "level": 8,
+      "spellDuration": 6,
+      "laboratoryRequired": 16,
+      "townHallRequired": 18,
+      "researchCost": 28000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 15,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }
