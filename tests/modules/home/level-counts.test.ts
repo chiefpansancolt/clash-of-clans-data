@@ -124,8 +124,8 @@ describe('HomeVillage#levelCountAtTownHall', () => {
     );
   });
 
-  it('TH18 total is 11628', () => {
-    expect(home().levelCountAtTownHall(18).total).toBe(11628);
+  it('TH18 total is 11538', () => {
+    expect(home().levelCountAtTownHall(18).total).toBe(11538);
   });
 
   it('craftedDefenses is 0 below TH18', () => {
@@ -134,7 +134,7 @@ describe('HomeVillage#levelCountAtTownHall', () => {
     }
   });
 
-  it('craftedDefenses is 180 at TH18 (6 current defenses × 3 modules × 10 upgrades)', () => {
-    expect(home().levelCountAtTownHall(18).craftedDefenses).toBe(180);
+  it('craftedDefenses is 90 at TH18 (3 current defenses × 3 modules × 10 upgrades)', () => {
+    expect(home().levelCountAtTownHall(18).craftedDefenses).toBe(90);
   });
 });

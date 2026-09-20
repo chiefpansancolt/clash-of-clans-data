@@ -28,6 +28,14 @@ describe('heroHunter()', () => {
     expect(home().craftedDefenses().heroHunter().first()!.isCurrent).toBe(true);
   });
 
+  it('is found by current()', () => {
+    expect(home().craftedDefenses().current().find('hero-hunter')).toBeDefined();
+  });
+
+  it('is not found by former()', () => {
+    expect(home().craftedDefenses().former().find('hero-hunter')).toBeUndefined();
+  });
+
   it('targetType is both', () => {
     expect(home().craftedDefenses().heroHunter().first()!.targetType).toBe('both');
   });

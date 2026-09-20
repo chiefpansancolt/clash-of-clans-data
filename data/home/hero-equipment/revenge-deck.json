@@ -1,6 +1,6 @@
 {
   "id": "revenge-deck",
-  "dataId": "90000060",
+  "dataId": 90000060,
   "name": "Revenge Deck",
   "description": "Defenders who strike Dragon Duke are dealt a painful hand",
   "base": "home",

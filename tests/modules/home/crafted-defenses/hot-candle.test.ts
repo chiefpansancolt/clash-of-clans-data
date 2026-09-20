@@ -28,6 +28,14 @@ describe('hotCandle()', () => {
     expect(home().craftedDefenses().hotCandle().first()!.isCurrent).toBe(true);
   });
 
+  it('is found by current()', () => {
+    expect(home().craftedDefenses().current().find('hot-candle')).toBeDefined();
+  });
+
+  it('is not found by former()', () => {
+    expect(home().craftedDefenses().former().find('hot-candle')).toBeUndefined();
+  });
+
   it('targetType is both', () => {
     expect(home().craftedDefenses().hotCandle().first()!.targetType).toBe('both');
   });

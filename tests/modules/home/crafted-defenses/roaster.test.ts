@@ -20,8 +20,8 @@ describe('roaster()', () => {
     expect(home().craftedDefenses().roaster().first()!.craftingPhase).toBe(3);
   });
 
-  it('isCurrent is true', () => {
-    expect(home().craftedDefenses().roaster().first()!.isCurrent).toBe(true);
+  it('isCurrent is false', () => {
+    expect(home().craftedDefenses().roaster().first()!.isCurrent).toBe(false);
   });
 
   it('targetType is both', () => {
@@ -134,12 +134,12 @@ describe('roaster() integration with homeCraftedDefenses()', () => {
     expect(home().craftedDefenses().byPhase(3).find('roaster')).toBeDefined();
   });
 
-  it('is found by current()', () => {
-    expect(home().craftedDefenses().current().find('roaster')).toBeDefined();
+  it('is found by former()', () => {
+    expect(home().craftedDefenses().former().find('roaster')).toBeDefined();
   });
 
-  it('is not found by former()', () => {
-    expect(home().craftedDefenses().former().find('roaster')).toBeUndefined();
+  it('is not found by current()', () => {
+    expect(home().craftedDefenses().current().find('roaster')).toBeUndefined();
   });
 
   it('is found by byTargetType("both")', () => {
