@@ -5,6 +5,49 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.18.0] - 2026-09-20
+
+### Added
+
+New Home Village content in [#52](https://github.com/chiefpansancolt/clash-of-clans-data/pull/52)
+and the April 2026 update levels in
+[#53](https://github.com/chiefpansancolt/clash-of-clans-data/pull/53):
+
+- **Hero equipment**: **Revenge Deck** (Dragon Duke, Epic), **Monolith Arrow** (Archer Queen, Epic),
+  and **Electro Fangs** (Dragon Duke, Common, requires Blacksmith level 10), each with data, icon,
+  `heroEquipment()` query method, sample, and tests (42 items total)
+- **Phase 4 crafted defenses**: **Hot Candle**, **Hero Hunter**, and **Cake-A-Pult**, each with
+  three modules of 10 upgrades, level images by effective level, and data ids (12 crafted defenses
+  total)
+- **Diggy** levels 11-15
+- **Supercharge levels** (two each, TH18) for **Monolith**, **Builder's Hut**, **Revenge Tower**,
+  **Inferno Tower**, **Hidden Tesla**, and **Mortar**
+- **Troop levels** (TH18, Laboratory 16): **Barbarian** 13, **Goblin** 10, **Golem** 15, **Dragon**
+  13, **Balloon** 13, **Yeti** 8, **Headhunter** 4, **Root Rider** 4, **Druid** 6, with images
+- **Spell levels** (TH18, Laboratory 16): **Rage** 7, **Freeze** 8, **Clone** 9, **Recall** 7,
+  **Overgrowth** 5, **Ice Block** 6
+- **Log Launcher** level 6 with image
+- **Giant Bomb** level 12, **Siege Workshop** level 9 (unlocks Sky Wagon), and **Blacksmith** level
+  10 (unlocks Electro Fangs), with images
+- Optional `stats` on `CraftedDefense` (fixed values no module controls, such as range, attack
+  speed, and target counts) and optional `extraStats` on module upgrades (extra per-level values
+  such as damage per hit and decay thresholds). Existing data is unaffected.
+
+### Changed
+
+- Applied the build, upgrade, and research time reductions across defenses, traps, army buildings,
+  resource buildings, troops, spells, and heroes (costs unchanged). Bomb levels 2 and 3 are now 1m
+  and 5m (previously 6h and 20m in the data).
+- The phase 3 crafted defenses (Roaster, Air Bombs, Lava Launcher) are now `isCurrent: false`, so
+  `craftedDefenses().current()` returns only the phase 4 defenses and `former()` returns phases 1-3
+- **Battle Drill** level 6 and **Siege Barracks** level 6 updated to the new stats, and level 6 of
+  **Battle Drill**, **Siege Barracks**, and **Battle Blimp** now requires TH18 (Laboratory 16), with
+  new level 6 images
+- **Scattershot** level 7 now requires TH18 (was TH17)
+- **Air Bomb** count at TH18 is now 8 (was 7) and the wall count at TH18 is now 400 (was 325)
+- `levelCountAtTownHall(18)` totals change accordingly: 9,959 to 11,538 (crafted defenses stay at 90
+  since only phase 4 is current)
+
 ## [0.17.0] - 2026-09-20
 
 ### Added
