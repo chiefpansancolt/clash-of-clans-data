@@ -9,8 +9,8 @@ describe('dragon()', () => {
     expect(d.name).toBe('Dragon');
   });
 
-  it('has 12 levels', () => {
-    expect(home().troops().dragon().first()!.levels).toHaveLength(12);
+  it('has 13 levels', () => {
+    expect(home().troops().dragon().first()!.levels).toHaveLength(13);
   });
 
   it('is a regular splash troop targeting both ground and air', () => {
@@ -114,6 +114,20 @@ describe('dragon()', () => {
     levels.forEach((lvl) => {
       expect(lvl.images.normal).toBeTruthy();
     });
+  });
+
+  it('level 13: 6,000 HP, DPS 430, DPH 537.5, 28.5M Elixir / 15d, TH18, Lab 16', () => {
+    const lvl = home().troops().dragon().first()!.levels[12];
+    expect(lvl.level).toBe(13);
+    expect(lvl.hitpoints).toBe(6000);
+    expect(lvl.stats.normal.dps).toBe(430);
+    expect(lvl.stats.normal.damagePerShot).toBe(537.5);
+    expect(lvl.researchCost).toBe(28500000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 15, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-13.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {

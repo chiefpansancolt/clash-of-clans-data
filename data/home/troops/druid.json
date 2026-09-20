@@ -149,6 +149,31 @@
       "images": {
         "normal": "images/home/troops/druid/normal/level-5.png"
       }
+    },
+    {
+      "level": 6,
+      "hitpoints": 1850,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 380000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 15,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "healingPerSecond": 115,
+          "healingPerPulse": 115,
+          "healingPerSecondOnHeroes": 132.25,
+          "healingPerPulseOnHeroes": 132.25
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/druid/normal/level-6.png"
+      }
     }
   ]
 }

@@ -9,8 +9,8 @@ describe('barbarian()', () => {
     expect(b.name).toBe('Barbarian');
   });
 
-  it('has 12 levels', () => {
-    expect(home().troops().barbarian().first()!.levels).toHaveLength(12);
+  it('has 13 levels', () => {
+    expect(home().troops().barbarian().first()!.levels).toHaveLength(13);
   });
 
   it('is a regular elixir troop targeting ground', () => {
@@ -87,6 +87,20 @@ describe('barbarian()', () => {
     levels.forEach((lvl) => {
       expect(lvl.images.normal).toBeTruthy();
     });
+  });
+
+  it('level 13: 310 HP, DPS 51, DPH 51, 24M Elixir / 12d 12h, TH18, Lab 16', () => {
+    const lvl = home().troops().barbarian().first()!.levels[12];
+    expect(lvl.level).toBe(13);
+    expect(lvl.hitpoints).toBe(310);
+    expect(lvl.stats.normal.dps).toBe(51);
+    expect(lvl.stats.normal.damagePerShot).toBe(51);
+    expect(lvl.researchCost).toBe(24000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 12, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-13.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {

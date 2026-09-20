@@ -182,6 +182,29 @@
       "images": {
         "normal": "images/home/troops/yeti/normal/level-7.png"
       }
+    },
+    {
+      "level": 8,
+      "hitpoints": 4650,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 27500000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 15,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 380,
+          "damagePerShot": 380
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/yeti/normal/level-8.png"
+      }
     }
   ],
   "superTroop": {

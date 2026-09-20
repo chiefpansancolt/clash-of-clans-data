@@ -9,8 +9,8 @@ describe('balloon()', () => {
     expect(b.name).toBe('Balloon');
   });
 
-  it('has 12 levels', () => {
-    expect(home().troops().balloon().first()!.levels).toHaveLength(12);
+  it('has 13 levels', () => {
+    expect(home().troops().balloon().first()!.levels).toHaveLength(13);
   });
 
   it('is a regular elixir troop targeting ground with splash damage', () => {
@@ -101,6 +101,21 @@ describe('balloon()', () => {
     levels.forEach((lvl) => {
       expect(lvl.images.normal).toBeTruthy();
     });
+  });
+
+  it('level 13: 1,360 HP, DPS 326, DPH 978, death 425, 28M Elixir / 14d 18h, TH18, Lab 16', () => {
+    const lvl = home().troops().balloon().first()!.levels[12];
+    expect(lvl.level).toBe(13);
+    expect(lvl.hitpoints).toBe(1360);
+    expect(lvl.stats.normal.dps).toBe(326);
+    expect(lvl.stats.normal.damagePerShot).toBe(978);
+    expect(lvl.stats.normal.deathDamage).toBe(425);
+    expect(lvl.researchCost).toBe(28000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 14, hours: 18, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-13.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {
