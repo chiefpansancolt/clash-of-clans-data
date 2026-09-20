@@ -17,8 +17,8 @@ describe('giantBomb()', () => {
     expect(home().traps().giantBomb().first()!.size).toBe('2x2');
   });
 
-  it('has 11 levels', () => {
-    expect(home().traps().giantBomb().first()!.levels).toHaveLength(11);
+  it('has 12 levels', () => {
+    expect(home().traps().giantBomb().first()!.levels).toHaveLength(12);
   });
 
   it('constants: triggerRadius 2, splash, ground', () => {
@@ -59,6 +59,17 @@ describe('giantBomb()', () => {
     expect(l11.buildTime).toEqual({ days: 4, hours: 0, minutes: 0, seconds: 0 });
     expect(l11.xpGained).toBe(657);
     expect(l11.townHallRequired).toBe(17);
+  });
+
+  it('level 12 stats', () => {
+    const l12 = home().traps().giantBomb().first()!.levels[11];
+    expect(l12.level).toBe(12);
+    expect(l12.damage).toBe(490);
+    expect(l12.damageRadius).toBe(4.2);
+    expect(l12.buildCost).toBe(17000000);
+    expect(l12.buildTime).toEqual({ days: 10, hours: 12, minutes: 0, seconds: 0 });
+    expect(l12.xpGained).toBe(952);
+    expect(l12.townHallRequired).toBe(18);
   });
 
   it('all levels use Gold', () => {

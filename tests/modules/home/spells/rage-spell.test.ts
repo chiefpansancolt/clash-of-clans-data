@@ -9,8 +9,8 @@ describe('rageSpell()', () => {
     expect(s.name).toBe('Rage Spell');
   });
 
-  it('has 6 levels', () => {
-    expect(home().spells().rageSpell().first()!.levels).toHaveLength(6);
+  it('has 7 levels', () => {
+    expect(home().spells().rageSpell().first()!.levels).toHaveLength(7);
   });
 
   it('is a regular spell', () => {
@@ -81,6 +81,18 @@ describe('rageSpell()', () => {
     expect(lvl.townHallRequired).toBe(12);
     expect(lvl.researchCost).toBe(5000000);
     expect(lvl.researchTime).toEqual({ days: 4, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 7: Lab 16, TH18, 190% damage, speed 32, 26M Elixir, 14d', () => {
+    const lvl = home().spells().rageSpell().first()!.levels[6];
+    expect(lvl.level).toBe(7);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.damageIncrease).toBe(190);
+    expect(lvl.speedIncrease).toBe(32);
+    expect(lvl.researchCost).toBe(26000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 14, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('returns a HomeVillageSpells instance', () => {

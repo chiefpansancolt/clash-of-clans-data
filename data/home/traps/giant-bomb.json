@@ -207,6 +207,24 @@
       "images": {
         "normal": "images/home/traps/giant-bomb/normal/level-11.png"
       }
+    },
+    {
+      "level": 12,
+      "damage": 490,
+      "damageRadius": 4.2,
+      "buildCost": 17000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 10,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 952,
+      "townHallRequired": 18,
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-12.png"
+      }
     }
   ],
   "availablePerTownHall": [

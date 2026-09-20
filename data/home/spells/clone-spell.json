@@ -131,6 +131,20 @@
         "minutes": 0,
         "seconds": 0
       }
+    },
+    {
+      "level": 9,
+      "clonedCapacity": 48,
+      "laboratoryRequired": 16,
+      "townHallRequired": 18,
+      "researchCost": 26000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 13,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

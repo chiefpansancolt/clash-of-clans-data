@@ -9,8 +9,8 @@ describe('goblin()', () => {
     expect(g.name).toBe('Goblin');
   });
 
-  it('has 9 levels', () => {
-    expect(home().troops().goblin().first()!.levels).toHaveLength(9);
+  it('has 10 levels', () => {
+    expect(home().troops().goblin().first()!.levels).toHaveLength(10);
   });
 
   it('is a regular elixir troop targeting ground', () => {
@@ -91,6 +91,20 @@ describe('goblin()', () => {
     levels.forEach((lvl) => {
       expect(lvl.images.normal).toBeTruthy();
     });
+  });
+
+  it('level 10: 166 HP, DPS 82, DPH 82, 26M Elixir / 14d, TH18, Lab 16', () => {
+    const lvl = home().troops().goblin().first()!.levels[9];
+    expect(lvl.level).toBe(10);
+    expect(lvl.hitpoints).toBe(166);
+    expect(lvl.stats.normal.dps).toBe(82);
+    expect(lvl.stats.normal.damagePerShot).toBe(82);
+    expect(lvl.researchCost).toBe(26000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 14, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-10.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {

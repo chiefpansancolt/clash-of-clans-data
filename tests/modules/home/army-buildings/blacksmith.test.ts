@@ -8,8 +8,8 @@ describe('blacksmith()', () => {
     expect(result.name).toBe('Blacksmith');
   });
 
-  it('has 9 levels', () => {
-    expect(home().armyBuildings().blacksmith().first()!.levels).toHaveLength(9);
+  it('has 10 levels', () => {
+    expect(home().armyBuildings().blacksmith().first()!.levels).toHaveLength(10);
   });
 
   it('base is home', () => {
@@ -141,6 +141,33 @@ describe('blacksmith() levels', () => {
 
   it('level 9 townHallRequired is 16', () => {
     expect(home().armyBuildings().blacksmith().first()!.levels[8].townHallRequired).toBe(16);
+  });
+
+  it('level 10 unlocks Electro Fangs with 1,600 HP and TH17', () => {
+    const lvl = home().armyBuildings().blacksmith().first()!.levels[9];
+    expect(lvl.level).toBe(10);
+    expect(lvl.equipmentUnlocked).toBe('Electro Fangs');
+    expect(lvl.hitpoints).toBe(1600);
+    expect(lvl.townHallRequired).toBe(17);
+  });
+
+  it('level 10 ore capacity is 50000 / 5000 / 1000 and max equipment level is 18 / 27', () => {
+    const lvl = home().armyBuildings().blacksmith().first()!.levels[9];
+    expect(lvl.oreCapacity).toEqual({ shinyOre: 50000, glowyOre: 5000, starryOre: 1000 });
+    expect(lvl.maxEquipmentLevel).toEqual({ common: 18, epic: 27 });
+  });
+
+  it('level 10 costs 18,000,000 Elixir, takes 10d and gives 929 XP', () => {
+    const lvl = home().armyBuildings().blacksmith().first()!.levels[9];
+    expect(lvl.buildCost).toBe(18000000);
+    expect(lvl.buildCostResource).toBe('Elixir');
+    expect(lvl.buildTime).toEqual({ days: 10, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.xpGained).toBe(929);
+  });
+
+  it('levels 9 and 10 share the same image', () => {
+    const levels = home().armyBuildings().blacksmith().first()!.levels;
+    expect(levels[8].images.normal).toBe(levels[9].images.normal);
   });
 
   it('all levels have a normal image', () => {

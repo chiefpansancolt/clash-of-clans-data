@@ -9,8 +9,8 @@ describe('freezeSpell()', () => {
     expect(s.name).toBe('Freeze Spell');
   });
 
-  it('has 7 levels', () => {
-    expect(home().spells().freezeSpell().first()!.levels).toHaveLength(7);
+  it('has 8 levels', () => {
+    expect(home().spells().freezeSpell().first()!.levels).toHaveLength(8);
   });
 
   it('is a regular spell', () => {
@@ -76,6 +76,17 @@ describe('freezeSpell()', () => {
     expect(lvl.townHallRequired).toBe(12);
     expect(lvl.researchCost).toBe(7000000);
     expect(lvl.researchTime).toEqual({ days: 5, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 8: Lab 16, TH18, 6s duration, 28M Elixir, 15d 12h', () => {
+    const lvl = home().spells().freezeSpell().first()!.levels[7];
+    expect(lvl.level).toBe(8);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.spellDuration).toBe(6);
+    expect(lvl.researchCost).toBe(28000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 15, hours: 12, minutes: 0, seconds: 0 });
   });
 
   it('returns a HomeVillageSpells instance', () => {

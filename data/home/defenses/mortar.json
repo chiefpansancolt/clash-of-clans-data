@@ -583,6 +583,54 @@
         "gearedUpNormal": "images/home/defenses/mortar/geared-up-normal/level-18.png",
         "gearedUpBurst": "images/home/defenses/mortar/geared-up-burst/level-18.png"
       }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 2550,
+      "buildCost": 9000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 509,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 75,
+          "damagePerShot": 375
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-18.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 2625,
+      "buildCost": 7000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 720,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 75,
+          "damagePerShot": 375
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/mortar/normal/level-18.png"
+      }
     }
   ]
 }

@@ -8,8 +8,8 @@ describe('infernoTower()', () => {
     expect(result.name).toBe('Inferno Tower');
   });
 
-  it('has 12 levels', () => {
-    expect(home().defenses().infernoTower().first()!.levels).toHaveLength(12);
+  it('has 14 levels', () => {
+    expect(home().defenses().infernoTower().first()!.levels).toHaveLength(14);
   });
 
   it('level 1 has correct hitpoints', () => {
@@ -101,12 +101,13 @@ describe('infernoTower()', () => {
     expect(home().defenses().infernoTower().first()!.levels[0].xpGained).toBe(207);
   });
 
-  it('xpGained increases with level', () => {
+  it('xpGained increases with regular levels', () => {
     const xp = home()
       .defenses()
       .infernoTower()
       .first()!
-      .levels.map((l) => l.xpGained);
+      .levels.filter((l) => !l.supercharge)
+      .map((l) => l.xpGained);
     for (let i = 0; i < xp.length - 1; i++) {
       expect(xp[i + 1]).toBeGreaterThanOrEqual(xp[i]);
     }
@@ -180,5 +181,43 @@ describe('HomeVillageDefenses with inferno tower', () => {
 
   it('hasGearUp does not include inferno tower', () => {
     expect(home().defenses().hasGearUp().findByName('Inferno Tower')).toBeUndefined();
+  });
+
+  it('has 2 supercharge levels at TH18', () => {
+    const sc = home()
+      .defenses()
+      .infernoTower()
+      .first()!
+      .levels.filter((l) => l.supercharge);
+    expect(sc).toHaveLength(2);
+    sc.forEach((l) => expect(l.townHallRequired).toBe(18));
+  });
+
+  it('supercharge 1: 5,100 HP, 13,000,000 Gold, 5d, 657 XP, max dps 3,500', () => {
+    const l = home().defenses().infernoTower().first()!.levels[12];
+    expect(l.level).toBe(1);
+    expect(l.supercharge).toBe(true);
+    expect(l.hitpoints).toBe(5100);
+    expect(l.buildCost).toBe(13000000);
+    expect(l.buildCostResource).toBe('Gold');
+    expect(l.buildTime).toEqual({ days: 5, hours: 0, minutes: 0, seconds: 0 });
+    expect(l.xpGained).toBe(657);
+    expect(l.stats.normal.dps).toBe(3500);
+    expect(l.stats.normal.damagePerShot).toBe(448);
+    expect(l.stats.normal.dpsInitial).toBe(165);
+    expect(l.stats.normal.dpsAfter1p5s).toBe(350);
+    expect(l.stats.multiTarget!.dps).toBe(165);
+    expect(l.stats.multiTarget!.damagePerShot).toBe(21.12);
+    expect(l.stats.multiTarget!.numberOfTargets).toBe(6);
+  });
+
+  it('supercharge 2: 5,300 HP, 8,500,000 Gold, 7d, 777 XP', () => {
+    const l = home().defenses().infernoTower().first()!.levels[13];
+    expect(l.level).toBe(2);
+    expect(l.supercharge).toBe(true);
+    expect(l.hitpoints).toBe(5300);
+    expect(l.buildCost).toBe(8500000);
+    expect(l.buildTime).toEqual({ days: 7, hours: 0, minutes: 0, seconds: 0 });
+    expect(l.xpGained).toBe(777);
   });
 });

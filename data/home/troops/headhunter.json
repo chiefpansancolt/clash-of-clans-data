@@ -103,6 +103,33 @@
       "images": {
         "normal": "images/home/troops/headhunter/normal/level-3.png"
       }
+    },
+    {
+      "level": 4,
+      "hitpoints": 500,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 370000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 15,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "poisonMaxDps": 300,
+      "poisonSpeedDecrease": 46,
+      "poisonAttackRateDecrease": 68,
+      "stats": {
+        "normal": {
+          "dps": 135,
+          "damagePerShot": 81,
+          "dpsOnHeroes": 540
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/headhunter/normal/level-4.png"
+      }
     }
   ]
 }

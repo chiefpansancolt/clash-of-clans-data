@@ -8,8 +8,8 @@ describe('revengeTower()', () => {
     expect(result.name).toBe('Revenge Tower');
   });
 
-  it('has 2 levels', () => {
-    expect(home().defenses().revengeTower().first()!.levels).toHaveLength(2);
+  it('has 4 levels', () => {
+    expect(home().defenses().revengeTower().first()!.levels).toHaveLength(4);
   });
 
   it('targets both ground and air', () => {
@@ -206,14 +206,45 @@ describe('revengeTower() levels', () => {
     ).toBe(90);
   });
 
-  it('has no supercharge levels', () => {
-    expect(
-      home()
-        .defenses()
-        .revengeTower()
-        .first()!
-        .levels.every((l) => !l.supercharge),
-    ).toBe(true);
+  it('has 2 regular levels and 2 supercharge levels', () => {
+    const levels = home().defenses().revengeTower().first()!.levels;
+    expect(levels.filter((l) => !l.supercharge)).toHaveLength(2);
+    expect(levels.filter((l) => l.supercharge)).toHaveLength(2);
+  });
+
+  it('supercharge 1: 6,200 HP, 220,000 Dark Elixir, 7d, 777 XP, TH18', () => {
+    const l = home().defenses().revengeTower().first()!.levels[2];
+    expect(l.level).toBe(1);
+    expect(l.supercharge).toBe(true);
+    expect(l.hitpoints).toBe(6200);
+    expect(l.buildCost).toBe(220000);
+    expect(l.buildCostResource).toBe('Dark Elixir');
+    expect(l.buildTime).toEqual({ days: 7, hours: 0, minutes: 0, seconds: 0 });
+    expect(l.xpGained).toBe(777);
+    expect(l.townHallRequired).toBe(18);
+  });
+
+  it('supercharge 2: 6,300 HP, 200,000 Dark Elixir, 8d, 831 XP, TH18', () => {
+    const l = home().defenses().revengeTower().first()!.levels[3];
+    expect(l.level).toBe(2);
+    expect(l.supercharge).toBe(true);
+    expect(l.hitpoints).toBe(6300);
+    expect(l.buildCost).toBe(200000);
+    expect(l.buildTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
+    expect(l.xpGained).toBe(831);
+    expect(l.townHallRequired).toBe(18);
+  });
+
+  it('supercharge stage stats: stage1 425/510, stage2 433/260/156, stage3 742/260/156/93.6', () => {
+    const s = home().defenses().revengeTower().first()!.levels[2].stats;
+    expect(s.stage1!.dps).toBe(425);
+    expect(s.stage1!.damagePerShot).toBe(510);
+    expect(s.stage2!.dps).toBe(433);
+    expect(s.stage2!.damagePerShot).toBe(260);
+    expect(s.stage2!.secondaryChainDamagePerShot).toBe(156);
+    expect(s.stage3!.dps).toBe(742);
+    expect(s.stage3!.secondaryChainDamagePerShot).toBe(156);
+    expect(s.stage3!.tertiaryChainDamagePerShot).toBe(93.6);
   });
 
   it('all levels have a normal image', () => {
