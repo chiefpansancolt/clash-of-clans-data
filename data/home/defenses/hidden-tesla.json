@@ -417,7 +417,7 @@
       "buildCost": 15000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 9,
+        "days": 7,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -451,6 +451,54 @@
         "normal": {
           "dps": 190,
           "damagePerShot": 114
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/hidden-tesla/normal/level-17.png"
+      }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 1750,
+      "buildCost": 12000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 4,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 623,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 195,
+          "damagePerShot": 117
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/hidden-tesla/normal/level-17.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 1800,
+      "buildCost": 8000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 6,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 749,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 195,
+          "damagePerShot": 117
         }
       },
       "images": {

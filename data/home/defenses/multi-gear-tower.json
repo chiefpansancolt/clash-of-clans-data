@@ -39,7 +39,7 @@
       "buildCost": 17000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 10,
+        "days": 8,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -67,8 +67,8 @@
       "buildCost": 18000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 10,
-        "hours": 18,
+        "days": 9,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },

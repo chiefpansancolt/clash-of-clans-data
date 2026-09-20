@@ -9,8 +9,8 @@ describe('cloneSpell()', () => {
     expect(s.name).toBe('Clone Spell');
   });
 
-  it('has 8 levels', () => {
-    expect(home().spells().cloneSpell().first()!.levels).toHaveLength(8);
+  it('has 9 levels', () => {
+    expect(home().spells().cloneSpell().first()!.levels).toHaveLength(9);
   });
 
   it('is a regular spell', () => {
@@ -75,6 +75,17 @@ describe('cloneSpell()', () => {
     expect(lvl.townHallRequired).toBe(15);
     expect(lvl.researchCost).toBe(9000000);
     expect(lvl.researchTime).toEqual({ days: 7, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 9: Lab 16, TH18, cloned capacity 48, 26M Elixir, 13d 12h', () => {
+    const lvl = home().spells().cloneSpell().first()!.levels[8];
+    expect(lvl.level).toBe(9);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.clonedCapacity).toBe(48);
+    expect(lvl.researchCost).toBe(26000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 13, hours: 12, minutes: 0, seconds: 0 });
   });
 
   it('returns a HomeVillageSpells instance', () => {

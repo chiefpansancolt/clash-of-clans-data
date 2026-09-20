@@ -20,8 +20,8 @@ describe('airBombs()', () => {
     expect(home().craftedDefenses().airBombs().first()!.craftingPhase).toBe(3);
   });
 
-  it('isCurrent is true', () => {
-    expect(home().craftedDefenses().airBombs().first()!.isCurrent).toBe(true);
+  it('isCurrent is false', () => {
+    expect(home().craftedDefenses().airBombs().first()!.isCurrent).toBe(false);
   });
 
   it('targetType is air', () => {
@@ -130,12 +130,12 @@ describe('airBombs() integration with homeCraftedDefenses()', () => {
     expect(home().craftedDefenses().byPhase(3).find('air-bombs')).toBeDefined();
   });
 
-  it('is found by current()', () => {
-    expect(home().craftedDefenses().current().find('air-bombs')).toBeDefined();
+  it('is found by former()', () => {
+    expect(home().craftedDefenses().former().find('air-bombs')).toBeDefined();
   });
 
-  it('is not found by former()', () => {
-    expect(home().craftedDefenses().former().find('air-bombs')).toBeUndefined();
+  it('is not found by current()', () => {
+    expect(home().craftedDefenses().current().find('air-bombs')).toBeUndefined();
   });
 
   it('is found by byTargetType("air")', () => {

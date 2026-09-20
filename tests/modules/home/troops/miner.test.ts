@@ -95,13 +95,13 @@ describe('miner()', () => {
     expect(lvl.hitpoints).toBe(1000);
   });
 
-  it('level 11: Lab 15 (TH17), 16.5M / 9d 20h, DPS 175, HP 1750', () => {
+  it('level 11: Lab 15 (TH17), 16.5M / 9d 12h, DPS 175, HP 1750', () => {
     const lvl = home().troops().miner().first()!.levels[10];
     expect(lvl.level).toBe(11);
     expect(lvl.laboratoryRequired).toBe(15);
     expect(lvl.townHallRequired).toBe(17);
     expect(lvl.researchCost).toBe(16500000);
-    expect(lvl.researchTime).toEqual({ days: 9, hours: 20, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 9, hours: 12, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.dps).toBe(175);
     expect(lvl.hitpoints).toBe(1750);
   });

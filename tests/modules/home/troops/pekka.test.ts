@@ -67,7 +67,7 @@ describe('pekka()', () => {
     expect(lvl.researchTime).toEqual({ days: 0, hours: 12, minutes: 0, seconds: 0 });
   });
 
-  it('level 4: Lab 7 (TH9), DPS 360, DPH 648, HP 4500, 2M / 1d 12h', () => {
+  it('level 4: Lab 7 (TH9), DPS 360, DPH 648, HP 4500, 2M / 1d', () => {
     const lvl = home().troops().pekka().first()!.levels[3];
     expect(lvl.level).toBe(4);
     expect(lvl.laboratoryRequired).toBe(7);
@@ -76,13 +76,13 @@ describe('pekka()', () => {
     expect(lvl.stats.normal.damagePerShot).toBe(648);
     expect(lvl.hitpoints).toBe(4500);
     expect(lvl.researchCost).toBe(2000000);
-    expect(lvl.researchTime).toEqual({ days: 1, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 1, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 5: 1d 16h research time', () => {
+  it('level 5: 1d 12h research time', () => {
     const lvl = home().troops().pekka().first()!.levels[4];
     expect(lvl.level).toBe(5);
-    expect(lvl.researchTime).toEqual({ days: 1, hours: 16, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 1, hours: 12, minutes: 0, seconds: 0 });
   });
 
   it('levels 5 and 6 both require Lab 8 (TH10)', () => {

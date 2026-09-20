@@ -9,8 +9,8 @@ describe('logLauncher()', () => {
     expect(m.name).toBe('Log Launcher');
   });
 
-  it('has 5 levels', () => {
-    expect(home().siegeMachines().logLauncher().first()!.levels).toHaveLength(5);
+  it('has 6 levels', () => {
+    expect(home().siegeMachines().logLauncher().first()!.levels).toHaveLength(6);
   });
 
   it('is a siege-machine in home base', () => {
@@ -78,6 +78,22 @@ describe('logLauncher()', () => {
     expect(lvl.townHallRequired).toBe(16);
     expect(lvl.researchCost).toBe(18000000);
     expect(lvl.researchTime).toEqual({ days: 12, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 6: DPS 230, DPH 690, vs walls 2760, HP 5800, Lab 16, TH18, 27,000,000 Elixir, 15d', () => {
+    const lvl = home().siegeMachines().logLauncher().first()!.levels[5];
+    expect(lvl.level).toBe(6);
+    expect(lvl.damagePerSecond).toBe(230);
+    expect(lvl.damagePerHit).toBe(690);
+    expect(lvl.damageVsWalls).toBe(2760);
+    expect(lvl.pointBlankDamage).toBe(3600);
+    expect(lvl.lifetime).toBe(37.17);
+    expect(lvl.hitpoints).toBe(5800);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.researchCost).toBe(27000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 15, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('all levels have normal images', () => {

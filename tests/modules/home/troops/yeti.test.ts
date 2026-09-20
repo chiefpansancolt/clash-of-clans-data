@@ -8,8 +8,8 @@ describe('yeti()', () => {
     expect(y.name).toBe('Yeti');
   });
 
-  it('has 7 levels', () => {
-    expect(home().troops().yeti().first()!.levels).toHaveLength(7);
+  it('has 8 levels', () => {
+    expect(home().troops().yeti().first()!.levels).toHaveLength(8);
   });
 
   it('is a regular single-target troop targeting ground', () => {
@@ -85,7 +85,21 @@ describe('yeti()', () => {
   it('all levels have unique sprites', () => {
     const levels = home().troops().yeti().first()!.levels;
     const paths = levels.map((l) => l.images.normal);
-    expect(new Set(paths).size).toBe(7);
+    expect(new Set(paths).size).toBe(8);
+  });
+
+  it('level 8: 4,650 HP, DPS 380, DPH 380, 27.5M Elixir / 15d 12h, TH18, Lab 16', () => {
+    const lvl = home().troops().yeti().first()!.levels[7];
+    expect(lvl.level).toBe(8);
+    expect(lvl.hitpoints).toBe(4650);
+    expect(lvl.stats.normal.dps).toBe(380);
+    expect(lvl.stats.normal.damagePerShot).toBe(380);
+    expect(lvl.researchCost).toBe(27500000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 15, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-8.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {

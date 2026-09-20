@@ -8,8 +8,8 @@ describe('golem()', () => {
     expect(g.name).toBe('Golem');
   });
 
-  it('has 14 levels', () => {
-    expect(home().troops().golem().first()!.levels).toHaveLength(14);
+  it('has 15 levels', () => {
+    expect(home().troops().golem().first()!.levels).toHaveLength(15);
   });
 
   it('is a dark single troop targeting ground', () => {
@@ -115,6 +115,22 @@ describe('golem()', () => {
     levels.forEach((lvl) => {
       expect(lvl.images.normal).toBeTruthy();
     });
+  });
+
+  it('level 15: 10,600 HP, DPS 120, DPH 288, death 1,050, 4 golemites, 350K Dark Elixir / 14d 12h, TH18, Lab 16', () => {
+    const lvl = home().troops().golem().first()!.levels[14];
+    expect(lvl.level).toBe(15);
+    expect(lvl.hitpoints).toBe(10600);
+    expect(lvl.stats.normal.dps).toBe(120);
+    expect(lvl.stats.normal.damagePerShot).toBe(288);
+    expect(lvl.stats.normal.deathDamage).toBe(1050);
+    expect(lvl.golemitesSpawned).toBe(4);
+    expect(lvl.researchCost).toBe(350000);
+    expect(lvl.researchCostResource).toBe('Dark Elixir');
+    expect(lvl.researchTime).toEqual({ days: 14, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-15.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {

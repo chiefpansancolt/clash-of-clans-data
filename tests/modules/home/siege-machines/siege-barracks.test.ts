@@ -72,17 +72,17 @@ describe('siegeBarracks()', () => {
     expect(lvl.researchTime).toEqual({ days: 12, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 6: 2 pekkas, 12 wizards, HP 5200, Lab 16, TH17, 26,000,000 Elixir, 13d 12h', () => {
+  it('level 6: 2 pekkas, 12 wizards, HP 5100, Lab 16, TH18, 27,000,000 Elixir, 15d', () => {
     const lvl = home().siegeMachines().siegeBarracks().first()!.levels[5];
     expect(lvl.level).toBe(6);
     expect(lvl.pekkasSpawned).toBe(2);
     expect(lvl.wizardsSpawned).toBe(12);
-    expect(lvl.hitpoints).toBe(5200);
+    expect(lvl.hitpoints).toBe(5100);
     expect(lvl.laboratoryRequired).toBe(16);
-    expect(lvl.townHallRequired).toBe(17);
-    expect(lvl.researchCost).toBe(26000000);
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.researchCost).toBe(27000000);
     expect(lvl.researchCostResource).toBe('Elixir');
-    expect(lvl.researchTime).toEqual({ days: 13, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 15, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('all levels have normal images', () => {

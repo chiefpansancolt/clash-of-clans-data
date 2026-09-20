@@ -8,8 +8,8 @@ describe('headhunter()', () => {
     expect(hh.name).toBe('Headhunter');
   });
 
-  it('has 3 levels', () => {
-    expect(home().troops().headhunter().first()!.levels).toHaveLength(3);
+  it('has 4 levels', () => {
+    expect(home().troops().headhunter().first()!.levels).toHaveLength(4);
   });
 
   it('is a dark single troop targeting ground', () => {
@@ -106,7 +106,25 @@ describe('headhunter()', () => {
   it('each level has a unique sprite', () => {
     const levels = home().troops().headhunter().first()!.levels;
     const paths = levels.map((l) => l.images.normal);
-    expect(new Set(paths).size).toBe(3);
+    expect(new Set(paths).size).toBe(4);
+  });
+
+  it('level 4: 500 HP, DPS 135, DPH 81, 540 on heroes, poison 300 / 46 / 68, 370K Dark Elixir / 15d 12h, TH18, Lab 16', () => {
+    const lvl = home().troops().headhunter().first()!.levels[3];
+    expect(lvl.level).toBe(4);
+    expect(lvl.hitpoints).toBe(500);
+    expect(lvl.stats.normal.dps).toBe(135);
+    expect(lvl.stats.normal.damagePerShot).toBe(81);
+    expect(lvl.stats.normal.dpsOnHeroes).toBe(540);
+    expect(lvl.poisonMaxDps).toBe(300);
+    expect(lvl.poisonSpeedDecrease).toBe(46);
+    expect(lvl.poisonAttackRateDecrease).toBe(68);
+    expect(lvl.researchCost).toBe(370000);
+    expect(lvl.researchCostResource).toBe('Dark Elixir');
+    expect(lvl.researchTime).toEqual({ days: 15, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-4.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {

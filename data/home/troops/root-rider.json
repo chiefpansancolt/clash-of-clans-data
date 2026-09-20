@@ -103,6 +103,33 @@
       "images": {
         "normal": "images/home/troops/root-rider/normal/level-3.png"
       }
+    },
+    {
+      "level": 4,
+      "hitpoints": 6700,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 30000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 16,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 125,
+          "damagePerShot": 275
+        },
+        "wall": {
+          "dps": 10000,
+          "damagePerShot": 4000
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/root-rider/normal/level-4.png"
+      }
     }
   ]
 }

@@ -9,8 +9,8 @@ describe('iceBlockSpell()', () => {
     expect(s.name).toBe('Ice Block Spell');
   });
 
-  it('has 5 levels', () => {
-    expect(home().spells().iceBlockSpell().first()!.levels).toHaveLength(5);
+  it('has 6 levels', () => {
+    expect(home().spells().iceBlockSpell().first()!.levels).toHaveLength(6);
   });
 
   it('is a dark spell', () => {
@@ -55,7 +55,7 @@ describe('iceBlockSpell()', () => {
     expect(lvl.researchTime).toEqual({ days: 11, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 5: incomingDamageReduction 94, Lab 15, TH17, 320000 Dark Elixir, 16d', () => {
+  it('level 5: incomingDamageReduction 94, Lab 15, TH17, 320000 Dark Elixir, 14d', () => {
     const lvl = home().spells().iceBlockSpell().first()!.levels[4];
     expect(lvl.level).toBe(5);
     expect(lvl.incomingDamageReduction).toBe(94);
@@ -63,6 +63,18 @@ describe('iceBlockSpell()', () => {
     expect(lvl.laboratoryRequired).toBe(15);
     expect(lvl.townHallRequired).toBe(17);
     expect(lvl.researchCost).toBe(320000);
+    expect(lvl.researchTime).toEqual({ days: 14, hours: 0, minutes: 0, seconds: 0 });
+  });
+
+  it('level 6: Lab 16, TH18, damage reduction 96, 7s duration, 380000 Dark Elixir, 16d', () => {
+    const lvl = home().spells().iceBlockSpell().first()!.levels[5];
+    expect(lvl.level).toBe(6);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.incomingDamageReduction).toBe(96);
+    expect(lvl.spellDuration).toBe(7);
+    expect(lvl.researchCost).toBe(380000);
+    expect(lvl.researchCostResource).toBe('Dark Elixir');
     expect(lvl.researchTime).toEqual({ days: 16, hours: 0, minutes: 0, seconds: 0 });
   });
 

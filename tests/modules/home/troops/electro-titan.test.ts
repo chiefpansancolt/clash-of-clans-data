@@ -55,14 +55,14 @@ describe('electroTitan()', () => {
     expect(lvl.townHallRequired).toBe(14);
   });
 
-  it('level 2: Lab 12 (TH14), 14M / 9d, DPS 200, aura DPS 100, HP 7700', () => {
+  it('level 2: Lab 12 (TH14), 14M / 8d, DPS 200, aura DPS 100, HP 7700', () => {
     const lvl = home().troops().electroTitan().first()!.levels[1];
     expect(lvl.level).toBe(2);
     expect(lvl.laboratoryRequired).toBe(12);
     expect(lvl.townHallRequired).toBe(14);
     expect(lvl.researchCost).toBe(14000000);
     expect(lvl.researchCostResource).toBe('Elixir');
-    expect(lvl.researchTime).toEqual({ days: 9, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.dps).toBe(200);
     expect(lvl.stats.aura!.dps).toBe(100);
     expect(lvl.hitpoints).toBe(7700);

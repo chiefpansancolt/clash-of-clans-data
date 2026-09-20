@@ -6,8 +6,8 @@ describe('homeCraftedDefenses()', () => {
     expect(home().craftedDefenses()).toBeInstanceOf(HomeVillageCraftedDefenses);
   });
 
-  it('has 9 defenses (Phase 1 + Phase 2 + Phase 3)', () => {
-    expect(home().craftedDefenses().count()).toBe(9);
+  it('has 12 defenses (Phase 1 + Phase 2 + Phase 3 + Phase 4)', () => {
+    expect(home().craftedDefenses().count()).toBe(12);
   });
 
   it('byPhase() returns a HomeVillageCraftedDefenses', () => {

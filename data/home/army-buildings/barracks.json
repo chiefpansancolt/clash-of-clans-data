@@ -412,8 +412,8 @@
       "buildCost": 26000000,
       "buildCostResource": "Elixir",
       "buildTime": {
-        "days": 14,
-        "hours": 0,
+        "days": 10,
+        "hours": 12,
         "minutes": 0,
         "seconds": 0
       },

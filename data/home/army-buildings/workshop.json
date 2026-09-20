@@ -232,6 +232,25 @@
       "images": {
         "normal": "images/home/army-buildings/workshop/normal/level-8.png"
       }
+    },
+    {
+      "level": 9,
+      "unlockedSiegeMachine": "Sky Wagon",
+      "siegeMachineCapacity": 3,
+      "hitpoints": 1800,
+      "buildCost": 26000000,
+      "buildCostResource": "Elixir",
+      "buildTime": {
+        "days": 13,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 1080,
+      "townHallRequired": 17,
+      "images": {
+        "normal": "images/home/army-buildings/workshop/normal/level-9.png"
+      }
     }
   ]
 }

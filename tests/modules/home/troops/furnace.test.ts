@@ -55,36 +55,36 @@ describe('furnace()', () => {
     expect(lvl.townHallRequired).toBe(15);
   });
 
-  it('level 2: Lab 13 (TH15), 200000 Dark Elixir / 12d, 20 firemites, HP 1620', () => {
+  it('level 2: Lab 13 (TH15), 200000 Dark Elixir / 9d, 20 firemites, HP 1620', () => {
     const lvl = home().troops().furnace().first()!.levels[1];
     expect(lvl.level).toBe(2);
     expect(lvl.laboratoryRequired).toBe(13);
     expect(lvl.townHallRequired).toBe(15);
     expect(lvl.researchCost).toBe(200000);
     expect(lvl.researchCostResource).toBe('Dark Elixir');
-    expect(lvl.researchTime).toEqual({ days: 12, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 9, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.firemitesSpawned).toBe(20);
     expect(lvl.hitpoints).toBe(1620);
   });
 
-  it('level 3: Lab 14 (TH16), 260000 Dark Elixir / 14d, 21 firemites, HP 1710', () => {
+  it('level 3: Lab 14 (TH16), 260000 Dark Elixir / 11d, 21 firemites, HP 1710', () => {
     const lvl = home().troops().furnace().first()!.levels[2];
     expect(lvl.level).toBe(3);
     expect(lvl.laboratoryRequired).toBe(14);
     expect(lvl.townHallRequired).toBe(16);
     expect(lvl.researchCost).toBe(260000);
-    expect(lvl.researchTime).toEqual({ days: 14, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 11, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.firemitesSpawned).toBe(21);
     expect(lvl.hitpoints).toBe(1710);
   });
 
-  it('level 4: Lab 15 (TH17), 320000 Dark Elixir / 16d, 22 firemites, HP 1800', () => {
+  it('level 4: Lab 15 (TH17), 320000 Dark Elixir / 15d, 22 firemites, HP 1800', () => {
     const lvl = home().troops().furnace().first()!.levels[3];
     expect(lvl.level).toBe(4);
     expect(lvl.laboratoryRequired).toBe(15);
     expect(lvl.townHallRequired).toBe(17);
     expect(lvl.researchCost).toBe(320000);
-    expect(lvl.researchTime).toEqual({ days: 16, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 15, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.firemitesSpawned).toBe(22);
     expect(lvl.hitpoints).toBe(1800);
   });

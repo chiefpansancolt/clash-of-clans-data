@@ -8,8 +8,8 @@ describe('rootRider()', () => {
     expect(rr.name).toBe('Root Rider');
   });
 
-  it('has 3 levels', () => {
-    expect(home().troops().rootRider().first()!.levels).toHaveLength(3);
+  it('has 4 levels', () => {
+    expect(home().troops().rootRider().first()!.levels).toHaveLength(4);
   });
 
   it('is a regular single-target troop targeting ground', () => {
@@ -88,11 +88,27 @@ describe('rootRider()', () => {
   it('all levels have unique sprites', () => {
     const levels = home().troops().rootRider().first()!.levels;
     const paths = levels.map((l) => l.images.normal);
-    expect(new Set(paths).size).toBe(3);
+    expect(new Set(paths).size).toBe(4);
   });
 
   it('has no super troop', () => {
     expect(home().troops().rootRider().first()!.superTroop).toBeUndefined();
+  });
+
+  it('level 4: 6,700 HP, DPS 125, DPH 275, wall 10,000 / 4,000, 30M Elixir / 16d, TH18, Lab 16', () => {
+    const lvl = home().troops().rootRider().first()!.levels[3];
+    expect(lvl.level).toBe(4);
+    expect(lvl.hitpoints).toBe(6700);
+    expect(lvl.stats.normal.dps).toBe(125);
+    expect(lvl.stats.normal.damagePerShot).toBe(275);
+    expect(lvl.stats.wall!.dps).toBe(10000);
+    expect(lvl.stats.wall!.damagePerShot).toBe(4000);
+    expect(lvl.researchCost).toBe(30000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 16, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-4.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {

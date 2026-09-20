@@ -55,7 +55,7 @@
       "researchCost": 8000000,
       "researchCostResource": "Elixir",
       "researchTime": {
-        "days": 8,
+        "days": 7,
         "hours": 12,
         "minutes": 0,
         "seconds": 0
@@ -69,8 +69,8 @@
       "researchCost": 9000000,
       "researchCostResource": "Elixir",
       "researchTime": {
-        "days": 9,
-        "hours": 12,
+        "days": 8,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       }
@@ -83,8 +83,8 @@
       "researchCost": 13000000,
       "researchCostResource": "Elixir",
       "researchTime": {
-        "days": 11,
-        "hours": 12,
+        "days": 9,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       }
@@ -97,8 +97,22 @@
       "researchCost": 19000000,
       "researchCostResource": "Elixir",
       "researchTime": {
-        "days": 12,
-        "hours": 12,
+        "days": 11,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 7,
+      "recalledCapacity": 120,
+      "laboratoryRequired": 16,
+      "townHallRequired": 18,
+      "researchCost": 29000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 16,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       }

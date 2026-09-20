@@ -187,6 +187,91 @@
         "minutes": 0,
         "seconds": 0
       }
+    },
+    {
+      "level": 11,
+      "damagePerSecond": 155,
+      "damagePerHit": 170.5,
+      "stunDuration": 3,
+      "hitpoints": 5150,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 220000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 12,
+      "damagePerSecond": 160,
+      "damagePerHit": 176,
+      "stunDuration": 3,
+      "hitpoints": 5300,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 250000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 7,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 13,
+      "damagePerSecond": 165,
+      "damagePerHit": 181.5,
+      "stunDuration": 3,
+      "hitpoints": 5450,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 280000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 14,
+      "damagePerSecond": 170,
+      "damagePerHit": 187,
+      "stunDuration": 3,
+      "hitpoints": 5600,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 310000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 15,
+      "damagePerSecond": 175,
+      "damagePerHit": 192.5,
+      "stunDuration": 3.5,
+      "hitpoints": 5750,
+      "petHouseLevelRequired": 12,
+      "townHallRequired": 18,
+      "upgradeCost": 350000,
+      "upgradeCostResource": "Dark Elixir",
+      "upgradeTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
     }
   ]
 }

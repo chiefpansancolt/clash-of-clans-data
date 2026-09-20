@@ -228,6 +228,29 @@
       "images": {
         "normal": "images/home/troops/goblin/normal/level-9.png"
       }
+    },
+    {
+      "level": 10,
+      "hitpoints": 166,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 26000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 82,
+          "damagePerShot": 82
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/goblin/normal/level-10.png"
+      }
     }
   ],
   "superTroop": {

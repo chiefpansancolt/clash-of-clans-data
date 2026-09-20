@@ -172,9 +172,9 @@ describe('spellTower()', () => {
     expect(home().defenses().spellTower().first()!.levels[3].buildCost).toBe(27000000);
   });
 
-  it('level 4 build time is 14d', () => {
+  it('level 4 build time is 10d', () => {
     const bt = home().defenses().spellTower().first()!.levels[3].buildTime;
-    expect(bt.days).toBe(14);
+    expect(bt.days).toBe(10);
     expect(bt.hours).toBe(0);
   });
 

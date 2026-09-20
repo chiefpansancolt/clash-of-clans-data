@@ -53,14 +53,14 @@ describe('skeletonSpell()', () => {
     expect(lvl.researchTime).toEqual({ days: 2, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 8: skeletonsGenerated 19, Lab 13, TH15, 135000 Dark Elixir, 6d 12h', () => {
+  it('level 8: skeletonsGenerated 19, Lab 13, TH15, 135000 Dark Elixir, 6d', () => {
     const lvl = home().spells().skeletonSpell().first()!.levels[7];
     expect(lvl.level).toBe(8);
     expect(lvl.skeletonsGenerated).toBe(19);
     expect(lvl.laboratoryRequired).toBe(13);
     expect(lvl.townHallRequired).toBe(15);
     expect(lvl.researchCost).toBe(135000);
-    expect(lvl.researchTime).toEqual({ days: 6, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 6, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('has skeletonStats with correct values', () => {

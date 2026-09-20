@@ -77,10 +77,10 @@ describe('firespitter() levels', () => {
     expect(home().defenses().firespitter().first()!.levels[0].buildCostResource).toBe('Gold');
   });
 
-  it('level 1 buildTime is 11d', () => {
+  it('level 1 buildTime is 8d 12h', () => {
     expect(home().defenses().firespitter().first()!.levels[0].buildTime).toEqual({
-      days: 11,
-      hours: 0,
+      days: 8,
+      hours: 12,
       minutes: 0,
       seconds: 0,
     });
@@ -94,10 +94,10 @@ describe('firespitter() levels', () => {
     expect(home().defenses().firespitter().first()!.levels[0].townHallRequired).toBe(17);
   });
 
-  it('level 2 buildTime is 11d 12h', () => {
+  it('level 2 buildTime is 10d', () => {
     expect(home().defenses().firespitter().first()!.levels[1].buildTime).toEqual({
-      days: 11,
-      hours: 12,
+      days: 10,
+      hours: 0,
       minutes: 0,
       seconds: 0,
     });

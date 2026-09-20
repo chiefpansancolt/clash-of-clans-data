@@ -236,8 +236,8 @@
       "buildCost": 5000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 4,
-        "hours": 0,
+        "days": 3,
+        "hours": 12,
         "minutes": 0,
         "seconds": 0
       },
@@ -261,7 +261,7 @@
       "buildCostResource": "Gold",
       "buildTime": {
         "days": 4,
-        "hours": 12,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
@@ -285,7 +285,7 @@
       "buildCostResource": "Gold",
       "buildTime": {
         "days": 4,
-        "hours": 18,
+        "hours": 12,
         "minutes": 0,
         "seconds": 0
       },
@@ -332,7 +332,7 @@
       "buildCost": 14500000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 9,
+        "days": 7,
         "hours": 0,
         "minutes": 0,
         "seconds": 0

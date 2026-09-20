@@ -41,7 +41,7 @@ describe('reviveSpell()', () => {
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   });
 
-  it('level 2: Lab 13, TH15, 18M Elixir, 8d, heroHealPercent 65', () => {
+  it('level 2: Lab 13, TH15, 18M Elixir, 7d, heroHealPercent 65', () => {
     const lvl = home().spells().reviveSpell().first()!.levels[1];
     expect(lvl.level).toBe(2);
     expect(lvl.heroHealPercent).toBe(65);
@@ -49,7 +49,7 @@ describe('reviveSpell()', () => {
     expect(lvl.townHallRequired).toBe(15);
     expect(lvl.researchCost).toBe(18000000);
     expect(lvl.researchCostResource).toBe('Elixir');
-    expect(lvl.researchTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 7, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('level 4: Lab 15, TH17, 11d 12h, heroHealPercent 75', () => {

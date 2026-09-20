@@ -8,8 +8,8 @@ describe('monolith()', () => {
     expect(result.name).toBe('Monolith');
   });
 
-  it('has 5 levels', () => {
-    expect(home().defenses().monolith().first()!.levels).toHaveLength(5);
+  it('has 7 levels', () => {
+    expect(home().defenses().monolith().first()!.levels).toHaveLength(7);
   });
 
   it('targets both ground and air', () => {

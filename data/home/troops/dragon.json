@@ -99,7 +99,7 @@
       "researchCost": 3000000,
       "researchCostResource": "Elixir",
       "researchTime": {
-        "days": 3,
+        "days": 2,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -123,7 +123,7 @@
       "researchCostResource": "Elixir",
       "researchTime": {
         "days": 3,
-        "hours": 12,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
@@ -296,6 +296,29 @@
       },
       "images": {
         "normal": "images/home/troops/dragon/normal/level-12.png"
+      }
+    },
+    {
+      "level": 13,
+      "hitpoints": 6000,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 28500000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 15,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 430,
+          "damagePerShot": 537.5
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/dragon/normal/level-13.png"
       }
     }
   ],

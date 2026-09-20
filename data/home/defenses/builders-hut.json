@@ -287,8 +287,8 @@
       "buildCost": 15500000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 9,
-        "hours": 12,
+        "days": 7,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
@@ -326,6 +326,64 @@
         "normal": {
           "dps": 180,
           "damagePerShot": 72
+        },
+        "builder": {
+          "repairPerSecond": 95,
+          "repairPerHit": 71.25
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/builders-hut/normal/level-8.png",
+        "active": "images/home/defenses/builders-hut/active/level-8.png"
+      }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 2100,
+      "buildCost": 10000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 4,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 587,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 187,
+          "damagePerShot": 74.8
+        },
+        "builder": {
+          "repairPerSecond": 95,
+          "repairPerHit": 71.25
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/builders-hut/normal/level-8.png",
+        "active": "images/home/defenses/builders-hut/active/level-8.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 2150,
+      "buildCost": 8000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 6,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 720,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 187,
+          "damagePerShot": 74.8
         },
         "builder": {
           "repairPerSecond": 95,

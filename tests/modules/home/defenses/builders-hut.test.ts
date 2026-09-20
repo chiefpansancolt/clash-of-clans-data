@@ -8,8 +8,8 @@ describe('buildersHut()', () => {
     expect(result.name).toBe("Builder's Hut");
   });
 
-  it('has 8 levels', () => {
-    expect(home().defenses().buildersHut().first()!.levels).toHaveLength(8);
+  it('has 10 levels', () => {
+    expect(home().defenses().buildersHut().first()!.levels).toHaveLength(10);
   });
 
   it('targets both ground and air', () => {
@@ -188,10 +188,10 @@ describe('buildersHut()', () => {
     expect(home().defenses().buildersHut().first()!.levels[6].buildCost).toBe(15500000);
   });
 
-  it('level 7 build time is 9d 12h', () => {
+  it('level 7 build time is 7d', () => {
     const bt = home().defenses().buildersHut().first()!.levels[6].buildTime;
-    expect(bt.days).toBe(9);
-    expect(bt.hours).toBe(12);
+    expect(bt.days).toBe(7);
+    expect(bt.hours).toBe(0);
     expect(bt.minutes).toBe(0);
     expect(bt.seconds).toBe(0);
   });

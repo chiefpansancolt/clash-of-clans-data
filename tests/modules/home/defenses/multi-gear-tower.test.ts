@@ -113,9 +113,9 @@ describe('multiGearTower() levels', () => {
     expect(home().defenses().multiGearTower().first()!.levels[0].buildCostResource).toBe('Gold');
   });
 
-  it('level 1 buildTime is 10d', () => {
+  it('level 1 buildTime is 8d', () => {
     expect(home().defenses().multiGearTower().first()!.levels[0].buildTime).toEqual({
-      days: 10,
+      days: 8,
       hours: 0,
       minutes: 0,
       seconds: 0,
@@ -134,10 +134,10 @@ describe('multiGearTower() levels', () => {
     expect(home().defenses().multiGearTower().first()!.levels[0].supercharge).toBeFalsy();
   });
 
-  it('level 2 buildTime is 10d 18h', () => {
+  it('level 2 buildTime is 9d', () => {
     expect(home().defenses().multiGearTower().first()!.levels[1].buildTime).toEqual({
-      days: 10,
-      hours: 18,
+      days: 9,
+      hours: 0,
       minutes: 0,
       seconds: 0,
     });

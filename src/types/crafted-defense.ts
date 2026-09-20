@@ -8,6 +8,8 @@ export interface CraftedDefenseModuleUpgrade {
   buildTime: BuildTime;
   xpGained: number;
   sparkyStones: number;
+  /** Additional per-level values tied to this module (e.g. damage per hit, decay thresholds). */
+  extraStats?: Record<string, number>;
 }
 
 export interface CraftedDefenseModule {
@@ -32,6 +34,8 @@ export interface CraftedDefense {
   craftingPhase: number;
   isCurrent: boolean;
   targetType: 'ground' | 'air' | 'both';
+  /** Fixed stats that are not controlled by a module (e.g. range, attack speed, target counts). */
+  stats?: Record<string, string | number>;
   modules: [CraftedDefenseModule, CraftedDefenseModule, CraftedDefenseModule];
   images: CraftedDefenseImageEntry[];
 }

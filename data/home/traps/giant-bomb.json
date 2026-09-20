@@ -72,7 +72,7 @@
       "buildCostResource": "Gold",
       "buildTime": {
         "days": 0,
-        "hours": 8,
+        "hours": 4,
         "minutes": 0,
         "seconds": 0
       },
@@ -179,8 +179,8 @@
       "buildCost": 5500000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 4,
-        "hours": 0,
+        "days": 2,
+        "hours": 12,
         "minutes": 0,
         "seconds": 0
       },
@@ -197,7 +197,7 @@
       "buildCost": 10000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 5,
+        "days": 4,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -206,6 +206,24 @@
       "townHallRequired": 17,
       "images": {
         "normal": "images/home/traps/giant-bomb/normal/level-11.png"
+      }
+    },
+    {
+      "level": 12,
+      "damage": 490,
+      "damageRadius": 4.2,
+      "buildCost": 17000000,
+      "buildCostResource": "Gold",
+      "buildTime": {
+        "days": 10,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 952,
+      "townHallRequired": 18,
+      "images": {
+        "normal": "images/home/traps/giant-bomb/normal/level-12.png"
       }
     }
   ],

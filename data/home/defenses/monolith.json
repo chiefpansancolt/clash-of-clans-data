@@ -115,7 +115,7 @@
       "buildCost": 300000,
       "buildCostResource": "Dark Elixir",
       "buildTime": {
-        "days": 12,
+        "days": 11,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -150,6 +150,56 @@
         "normal": {
           "dps": 225,
           "damagePerShot": 337.5,
+          "bonusDamagePercent": 15
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/monolith/normal/level-5.png"
+      }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 5959,
+      "buildCost": 220000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": {
+        "days": 5,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 657,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 235,
+          "damagePerShot": 352.5,
+          "bonusDamagePercent": 15
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/monolith/normal/level-5.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 6161,
+      "buildCost": 200000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 777,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {
+          "dps": 235,
+          "damagePerShot": 352.5,
           "bonusDamagePercent": 15
         }
       },

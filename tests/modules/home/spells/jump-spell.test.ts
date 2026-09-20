@@ -67,14 +67,14 @@ describe('jumpSpell()', () => {
     expect(lvl.townHallRequired).toBe(10);
   });
 
-  it('level 5: Lab 13, TH15, 8M Elixir, 6d 12h, duration 100s', () => {
+  it('level 5: Lab 13, TH15, 8M Elixir, 5d, duration 100s', () => {
     const lvl = home().spells().jumpSpell().first()!.levels[4];
     expect(lvl.level).toBe(5);
     expect(lvl.spellDuration).toBe(100);
     expect(lvl.laboratoryRequired).toBe(13);
     expect(lvl.townHallRequired).toBe(15);
     expect(lvl.researchCost).toBe(8000000);
-    expect(lvl.researchTime).toEqual({ days: 6, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 5, hours: 0, minutes: 0, seconds: 0 });
   });
 
   it('returns a HomeVillageSpells instance', () => {

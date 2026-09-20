@@ -49,7 +49,7 @@
       "buildCost": 8000000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 6,
+        "days": 5,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -216,7 +216,7 @@
         "minutes": 0,
         "seconds": 0
       },
-      "townHallRequired": 17,
+      "townHallRequired": 18,
       "xpGained": 1138,
       "stats": {
         "normal": {

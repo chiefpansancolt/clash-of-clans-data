@@ -7,7 +7,7 @@
   "category": "crafted-defense",
   "size": "3x3",
   "craftingPhase": 3,
-  "isCurrent": true,
+  "isCurrent": false,
   "targetType": "both",
   "modules": [
     {

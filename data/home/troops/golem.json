@@ -331,7 +331,7 @@
       "researchCostResource": "Dark Elixir",
       "researchTime": {
         "days": 6,
-        "hours": 10,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
@@ -370,6 +370,31 @@
       },
       "images": {
         "normal": "images/home/troops/golem/normal/level-14.png"
+      }
+    },
+    {
+      "level": 15,
+      "hitpoints": 10600,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 350000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 14,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "golemitesSpawned": 4,
+      "stats": {
+        "normal": {
+          "dps": 120,
+          "damagePerShot": 288,
+          "deathDamage": 1050
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/golem/normal/level-15.png"
       }
     }
   ]

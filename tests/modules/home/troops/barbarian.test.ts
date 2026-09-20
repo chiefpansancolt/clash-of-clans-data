@@ -9,8 +9,8 @@ describe('barbarian()', () => {
     expect(b.name).toBe('Barbarian');
   });
 
-  it('has 12 levels', () => {
-    expect(home().troops().barbarian().first()!.levels).toHaveLength(12);
+  it('has 13 levels', () => {
+    expect(home().troops().barbarian().first()!.levels).toHaveLength(13);
   });
 
   it('is a regular elixir troop targeting ground', () => {
@@ -70,14 +70,14 @@ describe('barbarian()', () => {
     expect(lvl.townHallRequired).toBe(14);
   });
 
-  it('level 12 stats: DPS 48, DPH 48, HP 290, research 8M Elixir / 4d 12h', () => {
+  it('level 12 stats: DPS 48, DPH 48, HP 290, research 8M Elixir / 4d', () => {
     const lvl = home().troops().barbarian().first()!.levels[11];
     expect(lvl.level).toBe(12);
     expect(lvl.stats.normal.dps).toBe(48);
     expect(lvl.stats.normal.damagePerShot).toBe(48);
     expect(lvl.hitpoints).toBe(290);
     expect(lvl.researchCost).toBe(8000000);
-    expect(lvl.researchTime).toEqual({ days: 4, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 4, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(14);
     expect(lvl.townHallRequired).toBe(16);
   });
@@ -87,6 +87,20 @@ describe('barbarian()', () => {
     levels.forEach((lvl) => {
       expect(lvl.images.normal).toBeTruthy();
     });
+  });
+
+  it('level 13: 310 HP, DPS 51, DPH 51, 24M Elixir / 12d 12h, TH18, Lab 16', () => {
+    const lvl = home().troops().barbarian().first()!.levels[12];
+    expect(lvl.level).toBe(13);
+    expect(lvl.hitpoints).toBe(310);
+    expect(lvl.stats.normal.dps).toBe(51);
+    expect(lvl.stats.normal.damagePerShot).toBe(51);
+    expect(lvl.researchCost).toBe(24000000);
+    expect(lvl.researchCostResource).toBe('Elixir');
+    expect(lvl.researchTime).toEqual({ days: 12, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-13.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {

@@ -284,7 +284,7 @@
       "researchCostResource": "Elixir",
       "researchTime": {
         "days": 4,
-        "hours": 12,
+        "hours": 0,
         "minutes": 0,
         "seconds": 0
       },
@@ -296,6 +296,29 @@
       },
       "images": {
         "normal": "images/home/troops/barbarian/normal/level-12.png"
+      }
+    },
+    {
+      "level": 13,
+      "hitpoints": 310,
+      "townHallRequired": 18,
+      "laboratoryRequired": 16,
+      "researchCost": 24000000,
+      "researchCostResource": "Elixir",
+      "researchTime": {
+        "days": 12,
+        "hours": 12,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "stats": {
+        "normal": {
+          "dps": 51,
+          "damagePerShot": 51
+        }
+      },
+      "images": {
+        "normal": "images/home/troops/barbarian/normal/level-13.png"
       }
     }
   ],

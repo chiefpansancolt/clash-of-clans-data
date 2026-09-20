@@ -118,15 +118,15 @@
     },
     {
       "level": 6,
-      "damagePerSecond": 630,
-      "damagePerHit": 1071,
-      "hitpoints": 6800,
+      "damagePerSecond": 640,
+      "damagePerHit": 1088,
+      "hitpoints": 6900,
       "laboratoryRequired": 16,
-      "townHallRequired": 17,
-      "researchCost": 26000000,
+      "townHallRequired": 18,
+      "researchCost": 28000000,
       "researchCostResource": "Elixir",
       "researchTime": {
-        "days": 13,
+        "days": 15,
         "hours": 12,
         "minutes": 0,
         "seconds": 0

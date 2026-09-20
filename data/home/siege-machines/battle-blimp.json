@@ -127,7 +127,7 @@
       "damageWhenDestroyed": 1200,
       "hitpoints": 5500,
       "laboratoryRequired": 16,
-      "townHallRequired": 17,
+      "townHallRequired": 18,
       "researchCost": 26000000,
       "researchCostResource": "Elixir",
       "researchTime": {

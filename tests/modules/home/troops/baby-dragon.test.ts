@@ -53,14 +53,14 @@ describe('babyDragon()', () => {
     expect(lvl.townHallRequired).toBe(9);
   });
 
-  it('level 2: Lab 7 (TH9), 1.5M Elixir / 1d 6h', () => {
+  it('level 2: Lab 7 (TH9), 1.5M Elixir / 1d', () => {
     const lvl = home().troops().babyDragon().first()!.levels[1];
     expect(lvl.level).toBe(2);
     expect(lvl.laboratoryRequired).toBe(7);
     expect(lvl.townHallRequired).toBe(9);
     expect(lvl.researchCost).toBe(1500000);
     expect(lvl.researchCostResource).toBe('Elixir');
-    expect(lvl.researchTime).toEqual({ days: 1, hours: 6, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 1, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.dps).toBe(85);
     expect(lvl.hitpoints).toBe(1300);
   });

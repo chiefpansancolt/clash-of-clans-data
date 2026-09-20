@@ -90,9 +90,9 @@ describe('goldMine() levels', () => {
     expect(home().resourceBuildings().goldMine().first()!.levels[16].buildCost).toBe(8000000);
   });
 
-  it('level 17 buildTime is 4d', () => {
+  it('level 17 buildTime is 2d', () => {
     expect(home().resourceBuildings().goldMine().first()!.levels[16].buildTime).toEqual({
-      days: 4,
+      days: 2,
       hours: 0,
       minutes: 0,
       seconds: 0,

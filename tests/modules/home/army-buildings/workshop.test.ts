@@ -8,8 +8,8 @@ describe('workshop()', () => {
     expect(result.name).toBe('Workshop');
   });
 
-  it('has 8 levels', () => {
-    expect(home().armyBuildings().workshop().first()!.levels).toHaveLength(8);
+  it('has 9 levels', () => {
+    expect(home().armyBuildings().workshop().first()!.levels).toHaveLength(9);
   });
 
   it('base is home', () => {
@@ -156,6 +156,23 @@ describe('workshop() levels', () => {
 
   it('level 8 townHallRequired is 16', () => {
     expect(home().armyBuildings().workshop().first()!.levels[7].townHallRequired).toBe(16);
+  });
+
+  it('level 9 unlocks Sky Wagon with capacity 3 and 1,800 HP at TH17', () => {
+    const lvl = home().armyBuildings().workshop().first()!.levels[8];
+    expect(lvl.level).toBe(9);
+    expect(lvl.unlockedSiegeMachine).toBe('Sky Wagon');
+    expect(lvl.siegeMachineCapacity).toBe(3);
+    expect(lvl.hitpoints).toBe(1800);
+    expect(lvl.townHallRequired).toBe(17);
+  });
+
+  it('level 9 costs 26,000,000 Elixir, takes 13d 12h and gives 1,080 XP', () => {
+    const lvl = home().armyBuildings().workshop().first()!.levels[8];
+    expect(lvl.buildCost).toBe(26000000);
+    expect(lvl.buildCostResource).toBe('Elixir');
+    expect(lvl.buildTime).toEqual({ days: 13, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.xpGained).toBe(1080);
   });
 
   it('all levels have a normal image', () => {

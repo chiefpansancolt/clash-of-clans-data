@@ -8,8 +8,8 @@ describe('druid()', () => {
     expect(d.name).toBe('Druid');
   });
 
-  it('has 5 levels', () => {
-    expect(home().troops().druid().first()!.levels).toHaveLength(5);
+  it('has 6 levels', () => {
+    expect(home().troops().druid().first()!.levels).toHaveLength(6);
   });
 
   it('is a dark chain troop targeting both ground and air', () => {
@@ -62,26 +62,26 @@ describe('druid()', () => {
     expect(lvl.townHallRequired).toBe(14);
   });
 
-  it('level 2: Lab 12 (TH14), 125000 Dark Elixir / 9d, HPS 85, hero healing 89.25, HP 1400', () => {
+  it('level 2: Lab 12 (TH14), 125000 Dark Elixir / 8d, HPS 85, hero healing 89.25, HP 1400', () => {
     const lvl = home().troops().druid().first()!.levels[1];
     expect(lvl.level).toBe(2);
     expect(lvl.laboratoryRequired).toBe(12);
     expect(lvl.townHallRequired).toBe(14);
     expect(lvl.researchCost).toBe(125000);
     expect(lvl.researchCostResource).toBe('Dark Elixir');
-    expect(lvl.researchTime).toEqual({ days: 9, hours: 0, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 8, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.healingPerSecond).toBe(85);
     expect(lvl.stats.normal.healingPerSecondOnHeroes).toBe(89.25);
     expect(lvl.hitpoints).toBe(1400);
   });
 
-  it('level 3: Lab 13 (TH15), 175000 Dark Elixir / 9d 12h, HPS 90, hero healing 99, HP 1500', () => {
+  it('level 3: Lab 13 (TH15), 175000 Dark Elixir / 9d, HPS 90, hero healing 99, HP 1500', () => {
     const lvl = home().troops().druid().first()!.levels[2];
     expect(lvl.level).toBe(3);
     expect(lvl.laboratoryRequired).toBe(13);
     expect(lvl.townHallRequired).toBe(15);
     expect(lvl.researchCost).toBe(175000);
-    expect(lvl.researchTime).toEqual({ days: 9, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.researchTime).toEqual({ days: 9, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.healingPerSecond).toBe(90);
     expect(lvl.stats.normal.healingPerSecondOnHeroes).toBe(99);
     expect(lvl.hitpoints).toBe(1500);
@@ -117,6 +117,22 @@ describe('druid()', () => {
     expect(levels[2].images.normal).toBe(levels[3].images.normal);
     expect(levels[0].images.normal).not.toBe(levels[2].images.normal);
     expect(levels[4].images.normal).not.toBe(levels[2].images.normal);
+  });
+
+  it('level 6: 1,850 HP, healing 115 (132.25 on heroes), 380K Dark Elixir / 15d 12h, TH18, Lab 16', () => {
+    const lvl = home().troops().druid().first()!.levels[5];
+    expect(lvl.level).toBe(6);
+    expect(lvl.hitpoints).toBe(1850);
+    expect(lvl.stats.normal.healingPerSecond).toBe(115);
+    expect(lvl.stats.normal.healingPerPulse).toBe(115);
+    expect(lvl.stats.normal.healingPerSecondOnHeroes).toBe(132.25);
+    expect(lvl.stats.normal.healingPerPulseOnHeroes).toBe(132.25);
+    expect(lvl.researchCost).toBe(380000);
+    expect(lvl.researchCostResource).toBe('Dark Elixir');
+    expect(lvl.researchTime).toEqual({ days: 15, hours: 12, minutes: 0, seconds: 0 });
+    expect(lvl.townHallRequired).toBe(18);
+    expect(lvl.laboratoryRequired).toBe(16);
+    expect(lvl.images.normal).toContain('level-6.png');
   });
 
   it('returns a HomeVillageTroops instance', () => {

@@ -109,6 +109,84 @@
         "stage2": "images/home/defenses/revenge-tower/stage-2/level-2.png",
         "stage3": "images/home/defenses/revenge-tower/stage-3/level-2.png"
       }
+    },
+    {
+      "level": 1,
+      "supercharge": true,
+      "hitpoints": 6200,
+      "buildCost": 220000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": {
+        "days": 7,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 777,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {},
+        "stage1": {
+          "dps": 425,
+          "damagePerShot": 510
+        },
+        "stage2": {
+          "dps": 433,
+          "damagePerShot": 260,
+          "secondaryChainDamagePerShot": 156
+        },
+        "stage3": {
+          "dps": 742,
+          "damagePerShot": 260,
+          "secondaryChainDamagePerShot": 156,
+          "tertiaryChainDamagePerShot": 93.6
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/revenge-tower/normal/level-2.png",
+        "stage1": "images/home/defenses/revenge-tower/stage-1/level-2.png",
+        "stage2": "images/home/defenses/revenge-tower/stage-2/level-2.png",
+        "stage3": "images/home/defenses/revenge-tower/stage-3/level-2.png"
+      }
+    },
+    {
+      "level": 2,
+      "supercharge": true,
+      "hitpoints": 6300,
+      "buildCost": 200000,
+      "buildCostResource": "Dark Elixir",
+      "buildTime": {
+        "days": 8,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "xpGained": 831,
+      "townHallRequired": 18,
+      "stats": {
+        "normal": {},
+        "stage1": {
+          "dps": 425,
+          "damagePerShot": 510
+        },
+        "stage2": {
+          "dps": 433,
+          "damagePerShot": 260,
+          "secondaryChainDamagePerShot": 156
+        },
+        "stage3": {
+          "dps": 742,
+          "damagePerShot": 260,
+          "secondaryChainDamagePerShot": 156,
+          "tertiaryChainDamagePerShot": 93.6
+        }
+      },
+      "images": {
+        "normal": "images/home/defenses/revenge-tower/normal/level-2.png",
+        "stage1": "images/home/defenses/revenge-tower/stage-1/level-2.png",
+        "stage2": "images/home/defenses/revenge-tower/stage-2/level-2.png",
+        "stage3": "images/home/defenses/revenge-tower/stage-3/level-2.png"
+      }
     }
   ]
 }

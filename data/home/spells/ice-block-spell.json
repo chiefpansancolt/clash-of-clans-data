@@ -73,7 +73,7 @@
       "researchCost": 280000,
       "researchCostResource": "Dark Elixir",
       "researchTime": {
-        "days": 14,
+        "days": 12,
         "hours": 0,
         "minutes": 0,
         "seconds": 0
@@ -86,6 +86,21 @@
       "laboratoryRequired": 15,
       "townHallRequired": 17,
       "researchCost": 320000,
+      "researchCostResource": "Dark Elixir",
+      "researchTime": {
+        "days": 14,
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 0
+      }
+    },
+    {
+      "level": 6,
+      "incomingDamageReduction": 96,
+      "spellDuration": 7,
+      "laboratoryRequired": 16,
+      "townHallRequired": 18,
+      "researchCost": 380000,
       "researchCostResource": "Dark Elixir",
       "researchTime": {
         "days": 16,
