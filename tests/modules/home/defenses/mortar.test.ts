@@ -8,8 +8,8 @@ describe('mortar()', () => {
     expect(result.name).toBe('Mortar');
   });
 
-  it('has 18 levels', () => {
-    expect(home().defenses().mortar().first()!.levels).toHaveLength(18);
+  it('has 20 levels', () => {
+    expect(home().defenses().mortar().first()!.levels).toHaveLength(20);
   });
 
   it('level 1 has correct hitpoints', () => {
@@ -58,7 +58,8 @@ describe('mortar()', () => {
       .defenses()
       .mortar()
       .first()!
-      .levels.slice(7)
+      .levels.filter((l) => !l.supercharge)
+      .slice(7)
       .forEach((l) => expect(l.stats.gearedUpBurst).toBeDefined());
   });
 
@@ -90,7 +91,8 @@ describe('mortar()', () => {
       .defenses()
       .mortar()
       .first()!
-      .levels.slice(7)
+      .levels.filter((l) => !l.supercharge)
+      .slice(7)
       .forEach((l) => {
         expect(l.images.normal).toBeDefined();
         expect(l.images.gearedUpNormal).toBeDefined();
@@ -144,5 +146,47 @@ describe('HomeVillageDefenses with mortar', () => {
 
   it('hasGearUp includes mortar', () => {
     expect(home().defenses().hasGearUp().findByName('Mortar')).toBeDefined();
+  });
+
+  it('has 2 supercharge levels at TH18', () => {
+    const sc = home()
+      .defenses()
+      .mortar()
+      .first()!
+      .levels.filter((l) => l.supercharge);
+    expect(sc).toHaveLength(2);
+    sc.forEach((l) => expect(l.townHallRequired).toBe(18));
+  });
+
+  it('supercharge 1: 2,550 HP, 75 dps, 375 damage, 9,000,000 Gold, 4d, 509 XP', () => {
+    const l = home().defenses().mortar().first()!.levels[18];
+    expect(l.level).toBe(1);
+    expect(l.supercharge).toBe(true);
+    expect(l.hitpoints).toBe(2550);
+    expect(l.stats.normal.dps).toBe(75);
+    expect(l.stats.normal.damagePerShot).toBe(375);
+    expect(l.buildCost).toBe(9000000);
+    expect(l.buildCostResource).toBe('Gold');
+    expect(l.buildTime).toEqual({ days: 4, hours: 0, minutes: 0, seconds: 0 });
+    expect(l.xpGained).toBe(509);
+  });
+
+  it('supercharge 2: 2,625 HP, 7,000,000 Gold, 6d, 720 XP', () => {
+    const l = home().defenses().mortar().first()!.levels[19];
+    expect(l.level).toBe(2);
+    expect(l.supercharge).toBe(true);
+    expect(l.hitpoints).toBe(2625);
+    expect(l.buildCost).toBe(7000000);
+    expect(l.buildTime).toEqual({ days: 6, hours: 0, minutes: 0, seconds: 0 });
+    expect(l.xpGained).toBe(720);
+  });
+
+  it('supercharge levels have no geared-up burst stats', () => {
+    home()
+      .defenses()
+      .mortar()
+      .first()!
+      .levels.filter((l) => l.supercharge)
+      .forEach((l) => expect(l.stats.gearedUpBurst).toBeUndefined());
   });
 });

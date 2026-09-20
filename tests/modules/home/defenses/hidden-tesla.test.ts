@@ -8,8 +8,8 @@ describe('hiddenTesla()', () => {
     expect(result.name).toBe('Hidden Tesla');
   });
 
-  it('has 17 levels', () => {
-    expect(home().defenses().hiddenTesla().first()!.levels).toHaveLength(17);
+  it('has 19 levels', () => {
+    expect(home().defenses().hiddenTesla().first()!.levels).toHaveLength(19);
   });
 
   it('level 1 has correct hitpoints', () => {
@@ -93,12 +93,13 @@ describe('hiddenTesla()', () => {
     expect(home().defenses().hiddenTesla().first()!.levels[0].xpGained).toBe(84);
   });
 
-  it('xpGained increases with level', () => {
+  it('xpGained increases with regular levels', () => {
     const xp = home()
       .defenses()
       .hiddenTesla()
       .first()!
-      .levels.map((l) => l.xpGained);
+      .levels.filter((l) => !l.supercharge)
+      .map((l) => l.xpGained);
     for (let i = 0; i < xp.length - 1; i++) {
       expect(xp[i + 1]).toBeGreaterThanOrEqual(xp[i]);
     }
@@ -159,5 +160,38 @@ describe('HomeVillageDefenses with hidden tesla', () => {
 
   it('hasGearUp does not include hidden tesla', () => {
     expect(home().defenses().hasGearUp().findByName('Hidden Tesla')).toBeUndefined();
+  });
+
+  it('has 2 supercharge levels at TH18', () => {
+    const sc = home()
+      .defenses()
+      .hiddenTesla()
+      .first()!
+      .levels.filter((l) => l.supercharge);
+    expect(sc).toHaveLength(2);
+    sc.forEach((l) => expect(l.townHallRequired).toBe(18));
+  });
+
+  it('supercharge 1: 1,750 HP, 195 dps, 117 damage, 12,000,000 Gold, 4d 12h, 623 XP', () => {
+    const l = home().defenses().hiddenTesla().first()!.levels[17];
+    expect(l.level).toBe(1);
+    expect(l.supercharge).toBe(true);
+    expect(l.hitpoints).toBe(1750);
+    expect(l.stats.normal.dps).toBe(195);
+    expect(l.stats.normal.damagePerShot).toBe(117);
+    expect(l.buildCost).toBe(12000000);
+    expect(l.buildCostResource).toBe('Gold');
+    expect(l.buildTime).toEqual({ days: 4, hours: 12, minutes: 0, seconds: 0 });
+    expect(l.xpGained).toBe(623);
+  });
+
+  it('supercharge 2: 1,800 HP, 8,000,000 Gold, 6d 12h, 749 XP', () => {
+    const l = home().defenses().hiddenTesla().first()!.levels[18];
+    expect(l.level).toBe(2);
+    expect(l.supercharge).toBe(true);
+    expect(l.hitpoints).toBe(1800);
+    expect(l.buildCost).toBe(8000000);
+    expect(l.buildTime).toEqual({ days: 6, hours: 12, minutes: 0, seconds: 0 });
+    expect(l.xpGained).toBe(749);
   });
 });
