@@ -4,6 +4,7 @@ module.exports = {
   testEnvironment: 'node',
   roots: ['<rootDir>/tests'],
   testMatch: ['**/*.test.ts'],
+  collectCoverageFrom: ['src/**/*.ts', '!src/**/*.d.ts'],
   moduleNameMapper: {
     '^@/types$': '<rootDir>/src/types/index.ts',
     '^@/types/(.*)$': '<rootDir>/src/types/$1',
