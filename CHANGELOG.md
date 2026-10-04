@@ -16,6 +16,11 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   18), level 3 hitpoints 2500 and DPS 220 (was 2600 and 230), and level 4 hitpoints 2650 and DPS 230
   (was 2800 and 240). Damage per shot follows DPS (550 and 575).
 
+### Chore
+
+- Bump Dependencies
+- update to pnpm 12 usage
+
 ## [0.18.0] - 2026-09-20
 
 ### Added
