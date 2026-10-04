@@ -6,6 +6,7 @@ JSON with TypeScript types and image assets, consumable as an ESM or CJS npm pac
 [![npm version](https://img.shields.io/npm/v/clash-of-clans-data)](https://www.npmjs.com/package/clash-of-clans-data)
 [![license](https://img.shields.io/npm/l/clash-of-clans-data)](LICENSE)
 [![node](https://img.shields.io/node/v/clash-of-clans-data)](package.json)
+[![codecov](https://codecov.io/gh/chiefpansancolt/clash-of-clans-data/graph/badge.svg?token=K8M0E5ELRA)](https://codecov.io/gh/chiefpansancolt/clash-of-clans-data)
 
 ---
 

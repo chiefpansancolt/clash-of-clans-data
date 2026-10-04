@@ -14,7 +14,7 @@
     "resource": "Elixir",
     "gemsOrRaidMedals": 8
   },
-  "movementSpeed": 18,
+  "movementSpeed": 16,
   "attackSpeed": 2.5,
   "range": 6,
   "barrackLevelRequired": 18,
@@ -70,7 +70,7 @@
     },
     {
       "level": 3,
-      "hitpoints": 2600,
+      "hitpoints": 2500,
       "townHallRequired": 17,
       "laboratoryRequired": 15,
       "researchCost": 18000000,
@@ -83,8 +83,8 @@
       },
       "stats": {
         "normal": {
-          "dps": 230,
-          "damagePerShot": 575
+          "dps": 220,
+          "damagePerShot": 550
         }
       },
       "images": {
@@ -93,7 +93,7 @@
     },
     {
       "level": 4,
-      "hitpoints": 2800,
+      "hitpoints": 2650,
       "townHallRequired": 18,
       "laboratoryRequired": 16,
       "researchCost": 27000000,
@@ -106,8 +106,8 @@
       },
       "stats": {
         "normal": {
-          "dps": 240,
-          "damagePerShot": 600
+          "dps": 230,
+          "damagePerShot": 575
         }
       },
       "images": {

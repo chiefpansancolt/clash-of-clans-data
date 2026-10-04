@@ -19,10 +19,10 @@ describe('thrower()', () => {
     expect(t.targetType).toBe('both');
   });
 
-  it('has housing space 16, movement speed 18, attack speed 2.5, range 6', () => {
+  it('has housing space 16, movement speed 16, attack speed 2.5, range 6', () => {
     const t = home().troops().thrower().first()!;
     expect(t.housingSpace).toBe(16);
-    expect(t.movementSpeed).toBe(18);
+    expect(t.movementSpeed).toBe(16);
     expect(t.attackSpeed).toBe(2.5);
     expect(t.range).toBe(6);
   });
@@ -59,27 +59,27 @@ describe('thrower()', () => {
     expect(lvl.hitpoints).toBe(2350);
   });
 
-  it('level 3: Lab 15 (TH17), 18M Elixir / 10d 12h, DPS 230, HP 2600', () => {
+  it('level 3: Lab 15 (TH17), 18M Elixir / 10d 12h, DPS 220, HP 2500', () => {
     const lvl = home().troops().thrower().first()!.levels[2];
     expect(lvl.level).toBe(3);
     expect(lvl.laboratoryRequired).toBe(15);
     expect(lvl.townHallRequired).toBe(17);
     expect(lvl.researchCost).toBe(18000000);
     expect(lvl.researchTime).toEqual({ days: 10, hours: 12, minutes: 0, seconds: 0 });
-    expect(lvl.stats.normal.dps).toBe(230);
-    expect(lvl.hitpoints).toBe(2600);
+    expect(lvl.stats.normal.dps).toBe(220);
+    expect(lvl.hitpoints).toBe(2500);
   });
 
-  it('level 4: Lab 16 (TH18), 27M Elixir / 15d, DPS 240, DPH 600, HP 2800', () => {
+  it('level 4: Lab 16 (TH18), 27M Elixir / 15d, DPS 230, DPH 575, HP 2650', () => {
     const lvl = home().troops().thrower().first()!.levels[3];
     expect(lvl.level).toBe(4);
     expect(lvl.laboratoryRequired).toBe(16);
     expect(lvl.townHallRequired).toBe(18);
     expect(lvl.researchCost).toBe(27000000);
     expect(lvl.researchTime).toEqual({ days: 15, hours: 0, minutes: 0, seconds: 0 });
-    expect(lvl.stats.normal.dps).toBe(240);
-    expect(lvl.stats.normal.damagePerShot).toBe(600);
-    expect(lvl.hitpoints).toBe(2800);
+    expect(lvl.stats.normal.dps).toBe(230);
+    expect(lvl.stats.normal.damagePerShot).toBe(575);
+    expect(lvl.hitpoints).toBe(2650);
   });
 
   it('has no super troop', () => {

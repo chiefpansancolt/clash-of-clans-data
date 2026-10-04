@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+## [0.18.1] - 2026-10-03
+
+### Fixed
+
+- **Thrower** stats now match the current game data in
+  [#59](https://github.com/chiefpansancolt/clash-of-clans-data/issues/59): movement speed 16 (was
+  18), level 3 hitpoints 2500 and DPS 220 (was 2600 and 230), and level 4 hitpoints 2650 and DPS 230
+  (was 2800 and 240). Damage per shot follows DPS (550 and 575).
+
+### Chore
+
+- Bump Dependencies
+- update to pnpm 12 usage
+
 ## [0.18.0] - 2026-09-20
 
 ### Added
