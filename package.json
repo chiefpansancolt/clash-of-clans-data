@@ -73,14 +73,5 @@
     "LICENSE",
     "README.md",
     "CHANGELOG.md"
-  ],
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "unrs-resolver"
-    ],
-    "overrides": {
-      "esbuild": "^0.28.2"
-    }
-  }
+  ]
 }

@@ -1,4 +1,6 @@
 allowBuilds:
-  '@parcel/watcher': set this to true or false
-  esbuild: set this to true or false
-  unrs-resolver: set this to true or false
+  '@parcel/watcher': false
+  esbuild: true
+  unrs-resolver: true
+overrides:
+  esbuild: ^0.28.2
