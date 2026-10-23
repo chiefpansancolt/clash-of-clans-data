@@ -27,7 +27,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "25%",
+        "slowDown": "30%",
         "slowDownDuration": "0.75s",
         "dpsIncrease": 35
       }
@@ -39,7 +39,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "25%",
+        "slowDown": "30%",
         "slowDownDuration": "1.00s",
         "dpsIncrease": 40
       }
@@ -51,7 +51,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "30%",
+        "slowDown": "35%",
         "slowDownDuration": "1.00s",
         "dpsIncrease": 45
       }
@@ -63,7 +63,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "30%",
+        "slowDown": "35%",
         "slowDownDuration": "1.00s",
         "dpsIncrease": 50
       }
@@ -75,7 +75,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "30%",
+        "slowDown": "35%",
         "slowDownDuration": "1.25s",
         "dpsIncrease": 55
       }
@@ -87,7 +87,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "35%",
+        "slowDown": "40%",
         "slowDownDuration": "1.25s",
         "dpsIncrease": 60
       }
@@ -99,7 +99,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "35%",
+        "slowDown": "40%",
         "slowDownDuration": "1.25s",
         "dpsIncrease": 66
       }
@@ -111,7 +111,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "35%",
+        "slowDown": "40%",
         "slowDownDuration": "1.50s",
         "dpsIncrease": 72
       }
@@ -123,7 +123,7 @@
       "upgradeStarryOre": 10,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "37%",
+        "slowDown": "42%",
         "slowDownDuration": "1.50s",
         "dpsIncrease": 78
       }
@@ -135,7 +135,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "37%",
+        "slowDown": "42%",
         "slowDownDuration": "1.50s",
         "dpsIncrease": 85
       }
@@ -147,7 +147,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "37%",
+        "slowDown": "42%",
         "slowDownDuration": "1.75s",
         "dpsIncrease": 92
       }
@@ -159,7 +159,7 @@
       "upgradeStarryOre": 20,
       "blacksmithLevelRequired": 1,
       "stats": {
-        "slowDown": "40%",
+        "slowDown": "45%",
         "slowDownDuration": "1.75s",
         "dpsIncrease": 99
       }
@@ -171,7 +171,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 3,
       "stats": {
-        "slowDown": "40%",
+        "slowDown": "45%",
         "slowDownDuration": "1.75s",
         "dpsIncrease": 105
       }
@@ -183,7 +183,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 3,
       "stats": {
-        "slowDown": "40%",
+        "slowDown": "45%",
         "slowDownDuration": "2.00s",
         "dpsIncrease": 111
       }
@@ -195,7 +195,7 @@
       "upgradeStarryOre": 30,
       "blacksmithLevelRequired": 3,
       "stats": {
-        "slowDown": "45%",
+        "slowDown": "50%",
         "slowDownDuration": "2.00s",
         "dpsIncrease": 117
       }
@@ -207,7 +207,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 5,
       "stats": {
-        "slowDown": "45%",
+        "slowDown": "50%",
         "slowDownDuration": "2.00s",
         "dpsIncrease": 122
       }
@@ -219,7 +219,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 5,
       "stats": {
-        "slowDown": "45%",
+        "slowDown": "50%",
         "slowDownDuration": "2.25s",
         "dpsIncrease": 127
       }
@@ -231,7 +231,7 @@
       "upgradeStarryOre": 50,
       "blacksmithLevelRequired": 5,
       "stats": {
-        "slowDown": "50%",
+        "slowDown": "55%",
         "slowDownDuration": "2.25s",
         "dpsIncrease": 132
       }
@@ -243,7 +243,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 7,
       "stats": {
-        "slowDown": "50%",
+        "slowDown": "55%",
         "slowDownDuration": "2.25s",
         "dpsIncrease": 136
       }
@@ -255,7 +255,7 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 7,
       "stats": {
-        "slowDown": "50%",
+        "slowDown": "55%",
         "slowDownDuration": "2.50s",
         "dpsIncrease": 140
       }
@@ -267,9 +267,9 @@
       "upgradeStarryOre": 100,
       "blacksmithLevelRequired": 7,
       "stats": {
-        "slowDown": "55%",
+        "slowDown": "60%",
         "slowDownDuration": "2.50s",
-        "dpsIncrease": 144
+        "dpsIncrease": 145
       }
     },
     {
@@ -279,9 +279,9 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 8,
       "stats": {
-        "slowDown": "55%",
+        "slowDown": "60%",
         "slowDownDuration": "2.50s",
-        "dpsIncrease": 148
+        "dpsIncrease": 150
       }
     },
     {
@@ -291,9 +291,9 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 8,
       "stats": {
-        "slowDown": "55%",
+        "slowDown": "60%",
         "slowDownDuration": "2.75s",
-        "dpsIncrease": 152
+        "dpsIncrease": 155
       }
     },
     {
@@ -303,9 +303,9 @@
       "upgradeStarryOre": 120,
       "blacksmithLevelRequired": 8,
       "stats": {
-        "slowDown": "60%",
+        "slowDown": "65%",
         "slowDownDuration": "2.75s",
-        "dpsIncrease": 156
+        "dpsIncrease": 160
       }
     },
     {
@@ -315,9 +315,9 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 9,
       "stats": {
-        "slowDown": "60%",
+        "slowDown": "65%",
         "slowDownDuration": "2.75s",
-        "dpsIncrease": 160
+        "dpsIncrease": 165
       }
     },
     {
@@ -327,9 +327,9 @@
       "upgradeStarryOre": 0,
       "blacksmithLevelRequired": 9,
       "stats": {
-        "slowDown": "60%",
+        "slowDown": "65%",
         "slowDownDuration": "3.00s",
-        "dpsIncrease": 164
+        "dpsIncrease": 170
       }
     },
     {
@@ -339,9 +339,9 @@
       "upgradeStarryOre": 150,
       "blacksmithLevelRequired": 9,
       "stats": {
-        "slowDown": "65%",
+        "slowDown": "70%",
         "slowDownDuration": "3.00s",
-        "dpsIncrease": 168
+        "dpsIncrease": 175
       }
     }
   ]
