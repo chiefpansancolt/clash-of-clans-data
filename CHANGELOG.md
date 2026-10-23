@@ -7,6 +7,29 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- **Portal Pendant** hero equipment (Minion Prince, Epic, Active) with 27 levels, icon,
+  `heroEquipment().portalPendant()` query method, sample, and tests (43 items total)
+- **Ruin Knight** stats as an optional `ruinKnight` on **Ruin Witch** (speed 14, housing 18, wall
+  damage x3, four levels), with icon and the `HomeRuinKnight` type
+
+### Changed
+
+October 2026 updates from [#62](https://github.com/chiefpansancolt/clash-of-clans-data/issues/62):
+
+- Supercharge build costs and times reduced for **Multi-Gear Tower**, **Ricochet Cannon**,
+  **Multi-Archer Tower**, **Air Defense**, **Builder's Hut**, **Hidden Tesla**, **X-Bow**, **Gold
+  Mine**, **Elixir Collector**, and **Dark Elixir Drill**
+- **Frozen Arrow**: higher frost on hit % at every level, and higher DPS at levels 21-27
+- **Hog Rider** and **Super Hog Rider**: higher HP (levels 8-15 and 10-15)
+- **Miner** and **Super Miner**: higher HP (levels 11-12)
+- **P.E.K.K.A**: higher DPS at levels 8-13
+- **Meteor Golem**: higher HP at levels 1-3
+- **Ruin Witch** now summons up to 10 Ruin Knights at every level (was 8)
+- **Fire Heart**: lower HP bonus at all levels, lower healing per second at levels 12-18, and the
+  DPS bonus is now 0
+
 ## [0.18.1] - 2026-10-03
 
 ### Fixed
