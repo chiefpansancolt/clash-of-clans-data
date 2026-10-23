@@ -32,6 +32,10 @@ October 2026 updates from [#62](https://github.com/chiefpansancolt/clash-of-clan
 - **Fire Heart**: lower HP bonus at all levels, lower healing per second at levels 12-18, and the
   DPS bonus is now 0
 
+### Chore
+
+- Bump dependencies, including tsup 9
+
 ## [0.18.1] - 2026-10-03
 
 ### Fixed
