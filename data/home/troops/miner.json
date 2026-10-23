@@ -254,7 +254,7 @@
     },
     {
       "level": 11,
-      "hitpoints": 1750,
+      "hitpoints": 1850,
       "townHallRequired": 17,
       "laboratoryRequired": 15,
       "researchCost": 16500000,
@@ -277,7 +277,7 @@
     },
     {
       "level": 12,
-      "hitpoints": 2050,
+      "hitpoints": 2150,
       "townHallRequired": 18,
       "laboratoryRequired": 16,
       "researchCost": 28000000,
@@ -403,7 +403,7 @@
       },
       {
         "level": 11,
-        "hitpoints": 4400,
+        "hitpoints": 4650,
         "townHallRequired": 17,
         "stats": {
           "normal": {
@@ -423,7 +423,7 @@
       },
       {
         "level": 12,
-        "hitpoints": 5000,
+        "hitpoints": 5150,
         "townHallRequired": 18,
         "stats": {
           "normal": {
