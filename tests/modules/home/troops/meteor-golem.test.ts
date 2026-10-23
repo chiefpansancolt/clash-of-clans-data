@@ -35,19 +35,19 @@ describe('meteorGolem()', () => {
     expect(home().troops().meteorGolem().first()!.images.icon).toBeTruthy();
   });
 
-  it('level 1: DPS 450, DPH 450, HP 13000, no research', () => {
+  it('level 1: DPS 450, DPH 450, HP 15300, no research', () => {
     const lvl = home().troops().meteorGolem().first()!.levels[0];
     expect(lvl.level).toBe(1);
     expect(lvl.stats.normal.dps).toBe(450);
     expect(lvl.stats.normal.damagePerShot).toBe(450);
-    expect(lvl.hitpoints).toBe(13000);
+    expect(lvl.hitpoints).toBe(15300);
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({ days: 0, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(0);
     expect(lvl.townHallRequired).toBe(17);
   });
 
-  it('level 2: Lab 15 (TH17), 28M Elixir / 14d, DPS 500, HP 14500', () => {
+  it('level 2: Lab 15 (TH17), 28M Elixir / 14d, DPS 500, HP 16900', () => {
     const lvl = home().troops().meteorGolem().first()!.levels[1];
     expect(lvl.level).toBe(2);
     expect(lvl.laboratoryRequired).toBe(15);
@@ -56,10 +56,10 @@ describe('meteorGolem()', () => {
     expect(lvl.researchCostResource).toBe('Elixir');
     expect(lvl.researchTime).toEqual({ days: 14, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.dps).toBe(500);
-    expect(lvl.hitpoints).toBe(14500);
+    expect(lvl.hitpoints).toBe(16900);
   });
 
-  it('level 3: Lab 16 (TH18), 30M Elixir / 16d, DPS 550, DPH 550, HP 16000', () => {
+  it('level 3: Lab 16 (TH18), 30M Elixir / 16d, DPS 550, DPH 550, HP 18500', () => {
     const lvl = home().troops().meteorGolem().first()!.levels[2];
     expect(lvl.level).toBe(3);
     expect(lvl.laboratoryRequired).toBe(16);
@@ -68,7 +68,7 @@ describe('meteorGolem()', () => {
     expect(lvl.researchTime).toEqual({ days: 16, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.dps).toBe(550);
     expect(lvl.stats.normal.damagePerShot).toBe(550);
-    expect(lvl.hitpoints).toBe(16000);
+    expect(lvl.hitpoints).toBe(18500);
   });
 
   it('has no super troop', () => {
