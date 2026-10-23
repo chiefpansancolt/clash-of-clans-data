@@ -333,7 +333,7 @@ home().heroes().dragonDuke();
 
 ### `home().heroEquipment()` — `HomeVillageHeroEquipment`
 
-42 hero equipment items across all heroes and rarities.
+43 hero equipment items across all heroes and rarities.
 
 **Per-building accessors** (representative sample):
 
@@ -357,7 +357,7 @@ home().heroEquipment().henchmenPuppet();
 //   meteorStaff, lifeGem, rageGem, fireball, fireHeart, flameBlower,
 //   lavaloonPuppet, heroicTorch, royalGem, hogRiderPuppet, hasteVial,
 //   invisibilityVial, healerPuppet, snakeBracelet, stickHorse, stunBlaster,
-//   frostFlake, rocketBackpack, revengeDeck, monolithArrow, electroFangs, rocketSpear)
+//   frostFlake, rocketBackpack, revengeDeck, monolithArrow, electroFangs, rocketSpear, portalPendant)
 ```
 
 **Filter methods**:
