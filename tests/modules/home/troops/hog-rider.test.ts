@@ -73,7 +73,7 @@ describe('hogRider()', () => {
     expect(levels[4].images.normal).not.toBe(levels[5].images.normal);
   });
 
-  it('level 8: Lab 10 (TH12), 47500 Dark Elixir / 3d, DPS 155, HP 810', () => {
+  it('level 8: Lab 10 (TH12), 47500 Dark Elixir / 3d, DPS 155, HP 870', () => {
     const lvl = home().troops().hogRider().first()!.levels[7];
     expect(lvl.level).toBe(8);
     expect(lvl.laboratoryRequired).toBe(10);
@@ -81,10 +81,10 @@ describe('hogRider()', () => {
     expect(lvl.researchCost).toBe(47500);
     expect(lvl.researchTime).toEqual({ days: 3, hours: 0, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.dps).toBe(155);
-    expect(lvl.hitpoints).toBe(810);
+    expect(lvl.hitpoints).toBe(870);
   });
 
-  it('level 15: Lab 16 (TH18), 340000 Dark Elixir / 14d 12h, DPS 250, HP 1750', () => {
+  it('level 15: Lab 16 (TH18), 340000 Dark Elixir / 14d 12h, DPS 250, HP 1950', () => {
     const lvl = home().troops().hogRider().first()!.levels[14];
     expect(lvl.level).toBe(15);
     expect(lvl.laboratoryRequired).toBe(16);
@@ -93,7 +93,7 @@ describe('hogRider()', () => {
     expect(lvl.researchTime).toEqual({ days: 14, hours: 12, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.dps).toBe(250);
     expect(lvl.stats.normal.damagePerShot).toBe(250);
-    expect(lvl.hitpoints).toBe(1750);
+    expect(lvl.hitpoints).toBe(1950);
   });
 
   it('returns a HomeVillageTroops instance', () => {
@@ -138,21 +138,21 @@ describe('superTroop (Super Hog Rider)', () => {
     );
   });
 
-  it('level 10: DPS 180, DPH 180, HP 1500, TH13', () => {
+  it('level 10: DPS 180, DPH 180, HP 1600, TH13', () => {
     const lvl = home().troops().hogRider().first()!.superTroop!.levels[0];
     expect(lvl.level).toBe(10);
     expect(lvl.stats.normal.dps).toBe(180);
     expect(lvl.stats.normal.damagePerShot).toBe(180);
-    expect(lvl.hitpoints).toBe(1500);
+    expect(lvl.hitpoints).toBe(1600);
     expect(lvl.townHallRequired).toBe(13);
   });
 
-  it('level 15: DPS 300, DPH 300, HP 2350, TH18', () => {
+  it('level 15: DPS 300, DPH 300, HP 2500, TH18', () => {
     const lvl = home().troops().hogRider().first()!.superTroop!.levels[5];
     expect(lvl.level).toBe(15);
     expect(lvl.stats.normal.dps).toBe(300);
     expect(lvl.stats.normal.damagePerShot).toBe(300);
-    expect(lvl.hitpoints).toBe(2350);
+    expect(lvl.hitpoints).toBe(2500);
     expect(lvl.townHallRequired).toBe(18);
   });
 

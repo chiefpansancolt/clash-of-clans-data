@@ -111,17 +111,17 @@ describe('pekka()', () => {
     expect(lvl.level).toBe(10);
     expect(lvl.laboratoryRequired).toBe(13);
     expect(lvl.townHallRequired).toBe(15);
-    expect(lvl.stats.normal.dps).toBe(750);
+    expect(lvl.stats.normal.dps).toBe(810);
     expect(lvl.hitpoints).toBe(7200);
     expect(lvl.researchCost).toBe(10500000);
     expect(lvl.researchTime).toEqual({ days: 5, hours: 12, minutes: 0, seconds: 0 });
   });
 
-  it('level 13: DPS 940, DPH 1692, HP 8800, Lab 16 (TH18), 28M / 14d 12h', () => {
+  it('level 13: DPS 1015, DPH 1827, HP 8800, Lab 16 (TH18), 28M / 14d 12h', () => {
     const lvl = home().troops().pekka().first()!.levels[12];
     expect(lvl.level).toBe(13);
-    expect(lvl.stats.normal.dps).toBe(940);
-    expect(lvl.stats.normal.damagePerShot).toBe(1692);
+    expect(lvl.stats.normal.dps).toBe(1015);
+    expect(lvl.stats.normal.damagePerShot).toBe(1827);
     expect(lvl.hitpoints).toBe(8800);
     expect(lvl.researchCost).toBe(28000000);
     expect(lvl.researchTime).toEqual({ days: 14, hours: 12, minutes: 0, seconds: 0 });

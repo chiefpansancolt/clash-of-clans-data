@@ -50,7 +50,7 @@ describe('ruinWitch()', () => {
     expect(lvl.stats.normal.damagePerShot).toBe(50);
 
     expect(lvl.ruinKnightLevel).toBe(1);
-    expect(lvl.maximumRuinKnightsSummoned).toBe(8);
+    expect(lvl.maximumRuinKnightsSummoned).toBe(10);
 
     expect(lvl.researchCost).toBe(0);
     expect(lvl.researchTime).toEqual({
@@ -136,13 +136,13 @@ describe('ruinWitch()', () => {
     expect(lvl.townHallRequired).toBe(18);
   });
 
-  it('all levels summon 8 Ruin Knights', () => {
+  it('all levels summon 10 Ruin Knights', () => {
     home()
       .troops()
       .ruinWitch()
       .first()!
       .levels.forEach((lvl) => {
-        expect(lvl.maximumRuinKnightsSummoned).toBe(8);
+        expect(lvl.maximumRuinKnightsSummoned).toBe(10);
       });
   });
 
@@ -172,6 +172,43 @@ describe('ruinWitch()', () => {
 
   it('returns a HomeVillageTroops instance', () => {
     expect(home().troops().ruinWitch()).toBeInstanceOf(HomeVillageTroops);
+  });
+});
+
+describe('ruinWitch() ruinKnight', () => {
+  const knight = () => home().troops().ruinWitch().first()!.ruinKnight!;
+
+  it('has the shared Ruin Knight properties', () => {
+    expect(knight().id).toBe('ruin-knight');
+    expect(knight().name).toBe('Ruin Knight');
+    expect(knight().housingSpace).toBe(18);
+    expect(knight().movementSpeed).toBe(14);
+    expect(knight().attackSpeed).toBe(1);
+    expect(knight().range).toBe(0.6);
+    expect(knight().wallDamageMultiplier).toBe(3);
+    expect(knight().images.icon).toBeTruthy();
+  });
+
+  it('has 4 levels matching the Ruin Witch Ruin Knight level', () => {
+    expect(knight().levels).toHaveLength(4);
+    home()
+      .troops()
+      .ruinWitch()
+      .first()!
+      .levels.forEach((lvl, i) => expect(knight().levels[i].level).toBe(lvl.ruinKnightLevel));
+  });
+
+  it.each([
+    [0, 2900, 240],
+    [1, 3200, 270],
+    [2, 3500, 300],
+    [3, 3800, 330],
+  ])('level index %i: HP %i, DPS %i, wall DPS x3', (index, hitpoints, dps) => {
+    const lvl = knight().levels[index];
+    expect(lvl.hitpoints).toBe(hitpoints);
+    expect(lvl.stats.normal.dps).toBe(dps);
+    expect(lvl.stats.normal.damagePerShot).toBe(dps);
+    expect(lvl.stats.wall.damagePerShot).toBe(dps * 3);
   });
 });
 

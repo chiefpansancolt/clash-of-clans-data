@@ -95,7 +95,7 @@ describe('miner()', () => {
     expect(lvl.hitpoints).toBe(1000);
   });
 
-  it('level 11: Lab 15 (TH17), 16.5M / 9d 12h, DPS 175, HP 1750', () => {
+  it('level 11: Lab 15 (TH17), 16.5M / 9d 12h, DPS 175, HP 1850', () => {
     const lvl = home().troops().miner().first()!.levels[10];
     expect(lvl.level).toBe(11);
     expect(lvl.laboratoryRequired).toBe(15);
@@ -103,15 +103,15 @@ describe('miner()', () => {
     expect(lvl.researchCost).toBe(16500000);
     expect(lvl.researchTime).toEqual({ days: 9, hours: 12, minutes: 0, seconds: 0 });
     expect(lvl.stats.normal.dps).toBe(175);
-    expect(lvl.hitpoints).toBe(1750);
+    expect(lvl.hitpoints).toBe(1850);
   });
 
-  it('level 12: DPS 195, DPH 331.5, HP 2050, Lab 16 (TH18), 28M / 14d 12h', () => {
+  it('level 12: DPS 195, DPH 331.5, HP 2150, Lab 16 (TH18), 28M / 14d 12h', () => {
     const lvl = home().troops().miner().first()!.levels[11];
     expect(lvl.level).toBe(12);
     expect(lvl.stats.normal.dps).toBe(195);
     expect(lvl.stats.normal.damagePerShot).toBe(331.5);
-    expect(lvl.hitpoints).toBe(2050);
+    expect(lvl.hitpoints).toBe(2150);
     expect(lvl.researchCost).toBe(28000000);
     expect(lvl.researchTime).toEqual({ days: 14, hours: 12, minutes: 0, seconds: 0 });
     expect(lvl.laboratoryRequired).toBe(16);
@@ -187,14 +187,14 @@ describe('superTroop (Super Miner)', () => {
     expect(lvl.townHallRequired).toBe(16);
   });
 
-  it('level 12: Initial DPS 265, After1.5s DPS 510, After3s DPS 740, Death Damage 2400, HP 5000, TH18', () => {
+  it('level 12: Initial DPS 265, After1.5s DPS 510, After3s DPS 740, Death Damage 2400, HP 5150, TH18', () => {
     const lvl = home().troops().miner().first()!.superTroop!.levels[5];
     expect(lvl.level).toBe(12);
     expect(lvl.stats.normal.dps).toBe(265);
     expect(lvl.stats.normal.deathDamage).toBe(2400);
     expect(lvl.stats.stage2!.dps).toBe(510);
     expect(lvl.stats.stage3!.dps).toBe(740);
-    expect(lvl.hitpoints).toBe(5000);
+    expect(lvl.hitpoints).toBe(5150);
     expect(lvl.townHallRequired).toBe(18);
   });
 

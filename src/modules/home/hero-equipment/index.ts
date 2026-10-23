@@ -30,6 +30,7 @@ import { metalPantsData } from './metal-pants';
 import { meteorStaffData } from './meteor-staff';
 import { monolithArrowData } from './monolith-arrow';
 import { nobleIronData } from './noble-iron';
+import { portalPendantData } from './portal-pendant';
 import { rageGemData } from './rage-gem';
 import { rageVialData } from './rage-vial';
 import { revengeDeckData } from './revenge-deck';
@@ -86,6 +87,7 @@ const allHeroEquipment: HeroEquipment[] = [
   monolithArrowData,
   electroFangsData,
   rocketSpearData,
+  portalPendantData,
 ];
 
 /**
@@ -255,6 +257,10 @@ export class HomeVillageHeroEquipment extends QueryBase<HeroEquipment> {
 
   monolithArrow(): HomeVillageHeroEquipment {
     return new HomeVillageHeroEquipment([monolithArrowData]);
+  }
+
+  portalPendant(): HomeVillageHeroEquipment {
+    return new HomeVillageHeroEquipment([portalPendantData]);
   }
 
   revengeDeck(): HomeVillageHeroEquipment {

@@ -23,7 +23,7 @@
       "level": 1,
       "hitpoints": 2300,
       "ruinKnightLevel": 1,
-      "maximumRuinKnightsSummoned": 8,
+      "maximumRuinKnightsSummoned": 10,
       "townHallRequired": 16,
       "laboratoryRequired": 14,
       "researchCost": 0,
@@ -48,7 +48,7 @@
       "level": 2,
       "hitpoints": 2550,
       "ruinKnightLevel": 2,
-      "maximumRuinKnightsSummoned": 8,
+      "maximumRuinKnightsSummoned": 10,
       "townHallRequired": 16,
       "laboratoryRequired": 14,
       "researchCost": 220000,
@@ -73,7 +73,7 @@
       "level": 3,
       "hitpoints": 2800,
       "ruinKnightLevel": 3,
-      "maximumRuinKnightsSummoned": 8,
+      "maximumRuinKnightsSummoned": 10,
       "townHallRequired": 17,
       "laboratoryRequired": 15,
       "researchCost": 300000,
@@ -98,7 +98,7 @@
       "level": 4,
       "hitpoints": 3050,
       "ruinKnightLevel": 4,
-      "maximumRuinKnightsSummoned": 8,
+      "maximumRuinKnightsSummoned": 10,
       "townHallRequired": 18,
       "laboratoryRequired": 16,
       "researchCost": 380000,
@@ -119,5 +119,78 @@
         "normal": "images/home/troops/ruin-witch/normal/level-4.png"
       }
     }
-  ]
+  ],
+  "ruinKnight": {
+    "id": "ruin-knight",
+    "name": "Ruin Knight",
+    "description": "Please read the manual before operating the Debrisbuster 5000. Its recycled warriors are great for the environment, but will leave the immediate area in ruins.",
+    "damageType": "single",
+    "targetType": "ground",
+    "housingSpace": 18,
+    "movementSpeed": 14,
+    "attackSpeed": 1,
+    "range": 0.6,
+    "wallDamageMultiplier": 3,
+    "images": {
+      "icon": "images/home/troops/ruin-witch/ruin-knight/icon.png"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "hitpoints": 2900,
+        "stats": {
+          "normal": {
+            "dps": 240,
+            "damagePerShot": 240
+          },
+          "wall": {
+            "dps": 720,
+            "damagePerShot": 720
+          }
+        }
+      },
+      {
+        "level": 2,
+        "hitpoints": 3200,
+        "stats": {
+          "normal": {
+            "dps": 270,
+            "damagePerShot": 270
+          },
+          "wall": {
+            "dps": 810,
+            "damagePerShot": 810
+          }
+        }
+      },
+      {
+        "level": 3,
+        "hitpoints": 3500,
+        "stats": {
+          "normal": {
+            "dps": 300,
+            "damagePerShot": 300
+          },
+          "wall": {
+            "dps": 900,
+            "damagePerShot": 900
+          }
+        }
+      },
+      {
+        "level": 4,
+        "hitpoints": 3800,
+        "stats": {
+          "normal": {
+            "dps": 330,
+            "damagePerShot": 330
+          },
+          "wall": {
+            "dps": 990,
+            "damagePerShot": 990
+          }
+        }
+      }
+    ]
+  }
 }

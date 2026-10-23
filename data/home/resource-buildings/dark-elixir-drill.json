@@ -295,12 +295,12 @@
       "hitpoints": 1600,
       "capacity": 4807,
       "productionRate": 209,
-      "buildCost": 5100000,
+      "buildCost": 750000,
       "buildCostResource": "Elixir",
       "buildTime": {
-        "days": 3,
-        "hours": 0,
-        "minutes": 0,
+        "days": 0,
+        "hours": 14,
+        "minutes": 30,
         "seconds": 0
       },
       "xpGained": 509,
@@ -315,11 +315,11 @@
       "hitpoints": 1600,
       "capacity": 5014,
       "productionRate": 218,
-      "buildCost": 4500000,
+      "buildCost": 750000,
       "buildCostResource": "Elixir",
       "buildTime": {
-        "days": 4,
-        "hours": 0,
+        "days": 0,
+        "hours": 19,
         "minutes": 0,
         "seconds": 0
       },
@@ -335,10 +335,10 @@
       "hitpoints": 1650,
       "capacity": 5014,
       "productionRate": 218,
-      "buildCost": 3900000,
+      "buildCost": 500000,
       "buildCostResource": "Elixir",
       "buildTime": {
-        "days": 5,
+        "days": 1,
         "hours": 0,
         "minutes": 0,
         "seconds": 0

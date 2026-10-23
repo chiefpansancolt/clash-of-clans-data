@@ -172,26 +172,26 @@ describe('HomeVillageDefenses with hidden tesla', () => {
     sc.forEach((l) => expect(l.townHallRequired).toBe(18));
   });
 
-  it('supercharge 1: 1,750 HP, 195 dps, 117 damage, 12,000,000 Gold, 4d 12h, 623 XP', () => {
+  it('supercharge 1: 1,750 HP, 195 dps, 117 damage, 4,750,000 Gold, 1d 19h, 623 XP', () => {
     const l = home().defenses().hiddenTesla().first()!.levels[17];
     expect(l.level).toBe(1);
     expect(l.supercharge).toBe(true);
     expect(l.hitpoints).toBe(1750);
     expect(l.stats.normal.dps).toBe(195);
     expect(l.stats.normal.damagePerShot).toBe(117);
-    expect(l.buildCost).toBe(12000000);
+    expect(l.buildCost).toBe(4750000);
     expect(l.buildCostResource).toBe('Gold');
-    expect(l.buildTime).toEqual({ days: 4, hours: 12, minutes: 0, seconds: 0 });
+    expect(l.buildTime).toEqual({ days: 1, hours: 19, minutes: 0, seconds: 0 });
     expect(l.xpGained).toBe(623);
   });
 
-  it('supercharge 2: 1,800 HP, 8,000,000 Gold, 6d 12h, 749 XP', () => {
+  it('supercharge 2: 1,800 HP, 3,250,000 Gold, 2d 14h, 749 XP', () => {
     const l = home().defenses().hiddenTesla().first()!.levels[18];
     expect(l.level).toBe(2);
     expect(l.supercharge).toBe(true);
     expect(l.hitpoints).toBe(1800);
-    expect(l.buildCost).toBe(8000000);
-    expect(l.buildTime).toEqual({ days: 6, hours: 12, minutes: 0, seconds: 0 });
+    expect(l.buildCost).toBe(3250000);
+    expect(l.buildTime).toEqual({ days: 2, hours: 14, minutes: 0, seconds: 0 });
     expect(l.xpGained).toBe(749);
   });
 });

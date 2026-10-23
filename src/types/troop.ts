@@ -82,6 +82,30 @@ export interface HomeSuperTroop {
   levels: HomeSuperTroopLevel[];
 }
 
+export interface HomeRuinKnightLevel {
+  level: number;
+  hitpoints: number;
+  stats: {
+    normal: HomeTroopLevelStats;
+    wall: HomeTroopLevelStats;
+  };
+}
+
+export interface HomeRuinKnight {
+  id: string;
+  name: string;
+  description?: string;
+  damageType: 'single';
+  targetType: 'ground';
+  housingSpace: number;
+  movementSpeed: number;
+  attackSpeed: number;
+  range: number;
+  wallDamageMultiplier: number;
+  images: { icon: string };
+  levels: HomeRuinKnightLevel[];
+}
+
 export interface HomeTroop {
   id: string;
   name: string;
@@ -111,6 +135,7 @@ export interface HomeTroop {
   images: { icon: string };
   levels: HomeTroopLevel[];
   superTroop?: HomeSuperTroop;
+  ruinKnight?: HomeRuinKnight;
 }
 
 export interface TroopModeStats {
