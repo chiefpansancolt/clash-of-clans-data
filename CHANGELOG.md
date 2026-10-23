@@ -7,6 +7,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.19.0] - 2026-10-22
+
 ### Added
 
 - **Portal Pendant** hero equipment (Minion Prince, Epic, Active) with 27 levels, icon,
