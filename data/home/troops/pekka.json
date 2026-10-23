@@ -198,8 +198,8 @@
       },
       "stats": {
         "normal": {
-          "dps": 610,
-          "damagePerShot": 1098
+          "dps": 660,
+          "damagePerShot": 1188.0
         }
       },
       "images": {
@@ -221,8 +221,8 @@
       },
       "stats": {
         "normal": {
-          "dps": 680,
-          "damagePerShot": 1224
+          "dps": 735,
+          "damagePerShot": 1323.0
         }
       },
       "images": {
@@ -244,8 +244,8 @@
       },
       "stats": {
         "normal": {
-          "dps": 750,
-          "damagePerShot": 1350
+          "dps": 810,
+          "damagePerShot": 1458.0
         }
       },
       "images": {
@@ -267,8 +267,8 @@
       },
       "stats": {
         "normal": {
-          "dps": 810,
-          "damagePerShot": 1458
+          "dps": 875,
+          "damagePerShot": 1575.0
         }
       },
       "images": {
@@ -290,8 +290,8 @@
       },
       "stats": {
         "normal": {
-          "dps": 870,
-          "damagePerShot": 1566
+          "dps": 940,
+          "damagePerShot": 1692.0
         }
       },
       "images": {
@@ -313,8 +313,8 @@
       },
       "stats": {
         "normal": {
-          "dps": 940,
-          "damagePerShot": 1692
+          "dps": 1015,
+          "damagePerShot": 1827.0
         }
       },
       "images": {
