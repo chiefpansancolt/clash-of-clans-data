@@ -461,11 +461,11 @@
       "level": 1,
       "supercharge": true,
       "hitpoints": 1750,
-      "buildCost": 12000000,
+      "buildCost": 4750000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 4,
-        "hours": 12,
+        "days": 1,
+        "hours": 19,
         "minutes": 0,
         "seconds": 0
       },
@@ -485,11 +485,11 @@
       "level": 2,
       "supercharge": true,
       "hitpoints": 1800,
-      "buildCost": 8000000,
+      "buildCost": 3250000,
       "buildCostResource": "Gold",
       "buildTime": {
-        "days": 6,
-        "hours": 12,
+        "days": 2,
+        "hours": 14,
         "minutes": 0,
         "seconds": 0
       },
