@@ -102,11 +102,10 @@ describe('wall()', () => {
     expect(apt.find((e) => e.townHallLevel === 14)?.count).toBe(325);
   });
 
-  it('wall count is 325 from TH14 to TH17 and 400 at TH18', () => {
+  it('wall count is 325 from TH14 to TH18', () => {
     const apt = home().walls().wall().first()!.availablePerTownHall;
-    for (const th of [14, 15, 16, 17]) {
+    for (const th of [14, 15, 16, 17, 18]) {
       expect(apt.find((e) => e.townHallLevel === th)?.count).toBe(325);
     }
-    expect(apt.find((e) => e.townHallLevel === 18)?.count).toBe(400);
   });
 });

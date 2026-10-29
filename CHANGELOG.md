@@ -7,6 +7,11 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Fixed
+
+- **Walls** available at TH18 is 325 again (was 400), the same as TH14 to TH17.
+  `levelCountAtTownHall(18)` for the Home Village drops by 1,425, from 11,565 to 10,140.
+
 ## [0.19.0] - 2026-10-22
 
 ### Added
