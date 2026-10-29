@@ -7,6 +7,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.19.1] - 2026-10-29
+
 ### Fixed
 
 - **Walls** available at TH18 is 325 again (was 400), the same as TH14 to TH17.
